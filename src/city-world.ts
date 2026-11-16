@@ -241,12 +241,12 @@ export class DrivingWorld{
  mountains:Awaited<ReturnType<typeof loadCityMountains>>|null=null;
  private nextDetailUpdate=0;private detailWasMoving=false;private previousDetailFocus={x:Infinity,z:Infinity};
  private sceneryTop=0;
- readonly compatibleRange=COMPATIBLE_CITY_RANGE;
+ readonly compatibleRange:typeof COMPATIBLE_CITY_RANGE|undefined=undefined;
  private baseStream:CityBaseStream|null=null;
  private baseMaterialCache:CityBaseMaterialCache|null=null;
  private baseMeshes:Record<BaseStreamTile['role'],AbstractMesh[]>={terrain:[],roads:[],buildings:[]};
  private landscapeSurfaces:ReturnType<typeof applyLandscapeSurfaces>|null=null;
- private baseDirty=false;private basePanel:HTMLDivElement|null=null;
+ private baseDirty=false;
  private baseTravel:{id:number;landmark:Landmark}|null=null;private baseTravelId=0;private baseTravelCommit=false;
  vehicleReflections:ReturnType<typeof createVehicleReflections>|null=null;
  vehicleFinish:ReturnType<typeof applyCinematicVehicleFinish>|null=null;
@@ -264,7 +264,9 @@ export class DrivingWorld{
  constructor(public canvas:HTMLCanvasElement){
   const {multipass}=this.graphicsProfile;
   this.engine=new Engine(canvas,false,{stencil:true,powerPreference:multipass?'high-performance':'default',doNotHandleContextLost:true},false);this.resize();
-  this.scene=new Scene(this.engine);this.scene.clearColor=new Color4(.39,.54,.63,1);this.scene.fogMode=Scene.FOGMODE_LINEAR;this.scene.fogStart=this.compatibleRange.fogStart;this.scene.fogEnd=this.compatibleRange.fogEnd;this.scene.fogDensity=.000115;this.scene.fogColor=new Color3(.38,.24,.30);
+  // Keep the authored distance fog: the street streaming radius is not an
+  // atmospheric cutoff. A 620-unit linear end hides even the ground in flight.
+  this.scene=new Scene(this.engine);this.scene.clearColor=new Color4(.39,.54,.63,1);this.scene.fogMode=Scene.FOGMODE_EXP2;this.scene.fogDensity=.000115;this.scene.fogColor=new Color3(.38,.24,.30);
   const ip=this.scene.imageProcessingConfiguration;ip.toneMappingEnabled=true;ip.toneMappingType=1;ip.exposure=1.05;ip.contrast=1.14;
   this.instrumentation=new SceneInstrumentation(this.scene);this.instrumentation.captureActiveMeshesEvaluationTime=true;this.instrumentation.captureRenderTargetsRenderTime=true;this.instrumentation.captureRenderTime=true;this.gpuInstrumentation=new EngineInstrumentation(this.engine);this.gpuInstrumentation.captureGPUFrameTime=false; /* Compatibility release: CPU timing retained; no GPU timestamp queries during the Mac watchdog investigation. */this.gpuInstrumentation.captureShaderCompilationTime=true;
   this.camera=new FreeCamera('driving-chase',new Vector3(0,4,-8),this.scene);this.camera.minZ=.75;this.camera.maxZ=18000;this.camera.fov=.9;this.camera.inputs.clear();
@@ -377,7 +379,7 @@ export class DrivingWorld{
   const focus=destination?{x:destination.arrival[0],z:destination.arrival[1]}:this.sceneFocus();
   const matrix=destination?Matrix.LookAtLH(new Vector3(focus.x-Math.sin(destination.yaw)*9,this.groundHeight(focus.x,focus.z)+4,focus.z-Math.cos(destination.yaw)*9),new Vector3(focus.x,this.groundHeight(focus.x,focus.z)+1.1,focus.z),Vector3.Up()).multiply(this.camera.getProjectionMatrix()):this.camera.getTransformationMatrix();
   const planes=Frustum.GetPlanes(matrix);
-  return {x:focus.x,z:focus.z,overview:destination?false:this.overviewEffects,rangeProfile:'compatible' as const,planes,intersects:(tile:BaseStreamTile)=>planes.every(p=>p.normal.x*tile.bounds[p.normal.x>=0?'max':'min'][0]+p.normal.y*tile.bounds[p.normal.y>=0?'max':'min'][1]+p.normal.z*tile.bounds[p.normal.z>=0?'max':'min'][2]+p.d>=0)};
+  return {x:focus.x,z:focus.z,overview:destination?false:this.overviewEffects,rangeProfile:'full' as const,planes,intersects:(tile:BaseStreamTile)=>planes.every(p=>p.normal.x*tile.bounds[p.normal.x>=0?'max':'min'][0]+p.normal.y*tile.bounds[p.normal.y>=0?'max':'min'][1]+p.normal.z*tile.bounds[p.normal.z>=0?'max':'min'][2]+p.d>=0)};
  }
  captureStreamView(id:string){
   if(!id||id.length>80)throw Error('Invalid camera sample identity');
@@ -441,12 +443,13 @@ export class DrivingWorld{
  private prepareBaseFrame(){
   if(!this.baseStream)return true;
   void this.baseStream.request(this.baseView(this.baseTravel?.landmark));
-  const state=this.baseStream.stats;
-  if(state.ready){if(this.basePanel)this.basePanel.style.display='none';if(this.baseDirty){this.baseDirty=false;this.cull();}return true;}
-  this.keys.clear();
-  if(!this.basePanel){const panel=this.basePanel=document.createElement('div');panel.setAttribute('role','status');panel.style.cssText='position:fixed;inset:0;z-index:200;background:#102c2af5;color:#ecf4e9;display:grid;place-items:center;font:18px system-ui';document.body.append(panel);this.scene.onDisposeObservable.addOnce(()=>panel.remove());}
-  this.basePanel.style.display='grid';this.basePanel.textContent=state.plan?.exceeded.length?'当前视野超出街区加载预算，场景保持暂停。':'正在读取前方街区，加载完成后继续。';
-  return false;
+  // Destination jumps still commit only after their original geometry is ready.
+  // Keep the last frame during that explicit transition, without a cover page.
+  if(this.baseTravel&&!this.baseStream.stats.ready){this.keys.clear();return false;}
+  // Ordinary driving/flight continues while source tiles arrive. Collision and
+  // road heights use the already-loaded geography, independent of render tiles.
+  if(this.baseDirty){this.baseDirty=false;this.cull();}
+  return true;
  }
  async init(progress:(s:string)=>void,dataSources?:{city:CityJsonSource;roadLevels:CityJsonSource;base?:BaseStreamSources}){
   const loadAbort=new AbortController();this.scene.onDisposeObservable.addOnce(()=>loadAbort.abort());

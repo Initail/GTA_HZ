@@ -1,7 +1,7 @@
 import type {BaseStreamTile} from './city-stream-assets.ts';
-import {BASE_STREAM_LIMITS,type StreamBudget} from './city-stream-residency.ts';
+import {BASE_STREAM_LIMITS,catalogStreamBudget,type StreamBudget} from './city-stream-residency.ts';
 import {COMPATIBLE_CITY_RANGE} from './city-stream-profile.ts';
-export type BaseStreamView={x:number;z:number;overview:boolean;rangeProfile?:'compatible';intersects?:(tile:BaseStreamTile)=>boolean};
+export type BaseStreamView={x:number;z:number;overview:boolean;rangeProfile?:'compatible'|'full';intersects?:(tile:BaseStreamTile)=>boolean};
 const boundsDistance=(bounds:BaseStreamTile['bounds'],x:number,z:number)=>Math.hypot(Math.max(bounds.min[0]-x,0,x-bounds.max[0]),Math.max(bounds.min[2]-z,0,z-bounds.max[2]));
 export const tileDistance=(t:BaseStreamTile,x:number,z:number)=>boundsDistance(t.bounds,x,z);
 /** An audited whole-building partition can refine quality distance without
@@ -21,9 +21,10 @@ export function tileCullDistance(t:BaseStreamTile,x:number,z:number){
 }
 /** Same original world ranges in game units: 2500 roads, 3300 ordinary/terrain,
  * 1400 reflections, 520 street / 1650 overview shadows. No geometry simplification.
- * An overview's unlimited source visibility can exceed the temporary budget;
- * return an explicit blocked plan instead of truncating its required set. */
-export function planBaseStream(tiles:readonly BaseStreamTile[],view:BaseStreamView,budget:Readonly<StreamBudget>=BASE_STREAM_LIMITS){
+ * Full mode admits the complete in-frustum view against the source catalog.
+ * Legacy probes can still use the temporary budget and get an explicit blocked
+ * result rather than silently truncating their required set. */
+export function planBaseStream(tiles:readonly BaseStreamTile[],view:BaseStreamView,budget:Readonly<StreamBudget>=view.rangeProfile==='full'?catalogStreamBudget(tiles):BASE_STREAM_LIMITS){
  if(!Number.isFinite(view.x+view.z))throw Error('Invalid base stream focus');
  const required:BaseStreamTile[]=[],retained:BaseStreamTile[]=[];
  for(const tile of tiles){

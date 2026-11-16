@@ -2,7 +2,7 @@ import type {Scene} from '@babylonjs/core/scene.js';
 import {loadBaseStreamManifest} from './city-stream-manifest.ts';
 import {CityStreamGlbLoader,type BaseStreamHooks,type BaseStreamHandle} from './city-stream-glb.ts';
 import type {AssetContainer} from '@babylonjs/core/assetContainer.js';
-import {CityStreamResidency,BASE_STREAM_LIMITS} from './city-stream-residency.ts';
+import {CityStreamResidency,BASE_STREAM_LIMITS,catalogStreamBudget,type StreamBudget} from './city-stream-residency.ts';
 import type {BaseStreamTile,StreamTexture} from './city-stream-assets.ts';
 import {planBaseStream,type BaseStreamView} from './city-base-stream-plan.ts';
 import {loadBasePackIndex,loadBasePackMetadata,type BasePackRecord,type BasePackMetadata,type PackIndexSource} from './city-stream-pack-manifest.ts';
@@ -16,6 +16,7 @@ export class CityBaseStream {
  private loader:CityStreamGlbLoader|null=null;private abort=new AbortController();
  private packed:CityPackResidency<BaseStreamHandle&PackHandle,BasePackRecord>|null=null;private packLoader:CityStreamGlbLoader<BasePackRecord>|null=null;
  private tiles:BaseStreamTile[]=[];private plan:ReturnType<typeof planBaseStream>|null=null;
+ private budget:Readonly<StreamBudget>=BASE_STREAM_LIMITS;
  private key='';private operation:Promise<void>=Promise.resolve();private disposed=false;
  constructor(private scene:Scene,private sources:BaseStreamSources,private hooks:BaseWorldHooks){scene.onDisposeObservable.addOnce(()=>this.dispose());}
  async init(view:BaseStreamView){
@@ -26,9 +27,12 @@ export class CityBaseStream {
    this.tiles.push(...manifest.tiles);textures[role]=manifest.textures;
   }
   this.abort.signal.throwIfAborted();
-  if(this.sources.packs){await this.initPacked(textures);await this.request(view);return;}
+  // Full coverage uses the original verified tiles, including their complete
+  // geometry. Optional compatibility LOD packs retain their separate policy.
+  if(this.sources.packs&&view.rangeProfile!=='full'){await this.initPacked(textures);await this.request(view);return;}
+  const full=view.rangeProfile==='full';this.budget=full?catalogStreamBudget(this.tiles):BASE_STREAM_LIMITS;
   this.loader=new CityStreamGlbLoader(this.scene,textures,this.sources.decoderUrl,this.hooks);
-  this.stream=new CityStreamResidency(this.tiles,(tile,signal)=>this.loader!.load(tile,signal));
+  this.stream=new CityStreamResidency(this.tiles,(tile,signal)=>this.loader!.load(tile,signal),this.budget,full?'full-city':'compatible');
   await this.request(view);
  }
  private async initPacked(textures:Record<string,StreamTexture[]>){
@@ -54,12 +58,12 @@ export class CityBaseStream {
  request(view:BaseStreamView){
   if(this.packed)return this.packed.request(view);
   if(this.disposed||!this.stream)return Promise.resolve();
-  const plan=this.plan=planBaseStream(this.tiles,view),key=plan.required.map(t=>t.id).join('|')+';'+plan.retained.map(t=>t.id).join('|');
+  const plan=this.plan=planBaseStream(this.tiles,view,this.budget),key=plan.required.map(t=>t.id).join('|')+';'+plan.retained.map(t=>t.id).join('|');
   if(!plan.admitted){this.key='';this.operation=this.stream.select(view.x,view.z,[],[]);return this.operation;}
   if(key===this.key)return this.operation;
   this.key=key;this.operation=this.stream.select(view.x,view.z,plan.required.map(t=>t.id),plan.retained.map(t=>t.id));return this.operation;
  }
- get stats(){if(this.packed){const s=this.packed.stats;return {...s,loader:this.packLoader?.stats??null,sourceTiles:this.tiles.length,limits:BASE_STREAM_LIMITS};}return {ready:!!this.plan?.admitted&&!!this.stream?.stats.ready,plan:this.plan?{cost:this.plan.cost,budget:this.plan.budget,exceeded:this.plan.exceeded,required:this.plan.required.length}:null,residency:this.stream?.stats??null,loader:this.loader?.stats??null,sourceTiles:this.tiles.length,limits:BASE_STREAM_LIMITS};}
+ get stats(){if(this.packed){const s=this.packed.stats;return {...s,loader:this.packLoader?.stats??null,sourceTiles:this.tiles.length,limits:BASE_STREAM_LIMITS};}return {ready:!!this.plan?.admitted&&!!this.stream?.stats.ready,plan:this.plan?{cost:this.plan.cost,budget:this.plan.budget,exceeded:this.plan.exceeded,required:this.plan.required.length}:null,residency:this.stream?.stats??null,loader:this.loader?.stats??null,sourceTiles:this.tiles.length,limits:this.budget};}
  get meshes(){return this.packed?.handles.flatMap(h=>h.container.meshes)??this.stream?.handles.flatMap(h=>h.container.meshes)??[];}
  get maximumWorldHeight(){return this.tiles.reduce((height,tile)=>Math.max(height,tile.bounds.max[1]),0);}
  dispose(){if(this.disposed)return;this.disposed=true;this.abort.abort();this.packed?.dispose();this.packLoader?.dispose();this.stream?.dispose();this.loader?.dispose();}

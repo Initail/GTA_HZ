@@ -1,0 +1,221 @@
+{
+  "renderer": "isolated Chrome / software WebGL",
+  "performanceAcceptance": false,
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    "aerial requested source coverage fully resident without compatibility clipping"
+  ],
+  "street": {
+    "ready": true,
+    "plan": {
+      "cost": {
+        "bytes": 35382124,
+        "logicalBytes": 70885650,
+        "triangles": 1785982,
+        "tiles": 89
+      },
+      "budget": {
+        "bytes": 428605528,
+        "logicalBytes": 800222040,
+        "triangles": 18612307,
+        "tiles": 1912
+      },
+      "exceeded": [],
+      "required": 89
+    },
+    "residency": {
+      "ready": true,
+      "disposed": false,
+      "pending": null,
+      "resident": 235,
+      "visible": 89,
+      "missing": [],
+      "blocked": [],
+      "failed": {},
+      "declaredResident": {
+        "bytes": 85329932,
+        "logicalBytes": 170082998,
+        "triangles": 4134766
+      },
+      "declaredWithPending": {
+        "bytes": 85329932,
+        "logicalBytes": 170082998,
+        "triangles": 4134766
+      },
+      "budget": {
+        "bytes": 428605528,
+        "logicalBytes": 800222040,
+        "triangles": 18612307,
+        "tiles": 1912
+      }
+    },
+    "loader": {
+      "busy": false,
+      "disposed": false,
+      "containers": 235,
+      "textureFiles": 7,
+      "encodedTextureBytes": 796544,
+      "texturePixels": 5767168,
+      "estimatedRgbaMipBytes": 30758230
+    },
+    "sourceTiles": 1912,
+    "limits": {
+      "bytes": 428605528,
+      "logicalBytes": 800222040,
+      "triangles": 18612307,
+      "tiles": 1912
+    }
+  },
+  "turned": {
+    "ready": true,
+    "plan": {
+      "cost": {
+        "bytes": 134311044,
+        "logicalBytes": 262425846,
+        "triangles": 5826294,
+        "tiles": 475
+      },
+      "budget": {
+        "bytes": 428605528,
+        "logicalBytes": 800222040,
+        "triangles": 18612307,
+        "tiles": 1912
+      },
+      "exceeded": [],
+      "required": 475
+    },
+    "residency": {
+      "ready": true,
+      "disposed": false,
+      "pending": null,
+      "resident": 545,
+      "visible": 475,
+      "missing": [],
+      "blocked": [],
+      "failed": {},
+      "declaredResident": {
+        "bytes": 153679016,
+        "logicalBytes": 300047714,
+        "triangles": 6865136
+      },
+      "declaredWithPending": {
+        "bytes": 153679016,
+        "logicalBytes": 300047714,
+        "triangles": 6865136
+      },
+      "budget": {
+        "bytes": 428605528,
+        "logicalBytes": 800222040,
+        "triangles": 18612307,
+        "tiles": 1912
+      }
+    },
+    "loader": {
+      "busy": false,
+      "disposed": false,
+      "containers": 545,
+      "textureFiles": 7,
+      "encodedTextureBytes": 796544,
+      "texturePixels": 5767168,
+      "estimatedRgbaMipBytes": 30758230
+    },
+    "sourceTiles": 1912,
+    "limits": {
+      "bytes": 428605528,
+      "logicalBytes": 800222040,
+      "triangles": 18612307,
+      "tiles": 1912
+    }
+  },
+  "aerial": {
+    "camera": {
+      "view": 0,
+      "minZ": 92.22801096346967,
+      "position": [
+        1834.666838180453,
+        1187.6614878085247,
+        -2123.770954232933
+      ],
+      "fov": 0.85
+    },
+    "observer": {
+      "active": true,
+      "position": {
+        "x": 1834.666838180453,
+        "y": 1187.6614878085247,
+        "z": -2123.770954232933
+      },
+      "focus": {
+        "x": 251.60841811905925,
+        "y": 19.508299198351324,
+        "z": -41.35940562122232
+      },
+      "yaw": -0.65,
+      "pitch": 0.42,
+      "distance": 2864.802557102115
+    },
+    "baseStreaming": {
+      "ready": true,
+      "plan": {
+        "cost": {
+          "bytes": 134311044,
+          "logicalBytes": 262425846,
+          "triangles": 5826294,
+          "tiles": 475
+        },
+        "budget": {
+          "bytes": 428605528,
+          "logicalBytes": 800222040,
+          "triangles": 18612307,
+          "tiles": 1912
+        },
+        "exceeded": [],
+        "required": 475
+      },
+      "residency": {
+        "ready": true,
+        "disposed": false,
+        "pending": null,
+        "resident": 545,
+        "visible": 475,
+        "missing": [],
+        "blocked": [],
+        "failed": {},
+        "declaredResident": {
+          "bytes": 153679016,
+          "logicalBytes": 300047714,
+          "triangles": 6865136
+        },
+        "declaredWithPending": {
+          "bytes": 153679016,
+          "logicalBytes": 300047714,
+          "triangles": 6865136
+        },
+        "budget": {
+          "bytes": 428605528,
+          "logicalBytes": 800222040,
+          "triangles": 18612307,
+          "tiles": 1912
+        }
+      },
+      "loader": {
+        "busy": false,
+        "disposed": false,
+        "containers": 545,
+        "textureFiles": 7,
+        "encodedTextureBytes": 796544,
+        "texturePixels": 5767168,
+        "estimatedRgbaMipBytes": 30758230
+      },
+      "sourceTiles": 1912,
+      "limits": {
+        "bytes": 428605528,
+        "logicalBytes": 800222040,
+        "triangles": 18612307,
+        "tiles": 1912
+      }
+    }
+  },
+  "scope": "Full view browser verification before the later loading-overlay removal; overlay removal separately checked by targeted CPU regression and build."
+}

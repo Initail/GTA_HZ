@@ -10,14 +10,27 @@ const dimensions=['bytes','logicalBytes','triangles'] as const;
 const zero=():StreamCost=>({bytes:0,logicalBytes:0,triangles:0});
 const distance=(tile:StreamTile,x:number,z:number)=>Math.hypot(Math.max(tile.bounds.min[0]-x,0,x-tile.bounds.max[0]),Math.max(tile.bounds.min[2]-z,0,z-tile.bounds.max[2]));
 
+/** Full visual coverage is bounded by the verified source catalog, rather than
+ * the compatibility preset. This is declared geometry cost, not host RAM. */
+export function catalogStreamBudget(tiles:readonly StreamTile[]):Readonly<StreamBudget>{
+ const cost={...zero(),tiles:Math.max(1,tiles.length)};
+ for(const tile of tiles)for(const key of dimensions){
+  if(!Number.isSafeInteger(tile[key])||tile[key]<0)throw Error('Invalid catalog cost');
+  cost[key]+=tile[key];if(!Number.isSafeInteger(cost[key]))throw Error('Catalog cost overflow');
+ }
+ for(const key of dimensions)cost[key]=Math.max(1,cost[key]);
+ return Object.freeze(cost);
+}
+
 export class CityStreamResidency<T extends StreamTile,H extends StreamHandle>{
  private resident=new Map<string,{tile:T;handle:H}>();
  private wanted=new Set<string>();private focus={x:0,z:0,visible:0,retain:0};
  private failures=new Map<string,string>();private blocked=new Set<string>();
  private pending:{tile:T;controller:AbortController}|null=null;
  private running:Promise<void>|null=null;private disposed=false;private configured=false;
- constructor(private tiles:readonly T[],private load:(tile:T,signal:AbortSignal)=>Promise<H>,private budget:Readonly<StreamBudget>=BASE_STREAM_LIMITS){
-  if(!Number.isSafeInteger(budget.tiles)||budget.tiles<=0||budget.tiles>BASE_STREAM_LIMITS.tiles||dimensions.some(k=>!Number.isSafeInteger(budget[k])||budget[k]<=0||budget[k]>BASE_STREAM_LIMITS[k]))throw Error('Invalid or raised stream budget');
+ constructor(private tiles:readonly T[],private load:(tile:T,signal:AbortSignal)=>Promise<H>,private budget:Readonly<StreamBudget>=BASE_STREAM_LIMITS,policy:'compatible'|'full-city'='compatible'){
+  const ceiling=policy==='full-city'?catalogStreamBudget(tiles):BASE_STREAM_LIMITS;
+  if(!Number.isSafeInteger(budget.tiles)||budget.tiles<=0||budget.tiles>ceiling.tiles||dimensions.some(k=>!Number.isSafeInteger(budget[k])||budget[k]<=0||budget[k]>ceiling[k]))throw Error('Invalid or raised stream budget');
   const ids=new Set<string>();
   for(const t of tiles){
    if(!t.id||ids.has(t.id)||dimensions.some(k=>!Number.isSafeInteger(t[k])||t[k]<0)||t.bounds.min.length!==3||t.bounds.max.length!==3||t.bounds.min.some((v,i)=>!Number.isFinite(v)||!Number.isFinite(t.bounds.max[i])||v>t.bounds.max[i]))throw Error('Invalid stream tile');

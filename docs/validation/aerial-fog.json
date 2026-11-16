@@ -1,0 +1,283 @@
+{
+  "date": "2026-11-16",
+  "renderer": "isolated Chrome / software WebGL",
+  "performanceAcceptance": false,
+  "views": {
+    "before": {
+      "status": "captured",
+      "errors": [],
+      "frames": [
+        {
+          "name": "0-clear",
+          "camera": {
+            "view": 0,
+            "minZ": 92.22801096346967,
+            "position": [
+              1834.666838180453,
+              1187.6614878085247,
+              -2123.770954232933
+            ],
+            "fov": 0.85
+          },
+          "observer": {
+            "active": true,
+            "position": {
+              "x": 1834.666838180453,
+              "y": 1187.6614878085247,
+              "z": -2123.770954232933
+            },
+            "focus": {
+              "x": 251.60841811905925,
+              "y": 19.508299198351324,
+              "z": -41.35940562122232
+            },
+            "yaw": -0.65,
+            "pitch": 0.42,
+            "distance": 2864.802557102115
+          },
+          "lightMode": "day",
+          "weather": {
+            "enabled": false,
+            "weather": "clear",
+            "mode": "day",
+            "dropCount": 240,
+            "rippleCount": 0,
+            "drawCalls": 0,
+            "triangles": 0,
+            "rebuilds": 0,
+            "lastBuildMs": 0,
+            "extraRenderTargets": 0,
+            "extraLights": 0,
+            "disposed": false
+          }
+        },
+        {
+          "name": "1-cloudy",
+          "camera": {
+            "view": 0,
+            "minZ": 92.22801096346967,
+            "position": [
+              1834.666838180453,
+              1187.6614878085247,
+              -2123.770954232933
+            ],
+            "fov": 0.85
+          },
+          "observer": {
+            "active": true,
+            "position": {
+              "x": 1834.666838180453,
+              "y": 1187.6614878085247,
+              "z": -2123.770954232933
+            },
+            "focus": {
+              "x": 251.60841811905925,
+              "y": 19.508299198351324,
+              "z": -41.35940562122232
+            },
+            "yaw": -0.65,
+            "pitch": 0.42,
+            "distance": 2864.802557102115
+          },
+          "lightMode": "day",
+          "weather": {
+            "enabled": false,
+            "weather": "cloudy",
+            "mode": "day",
+            "dropCount": 240,
+            "rippleCount": 0,
+            "drawCalls": 0,
+            "triangles": 0,
+            "rebuilds": 0,
+            "lastBuildMs": 0,
+            "extraRenderTargets": 0,
+            "extraLights": 0,
+            "disposed": false
+          }
+        },
+        {
+          "name": "2-clear",
+          "camera": {
+            "view": 0,
+            "minZ": 92.22801096346967,
+            "position": [
+              1834.666838180453,
+              1187.6614878085247,
+              -2123.770954232933
+            ],
+            "fov": 0.85
+          },
+          "observer": {
+            "active": true,
+            "position": {
+              "x": 1834.666838180453,
+              "y": 1187.6614878085247,
+              "z": -2123.770954232933
+            },
+            "focus": {
+              "x": 251.60841811905925,
+              "y": 19.508299198351324,
+              "z": -41.35940562122232
+            },
+            "yaw": -0.65,
+            "pitch": 0.42,
+            "distance": 2864.802557102115
+          },
+          "lightMode": "day",
+          "weather": {
+            "enabled": false,
+            "weather": "clear",
+            "mode": "day",
+            "dropCount": 240,
+            "rippleCount": 0,
+            "drawCalls": 0,
+            "triangles": 0,
+            "rebuilds": 0,
+            "lastBuildMs": 0,
+            "extraRenderTargets": 0,
+            "extraLights": 0,
+            "disposed": false
+          }
+        }
+      ]
+    },
+    "after": {
+      "status": "captured",
+      "errors": [],
+      "frames": [
+        {
+          "name": "0-clear",
+          "camera": {
+            "view": 0,
+            "minZ": 92.22801096346967,
+            "position": [
+              1834.666838180453,
+              1187.6614878085247,
+              -2123.770954232933
+            ],
+            "fov": 0.85
+          },
+          "observer": {
+            "active": true,
+            "position": {
+              "x": 1834.666838180453,
+              "y": 1187.6614878085247,
+              "z": -2123.770954232933
+            },
+            "focus": {
+              "x": 251.60841811905925,
+              "y": 19.508299198351324,
+              "z": -41.35940562122232
+            },
+            "yaw": -0.65,
+            "pitch": 0.42,
+            "distance": 2864.802557102115
+          },
+          "lightMode": "day",
+          "weather": {
+            "enabled": false,
+            "weather": "clear",
+            "mode": "day",
+            "dropCount": 240,
+            "rippleCount": 0,
+            "drawCalls": 0,
+            "triangles": 0,
+            "rebuilds": 0,
+            "lastBuildMs": 0,
+            "extraRenderTargets": 0,
+            "extraLights": 0,
+            "disposed": false
+          }
+        },
+        {
+          "name": "1-cloudy",
+          "camera": {
+            "view": 0,
+            "minZ": 92.22801096346967,
+            "position": [
+              1834.666838180453,
+              1187.6614878085247,
+              -2123.770954232933
+            ],
+            "fov": 0.85
+          },
+          "observer": {
+            "active": true,
+            "position": {
+              "x": 1834.666838180453,
+              "y": 1187.6614878085247,
+              "z": -2123.770954232933
+            },
+            "focus": {
+              "x": 251.60841811905925,
+              "y": 19.508299198351324,
+              "z": -41.35940562122232
+            },
+            "yaw": -0.65,
+            "pitch": 0.42,
+            "distance": 2864.802557102115
+          },
+          "lightMode": "day",
+          "weather": {
+            "enabled": false,
+            "weather": "cloudy",
+            "mode": "day",
+            "dropCount": 240,
+            "rippleCount": 0,
+            "drawCalls": 0,
+            "triangles": 0,
+            "rebuilds": 0,
+            "lastBuildMs": 0,
+            "extraRenderTargets": 0,
+            "extraLights": 0,
+            "disposed": false
+          }
+        },
+        {
+          "name": "2-clear",
+          "camera": {
+            "view": 0,
+            "minZ": 92.22801096346967,
+            "position": [
+              1834.666838180453,
+              1187.6614878085247,
+              -2123.770954232933
+            ],
+            "fov": 0.85
+          },
+          "observer": {
+            "active": true,
+            "position": {
+              "x": 1834.666838180453,
+              "y": 1187.6614878085247,
+              "z": -2123.770954232933
+            },
+            "focus": {
+              "x": 251.60841811905925,
+              "y": 19.508299198351324,
+              "z": -41.35940562122232
+            },
+            "yaw": -0.65,
+            "pitch": 0.42,
+            "distance": 2864.802557102115
+          },
+          "lightMode": "day",
+          "weather": {
+            "enabled": false,
+            "weather": "clear",
+            "mode": "day",
+            "dropCount": 240,
+            "rippleCount": 0,
+            "drawCalls": 0,
+            "triangles": 0,
+            "rebuilds": 0,
+            "lastBuildMs": 0,
+            "extraRenderTargets": 0,
+            "extraLights": 0,
+            "disposed": false
+          }
+        }
+      ]
+    }
+  }
+}
