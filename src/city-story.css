@@ -2,6 +2,7 @@
 .story-entry,.story-hud,.story-dialog{position:absolute;pointer-events:auto;color:#edf0e2;border:1px solid #c4d6cc3d;background:#152c35ee;box-shadow:0 16px 48px #03101655}
 .story-entry,.story-hud,.story-dialog{font:12px/1.6 'PingFang SC','Noto Sans SC',system-ui,sans-serif}
 .story-entry,.story-hud{top:clamp(170px,28vh,340px);left:var(--hud-edge,30px);width:min(236px,calc(100vw - 64px));z-index:2;border-left:2px solid #c7d4a7}
+#ui:has(:is(#career-invitation,#career-objective):not([hidden])) :is(.story-entry,.story-hud){left:auto;right:var(--hud-edge,30px)}
 .story-entry{text-align:left;padding:11px 14px;cursor:pointer}
 .story-hud{padding:14px 15px}
 .story-entry small,.story-hud small,.story-dialog small{display:block;font:10px system-ui;letter-spacing:.14em;color:#b4c8b0}
