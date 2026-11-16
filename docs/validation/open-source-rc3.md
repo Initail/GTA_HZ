@@ -5,27 +5,28 @@
 ## 已执行
 
 - 新目录 `npm ci`：44 个锁定包安装成功；Babylon 2,213 份声明中 158 文件只归一化 import，0 stub。
-- `npm test`：412 项通过、0 失败、0 跳过；约 67 秒。含真实地理夹具、上游回归与当前输入重新计算的八段湖畔路线。
+- 全新 GitHub 克隆中的 `npm test`：413 项通过、0 失败、0 跳过；约 72 秒。含真实地理夹具、上游回归、当前输入重新计算的八段湖畔路线及 Meshopt 解码器资源回归。
+- `node --experimental-transform-types --test tests-upstream/combat-core.test.ts`：9 项靶场核心规则测试通过、0 失败、0 跳过。
 - `npm run typecheck`：完整严格类型检查通过。
 - `npm run test:tools`：3 项资源解包/完整性保护测试通过。
 - 原创角色/坦克静态检查与 Babylon NullEngine 实际导入通过；骑手行走动画和咖啡员工独立骨骼已校验。
 
-Production build passed, including full typechecking and verification of 10,793 runtime files. A browser test found a missing Meshopt decoder in the initial export; it was restored and a focused regression passed. The current full suite therefore contains 413 tests (412 full-suite passes plus the new decoder test locally; remote CI result is recorded below when available).
+生产构建通过，包含完整类型检查和 10,793 个运行资源文件的逐文件校验。首次浏览器检查发现导出时遗漏 Meshopt 解码器；补回真实文件并增加回归检查后，重新构建和实机检查通过。
 
-The isolated Chrome software-WebGL smoke test passed: manual startup, current main-city rendering, real keyboard driving (0.3366 game units, observed speed 2.2408), keyboard braking, map capture, and loading the original public rider into walking mode. No missing resources or uncaught page errors were observed. This short software-rendered test is not a hardware performance benchmark, a full driving route, or landmark acceptance.
+隔离 Chrome 软件 WebGL 冒烟检查通过：手动进入、当前主城出画、真实键盘短距离驾驶（0.3366 游戏单位，观测速度 2.2408）、键盘刹车、打开地图、下车并加载公开版原创骑手。未观察到缺失资源或未捕获页面错误。该检查只覆盖短流程，不构成硬件性能、完整驾驶路线或地标外观验收。
 
-The first browser attempt failed on the missing decoder. A later input attempt ran before loading had released its input guard; the harness now waits for reveal and focuses the canvas. These failures were retained locally rather than counted as passes.
+早期缺失解码器的失败记录保留在本地。另一次输入检查在加载保护解除前发送按键，未产生移动；检查脚本现已等待加载界面退出并聚焦画布。两次失败均未计为通过。
 
-[Machine-readable result](browser-rc3.json) · [Welcome](images/welcome.png) · [Map](images/map.png) · [Walking](images/walking.png). Screenshots: GTA_HZ rendering; map data © OpenStreetMap contributors / ODbL, artwork credits in THIRD_PARTY_NOTICES.md.
+[结构化结果](browser-rc3.json) · [进入页面](images/welcome.png) · [地图](images/map.png) · [步行](images/walking.png)。截图为 GTA_HZ 渲染；地图数据 © OpenStreetMap contributors / ODbL，美术署名见 [第三方声明](../../THIRD_PARTY_NOTICES.md)。
 
-Remote download and CI verification remain to be recorded after publication.
+远程验证按提交查阅 [GitHub Actions / Verify](https://github.com/Initail/GTA_HZ/actions/workflows/ci.yml)：工作流使用公开 Release 下载资源，随后安装后的测试、构建和文档检查均有独立步骤。请以所使用提交的实际运行结果为准，历史绿色记录不覆盖后续修改。
 
 ## 补充检查
 
 - 640、960、1440 三种窗口宽度的职业/故事卡实际浏览器布局无重叠，见 [布局结果](hud-layout.json)。截图已更新为修复后的生产构建。
 - 独立靶场首次烟测发现缺失 `ShadowGeneratorSceneComponent` 注册；接入与主城相同的引擎注册后，真实点击开场并射击，出弹计数为 1，未捕获页面错误。见 [靶场结果](combat-lab.json)。
-- 从 GitHub 全新克隆，`npm ci`、本地固定 ZIP 的全文件解包校验及生产构建通过。该验证未读取旧工作区的模型或脚本；网络下载另由发布后 CI 验证。
-- 首次远程 CI 在 Release 仍为草稿/资源上传中时因下载 404 失败，记录保留，待公开后重跑。
+- 从 GitHub 全新克隆，`npm ci`、本地固定 ZIP 的全文件解包校验、完整 413 项测试及生产构建通过。该验证未读取旧工作区的模型或脚本；网络下载另由发布后 CI 验证。
+- 首次远程 CI 在 Release 仍为草稿/资源上传中时因下载 404 失败；该启动顺序导致的失败记录保留。后续运行需在资源公开后检查，不能把上传中的 404 当作测试通过。
 
 ## 未覆盖
 
