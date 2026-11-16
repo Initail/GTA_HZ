@@ -1,3 +1,4 @@
+import './city-engine-registration.ts';
 import {Color3,Color4} from '@babylonjs/core/Maths/math.color.js';
 import {DefaultRenderingPipeline} from '@babylonjs/core/PostProcesses/RenderPipeline/Pipelines/defaultRenderingPipeline.js';
 import {DirectionalLight} from '@babylonjs/core/Lights/directionalLight.js';

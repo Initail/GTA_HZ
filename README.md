@@ -60,4 +60,6 @@ npm run preview          # 仅服务 dist
 
 **资源不统一适用 MIT。** OSM 数据遵循 ODbL，CarConcept、原创替代角色/坦克遵循 CC BY 4.0，选用材质遵循 CC0，地形保留 Copernicus 条款。公开照片仅作参考，不作为默认发布贴图。旧试玩中的受限人物和授权不明的 Tripo 模型未随公开包分发，相关玩法改用原创模型。详见 [第三方声明](THIRD_PARTY_NOTICES.md) 和 [资源管线](docs/ASSETS.md)。
 
+![Hangzhou Journey RC3](docs/validation/images/walking.png)
+
 English overview: [README.en.md](README.en.md).

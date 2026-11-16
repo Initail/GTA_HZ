@@ -18,7 +18,7 @@
     "typecheck": "node --max-old-space-size=512 node_modules/typescript/bin/tsc --noEmit",
     "test": "node --experimental-transform-types --test --test-concurrency=1 tests/*.test.ts",
     "test:routes": "node --experimental-transform-types --test tests/leisure-city-data.test.ts",
-    "test:tools": "python3 -m unittest discover -s tools/tests -p 'test_*.py'",
+    "test:tools": "python3 -m unittest discover -s tools/tests -p \"test_*.py\"",
     "build": "node tools/build.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 5241 --strictPort",
     "assets:fetch": "python3 tools/assets.py fetch",

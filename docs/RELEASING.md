@@ -11,4 +11,6 @@
 
 GitHub Release 可以附独立二进制资源，适合将运行包与源码历史分开，参见 [GitHub Releases 文档](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)。当前部署需站点根路径；本步骤不自动部署公网游戏站点。
 
+首次建库时，push 触发的 CI 可能早于第一个资源包公开，`assets:fetch` 会返回 404。保持失败记录，待包发布后重跑；不要跳过资源校验或把缺失资源计为成功。正式向用户交付前确认对应 CI 已通过。
+
 回退：检出上一个源码 tag，保留当前资源目录到备份位置，再获取旧 tag 对应的锁定包。不要直接用旧包覆盖新清单；浏览器存档回退兼容需单独核对。

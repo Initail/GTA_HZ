@@ -20,6 +20,13 @@ The first browser attempt failed on the missing decoder. A later input attempt r
 
 Remote download and CI verification remain to be recorded after publication.
 
+## 补充检查
+
+- 640、960、1440 三种窗口宽度的职业/故事卡实际浏览器布局无重叠，见 [布局结果](hud-layout.json)。截图已更新为修复后的生产构建。
+- 独立靶场首次烟测发现缺失 `ShadowGeneratorSceneComponent` 注册；接入与主城相同的引擎注册后，真实点击开场并射击，出弹计数为 1，未捕获页面错误。见 [靶场结果](combat-lab.json)。
+- 从 GitHub 全新克隆，`npm ci`、本地固定 ZIP 的全文件解包校验及生产构建通过。该验证未读取旧工作区的模型或脚本；网络下载另由发布后 CI 验证。
+- 首次远程 CI 在 Release 仍为草稿/资源上传中时因下载 404 失败，记录保留，待公开后重跑。
+
 ## 未覆盖
 
 全部任务/模式、公交整线、指定地标视觉终审、中高画质和长时间稳定性仍未通过当前版本的完整实机验收。NullEngine 不是 GPU 或外观验收。旧 RC2 驾驶结果仅为历史记录。历史录制工具未完成杭州迁移，保留源码且不随默认生产构建发布。
