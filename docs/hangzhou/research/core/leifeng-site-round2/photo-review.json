@@ -1,0 +1,94 @@
+{
+  "reviewedBy": "Codex child leifeng_candidate",
+  "reviewedAt": "2026-10-14",
+  "images": [
+    {
+      "id": "thupdi-south-front",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+      "sha256": "dbe56617ff2595da3539498b8b0ec1269ea9be79226940ccdd5c0ded3ce1f558",
+      "downloadBytes": 743493,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "south approach looking north, estimated",
+        "bearingTowardDegrees": 3,
+        "allowanceDegrees": 15
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "observed": {
+        "approach": "southfront axis two narrow outdoor escalatorbelts flanked by stone stairs, whitebalustrade/darkbasement opening; lower stairs partiallyoccluded byfrontroof/trees",
+        "limits": "exactgatewidth, towerdoorWGS/threshold/worldheight, contemporary2026condition unknown"
+      }
+    },
+    {
+      "id": "thupdi-lake-day",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+      "sha256": "c9f4d9f265d6ddc5c5b13d84d5d62e222974f70c61575f2d259e9891bbd4060c",
+      "downloadBytes": 332705,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "lake north/northeast sector looking southwest to south, estimated",
+        "bearingTowardDegrees": 210,
+        "allowanceDegrees": 35
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "observed": {
+        "hill": "forested hill belowtower andreal WestLakeshore inforeground",
+        "limits": "trees obscureterrain/plaza, capturedateunknown, no 3Dground survey or shorewall inferred"
+      }
+    },
+    {
+      "id": "thupdi-section",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+      "sha256": "06b99ff5498c6075dfd1df1e60c5e9e6bb3db15b534484957df1a413e9298519",
+      "downloadBytes": 149033,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "design-drawing",
+      "viewDirection": {
+        "description": "section drawing, direction unlabelled",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "observed": {
+        "section": "protectivebasement level relationships/terraces inarchitecturalrelative datum",
+        "limits": "architectural0 andnegativebasementlevels notEGM2008 andnotGLOdatum; do notfreezeexactexternalthreshold"
+      }
+    }
+  ],
+  "actualLocalImagesViewed": [
+    "<TEMP>/leifeng-research/1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+    "<TEMP>/leifeng-research/1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+    "<TEMP>/leifeng-research/1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg"
+  ],
+  "license": "unknown; reference-only; no textures copied/bundled",
+  "operatorStatus": "HTTPSpublic endpoints certificateverification failed; actual route/gate map unavailable, no SSLbypass used",
+  "notClaimed": [
+    "all sides/currententrymapping",
+    "actualoperator entrance approval",
+    "stairs/elevator operation",
+    "no wall penetration/waterfalls acceptance"
+  ]
+}

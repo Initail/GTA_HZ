@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "hangzhou",
+  "product": {
+    "project": "GTA_HZ",
+    "name": "杭城之行",
+    "city": "杭州",
+    "nameEn": "HANGZHOU"
+  },
+  "geography": {
+    "crs": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "bboxWGS84": [
+      119.93,
+      30.15,
+      120.3,
+      30.34
+    ],
+    "scale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "coefficientMethod": "WGS84 ellipsoid radii of curvature at origin latitude",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902
+  },
+  "assets": {
+    "runtimeRoot": "/cities/hangzhou",
+    "candidateRoot": "artifacts/cities/hangzhou",
+    "processedRoot": "data/processed/hangzhou-261011-extended",
+    "landmarkCatalog": "data/hangzhou/landmarks.json",
+    "locationSeeds": "config/hangzhou/locations.json",
+    "identityManifest": "data/hangzhou/osm-identities-extended.json"
+  },
+  "storage": {
+    "namespace": "gta-hz",
+    "life": "gta-hz-city-life-v1",
+    "career": "gta-hz-city-career-v2",
+    "story": "gta-hz-city-story-v1",
+    "favorites": "gta-hz-observer-places-v1",
+    "graphics": "gta-hz-graphics-quality-v1",
+    "mapView": "gta-hz-city-map-view-v1",
+    "database": "gta-hz-v1"
+  },
+  "spawn": {
+    "sourceWGS84": [
+      120.15935820875926,
+      30.273378187239057
+    ],
+    "roadName": "支路",
+    "status": "geographic-road-candidate-physical-acceptance-pending",
+    "gamePoint": [
+      251.6084181190593,
+      -41.35940562122254
+    ]
+  },
+  "missionPlaces": {
+    "hub": "life-sites:hub",
+    "office": "life-sites:office",
+    "park": "mission-points:park",
+    "workshop": "life-sites:workshop",
+    "bay": "mission-points:bay",
+    "legacyOffice": "wulin-square",
+    "legacyLake": "west-lake",
+    "legacyWork": "cainiao-headquarters",
+    "legacyDinner": "city-balcony",
+    "legacyCoastFrom": "life:hub",
+    "legacyCoastTo": "city-balcony"
+  },
+  "streetScene": {
+    "id": "hangzhou-street",
+    "name": "解放东路–钱江新城",
+    "originGame": [
+      2632.153961344617,
+      -1596.4708297903692
+    ],
+    "destinationGame": [
+      2899.271960740228,
+      -1663.3214251020959
+    ],
+    "spineGame": [
+      [
+        3150.491080806041,
+        -2030.240871261743
+      ],
+      [
+        1954.4095774054904,
+        -1558.6282765444892
+      ]
+    ],
+    "halfWidthGame": 88,
+    "cafeAnchor": [
+      2632.153961344617,
+      -1596.4708297903692
+    ],
+    "sourceRoadName": "解放东路",
+    "sourceRoadIds": [
+      "way/4375944#0",
+      "way/51718751#0",
+      "way/587820063#0",
+      "way/587820065#0",
+      "way/587820066#0",
+      "way/587820068#0",
+      "way/595993911#0",
+      "way/996851892#0",
+      "way/996851894#0",
+      "way/1363397979#0",
+      "way/1363397988#0",
+      "way/1372032758#0",
+      "way/1415317946#0",
+      "way/1415317947#0",
+      "way/1502831228#0",
+      "way/1502831229#0"
+    ],
+    "lengthGame": 1285.701910348142,
+    "selectionFrameOnly": true,
+    "status": "source-bound-geographic-candidate-physical-and-visual-pending"
+  },
+  "localLighting": [
+    {
+      "id": "hangzhou-cafe",
+      "x": 2632.153961344617,
+      "z": -1596.4708297903692,
+      "inner": 130,
+      "outer": 220
+    },
+    {
+      "id": "city-balcony",
+      "x": 3324.221245460762,
+      "z": -1978.9980965522925,
+      "inner": 420,
+      "outer": 600
+    }
+  ],
+  "water": {
+    "southernOcean": false,
+    "oppositeShore": false,
+    "publicSurfaceLookCenterGame": [
+      3324.221245460762,
+      -1978.9980965522925
+    ],
+    "referencePolicy": "docs/hangzhou/research/core/water-ground-round1/integration-parameters.json",
+    "reflectionStrategy": "one existing planar target follows nearest water body; far simultaneous water planes require visual QA"
+  },
+  "source": {
+    "provider": "Geofabrik / OpenStreetMap",
+    "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+    "snapshot": "261011",
+    "crs": "EPSG:4326",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "delivery": {
+    "status": "implementation",
+    "blockers": [
+      "杭州五个职业/剧情点及出生点的连通与碰撞验收",
+      "指定地标模型和视觉验收",
+      "真实浏览器全功能回归"
+    ]
+  },
+  "narrative": {
+    "replacements": [
+      [
+        "公园养护站",
+        "世纪花园养护点"
+      ],
+      [
+        "海湾驿站",
+        "钱江驿站"
+      ],
+      [
+        "海湾生活驿站",
+        "钱江生活驿站"
+      ],
+      [
+        "湾畔生活驿站",
+        "钱江生活驿站"
+      ],
+      [
+        "科苑下班驿站",
+        "钱江下班驿站"
+      ],
+      [
+        "科苑驿站",
+        "钱江驿站"
+      ],
+      [
+        "科苑职场人",
+        "钱江职场人"
+      ],
+      [
+        "公园城市养护站",
+        "世纪花园养护点"
+      ],
+      [
+        "滨海路边交接点",
+        "城市阳台交接点"
+      ],
+      [
+        "滨海交接点",
+        "城市阳台交接点"
+      ],
+      [
+        "香蜜湖",
+        "世纪花园"
+      ],
+      [
+        "海边",
+        "江边"
+      ],
+      [
+        "看海",
+        "看江"
+      ],
+      [
+        "滨海",
+        "江畔"
+      ],
+      [
+        "深圳",
+        "杭州"
+      ],
+      [
+        "科苑便利",
+        "钱江便利"
+      ],
+      [
+        "海风洗衣",
+        "江风洗衣"
+      ]
+    ]
+  },
+  "roadSurfaces": {
+    "defaultTierClearanceRealMetres": 6,
+    "maxOffsetRampGradient": 0.06,
+    "basis": "estimated game adaptation; bridge-specific profiles override after source review",
+    "groundSmoothing": "balanced source-edge Lipschitz envelopes, estimated road ground; terrain corridor earthworks require matching mesh",
+    "maxGroundGradient": 0.12,
+    "terrainTransitionGame": 20
+  },
+  "vegetation": {
+    "paletteSpec": "docs/hangzhou/research/vegetation/palette-spec.json",
+    "streetBandRealMetres": 24,
+    "spacingGame": 12,
+    "maxTrees": 80000,
+    "roadClearanceGame": 1,
+    "buildingClearanceGame": 1.2,
+    "waterClearanceGame": 0.5,
+    "lightClearanceGame": 1,
+    "streetHeightRangeRealMetres": [
+      8,
+      20
+    ],
+    "sceneSpeciesBasis": "source-informed estimated mixtures; no individual tree census",
+    "baseTreeNames": [
+      "camphor",
+      "ginkgo",
+      "osmanthus"
+    ]
+  },
+  "traffic": {
+    "parkedBikeSpacingGame": 2.05,
+    "parkedBikeBodyRadiusGame": 1.0,
+    "sourcePrototypeEnvelope": "docs/hangzhou/audit/ebike-body-envelopes.json",
+    "placementBasis": "Conservative whole-body discs from actual unchanged game-unit GLBs; source POI/kerb-based estimated rows"
+  }
+}

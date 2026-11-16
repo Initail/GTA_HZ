@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T09:57:09+00:00",
+  "stage": "planned",
+  "agent": "main-integration",
+  "place": {
+    "id": "cainiao-headquarters",
+    "name": "菜鸟总部",
+    "kind": "building-group"
+  },
+  "sourceManifest": "data/hangzhou/landmarks.json",
+  "sourceManifestSha256": "b1079f1880ea058cb866540fea9d0252fd7cff53296f1fa1f13183686ec83e8a",
+  "sourceRecord": {
+    "id": "cainiao-headquarters",
+    "name": "菜鸟总部",
+    "kind": "building-group",
+    "researchEvidence": "docs/hangzhou/research/ali/evidence.json",
+    "location": {
+      "status": "confirmed",
+      "crs": "EPSG:4326",
+      "center": [
+        119.9606604,
+        30.26480725
+      ],
+      "sourceIds": [
+        "osm-site-geometries"
+      ],
+      "centerUse": "measurement-only bbox center, not an arrival target",
+      "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+    },
+    "sources": [
+      {
+        "id": "cainiao-contact",
+        "url": "https://www.cainiao.com/en/about-us-contact-us.html?from=subHeaderClick",
+        "finalUrl": "https://www.cainiao.com/en/about-us-contact-us.html?from=subHeaderClick",
+        "path": "docs/hangzhou/research/ali/snapshots/cainiao-contact.html",
+        "bytes": 37930,
+        "sha256": "8dd9df4966f336ed8de4d4e9ae2dd429b4a35a28bbc78e811638c2a571b0ebff",
+        "status": "downloaded",
+        "title": "Contact Cainiao",
+        "publisher": "菜鸟",
+        "sourceDate": null,
+        "authority": "owner",
+        "use": "address",
+        "accessedAt": "2026-10-12",
+        "license": "Copyright retained by source; no game-texture or redistribution license verified",
+        "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+        "imageUse": "reference only, not a runtime asset"
+      },
+      {
+        "id": "aedas-cainiao",
+        "url": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+        "finalUrl": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+        "path": "docs/hangzhou/research/ali/snapshots/aedas-cainiao.html",
+        "bytes": 63361,
+        "sha256": "37200c89e42b4fe676829ea15c161605f3e56383722f27c60b472c23741c0082",
+        "status": "downloaded",
+        "title": "Cainiao Hangzhou Headquarters & Industry Park Project",
+        "publisher": "Aedas",
+        "sourceDate": null,
+        "authority": "architect",
+        "use": "identity, floors, facade, entrance canopy",
+        "accessedAt": "2026-10-12",
+        "license": "Copyright retained by source; no game-texture or redistribution license verified",
+        "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+        "imageUse": "reference only, not a runtime asset"
+      },
+      {
+        "id": "cscec-cainiao",
+        "url": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202305/3671552.html",
+        "finalUrl": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202305/3671552.html",
+        "path": "docs/hangzhou/research/ali/snapshots/cscec-cainiao.html",
+        "bytes": 79464,
+        "sha256": "29d1ba6e7061b0c5ec0098c2f5ae9f6ba2d4370665bf8c2e114c052e949b2b74",
+        "status": "downloaded",
+        "title": "中建三局承建的杭州菜鸟网络全球总部项目一期交付",
+        "publisher": "中国建筑 / 中建三局",
+        "sourceDate": "2023-05-25",
+        "authority": "contractor",
+        "use": "reported program and building counts",
+        "accessedAt": "2026-10-12",
+        "license": "Copyright retained by source; no game-texture or redistribution license verified",
+        "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+        "imageUse": "reference only, not a runtime asset"
+      },
+      {
+        "id": "osm-site-geometries",
+        "url": "https://overpass-api.de/api/interpreter",
+        "publisher": "OpenStreetMap contributors / Overpass API",
+        "title": "overpass-site-geometries.json",
+        "accessedAt": "2026-10-12",
+        "requestMethod": "POST",
+        "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+        "sourceDate": "2026-10-12T09:27:36Z",
+        "dataCrs": "EPSG:4326 / WGS84",
+        "license": "ODbL 1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "licenseUrl": "https://www.openstreetmap.org/copyright",
+        "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+        "bytes": 10879,
+        "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+        "status": "downloaded",
+        "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary"
+      }
+    ]
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/cainiao-headquarters.py"
+    ],
+    "workerDirectories": [
+      "data/hangzhou/jobs/cainiao-headquarters",
+      "artifacts/landmarks/cainiao-headquarters"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-12T09:57:09+00:00",
+      "reason": "task generated; inputs require review"
+    }
+  ]
+}

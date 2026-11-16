@@ -1,0 +1,24 @@
+[
+  {
+    "id": "gov-http-test",
+    "url": "http://www.yuhang.gov.cn/art/2023/5/11/art_1229175530_4164198.html",
+    "retrievedAtUTC": "2026-10-16T04:02:06.496320+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/art/2023/5/11/art_1229175530_4164198.html",
+    "filename": "references/gov-http-test.html",
+    "sha256": "8b36bec24884029224c795c3a7f4d7b84287f615dba92d76d0ed3576501b44b1",
+    "bytes": 22919
+  },
+  {
+    "id": "gov-nonwww-test",
+    "url": "https://yuhang.gov.cn/art/2023/5/11/art_1229175530_4164198.html",
+    "retrievedAtUTC": "2026-10-16T04:02:06.578925+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "id": "zjol-2026-opening",
+    "url": "https://zjnews.zjol.com.cn/zjnews/90zxw/202606/t20260603_31702006.shtml",
+    "retrievedAtUTC": "2026-10-16T04:02:06.658352+00:00",
+    "error": "URLError(OSError(9, 'Bad file descriptor'))"
+  }
+]

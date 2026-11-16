@@ -1,0 +1,4154 @@
+{
+  "fixedSourceSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "citySha256": "15904a2c40f323546262e7ead44bd4794f354dd45f8125cf7c827313c09814fb",
+  "nearbyWaterwayCount": 43,
+  "pairResults": [
+    {
+      "pair": 1,
+      "a": "way/975870009",
+      "b": "relation/2308774",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 2,
+      "a": "way/520199008",
+      "b": "way/662789923",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [
+        {
+          "id": "way/662789912",
+          "version": 2,
+          "timestamp": "2021-03-19 19:17:13+00:00",
+          "tags": {
+            "seamark:type": "gate",
+            "waterway": "lock_gate"
+          },
+          "nodeIds": [
+            "6204731878",
+            "6204731881"
+          ]
+        },
+        {
+          "id": "way/662789921",
+          "version": 2,
+          "timestamp": "2021-03-19 19:17:13+00:00",
+          "tags": {
+            "seamark:type": "gate",
+            "waterway": "lock_gate"
+          },
+          "nodeIds": [
+            "6204731881",
+            "6204731879"
+          ]
+        },
+        {
+          "id": "way/662789918",
+          "version": 2,
+          "timestamp": "2026-04-27 01:37:04+00:00",
+          "tags": {
+            "lock": "yes",
+            "name": "东河",
+            "waterway": "canal"
+          },
+          "nodeIds": [
+            "6204731881",
+            "6204731882"
+          ]
+        },
+        {
+          "id": "way/662618623",
+          "version": 3,
+          "timestamp": "2021-03-19 19:17:13+00:00",
+          "tags": {
+            "seamark:type": "gate",
+            "waterway": "lock_gate"
+          },
+          "nodeIds": [
+            "5070765368",
+            "6204731882"
+          ]
+        },
+        {
+          "id": "way/662789916",
+          "version": 2,
+          "timestamp": "2021-03-19 19:17:13+00:00",
+          "tags": {
+            "seamark:type": "gate",
+            "waterway": "lock_gate"
+          },
+          "nodeIds": [
+            "6204731882",
+            "6203237753"
+          ]
+        }
+      ],
+      "bodyCenterlineCandidates": [
+        [
+          "way/27752178",
+          "way/614072790",
+          "way/662789914"
+        ],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 3,
+      "a": "way/552611233",
+      "b": "way/642559807",
+      "candidateConnections": [
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/552611348",
+          "b": "way/25341148",
+          "tagsA": {
+            "layer": "-1",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "intermittent": "no",
+            "name": "余杭塘河",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "5335086034",
+              "pointGame": [
+                -8917.740244756857,
+                1273.5149702067588
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "same-source-centerline",
+          "a": "way/552611348",
+          "b": "way/552611348",
+          "tagsA": {
+            "layer": "-1",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "layer": "-1",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/552611348"
+        ],
+        [
+          "way/25341148",
+          "way/552611348",
+          "way/968854721"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 4,
+      "a": "way/1058472319",
+      "b": "way/1058472323",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 5,
+      "a": "way/1058472319",
+      "b": "way/1058472326",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 6,
+      "a": "way/538148437",
+      "b": "way/541014093",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/833501276",
+          "b": "way/833501276",
+          "tagsA": {
+            "waterway": "stream"
+          },
+          "tagsB": {
+            "waterway": "stream"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/833501276"
+        ],
+        [
+          "way/833501276"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 7,
+      "a": "way/578276721",
+      "b": "way/1479955347",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/587415777"
+        ],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 8,
+      "a": "way/518534703",
+      "b": "relation/8932833",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/27751963",
+          "b": "way/27751963",
+          "tagsA": {
+            "name": "西溪河",
+            "name:zh": "西溪河",
+            "name:zh-Latn-pinyin": "Xīxī Hé",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "西溪河",
+            "name:zh": "西溪河",
+            "name:zh-Latn-pinyin": "Xīxī Hé",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/27751963"
+        ],
+        [
+          "way/27751963"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 9,
+      "a": "relation/9602999",
+      "b": "relation/10872319",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 10,
+      "a": "relation/9599999",
+      "b": "way/1461484039",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        [
+          "way/338978061"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 11,
+      "a": "relation/9436423",
+      "b": "way/1122311097",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/376251531",
+          "b": "way/376251531",
+          "tagsA": {
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/376251531"
+        ],
+        [
+          "way/376251531"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 12,
+      "a": "way/516302975",
+      "b": "relation/8924449",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/891432271",
+          "b": "way/891432271",
+          "tagsA": {
+            "name": "官河",
+            "waterway": "ditch"
+          },
+          "tagsB": {
+            "name": "官河",
+            "waterway": "ditch"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/891432271"
+        ],
+        [
+          "way/891432271"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 13,
+      "a": "way/641124890",
+      "b": "relation/8227206",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [
+        {
+          "id": "way/356904139",
+          "version": 1,
+          "timestamp": "2015-06-28 09:04:00+00:00",
+          "tags": {
+            "waterway": "weir"
+          },
+          "nodeIds": [
+            "3623020298",
+            "3623020299"
+          ]
+        }
+      ],
+      "bodyCenterlineCandidates": [
+        [
+          "way/1484314077"
+        ],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 14,
+      "a": "way/538148437",
+      "b": "way/845633888",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/389643300",
+          "b": "way/389643300",
+          "tagsA": {
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          }
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/55640938",
+          "b": "way/389643300",
+          "tagsA": {
+            "name": "十字港河",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "332675239",
+              "pointGame": [
+                -1849.4353524574242,
+                2891.567072222299
+              ]
+            }
+          ]
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/389643300",
+          "way/55640938"
+        ],
+        [
+          "way/389643300"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 15,
+      "a": "way/641855998",
+      "b": "way/642559807",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/1065384369",
+          "b": "way/1065384369",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "name": "香樟港",
+            "waterway": "river"
+          }
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1065384369",
+          "b": "way/643214737",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "intermittent": "no",
+            "name": "余杭塘河",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "5100595896",
+              "pointGame": [
+                -7444.8045942191775,
+                1875.475528630958
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1065384369",
+          "b": "way/1065171673",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "name": "九曲港",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "5100595896",
+              "pointGame": [
+                -7444.8045942191775,
+                1875.475528630958
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1065384369",
+          "b": "way/586743457",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "intermittent": "no",
+            "name": "余杭塘河",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "5100595896",
+              "pointGame": [
+                -7444.8045942191775,
+                1875.475528630958
+              ]
+            }
+          ]
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/1065384369"
+        ],
+        [
+          "way/1065384369",
+          "way/643214737",
+          "way/1065171673",
+          "way/586743457"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 16,
+      "a": "way/922860415",
+      "b": "way/922860420",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 17,
+      "a": "way/979543008",
+      "b": "relation/2308774",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        []
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 18,
+      "a": "way/544319798",
+      "b": "way/1546020480",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/1545007169"
+        ],
+        [
+          "way/1543136978"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 19,
+      "a": "relation/9599999",
+      "b": "way/1479533509",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        [
+          "way/1472905720"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 20,
+      "a": "way/86096970",
+      "b": "way/641838036",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/113467368",
+          "b": "way/113467368",
+          "tagsA": {
+            "name": "北塘河",
+            "source": "bing",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "北塘河",
+            "source": "bing",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/113467368"
+        ],
+        [
+          "way/113467368"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 21,
+      "a": "way/519276932",
+      "b": "way/1479533509",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        [
+          "way/1120919577",
+          "way/113467530"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 22,
+      "a": "way/922868868",
+      "b": "way/922868869",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        [
+          "way/911827251"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 23,
+      "a": "way/641923487",
+      "b": "way/642325265",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/586743455",
+          "b": "way/586743455",
+          "tagsA": {
+            "waterway": "river"
+          },
+          "tagsB": {
+            "waterway": "river"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/586743455"
+        ],
+        [
+          "way/586743455"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 24,
+      "a": "way/544075672",
+      "b": "way/1479533509",
+      "candidateConnections": [
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1119515786",
+          "b": "way/1119515764",
+          "tagsA": {
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "10239545208",
+              "pointGame": [
+                1163.1915424738575,
+                -7207.962368025727
+              ]
+            }
+          ]
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/1119515786"
+        ],
+        [
+          "way/1119515764"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 25,
+      "a": "way/345071228",
+      "b": "way/1479533509",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [],
+        [
+          "way/1120244646",
+          "way/1120244647",
+          "way/1120244648",
+          "way/1120244645"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 26,
+      "a": "way/1485378647",
+      "b": "way/1485378664",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/1273358137",
+          "b": "way/1273358137",
+          "tagsA": {
+            "name": "槐河",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "槐河",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/1273358137"
+        ],
+        [
+          "way/1273358137"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    },
+    {
+      "pair": 27,
+      "a": "way/285191776",
+      "b": "way/642786334",
+      "candidateConnections": [
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1411752621",
+          "b": "way/353613953",
+          "tagsA": {
+            "name": "炮台湾",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "name": "解放河",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "12972839413",
+              "pointGame": [
+                8138.4034700653965,
+                -4293.328156030043
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "same-source-centerline",
+          "a": "way/353613953",
+          "b": "way/353613953",
+          "tagsA": {
+            "name": "解放河",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "解放河",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": [],
+      "bodyCenterlineCandidates": [
+        [
+          "way/1411752621",
+          "way/353613953"
+        ],
+        [
+          "way/353613953"
+        ]
+      ],
+      "boundary": "Source graph supports mapped connectivity only; no-control-in-subset does not prove physical absence or equal water level."
+    }
+  ],
+  "sourceWaterways": [
+    {
+      "id": "way/25341148",
+      "version": 55,
+      "timestamp": "2026-04-28 01:40:53+00:00",
+      "tags": {
+        "intermittent": "no",
+        "name": "余杭塘河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "1185561396",
+        "1185562486",
+        "9761662009",
+        "1185560942",
+        "9761662002",
+        "6050288939",
+        "1185560439",
+        "6050288940",
+        "6050288941",
+        "6050288942",
+        "6050288943",
+        "11396683799",
+        "6050288950",
+        "3747289693",
+        "276121719",
+        "6065473012",
+        "6046503373",
+        "6046503371",
+        "6257352024",
+        "6046503372",
+        "6046503370",
+        "6046503367",
+        "6046503369",
+        "6046503366",
+        "6039637966",
+        "6046503365",
+        "6046503364",
+        "6048832989",
+        "5335086034",
+        "5335085344"
+      ],
+      "pointsGame": [
+        [
+          -12292.093204603178,
+          313.9073225076749
+        ],
+        [
+          -12264.612738742468,
+          314.885081892609
+        ],
+        [
+          -12242.830428302697,
+          313.9073225076749
+        ],
+        [
+          -12157.294591705924,
+          298.9349662130245
+        ],
+        [
+          -12115.964201978828,
+          289.41677791567133
+        ],
+        [
+          -11927.75765007261,
+          200.47393101631917
+        ],
+        [
+          -11866.134437341252,
+          172.29849731400822
+        ],
+        [
+          -11774.259619333407,
+          130.06195245828147
+        ],
+        [
+          -11728.524272579183,
+          121.00271244354153
+        ],
+        [
+          -11695.311012053628,
+          123.76970498838618
+        ],
+        [
+          -11603.043615963205,
+          175.99003784854378
+        ],
+        [
+          -10982.827975738943,
+          428.33842765712177
+        ],
+        [
+          -10712.901677137983,
+          538.1600957065702
+        ],
+        [
+          -10513.385412496373,
+          621.2297348725625
+        ],
+        [
+          -10301.878196679378,
+          707.3922863783774
+        ],
+        [
+          -10230.509810339443,
+          736.8048850164284
+        ],
+        [
+          -10027.870240649334,
+          822.8410594590725
+        ],
+        [
+          -9928.97520279124,
+          866.0553636997333
+        ],
+        [
+          -9906.37309694159,
+          875.8994717920646
+        ],
+        [
+          -9851.914434237959,
+          899.6184511551695
+        ],
+        [
+          -9805.48052942261,
+          916.4266005802727
+        ],
+        [
+          -9738.898131780477,
+          940.9104937480482
+        ],
+        [
+          -9693.549589902059,
+          958.6099340409927
+        ],
+        [
+          -9644.078978144698,
+          981.8167537264776
+        ],
+        [
+          -9578.224004599188,
+          1006.5068410500521
+        ],
+        [
+          -9516.872132601653,
+          1031.2035797978547
+        ],
+        [
+          -9439.834456877095,
+          1056.2594954627216
+        ],
+        [
+          -9058.30051835445,
+          1216.725108792917
+        ],
+        [
+          -8917.740244756857,
+          1273.5149702067588
+        ],
+        [
+          -8908.185586984026,
+          1280.1331374716322
+        ]
+      ]
+    },
+    {
+      "id": "way/27751963",
+      "version": 27,
+      "timestamp": "2026-07-04 02:13:13+00:00",
+      "tags": {
+        "name": "西溪河",
+        "name:zh": "西溪河",
+        "name:zh-Latn-pinyin": "Xīxī Hé",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "7825340067",
+        "7825340070",
+        "304735306",
+        "304735305",
+        "304735304",
+        "304735303",
+        "304735302",
+        "304735301",
+        "304735300",
+        "304735299",
+        "304735298",
+        "304735297",
+        "304735256",
+        "304735255",
+        "304735254",
+        "304735253",
+        "304735252",
+        "6060183611",
+        "304735251",
+        "304735250",
+        "304735249",
+        "304735248",
+        "304735247",
+        "304735246",
+        "304735245",
+        "304735244",
+        "304735243",
+        "304735242",
+        "304735241",
+        "304735240",
+        "304735239",
+        "304735238",
+        "304735237",
+        "304735236",
+        "304735235",
+        "304735234",
+        "304735233",
+        "304735103"
+      ],
+      "pointsGame": [
+        [
+          -779.642754668369,
+          34.361258381720006
+        ],
+        [
+          -780.0872916168059,
+          37.507382116785806
+        ],
+        [
+          -781.8077073362806,
+          49.759305837133894
+        ],
+        [
+          -793.700513990816,
+          73.42507380523199
+        ],
+        [
+          -808.0757997037144,
+          94.13095792114264
+        ],
+        [
+          -945.8245214364912,
+          283.94930706991784
+        ],
+        [
+          -959.2068155257163,
+          305.6396019949907
+        ],
+        [
+          -983.4889246458033,
+          332.7574592197392
+        ],
+        [
+          -1024.1207563117734,
+          369.2405219810486
+        ],
+        [
+          -1047.9063696208443,
+          391.92187913974817
+        ],
+        [
+          -1081.5988063362834,
+          428.40494190105755
+        ],
+        [
+          -1095.4718230305741,
+          455.5161477013416
+        ],
+        [
+          -1102.9077137929416,
+          488.54712120600055
+        ],
+        [
+          -1112.8145372001304,
+          535.8786571419604
+        ],
+        [
+          -1117.2772262990693,
+          568.9096306463831
+        ],
+        [
+          -1109.3506129316359,
+          589.1233093578307
+        ],
+        [
+          -1103.612045060839,
+          603.5968088233175
+        ],
+        [
+          -1097.521311555683,
+          619.7398158100084
+        ],
+        [
+          -1067.9163054769197,
+          675.6250835073163
+        ],
+        [
+          -1055.8329829874572,
+          704.9711679016679
+        ],
+        [
+          -1041.9599662931664,
+          760.68349856479
+        ],
+        [
+          -1037.4972771942275,
+          791.2467936219608
+        ],
+        [
+          -1035.0205713426353,
+          889.8408573065377
+        ],
+        [
+          -1035.5170671544722,
+          924.3484470250581
+        ],
+        [
+          -1032.5438654910433,
+          947.5153581639926
+        ],
+        [
+          -1029.5706638276147,
+          984.4906263300012
+        ],
+        [
+          -1022.6312688770837,
+          1004.7043050412126
+        ],
+        [
+          -1008.758252182793,
+          1013.5773051730741
+        ],
+        [
+          -989.4353279734813,
+          1017.0293944297246
+        ],
+        [
+          -923.5283955629303,
+          1025.4035377326588
+        ],
+        [
+          -909.6553788686396,
+          1028.8556269895455
+        ],
+        [
+          -833.5760555246687,
+          1055.627610146159
+        ],
+        [
+          -797.5512431351154,
+          1069.116698802247
+        ],
+        [
+          -767.2707718239506,
+          1077.5174478028027
+        ],
+        [
+          -753.0571359104837,
+          1081.4617424641524
+        ],
+        [
+          -722.9209947767968,
+          1089.2173032989801
+        ],
+        [
+          -674.7147153769318,
+          1104.3359909301948
+        ],
+        [
+          -625.7232798102743,
+          1116.6012174992354
+        ]
+      ]
+    },
+    {
+      "id": "way/27752178",
+      "version": 11,
+      "timestamp": "2026-04-27 01:37:04+00:00",
+      "tags": {
+        "name": "东河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "304736538",
+        "304736539",
+        "304736540",
+        "5286052740",
+        "304736542",
+        "304736544",
+        "304736545",
+        "304736546",
+        "304736548",
+        "304736549",
+        "304736550",
+        "304736551",
+        "304736552",
+        "304736553",
+        "304736554",
+        "304736555",
+        "304736556",
+        "304736557",
+        "304736559",
+        "304736560",
+        "304736561",
+        "304736563",
+        "304736564",
+        "304736565",
+        "304736566",
+        "304736567",
+        "304736568",
+        "304736569",
+        "304736570",
+        "304736571",
+        "304736572",
+        "304736573",
+        "304739850",
+        "6204731881"
+      ],
+      "pointsGame": [
+        [
+          1070.4680630206362,
+          -1712.3426941219395
+        ],
+        [
+          1077.9385930260908,
+          -1678.4403840228329
+        ],
+        [
+          1081.7142704782657,
+          -1660.0624984423107
+        ],
+        [
+          1086.5695376606009,
+          -1636.0708106792347
+        ],
+        [
+          1089.640883845699,
+          -1618.1452219570974
+        ],
+        [
+          1096.083782984393,
+          -1593.4883917553727
+        ],
+        [
+          1107.9765896381082,
+          -1567.8471507444856
+        ],
+        [
+          1115.4067071937047,
+          -1541.214847499972
+        ],
+        [
+          1116.896194629215,
+          -1501.7585980377826
+        ],
+        [
+          1115.4067071937047,
+          -1450.4761160162448
+        ],
+        [
+          1125.3193038076645,
+          -1408.0599827018677
+        ],
+        [
+          1140.6818079374652,
+          -1260.1190014919916
+        ],
+        [
+          1145.6352196406494,
+          -1225.1059035203157
+        ],
+        [
+          1150.588631344654,
+          -1200.9479301477545
+        ],
+        [
+          1149.1049171167354,
+          -1167.4114483897038
+        ],
+        [
+          1141.6690263535475,
+          -1049.0626542765287
+        ],
+        [
+          1140.6818079374652,
+          -930.2216547586544
+        ],
+        [
+          1140.1853121256286,
+          -894.2241459775798
+        ],
+        [
+          1147.1189338693887,
+          -815.8238067310573
+        ],
+        [
+          1152.5746145920007,
+          -715.7198697107692
+        ],
+        [
+          1149.1049171167354,
+          -624.9944410754983
+        ],
+        [
+          1144.1457322059598,
+          -546.5941018289758
+        ],
+        [
+          1143.4009884882048,
+          -487.80881309918794
+        ],
+        [
+          1141.1378912994442,
+          -455.1237136626641
+        ],
+        [
+          1128.7890012829298,
+          -429.2430213738919
+        ],
+        [
+          1130.272715511669,
+          -385.356923270118
+        ],
+        [
+          1133.2459171750977,
+          -345.9139766568574
+        ],
+        [
+          1125.3193038076645,
+          -286.25069990768475
+        ],
+        [
+          1126.8030180364035,
+          -232.50719086288697
+        ],
+        [
+          1118.3799088571336,
+          -130.44773507273078
+        ],
+        [
+          1113.692064681001,
+          -80.38911513824043
+        ],
+        [
+          1109.9163872288261,
+          -26.47932048372141
+        ],
+        [
+          1071.8651791420682,
+          98.05529830933523
+        ],
+        [
+          1065.225990961676,
+          118.66141105946039
+        ]
+      ]
+    },
+    {
+      "id": "way/55640938",
+      "version": 7,
+      "timestamp": "2025-02-05 06:29:16+00:00",
+      "tags": {
+        "name": "十字港河",
+        "waterway": "river"
+      },
+      "nodeIds": [
+        "699179971",
+        "5232523224",
+        "332675376",
+        "699179927",
+        "332675357",
+        "332675344",
+        "332675336",
+        "5232522849",
+        "332674973",
+        "332675103",
+        "332675118",
+        "332675134",
+        "332675149",
+        "332675160",
+        "332675207",
+        "5232522847",
+        "332675217",
+        "332675228",
+        "332675239",
+        "332675250",
+        "12558359382"
+      ],
+      "pointsGame": [
+        [
+          -2181.0830083105884,
+          4244.692940914171
+        ],
+        [
+          -2186.79271014589,
+          4233.471987973764
+        ],
+        [
+          -2166.7481350467274,
+          4169.57175389035
+        ],
+        [
+          -2165.656998902205,
+          4163.37927778624
+        ],
+        [
+          -2155.900278880086,
+          4107.92635267416
+        ],
+        [
+          -2130.324971367007,
+          4038.199470827928
+        ],
+        [
+          -2083.4465296032204,
+          3894.4954469522936
+        ],
+        [
+          -2093.3475798036384,
+          3874.913653557881
+        ],
+        [
+          -2069.885266093431,
+          3829.524333542624
+        ],
+        [
+          -2014.8723755069707,
+          3683.3659340684303
+        ],
+        [
+          -1995.1106875568137,
+          3629.808664906511
+        ],
+        [
+          -1988.5985099327659,
+          3547.563802364424
+        ],
+        [
+          -1976.6191051717437,
+          3484.628024817251
+        ],
+        [
+          -1967.6013556606085,
+          3459.126463718464
+        ],
+        [
+          -1957.844635638489,
+          3420.1025568415025
+        ],
+        [
+          -1927.656535640582,
+          3279.4847938814623
+        ],
+        [
+          -1856.4093866502214,
+          2972.481649887088
+        ],
+        [
+          -1850.2089622106746,
+          2931.256121538145
+        ],
+        [
+          -1849.4353524574242,
+          2891.567072222299
+        ],
+        [
+          -1865.3232184337369,
+          2837.617369021466
+        ],
+        [
+          -1882.504282804682,
+          2817.543370222354
+        ]
+      ]
+    },
+    {
+      "id": "way/113467368",
+      "version": 11,
+      "timestamp": "2026-05-02 06:17:58+00:00",
+      "tags": {
+        "name": "北塘河",
+        "source": "bing",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "13660451726",
+        "13786108401",
+        "9343104786",
+        "13786093683",
+        "1286462981",
+        "1286462400",
+        "3594287318",
+        "13786093684",
+        "1286463545",
+        "1286463280",
+        "9868093781",
+        "1668711856",
+        "1286462413",
+        "5502601347",
+        "1286462445",
+        "1286462348",
+        "1286462934",
+        "1286462584",
+        "1286463640",
+        "5779346880",
+        "5779346879",
+        "1286463013",
+        "1286462681",
+        "1286463855",
+        "1286463138",
+        "1286462800",
+        "13609682214"
+      ],
+      "pointsGame": [
+        [
+          6053.149926635394,
+          -5362.03911794492
+        ],
+        [
+          6044.472796343434,
+          -5361.726500998871
+        ],
+        [
+          5674.81434485337,
+          -5347.645435572062
+        ],
+        [
+          5526.442922031965,
+          -5342.863061437878
+        ],
+        [
+          5486.60201974038,
+          -5341.413050921638
+        ],
+        [
+          5265.141794858746,
+          -5335.3536033054
+        ],
+        [
+          5192.491756540183,
+          -5333.364827413682
+        ],
+        [
+          5015.306257013578,
+          -5328.5159390357985
+        ],
+        [
+          4982.502894194193,
+          -5327.617996743493
+        ],
+        [
+          4374.751608128427,
+          -5304.171725780358
+        ],
+        [
+          4317.567991667284,
+          -5302.515521108084
+        ],
+        [
+          4031.1822795852313,
+          -5293.855366556486
+        ],
+        [
+          3994.8976728762177,
+          -5292.870955747323
+        ],
+        [
+          3675.9857119153726,
+          -5280.9316489730245
+        ],
+        [
+          3424.077592716372,
+          -5271.506580616992
+        ],
+        [
+          3367.1768634042346,
+          -5265.068001810769
+        ],
+        [
+          3185.615272885178,
+          -5238.628589873362
+        ],
+        [
+          3166.9562674939057,
+          -5226.476437518799
+        ],
+        [
+          2966.7356715843976,
+          -5137.866161838653
+        ],
+        [
+          2917.039904749843,
+          -5109.624213892643
+        ],
+        [
+          2719.3537467620977,
+          -5013.963428362632
+        ],
+        [
+          2634.30285956362,
+          -4974.75993302702
+        ],
+        [
+          2267.7561667076916,
+          -4825.056324354855
+        ],
+        [
+          2168.1856636180173,
+          -4784.861766785617
+        ],
+        [
+          2052.8773979362795,
+          -4759.386811384451
+        ],
+        [
+          1752.451246153733,
+          -4771.5323123147855
+        ],
+        [
+          1380.7375329317888,
+          -4802.075653098563
+        ]
+      ]
+    },
+    {
+      "id": "way/113467530",
+      "version": 4,
+      "timestamp": "2020-09-03 14:06:32+00:00",
+      "tags": {
+        "layer": "-1",
+        "source": "bing",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "5063769290",
+        "1286463352",
+        "7872710372"
+      ],
+      "pointsGame": [
+        [
+          3378.232555026937,
+          -6751.335432451817
+        ],
+        [
+          3374.237495704339,
+          -6681.95442467372
+        ],
+        [
+          3378.19791578385,
+          -6596.663209762589
+        ]
+      ]
+    },
+    {
+      "id": "way/159190066",
+      "version": 2,
+      "timestamp": "2021-08-22 07:49:07+00:00",
+      "tags": {
+        "waterway": "stream"
+      },
+      "nodeIds": [
+        "26199717",
+        "26199709"
+      ],
+      "pointsGame": [
+        [
+          -1567.9626396295178,
+          -1911.492991685426
+        ],
+        [
+          -1628.9969852349595,
+          -1926.066262516698
+        ]
+      ]
+    },
+    {
+      "id": "way/338978061",
+      "version": 3,
+      "timestamp": "2026-01-31 09:44:31+00:00",
+      "tags": {
+        "name": "庙后王河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "9419111047",
+        "3461606614",
+        "3461606615",
+        "3461600954"
+      ],
+      "pointsGame": [
+        [
+          3047.514385518863,
+          -6853.27516260303
+        ],
+        [
+          3048.1552115081777,
+          -6863.505053309811
+        ],
+        [
+          3059.014614089182,
+          -7004.927638620599
+        ],
+        [
+          3091.8872553947417,
+          -7107.392831298362
+        ]
+      ]
+    },
+    {
+      "id": "way/353613953",
+      "version": 10,
+      "timestamp": "2026-05-02 06:17:58+00:00",
+      "tags": {
+        "name": "解放河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10239441712",
+        "3594287392",
+        "3594287313",
+        "12972839413",
+        "3594270782",
+        "3594287300",
+        "3594287303",
+        "3594287391",
+        "1286462570",
+        "3594287386",
+        "3594287384",
+        "3594287421",
+        "3463271449",
+        "3594287306",
+        "3594287380",
+        "5747505855",
+        "3594287402",
+        "3594287347",
+        "3594287336",
+        "5736931246"
+      ],
+      "pointsGame": [
+        [
+          8519.718026717619,
+          -4377.847805712512
+        ],
+        [
+          8311.207105392778,
+          -4331.9928859901775
+        ],
+        [
+          8148.079365187799,
+          -4295.469914682553
+        ],
+        [
+          8138.4034700653965,
+          -4293.328156030043
+        ],
+        [
+          8129.570463181597,
+          -4291.3726372604115
+        ],
+        [
+          7947.6855730644975,
+          -4254.7831517088525
+        ],
+        [
+          7671.431839466827,
+          -4197.4279192221475
+        ],
+        [
+          7338.196551658124,
+          -4130.208624369718
+        ],
+        [
+          7277.549010928487,
+          -4117.417935274128
+        ],
+        [
+          7127.6015025642655,
+          -4085.803715163859
+        ],
+        [
+          6975.229247212672,
+          -4059.291137558288
+        ],
+        [
+          6776.399994217004,
+          -4014.8862283524295
+        ],
+        [
+          6636.382402088696,
+          -3988.3270907763163
+        ],
+        [
+          6475.309923617239,
+          -3959.513120332978
+        ],
+        [
+          6325.477879395,
+          -3939.040036070488
+        ],
+        [
+          6261.308682326698,
+          -3928.9232195781856
+        ],
+        [
+          6251.15361101359,
+          -3927.3202263011535
+        ],
+        [
+          6080.8151351242595,
+          -3924.8525478536653
+        ],
+        [
+          5857.83655677162,
+          -3923.6220343419172
+        ],
+        [
+          5797.212108870708,
+          -3923.6220343419172
+        ]
+      ]
+    },
+    {
+      "id": "way/356904139",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "waterway": "weir"
+      },
+      "nodeIds": [
+        "3623020298",
+        "3623020299"
+      ],
+      "pointsGame": [
+        [
+          1246.1409822830058,
+          -4762.825597792408
+        ],
+        [
+          1218.291031166804,
+          -4780.571598056368
+        ]
+      ]
+    },
+    {
+      "id": "way/376251531",
+      "version": 9,
+      "timestamp": "2023-10-29 07:08:58+00:00",
+      "tags": {
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "5212496378",
+        "3796942007",
+        "6364123938",
+        "3796942008",
+        "3796942003",
+        "3796942009",
+        "3796942010",
+        "3796942011",
+        "6364124069",
+        "3796942012",
+        "3796942013",
+        "3796942014",
+        "3796942015",
+        "3796942016",
+        "3796942017",
+        "7791286894",
+        "7791286892",
+        "7791286893",
+        "3796942018",
+        "7791286898",
+        "7791286895",
+        "7791286897",
+        "10265070471",
+        "7791286896",
+        "3796942019",
+        "10265073317",
+        "10265073320",
+        "10265073321",
+        "10265073322",
+        "10265073323",
+        "10265073324",
+        "10265073325",
+        "10265073326",
+        "10265073327",
+        "10265073328",
+        "10265073329",
+        "10265073330",
+        "10265073331",
+        "10265073332",
+        "10265073333"
+      ],
+      "pointsGame": [
+        [
+          -7125.707890630997,
+          1261.449286369289
+        ],
+        [
+          -7107.054658447316,
+          1216.6452917002887
+        ],
+        [
+          -7086.7387426143305,
+          1154.2017195575786
+        ],
+        [
+          -7050.823621159989,
+          1076.8057453933754
+        ],
+        [
+          -7031.535336192944,
+          1023.8271501530118
+        ],
+        [
+          -6976.741827476907,
+          1018.3729821559509
+        ],
+        [
+          -6850.014158123745,
+          1046.8344271066894
+        ],
+        [
+          -6767.682451476007,
+          1078.8011727095577
+        ],
+        [
+          -6656.363471909276,
+          1118.091136562026
+        ],
+        [
+          -6644.71891316148,
+          1115.8030465729516
+        ],
+        [
+          -6635.816627791506,
+          1101.442621321943
+        ],
+        [
+          -6607.031417122622,
+          1030.8510543054915
+        ],
+        [
+          -6586.952202781193,
+          1030.1859118668428
+        ],
+        [
+          -6530.7211654938665,
+          1064.8132272240696
+        ],
+        [
+          -6493.905423729929,
+          1081.4617424641524
+        ],
+        [
+          -6433.044274337461,
+          1101.8483582095496
+        ],
+        [
+          -6416.475169921155,
+          1106.0853155437912
+        ],
+        [
+          -6399.90606550485,
+          1109.1649250349212
+        ],
+        [
+          -6368.973221790007,
+          1112.9429340865497
+        ],
+        [
+          -6335.257692245844,
+          1117.1000743283992
+        ],
+        [
+          -6330.223455642944,
+          1119.1819701614381
+        ],
+        [
+          -6326.586335161476,
+          1121.263865994477
+        ],
+        [
+          -6322.539316974658,
+          1123.9510414466934
+        ],
+        [
+          -6314.427960979889,
+          1129.345346624283
+        ],
+        [
+          -6292.4493614976,
+          1142.1825956906512
+        ],
+        [
+          -6257.273210554242,
+          1154.7338335083557
+        ],
+        [
+          -6159.671371089961,
+          1175.3266434097884
+        ],
+        [
+          -6136.70555319159,
+          1171.4289087192174
+        ],
+        [
+          -6110.5702445880925,
+          1164.9238156690585
+        ],
+        [
+          -6095.733102305623,
+          1160.1347901104098
+        ],
+        [
+          -6077.281932370412,
+          1150.8627045154062
+        ],
+        [
+          -6062.190768975253,
+          1142.7679210366716
+        ],
+        [
+          -6052.4802346105835,
+          1138.0853182685094
+        ],
+        [
+          -6034.404323136814,
+          1134.872680289744
+        ],
+        [
+          -6018.037280969798,
+          1135.3382799968217
+        ],
+        [
+          -5999.447554063879,
+          1138.6041293705937
+        ],
+        [
+          -5984.754741959709,
+          1145.4683993378167
+        ],
+        [
+          -5962.562533814588,
+          1158.0994542481496
+        ],
+        [
+          -5949.538178565673,
+          1160.9462638856228
+        ],
+        [
+          -5942.639196065,
+          1157.214814804773
+        ]
+      ]
+    },
+    {
+      "id": "way/389643300",
+      "version": 4,
+      "timestamp": "2026-04-28 01:32:12+00:00",
+      "tags": {
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "332675239",
+        "3928107455",
+        "3928107454",
+        "3928107453",
+        "3928107452",
+        "7893383940",
+        "3928107451"
+      ],
+      "pointsGame": [
+        [
+          -1849.4353524574242,
+          2891.567072222299
+        ],
+        [
+          -1833.0048050118255,
+          2890.0771531597447
+        ],
+        [
+          -1768.4372566517152,
+          2883.9844484214204
+        ],
+        [
+          -1742.694526132434,
+          2875.038282621395
+        ],
+        [
+          -1661.3731307286826,
+          2866.504505133204
+        ],
+        [
+          -1630.3075032499046,
+          2863.591181251795
+        ],
+        [
+          -1628.3677056600072,
+          2863.4049413689168
+        ]
+      ]
+    },
+    {
+      "id": "way/552611348",
+      "version": 1,
+      "timestamp": "2018-01-12 14:38:04+00:00",
+      "tags": {
+        "layer": "-1",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "5335086034",
+        "5335086033",
+        "5335086032",
+        "5335086031",
+        "5335086030",
+        "5335086029"
+      ],
+      "pointsGame": [
+        [
+          -8917.740244756857,
+          1273.5149702067588
+        ],
+        [
+          -8931.694086350863,
+          1305.3486873217555
+        ],
+        [
+          -8938.35636735998,
+          1329.8392319137592
+        ],
+        [
+          -8946.404218076166,
+          1359.7240816833523
+        ],
+        [
+          -8948.263190767168,
+          1388.0658009951483
+        ],
+        [
+          -8956.778671259695,
+          1461.3112863419663
+        ]
+      ]
+    },
+    {
+      "id": "way/586743455",
+      "version": 12,
+      "timestamp": "2022-05-31 02:17:50+00:00",
+      "tags": {
+        "waterway": "river"
+      },
+      "nodeIds": [
+        "9784314244",
+        "9784314243",
+        "9784314242",
+        "9784314241",
+        "9784314240",
+        "9784314239",
+        "6047537794",
+        "6047537793",
+        "6047537792",
+        "6047537791",
+        "6047537790",
+        "6047537789",
+        "6047537788",
+        "6047537787",
+        "6047537786",
+        "6047537785",
+        "6047537465",
+        "6047537464",
+        "6047537463",
+        "6047537468",
+        "6047537462",
+        "6047537461",
+        "6047537480",
+        "6047537460",
+        "6047537459",
+        "6047537387",
+        "6047537386",
+        "6047537385",
+        "6047537384",
+        "6047537383",
+        "6047537382",
+        "6050456816",
+        "6044376679",
+        "9784314237",
+        "6069470315",
+        "6050456812",
+        "6050456811",
+        "6050456810",
+        "6050456809",
+        "6043983638",
+        "6043983635",
+        "4911757842",
+        "9784314238",
+        "5212496381",
+        "5212496380",
+        "5212496379",
+        "5212496378"
+      ],
+      "pointsGame": [
+        [
+          -10971.754964495107,
+          253.02018367145482
+        ],
+        [
+          -10730.527278456546,
+          351.78718439021736
+        ],
+        [
+          -10701.551551952734,
+          353.8690802232563
+        ],
+        [
+          -10638.35225367938,
+          352.4789325264876
+        ],
+        [
+          -10485.772162871726,
+          368.8081793958206
+        ],
+        [
+          -10365.666362077825,
+          372.6327484182277
+        ],
+        [
+          -10292.675704540085,
+          383.7539299928494
+        ],
+        [
+          -10164.037103632521,
+          397.5822412928445
+        ],
+        [
+          -10105.768124233628,
+          401.14740476420934
+        ],
+        [
+          -10069.910734851097,
+          408.28438313116715
+        ],
+        [
+          -10001.336580754029,
+          414.96906463973994
+        ],
+        [
+          -9870.452202279657,
+          426.1235033364477
+        ],
+        [
+          -9761.996733441963,
+          437.47083334002565
+        ],
+        [
+          -9665.272421459375,
+          445.1399256579969
+        ],
+        [
+          -9601.080131562347,
+          452.8023665515038
+        ],
+        [
+          -9559.137781881433,
+          457.05927815913884
+        ],
+        [
+          -9518.696466049569,
+          464.88800466236694
+        ],
+        [
+          -9505.770255322323,
+          461.3827040104734
+        ],
+        [
+          -9388.348995836894,
+          477.56561954347853
+        ],
+        [
+          -9382.454551373436,
+          480.1729779030664
+        ],
+        [
+          -9375.642166979249,
+          483.18607315026065
+        ],
+        [
+          -9254.225848171222,
+          505.94059597712413
+        ],
+        [
+          -9250.536768825534,
+          506.120184435538
+        ],
+        [
+          -9186.177055922304,
+          509.31286814138247
+        ],
+        [
+          -9097.235027128849,
+          514.3679506753015
+        ],
+        [
+          -9064.92816012048,
+          516.5429664496613
+        ],
+        [
+          -8997.364317269037,
+          531.2891743151192
+        ],
+        [
+          -8942.391839132435,
+          536.3708625464234
+        ],
+        [
+          -8903.214855658887,
+          540.222037266452
+        ],
+        [
+          -8872.553352677869,
+          545.1573941614284
+        ],
+        [
+          -8814.330558936424,
+          560.7150758020991
+        ],
+        [
+          -8800.474861864088,
+          561.1740240847123
+        ],
+        [
+          -8757.822407707683,
+          577.6496022906094
+        ],
+        [
+          -8703.675498188552,
+          605.8316874171486
+        ],
+        [
+          -8632.809380868046,
+          634.0204239681523
+        ],
+        [
+          -8516.358020177566,
+          678.4386360229396
+        ],
+        [
+          -8477.39464536767,
+          694.4552659462236
+        ],
+        [
+          -8413.987511637437,
+          720.5288495421022
+        ],
+        [
+          -8323.64836672255,
+          757.6637518933677
+        ],
+        [
+          -8158.35567385048,
+          825.6213548526098
+        ],
+        [
+          -8101.13164493948,
+          852.6726978334226
+        ],
+        [
+          -8052.977324403835,
+          872.9063308180273
+        ],
+        [
+          -7456.37410127485,
+          1139.4688145408134
+        ],
+        [
+          -7265.050017527724,
+          1211.2243808250773
+        ],
+        [
+          -7238.724193089299,
+          1218.3081477967921
+        ],
+        [
+          -7212.710121834554,
+          1232.7882986867432
+        ],
+        [
+          -7125.707890630997,
+          1261.449286369289
+        ]
+      ]
+    },
+    {
+      "id": "way/586743457",
+      "version": 5,
+      "timestamp": "2026-04-28 01:40:53+00:00",
+      "tags": {
+        "intermittent": "no",
+        "name": "余杭塘河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "5100595896",
+        "2466794387",
+        "5762696921",
+        "6049600233",
+        "5100595897",
+        "6049600234"
+      ],
+      "pointsGame": [
+        [
+          -7444.8045942191775,
+          1875.475528630958
+        ],
+        [
+          -7389.052733122554,
+          1906.2716235415494
+        ],
+        [
+          -7316.114034448215,
+          1943.499645834136
+        ],
+        [
+          -7114.530961659541,
+          2029.5890316717869
+        ],
+        [
+          -7046.51680865289,
+          2057.338774213334
+        ],
+        [
+          -6999.880841588251,
+          2078.330669577909
+        ]
+      ]
+    },
+    {
+      "id": "way/587415777",
+      "version": 9,
+      "timestamp": "2026-04-28 01:40:53+00:00",
+      "tags": {
+        "intermittent": "no",
+        "name": "余杭塘河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "5100595913",
+        "5100595914",
+        "5100595915",
+        "5551755077",
+        "11297258804",
+        "11297258803",
+        "11297258802",
+        "11297258801",
+        "11297258800",
+        "11297258799",
+        "5100596121",
+        "276121725",
+        "7791225969",
+        "7791225970",
+        "276121726",
+        "5551754985",
+        "304733377",
+        "304733378",
+        "276121727",
+        "276121728",
+        "5611050448",
+        "304733380",
+        "304733382",
+        "276121729",
+        "5611050453",
+        "9434180231",
+        "5611050452",
+        "276121730",
+        "304733384",
+        "276121731",
+        "4870125343",
+        "304734000",
+        "276121732",
+        "276121733",
+        "317734461",
+        "11295517512",
+        "5611050451",
+        "276121734",
+        "11295517511",
+        "332555491",
+        "276121736",
+        "276121737",
+        "5611050450",
+        "11295517509"
+      ],
+      "pointsGame": [
+        [
+          -6503.71987582386,
+          2108.5347877180157
+        ],
+        [
+          -6432.703655118285,
+          2081.742850288245
+        ],
+        [
+          -6395.0854375647805,
+          2052.1107546452295
+        ],
+        [
+          -6357.426807562239,
+          2005.6572067284183
+        ],
+        [
+          -6332.913770158188,
+          1979.417337522582
+        ],
+        [
+          -6291.167709518971,
+          1926.265805248269
+        ],
+        [
+          -6236.535850601545,
+          1860.5364294583935
+        ],
+        [
+          -6212.172916581741,
+          1836.9903871294744
+        ],
+        [
+          -6165.715918938488,
+          1813.7503103221397
+        ],
+        [
+          -6124.345116761534,
+          1795.7848130534521
+        ],
+        [
+          -6013.874798640998,
+          1735.196988314825
+        ],
+        [
+          -5911.914187806218,
+          1677.5623960036842
+        ],
+        [
+          -5881.241138410837,
+          1665.49006074175
+        ],
+        [
+          -5850.192830553192,
+          1656.2512322685961
+        ],
+        [
+          -5789.025701183815,
+          1643.0614577096283
+        ],
+        [
+          -5769.529580760709,
+          1641.2323160034034
+        ],
+        [
+          -5751.361297974502,
+          1647.9901631801401
+        ],
+        [
+          -5684.46714714787,
+          1680.5222798556354
+        ],
+        [
+          -5635.41220630263,
+          1691.3641016060578
+        ],
+        [
+          -5589.826962933475,
+          1693.0469119759548
+        ],
+        [
+          -5532.4181913943185,
+          1672.9795646013074
+        ],
+        [
+          -5478.813963343653,
+          1659.3707503060405
+        ],
+        [
+          -5400.529274881913,
+          1634.6208001627583
+        ],
+        [
+          -5276.4976932515865,
+          1622.781264754481
+        ],
+        [
+          -5240.576798590474,
+          1623.7989326857294
+        ],
+        [
+          -5162.811698768474,
+          1642.8552635535927
+        ],
+        [
+          -5131.907721089128,
+          1645.8018445570876
+        ],
+        [
+          -5090.837125682313,
+          1649.087648204017
+        ],
+        [
+          -5019.393687650254,
+          1619.1229813417954
+        ],
+        [
+          -4965.368015480697,
+          1587.8878924217477
+        ],
+        [
+          -4807.822966554676,
+          1540.8822762805294
+        ],
+        [
+          -4784.11240493937,
+          1536.0932507221173
+        ],
+        [
+          -4705.244622559307,
+          1524.453258045411
+        ],
+        [
+          -4395.627525051831,
+          1516.3784288398333
+        ],
+        [
+          -4104.16716391702,
+          1499.86959351185
+        ],
+        [
+          -4098.359317560869,
+          1499.543673716872
+        ],
+        [
+          -4007.211923649645,
+          1495.3798820507943
+        ],
+        [
+          -3976.5735134973506,
+          1487.4779898794025
+        ],
+        [
+          -3908.657505011549,
+          1451.374058308314
+        ],
+        [
+          -3847.5654273342952,
+          1447.749032017478
+        ],
+        [
+          -3615.0033251733307,
+          1442.7272066054088
+        ],
+        [
+          -3495.7635054475777,
+          1411.385694895111
+        ],
+        [
+          -3309.8835560078805,
+          1387.8263497172632
+        ],
+        [
+          -3191.076726815382,
+          1381.713690706018
+        ]
+      ]
+    },
+    {
+      "id": "way/614072790",
+      "version": 6,
+      "timestamp": "2026-04-23 03:58:23+00:00",
+      "tags": {
+        "name": "中河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10935532616",
+        "304739823",
+        "304739825",
+        "304739826",
+        "304739827",
+        "13754123386",
+        "304739829",
+        "304739830",
+        "9446899487",
+        "8943241733",
+        "304739831",
+        "304739833",
+        "304739834",
+        "304739835",
+        "304739837",
+        "304739838",
+        "304739839",
+        "304739840",
+        "304739841",
+        "304739842",
+        "304739843",
+        "304739844",
+        "304739845",
+        "304739846",
+        "304739847",
+        "304739848",
+        "304739849",
+        "304739850"
+      ],
+      "pointsGame": [
+        [
+          707.3737480196601,
+          -790.0761429299203
+        ],
+        [
+          701.4504375207068,
+          -783.2584329337124
+        ],
+        [
+          697.9403275955834,
+          -686.0611683701322
+        ],
+        [
+          694.8574349969433,
+          -611.5984723607312
+        ],
+        [
+          689.9963946070169,
+          -564.8190046487056
+        ],
+        [
+          686.9481412514637,
+          -528.0698849118895
+        ],
+        [
+          686.4112329897691,
+          -503.44631183225073
+        ],
+        [
+          682.445039702667,
+          -453.64709744880264
+        ],
+        [
+          681.9254510621057,
+          -434.7437493417315
+        ],
+        [
+          681.6136978784252,
+          -423.3232536697533
+        ],
+        [
+          678.9753422274016,
+          -327.42301686162085
+        ],
+        [
+          676.498636374989,
+          -266.77532930328596
+        ],
+        [
+          673.5254347115603,
+          -224.37249883783798
+        ],
+        [
+          666.0953171567841,
+          -181.96966837239
+        ],
+        [
+          661.6326280578453,
+          -148.93869486796734
+        ],
+        [
+          662.129123869682,
+          -111.95677527773053
+        ],
+        [
+          659.6524180172695,
+          -46.380382248883706
+        ],
+        [
+          660.1489138291062,
+          -2.993140974037183
+        ],
+        [
+          704.2504429711621,
+          9.331948414474828
+        ],
+        [
+          752.3123921919083,
+          16.72833233247493
+        ],
+        [
+          790.4675180062862,
+          17.220537737174197
+        ],
+        [
+          815.2461229390304,
+          26.093537869035792
+        ],
+        [
+          865.7905512189601,
+          45.81501117578421
+        ],
+        [
+          907.9060971136693,
+          68.49636833448378
+        ],
+        [
+          935.6579037090218,
+          75.89275225272019
+        ],
+        [
+          977.2769537918942,
+          81.80586853239433
+        ],
+        [
+          1029.8073653191707,
+          88.2178416412322
+        ],
+        [
+          1071.8651791420682,
+          98.05529830933523
+        ]
+      ]
+    },
+    {
+      "id": "way/643214737",
+      "version": 6,
+      "timestamp": "2026-04-28 01:40:53+00:00",
+      "tags": {
+        "intermittent": "no",
+        "name": "余杭塘河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "304733847",
+        "8963684541",
+        "6053609889",
+        "304733848",
+        "8701636324",
+        "304733850",
+        "5762696911",
+        "5100595896"
+      ],
+      "pointsGame": [
+        [
+          -8385.987457136165,
+          1508.3169024831845
+        ],
+        [
+          -8381.472809173007,
+          1510.046272823624
+        ],
+        [
+          -8365.302056047689,
+          1512.5405569687337
+        ],
+        [
+          -8186.3384087306185,
+          1579.108012231207
+        ],
+        [
+          -7854.430958557173,
+          1715.2294123057268
+        ],
+        [
+          -7528.2909422908415,
+          1849.5881849179575
+        ],
+        [
+          -7494.38489691175,
+          1866.4428943138396
+        ],
+        [
+          -7444.8045942191775,
+          1875.475528630958
+        ]
+      ]
+    },
+    {
+      "id": "way/662618623",
+      "version": 3,
+      "timestamp": "2021-03-19 19:17:13+00:00",
+      "tags": {
+        "seamark:type": "gate",
+        "waterway": "lock_gate"
+      },
+      "nodeIds": [
+        "5070765368",
+        "6204731882"
+      ],
+      "pointsGame": [
+        [
+          1055.7463848809705,
+          140.9303799060891
+        ],
+        [
+          1059.6837121325768,
+          141.85492789601633
+        ]
+      ]
+    },
+    {
+      "id": "way/662789912",
+      "version": 2,
+      "timestamp": "2021-03-19 19:17:13+00:00",
+      "tags": {
+        "seamark:type": "gate",
+        "waterway": "lock_gate"
+      },
+      "nodeIds": [
+        "6204731878",
+        "6204731881"
+      ],
+      "pointsGame": [
+        [
+          1061.3175297455648,
+          117.61048600636241
+        ],
+        [
+          1065.225990961676,
+          118.66141105946039
+        ]
+      ]
+    },
+    {
+      "id": "way/662789914",
+      "version": 3,
+      "timestamp": "2026-04-27 01:37:04+00:00",
+      "tags": {
+        "name": "东河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "6204731882",
+        "304736574",
+        "11112434624"
+      ],
+      "pointsGame": [
+        [
+          1059.6837121325768,
+          141.85492789601633
+        ],
+        [
+          1054.5628774223699,
+          163.17274305533252
+        ],
+        [
+          1051.3645206817473,
+          180.14052666592892
+        ]
+      ]
+    },
+    {
+      "id": "way/662789916",
+      "version": 2,
+      "timestamp": "2021-03-19 19:17:13+00:00",
+      "tags": {
+        "seamark:type": "gate",
+        "waterway": "lock_gate"
+      },
+      "nodeIds": [
+        "6204731882",
+        "6203237753"
+      ],
+      "pointsGame": [
+        [
+          1059.6837121325768,
+          141.85492789601633
+        ],
+        [
+          1062.968666979686,
+          142.61984170045048
+        ]
+      ]
+    },
+    {
+      "id": "way/662789918",
+      "version": 2,
+      "timestamp": "2026-04-27 01:37:04+00:00",
+      "tags": {
+        "lock": "yes",
+        "name": "东河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "6204731881",
+        "6204731882"
+      ],
+      "pointsGame": [
+        [
+          1065.225990961676,
+          118.66141105946039
+        ],
+        [
+          1059.6837121325768,
+          141.85492789601633
+        ]
+      ]
+    },
+    {
+      "id": "way/662789921",
+      "version": 2,
+      "timestamp": "2021-03-19 19:17:13+00:00",
+      "tags": {
+        "seamark:type": "gate",
+        "waterway": "lock_gate"
+      },
+      "nodeIds": [
+        "6204731881",
+        "6204731879"
+      ],
+      "pointsGame": [
+        [
+          1065.225990961676,
+          118.66141105946039
+        ],
+        [
+          1068.5167190163763,
+          119.54605050283713
+        ]
+      ]
+    },
+    {
+      "id": "way/833501276",
+      "version": 1,
+      "timestamp": "2020-08-03 11:43:04+00:00",
+      "tags": {
+        "waterway": "stream"
+      },
+      "nodeIds": [
+        "7780832114",
+        "7780832115",
+        "332675030",
+        "332675060"
+      ],
+      "pointsGame": [
+        [
+          -2414.158925904523,
+          3780.0576903786186
+        ],
+        [
+          -2416.560580063991,
+          3779.7517248567974
+        ],
+        [
+          -2457.712000369702,
+          3772.747774977475
+        ],
+        [
+          -2896.6720300526376,
+          3703.7858069359136
+        ]
+      ]
+    },
+    {
+      "id": "way/891432271",
+      "version": 1,
+      "timestamp": "2021-01-03 09:00:56+00:00",
+      "tags": {
+        "name": "官河",
+        "waterway": "ditch"
+      },
+      "nodeIds": [
+        "337363808",
+        "337363821",
+        "337363848",
+        "337363864",
+        "337363956",
+        "337363978",
+        "5040427880",
+        "6057607005",
+        "337363989",
+        "337364002",
+        "337364016",
+        "337364029",
+        "337364039",
+        "337364051",
+        "337364065"
+      ],
+      "pointsGame": [
+        [
+          3517.1763306318558,
+          952.0316753226699
+        ],
+        [
+          3531.2225435399405,
+          889.0227321070968
+        ],
+        [
+          3540.0093647671115,
+          858.4261799280762
+        ],
+        [
+          3554.2403203017116,
+          822.5616996346369
+        ],
+        [
+          3562.8539453159087,
+          801.3835643874204
+        ],
+        [
+          3574.994999875542,
+          799.820479656466
+        ],
+        [
+          3586.495228445861,
+          806.05286430689
+        ],
+        [
+          3594.3525633279405,
+          807.3232863647161
+        ],
+        [
+          3599.5830889725385,
+          805.108362044042
+        ],
+        [
+          3601.2342262074803,
+          795.6234308685385
+        ],
+        [
+          3615.263119493611,
+          763.849576573013
+        ],
+        [
+          3621.3538529987673,
+          747.5070268547511
+        ],
+        [
+          3621.9080808815947,
+          740.52968267305
+        ],
+        [
+          3611.481668833845,
+          708.7092684069821
+        ],
+        [
+          3568.2230279312134,
+          694.3621460046662
+        ]
+      ]
+    },
+    {
+      "id": "way/911827251",
+      "version": 2,
+      "timestamp": "2021-03-27 13:24:03+00:00",
+      "tags": {
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "7638476751",
+        "8467188046",
+        "8467188047",
+        "8467188048",
+        "8467188127",
+        "8467188049",
+        "8467188050",
+        "8467188051",
+        "8467188052",
+        "8467188053",
+        "8467188054",
+        "8467188055",
+        "8467188056",
+        "8467188057",
+        "8467188058",
+        "8467188059",
+        "8467188060",
+        "8467188061",
+        "8567048607",
+        "8467188062"
+      ],
+      "pointsGame": [
+        [
+          -6171.598816986763,
+          -226.26815478823482
+        ],
+        [
+          -6166.183548714009,
+          -235.81960020743773
+        ],
+        [
+          -6165.629320831181,
+          -251.9958643159784
+        ],
+        [
+          -6157.090747509928,
+          -260.48973325785516
+        ],
+        [
+          -6150.197538216847,
+          -261.520704037796
+        ],
+        [
+          -6146.069695130313,
+          -262.13928650590236
+        ],
+        [
+          -6137.254007867647,
+          -272.8281254952961
+        ],
+        [
+          -6129.818117105279,
+          -279.95845243778945
+        ],
+        [
+          -6121.55088451867,
+          -297.2255501457423
+        ],
+        [
+          -6118.248610049607,
+          -306.8169041114957
+        ],
+        [
+          -6108.878694904113,
+          -308.1870975351073
+        ],
+        [
+          -6088.770614527189,
+          -301.0634220170784
+        ],
+        [
+          -6071.687694677093,
+          -294.21245489878436
+        ],
+        [
+          -6055.159002710645,
+          -288.17961297993133
+        ],
+        [
+          -6044.692178213857,
+          -284.8871579085377
+        ],
+        [
+          -6031.465760716473,
+          -279.133675813884
+        ],
+        [
+          -6019.8962536608005,
+          -272.5554170955612
+        ],
+        [
+          -6007.778291929071,
+          -267.6200602005848
+        ],
+        [
+          -5995.897031688898,
+          -264.8397648068112
+        ],
+        [
+          -5989.044234844854,
+          -263.2367715295427
+        ]
+      ]
+    },
+    {
+      "id": "way/968854721",
+      "version": 2,
+      "timestamp": "2026-04-28 01:40:53+00:00",
+      "tags": {
+        "intermittent": "no",
+        "name": "余杭塘河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "5335085344",
+        "3747218062",
+        "5762696853",
+        "5762694452",
+        "6045997898",
+        "6053609888",
+        "304733847"
+      ],
+      "pointsGame": [
+        [
+          -8908.185586984026,
+          1280.1331374716322
+        ],
+        [
+          -8845.777218085057,
+          1303.7722997421085
+        ],
+        [
+          -8790.57381166367,
+          1327.4912791052136
+        ],
+        [
+          -8746.35104517286,
+          1353.7910111302847
+        ],
+        [
+          -8468.838752424464,
+          1465.7012264372365
+        ],
+        [
+          -8422.653095515034,
+          1489.4069029516488
+        ],
+        [
+          -8385.987457136165,
+          1508.3169024831845
+        ]
+      ]
+    },
+    {
+      "id": "way/1065171673",
+      "version": 1,
+      "timestamp": "2022-05-30 13:40:46+00:00",
+      "tags": {
+        "name": "九曲港",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "9782142745",
+        "5100595891",
+        "5100595892",
+        "5100595894",
+        "6049600236",
+        "6049600238",
+        "6049600237",
+        "5100595896"
+      ],
+      "pointsGame": [
+        [
+          -7525.387019111945,
+          2062.014725557032
+        ],
+        [
+          -7509.712761798464,
+          2025.298862942302
+        ],
+        [
+          -7476.522594101632,
+          1952.9912284341037
+        ],
+        [
+          -7475.754757555973,
+          1914.905172395762
+        ],
+        [
+          -7471.205470350547,
+          1905.047761454502
+        ],
+        [
+          -7464.271848606788,
+          1895.8222358300409
+        ],
+        [
+          -7454.774922904949,
+          1885.133396840647
+        ],
+        [
+          -7444.8045942191775,
+          1875.475528630958
+        ]
+      ]
+    },
+    {
+      "id": "way/1065384369",
+      "version": 2,
+      "timestamp": "2026-01-15 13:48:20+00:00",
+      "tags": {
+        "name": "香樟港",
+        "waterway": "river"
+      },
+      "nodeIds": [
+        "5100595896",
+        "5605833302",
+        "5605833303",
+        "5605833304",
+        "5605833305",
+        "5605833312",
+        "9724012208",
+        "5212496378"
+      ],
+      "pointsGame": [
+        [
+          -7444.8045942191775,
+          1875.475528630958
+        ],
+        [
+          -7443.742324110151,
+          1852.7476115014797
+        ],
+        [
+          -7420.891970354583,
+          1768.9130585310534
+        ],
+        [
+          -7372.59331964146,
+          1641.1857560326248
+        ],
+        [
+          -7275.880554072412,
+          1484.9038886416643
+        ],
+        [
+          -7225.965405367435,
+          1406.5434579416922
+        ],
+        [
+          -7169.307150753624,
+          1334.9009658721425
+        ],
+        [
+          -7125.707890630997,
+          1261.449286369289
+        ]
+      ]
+    },
+    {
+      "id": "way/1119515764",
+      "version": 2,
+      "timestamp": "2026-01-31 09:44:31+00:00",
+      "tags": {
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10239545214",
+        "10239545213",
+        "10239545212",
+        "10239545211",
+        "10239545210",
+        "10239545209",
+        "10239545208"
+      ],
+      "pointsGame": [
+        [
+          1211.807719578252,
+          -7048.394696987838
+        ],
+        [
+          1228.3248651303375,
+          -7083.155040832936
+        ],
+        [
+          1229.6757955951405,
+          -7096.311558270054
+        ],
+        [
+          1221.8935124060056,
+          -7124.320706362644
+        ],
+        [
+          1203.4307960564313,
+          -7151.651409167656
+        ],
+        [
+          1176.5218776996828,
+          -7179.733722928409
+        ],
+        [
+          1163.1915424738575,
+          -7207.962368025727
+        ]
+      ]
+    },
+    {
+      "id": "way/1119515786",
+      "version": 2,
+      "timestamp": "2026-01-31 09:44:31+00:00",
+      "tags": {
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10239545208",
+        "13514013312",
+        "13514013313",
+        "5259365224",
+        "10239545268"
+      ],
+      "pointsGame": [
+        [
+          1163.1915424738575,
+          -7207.962368025727
+        ],
+        [
+          1160.9284452850968,
+          -7221.165445433388
+        ],
+        [
+          1148.6950194113854,
+          -7263.741212933021
+        ],
+        [
+          1142.0442848166308,
+          -7298.248802651306
+        ],
+        [
+          1142.0385116090395,
+          -7302.119931644492
+        ]
+      ]
+    },
+    {
+      "id": "way/1120244645",
+      "version": 2,
+      "timestamp": "2026-01-31 09:44:31+00:00",
+      "tags": {
+        "name": "冠山河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10245940790",
+        "10245940791"
+      ],
+      "pointsGame": [
+        [
+          1855.456807476406,
+          -7616.492853859244
+        ],
+        [
+          1858.909185330538,
+          -7609.562069648322
+        ]
+      ]
+    },
+    {
+      "id": "way/1120244646",
+      "version": 2,
+      "timestamp": "2026-01-31 09:44:31+00:00",
+      "tags": {
+        "layer": "-1",
+        "name": "冠山河",
+        "tunnel": "culvert",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10245940791",
+        "10245940792"
+      ],
+      "pointsGame": [
+        [
+          1858.909185330538,
+          -7609.562069648322
+        ],
+        [
+          1861.4205304252173,
+          -7604.520289963096
+        ]
+      ]
+    },
+    {
+      "id": "way/1120244647",
+      "version": 2,
+      "timestamp": "2026-01-31 09:44:31+00:00",
+      "tags": {
+        "layer": "-1",
+        "name": "冠山河",
+        "tunnel": "culvert",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10245940792",
+        "10245940793"
+      ],
+      "pointsGame": [
+        [
+          1861.4205304252173,
+          -7604.520289963096
+        ],
+        [
+          1863.787545341598,
+          -7599.764521526533
+        ]
+      ]
+    },
+    {
+      "id": "way/1120244648",
+      "version": 2,
+      "timestamp": "2026-01-31 09:44:31+00:00",
+      "tags": {
+        "name": "冠山河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10245940793",
+        "10245940789",
+        "10245940788",
+        "10245940787",
+        "10245940786",
+        "10245940785",
+        "10245940796"
+      ],
+      "pointsGame": [
+        [
+          1863.787545341598,
+          -7599.764521526533
+        ],
+        [
+          1870.2939497588745,
+          -7586.707775455437
+        ],
+        [
+          1886.4589296774218,
+          -7562.217230863433
+        ],
+        [
+          1961.6953647827884,
+          -7511.327182880573
+        ],
+        [
+          2050.8105897900373,
+          -7466.05093708003
+        ],
+        [
+          2056.145033163076,
+          -7457.703399474717
+        ],
+        [
+          2052.438634195434,
+          -7448.943473557334
+        ]
+      ]
+    },
+    {
+      "id": "way/1120919577",
+      "version": 1,
+      "timestamp": "2022-12-11 03:14:17+00:00",
+      "tags": {
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10252325105",
+        "10252325104",
+        "10252325103",
+        "10252325102",
+        "3461606614"
+      ],
+      "pointsGame": [
+        [
+          3356.5888015578735,
+          -6822.811638911645
+        ],
+        [
+          3309.0348945625055,
+          -6834.425025890966
+        ],
+        [
+          3222.875551597552,
+          -6844.714779417218
+        ],
+        [
+          3163.827189238637,
+          -6852.131117608375
+        ],
+        [
+          3048.1552115081777,
+          -6863.505053309811
+        ]
+      ]
+    },
+    {
+      "id": "way/1273358137",
+      "version": 3,
+      "timestamp": "2026-03-04 13:36:44+00:00",
+      "tags": {
+        "name": "槐河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "5059396337",
+        "13514013309",
+        "5059396336",
+        "3461606624",
+        "5059396335",
+        "5059396334",
+        "13617833495",
+        "5059396333",
+        "13617833496",
+        "3461606625",
+        "13617833498",
+        "5059396344",
+        "13617833499",
+        "13617833500",
+        "5059396345",
+        "5059396346",
+        "13617833457",
+        "5059396347",
+        "13617833555",
+        "5059396348",
+        "5059396349",
+        "13514013311",
+        "13514002292",
+        "13617833452",
+        "13617833445",
+        "13617833446",
+        "13617828439"
+      ],
+      "pointsGame": [
+        [
+          2055.1347219182694,
+          -6749.03403961405
+        ],
+        [
+          2025.9165207153108,
+          -6752.279934714665
+        ],
+        [
+          2010.363500751403,
+          -6756.3705607125785
+        ],
+        [
+          1992.5820228410014,
+          -6765.802280493075
+        ],
+        [
+          1978.2182835424653,
+          -6744.637448094315
+        ],
+        [
+          1915.0074388547496,
+          -6673.201150180801
+        ],
+        [
+          1891.799146257231,
+          -6650.5863072658
+        ],
+        [
+          1855.1623739138588,
+          -6621.845502490863
+        ],
+        [
+          1836.3070794808882,
+          -6610.4649153649625
+        ],
+        [
+          1822.5495269285798,
+          -6599.376990912427
+        ],
+        [
+          1817.2612692121702,
+          -6593.497131754602
+        ],
+        [
+          1809.24805773825,
+          -6586.958781582358
+        ],
+        [
+          1801.9276311186852,
+          -6586.326896265558
+        ],
+        [
+          1795.3461750084637,
+          -6590.184722409816
+        ],
+        [
+          1782.7028514302228,
+          -6596.476969879711
+        ],
+        [
+          1769.0376701919924,
+          -6589.7656826735165
+        ],
+        [
+          1753.0458864872392,
+          -6575.132549022773
+        ],
+        [
+          1719.4285014639245,
+          -6510.833229476217
+        ],
+        [
+          1716.0627217162792,
+          -6500.417098886558
+        ],
+        [
+          1699.4416584365736,
+          -6471.011151672735
+        ],
+        [
+          1691.232157920135,
+          -6455.892464041756
+        ],
+        [
+          1685.1356512082082,
+          -6443.394437619059
+        ],
+        [
+          1683.6230709447939,
+          -6441.046484810513
+        ],
+        [
+          1682.7744094985985,
+          -6440.002211181643
+        ],
+        [
+          1680.3034768545979,
+          -6436.523516227371
+        ],
+        [
+          1634.1351395662998,
+          -6434.514786062733
+        ],
+        [
+          1630.4056477707538,
+          -6434.335197604319
+        ]
+      ]
+    },
+    {
+      "id": "way/1411752621",
+      "version": 1,
+      "timestamp": "2025-07-03 05:48:41+00:00",
+      "tags": {
+        "name": "炮台湾",
+        "waterway": "river"
+      },
+      "nodeIds": [
+        "1072745024",
+        "12972839407",
+        "7123689552",
+        "12972839408",
+        "12972839409",
+        "12972839410",
+        "12972839411",
+        "12972839412",
+        "12972839413"
+      ],
+      "pointsGame": [
+        [
+          7953.227851893596,
+          -5423.398507912682
+        ],
+        [
+          7958.117758319018,
+          -5384.221618274692
+        ],
+        [
+          7965.894268301383,
+          -5343.8275179741195
+        ],
+        [
+          8023.868814136908,
+          -4983.100819208104
+        ],
+        [
+          8071.480453203268,
+          -4692.959036034077
+        ],
+        [
+          8102.736596516973,
+          -4504.244823333643
+        ],
+        [
+          8107.158873166053,
+          -4477.532702996501
+        ],
+        [
+          8123.670245511368,
+          -4377.85445713674
+        ],
+        [
+          8138.4034700653965,
+          -4293.328156030043
+        ]
+      ]
+    },
+    {
+      "id": "way/1472905720",
+      "version": 2,
+      "timestamp": "2026-02-17 08:44:56+00:00",
+      "tags": {
+        "name": "越剑河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "13514013308",
+        "3461606609",
+        "13572096397",
+        "3461606633",
+        "13572096399",
+        "3461606616"
+      ],
+      "pointsGame": [
+        [
+          2756.9661911080098,
+          -7067.451027855937
+        ],
+        [
+          2757.988048767179,
+          -7049.34585067515
+        ],
+        [
+          2755.863508549125,
+          -7032.989998108195
+        ],
+        [
+          2754.1604124507835,
+          -7019.873389217628
+        ],
+        [
+          2719.844469367163,
+          -6891.966498260549
+        ],
+        [
+          2715.7570387304872,
+          -6876.734736415093
+        ]
+      ]
+    },
+    {
+      "id": "way/1484314077",
+      "version": 2,
+      "timestamp": "2026-05-02 06:17:58+00:00",
+      "tags": {
+        "name": "北塘河",
+        "source": "bing",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "13609682213",
+        "1286462401",
+        "1286462490"
+      ],
+      "pointsGame": [
+        [
+          1308.8380115377515,
+          -4807.769272373745
+        ],
+        [
+          1262.5715297286044,
+          -4808.161706412422
+        ],
+        [
+          1215.9297894571944,
+          -4749.150269253206
+        ]
+      ]
+    },
+    {
+      "id": "way/1543136978",
+      "version": 2,
+      "timestamp": "2026-07-30 14:05:41+00:00",
+      "tags": {
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "10252620643",
+        "14061661299",
+        "14061661298",
+        "14040771895",
+        "14061682901",
+        "14061682805",
+        "14040771900",
+        "14061682818",
+        "14061682820",
+        "14061682821",
+        "14061682824"
+      ],
+      "pointsGame": [
+        [
+          6113.785920950669,
+          -6389.990151217932
+        ],
+        [
+          6118.063867421451,
+          -6390.0965740079455
+        ],
+        [
+          6142.71546179703,
+          -6388.846106223276
+        ],
+        [
+          6144.689898630015,
+          -6388.746334857491
+        ],
+        [
+          6181.118835517326,
+          -6396.122764502334
+        ],
+        [
+          6188.751015321392,
+          -6396.7014384241265
+        ],
+        [
+          6206.093729490948,
+          -6397.845483418545
+        ],
+        [
+          6227.10820338506,
+          -6399.375311027414
+        ],
+        [
+          6251.632787204294,
+          -6405.162050243917
+        ],
+        [
+          6266.031165745917,
+          -6408.481111012932
+        ],
+        [
+          6274.038604012246,
+          -6409.698321675752
+        ]
+      ]
+    },
+    {
+      "id": "way/1545007169",
+      "version": 2,
+      "timestamp": "2026-07-30 14:05:41+00:00",
+      "tags": {
+        "name": "山阴河",
+        "waterway": "canal"
+      },
+      "nodeIds": [
+        "14053246723",
+        "14053246724",
+        "14053246725",
+        "14053246726",
+        "14053246727",
+        "14053246728",
+        "14053246729",
+        "14053246730",
+        "14053246731",
+        "14053246732",
+        "14053246733",
+        "14053246734",
+        "14053246735",
+        "14053246736",
+        "14053246737",
+        "14061682904",
+        "14053246738",
+        "14053246739",
+        "14053246740",
+        "14053246741",
+        "14053246742",
+        "14053246743",
+        "14053246744",
+        "14053246745",
+        "14053246746",
+        "14053246747",
+        "14053246748",
+        "14053246749",
+        "14053246750",
+        "14053246751"
+      ],
+      "pointsGame": [
+        [
+          6259.178368901873,
+          -6612.380525588516
+        ],
+        [
+          6257.896716922423,
+          -6557.020720417521
+        ],
+        [
+          6260.154040903592,
+          -6540.671519275031
+        ],
+        [
+          6268.577150082862,
+          -6475.653845894583
+        ],
+        [
+          6279.552016805849,
+          -6417.7531966081715
+        ],
+        [
+          6289.05471571528,
+          -6374.279486816469
+        ],
+        [
+          6299.509993797705,
+          -6328.158510118627
+        ],
+        [
+          6306.905472110214,
+          -6289.487128734266
+        ],
+        [
+          6312.632493567469,
+          -6256.7222122051135
+        ],
+        [
+          6346.007403891636,
+          -6252.890991758478
+        ],
+        [
+          6371.213226150044,
+          -6243.140003607467
+        ],
+        [
+          6387.060679677319,
+          -6234.499803329027
+        ],
+        [
+          6406.245046915924,
+          -6229.497932190115
+        ],
+        [
+          6460.98082356097,
+          -6222.041685452644
+        ],
+        [
+          6518.279904164094,
+          -6214.8049357199
+        ],
+        [
+          6574.0952705393,
+          -6203.836736906307
+        ],
+        [
+          6637.837250281939,
+          -6195.815119095736
+        ],
+        [
+          6681.7193975527525,
+          -6195.063508139994
+        ],
+        [
+          6716.653073797783,
+          -6196.087827495708
+        ],
+        [
+          6762.671307701012,
+          -6192.422892658557
+        ],
+        [
+          6760.477488997604,
+          -6178.893895455918
+        ],
+        [
+          6762.399966966369,
+          -6164.3472303220315
+        ],
+        [
+          6765.2981169376735,
+          -6155.647167224356
+        ],
+        [
+          6774.454423420336,
+          -6148.204223335577
+        ],
+        [
+          6776.769479472497,
+          -6137.069738912026
+        ],
+        [
+          6777.450717911669,
+          -6118.578779117026
+        ],
+        [
+          6772.809059392165,
+          -6101.77728111615
+        ],
+        [
+          6770.823076145639,
+          -6091.800144535948
+        ],
+        [
+          6767.093584350093,
+          -6069.617644206176
+        ],
+        [
+          6764.091516651169,
+          -6062.8664484536675
+        ]
+      ]
+    }
+  ]
+}

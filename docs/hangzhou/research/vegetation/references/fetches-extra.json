@@ -1,0 +1,22 @@
+[
+  {
+    "file": "docs/hangzhou/research/vegetation/references/westlake-forest-history.html",
+    "url": "https://www.hzzx.gov.cn/hzzx/content/2010-10/26/content_5139964.htm",
+    "bytes": 25830,
+    "sha256": "c347fefaf870afd76ca2bf86e6ec24cbcd3824bc904236a6af9e001550fe76de",
+    "status": "downloaded"
+  },
+  {
+    "file": "docs/hangzhou/research/vegetation/references/hangzhou-fall-color-study.html",
+    "url": "https://zlxb.zafu.edu.cn/article/zjnldxxb/2014/4/597",
+    "bytes": 154056,
+    "sha256": "6c977abc8d7838318ce5e0dbd0febdbc48be1b82dedc92680d1906f51cf1a2ac",
+    "status": "downloaded"
+  },
+  {
+    "file": "docs/hangzhou/research/vegetation/references/westlake-willow-park.html",
+    "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943144.html",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

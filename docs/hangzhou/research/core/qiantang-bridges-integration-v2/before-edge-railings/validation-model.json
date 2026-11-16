@@ -1,0 +1,1764 @@
+{
+  "scope": "pure source B build, retained primitive identity/rigid transform/ownership; no Blender/GLB/browser",
+  "moduleSha256": "36741820bbf1778ed6a565b0e6bcf9ac632aa3908037f76f3b331134311df85a",
+  "specSha256": "6b6de65f78f3d461d6a631ef29dfd2f0616c8454fdb849cc5a85df9a46043ef9",
+  "report": {
+    "id": "qiantang-bridges-integration-v2",
+    "bridges": [
+      {
+        "trussSpans": 16,
+        "riverPiers": 15,
+        "railTracks": 1,
+        "mainLengthM": 1072,
+        "detailedSleepersAndCatenary": "pending",
+        "id": "qiantang-bridge",
+        "triangles": 7688,
+        "faces": 3784,
+        "materials": [
+          "concrete",
+          "silver",
+          "steel"
+        ]
+      },
+      {
+        "largeArches": 2,
+        "smallArches": 9,
+        "archCalculationLengthM": 1145,
+        "mainLengthM": 1376,
+        "currentRailwayTracksDrawn": 0,
+        "id": "fuxing-bridge",
+        "triangles": 14132,
+        "faces": 7022,
+        "materials": [
+          "carpaint",
+          "concrete",
+          "silver"
+        ]
+      },
+      {
+        "archPylons": 2,
+        "staticRepresentativeStayCables": 112,
+        "mainSpanM": 246,
+        "sideSpansM": [
+          116,
+          116
+        ],
+        "pylonDatumConventionPending": true,
+        "id": "zhijiang-bridge",
+        "triangles": 1848,
+        "faces": 916,
+        "materials": [
+          "civicred",
+          "concrete",
+          "silver"
+        ]
+      }
+    ],
+    "triangles": 23668,
+    "faces": 11722,
+    "removedRoadDeckPrimitives": [
+      {
+        "bridgeId": "qiantang-bridge",
+        "stationRangeM": [
+          -536.0,
+          536.0
+        ],
+        "widthM": 9.14,
+        "nominalHeightRelativeM": 19,
+        "thicknessM": 0.65,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            -219.3856531274988,
+            489.0672960869708,
+            19
+          ],
+          [
+            211.01467297465115,
+            -492.7369406584015,
+            19
+          ],
+          [
+            219.3856531274988,
+            -489.0672960869708,
+            19
+          ],
+          [
+            -211.01467297465115,
+            492.7369406584015,
+            19
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -688,
+          -596.5
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3546.4314367930633,
+            2150.201912896618,
+            22
+          ],
+          [
+            3591.051970553128,
+            2070.3191364866375,
+            22
+          ],
+          [
+            3614.1001158779745,
+            2083.193257702656,
+            22
+          ],
+          [
+            3569.47958211791,
+            2163.0760341126365,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -688,
+          -596.5
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3546.4314367930633,
+            2150.201912896618,
+            12
+          ],
+          [
+            3591.051970553128,
+            2070.3191364866375,
+            12
+          ],
+          [
+            3614.1001158779745,
+            2083.193257702656,
+            12
+          ],
+          [
+            3569.47958211791,
+            2163.0760341126365,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -596.5,
+          -511.5
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3591.051970553128,
+            2070.3191364866375,
+            22
+          ],
+          [
+            3632.502739619854,
+            1996.1110928270923,
+            22
+          ],
+          [
+            3655.5508849447006,
+            2008.9852140431108,
+            22
+          ],
+          [
+            3614.1001158779745,
+            2083.193257702656,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -596.5,
+          -511.5
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3591.051970553128,
+            2070.3191364866375,
+            12
+          ],
+          [
+            3632.502739619854,
+            1996.1110928270923,
+            12
+          ],
+          [
+            3655.5508849447006,
+            2008.9852140431108,
+            12
+          ],
+          [
+            3614.1001158779745,
+            2083.193257702656,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -511.5,
+          -506.7
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3632.502739619854,
+            1996.1110928270923,
+            22
+          ],
+          [
+            3634.8434889318573,
+            1991.9205209498475,
+            22
+          ],
+          [
+            3657.891634256704,
+            2004.794642165866,
+            22
+          ],
+          [
+            3655.5508849447006,
+            2008.9852140431108,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -511.5,
+          -506.7
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3632.502739619854,
+            1996.1110928270923,
+            12
+          ],
+          [
+            3634.8434889318573,
+            1991.9205209498475,
+            12
+          ],
+          [
+            3657.891634256704,
+            2004.794642165866,
+            12
+          ],
+          [
+            3655.5508849447006,
+            2008.9852140431108,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -506.7,
+          -421.7
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3634.8434889318573,
+            1991.9205209498475,
+            22
+          ],
+          [
+            3676.2942579985834,
+            1917.7124772903026,
+            22
+          ],
+          [
+            3699.34240332343,
+            1930.586598506321,
+            22
+          ],
+          [
+            3657.891634256704,
+            2004.794642165866,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -506.7,
+          -421.7
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3634.8434889318573,
+            1991.9205209498475,
+            12
+          ],
+          [
+            3676.2942579985834,
+            1917.7124772903026,
+            12
+          ],
+          [
+            3699.34240332343,
+            1930.586598506321,
+            12
+          ],
+          [
+            3657.891634256704,
+            2004.794642165866,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -421.7,
+          -416.9
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3673.849757736857,
+            1916.3470401916338,
+            22
+          ],
+          [
+            3676.1905070488606,
+            1912.156468314389,
+            22
+          ],
+          [
+            3704.12765289716,
+            1927.761463727745,
+            22
+          ],
+          [
+            3701.7869035851563,
+            1931.9520356049898,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -421.7,
+          -416.9
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3673.849757736857,
+            1916.3470401916338,
+            12
+          ],
+          [
+            3676.1905070488606,
+            1912.156468314389,
+            12
+          ],
+          [
+            3704.12765289716,
+            1927.761463727745,
+            12
+          ],
+          [
+            3701.7869035851563,
+            1931.9520356049898,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -416.9,
+          -226.89999999999998
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3676.1905070488606,
+            1912.156468314389,
+            22
+          ],
+          [
+            3768.8451673156605,
+            1746.279664840112,
+            22
+          ],
+          [
+            3796.7823131639598,
+            1761.884660253468,
+            22
+          ],
+          [
+            3704.12765289716,
+            1927.761463727745,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -416.9,
+          -226.89999999999998
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3676.1905070488606,
+            1912.156468314389,
+            12
+          ],
+          [
+            3768.8451673156605,
+            1746.279664840112,
+            12
+          ],
+          [
+            3796.7823131639598,
+            1761.884660253468,
+            12
+          ],
+          [
+            3704.12765289716,
+            1927.761463727745,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -226.89999999999998,
+          -222.09999999999997
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3768.8451673156605,
+            1746.279664840112,
+            22
+          ],
+          [
+            3771.185916627664,
+            1742.0890929628672,
+            22
+          ],
+          [
+            3799.1230624759633,
+            1757.6940883762231,
+            22
+          ],
+          [
+            3796.7823131639598,
+            1761.884660253468,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -226.89999999999998,
+          -222.09999999999997
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3768.8451673156605,
+            1746.279664840112,
+            12
+          ],
+          [
+            3771.185916627664,
+            1742.0890929628672,
+            12
+          ],
+          [
+            3799.1230624759633,
+            1757.6940883762231,
+            12
+          ],
+          [
+            3796.7823131639598,
+            1761.884660253468,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -222.09999999999997,
+          -137.09999999999997
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3773.6304168893903,
+            1743.454530061536,
+            22
+          ],
+          [
+            3815.0811859561168,
+            1669.246486401991,
+            22
+          ],
+          [
+            3838.1293312809635,
+            1682.1206076180094,
+            22
+          ],
+          [
+            3796.678562214237,
+            1756.3286512775544,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -222.09999999999997,
+          -137.09999999999997
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3773.6304168893903,
+            1743.454530061536,
+            12
+          ],
+          [
+            3815.0811859561168,
+            1669.246486401991,
+            12
+          ],
+          [
+            3838.1293312809635,
+            1682.1206076180094,
+            12
+          ],
+          [
+            3796.678562214237,
+            1756.3286512775544,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -137.09999999999997,
+          -132.29999999999995
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3815.0811859561168,
+            1669.246486401991,
+            22
+          ],
+          [
+            3817.42193526812,
+            1665.0559145247462,
+            22
+          ],
+          [
+            3840.4700805929665,
+            1677.9300357407647,
+            22
+          ],
+          [
+            3838.1293312809635,
+            1682.1206076180094,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -137.09999999999997,
+          -132.29999999999995
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3815.0811859561168,
+            1669.246486401991,
+            12
+          ],
+          [
+            3817.42193526812,
+            1665.0559145247462,
+            12
+          ],
+          [
+            3840.4700805929665,
+            1677.9300357407647,
+            12
+          ],
+          [
+            3838.1293312809635,
+            1682.1206076180094,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -132.29999999999995,
+          -47.299999999999955
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3817.42193526812,
+            1665.0559145247462,
+            22
+          ],
+          [
+            3858.8727043348463,
+            1590.8478708652012,
+            22
+          ],
+          [
+            3881.920849659693,
+            1603.7219920812197,
+            22
+          ],
+          [
+            3840.4700805929665,
+            1677.9300357407647,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -132.29999999999995,
+          -47.299999999999955
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3817.42193526812,
+            1665.0559145247462,
+            12
+          ],
+          [
+            3858.8727043348463,
+            1590.8478708652012,
+            12
+          ],
+          [
+            3881.920849659693,
+            1603.7219920812197,
+            12
+          ],
+          [
+            3840.4700805929665,
+            1677.9300357407647,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -47.299999999999955,
+          -42.49999999999996
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3858.8727043348463,
+            1590.8478708652012,
+            22
+          ],
+          [
+            3861.2134536468498,
+            1586.6572989879562,
+            22
+          ],
+          [
+            3884.2615989716965,
+            1599.5314202039747,
+            22
+          ],
+          [
+            3881.920849659693,
+            1603.7219920812197,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -47.299999999999955,
+          -42.49999999999996
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3858.8727043348463,
+            1590.8478708652012,
+            12
+          ],
+          [
+            3861.2134536468498,
+            1586.6572989879562,
+            12
+          ],
+          [
+            3884.2615989716965,
+            1599.5314202039747,
+            12
+          ],
+          [
+            3881.920849659693,
+            1603.7219920812197,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -42.49999999999996,
+          42.50000000000004
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3861.2134536468498,
+            1586.6572989879562,
+            22
+          ],
+          [
+            3902.664222713576,
+            1512.4492553284113,
+            22
+          ],
+          [
+            3925.7123680384225,
+            1525.3233765444297,
+            22
+          ],
+          [
+            3884.2615989716965,
+            1599.5314202039747,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          -42.49999999999996,
+          42.50000000000004
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3861.2134536468498,
+            1586.6572989879562,
+            12
+          ],
+          [
+            3902.664222713576,
+            1512.4492553284113,
+            12
+          ],
+          [
+            3925.7123680384225,
+            1525.3233765444297,
+            12
+          ],
+          [
+            3884.2615989716965,
+            1599.5314202039747,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          42.50000000000004,
+          47.30000000000004
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3902.664222713576,
+            1512.4492553284113,
+            22
+          ],
+          [
+            3905.0049720255793,
+            1508.2586834511665,
+            22
+          ],
+          [
+            3928.053117350426,
+            1521.132804667185,
+            22
+          ],
+          [
+            3925.7123680384225,
+            1525.3233765444297,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          42.50000000000004,
+          47.30000000000004
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3902.664222713576,
+            1512.4492553284113,
+            12
+          ],
+          [
+            3905.0049720255793,
+            1508.2586834511665,
+            12
+          ],
+          [
+            3928.053117350426,
+            1521.132804667185,
+            12
+          ],
+          [
+            3925.7123680384225,
+            1525.3233765444297,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          47.30000000000004,
+          132.30000000000004
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3905.0049720255793,
+            1508.2586834511665,
+            22
+          ],
+          [
+            3946.4557410923057,
+            1434.0506397916215,
+            22
+          ],
+          [
+            3969.5038864171524,
+            1446.92476100764,
+            22
+          ],
+          [
+            3928.053117350426,
+            1521.132804667185,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          47.30000000000004,
+          132.30000000000004
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3905.0049720255793,
+            1508.2586834511665,
+            12
+          ],
+          [
+            3946.4557410923057,
+            1434.0506397916215,
+            12
+          ],
+          [
+            3969.5038864171524,
+            1446.92476100764,
+            12
+          ],
+          [
+            3928.053117350426,
+            1521.132804667185,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          132.30000000000004,
+          137.10000000000002
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3946.4557410923057,
+            1434.0506397916215,
+            22
+          ],
+          [
+            3948.7964904043088,
+            1429.8600679143767,
+            22
+          ],
+          [
+            3971.8446357291555,
+            1442.7341891303952,
+            22
+          ],
+          [
+            3969.5038864171524,
+            1446.92476100764,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          132.30000000000004,
+          137.10000000000002
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3946.4557410923057,
+            1434.0506397916215,
+            12
+          ],
+          [
+            3948.7964904043088,
+            1429.8600679143767,
+            12
+          ],
+          [
+            3971.8446357291555,
+            1442.7341891303952,
+            12
+          ],
+          [
+            3969.5038864171524,
+            1446.92476100764,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          137.10000000000002,
+          222.10000000000002
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3948.7964904043088,
+            1429.8600679143767,
+            22
+          ],
+          [
+            3990.2472594710352,
+            1355.6520242548318,
+            22
+          ],
+          [
+            4013.295404795882,
+            1368.5261454708502,
+            22
+          ],
+          [
+            3971.8446357291555,
+            1442.7341891303952,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          137.10000000000002,
+          222.10000000000002
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3948.7964904043088,
+            1429.8600679143767,
+            12
+          ],
+          [
+            3990.2472594710352,
+            1355.6520242548318,
+            12
+          ],
+          [
+            4013.295404795882,
+            1368.5261454708502,
+            12
+          ],
+          [
+            3971.8446357291555,
+            1442.7341891303952,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          222.10000000000002,
+          226.90000000000003
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3987.802759209309,
+            1354.286587156163,
+            22
+          ],
+          [
+            3990.1435085213125,
+            1350.096015278918,
+            22
+          ],
+          [
+            4018.0806543696117,
+            1365.701010692274,
+            22
+          ],
+          [
+            4015.739905057608,
+            1369.891582569519,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          222.10000000000002,
+          226.90000000000003
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3987.802759209309,
+            1354.286587156163,
+            12
+          ],
+          [
+            3990.1435085213125,
+            1350.096015278918,
+            12
+          ],
+          [
+            4018.0806543696117,
+            1365.701010692274,
+            12
+          ],
+          [
+            4015.739905057608,
+            1369.891582569519,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          226.90000000000003,
+          416.90000000000003
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3990.1435085213125,
+            1350.096015278918,
+            22
+          ],
+          [
+            4082.7981687881124,
+            1184.2192118046412,
+            22
+          ],
+          [
+            4110.735314636412,
+            1199.8242072179971,
+            22
+          ],
+          [
+            4018.0806543696117,
+            1365.701010692274,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          226.90000000000003,
+          416.90000000000003
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            3990.1435085213125,
+            1350.096015278918,
+            12
+          ],
+          [
+            4082.7981687881124,
+            1184.2192118046412,
+            12
+          ],
+          [
+            4110.735314636412,
+            1199.8242072179971,
+            12
+          ],
+          [
+            4018.0806543696117,
+            1365.701010692274,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          416.90000000000003,
+          421.70000000000005
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4082.7981687881124,
+            1184.2192118046412,
+            22
+          ],
+          [
+            4085.1389181001155,
+            1180.0286399273964,
+            22
+          ],
+          [
+            4113.076063948415,
+            1195.6336353407523,
+            22
+          ],
+          [
+            4110.735314636412,
+            1199.8242072179971,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          416.90000000000003,
+          421.70000000000005
+        ],
+        "widthM": 32,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4082.7981687881124,
+            1184.2192118046412,
+            12
+          ],
+          [
+            4085.1389181001155,
+            1180.0286399273964,
+            12
+          ],
+          [
+            4113.076063948415,
+            1195.6336353407523,
+            12
+          ],
+          [
+            4110.735314636412,
+            1199.8242072179971,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          421.70000000000005,
+          506.70000000000005
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4087.5834183618417,
+            1181.3940770260651,
+            22
+          ],
+          [
+            4129.034187428569,
+            1107.1860333665202,
+            22
+          ],
+          [
+            4152.082332753415,
+            1120.0601545825386,
+            22
+          ],
+          [
+            4110.631563686688,
+            1194.2681982420836,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          421.70000000000005,
+          506.70000000000005
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4087.5834183618417,
+            1181.3940770260651,
+            12
+          ],
+          [
+            4129.034187428569,
+            1107.1860333665202,
+            12
+          ],
+          [
+            4152.082332753415,
+            1120.0601545825386,
+            12
+          ],
+          [
+            4110.631563686688,
+            1194.2681982420836,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          506.70000000000005,
+          511.50000000000006
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4129.034187428569,
+            1107.1860333665202,
+            22
+          ],
+          [
+            4131.374936740572,
+            1102.9954614892752,
+            22
+          ],
+          [
+            4154.423082065418,
+            1115.8695827052936,
+            22
+          ],
+          [
+            4152.082332753415,
+            1120.0601545825386,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          506.70000000000005,
+          511.50000000000006
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4129.034187428569,
+            1107.1860333665202,
+            12
+          ],
+          [
+            4131.374936740572,
+            1102.9954614892752,
+            12
+          ],
+          [
+            4154.423082065418,
+            1115.8695827052936,
+            12
+          ],
+          [
+            4152.082332753415,
+            1120.0601545825386,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          511.50000000000006,
+          596.5
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4131.374936740572,
+            1102.9954614892752,
+            22
+          ],
+          [
+            4172.825705807298,
+            1028.7874178297302,
+            22
+          ],
+          [
+            4195.873851132144,
+            1041.6615390457487,
+            22
+          ],
+          [
+            4154.423082065418,
+            1115.8695827052936,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          511.50000000000006,
+          596.5
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4131.374936740572,
+            1102.9954614892752,
+            12
+          ],
+          [
+            4172.825705807298,
+            1028.7874178297302,
+            12
+          ],
+          [
+            4195.873851132144,
+            1041.6615390457487,
+            12
+          ],
+          [
+            4154.423082065418,
+            1115.8695827052936,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          596.5,
+          688
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 22,
+        "thicknessM": 1.25,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4172.825705807298,
+            1028.7874178297302,
+            22
+          ],
+          [
+            4217.446239567362,
+            948.9046414197496,
+            22
+          ],
+          [
+            4240.4943848922085,
+            961.7787626357681,
+            22
+          ],
+          [
+            4195.873851132144,
+            1041.6615390457487,
+            22
+          ]
+        ]
+      },
+      {
+        "bridgeId": "fuxing-bridge",
+        "stationRangeM": [
+          596.5,
+          688
+        ],
+        "widthM": 26.4,
+        "nominalHeightRelativeM": 12,
+        "thicknessM": 1.15,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            4172.825705807298,
+            1028.7874178297302,
+            12
+          ],
+          [
+            4217.446239567362,
+            948.9046414197496,
+            12
+          ],
+          [
+            4240.4943848922085,
+            961.7787626357681,
+            12
+          ],
+          [
+            4195.873851132144,
+            1041.6615390457487,
+            12
+          ]
+        ]
+      },
+      {
+        "bridgeId": "zhijiang-bridge",
+        "stationRangeM": [
+          -239,
+          239
+        ],
+        "widthM": 41.36,
+        "nominalHeightRelativeM": 18,
+        "thicknessM": 3.5,
+        "topRequested": false,
+        "reason": "source-road renderer sole owner; whole semantic road-deck primitive omitted before mesh generation",
+        "sourceLocalTop": [
+          [
+            -1556.0777400970892,
+            -3979.085968297181,
+            18
+          ],
+          [
+            -1124.3132819366588,
+            -3773.992202742423,
+            18
+          ],
+          [
+            -1142.059470521062,
+            -3736.6328345635206,
+            18
+          ],
+          [
+            -1573.8239286814924,
+            -3941.7266001182784,
+            18
+          ]
+        ]
+      }
+    ],
+    "roadDeckOwner": "source-road renderer, including road top/underside/sides; explicit full-width support domains in companion contract",
+    "railDeckOwner": "this independent object: qiantang railway only",
+    "candidateRoadTopPlanes": 0,
+    "candidateWaterPlanes": 0,
+    "lightCount": 0,
+    "nightPolicy": "existing material identities preserved; original bridge-specific luminaire/emissive evidence was pending, no invented new night hardware",
+    "estimatedHeightPolicy": "legacy reference-informed rigid core values; independent source-node ramp proposal required simultaneously; no DSM deformation of arches",
+    "navigationAccepted": false
+  },
+  "checks": [
+    {
+      "name": "B frame restored",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "all retained source faces remain one-to-one",
+      "pass": true,
+      "value": [
+        11722,
+        11722
+      ]
+    },
+    {
+      "name": "every retained material unchanged",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "all retained geometry only reviewed rigid Fuxing correction",
+      "pass": true,
+      "value": 1.8189894035458565e-12
+    },
+    {
+      "name": "removed only semantic source road-deck face ranges",
+      "pass": true,
+      "value": 48
+    },
+    {
+      "name": "reported structural identities preserved",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "actual candidate triangles and UV nondegenerate",
+      "pass": true,
+      "value": {
+        "zeroUVf32": 0,
+        "zeroGeometryf64": 0
+      }
+    },
+    {
+      "name": "candidate within original triangle budget",
+      "pass": true,
+      "value": 23668
+    },
+    {
+      "name": "road/water/light ownership explicit",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "road support owner distinct from rail object",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "collisionPrimitives": 7457,
+  "deckDomains": 49
+}

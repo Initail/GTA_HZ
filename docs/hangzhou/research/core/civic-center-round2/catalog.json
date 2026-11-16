@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "use": "fixed ring and12 explicit component plans; unverified height120/80 not adopted"
+    },
+    {
+      "id": "civic-complex",
+      "url": "https://www.skyscrapercenter.com/complex/940",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "six completed high-rise component records; TJADRI actual photos"
+    },
+    {
+      "id": "civic-government",
+      "url": "https://www.zjdj.com.cn/zx/xw/jrzj/201610/t20161001_1951228_ext.shtml",
+      "publisher": "浙江党建网 / 浙江新闻客户端 / 杭州日报，杭州市政府公告",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2016-10-01",
+      "status": "web-index-text available; directcurl403",
+      "license": "unknown; reference only",
+      "use": "address解放东路18号; six arc26-storey towers, approxinner70m andupperclosedring; not photos"
+    },
+    {
+      "id": "civic-landscape",
+      "url": "https://www.ldgpartner.com/project/detail.aspx?id=46",
+      "publisher": "LDG / 兰斯凯普景观设计方",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2007-09 design, actual photo capture unknown",
+      "status": "available",
+      "license": "unknown; reference only; photos not bundled",
+      "use": "G first-floor/roof public garden; West Lake water motif, walks/bridges/stoppingplatforms; actual built garden/canopy detail photos"
+    },
+    {
+      "id": "civic-designer",
+      "url": "https://world-architects.com/zh/atelier-land-yangpu-district-shanghai/project/hangzhou-citizen-center",
+      "publisher": "ATELIER L+ architect profile / World-Architects",
+      "accessedAt": "2026-10-14",
+      "status": "search-index available, direct403",
+      "license": "unknown; reference only",
+      "use": "six towers/four podiums400m block, approx90m highconnection; retain85/90 ambiguity; no directphotos claimed"
+    },
+    {
+      "id": "civic-paper",
+      "url": "https://global.ctbuh.org/resources/papers/download/1908-urban-mega-structure-vertical-landscape-of-hangzhou-civic-center.pdf",
+      "publisher": "Linxue Li / Jie Wu / CTBUH 2014 Shanghai conference",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2014",
+      "status": "search-index only; direct404",
+      "license": "unknown; reference only",
+      "use": "legacy report bridge85English/90Chinese retained conflict; fullpaper/section not directlyread thisround"
+    },
+    {
+      "id": "civic-west-photo",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Citizen%27s_Centre_20231205163814.jpg",
+      "publisher": "XiaYZ2023 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2023-12-05",
+      "status": "available",
+      "license": "CC BY-SA4.0 metadata; reference only, not bundled",
+      "use": "actual west-to-east independent photograph with statedWGS84camera; exterior shape/low podium"
+    },
+    {
+      "id": "civic-site-map",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Civic_Center_map.JPG",
+      "publisher": "Huandy618 own photograph of site operator map / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2012-10-03",
+      "status": "available",
+      "license": "CC BY-SA3.0 photo metadata; reference only, not bundled",
+      "use": "official on-site drawnlayout/labels A-F/HJKL/G1G2/adjacentstreets; no measuredproportions or currententryclaim"
+    },
+    {
+      "id": "cvu1",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-1/15392",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu2",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-2/15393",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu3",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-3/15394",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu4",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-4/15395",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu5",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-5/15396",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu6",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-6/15397",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    }
+  ],
+  "places": [
+    {
+      "id": "civic-center",
+      "name": "杭州市民中心",
+      "kind": "building-group",
+      "scope": "Finite Civic Center core candidate: six mapped arc towers with reported109.6m/26-floor envelope, high annular enclosed connection, four exact mapped L podium plans, estimated lower curved central ring canopy/open roof garden, two mapped roof pavilions, bounded water/walk/greenery. Fullentry/G1G2/underground/site/terrain and runtime acceptance pending.",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": [
+          120.20521943442597,
+          30.248993004078663
+        ],
+        "status": "confirmed",
+        "sourceIds": [
+          "osm-geofabrik"
+        ]
+      },
+      "sources": [
+        {
+          "id": "osm-geofabrik",
+          "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+          "publisher": "OpenStreetMap contributors / Geofabrik",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2026-10-11T20:21:06Z",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+          "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+          "use": "fixed ring and12 explicit component plans; unverified height120/80 not adopted"
+        },
+        {
+          "id": "civic-complex",
+          "url": "https://www.skyscrapercenter.com/complex/940",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "six completed high-rise component records; TJADRI actual photos"
+        },
+        {
+          "id": "civic-government",
+          "url": "https://www.zjdj.com.cn/zx/xw/jrzj/201610/t20161001_1951228_ext.shtml",
+          "publisher": "浙江党建网 / 浙江新闻客户端 / 杭州日报，杭州市政府公告",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2016-10-01",
+          "status": "web-index-text available; directcurl403",
+          "license": "unknown; reference only",
+          "use": "address解放东路18号; six arc26-storey towers, approxinner70m andupperclosedring; not photos"
+        },
+        {
+          "id": "civic-landscape",
+          "url": "https://www.ldgpartner.com/project/detail.aspx?id=46",
+          "publisher": "LDG / 兰斯凯普景观设计方",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2007-09 design, actual photo capture unknown",
+          "status": "available",
+          "license": "unknown; reference only; photos not bundled",
+          "use": "G first-floor/roof public garden; West Lake water motif, walks/bridges/stoppingplatforms; actual built garden/canopy detail photos"
+        },
+        {
+          "id": "civic-designer",
+          "url": "https://world-architects.com/zh/atelier-land-yangpu-district-shanghai/project/hangzhou-citizen-center",
+          "publisher": "ATELIER L+ architect profile / World-Architects",
+          "accessedAt": "2026-10-14",
+          "status": "search-index available, direct403",
+          "license": "unknown; reference only",
+          "use": "six towers/four podiums400m block, approx90m highconnection; retain85/90 ambiguity; no directphotos claimed"
+        },
+        {
+          "id": "civic-paper",
+          "url": "https://global.ctbuh.org/resources/papers/download/1908-urban-mega-structure-vertical-landscape-of-hangzhou-civic-center.pdf",
+          "publisher": "Linxue Li / Jie Wu / CTBUH 2014 Shanghai conference",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2014",
+          "status": "search-index only; direct404",
+          "license": "unknown; reference only",
+          "use": "legacy report bridge85English/90Chinese retained conflict; fullpaper/section not directlyread thisround"
+        },
+        {
+          "id": "civic-west-photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Citizen%27s_Centre_20231205163814.jpg",
+          "publisher": "XiaYZ2023 own photograph / Wikimedia Commons",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2023-12-05",
+          "status": "available",
+          "license": "CC BY-SA4.0 metadata; reference only, not bundled",
+          "use": "actual west-to-east independent photograph with statedWGS84camera; exterior shape/low podium"
+        },
+        {
+          "id": "civic-site-map",
+          "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Civic_Center_map.JPG",
+          "publisher": "Huandy618 own photograph of site operator map / Wikimedia Commons",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2012-10-03",
+          "status": "available",
+          "license": "CC BY-SA3.0 photo metadata; reference only, not bundled",
+          "use": "official on-site drawnlayout/labels A-F/HJKL/G1G2/adjacentstreets; no measuredproportions or currententryclaim"
+        },
+        {
+          "id": "cvu1",
+          "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-1/15392",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+        },
+        {
+          "id": "cvu2",
+          "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-2/15393",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+        },
+        {
+          "id": "cvu3",
+          "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-3/15394",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+        },
+        {
+          "id": "cvu4",
+          "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-4/15395",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+        },
+        {
+          "id": "cvu5",
+          "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-5/15396",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+        },
+        {
+          "id": "cvu6",
+          "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-6/15397",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+        }
+      ],
+      "researchEvidence": "docs/hangzhou/research/core/civic-center-round2/evidence.json"
+    }
+  ]
+}

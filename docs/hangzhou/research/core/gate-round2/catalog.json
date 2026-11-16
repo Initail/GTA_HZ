@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "places": [
+    {
+      "id": "hangzhou-gate",
+      "name": "杭州之门（杭州世纪中心）",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/core/gate-round2/evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": [
+          120.23255672887714,
+          30.229744850587956
+        ],
+        "status": "confirmed",
+        "sourceIds": [
+          "osm-geofabrik",
+          "osm-api"
+        ]
+      },
+      "sources": [
+        {
+          "id": "osm-geofabrik",
+          "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+          "publisher": "OpenStreetMap contributors / Geofabrik",
+          "accessedAt": "2026-10-12",
+          "sourceDate": "2026-10-11T20:21:06Z",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+          "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+          "use": "WGS84 footprints; Geofabrik subset equals OSM API rings"
+        },
+        {
+          "id": "osm-api",
+          "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=120.230,30.227,120.234,30.231",
+          "publisher": "OpenStreetMap contributors",
+          "accessedAt": "2026-10-12",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "localPath": "docs/hangzhou/research/core/gate-round2/osm-local-map.json",
+          "sha256": "fccb1560ed559ca266d93d873ee27281ff9b9f7bbad48fa37ec7e8ca137c6d4e",
+          "use": "auxiliary exact node/way version provenance; not replacement for main Geofabrik city"
+        },
+        {
+          "id": "ecadi-primary",
+          "url": "https://www.thepaper.cn/newsDetail_forward_21768064",
+          "publisher": "华建集团华东建筑设计研究院有限公司供稿 / 澎湃号政务平台",
+          "accessedAt": "2026-10-12",
+          "sourceDate": "2023-02-01",
+          "status": "available",
+          "license": "unknown; reference only; images not bundled",
+          "use": "T1/T2 identity, 310m, bridge/curtain elevations, official photos and SOM section image"
+        },
+        {
+          "id": "som-primary",
+          "url": "https://www.som.com/projects/greenland-hangzhou-century-center/",
+          "publisher": "SOM",
+          "accessedAt": "2026-10-12",
+          "status": "available-indexed",
+          "sourceDate": null,
+          "license": "unknown; reference only",
+          "use": "twin towers, H/arched bridge, flowing glass enclosure, 64 stories; indexed text, direct fetch 403"
+        }
+      ],
+      "scope": "Source-bound exterior candidate for twin towers, arched banquet bridge and open curtain; full retail, interiors, rooftop equipment and exact entrance details pending."
+    }
+  ]
+}

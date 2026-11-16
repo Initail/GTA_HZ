@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "status": "frozen isolated candidate with explicit blockers; not installed or visually verified",
+  "module": "scripts/landmarks/qiantang_bridges_v2.py",
+  "moduleSha256": "187f31907f305d758f54d736f282e0eb1f6314acbc89936649cf606a3e078450",
+  "specSha256": "0cac8bde8b84ccab0d2193840974c840f0605966d2577184c089be22adfae255",
+  "assetRole": "coastal-bridges.glb through original CityWorld landmarks/flight/projectile mesh ownership",
+  "roadOwner": "source renderer only; actual complete reported-width domains in deck-ownership.json, raw ordinate top, original asphalt+0.1; suppress same default shell/strip within owned domains",
+  "railOwner": "this object owns original Qiantang lower railway bed/top/rails; visual only, no new drive graph",
+  "collisionOwner": "7613 actual retained structural primitive envelopes in collision-candidate.json; boundsRoad true; no full-road shell or whole-arch ground box; exact flight/tank-projectile mesh preserved by original landmarks path",
+  "atomicHeightIntegration": {
+    "source": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/source-height-proposal.json",
+    "sourceRoadLevelsSha256": "51693eabb29afc502c810f5c4b10372c6667fc8f0483da5031541e65f152bb5a",
+    "affectedRoadCount": 82,
+    "changedNodeCount": 187,
+    "boundaryNodeCount": 41,
+    "rules": [
+      "apply all sourceRoadId resultHeights to both city and road-levels together",
+      "require nodeIds/points/originalHeights match, else reject stale input",
+      "do not add graph edges from XZ crossing, relocate points, alter road widths or gameplay thresholds",
+      "rebuild all dependent traffic, furniture, vegetation, signs and render surfaces carrying old heights",
+      "keep originalHeights and old render candidates for audit"
+    ]
+  },
+  "geometry": {
+    "triangles": 24916,
+    "oldTriangleBudget": 25000,
+    "collisionPrimitives": 7613,
+    "deckDomains": 49,
+    "newLights": 0,
+    "newWaterPlanes": 0
+  },
+  "pending": [
+    "Fuxing lower path/edge and near-bank support mismatch",
+    "whole source carriageway strips exceed reported deck domains; generic road-width estimate is not real measured width",
+    "Qiantang original tank footprint cannot fit sampled narrow corridor",
+    "real lighting layout newly sourced but not recreated; original material behavior preserved only",
+    "actual GLB/UV-root checks, source deck shell integration, continuous driving, browser day/night/collision/performance and arrival validation"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "placeId": "big-lotus",
+  "name": "杭州奥体中心主体育场（大莲花）",
+  "type": "building",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "lotus-2021",
+      "nbbj-olympic",
+      "ccdi-lotus"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "lotus-2021",
+      "url": "https://www.hangzhou2022.cn/hzhyn/mlhz/202105/t20210514_26126.shtml",
+      "publisher": "杭州亚运会组委会官网",
+      "title": "杭州奥体中心：“莲花”盛放时 宾朋四方至",
+      "sourceDate": "2021-05-14",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "大莲花28大+27小，小莲花24固定+8开合；小莲花15分钟与2022页面20分钟有运行描述差异，无新增游戏机制要求。"
+    },
+    {
+      "id": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+      "publisher": "NBBJ 设计方",
+      "title": "杭州奥体中心",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "确认与CCDI合作、三层步行空间、公园/浅色地面/地下停车。中文页面积37000m²口径不清，不采用作为足印或综合体面积。"
+    },
+    {
+      "id": "ccdi-lotus",
+      "url": "https://www.archina.com/index.php?a=show&g=works&id=3484&m=index",
+      "publisher": "CCDI悉地国际项目投稿 / ARCHINA平台",
+      "title": "杭州奥体博览城主体育场",
+      "sourceDate": "2019-09-13",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary-designer-project-submission",
+      "accessMethod": "search-index-full-project-text; direct fetch redirect loop",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "给60.7m罩棚最高结构标高。投稿竣工年份2017、地点写萧山区青年路，与运营场馆2019启用/滨江飞虹路口径不同；不能直接混入当前邮政地址或竣工时间。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "canopyTopStructuralElevation": 60.7
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "ccdi-lotus"
+      ],
+      "uncertainty": "设计方投稿报罩棚最高点结构标高，未取其基面定义；不是DEM海拔。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "component_count",
+      "value": {
+        "largePetals": 28,
+        "smallPetals": 27
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "lotus-2021",
+        "ccdi-lotus"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "莲花瓣围绕场馆，内部混凝土碗体与钢壳协同；三层步行空间连接网球中心和商业",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "lotus-2021",
+        "nbbj-olympic"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "先真实椭圆足印、开放场芯、看台碗体与错位大小花瓣，材料/夜景后置；不能做单圈等大的花瓣或封顶球。用合并/实例重复瓣而非每窗独立。"
+  },
+  "referenceImages": [
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/08/100526_00_Hangzhou_N77_screenview.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    },
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/08/100526_00_Hangzhou_Tennis_Swimming_screenview-2000x1334.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    },
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/100526_00_Hangzhou_N82_screenview.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    },
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/100526_00_Hangzhou_N69_screenview.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    }
+  ],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "CCDI投稿2017竣工与运营2019启用有口径差；NBBJ中文37000m²面积未采用。花瓣实际厚度/瓣尖高度分布未知。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

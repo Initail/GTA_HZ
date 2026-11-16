@@ -1,0 +1,50 @@
+[
+  {
+    "id": "main",
+    "sourceArea": 5027.914670806332,
+    "derivedArea": 5027.9146706842275,
+    "symmetricDifferenceArea": 2.563165929187301e-07,
+    "addedArea": 4.866903442808611e-08,
+    "removedArea": 1.8513780018069292e-07,
+    "rawBoundaryHausdorffGame": 6.325010238080013e-09,
+    "metricNormalizedBoundaryHausdorffGame": 6.276191605244627e-09,
+    "metricNormalizedSymmetricDifferenceArea": 4.772963731473648e-07,
+    "status": "derived ownership line only; original physics boundary unchanged"
+  },
+  {
+    "id": "west",
+    "sourceArea": 622.7979106226073,
+    "derivedArea": 622.797910621215,
+    "symmetricDifferenceArea": 2.1711848765779924e-07,
+    "addedArea": 1.0786320976533751e-07,
+    "removedArea": 1.0925527792324669e-07,
+    "rawBoundaryHausdorffGame": 6.325010238080013e-09,
+    "metricNormalizedBoundaryHausdorffGame": 6.340271344341479e-09,
+    "metricNormalizedSymmetricDifferenceArea": 2.1721850485542973e-07,
+    "status": "derived ownership line only; original physics boundary unchanged"
+  },
+  {
+    "id": "east",
+    "sourceArea": 767.0798896920621,
+    "derivedArea": 767.0798897207948,
+    "symmetricDifferenceArea": 2.1624049124991682e-07,
+    "addedArea": 1.224865471079569e-07,
+    "removedArea": 9.375394410603611e-08,
+    "rawBoundaryHausdorffGame": 6.260586435080717e-09,
+    "metricNormalizedBoundaryHausdorffGame": 6.237001578799887e-09,
+    "metricNormalizedSymmetricDifferenceArea": 2.1588480066568986e-07,
+    "status": "derived ownership line only; original physics boundary unchanged"
+  },
+  {
+    "id": "F1",
+    "sourceArea": 8532.923255183674,
+    "derivedArea": 8532.923255278432,
+    "symmetricDifferenceArea": 4.1736545685978505e-07,
+    "addedArea": 2.5332913345972076e-07,
+    "removedArea": 1.6093690594871e-07,
+    "rawBoundaryHausdorffGame": 24.675994517518358,
+    "metricNormalizedBoundaryHausdorffGame": 6.285423578771376e-09,
+    "metricNormalizedSymmetricDifferenceArea": 7.198067465237856e-07,
+    "status": "derived ownership line only; original physics boundary unchanged"
+  }
+]

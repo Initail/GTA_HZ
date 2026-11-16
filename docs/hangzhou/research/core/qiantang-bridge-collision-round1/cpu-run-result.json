@@ -1,0 +1,6 @@
+{
+  "command": ".venv/bin/python -B docs/hangzhou/research/core/qiantang-bridge-collision-round1/validate_candidate.py",
+  "exitCode": 0,
+  "stdout": "{\"actualReplayTriangles\": 24148, \"solidEnvelopes\": 7457, \"roadDeckRegions\": 48, \"GLBVertexSetsMatch\": true, \"sourceProfiles\": 15, \"missingGeometrySourceNodes\": 118, \"missingGeometrySamples\": 578, \"navigationAccepted\": false}\n{\"actualReplayTriangles\": 24148, \"solidEnvelopes\": 7457, \"roadDeckRegions\": 48, \"GLBVertexSetsMatch\": true, \"sourceProfiles\": 15, \"missingGeometrySourceNodes\": 118, \"missingGeometrySamples\": 578, \"navigationAccepted\": false}\n",
+  "scope": "CPU and binary source GLB only; no Blender/browser"
+}

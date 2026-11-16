@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "sourceModuleSha256": "9c4c00a61709997328147965beea562995619f50d35bb12d91e00a99696cb77c",
+  "sourceSpecSha256": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20",
+  "previewMethod": "Pillow painter of front-facing CPU triangle fans; no Blender/browser/render-engine invocation",
+  "previews": [
+    {
+      "path": "docs/hangzhou/research/core/international-conference-center-round2/cpu-top.png",
+      "sha256": "417f1fdc1a23be1d329bdbcaa7977da2854809e170647a21440cd6f70c14191a",
+      "bytes": 79318,
+      "cameraAzimuthEastCCW": -90.0,
+      "cameraElevation": 89.95,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    },
+    {
+      "path": "docs/hangzhou/research/core/international-conference-center-round2/cpu-street.png",
+      "sha256": "ec9839d2be1b08b3703d1da744afd42599362f43cb08784345432e11cb716e35",
+      "bytes": 57924,
+      "cameraAzimuthEastCCW": 53.44917694628726,
+      "cameraElevation": 4.0,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    },
+    {
+      "path": "docs/hangzhou/research/core/international-conference-center-round2/cpu-distant.png",
+      "sha256": "a0e3ce4ce4262f27dc65e752da102788a4cc043c7ebaae68c224620fe40eee51",
+      "bytes": 83477,
+      "cameraAzimuthEastCCW": 73.44917694628725,
+      "cameraElevation": 27.0,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    }
+  ],
+  "imagesAreGameScreenshots": false,
+  "visualAcceptance": "pending GLB/day/night/context review"
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-13T11:18:49+00:00",
+  "stage": "modelled",
+  "agent": "codex-leifeng-round2",
+  "place": {
+    "id": "leifeng-pagoda",
+    "name": "雷峰塔（现雷峰新塔）",
+    "kind": "building"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/leifeng-round2/catalog.json",
+  "sourceManifestSha256": "229a2a2a79bc38ef5d8af6ff9686607d61349f8f8964dcd5d4e14cd5029028a1",
+  "sourceRecord": {
+    "id": "leifeng-pagoda",
+    "name": "雷峰塔（现雷峰新塔）",
+    "kind": "building",
+    "scope": "Source-bound finite exterior candidate: mapped octagonal protection base, five-storey body, five main roofs, four waist roofs and finial; full site, exact entrances, interior and runtime validation pending.",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": [
+        120.14501471758403,
+        30.23388616474085
+      ],
+      "status": "confirmed",
+      "sourceIds": [
+        "osm-geofabrik"
+      ]
+    },
+    "sources": [
+      {
+        "id": "osm-geofabrik",
+        "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+        "publisher": "OpenStreetMap contributors / Geofabrik",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2026-10-11T20:21:06Z",
+        "status": "available",
+        "license": "ODbL-1.0",
+        "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+        "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+        "use": "Mapped octagonal exterior base and south access line; height/alias tags not adopted"
+      },
+      {
+        "id": "wgly-leifeng",
+        "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+        "publisher": "杭州市文化广电旅游局",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2022-12-01",
+        "status": "available-indexed",
+        "license": "unknown; reference only",
+        "use": "identity and approximate 71m height; erroneous five-faces/eight-storeys wording retained as conflict",
+        "accessMethod": "web search-index text; direct fetch 403"
+      },
+      {
+        "id": "tsinghua-leifeng",
+        "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+        "publisher": "人文清华讲坛，黄薏橦 / 澎湃号平台",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2020-10-17",
+        "status": "available",
+        "license": "unknown; reference only; no photo textures bundled",
+        "use": "designer account: octagonal five-storey form, 9.7m heritage cover, 48m max column-grid span, copper over modern steel; 381/390 images actually reviewed"
+      },
+      {
+        "id": "thupdi-design",
+        "url": "https://www.thupdi.com/project/view?id=1782",
+        "publisher": "清华同衡 / 建筑与城市遗产研究所清华大学建筑设计研究院有限公司",
+        "accessedAt": "2026-10-13",
+        "sourceDate": null,
+        "status": "available",
+        "license": "unknown; reference only; no photo textures bundled",
+        "use": "designer project identity, south-front real exterior and lake-side real exterior, section drawing; source images in 2013/07 path, capture date not known",
+        "accessMethod": "direct public HTML and linked image reads; web page tool timed out"
+      }
+    ],
+    "researchEvidence": "docs/hangzhou/research/core/leifeng-round2/evidence.json"
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/leifeng_pagoda.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/leifeng-round2"
+    ],
+    "integrationOwner": "主集成任务：统一后台Blender、共享资源和实机验收",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-13T11:18:49+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-13T11:20:04+00:00",
+      "evidenceSha256": "417c7aea8f5ecb3f880a7510f751f6db6c52b8da6c41848dc0b5fee3740a7e42",
+      "modelSha256": null
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-14T02:48:06+00:00",
+      "evidenceSha256": "417c7aea8f5ecb3f880a7510f751f6db6c52b8da6c41848dc0b5fee3740a7e42",
+      "modelSha256": "9d1b2613721503803d4a9750ac5b0a8f2ac4e3e99d6746363509ec68efc8ab5f"
+    }
+  ]
+}

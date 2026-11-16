@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "command": "python3 scripts/landmark_tasks.py generate ... --output gate-round2/jobs",
+      "result": "failed",
+      "reason": "system Python3.8 lacks Path.is_relative_to; partial evidence only, no valid job"
+    },
+    {
+      "command": ".venv/bin/python scripts/landmark_tasks.py generate ... --output gate-round2/task-bundles",
+      "result": "created",
+      "reason": "bundled project runtime used; valid task bundle generated"
+    }
+  ]
+}

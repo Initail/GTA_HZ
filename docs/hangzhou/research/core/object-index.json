@@ -1,0 +1,157 @@
+{
+  "researchDate": "2026-10-12",
+  "objects": [
+    {
+      "id": "hangzhou-gate",
+      "name": "杭州之门（杭州世纪中心）",
+      "type": "building-group",
+      "evidencePath": "hangzhou-gate.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "wulin-square",
+      "name": "武林广场",
+      "type": "district",
+      "evidencePath": "wulin-square.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "west-lake",
+      "name": "西湖",
+      "type": "landscape",
+      "evidencePath": "west-lake.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "bai-causeway",
+      "name": "白堤",
+      "type": "linear-landscape",
+      "evidencePath": "bai-causeway.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "su-causeway",
+      "name": "苏堤",
+      "type": "linear-landscape",
+      "evidencePath": "su-causeway.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "broken-bridge",
+      "name": "断桥（断桥残雪）",
+      "type": "bridge",
+      "evidencePath": "broken-bridge.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "leifeng-pagoda",
+      "name": "雷峰塔（现雷峰新塔）",
+      "type": "building",
+      "evidencePath": "leifeng-pagoda.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "lingyin-temple",
+      "name": "灵隐寺",
+      "type": "building-group",
+      "evidencePath": "lingyin-temple.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "civic-center",
+      "name": "杭州市民中心",
+      "type": "building-group",
+      "evidencePath": "civic-center.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "city-balcony",
+      "name": "杭州城市阳台（主阳台与必要两翼衔接）",
+      "type": "district",
+      "evidencePath": "city-balcony.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "grand-theatre",
+      "name": "杭州大剧院",
+      "type": "building",
+      "evidencePath": "grand-theatre.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "international-conference-center",
+      "name": "杭州国际会议中心（杭州洲际酒店ICC）",
+      "type": "building",
+      "evidencePath": "international-conference-center.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "big-lotus",
+      "name": "杭州奥体中心主体育场（大莲花）",
+      "type": "building",
+      "evidencePath": "big-lotus.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "little-lotus",
+      "name": "杭州奥体中心网球决赛馆（小莲花）",
+      "type": "building",
+      "evidencePath": "little-lotus.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "fuxing-bridge",
+      "name": "复兴大桥（钱江四桥）",
+      "type": "bridge",
+      "evidencePath": "fuxing-bridge.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "xixing-bridge",
+      "name": "西兴大桥（钱江三桥）旧桥形体与施工状态",
+      "type": "bridge",
+      "evidencePath": "xixing-bridge.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "zhijiang-bridge",
+      "name": "之江大桥（钱江七桥）",
+      "type": "bridge",
+      "evidencePath": "zhijiang-bridge.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "qiantang-bridge",
+      "name": "钱塘江大桥（钱江一桥）",
+      "type": "bridge",
+      "evidencePath": "qiantang-bridge.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    },
+    {
+      "id": "boao-tunnel",
+      "name": "博奥隧道（奥体至钱江新城必要过江通道）",
+      "type": "tunnel",
+      "evidencePath": "boao-tunnel.evidence.json",
+      "stage": "planned",
+      "locationStatus": "unknown"
+    }
+  ]
+}

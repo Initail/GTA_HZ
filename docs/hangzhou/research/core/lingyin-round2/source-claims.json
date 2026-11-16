@@ -1,0 +1,135 @@
+{
+  "scope": "Five axial hall exterior candidates only; no claim of the full monastery or surveyed mountain terrain.",
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf"
+    },
+    {
+      "id": "temple-2014",
+      "url": "https://www.lingyinsi.org/detail_44_7946.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2014-08-08",
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "grand-official",
+      "url": "https://en.lingyinsi.org/detail_1141.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2013-01-18",
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "kings-official",
+      "url": "https://en.lingyinsi.org/list_82.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "medicine-official",
+      "url": "https://en.lingyinsi.org/list_144.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "dharma-official",
+      "url": "https://en.lingyinsi.org/list_145.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "huayan-official",
+      "url": "https://en.lingyinsi.org/list_146.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "exhibition-official",
+      "url": "https://en.lingyinsi.org/list_271.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "axis-photo-2020",
+      "url": "https://www.lingyinsi.org/detail_55_14277.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2020-09-24",
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "hall-photo-2020",
+      "url": "https://www.lingyinsi.org/detail_128_14533.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2020-10-13",
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "roof-photo-2021",
+      "url": "https://lingyinsi.org/detail_1050_15763.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2021-10-06",
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    },
+    {
+      "id": "intro-official",
+      "url": "https://lingyinsi.org/detail_747.html",
+      "publisher": "杭州灵隐寺（运营方官网）",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2013-10-15",
+      "status": "available",
+      "license": "Copyright retained by publisher; reference only; photographs not bundled"
+    }
+  ],
+  "identityLinks": [
+    {
+      "osm_id": 434366739,
+      "osmName": "灵隐寺文物展厅",
+      "interpretation": "the same mapped fourth axial compound as Dharma Hall/Sutra Library",
+      "basis": "reported-and-location-cross-check",
+      "sourceIds": [
+        "dharma-official",
+        "exhibition-official",
+        "osm-geofabrik"
+      ],
+      "reason": "Official exhibition page places it on first basement floor of Dharma Hall north of Medicine Hall; no extra sixth hall fabricated."
+    }
+  ],
+  "conflicts": [
+    "Official2013 area130亩 vs official2014 >150亩; cadastral boundary unknown, no boundary invented.",
+    "Grand Hall reported area1200m² vs OSM roof polygon area1437.7m²: measurement endpoints/roof overhang not equivalent.",
+    "English GrandHall one-story/three-floored wording is ambiguous; Chinese single-layer three-eave roof controls shell, not three occupiable floors.",
+    "Official overview illustration is uncalibrated artwork, not measured layout or photogrammetry."
+  ]
+}

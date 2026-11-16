@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "placeId": "cainiao-annex",
+  "artifactPath": null,
+  "sourceModule": "scripts/landmarks/cainiao_annex.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "notmodeled;bodyfootprintregistrationblocked",
+  "estimatedParameters": [
+    {
+      "valueM": 18,
+      "errorPlusMinusM": 4,
+      "basis": "estimated",
+      "method": "Reported4F ×3.5–4.5m typicalpublicbuildingpitch +0–2m roof parapet; broadtypologicalestimate, not photoheightsurvey. Other visitorparts maydiffer; no modelmade."
+    }
+  ],
+  "buildCommand": null,
+  "candidateCreated": false,
+  "baseBuildingIdsToExclude": []
+}

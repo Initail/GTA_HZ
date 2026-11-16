@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "id": "hangzhou-gate",
+  "cityId": "hangzhou",
+  "scope": "Source-bound exterior candidate for twin towers, arched banquet bridge and open curtain; full retail, interiors, rooftop equipment and exact entrance details pending.",
+  "anchor": {
+    "lon": 120.23255672887714,
+    "lat": 30.229744850587956
+  },
+  "coordinateContract": "scripts/city_config.py load_city(hangzhou) at build; all source WGS84 and real metres; model scale once; lm.x/lm.z/lm.y already game units",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "baseBuildingIdsToExclude": [
+    "way/1015040645",
+    "way/1015040646",
+    "way/1015040647"
+  ],
+  "towers": [
+    {
+      "id": "west-t1",
+      "osmWayId": 1015040645,
+      "functionalIdentity": "office",
+      "footprintWGS84": [
+        [
+          120.2318804,
+          30.2294682
+        ],
+        [
+          120.2318701,
+          30.2293604
+        ],
+        [
+          120.2319142,
+          30.2292669
+        ],
+        [
+          120.2319744,
+          30.2291989
+        ],
+        [
+          120.2320608,
+          30.2291295
+        ],
+        [
+          120.2321986,
+          30.2290824
+        ],
+        [
+          120.2322979,
+          30.2290867
+        ],
+        [
+          120.2323704,
+          30.2290957
+        ],
+        [
+          120.2324719,
+          30.229142
+        ],
+        [
+          120.2325186,
+          30.2292054
+        ],
+        [
+          120.2325313,
+          30.229258
+        ],
+        [
+          120.2325403,
+          30.229302
+        ],
+        [
+          120.2325305,
+          30.2293575
+        ],
+        [
+          120.2325082,
+          30.2294159
+        ],
+        [
+          120.2324635,
+          30.2294828
+        ],
+        [
+          120.2324065,
+          30.2295404
+        ],
+        [
+          120.2323311,
+          30.2295791
+        ],
+        [
+          120.2322453,
+          30.2295948
+        ],
+        [
+          120.2321468,
+          30.2296091
+        ],
+        [
+          120.2320662,
+          30.2296077
+        ],
+        [
+          120.2319925,
+          30.2295879
+        ],
+        [
+          120.2319253,
+          30.2295398
+        ],
+        [
+          120.2318804,
+          30.2294682
+        ]
+      ],
+      "centroidWGS84": [
+        120.23220650769576,
+        30.22934883006455
+      ],
+      "heightM": 310,
+      "heightBasis": "reported",
+      "heightSourceIds": [
+        "ecadi-primary",
+        "som-primary"
+      ]
+    },
+    {
+      "id": "east-t2",
+      "osmWayId": 1015040647,
+      "functionalIdentity": "office-and-hotel",
+      "footprintWGS84": [
+        [
+          120.2325794,
+          30.2302596
+        ],
+        [
+          120.2325692,
+          30.2301519
+        ],
+        [
+          120.2326734,
+          30.2299904
+        ],
+        [
+          120.2327599,
+          30.229921
+        ],
+        [
+          120.2328176,
+          30.2299012
+        ],
+        [
+          120.2328976,
+          30.2298738
+        ],
+        [
+          120.232997,
+          30.2298781
+        ],
+        [
+          120.2330695,
+          30.2298871
+        ],
+        [
+          120.233171,
+          30.2299335
+        ],
+        [
+          120.2332177,
+          30.2299969
+        ],
+        [
+          120.2332303,
+          30.2300495
+        ],
+        [
+          120.2332393,
+          30.2300934
+        ],
+        [
+          120.2332296,
+          30.2301489
+        ],
+        [
+          120.2332072,
+          30.2302074
+        ],
+        [
+          120.2331625,
+          30.2302743
+        ],
+        [
+          120.2331055,
+          30.2303319
+        ],
+        [
+          120.2330301,
+          30.2303706
+        ],
+        [
+          120.2329443,
+          30.2303863
+        ],
+        [
+          120.2328849,
+          30.2304006
+        ],
+        [
+          120.2327652,
+          30.2303992
+        ],
+        [
+          120.2326915,
+          30.2303793
+        ],
+        [
+          120.2326244,
+          30.2303312
+        ],
+        [
+          120.2325794,
+          30.2302596
+        ]
+      ],
+      "centroidWGS84": [
+        120.2329069500585,
+        30.230140871111367
+      ],
+      "heightM": 310,
+      "heightBasis": "reported",
+      "heightSourceIds": [
+        "ecadi-primary",
+        "som-primary"
+      ]
+    }
+  ],
+  "bridge": {
+    "spanM": 60,
+    "banquetFloorM": 22,
+    "roofGardenM": 34.6,
+    "curtainHighM": 103.6,
+    "curtainLowM": 53.381,
+    "basis": "reported",
+    "sourceIds": [
+      "ecadi-primary"
+    ],
+    "uncertainty": "source design elevations relative project datum; datum/ground must be aligned by main integration; span source says approximately"
+  },
+  "facade": {
+    "floorBandDivisions": 64,
+    "divisionBasis": "SOM reports64stories; ECADI reports63 above-ground. Candidate64 bands express rhythm, not exact floor count reconstruction.",
+    "materialNames": [
+      "landmarkglass",
+      "darkglass",
+      "silver",
+      "steel",
+      "concrete"
+    ],
+    "materialBasis": "existing PBR palette as estimated appearance; no copied official photo textures, no new lights"
+  },
+  "estimates": {
+    "bodySections": {
+      "value": [
+        [
+          0,
+          1.0,
+          1.0
+        ],
+        [
+          34.6,
+          1.02,
+          1.0
+        ],
+        [
+          103.6,
+          0.89,
+          0.94
+        ],
+        [
+          160,
+          0.91,
+          0.94
+        ],
+        [
+          235,
+          0.94,
+          0.92
+        ],
+        [
+          280,
+          0.9,
+          0.87
+        ]
+      ],
+      "unit": "[z_m, footprint_axis_u_factor, footprint_axis_v_factor]",
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "OSM base fixed; photographed smooth outline sampled at broad height fractions of reported 310m. Factors are coarse proportional visual estimates, not photogrammetry.",
+      "uncertainty": "height breakpoints ±15m, width/depth factors ±0.08; independent back-side facade pending"
+    },
+    "crownDropM": {
+      "value": 24,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "outer/inner sloped rim difference visually proportioned from full frontal photo using 310m total; no exact crown survey",
+      "uncertainty": "±10m; exact roof/helipad level and underside unknown"
+    },
+    "curtainDepthM": {
+      "value": 42,
+      "basis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "ecadi-primary"
+      ],
+      "method": "bounded by mapped middle feature front-axis extent 45.037m and reviewed saddle photograph; rectangular candidate support depth",
+      "uncertainty": "±6m, not actual curved curtain plan"
+    },
+    "curtainCrossCamberM": {
+      "value": 10,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "SOM bridge section image 689 and actual oblique photo 698 show convex cross-direction roof; representative rise selected relative to 60m reported span",
+      "uncertainty": "±5m; engineering catenary/rationalised panel coordinates not obtained"
+    },
+    "curtainPanelThicknessM": {
+      "value": 0.1,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "thin closed volume represents reviewed panel and makes both sides visible with existing material culling; no measured construction thickness",
+      "uncertainty": "rendering allowance, physical panel/frame thickness unknown"
+    },
+    "archUndersideRiseM": {
+      "value": 20,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "frontal arch void fitted below reported banquet floor at22m, leaving central passage and side abutments",
+      "uncertainty": "±4m; engineering soffit profile not obtained"
+    },
+    "facadeHorizontalBandM": {
+      "value": 0.2,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "thin repeated structural/floor rhythm observed in official photos; thickness is game-visible representation",
+      "uncertainty": "±.10m"
+    },
+    "facadeVerticalRibM": {
+      "value": 0.12,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "reviewed narrow mullion rhythm; width chosen for low-poly candidate, not measured",
+      "uncertainty": "±.08m"
+    },
+    "facadePerimeterDivisions": {
+      "value": 96,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "approx2m bay spacing from196m mapped tower perimeter and photograph rhythm; actual mullion count not claimed",
+      "uncertainty": "±24 divisions"
+    },
+    "bridgeGlazingInsetM": {
+      "value": 0.25,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "avoid coplanar surfaces in candidate; exact rebate not obtained",
+      "uncertainty": "rendering allowance"
+    }
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-12",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "use": "WGS84 footprints; Geofabrik subset equals OSM API rings"
+    },
+    {
+      "id": "osm-api",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=120.230,30.227,120.234,30.231",
+      "publisher": "OpenStreetMap contributors",
+      "accessedAt": "2026-10-12",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "docs/hangzhou/research/core/gate-round2/osm-local-map.json",
+      "sha256": "fccb1560ed559ca266d93d873ee27281ff9b9f7bbad48fa37ec7e8ca137c6d4e",
+      "use": "auxiliary exact node/way version provenance; not replacement for main Geofabrik city"
+    },
+    {
+      "id": "ecadi-primary",
+      "url": "https://www.thepaper.cn/newsDetail_forward_21768064",
+      "publisher": "华建集团华东建筑设计研究院有限公司供稿 / 澎湃号政务平台",
+      "accessedAt": "2026-10-12",
+      "sourceDate": "2023-02-01",
+      "status": "available",
+      "license": "unknown; reference only; images not bundled",
+      "use": "T1/T2 identity, 310m, bridge/curtain elevations, official photos and SOM section image"
+    },
+    {
+      "id": "som-primary",
+      "url": "https://www.som.com/projects/greenland-hangzhou-century-center/",
+      "publisher": "SOM",
+      "accessedAt": "2026-10-12",
+      "status": "available-indexed",
+      "sourceDate": null,
+      "license": "unknown; reference only",
+      "use": "twin towers, H/arched bridge, flowing glass enclosure, 64 stories; indexed text, direct fetch 403"
+    }
+  ],
+  "photos": [
+    {
+      "id": "ecadi-photo-681",
+      "sourceId": "ecadi-primary",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/236/615/681.jpg",
+      "caption": "长三角最高双塔建筑",
+      "creditedTo": "沙鹏",
+      "capturedAt": null,
+      "publishedAt": "2023-02-01",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "actual Chrome native UI image view via cua_repl; not search-generated description",
+      "viewDirection": {
+        "view": "full-front aerial oblique",
+        "azimuth": "unknown; potential180deg ambiguity; no EXIF"
+      },
+      "observations": "双塔横断轮廓圆滑；塔冠外侧高内侧低；低区幕帘为U形；宴会厅下腹拱形，工地地面未完成。",
+      "sha256": "e349838e044aa21b2c7a406cacca92d171c6624d72aabc1ba6e962909dc2eb0a",
+      "downloadBytes": 222994,
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache after visual review, outside repository; no release texture"
+    },
+    {
+      "id": "ecadi-photo-698",
+      "sourceId": "ecadi-primary",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/236/615/698.jpg",
+      "caption": "俯瞰钢拱连廊帘幕",
+      "creditedTo": "沙鹏",
+      "capturedAt": null,
+      "publishedAt": "2023-02-01",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "actual Chrome native UI image view via cua_repl; not search-generated description",
+      "viewDirection": {
+        "view": "oblique-downward",
+        "azimuth": "unknown"
+      },
+      "observations": "双曲马鞍/悬垂面有深度；板块与缝形成镂空节奏，不是两塔间一张平面实心屏。",
+      "sha256": "32c41a80987afd7de98f5cfb98452c995fbb7d33faf67ec082774a1cab1c93a7",
+      "downloadBytes": 239339,
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache after visual review, outside repository; no release texture"
+    },
+    {
+      "id": "ecadi-photo-682",
+      "sourceId": "ecadi-primary",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/236/615/682.jpg",
+      "caption": "塔冠停机坪远眺钱江北岸",
+      "creditedTo": "华东院",
+      "capturedAt": null,
+      "publishedAt": "2023-02-01",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "actual Chrome native UI image view via cua_repl; not search-generated description",
+      "viewDirection": {
+        "view": "tower crown towards NW river/north-bank, estimated",
+        "bearingTowardDegrees": 307.5,
+        "allowanceDegrees": 20
+      },
+      "observations": "反向视角确认屋顶弧形边缘和内侧结构/平台；无EXIF和尺度，停机坪精确尺寸未冻结。",
+      "sha256": "58217d895de2a44053f5b86ecb8544135976646b43613201fbb3c17b9cd840e4",
+      "downloadBytes": 105466,
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache after visual review, outside repository; no release texture"
+    }
+  ],
+  "pendingSubscopes": [
+    "retail podium details",
+    "precise entrances and landscaping",
+    "complete all-side facade survey",
+    "exact roof crown/helipad dimensions",
+    "night material/lighting rendering",
+    "collision/arrival/runtime/performance"
+  ],
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  }
+}

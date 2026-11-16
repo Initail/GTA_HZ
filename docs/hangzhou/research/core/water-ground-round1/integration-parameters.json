@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "status": "research-only-not-runtime-accepted",
+  "verticalScaleOnce": 0.6,
+  "WestLake": {
+    "waterFeatureId": "relation/2308774",
+    "reportedRoutineHeightM": 7.18,
+    "reportedBandM": 0.05,
+    "reportedDatum": "Yellow Sea; editionunknown",
+    "sameSourceEditedDSMHeightM": 7.5,
+    "sameSourceDatum": "EGM2008",
+    "provisionalGameHeightIfSameSourceZeroReference": 4.5,
+    "basis": "candidate source-consistent edited-water value, not measured actual lake level",
+    "datumOffsetToApplyM": null,
+    "conservativeAllowance": "product global<4mLE90 is source specification, not local guarantee; datum error unknown. Keep ground/water visual and collar check pending.",
+    "recommendation": "Separate water plane from road/bridge deck and whole-lake shoreline mask. Retain source7.5only as explicitly provisional EGM-consistent candidate until benchmark tie verified."
+  },
+  "Qiantang": {
+    "waterFeatureId": "relation/8227206",
+    "sameSourceEditedDSMReferenceHeightM": 1.5,
+    "sameSourceDatum": "EGM2008",
+    "provisionalGameReferenceHeightIfSameSourceZeroReference": 0.9,
+    "normalActualAbsoluteHeightM": null,
+    "tideAmplitudeM": null,
+    "basis": "candidate DSMedited water reference at two verified in-polygon points; not timestamped tide or gauged mean",
+    "conservativeAllowance": "edited-water epoch/flattening + tide/flood + unknown datum conversion prevent a defensible local±metre water guarantee",
+    "recommendation": "Keep river references/data dates/vertical datum distinct from lake. Do not add fake sinusoid or real-world tide status to game without time-series phase/source."
+  },
+  "Canals": {
+    "commonAbsoluteHeightM": null,
+    "datum": null,
+    "recommendation": "Use separate source waterbody/sluice-reach groups; derive approximate editedDSMplane within each large actual polygon only as candidate. Narrow/tunnelled channels and controlled pools remain blockers."
+  },
+  "CityBalcony": {
+    "lowerFloorAbsoluteHeightM": null,
+    "upperFloorAbsoluteHeightM": null,
+    "existingIsolatedLowerM": 0,
+    "existingEstimatedUpperSeparationM": 6,
+    "separationAllowanceM": 2,
+    "sampledCentroid": {
+      "pointWGS84": [
+        120.21258014878033,
+        30.24424700302543
+      ],
+      "nearestGridIndices": [
+        544,
+        187
+      ],
+      "nearestGridGame": [
+        3330.2839941925104,
+        -1972.6238008819873
+      ],
+      "nearestGridHorizontalOffsetRealM": 14.66179535360783,
+      "dsmMetresEGM2008": 13.536136627197266,
+      "filteredEstimateMetresEGM2008": 8.915714263916016,
+      "neighborhood3x3RangesMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          3.152616500854492,
+          15.389570236206055
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          4.683806896209717,
+          9.93514633178711
+        ]
+      },
+      "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+    },
+    "recommendation": "Do not bind lower-floor lm.y to centralDSMorfiltered value as survey. Use authoritative shore benchmark/level plan; until then keep isolated/source-estimated platform with entry/floor collision pending."
+  },
+  "GrandTheatre": {
+    "poolOuterWGS84": null,
+    "poolInnerRingsWGS84": null,
+    "poolAbsoluteWaterHeightM": null,
+    "poolDepthM": null,
+    "observedHierarchy": [
+      "outer public plaza/pool edge",
+      "shallow decorative water around protected sunken theatre island",
+      "sunken theatre seating/stage",
+      "raised theatre forecourt with broad entry stairs"
+    ],
+    "basis": "reported official context/actual source photos; numerical geometry unknown",
+    "recommendation": "Root base-water pipeline only, separate pool polygon with drystage holes/ground walkways. Never fill sunken theatre or derive pool from building/whole river footprint; trace needs georeferenced controls/source permit and estimated accuracy report."
+  },
+  "Lingyin": {
+    "hallGroundAbsoluteHeightsM": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceSamples": [
+      {
+        "id": "kings",
+        "name": "天王殿",
+        "sourceFeatureIds": [
+          "way/434365023"
+        ],
+        "frozenModuleRelativeBaseM": 0,
+        "sample": {
+          "pointWGS84": [
+            120.09693385,
+            30.24235535
+          ],
+          "nearestGridIndices": [
+            321,
+            183
+          ],
+          "nearestGridGame": [
+            -3359.7160058074896,
+            -2092.6238008819873
+          ],
+          "nearestGridHorizontalOffsetRealM": 23.807912106735248,
+          "dsmMetresEGM2008": 61.96693801879883,
+          "filteredEstimateMetresEGM2008": 61.76942825317383,
+          "neighborhood3x3RangesMetresEGM2008": {
+            "dsm-egm2008-metres.bin": [
+              59.75018310546875,
+              64.12718963623047
+            ],
+            "ground-estimate-egm2008-metres.bin": [
+              60.86396026611328,
+              65.55428314208984
+            ]
+          },
+          "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+        },
+        "groundFloorAbsoluteMetres": null,
+        "stepCount": null,
+        "stepHeightM": null,
+        "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+      },
+      {
+        "id": "grand",
+        "name": "大雄宝殿",
+        "sourceFeatureIds": [
+          "way/434365024"
+        ],
+        "frozenModuleRelativeBaseM": 0,
+        "sample": {
+          "pointWGS84": [
+            120.09667203986709,
+            30.243079869830463
+          ],
+          "nearestGridIndices": [
+            321,
+            184
+          ],
+          "nearestGridGame": [
+            -3359.7160058074896,
+            -2062.6238008819873
+          ],
+          "nearestGridHorizontalOffsetRealM": 16.23502952179228,
+          "dsmMetresEGM2008": 64.12718963623047,
+          "filteredEstimateMetresEGM2008": 63.88618469238281,
+          "neighborhood3x3RangesMetresEGM2008": {
+            "dsm-egm2008-metres.bin": [
+              60.89879608154297,
+              69.05015563964844
+            ],
+            "ground-estimate-egm2008-metres.bin": [
+              60.86396026611328,
+              72.0673828125
+            ]
+          },
+          "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+        },
+        "groundFloorAbsoluteMetres": null,
+        "stepCount": null,
+        "stepHeightM": null,
+        "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+      },
+      {
+        "id": "medicine",
+        "name": "药师殿",
+        "sourceFeatureIds": [
+          "way/434365025"
+        ],
+        "frozenModuleRelativeBaseM": 0,
+        "sample": {
+          "pointWGS84": [
+            120.09645459924009,
+            30.24360690229454
+          ],
+          "nearestGridIndices": [
+            320,
+            185
+          ],
+          "nearestGridGame": [
+            -3389.7160058074896,
+            -2032.6238008819873
+          ],
+          "nearestGridHorizontalOffsetRealM": 24.581428593839124,
+          "dsmMetresEGM2008": 69.05015563964844,
+          "filteredEstimateMetresEGM2008": 72.0673828125,
+          "neighborhood3x3RangesMetresEGM2008": {
+            "dsm-egm2008-metres.bin": [
+              63.520503997802734,
+              85.1474380493164
+            ],
+            "ground-estimate-egm2008-metres.bin": [
+              63.88618469238281,
+              87.7249526977539
+            ]
+          },
+          "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+        },
+        "groundFloorAbsoluteMetres": null,
+        "stepCount": null,
+        "stepHeightM": null,
+        "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+      },
+      {
+        "id": "dharma",
+        "name": "法堂/直指堂/藏经楼",
+        "sourceFeatureIds": [
+          "way/434366739"
+        ],
+        "frozenModuleRelativeBaseM": 0,
+        "sample": {
+          "pointWGS84": [
+            120.09632221056964,
+            30.243980280269096
+          ],
+          "nearestGridIndices": [
+            320,
+            186
+          ],
+          "nearestGridGame": [
+            -3389.7160058074896,
+            -2002.6238008819873
+          ],
+          "nearestGridHorizontalOffsetRealM": 10.428317671347665,
+          "dsmMetresEGM2008": 83.14305877685547,
+          "filteredEstimateMetresEGM2008": 84.0761947631836,
+          "neighborhood3x3RangesMetresEGM2008": {
+            "dsm-egm2008-metres.bin": [
+              66.35128784179688,
+              102.96814727783203
+            ],
+            "ground-estimate-egm2008-metres.bin": [
+              69.4596176147461,
+              105.36305236816406
+            ]
+          },
+          "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+        },
+        "groundFloorAbsoluteMetres": null,
+        "stepCount": null,
+        "stepHeightM": null,
+        "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+      },
+      {
+        "id": "huayan",
+        "name": "华严殿",
+        "sourceFeatureIds": [
+          "way/434366741"
+        ],
+        "frozenModuleRelativeBaseM": 0,
+        "sample": {
+          "pointWGS84": [
+            120.09609193639957,
+            30.24454996933628
+          ],
+          "nearestGridIndices": [
+            320,
+            187
+          ],
+          "nearestGridGame": [
+            -3389.7160058074896,
+            -1972.6238008819873
+          ],
+          "nearestGridHorizontalOffsetRealM": 29.559220207282273,
+          "dsmMetresEGM2008": 100.10218811035156,
+          "filteredEstimateMetresEGM2008": 101.51203155517578,
+          "neighborhood3x3RangesMetresEGM2008": {
+            "dsm-egm2008-metres.bin": [
+              79.22896575927734,
+              129.1450653076172
+            ],
+            "ground-estimate-egm2008-metres.bin": [
+              80.23281860351562,
+              127.38844299316406
+            ]
+          },
+          "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+        },
+        "groundFloorAbsoluteMetres": null,
+        "stepCount": null,
+        "stepHeightM": null,
+        "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+      }
+    ],
+    "candidateHillOnlyAllowanceM": 15,
+    "allowanceBasis": "modelling guard band only for wooded/built slope; not calibrated error or guaranteed local floor bound",
+    "recommendation": "Use DSMonly for broad hillside context. Five terraces require independent local stair/retaining-wall profiles/level plans before lifting halls as if measured. Do not force all five on one flat floor or treat3x3filter as survey."
+  },
+  "runtimeAcceptanceRequired": [
+    "water/drygroundmask/shoreline clipping",
+    "exact public-floor/bridge heights and shared endpoints",
+    "layer-separated tunnels/raised bridges",
+    "height-awarecolliders",
+    "walkable validated arrival without water/curb/wall obstruction",
+    "current day/night views/current real-driving checks"
+  ],
+  "blockers": [
+    {
+      "id": "yellowSea-version",
+      "scope": "WestLake",
+      "reason": "Both official7.18references state Yellow Sea but no1956/1985edition; cannot silently label asEPSG5737."
+    },
+    {
+      "id": "vertical-tie",
+      "scope": "all",
+      "reason": "No local trustedEGM2008to national/local benchmark tie; available non-ballparkPROJoperation count0."
+    },
+    {
+      "id": "river-current-stage",
+      "scope": "Qiantang",
+      "reason": "Tides/storm/flood/time/location vary; no complete same-datum current or representative CityBalcony tide series."
+    },
+    {
+      "id": "canal-datum-zones",
+      "scope": "urban canals",
+      "reason": "Per-basin gate/pump control and datum unverified; no common1.35/1.5/3m plane justified for all."
+    },
+    {
+      "id": "balcony-floor-levels",
+      "scope": "CityBalcony",
+      "reason": "Absolute lower floor/shoredeck and true upper separation/entry stair/ramp/lift surveys missing; centroidDSMmay sample upper deck/room roofs."
+    },
+    {
+      "id": "theatre-pool-polygon",
+      "scope": "GrandTheatre",
+      "reason": "Actual pool evident, but no independently georeferenced pool outer/innerrings or site section; processedwater geometry intersects sitebox0features."
+    },
+    {
+      "id": "temple-steps",
+      "scope": "Lingyin five halls",
+      "reason": "Five axial stair/terrace profiles,count,rise/tread/entry positions and benchmark height missing. Nearby3stepsways are52–129m from five-hall envelope, noele/step_count."
+    }
+  ]
+}

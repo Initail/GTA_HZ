@@ -1,0 +1,24 @@
+{
+  "section": 5,
+  "count": 8,
+  "from": 139,
+  "to": 166,
+  "total": 222,
+  "inputs": {
+    "../src/city-world.ts": "9c2baf3247852b997e2d652cc6d6d140c3e3dc3e1dd1aead4589101853750347",
+    "./main-city-fixture-v2.json": "c6ec413baf9a17d24774d36c7ddecd3d3de57af35e11c86ed67561fa8b012830",
+    "../public/cities/hangzhou/leisure.json": "7e9dd29483e75e11ee283534d4c91767464fb156e86e58597789ec0261cbde4d",
+    "../public/cities/hangzhou/geography/site-surfaces.json": "1a6cd159cb0d19a4cda09e2190038580641c865cbbe6a3209cffd6a13b3e68c1"
+  },
+  "priorHash": "655a3da69af6abfcb31a640123939563b9f1fe5d9771448e8704e58574041b61",
+  "visited": 1322,
+  "height": 5.276933707863526,
+  "hint": {
+    "id": "leisure:approach:6:5",
+    "height": 5.276933707863526
+  },
+  "roadHint": {
+    "height": 5.251933707863526,
+    "groundOnly": true
+  }
+}

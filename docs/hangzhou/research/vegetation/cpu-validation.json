@@ -1,0 +1,1576 @@
+{
+  "date": "2026-10-14",
+  "sourceModuleSha256": "c500ed2da137eecacb04580e3dedfdd8da63121e6026a4918a722db9a7b1d340",
+  "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "scope": "CPU localprototype checks, not final botanical/game visual/collision/performance acceptance",
+  "checks": {
+    "sourceSnapshotsFrozen": true,
+    "noSceneImports": true,
+    "24LODBudgets": true,
+    "geometryFiniteAndFacesNonzero": true,
+    "dimensionsScaledOnceToGameUnits": true,
+    "gameAnchorYNotRescaled": true,
+    "deterministicMesh": true,
+    "materialSlotsDoNotChangeGeometry": true,
+    "materialLocalFacesNoReverseDuplicatesOr10umCoincidentVertices": true,
+    "fanTrianglesNonzero": true,
+    "ginkgoFanLeavesClosedAndConsistentlyWound": true,
+    "LODCountsStrictlyDecrease": true,
+    "LODEightViewSilhouetteEnvelopes": true,
+    "staticSeasonVariantsRespectLeafHabits": true,
+    "frameRestoration": true,
+    "rejectSecondUnitConvention": true,
+    "noInventoryOrSourcePhotoAssets": true
+  },
+  "models": [
+    {
+      "id": "hz-tree-camphor-lod0",
+      "species": "camphor",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 1392,
+      "faces": 772,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 292,
+        "solid-crown": 1100
+      },
+      "heightGame": 10.799999999999999,
+      "crownRadiusGame": 4.08,
+      "minZGame": -0.10011618827620694,
+      "sourceHeightMetres": 18,
+      "sourceCrownRadiusMetres": 6.8,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-camphor-lod1",
+      "species": "camphor",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 340,
+      "faces": 200,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 100,
+        "solid-crown": 240
+      },
+      "heightGame": 10.799999999999999,
+      "crownRadiusGame": 4.08,
+      "minZGame": -0.10065914223490537,
+      "sourceHeightMetres": 18,
+      "sourceCrownRadiusMetres": 6.8,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-camphor-lod2",
+      "species": "camphor",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 120,
+      "faces": 78,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 48,
+        "solid-crown": 72
+      },
+      "heightGame": 10.799999999999999,
+      "crownRadiusGame": 4.08,
+      "minZGame": -0.10321256523320303,
+      "sourceHeightMetres": 18,
+      "sourceCrownRadiusMetres": 6.8,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-willow-lod0",
+      "species": "willow",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 2164,
+      "faces": 1072,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 292,
+        "willow-pendent-branches": 672,
+        "solid-crown": 1200
+      },
+      "heightGame": 6.599999999999999,
+      "crownRadiusGame": 2.9999999999999996,
+      "minZGame": -0.09925704941583365,
+      "sourceHeightMetres": 11,
+      "sourceCrownRadiusMetres": 5.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-willow-lod1",
+      "species": "willow",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 724,
+      "faces": 392,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 100,
+        "willow-pendent-branches": 240,
+        "solid-crown": 384
+      },
+      "heightGame": 6.599999999999999,
+      "crownRadiusGame": 2.9999999999999996,
+      "minZGame": -0.09965525850780972,
+      "sourceHeightMetres": 11,
+      "sourceCrownRadiusMetres": 5.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-willow-lod2",
+      "species": "willow",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 216,
+      "faces": 150,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 48,
+        "solid-crown": 168
+      },
+      "heightGame": 6.599999999999999,
+      "crownRadiusGame": 2.9999999999999996,
+      "minZGame": -0.09925704941583365,
+      "sourceHeightMetres": 11,
+      "sourceCrownRadiusMetres": 5.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-osmanthus-lod0",
+      "species": "osmanthus",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 1392,
+      "faces": 772,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 292,
+        "solid-crown": 1100
+      },
+      "heightGame": 3.3,
+      "crownRadiusGame": 1.5599999999999998,
+      "minZGame": -0.09413710908324877,
+      "sourceHeightMetres": 5.5,
+      "sourceCrownRadiusMetres": 2.6,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-osmanthus-lod1",
+      "species": "osmanthus",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 340,
+      "faces": 200,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 100,
+        "solid-crown": 240
+      },
+      "heightGame": 3.3,
+      "crownRadiusGame": 1.5600000000000003,
+      "minZGame": -0.09435941548124156,
+      "sourceHeightMetres": 5.5,
+      "sourceCrownRadiusMetres": 2.6,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-osmanthus-lod2",
+      "species": "osmanthus",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 120,
+      "faces": 78,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 48,
+        "solid-crown": 72
+      },
+      "heightGame": 3.3000000000000003,
+      "crownRadiusGame": 1.56,
+      "minZGame": -0.09704856606520493,
+      "sourceHeightMetres": 5.5,
+      "sourceCrownRadiusMetres": 2.6,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-ginkgo-lod0",
+      "species": "ginkgo",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 1280,
+      "faces": 736,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 292,
+        "solid-crown": 700,
+        "ginkgo-fan-leaf-detail": 288
+      },
+      "heightGame": 10.2,
+      "crownRadiusGame": 2.4,
+      "minZGame": -0.09196948585470635,
+      "sourceHeightMetres": 17,
+      "sourceCrownRadiusMetres": 4.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-ginkgo-lod1",
+      "species": "ginkgo",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 244,
+      "faces": 136,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 100,
+        "solid-crown": 144
+      },
+      "heightGame": 10.2,
+      "crownRadiusGame": 2.4,
+      "minZGame": -0.09352833989263118,
+      "sourceHeightMetres": 17,
+      "sourceCrownRadiusMetres": 4.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-ginkgo-lod2",
+      "species": "ginkgo",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 120,
+      "faces": 78,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 48,
+        "solid-crown": 72
+      },
+      "heightGame": 10.2,
+      "crownRadiusGame": 2.4,
+      "minZGame": -0.09334902814252695,
+      "sourceHeightMetres": 17,
+      "sourceCrownRadiusMetres": 4.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-plane-lod0",
+      "species": "plane",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 1392,
+      "faces": 772,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight",
+        "pavement"
+      ],
+      "partTriangles": {
+        "plane-bark": 292,
+        "solid-crown": 1100
+      },
+      "heightGame": 12.0,
+      "crownRadiusGame": 4.199999999999999,
+      "minZGame": -0.09939265403312854,
+      "sourceHeightMetres": 20,
+      "sourceCrownRadiusMetres": 7.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-plane-lod1",
+      "species": "plane",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 340,
+      "faces": 200,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight",
+        "pavement"
+      ],
+      "partTriangles": {
+        "plane-bark": 100,
+        "solid-crown": 240
+      },
+      "heightGame": 12.0,
+      "crownRadiusGame": 4.2,
+      "minZGame": -0.09989658473896085,
+      "sourceHeightMetres": 20,
+      "sourceCrownRadiusMetres": 7.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-plane-lod2",
+      "species": "plane",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 120,
+      "faces": 78,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "plane-bark": 48,
+        "solid-crown": 72
+      },
+      "heightGame": 12.0,
+      "crownRadiusGame": 4.2,
+      "minZGame": -0.10246665364240058,
+      "sourceHeightMetres": 20,
+      "sourceCrownRadiusMetres": 7.0,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-peach-lod0",
+      "species": "peach",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 1192,
+      "faces": 652,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 292,
+        "solid-crown": 900
+      },
+      "heightGame": 3.0,
+      "crownRadiusGame": 1.6800000000000002,
+      "minZGame": -0.09486744961605575,
+      "sourceHeightMetres": 5.0,
+      "sourceCrownRadiusMetres": 2.8,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-peach-lod1",
+      "species": "peach",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 292,
+      "faces": 168,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 100,
+        "solid-crown": 192
+      },
+      "heightGame": 3.0,
+      "crownRadiusGame": 1.6800000000000002,
+      "minZGame": -0.09512939318628315,
+      "sourceHeightMetres": 5.0,
+      "sourceCrownRadiusMetres": 2.8,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-peach-lod2",
+      "species": "peach",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 120,
+      "faces": 78,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 48,
+        "solid-crown": 72
+      },
+      "heightGame": 3.0,
+      "crownRadiusGame": 1.68,
+      "minZGame": -0.09780149444954205,
+      "sourceHeightMetres": 5.0,
+      "sourceCrownRadiusMetres": 2.8,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-sweetgum-lod0",
+      "species": "sweetgum",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 992,
+      "faces": 532,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 292,
+        "solid-crown": 700
+      },
+      "heightGame": 12.0,
+      "crownRadiusGame": 3.1799999999999997,
+      "minZGame": -0.09149097407422865,
+      "sourceHeightMetres": 20,
+      "sourceCrownRadiusMetres": 5.3,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-sweetgum-lod1",
+      "species": "sweetgum",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 244,
+      "faces": 136,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 100,
+        "solid-crown": 144
+      },
+      "heightGame": 12.0,
+      "crownRadiusGame": 3.1799999999999997,
+      "minZGame": -0.09398055775993228,
+      "sourceHeightMetres": 20,
+      "sourceCrownRadiusMetres": 5.3,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-sweetgum-lod2",
+      "species": "sweetgum",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 120,
+      "faces": 78,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 48,
+        "solid-crown": 72
+      },
+      "heightGame": 12.0,
+      "crownRadiusGame": 3.1799999999999997,
+      "minZGame": -0.09377824842608438,
+      "sourceHeightMetres": 20,
+      "sourceCrownRadiusMetres": 5.3,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-masson-pine-lod0",
+      "species": "masson-pine",
+      "lod": 0,
+      "seasonAssetVariant": "summer",
+      "triangles": 892,
+      "faces": 472,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 292,
+        "solid-crown": 600
+      },
+      "heightGame": 13.2,
+      "crownRadiusGame": 3.36,
+      "minZGame": -0.09363245281467573,
+      "sourceHeightMetres": 22,
+      "sourceCrownRadiusMetres": 5.6,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-masson-pine-lod1",
+      "species": "masson-pine",
+      "lod": 1,
+      "seasonAssetVariant": "summer",
+      "triangles": 244,
+      "faces": 136,
+      "materials": [
+        "bark",
+        "leaf",
+        "leaflight"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 100,
+        "solid-crown": 144
+      },
+      "heightGame": 13.2,
+      "crownRadiusGame": 3.36,
+      "minZGame": -0.09382694979743116,
+      "sourceHeightMetres": 22,
+      "sourceCrownRadiusMetres": 5.6,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    },
+    {
+      "id": "hz-tree-masson-pine-lod2",
+      "species": "masson-pine",
+      "lod": 2,
+      "seasonAssetVariant": "summer",
+      "triangles": 120,
+      "faces": 78,
+      "materials": [
+        "bark",
+        "leaf"
+      ],
+      "partTriangles": {
+        "trunk-and-branches": 48,
+        "solid-crown": 72
+      },
+      "heightGame": 13.2,
+      "crownRadiusGame": 3.36,
+      "minZGame": -0.09363245281467573,
+      "sourceHeightMetres": 22,
+      "sourceCrownRadiusMetres": 5.6,
+      "singleGeographicScale": 0.6,
+      "instanceScalePolicy": "variation scale only; no second0.60",
+      "prototypeSpace": "local east/north/up, rootground at0, lm.y alreadygameunits",
+      "bareWinterAssetVariant": false,
+      "newTextures": 0,
+      "newLights": 0,
+      "alphaCards": 0,
+      "geographicInventoryGenerated": false,
+      "defaultMaterialsApproximate": true,
+      "dimensionBasis": "estimated procedural mature/maintained archetype, not measuredtree",
+      "pendingSubscopes": [
+        "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+        "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+        "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+        "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+        "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+        "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+        "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+      ]
+    }
+  ],
+  "species": {
+    "camphor": {
+      "triangles": [
+        1392,
+        340,
+        120
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.8799158081311621,
+          "fullVsFarIoU": 0.7725018465759207
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.9207831664228648,
+          "fullVsFarIoU": 0.8183682279300669
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.8870734689340891,
+          "fullVsFarIoU": 0.8389031705227078
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.8005461372169758,
+          "fullVsFarIoU": 0.7689883391112512
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.8165137614678899,
+          "fullVsFarIoU": 0.807883907299112
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8689990942028986,
+          "fullVsFarIoU": 0.7862929013003624
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.9115251589869463,
+          "fullVsFarIoU": 0.7907883642495784
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.839627927826964,
+          "fullVsFarIoU": 0.8108339578203618
+        }
+      ],
+      "heightGame": 10.799999999999999,
+      "crownRadiusGame": 4.08
+    },
+    "willow": {
+      "triangles": [
+        2164,
+        724,
+        216
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.9059243605625592,
+          "fullVsFarIoU": 0.8490770901194354
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.9216400911161731,
+          "fullVsFarIoU": 0.8522078702313007
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.8425955162614461,
+          "fullVsFarIoU": 0.7817854627963383
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.8604878048780488,
+          "fullVsFarIoU": 0.894130326645664
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.8768170113796827,
+          "fullVsFarIoU": 0.8076316880962257
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8956528713506576,
+          "fullVsFarIoU": 0.8105649537184807
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.9229990657116163,
+          "fullVsFarIoU": 0.8865627665348531
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.7869390189354406,
+          "fullVsFarIoU": 0.8170265902747172
+        }
+      ],
+      "heightGame": 6.6,
+      "crownRadiusGame": 3.0
+    },
+    "osmanthus": {
+      "triangles": [
+        1392,
+        340,
+        120
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.8834179730624862,
+          "fullVsFarIoU": 0.7713089005235602
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.9272482317278545,
+          "fullVsFarIoU": 0.8119713031373809
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.8923966207203201,
+          "fullVsFarIoU": 0.8360097841114538
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.8139850644942295,
+          "fullVsFarIoU": 0.7660330060580739
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.8256849315068493,
+          "fullVsFarIoU": 0.8094878706199461
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8716709742667715,
+          "fullVsFarIoU": 0.7855702917771883
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.9122419693122861,
+          "fullVsFarIoU": 0.7941391941391941
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.8519097610006701,
+          "fullVsFarIoU": 0.8093663324087903
+        }
+      ],
+      "heightGame": 3.3,
+      "crownRadiusGame": 1.56
+    },
+    "ginkgo": {
+      "triangles": [
+        1280,
+        244,
+        120
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.8177215189873418,
+          "fullVsFarIoU": 0.7628538417099943
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.817592392478928,
+          "fullVsFarIoU": 0.7905877517468146
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.8310363537710255,
+          "fullVsFarIoU": 0.8074089665333614
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.8537846732487071,
+          "fullVsFarIoU": 0.7667804323094426
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.8380515759312321,
+          "fullVsFarIoU": 0.8312014618547282
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8717190825254197,
+          "fullVsFarIoU": 0.7798213347346296
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.8293724674186836,
+          "fullVsFarIoU": 0.8194176835795333
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.8122998078155029,
+          "fullVsFarIoU": 0.7955060812203669
+        }
+      ],
+      "heightGame": 10.2,
+      "crownRadiusGame": 2.4
+    },
+    "plane": {
+      "triangles": [
+        1392,
+        340,
+        120
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.8783647939238244,
+          "fullVsFarIoU": 0.7741284013605442
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.9242114817336057,
+          "fullVsFarIoU": 0.823177366702938
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.8887768817204301,
+          "fullVsFarIoU": 0.8405218891524693
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.8014192514593109,
+          "fullVsFarIoU": 0.7711327134404058
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.818287171166995,
+          "fullVsFarIoU": 0.8092479230432882
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8732876712328768,
+          "fullVsFarIoU": 0.7895019321597252
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.9120916133378242,
+          "fullVsFarIoU": 0.793927168489224
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.8410372040586246,
+          "fullVsFarIoU": 0.8094981692870988
+        }
+      ],
+      "heightGame": 12.0,
+      "crownRadiusGame": 4.2
+    },
+    "peach": {
+      "triangles": [
+        1192,
+        292,
+        120
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.9033568271413213,
+          "fullVsFarIoU": 0.8193291642978965
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.8566450372506609,
+          "fullVsFarIoU": 0.8660138248847926
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.7615878010407843,
+          "fullVsFarIoU": 0.8682126047526116
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.7365063788027478,
+          "fullVsFarIoU": 0.837243735763098
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.7565748473139723,
+          "fullVsFarIoU": 0.8843270260621207
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8538068596448553,
+          "fullVsFarIoU": 0.8552098993870707
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.8946496212121212,
+          "fullVsFarIoU": 0.8430863081789426
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.8605558264261336,
+          "fullVsFarIoU": 0.8435600412891386
+        }
+      ],
+      "heightGame": 3.0,
+      "crownRadiusGame": 1.68
+    },
+    "sweetgum": {
+      "triangles": [
+        992,
+        244,
+        120
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.8234785428602314,
+          "fullVsFarIoU": 0.7965587044534413
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.790407358738502,
+          "fullVsFarIoU": 0.7952153110047847
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.8131728209283482,
+          "fullVsFarIoU": 0.8035673710520336
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.8154158215010142,
+          "fullVsFarIoU": 0.8365800865800865
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.8501018848700967,
+          "fullVsFarIoU": 0.8242577384712572
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8400900900900901,
+          "fullVsFarIoU": 0.826626111371081
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.8451612903225807,
+          "fullVsFarIoU": 0.8225355264630189
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.8142532221379833,
+          "fullVsFarIoU": 0.8198226725775808
+        }
+      ],
+      "heightGame": 12.0,
+      "crownRadiusGame": 3.1799999999999997
+    },
+    "masson-pine": {
+      "triangles": [
+        892,
+        244,
+        120
+      ],
+      "silhouetteEightViews": [
+        {
+          "yawRadians": 0.0,
+          "fullVsMidIoU": 0.8008651551312649,
+          "fullVsFarIoU": 0.7556374982272018
+        },
+        {
+          "yawRadians": 0.39269908169872414,
+          "fullVsMidIoU": 0.7934192146515598,
+          "fullVsFarIoU": 0.7543938039916592
+        },
+        {
+          "yawRadians": 0.7853981633974483,
+          "fullVsMidIoU": 0.8280130293159609,
+          "fullVsFarIoU": 0.7910997278693773
+        },
+        {
+          "yawRadians": 1.1780972450961724,
+          "fullVsMidIoU": 0.8484094544162075,
+          "fullVsFarIoU": 0.845958312150483
+        },
+        {
+          "yawRadians": 1.5707963267948966,
+          "fullVsMidIoU": 0.8773482658959537,
+          "fullVsFarIoU": 0.8255980007140307
+        },
+        {
+          "yawRadians": 1.9634954084936207,
+          "fullVsMidIoU": 0.8309027777777778,
+          "fullVsFarIoU": 0.8408101774355541
+        },
+        {
+          "yawRadians": 2.356194490192345,
+          "fullVsMidIoU": 0.8373572593800979,
+          "fullVsFarIoU": 0.7996456756321468
+        },
+        {
+          "yawRadians": 2.748893571891069,
+          "fullVsMidIoU": 0.8047127675958725,
+          "fullVsFarIoU": 0.7640599495474106
+        }
+      ],
+      "heightGame": 13.2,
+      "crownRadiusGame": 3.36
+    }
+  },
+  "seasonVariants": [
+    {
+      "species": "camphor",
+      "season": "spring",
+      "triangles": 1392,
+      "bareWinter": false
+    },
+    {
+      "species": "camphor",
+      "season": "autumn",
+      "triangles": 1392,
+      "bareWinter": false
+    },
+    {
+      "species": "camphor",
+      "season": "winter",
+      "triangles": 1392,
+      "bareWinter": false
+    },
+    {
+      "species": "willow",
+      "season": "spring",
+      "triangles": 2164,
+      "bareWinter": false
+    },
+    {
+      "species": "willow",
+      "season": "autumn",
+      "triangles": 2164,
+      "bareWinter": false
+    },
+    {
+      "species": "willow",
+      "season": "winter",
+      "triangles": 964,
+      "bareWinter": true
+    },
+    {
+      "species": "osmanthus",
+      "season": "spring",
+      "triangles": 1392,
+      "bareWinter": false
+    },
+    {
+      "species": "osmanthus",
+      "season": "autumn",
+      "triangles": 2092,
+      "bareWinter": false
+    },
+    {
+      "species": "osmanthus",
+      "season": "winter",
+      "triangles": 1392,
+      "bareWinter": false
+    },
+    {
+      "species": "ginkgo",
+      "season": "spring",
+      "triangles": 1280,
+      "bareWinter": false
+    },
+    {
+      "species": "ginkgo",
+      "season": "autumn",
+      "triangles": 1280,
+      "bareWinter": false
+    },
+    {
+      "species": "ginkgo",
+      "season": "winter",
+      "triangles": 292,
+      "bareWinter": true
+    },
+    {
+      "species": "plane",
+      "season": "spring",
+      "triangles": 1392,
+      "bareWinter": false
+    },
+    {
+      "species": "plane",
+      "season": "autumn",
+      "triangles": 1392,
+      "bareWinter": false
+    },
+    {
+      "species": "plane",
+      "season": "winter",
+      "triangles": 292,
+      "bareWinter": true
+    },
+    {
+      "species": "peach",
+      "season": "spring",
+      "triangles": 1892,
+      "bareWinter": false
+    },
+    {
+      "species": "peach",
+      "season": "autumn",
+      "triangles": 1192,
+      "bareWinter": false
+    },
+    {
+      "species": "peach",
+      "season": "winter",
+      "triangles": 292,
+      "bareWinter": true
+    },
+    {
+      "species": "sweetgum",
+      "season": "spring",
+      "triangles": 992,
+      "bareWinter": false
+    },
+    {
+      "species": "sweetgum",
+      "season": "autumn",
+      "triangles": 992,
+      "bareWinter": false
+    },
+    {
+      "species": "sweetgum",
+      "season": "winter",
+      "triangles": 292,
+      "bareWinter": true
+    },
+    {
+      "species": "masson-pine",
+      "season": "spring",
+      "triangles": 892,
+      "bareWinter": false
+    },
+    {
+      "species": "masson-pine",
+      "season": "autumn",
+      "triangles": 892,
+      "bareWinter": false
+    },
+    {
+      "species": "masson-pine",
+      "season": "winter",
+      "triangles": 892,
+      "bareWinter": false
+    }
+  ],
+  "totalTrianglesAll24": 14520,
+  "glbs": [],
+  "realGameScreenshots": [],
+  "pending": [
+    "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+    "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+    "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+    "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+    "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+    "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+    "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+  ]
+}

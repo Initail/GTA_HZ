@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "coordinateSystem": "Hangzhou game ENU metres; XY east/north and optional third coordinate up; WGS84-derived local projection scale0.60 already applied",
+  "sourceArtifactSha256": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "shore-interval-0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3272.656920392081,
+            -2066.2639358678507
+          ],
+          [
+            3286.178767599346,
+            -2042.798760503912
+          ],
+          [
+            3320.598628410587,
+            -1993.7378542272766
+          ],
+          [
+            3362.3042765999458,
+            -1922.5144018942624
+          ],
+          [
+            3375.6491069463755,
+            -1900.8413844266772
+          ]
+        ]
+      },
+      "properties": {
+        "fromStationGame": 198.4367730578943,
+        "toStationGame": 393.4376262379045,
+        "sourceLineSha256": "8795e8a7e3f618f49a690d9004a614e5f1b6e475bffbd76edca46a8b6b81cef0",
+        "sourceShoreId": "qianjiang-city-balcony",
+        "capTopYGame": 1.5579020031420152,
+        "stationIsSourcePolylineArcLength": true
+      }
+    }
+  ]
+}

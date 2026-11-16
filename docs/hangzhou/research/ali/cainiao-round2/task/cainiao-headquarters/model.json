@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "placeId": "cainiao-headquarters",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/cainiao-v1/cainiao-headquarters.glb",
+  "sourceModule": "scripts/landmarks/cainiao_headquarters.py",
+  "sha256": "35e03654168c2bd407a4cc7c0cf5fbcfffbf036b2cadaeef5420f72913993c98",
+  "sourceModuleSha256": "748bfd3fd82d9a8960b41e206d89d812fe14534bef655d5b98e9c1c2f1a00fef",
+  "artifactMeshPrefix": "detail_cainiao-headquarters_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/ali/cainiao-round2/task/cainiao-headquarters/job.json --spec docs/hangzhou/research/ali/cainiao-round2/spec.json --module scripts/landmarks/cainiao_headquarters.py --output artifacts/cities/hangzhou/landmarks/cainiao-v1",
+  "status": "model-exported-not-verified",
+  "cpuBuildCommand": "python3 docs/hangzhou/research/ali/cainiao-round2/check_candidate.py",
+  "cpuValidationPath": "docs/hangzhou/research/ali/cainiao-round2/cpu-validation.json",
+  "sourceSpec": "docs/hangzhou/research/ali/cainiao-round2/spec.json",
+  "sourceSpecSha256": "075e0dad653e40889472d115598465765f27e434605ba15eac3ae1c2bd1a7ce5",
+  "notes": "Root实际串行Blender导出；地形、入口、昼夜、碰撞、实机图和性能未验收。",
+  "cpuValidationSha256": "299dea873a61bb52a1c9e1e83030b27c104327d13d4e64a1ebeb44515f69d368",
+  "cpuTriangleCount": 14556
+}

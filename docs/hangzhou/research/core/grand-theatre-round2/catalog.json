@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "use": "main crescent, low wing, front circular plan and ten exact nested contour plans; invalid/nonstandard height fields not adopted as measured elevations"
+    },
+    {
+      "id": "ott-grand",
+      "url": "https://carlosott.com/?project=hangzhou-grand-theatre",
+      "publisher": "Carlos Ott design architect",
+      "accessedAt": "2026-10-14",
+      "status": "available; actual curl read",
+      "license": "unknown; reference only",
+      "use": "double-curved glass/titanium roof, inverted-conical opera core, actual widefront/side/interior photos; no totalheight given"
+    },
+    {
+      "id": "petroff-grand",
+      "url": "https://www.petroff.com/projects/hangzhou-grand-theatre",
+      "publisher": "PETROFF Partnership Architects / Carlos Ott collaboration",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "double-curvature metal plane + glass cone, three hall roles, actual front/inside photos; aluminum/titanium vocabulary conflict retained"
+    },
+    {
+      "id": "theatre-wind-paper",
+      "url": "https://pubs.cstam.org.cn/data/article/jem/preview/pdf/sylx200401002.pdf",
+      "publisher": "田森源/楼文娟/王高帆/沈国辉/孙炳楠/周嵘；实验力学19(1),2004，中国力学学会期刊平台",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2004-03",
+      "status": "available; actual PDF/Quartz page read",
+      "license": "unknown; research only; no PDF texture/bundle",
+      "sha256": "8b15104df197d19ecd104eb72064ed8843302c6ffa0dc33d2d78741e97b28c0e",
+      "use": "reportedtotal46.4m on p1, fig1 plan/fig2 southwest elevation; design/wind-study not site survey"
+    },
+    {
+      "id": "theatre-opening",
+      "url": "https://zjnews.zjol.com.cn/05zjnews/system/2004/07/01/002992585.shtml",
+      "publisher": "浙江在线 / 钱江晚报建设期记者现场报道",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2004-07-01",
+      "status": "web text available",
+      "license": "unknown; reference only",
+      "use": "pool with two audience routes, ten small doors historical entrydescription; not current completeaccess/ground geometry"
+    },
+    {
+      "id": "theatre-high-photo",
+      "url": "https://commons.wikimedia.org/wiki/File:20190717%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2.jpg",
+      "publisher": "MasaneMiyaPA own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2019-07-17",
+      "status": "available; official thumbnail read",
+      "license": "CC BY-SA4.0 metadata, reference only, not bundled",
+      "use": "actual elevated northwest view from civic center, rear metal shell/glasscone/entry/pool/outdoor stage"
+    },
+    {
+      "id": "theatre-near-photo",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Grand_Theatre_18.jpg",
+      "publisher": "钉钉 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2019-11-08",
+      "status": "available; official thumbnail read",
+      "license": "CC BY-SA4.0 metadata; reference only",
+      "use": "front cone/eave/stair/low doorway andpooledge visible, no statue/lighting assetcopied"
+    },
+    {
+      "id": "theatre-photo-2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Grand_Theatre_1.JPG",
+      "publisher": "Huandy618 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2012-09-23",
+      "status": "available",
+      "license": "CC BY-SA3.0 metadata; reference only",
+      "use": "independent unadorned side-front builtphoto, not current2026 condition"
+    }
+  ],
+  "places": [
+    {
+      "id": "grand-theatre",
+      "name": "杭州大剧院",
+      "kind": "building",
+      "scope": "Finite Hangzhou Grand Theatre exterior candidate: exact mapped crescent/low-wing/front-circle plans, original continuous crescent metal rear shell and inclined glass face, two-tier inverted-conical glass front volume with shallow broad overhang, low wing canopy and representative external fan stairs. Full hall interiors/site/pool/outdoor-stage/doors/terrain and runtime acceptance pending; zero candidate water planes.",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": [
+          120.21089643393236,
+          30.24680828230344
+        ],
+        "status": "confirmed",
+        "sourceIds": [
+          "osm-geofabrik"
+        ]
+      },
+      "sources": [
+        {
+          "id": "osm-geofabrik",
+          "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+          "publisher": "OpenStreetMap contributors / Geofabrik",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2026-10-11T20:21:06Z",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+          "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+          "use": "main crescent, low wing, front circular plan and ten exact nested contour plans; invalid/nonstandard height fields not adopted as measured elevations"
+        },
+        {
+          "id": "ott-grand",
+          "url": "https://carlosott.com/?project=hangzhou-grand-theatre",
+          "publisher": "Carlos Ott design architect",
+          "accessedAt": "2026-10-14",
+          "status": "available; actual curl read",
+          "license": "unknown; reference only",
+          "use": "double-curved glass/titanium roof, inverted-conical opera core, actual widefront/side/interior photos; no totalheight given"
+        },
+        {
+          "id": "petroff-grand",
+          "url": "https://www.petroff.com/projects/hangzhou-grand-theatre",
+          "publisher": "PETROFF Partnership Architects / Carlos Ott collaboration",
+          "accessedAt": "2026-10-14",
+          "status": "available",
+          "license": "unknown; reference only",
+          "use": "double-curvature metal plane + glass cone, three hall roles, actual front/inside photos; aluminum/titanium vocabulary conflict retained"
+        },
+        {
+          "id": "theatre-wind-paper",
+          "url": "https://pubs.cstam.org.cn/data/article/jem/preview/pdf/sylx200401002.pdf",
+          "publisher": "田森源/楼文娟/王高帆/沈国辉/孙炳楠/周嵘；实验力学19(1),2004，中国力学学会期刊平台",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2004-03",
+          "status": "available; actual PDF/Quartz page read",
+          "license": "unknown; research only; no PDF texture/bundle",
+          "sha256": "8b15104df197d19ecd104eb72064ed8843302c6ffa0dc33d2d78741e97b28c0e",
+          "use": "reportedtotal46.4m on p1, fig1 plan/fig2 southwest elevation; design/wind-study not site survey"
+        },
+        {
+          "id": "theatre-opening",
+          "url": "https://zjnews.zjol.com.cn/05zjnews/system/2004/07/01/002992585.shtml",
+          "publisher": "浙江在线 / 钱江晚报建设期记者现场报道",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2004-07-01",
+          "status": "web text available",
+          "license": "unknown; reference only",
+          "use": "pool with two audience routes, ten small doors historical entrydescription; not current completeaccess/ground geometry"
+        },
+        {
+          "id": "theatre-high-photo",
+          "url": "https://commons.wikimedia.org/wiki/File:20190717%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2.jpg",
+          "publisher": "MasaneMiyaPA own photograph / Wikimedia Commons",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2019-07-17",
+          "status": "available; official thumbnail read",
+          "license": "CC BY-SA4.0 metadata, reference only, not bundled",
+          "use": "actual elevated northwest view from civic center, rear metal shell/glasscone/entry/pool/outdoor stage"
+        },
+        {
+          "id": "theatre-near-photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Grand_Theatre_18.jpg",
+          "publisher": "钉钉 own photograph / Wikimedia Commons",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2019-11-08",
+          "status": "available; official thumbnail read",
+          "license": "CC BY-SA4.0 metadata; reference only",
+          "use": "front cone/eave/stair/low doorway andpooledge visible, no statue/lighting assetcopied"
+        },
+        {
+          "id": "theatre-photo-2012",
+          "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Grand_Theatre_1.JPG",
+          "publisher": "Huandy618 own photograph / Wikimedia Commons",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2012-09-23",
+          "status": "available",
+          "license": "CC BY-SA3.0 metadata; reference only",
+          "use": "independent unadorned side-front builtphoto, not current2026 condition"
+        }
+      ],
+      "researchEvidence": "docs/hangzhou/research/core/grand-theatre-round2/evidence.json"
+    }
+  ]
+}

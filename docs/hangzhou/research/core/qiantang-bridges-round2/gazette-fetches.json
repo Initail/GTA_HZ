@@ -1,0 +1,22 @@
+[
+  {
+    "id": "zgazette",
+    "url": "https://www.hhtz.gov.cn/attach/0/5434a3787bf34770b76fed0fbbcbb2af.pdf",
+    "path": "<TEMP>/qiantang-bridges-research/zgazette.pdf",
+    "returncode": 0,
+    "httpStatus": "403",
+    "bytes": 150,
+    "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+    "bundled": false
+  },
+  {
+    "id": "zorigin",
+    "url": "https://www.hhtz.gov.cn/attach/0/8fdbde324604498091b2e7acad4f172d.pdf",
+    "path": "<TEMP>/qiantang-bridges-research/zorigin.pdf",
+    "returncode": 0,
+    "httpStatus": "403",
+    "bytes": 150,
+    "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+    "bundled": false
+  }
+]

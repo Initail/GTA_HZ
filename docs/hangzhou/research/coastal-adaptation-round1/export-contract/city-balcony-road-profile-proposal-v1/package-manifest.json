@@ -1,0 +1,20 @@
+{
+  "files": {
+    "README.md": "7340dd7c7f78ca58adafd9e4b5c51780251c1fd4377fbc9f748d2544cd8a6f66",
+    "audit.py": "a7f8787052179cb5b949c321580cc75eda267053d4ca1e792a259b4913730777",
+    "confirmed-tunnel-contract.json": "1e4ad6f8c08cf2fedf2629a1f858db33744f821ef9b8e6c9339ed841a0b78964",
+    "confirmed-tunnel-only-profiles.json": "7b0009bea5e8829bcbce9260f87415cf54415d7e651068ef1d2ce6df896fdf71",
+    "fixed-osm-road-and-nearby-tags.json": "edafd36c3cd8d1657c7d235274542c825690f46beba5e01a6f89709930753144",
+    "input-bindings.json": "afbcbc29f09722cc821c4e14fdae744ad086e876dd9a2bc6f6b463c914aa9d07",
+    "options-summary.json": "cbe4932aa1b26cc1ff2dce42cd0f4cf9e5857e7f258763081dc317482a4eb464",
+    "osm-source.py": "61ff99f296968d66db46415de51b02dcbff6d4eec6f67ed6b63bf4a48a55ad16",
+    "profile-options.py": "bd2390732f16686f2b4153bbd188343ebc8aaefafa48b92f7f89035659d16d0b",
+    "service-under-lower-floor-hypothesis-profiles.json": "7a8b22a217a0050aaa9acc27bcd7f1291f4a06443ee6c4bd4a435506ad3a5d44",
+    "service-upper-comparison.json": "91c8b67d2729bfe82b0cba325b1c33545dc06b60a81efdb9d3c2fc3d45d71384",
+    "service-upper-obstacle-hits.json": "e216913eb942d14719a42171a83dee0b9aa7abc86713cfb974c77a2c13b61215",
+    "service-upper-width-samples.json": "a6425c5ae8abb027e3082d97a7ca568b54eff694e1c60b305ccf3fa65dfb2c6b",
+    "service-upper.py": "b7b23768f9016cbbb244181c06dd1150aa4a8be95ddf0897d68a8d94e1206da6",
+    "source-graph-and-clearance.json": "f253d14cfa28b60d9e2ea7b527acad3849019ba49fdeb6ef8ce996652effb98e",
+    "source-road-geometry.geojson": "6b4f1208a07a393ad5c73898bdc9aa97c5bc1b974c0ec6a664c3d4e992b601d8"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "artifacts/cities/hangzhou/shore-meshes-v2/manifest.json": "64ce9a904cd4105af1987ec5648921653f0491c66c73b1449643d1b95c85b5f5",
+  "artifacts/cities/hangzhou/shore-glb-v2/asset-manifest.json": "6f63935571b2a4af146e30b10b1b25d87dd0cd111abde8db72ab5091817f9e7e",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/proposals.json": "68f6e1cdffdcf013802a89a6bad2110e56d1888a2d7226855eba9ef2e5ce2066",
+  "artifacts/cities/hangzhou/render-input-v6/city.json": "2ec7148ae03338f0ef89bdb8e02d6a3ec892c67868eada8c713624d28a90c244",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/package-manifest.json": "f5306feae27cf841efa8b0e702f7d1964125c7951e2bfd5baa17887f2b220c23",
+  "artifacts/cities/hangzhou/render-input-v6/geography/manifest.json": "86405ade07b6c8a07476209c22c33cebb7ae7a52bf02515db765290f8041b4bb",
+  "artifacts/cities/hangzhou/render-input-v6/geography/terrain-game.bin": "dd1ae9e4707979cfaf4bf7b793bae1c590f18e71803f241c0c3d5d4a265792ac",
+  "artifacts/cities/hangzhou/render-input-v6/geography/road-levels.json": "0db3134e9a24b53ab0361a3f2fdc1738f818ceddafc56d94c5500b8ba75a25c1",
+  "scripts/prepare_hangzhou_shores.py": "e313d3e3a309346328f9693fc4a6539595d12114583ddc60276f97fc466a5212",
+  "scripts/hangzhou_surface.py": "debdc759d513563c2a6ea8e261d71b025a3fad009e03c464c8dedecd1710948b",
+  "artifacts/cities/hangzhou/shore-glb-v2/coastal-shoreline.glb": "39e4eb81d587d35ce98ba533bd64228d0c9678e9362e2c068508e024266c1340",
+  "artifacts/cities/hangzhou/shore-meshes-v2/binjiang-source-retaining-wall.npz": "587f652d117c0437ccdc238b9a4ad0597830856b61d01015e3527029e1776c20",
+  "artifacts/cities/hangzhou/shore-meshes-v2/qianjiang-city-balcony.npz": "ca8a94a54e47c4fd0f60b92c8cf0ef5b4dc1b65810c8a9a95f8848f88bfbcb7c",
+  "artifacts/cities/hangzhou/shore-meshes-v2/olympic-big-lotus.npz": "5e1f4ec53ce29a0a73654f7733d01bf3f87aed86e9d618c870c54eb4c221e252",
+  "artifacts/cities/hangzhou/shore-meshes-v2/binjiang-park.npz": "ba2581dc0e908ffa9103efb0cbf21331fa1ddb9f4456d11886976ed3b8818370",
+  "artifacts/cities/hangzhou/landmarks/city-balcony-v1/city-balcony.glb": "b286952250403177a3bc0fa6a63207bf6937bddc982a032174a7e8f4c5e6d681"
+}

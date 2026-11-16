@@ -1,0 +1,65 @@
+{
+  "id": "city-balcony-local-terrain-partition-v1",
+  "status": "frozen CPU candidate only; actual GLB/world/browser pending",
+  "cityId": "hangzhou",
+  "units": "game east/north/up; scale applied once",
+  "inputRoot": "artifacts/cities/hangzhou/render-input-v7",
+  "inputSitesSha256": "f3b6ce4ee5fba89a79c305bb4207ed24903680dfb5f6745bd17de783e843ac81",
+  "mesh": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/local-terrain.npz",
+  "meshSha256": "b53962b53b145e6c87b17cdbbf5113eaf213dddd9db905ef77b6f0587fb42a91",
+  "npzArrays": {
+    "top": {
+      "triangles": 41906,
+      "coordinates": "ENU float64",
+      "materials": "top-provenance.json"
+    },
+    "walls": {
+      "triangles": 1716,
+      "material": "land",
+      "ownership": "vertical-boundaries.json"
+    }
+  },
+  "bboxGame": [
+    3251.0920671851886,
+    -2072.263134140863,
+    3381.647878908849,
+    -1880.6207393499228
+  ],
+  "heightRules": {
+    "outsideCuts": "Surface.uncut_ground F1",
+    "insideCuts": "min(F1, all source-owned cut planes)",
+    "boundary": "each top closure retains its own side height; join via explicit vertical walls",
+    "water": "unchanged separate source water pipeline; shore-glb-v3 owns front"
+  },
+  "derivedNodingGridGame": 1e-08,
+  "sourceBoundaryUnchanged": true,
+  "restoreDryBoundary": true,
+  "boundaryDuplicateMergeMaxGame": 8.664855796035638e-09,
+  "positionBudgetGame": 2e-08,
+  "sourceBandHalfWidthGame": 2e-08,
+  "smoothProbeHeightBudgetGame": 0.01,
+  "metricOnlyNormalizationGame": 1e-10,
+  "rawBoundaryMetricPass": false,
+  "sourceDomainDifferenceArea": 0.0,
+  "float32SimulatedLocalOrigin": [
+    3316.369973047019,
+    -1976.441936745393,
+    3.767477681446
+  ],
+  "cpuChecksPassed": true,
+  "disabledClaims": [
+    "actual GLB",
+    "full closed soil solid",
+    "whole-world merge",
+    "all triangle intersections absent",
+    "body collision acceptance",
+    "browser visual/performance acceptance"
+  ],
+  "pending": [
+    "crop edges matching original base mesh",
+    "actual export topology and precision",
+    "source-front join to shore v3",
+    "floor and actor/guard clearance",
+    "no lower-floor entry enabled"
+  ]
+}

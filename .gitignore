@@ -1,0 +1,17 @@
+node_modules/
+.cache/
+artifacts/
+output/
+public/
+dist/
+prepared/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+data/raw/
+data/processed/

@@ -1,0 +1,135 @@
+{
+  "kind": "CPU-only-independent-water-source-audit",
+  "checkedAtUTC": "2026-10-16T04:49:10.120925+00:00",
+  "passed": 17,
+  "total": 17,
+  "allPassed": true,
+  "checks": [
+    {
+      "name": "Parent audit exact current city SHA binding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fixed water extraction hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fixed original PBF unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All55 parent pair identities retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All90 original raw objects and relation member ways found",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Raw tags match extracted source tags for every original feature",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No parent-child duplicate area member shortcut",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All55 runtime intersection areas recompute",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "38 manufactured and17 source overlaps separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Explicit lock and layer conflicts stay held",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All2153 raw parts map one-to-one without loss",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All current parts reproduce independent simplification",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ring and hole budgets retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Coordinate budget counts reproduce",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Global restored geometry audited beyond original55",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Additional12 exposed feature metadata retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No source hydraulic height falsely promoted",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "sharedDataWrites": false,
+  "blenderRun": false,
+  "browserRun": false,
+  "finalWaterAcceptance": "pending:27 genuine raw-source overlaps, stage/datum/control structures and current rendering validation",
+  "inputs": [
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/city.json",
+      "sha256": "4f86e589f4df927eceecd7cbadbbff26e464aad9f2b3bdfc84ee84c917ae7617",
+      "bytes": 49277646,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/processed/hangzhou-261011-extended/water.geojson",
+      "sha256": "e820b199c45012d9ba441ffccb135c5f1aaf6f29e2599f0a6262a0ddb231c4f1",
+      "bytes": 3822171,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/processed/hangzhou-261011-extended/extraction-manifest.json",
+      "sha256": "4a44d8accd14f40f088150df5d14d7dbbf25191a80b9310f8e6a24ba89cf6420",
+      "bytes": 2091,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "bytes": 90463400,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/raw/hangzhou/source-manifest.json",
+      "sha256": "c8cf2008511b4839f72c2ffc81817321e44ffaf610e169bd33f5b8cd8651c768",
+      "bytes": 810,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "actualGlbSha256": "bf5b70430f8c1ec8ccbabde8a79128ce6652f5412fcad1d37afc9cc276c39e84",
+  "triangles": 36504,
+  "sourceTriangles": 36504,
+  "topTriangles": 34980,
+  "wallTriangles": 1524,
+  "orientedWorldGeometryExactlyEqualsV1": false,
+  "actualNodeRotationVsExpectedMaximumError": 4.4884040234505207e-10,
+  "uvIntegerPeriodOriginENU": [
+    320.0,
+    -320.0,
+    0.0
+  ],
+  "uvPeriodGame": 8,
+  "allSourceTrianglesMatchedOnce": true,
+  "unmatchedActualFaces": 0,
+  "zeroArea3dTriangles": 0,
+  "allTopNormalsUp": true,
+  "wallHorizontalProjectionMaxDoubleArea": 0.0,
+  "maxSourceVertexErrorGame": 4.310465846102356e-05,
+  "exactUnpairedEdgesByOwnership": {
+    "shore-v3-owned": 602,
+    "crop-open": 390
+  },
+  "nonmanifoldEdges": 0,
+  "sameDirectionSharedEdges": 0,
+  "materialMismatches": 0,
+  "uvExactSerializedFaceMismatches": 0,
+  "uvMaximumSerializedValueError": 0,
+  "uvMappingErrorsAbove1eMinus5": 0,
+  "uvZeroAreaTriangles": 0,
+  "topDomainSymmetricDifferenceArea": 25.533347455608677,
+  "topWaterIntrusionArea": 1.976441233916422e-05,
+  "sourceDomainBoundaryHausdorffGame": 0.12007549476193817,
+  "meshRows": [
+    {
+      "name": "terrain_balcony_local_land",
+      "material": "land",
+      "triangles": 31469,
+      "uvFinite": true,
+      "normalFinite": true,
+      "uvZeroAreaTriangles": 0,
+      "uvMinimumDoubleArea": 5.820766091346741e-11,
+      "worldMatrix": [
+        [
+          0.9998476951610473,
+          0.0,
+          0.01745240598844311,
+          2560.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.01745240598844311,
+          0.0,
+          0.9998476951610473,
+          2560.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "terrain_balcony_local_park",
+      "material": "park",
+      "triangles": 5035,
+      "uvFinite": true,
+      "normalFinite": true,
+      "uvZeroAreaTriangles": 0,
+      "uvMinimumDoubleArea": 2.5262124836444855e-08,
+      "worldMatrix": [
+        [
+          0.9998476951610473,
+          0.0,
+          0.01745240598844311,
+          2560.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.01745240598844311,
+          0.0,
+          0.9998476951610473,
+          2560.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "inputChecks": {
+    "manifestContractMatches": true,
+    "manifestMeshMatches": true,
+    "manifestProvenanceMatches": true,
+    "actualGlbMatchesManifest": true
+  },
+  "passedGeometryUvGate": true,
+  "claimsNotMade": [
+    "full closed soil solid",
+    "crop merged with global terrain",
+    "body/renderer/browser/visual acceptance"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "new bounded game-adaptation candidate, not measured nor activated",
+  "sourceSitesSha256": "f3b6ce4ee5fba89a79c305bb4207ed24903680dfb5f6745bd17de783e843ac81",
+  "rows": [
+    {
+      "id": "city-balcony:dry-main",
+      "rule": "inside actual shore top projection, low actual cap owns low terrain; high actual shore top owns original F1; actual closed shoreline GLB bound",
+      "originalArea": 5027.914670806332,
+      "updatedArea": 5027.914669445153,
+      "symmetricDifferenceArea": 1.4338999436120601e-06,
+      "addedArea": 3.6362838061327145e-08,
+      "removedArea": 1.3975371055507387e-06,
+      "changeAreaOutside1mmSourceBoundaryBand": 0.0,
+      "capGame": 1.5579020031420152,
+      "triangles": 123
+    },
+    {
+      "id": "city-balcony:west-finger",
+      "rule": "original triangles byte values retained; added .0005g dry ring height from nearest original boundary source cut; min with other cuts/F1",
+      "radiusGame": 0.0005,
+      "originalArea": 623.4552725008218,
+      "updatedArea": 623.5069681687687,
+      "additionalArea": 0.051695667946887625,
+      "originalTriangles": 102,
+      "addedTriangles": 251,
+      "triangles": 353
+    },
+    {
+      "id": "city-balcony:east-finger",
+      "rule": "original triangles byte values retained; added .0005g dry ring height from nearest original boundary source cut; min with other cuts/F1",
+      "radiusGame": 0.0005,
+      "originalArea": 767.8216066710299,
+      "updatedArea": 767.8780692867875,
+      "additionalArea": 0.0564626157577095,
+      "originalTriangles": 113,
+      "addedTriangles": 268,
+      "triangles": 381
+    }
+  ],
+  "unrelatedSiteSurfacesUnchanged": true,
+  "sourceOSMAndRoadCoordinatesUnchanged": true,
+  "existingRoadHeightConflictStillBlocker": true,
+  "pending": [
+    "terrain ownership mesh",
+    "road profile and tunnel clearance separate package",
+    "actual GLB and body/browser checks"
+  ]
+}

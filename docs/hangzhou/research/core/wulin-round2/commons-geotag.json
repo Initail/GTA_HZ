@@ -1,0 +1,84 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "190808760": {
+        "pageid": 190808760,
+        "ns": 6,
+        "title": "File:Wuling Square Fountain.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Wuling_Square_Fountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wuling_Square_Fountain.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=190808760",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Wuling Square Fountain",
+                "source": "mediawiki-metadata"
+              },
+              "GPSLatitude": {
+                "value": "30.273672",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "120.158539",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "​武林广场八少女喷泉",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Takashishin&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Takashishin (page does not exist)\">Takashishin</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-11",
+  "kind": "read-only-export-plan-not-produced-geometry",
+  "outputs": [
+    "coastal-bridges.glb",
+    "coastal-shoreline.glb"
+  ],
+  "requiredCompanion": "source-bound minY/maxY collision and ownership sidecar merged before CityCollision construction",
+  "counts": {
+    "crossings": 2132,
+    "segments": 2521,
+    "wetLengthGame": 45448.39667087136,
+    "legacySixGamePostsBothSidesBeforeDedup": 17696
+  },
+  "namedBridgeSourceReviewMap": {
+    "way/4348186": "qiantang-bridge",
+    "way/29169666": "fuxing-bridge",
+    "way/154135283": "fuxing-bridge",
+    "way/29170042": "fuxing-bridge",
+    "way/154135290": "fuxing-bridge",
+    "way/336983476": "fuxing-bridge",
+    "way/340648409": "fuxing-bridge",
+    "way/589429905": "fuxing-bridge",
+    "way/306360721": "zhijiang-bridge",
+    "way/589558021": "zhijiang-bridge",
+    "way/306360739": "zhijiang-bridge",
+    "way/306360714": "zhijiang-bridge",
+    "way/306360716": "zhijiang-bridge",
+    "way/306360719": "zhijiang-bridge",
+    "way/589558020": "zhijiang-bridge"
+  },
+  "crossingsRequiringNamedBridgeOwnership": [
+    {
+      "id": "way/4348186#0@wet-0",
+      "sourceId": "way/4348186",
+      "sourceRoadId": "way/4348186#0",
+      "pointStationsGame": [
+        132.95227423868437,
+        483.21909633907075,
+        721.9346172171714
+      ],
+      "length": 588.982342978487
+    },
+    {
+      "id": "way/29169666#0@wet-0",
+      "sourceId": "way/29169666",
+      "sourceRoadId": "way/29169666#0",
+      "pointStationsGame": [
+        321.0106275096837,
+        330.4603270928733,
+        542.9409165800496,
+        789.418757976959,
+        981.7416988376372,
+        989.8887277325792
+      ],
+      "length": 668.8781002228955
+    },
+    {
+      "id": "way/29170042#0@wet-0",
+      "sourceId": "way/29170042",
+      "sourceRoadId": "way/29170042#0",
+      "pointStationsGame": [
+        42.07082642943136,
+        63.03789150089948
+      ],
+      "length": 20.967065071468124
+    },
+    {
+      "id": "way/154135283#0@wet-0",
+      "sourceId": "way/154135283",
+      "sourceRoadId": "way/154135283#0",
+      "pointStationsGame": [
+        212.26104226621834,
+        233.28623223296012
+      ],
+      "length": 21.025189966741763
+    },
+    {
+      "id": "way/154135290#0@wet-0",
+      "sourceId": "way/154135290",
+      "sourceRoadId": "way/154135290#0",
+      "pointStationsGame": [
+        48.887335152200045,
+        244.18594174509403,
+        494.71027505682355,
+        706.2626681602908,
+        717.225283822375
+      ],
+      "length": 668.337948670175
+    },
+    {
+      "id": "way/306360714#0@wet-0",
+      "sourceId": "way/306360714",
+      "sourceRoadId": "way/306360714#0",
+      "pointStationsGame": [
+        174.1296803388663,
+        235.55170932704328
+      ],
+      "length": 61.42202898817696
+    },
+    {
+      "id": "way/306360716#0@wet-0",
+      "sourceId": "way/306360716",
+      "sourceRoadId": "way/306360716#0",
+      "pointStationsGame": [
+        112.58969436997808,
+        120.83709897132951,
+        176.2097420152559
+      ],
+      "length": 63.62004764527781
+    },
+    {
+      "id": "way/306360719#0@wet-0",
+      "sourceId": "way/306360719",
+      "sourceRoadId": "way/306360719#0",
+      "pointStationsGame": [
+        0.0,
+        55.80879322889195
+      ],
+      "length": 55.80879322889196
+    },
+    {
+      "id": "way/306360721#0@wet-0",
+      "sourceId": "way/306360721",
+      "sourceRoadId": "way/306360721#0",
+      "pointStationsGame": [
+        276.30371583845584,
+        339.7079894606213,
+        625.5780438570443,
+        914.7914918506993,
+        1134.0889333875512
+      ],
+      "length": 857.7852175490953
+    },
+    {
+      "id": "way/336983476#0@wet-0",
+      "sourceId": "way/336983476",
+      "sourceRoadId": "way/336983476#0",
+      "pointStationsGame": [
+        205.48917890064905,
+        250.69323355992998,
+        314.1534171752958,
+        392.91665784332247,
+        646.2963483143434,
+        699.2994190272418,
+        777.1226900804193,
+        874.7292537247204
+      ],
+      "length": 669.2400748240711
+    },
+    {
+      "id": "way/340648409#0@wet-0",
+      "sourceId": "way/340648409",
+      "sourceRoadId": "way/340648409#0",
+      "pointStationsGame": [
+        184.50411313241491,
+        193.86520203144528,
+        205.63434541907895,
+        349.16283569385416,
+        630.4284158175656,
+        797.328672969106,
+        853.1078496162197
+      ],
+      "length": 668.6037364838048
+    },
+    {
+      "id": "way/589429905#0@wet-0",
+      "sourceId": "way/589429905",
+      "sourceRoadId": "way/589429905#0",
+      "pointStationsGame": [
+        209.23898302755958,
+        303.42250056724015,
+        381.59344044038966,
+        437.33230315993546,
+        583.3718298502461,
+        686.8916612388405,
+        766.5181812573184,
+        877.2095971491194
+      ],
+      "length": 667.97061412156
+    },
+    {
+      "id": "way/589558020#0@wet-0",
+      "sourceId": "way/589558020",
+      "sourceRoadId": "way/589558020#0",
+      "pointStationsGame": [
+        0.0,
+        51.72944529481647,
+        58.10858493538443
+      ],
+      "length": 58.10858493538443
+    },
+    {
+      "id": "way/589558021#0@wet-0",
+      "sourceId": "way/589558021",
+      "sourceRoadId": "way/589558021#0",
+      "pointStationsGame": [
+        0.0,
+        221.2774087887674,
+        509.1919132361327,
+        796.264530239232,
+        858.2755409999153
+      ],
+      "length": 858.2755409999153
+    }
+  ],
+  "ownershipWarning": "Source association is not full-way main-structure coverage. Split source station intervals against actual model/world envelope and deck level before generic rails/support emission. Existing base deck shell vs named shell also needs reconciliation.",
+  "bridgeGeometry": {
+    "include": [
+      "missing railings",
+      "nonduplicated curb above existing deck shell",
+      "explicitly approved estimated supports"
+    ],
+    "exclude": [
+      "road top",
+      "road side/bottom shell already in base",
+      "road lamps",
+      "named owner geometry",
+      "water"
+    ],
+    "heightPolicy": "pointHeightsGame at exact source station; no scalar flat height, no layer*6, no radial bridge sampler",
+    "gameDimensionsScaleAgain": false
+  },
+  "shoreGeometry": {
+    "domain": "physical wet/dry boundaries with source water owner, no bbox edge or internal semantic seam",
+    "minimal": "terrain-bound narrow vertical edge plus selected hard-bank coping/wall/rock and genuinely mapped pavement areas",
+    "waterOwnerRequired": true,
+    "softBanksNotUniversalSeawall": true,
+    "invertedGroundWaterLevels": "report pending; no silent raised bank",
+    "noWaterMeshes": true
+  },
+  "meshNames": {
+    "bridge": "coastal_bridge_<integer ix>_<integer iz>_<concrete|steel>",
+    "shoreCurrentAccepted": "coastal_shore_<integer ix>_<integer iz>_<concrete|seawall|coastal-rock>",
+    "paverLegacyAccepted": "terrain_pavement",
+    "paverPreferredNeedsNarrowRuntimeAlias": "coastal_shore_<integer ix>_<integer iz>_pavement"
+  },
+  "runtimeGaps": [
+    "public-lighting currently excludes coastal_shore_ prefix",
+    "Baypark tiled pavement alias absent",
+    "generic/named bridge shell ownership not resolved",
+    "GLB meshes do not automatically create collisions"
+  ],
+  "exportPolicy": {
+    "isolatedFreshDirectory": true,
+    "worldUnits": "game metres, scale once already",
+    "axes": "original Blender ENU to GLB Y-up and Babylon root identity unchanged",
+    "localOriginsBeforeFloat32": true,
+    "tileGame": 640,
+    "emptyPlaceholdersAllowed": false,
+    "oldWholeCityBuilderAllowed": false
+  },
+  "actualValidation": {
+    "blender": false,
+    "glbExport": false,
+    "browser": false,
+    "nameSelection": "Node NullEngine actual createBayparkLook only; active generated city remains Shenzhen"
+  },
+  "inputs": [
+    {
+      "path": "scripts/build_coastal_infrastructure.py",
+      "sha256": "d1fe14fd6a57efd38b9333f2c3542a802b7976cfef3fd05f73d5383a2ba24046"
+    },
+    {
+      "path": "scripts/city_mesh.py",
+      "sha256": "bcc9eb59c5e2d6ca39f61e0b9e39433aa89c85833e72bd3630f3c328ad3cd42a"
+    },
+    {
+      "path": "scripts/prepare_hangzhou_render_meshes.py",
+      "sha256": "7edad595cdadc53031b010cde6e9984859997a946284ba52f860c46d43a4828b"
+    },
+    {
+      "path": "scripts/build_hangzhou_render_candidate.py",
+      "sha256": "4806466dd945b76974b5b7750af3ab786df8c30c2441e6495349a345d21c1532"
+    },
+    {
+      "path": "src/city-world.ts",
+      "sha256": "0871dbd0c476847b86769305ebeeed1a80711e8ce6a651166e1b0dbecd95292a"
+    },
+    {
+      "path": "src/city-baypark-look.ts",
+      "sha256": "af35153119db83ddcbbe400a9431a0a60e2eba4273587ed5e737fce0b7250a73"
+    },
+    {
+      "path": "src/city-public-lighting.ts",
+      "sha256": "285472ff7028d139bd81602092a3b2846c515d5f6524e8e58e658687e1f7ee69"
+    },
+    {
+      "path": "src/city-local-lighting.ts",
+      "sha256": "55b711d2cd221dadad528b86fd21712d478c11eecfe739dc1aa258648bb74952"
+    },
+    {
+      "path": "src/city-profiles.generated.ts",
+      "sha256": "e3ecc30608d9124c719555c049a0111c805bf1dcd0ce2a1db6968f24a15670c3"
+    },
+    {
+      "path": "src/driving.ts",
+      "sha256": "0fa469f5415063eb16641a4a747265005795ce0ef52f47bdfe40c5692fc76c54"
+    },
+    {
+      "path": "src/landmark-details.ts",
+      "sha256": "d62256f7265d8274fe4e5402d0db59b4d7c05b7456db81f91bbcd27c81dfcf7c"
+    },
+    {
+      "path": "scripts/landmarks/qiantang_bridges.py",
+      "sha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734"
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json",
+      "sha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/coastal-data-v1/infrastructure.json",
+      "sha256": "4d55666a9a2b4e9cb1e89b038935218c0583c64a2e1789bbd7a6741aebc91d1a"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/city.json",
+      "sha256": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v6/city.json",
+      "sha256": "2ec7148ae03338f0ef89bdb8e02d6a3ec892c67868eada8c713624d28a90c244"
+    }
+  ]
+}

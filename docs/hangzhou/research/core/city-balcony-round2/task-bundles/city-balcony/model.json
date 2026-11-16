@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "placeId": "city-balcony",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/city-balcony-v1/city-balcony.glb",
+  "sourceModule": "scripts/landmarks/city_balcony.py",
+  "sha256": "b286952250403177a3bc0fa6a63207bf6937bddc982a032174a7e8f4c5e6d681",
+  "sourceModuleSha256": "797c5450c927a330fe89815d98c20aa17e55432095b8bba861ddb0591be74c95",
+  "artifactMeshPrefix": "detail_city-balcony_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": {
+    "levels": {
+      "basis": "estimated",
+      "value": {
+        "lowerM": 0,
+        "upperM": 6,
+        "slabThicknessM": 0.65,
+        "foundationDepthM": 3
+      },
+      "sourceIds": [
+        "osm-geofabrik",
+        "construction-engineer",
+        "photographer-2010"
+      ],
+      "method": "neutral isolated lower public-floor datum0; main OSM unverified height6 used as plausible separation, cross-checked with uncalibrated bridge/person proportions. Not a building height measurement or water elevation.",
+      "uncertainty": "upper separation±2m/slab±.35m/foundation±2m; absolute ground and river levels unknown"
+    },
+    "glazedHeads": {
+      "basis": "estimated",
+      "value": {
+        "roofRiseM": 3,
+        "mullionPitchM": 4.8
+      },
+      "sourceIds": [
+        "osm-geofabrik",
+        "photographer-2010",
+        "hangzhou-publish-2020"
+      ],
+      "method": "three exact mapped glazed part footprints; low transparent heads and lower glazed walls inferred from real street photos. Uniform3m head is a limited reference-informed candidate, not mapped14/9/10m tag adopted as survey.",
+      "uncertainty": "rise±1.5m, roof shape and full lower volume/atrium layout unknown; OSM absolute min6/top14/9/10 conflict retained"
+    },
+    "rails": {
+      "basis": "estimated",
+      "value": {
+        "heightM": 1.2,
+        "panelPitchM": 2.7,
+        "frameWidthM": 0.085
+      },
+      "sourceIds": [
+        "photographer-2010",
+        "glass-2011"
+      ],
+      "method": "glass-panel and adult/bench contextual ratios, fine dark-metal top rail visible in actual opposing river directions",
+      "uncertainty": "height±.25m,pitch±.7m,frame±.04m; full current panel inventory unknown"
+    },
+    "structure": {
+      "basis": "estimated",
+      "value": {
+        "pierPitchM": 14,
+        "pierWidthM": 1.25,
+        "bridgeBeamDepthM": 0.8
+      },
+      "sourceIds": [
+        "construction-engineer",
+        "photographer-2010",
+        "osm-geofabrik"
+      ],
+      "method": "coarse interior grid under true platform/source approach fingers; rear bridge transverse beams/rectangular piers visible. Report near200 original piers does not locate them.",
+      "uncertainty": "grid phase±7m,pitch±4m,width±.5m; representative piers are not actual surveyed200 positions"
+    },
+    "skylights": {
+      "basis": "estimated",
+      "value": {
+        "radiusM": 1,
+        "count": 6,
+        "railInsetM": 8
+      },
+      "sourceIds": [
+        "construction-engineer",
+        "photographer-2010"
+      ],
+      "method": "reported roughly2m diameter circle skylights and actual photos;6 representative circles spaced on rear-free public deck, exact positions/count pending",
+      "uncertainty": "radius±.25m,position±8m,count unknown; candidate represents observed feature without claiming inventory"
+    },
+    "paving": {
+      "basis": "estimated",
+      "value": {
+        "riverBandDepthM": 11,
+        "tilePitchM": 4.5,
+        "jointWidthM": 0.035
+      },
+      "sourceIds": [
+        "photographer-2010"
+      ],
+      "method": "dark gray/light gray pavement and warmer slatted strip from actual ground views; sparse seams/strip within source polygon, not copied texture",
+      "uncertainty": "band depth±4m,tile coarse representation not actual measured unit; all current park furniture/planting pending"
+    }
+  },
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/city-balcony-round2/task-bundles/city-balcony/job.json --spec docs/hangzhou/research/core/city-balcony-round2/spec.json --module scripts/landmarks/city_balcony.py --output artifacts/cities/hangzhou/landmarks/city-balcony-v1",
+  "sourceSpec": "docs/hangzhou/research/core/city-balcony-round2/spec.json",
+  "sourceSpecSha256": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "1684604856c01fbddd331989b2707a25215ff4f78857501047a117babb573eb6"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/city-balcony-build-v1.log",
+    "sha256": "c2eae5d91d54859ca09453363c9939e9f49fa26ca9b5fffa47a5c847a6b0d70a"
+  },
+  "modelDeliverySha256": "8875985694792fbeb91f02dbab64b9ec14d9b3c51eb6ad9276e91858a263e9fe",
+  "glbStats": {
+    "triangles": 25192,
+    "materials": 5,
+    "bytes": 1770564,
+    "selectedMeshes": 5,
+    "meshNamePrefix": "detail_city-balcony_",
+    "wholeFileTriangles": 25192,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

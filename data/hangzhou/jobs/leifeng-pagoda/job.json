@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T09:57:09+00:00",
+  "stage": "planned",
+  "agent": "main-integration",
+  "place": {
+    "id": "leifeng-pagoda",
+    "name": "雷峰塔（现雷峰新塔）",
+    "kind": "building"
+  },
+  "sourceManifest": "data/hangzhou/landmarks.json",
+  "sourceManifestSha256": "b1079f1880ea058cb866540fea9d0252fd7cff53296f1fa1f13183686ec83e8a",
+  "sourceRecord": {
+    "id": "leifeng-pagoda",
+    "name": "雷峰塔（现雷峰新塔）",
+    "kind": "building",
+    "researchEvidence": "docs/hangzhou/research/core/leifeng-pagoda.evidence.json",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": null,
+      "status": "unknown",
+      "sourceIds": []
+    },
+    "sources": [
+      {
+        "id": "wgly-leifeng",
+        "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+        "publisher": "杭州市文化广电旅游局",
+        "title": "雷峰塔（雷峰夕照）",
+        "sourceDate": "2022-12-01",
+        "accessedAt": "2026-10-12",
+        "provenance": "primary",
+        "accessMethod": "search-index-page-text",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "原文“五面八层”与设计师材料八角五层冲突，不能静默当作测绘参数。通高71米为约数。"
+      },
+      {
+        "id": "tsinghua-leifeng",
+        "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+        "publisher": "人文清华讲坛，原创黄薏橦 / 澎湃号平台",
+        "title": "郭黛姮：雷峰新塔，彰显文化遗产魅力的里程碑",
+        "sourceDate": "2020-10-17",
+        "accessedAt": "2026-10-12",
+        "provenance": "primary-institutional-account-with-designer-statements",
+        "accessMethod": "web-page-text-read",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "包含新塔剖面/立面图、保护罩高度和柱网跨度。图片381.jpg/390.jpg抓取超时，396.jpg缓存未命中，本轮未读图。"
+      }
+    ]
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/leifeng-pagoda.py"
+    ],
+    "workerDirectories": [
+      "data/hangzhou/jobs/leifeng-pagoda",
+      "artifacts/landmarks/leifeng-pagoda"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-12T09:57:09+00:00",
+      "reason": "task generated; inputs require review"
+    }
+  ]
+}

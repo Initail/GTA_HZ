@@ -1,0 +1,349 @@
+{
+  "schema": 1,
+  "id": "city-balcony-confirmed-source-tunnel-profile-v1",
+  "status": "frozen estimated connected proposal; terrain/collision/browser not activated",
+  "sourceCityPath": "artifacts/cities/hangzhou/render-input-v7/city.json",
+  "sourceCitySha256": "2ec7148ae03338f0ef89bdb8e02d6a3ec892c67868eada8c713624d28a90c244",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "actualFloorGlbSha256": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "profileFile": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-road-profile-proposal-v1/confirmed-tunnel-only-profiles.json",
+  "profileSha256": "7b0009bea5e8829bcbce9260f87415cf54415d7e651068ef1d2ce6df896fdf71",
+  "units": "game ENU, scale .60 already applied; no additional scaling",
+  "sourceRoads": [
+    {
+      "id": "way/157967583#0",
+      "sourceId": "way/157967583",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3274.8979208986298,
+          -1995.2876361095382
+        ],
+        [
+          3313.57840856034,
+          -1923.325875669475
+        ]
+      ],
+      "nodeIds": [
+        "361013734",
+        "361013736"
+      ],
+      "grade": "-1",
+      "bridge": "no",
+      "tunnel": "yes",
+      "elevationStatus": "pending-deck-ramp-and-DEM",
+      "heights": [
+        5.852615903429586,
+        5.373177284613926
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    {
+      "id": "way/157967584#0",
+      "sourceId": "way/157967584",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3313.57840856034,
+          -1923.325875669475
+        ],
+        [
+          3369.05315571637,
+          -1834.2167431601654
+        ],
+        [
+          3372.6498637479804,
+          -1828.9953750167615
+        ],
+        [
+          3374.555022095611,
+          -1825.9024626767025
+        ],
+        [
+          3419.0779953565584,
+          -1759.0489961658016
+        ]
+      ],
+      "nodeIds": [
+        "361013736",
+        "361013740",
+        "3439149591",
+        "1701988336",
+        "5741665148"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        5.373177284613926,
+        4.65852101540849,
+        4.670211000567708,
+        4.655293542268847,
+        5.030784986518769
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    {
+      "id": "way/157967585#0",
+      "sourceId": "way/157967585",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3304.676123191187,
+          -1921.1774655925005
+        ],
+        [
+          3269.488425833467,
+          -1991.0706330482174
+        ]
+      ],
+      "nodeIds": [
+        "136998205",
+        "136998158"
+      ],
+      "grade": "-1",
+      "bridge": "no",
+      "tunnel": "yes",
+      "elevationStatus": "pending-deck-ramp-and-DEM",
+      "heights": [
+        5.375012797396557,
+        5.933717193351623
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    {
+      "id": "way/157967586#0",
+      "sourceId": "way/157967586",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3269.488425833467,
+          -1991.0706330482174
+        ],
+        [
+          3224.5209156249025,
+          -2069.5906979336823
+        ],
+        [
+          3218.349357220031,
+          -2079.401548904164
+        ],
+        [
+          3211.0982090858197,
+          -2089.704605279345
+        ],
+        [
+          3169.941015571697,
+          -2147.7249802046986
+        ]
+      ],
+      "nodeIds": [
+        "136998158",
+        "136998122",
+        "3386084105",
+        "136998016",
+        "5372764514"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        5.933717193351623,
+        5.511784816291353,
+        5.260612576944671,
+        5.316331424649917,
+        5.320435128121126
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    {
+      "id": "way/557050557#0",
+      "sourceId": "way/557050557",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3175.9855634202245,
+          -2157.6888139362086
+        ],
+        [
+          3219.5617307141274,
+          -2096.9347035876235
+        ],
+        [
+          3222.1019418443016,
+          -2092.9438489554955
+        ],
+        [
+          3226.680095085223,
+          -2085.361225154617
+        ],
+        [
+          3233.7407273853273,
+          -2073.501735473182
+        ],
+        [
+          3274.8979208986298,
+          -1995.2876361095382
+        ]
+      ],
+      "nodeIds": [
+        "5372764513",
+        "361013730",
+        "3439149586",
+        "3386084106",
+        "361013732",
+        "361013734"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        4.88990906559643,
+        4.767532615845437,
+        4.757597800196787,
+        4.749490917638635,
+        5.130076668987199,
+        5.852615903429586
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    {
+      "id": "way/605330157#0",
+      "sourceId": "way/605330157",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3407.0870441811744,
+          -1758.5368364879453
+        ],
+        [
+          3367.20572943973,
+          -1820.348523313856
+        ],
+        [
+          3361.5422132610574,
+          -1828.6162438265405
+        ],
+        [
+          3326.8394653008118,
+          -1883.1579237978583
+        ],
+        [
+          3304.676123191187,
+          -1921.1774655925005
+        ]
+      ],
+      "nodeIds": [
+        "5741665147",
+        "1701988337",
+        "136998353",
+        "9544816928",
+        "136998205"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        5.191581151366008,
+        4.957105978660656,
+        5.054728416923453,
+        5.449061935079647,
+        5.375012797396557
+      ],
+      "directionBasis": "explicit-forward"
+    }
+  ],
+  "allowedDerivedChanges": [
+    "estimated source-station road surface height",
+    "matching localized cut/retaining geometry after physical integration audit"
+  ],
+  "fieldsRequiredUnchanged": [
+    "id",
+    "sourceId",
+    "nodeIds",
+    "points",
+    "width",
+    "oneway",
+    "directionBasis",
+    "kind",
+    "name",
+    "grade",
+    "tunnel",
+    "bridge"
+  ],
+  "heightInterface": "Each source road retains points/nodeIds. Intermediate profile stations are along that exact source polyline and are not new graph nodes. All original shared-node endpoint heights agree. Preserve rawEstimatedY as provenance.",
+  "profileGeneration": {
+    "clearanceGame": 3.6,
+    "loweringGradient": 0.04,
+    "evidenceStatus": "estimated game adaptation; source tunnel identity tagged in fixed OSM"
+  },
+  "serviceRoadAffected": false,
+  "report": {
+    "scenario": "confirmed-tunnel-only",
+    "status": "non-activated estimated geometry option; service identity unresolved",
+    "sourceXYTopologyWidthsUnchanged": true,
+    "clearanceGame": 3.6,
+    "clearanceBasis": "existing city default tier clearance 6 real metres times 0.60; conservative game adaptation, not surveyed tunnel headroom",
+    "loweringTransitionGradient": 0.04,
+    "transitionRule": "max of nonnegative source-station lowering cones, propagated through every original shared node; same node receives same lowering",
+    "affectedRoads": 6,
+    "affectedSourceNodes": 7,
+    "maximumLoweringGame": 4.22192906334417,
+    "maximumSampledAbsoluteGrade": 0.047139895263182297,
+    "minimumProposedActualSlabClearanceGame": 3.5999999999999996,
+    "sourceNodeHeightMismatchCount": 0,
+    "sourceNodeHeightMismatches": [],
+    "affectedRoadIds": [
+      "way/157967583#0",
+      "way/157967584#0",
+      "way/157967585#0",
+      "way/157967586#0",
+      "way/557050557#0",
+      "way/605330157#0"
+    ],
+    "pending": [
+      "source role of service 336828925 cannot be inferred from geometric fit",
+      "road corridor terrain excavation and retaining walls, no generic grass over an open sunken road",
+      "reconcile road surfaces and navigation/collision/dynamic vehicle supports",
+      "independent actual source junction and longitudinal grade validation",
+      "full-width continuous ceiling, piers and shell clearance beyond <=.5g finite probes",
+      "real browser driving under complete tunnel and ramps"
+    ]
+  },
+  "pending": [
+    "source role of service 336828925 cannot be inferred from geometric fit",
+    "road corridor terrain excavation and retaining walls, no generic grass over an open sunken road",
+    "reconcile road surfaces and navigation/collision/dynamic vehicle supports",
+    "independent actual source junction and longitudinal grade validation",
+    "full-width continuous ceiling, piers and shell clearance beyond <=.5g finite probes",
+    "real browser driving under complete tunnel and ramps"
+  ]
+}

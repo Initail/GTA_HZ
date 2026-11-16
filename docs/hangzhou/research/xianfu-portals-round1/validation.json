@@ -1,0 +1,61 @@
+{
+  "researchDate": "2026-11-11",
+  "scope": "research package consistency only",
+  "checks": [
+    {
+      "name": "snapshot identity preserved",
+      "passed": true
+    },
+    {
+      "name": "extractor matches frozen source extraction",
+      "passed": true
+    },
+    {
+      "name": "measurement input matches frozen extraction",
+      "passed": true
+    },
+    {
+      "name": "source endpoint identities and coordinates",
+      "passed": true
+    },
+    {
+      "name": "source endpoint connections",
+      "passed": true
+    },
+    {
+      "name": "two crossings do not share source nodes",
+      "passed": true
+    },
+    {
+      "name": "bus relation local membership",
+      "passed": true
+    },
+    {
+      "name": "unverified physical and visual gates remain blocked",
+      "passed": true
+    },
+    {
+      "name": "source SVG parses",
+      "passed": true
+    }
+  ],
+  "status": "source-topology-confirmed-dimensions-and-appearance-blocked",
+  "sourcePbfHashRecomputedBy": "extract_context.py",
+  "physicalGeometryPassed": false,
+  "visualPassed": false,
+  "drivingPassed": false,
+  "files": {
+    "README.md": "8ea736a8cbd6019da9a612a3d1ebee6bf59d933e05e0be523cafadb79e8fd761",
+    "evidence.json": "b927c64cb179ff1093dceeef4d7f3eda561dc7c60524b1f44e91a9a037d05012",
+    "extract_context.py": "5f542fb5ac727860dbcffea38019959856a185bbb9d0d04209f2207bf0033841",
+    "fixed-osm-context.json": "d5b92a5a0b37ec8698f0a498ce86b1432df5c61d728478bbacb66855ae52ddc9",
+    "freeze_report.py": "60162996065dabd1b454c5a958029608e2dd3f9ab853d52b5ac8d0c12767d03e",
+    "job.json": "84206e7494abc4b6188caf962c9c6793cbf75b902d26e105e30dc4ad60d1c09b",
+    "measure_context.py": "04b1f3844b5a963ebe368f99d74297beef7e3ec3929df8c70ffbea3a8b9755c8",
+    "measurements.json": "bcdd92b239f9b4f8f24e5863f445fa0bfce81ef2f14815056b40f9558c40f04a",
+    "model.json": "62a3af2ef0db7058ce14cbb2bb0e78b875d10a74891143e7655c1623a156aba8",
+    "prompt.md": "f243efee5b44bcfd9b1b3a5ed0d7791912cfdd38870e5cd3307fb34b6aaa3ba3",
+    "source-plan.svg": "0645ec77a43a6f34d5db18455faed833162f370ed55f2ce565d16478348b73aa",
+    "sources.json": "6869f5b92527c5c2c1fd75063ddbf690f4feacdd4203167fbaeb1335d426b806"
+  }
+}

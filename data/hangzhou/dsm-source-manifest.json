@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "provider": "Copernicus / ESA / EU; public AWS hosted by Sinergise",
+  "sourcePage": "https://registry.opendata.aws/copernicus-dem/",
+  "tiles": [
+    {
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N30_00_E119_00_DEM/Copernicus_DSM_COG_10_N30_00_E119_00_DEM.tif",
+      "localPath": "data/raw/hangzhou/dsm/Copernicus_DSM_COG_10_N30_00_E119_00_DEM.tif",
+      "sha256": "6ec4f2aa21cfcdc23fdeeace4b42fdc0ce7244757ff7bb91dff01cb38f20b234",
+      "bytes": 50707008,
+      "downloadedAtUTC": "2026-10-13T11:10:14.884826+00:00",
+      "httpObjectMetadata": {
+        "Content-Length": "50707008",
+        "Last-Modified": "Mon, 09 May 2022 14:14:42 GMT",
+        "ETag": "\"facb425cafd83011c39637cfe5c34274\""
+      },
+      "sourceType": "DSM including vegetation/buildings; not a surveyed DTM",
+      "release": "AWS Copernicus DEM 2021",
+      "nominalResolutionMetres": 30,
+      "nativeGridArcSeconds": 1,
+      "horizontalCRS": "EPSG:4326",
+      "verticalDatum": "EGM2008 / EPSG:3855",
+      "grid": {
+        "width": 3600,
+        "height": 3600,
+        "bounds": [
+          118.99986111111112,
+          30.000138888888888,
+          119.99986111111112,
+          31.000138888888888
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          118.99986111111112,
+          0.0,
+          -0.0002777777777777778,
+          31.000138888888888,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": null
+      },
+      "licenseUrl": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+      "derivativeNotice": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+      "liabilityNotice": "The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the Copernicus WorldDEM-30.",
+      "status": "source-raster-verified; terrain-adaptation-pending"
+    },
+    {
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N30_00_E120_00_DEM/Copernicus_DSM_COG_10_N30_00_E120_00_DEM.tif",
+      "localPath": "data/raw/hangzhou/dsm/Copernicus_DSM_COG_10_N30_00_E120_00_DEM.tif",
+      "sha256": "929b54f8bb3a51910e4a6b4ac9f052a607245fd0e43a0846b5501663d18af010",
+      "bytes": 47859448,
+      "downloadedAtUTC": "2026-10-13T11:10:19.919271+00:00",
+      "httpObjectMetadata": {
+        "Content-Length": "47859448",
+        "Last-Modified": "Mon, 09 May 2022 14:14:42 GMT",
+        "ETag": "\"f5fa3e46804608a03f85c0fa522a210f\""
+      },
+      "sourceType": "DSM including vegetation/buildings; not a surveyed DTM",
+      "release": "AWS Copernicus DEM 2021",
+      "nominalResolutionMetres": 30,
+      "nativeGridArcSeconds": 1,
+      "horizontalCRS": "EPSG:4326",
+      "verticalDatum": "EGM2008 / EPSG:3855",
+      "grid": {
+        "width": 3600,
+        "height": 3600,
+        "bounds": [
+          119.99986111111112,
+          30.000138888888888,
+          120.99986111111112,
+          31.000138888888888
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          119.99986111111112,
+          0.0,
+          -0.0002777777777777778,
+          31.000138888888888,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": null
+      },
+      "licenseUrl": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+      "derivativeNotice": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+      "liabilityNotice": "The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the Copernicus WorldDEM-30.",
+      "status": "source-raster-verified; terrain-adaptation-pending"
+    }
+  ],
+  "licenseUrl": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+  "status": "source-verified-not-ground-or-road-validation"
+}

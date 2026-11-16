@@ -1,0 +1,1307 @@
+{
+  "schemaVersion": 1,
+  "id": "alibaba-a",
+  "cityId": "hangzhou",
+  "status": "source-bound-exterior-candidate",
+  "scope": "Finite currentA1–A8 source-shaped exterior and4source links, reference-informedKKAA facade family; no fullcurrentA/historicalsixunit/networkcompletion claim",
+  "anchor": {
+    "lon": 120.021274,
+    "lat": 30.2815813
+  },
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "coordinateConfigSha256": "71198717fe1890f5216d39ee801ca89d9d89376b22a2ac6b9bd29b6f0c3fcf4c",
+  "sourceFootprintsPath": "docs/hangzhou/research/ali/alibaba-a-round2/geofabrik-footprints.json",
+  "sourceFootprintsSha256": "15f34c9d00fa06e1c39540f433ff50a81cbf8188689705f8263a0d0b863b1df7",
+  "evidencePath": "docs/hangzhou/research/ali/alibaba-a-round2/task/alibaba-a/evidence.json",
+  "evidenceSha256": "6b4325c026f956eca7ff53912d5aa50457f13f6fa62659c9b16d85a586586683",
+  "baseBuildingIdsToExclude": [
+    "relation/6750407",
+    "relation/6750408",
+    "relation/6750409",
+    "relation/6752573",
+    "relation/6752574",
+    "relation/6752575",
+    "relation/6752593",
+    "relation/6752592",
+    "way/642355049",
+    "way/642355050",
+    "way/642355051",
+    "way/642355052"
+  ],
+  "objects": [
+    {
+      "sourceId": "relation/6750407",
+      "label": "A8",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.0232404,
+            30.2806541
+          ],
+          [
+            120.0233172,
+            30.28044
+          ],
+          [
+            120.023631,
+            30.2805239
+          ],
+          [
+            120.0237366,
+            30.2802296
+          ],
+          [
+            120.0243145,
+            30.2803842
+          ],
+          [
+            120.0242752,
+            30.2804937
+          ],
+          [
+            120.0242128,
+            30.2806678
+          ],
+          [
+            120.0245311,
+            30.2807529
+          ],
+          [
+            120.0247873,
+            30.2808215
+          ],
+          [
+            120.0247108,
+            30.2810348
+          ],
+          [
+            120.0246254,
+            30.2810119
+          ],
+          [
+            120.0245415,
+            30.2809895
+          ],
+          [
+            120.0244556,
+            30.2812291
+          ],
+          [
+            120.0240606,
+            30.2811234
+          ],
+          [
+            120.0238978,
+            30.2810798
+          ],
+          [
+            120.0239796,
+            30.2808518
+          ],
+          [
+            120.0232404,
+            30.2806541
+          ]
+        ],
+        [
+          [
+            120.0236875,
+            30.2805553
+          ],
+          [
+            120.0240679,
+            30.2806605
+          ],
+          [
+            120.0241072,
+            30.2805545
+          ],
+          [
+            120.0237268,
+            30.2804492
+          ],
+          [
+            120.0236875,
+            30.2805553
+          ]
+        ],
+        [
+          [
+            120.0240585,
+            30.2809773
+          ],
+          [
+            120.0244339,
+            30.2810797
+          ],
+          [
+            120.0244757,
+            30.2809655
+          ],
+          [
+            120.0241003,
+            30.2808631
+          ],
+          [
+            120.0240585,
+            30.2809773
+          ]
+        ]
+      ],
+      "height": {
+        "value": 28.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 5,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": "6",
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "relation/6750408",
+      "label": "link-6750408",
+      "kind": "link",
+      "ringsWGS84": [
+        [
+          [
+            120.0239034,
+            30.2815616
+          ],
+          [
+            120.0239315,
+            30.2814834
+          ],
+          [
+            120.0239662,
+            30.2813865
+          ],
+          [
+            120.0240606,
+            30.2811234
+          ],
+          [
+            120.0244556,
+            30.2812291
+          ],
+          [
+            120.0245415,
+            30.2809895
+          ],
+          [
+            120.0246254,
+            30.2810119
+          ],
+          [
+            120.0244782,
+            30.2814223
+          ],
+          [
+            120.0244105,
+            30.2816108
+          ],
+          [
+            120.0243822,
+            30.2816897
+          ],
+          [
+            120.0239034,
+            30.2815616
+          ]
+        ],
+        [
+          [
+            120.0240735,
+            30.2814782
+          ],
+          [
+            120.0242899,
+            30.2815349
+          ],
+          [
+            120.0243114,
+            30.2814737
+          ],
+          [
+            120.0243704,
+            30.2813061
+          ],
+          [
+            120.024154,
+            30.2812493
+          ],
+          [
+            120.0240943,
+            30.2814189
+          ],
+          [
+            120.0240735,
+            30.2814782
+          ]
+        ]
+      ],
+      "height": {
+        "value": 14.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 4,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 2,
+      "bodyBottomM": 6,
+      "mappedLevelTag": "1",
+      "mappedMinLevelTag": "2",
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "relation/6750409",
+      "label": "A7",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.0227241,
+            30.2817773
+          ],
+          [
+            120.0227936,
+            30.2815835
+          ],
+          [
+            120.0230445,
+            30.2816506
+          ],
+          [
+            120.0230633,
+            30.2815982
+          ],
+          [
+            120.0231489,
+            30.2813597
+          ],
+          [
+            120.0233382,
+            30.2814104
+          ],
+          [
+            120.0239034,
+            30.2815616
+          ],
+          [
+            120.0243822,
+            30.2816897
+          ],
+          [
+            120.024536,
+            30.2817308
+          ],
+          [
+            120.0244625,
+            30.2819357
+          ],
+          [
+            120.0243735,
+            30.2819118
+          ],
+          [
+            120.0243145,
+            30.2818961
+          ],
+          [
+            120.0242089,
+            30.2818678
+          ],
+          [
+            120.0241912,
+            30.281917
+          ],
+          [
+            120.0241085,
+            30.2821476
+          ],
+          [
+            120.023714,
+            30.2820421
+          ],
+          [
+            120.0232222,
+            30.2819105
+          ],
+          [
+            120.0229552,
+            30.2818391
+          ],
+          [
+            120.0227241,
+            30.2817773
+          ]
+        ],
+        [
+          [
+            120.0232153,
+            30.2817087
+          ],
+          [
+            120.0232992,
+            30.2817314
+          ],
+          [
+            120.0239975,
+            30.2819205
+          ],
+          [
+            120.0240186,
+            30.2818623
+          ],
+          [
+            120.0240349,
+            30.2818176
+          ],
+          [
+            120.0237588,
+            30.2817428
+          ],
+          [
+            120.0233351,
+            30.2816281
+          ],
+          [
+            120.0232527,
+            30.2816058
+          ],
+          [
+            120.023237,
+            30.281649
+          ],
+          [
+            120.0232153,
+            30.2817087
+          ]
+        ]
+      ],
+      "height": {
+        "value": 28.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 5,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": "6",
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "relation/6752573",
+      "label": "link-6752573",
+      "kind": "link",
+      "ringsWGS84": [
+        [
+          [
+            120.0224633,
+            30.2824623
+          ],
+          [
+            120.0225882,
+            30.2821095
+          ],
+          [
+            120.0230528,
+            30.2822322
+          ],
+          [
+            120.0232229,
+            30.2822771
+          ],
+          [
+            120.0232029,
+            30.2823336
+          ],
+          [
+            120.0229084,
+            30.2822558
+          ],
+          [
+            120.0228391,
+            30.2824514
+          ],
+          [
+            120.0230015,
+            30.2824943
+          ],
+          [
+            120.0229023,
+            30.2827742
+          ],
+          [
+            120.0230219,
+            30.2828058
+          ],
+          [
+            120.0229799,
+            30.2829244
+          ],
+          [
+            120.0229069,
+            30.2831292
+          ],
+          [
+            120.0225877,
+            30.2830481
+          ],
+          [
+            120.0226709,
+            30.2828168
+          ],
+          [
+            120.022508,
+            30.2827731
+          ],
+          [
+            120.022606,
+            30.2825005
+          ],
+          [
+            120.0224633,
+            30.2824623
+          ]
+        ],
+        [
+          [
+            120.0226203,
+            30.2823881
+          ],
+          [
+            120.0227691,
+            30.2824255
+          ],
+          [
+            120.0228183,
+            30.2822794
+          ],
+          [
+            120.0226696,
+            30.282242
+          ],
+          [
+            120.0226203,
+            30.2823881
+          ]
+        ],
+        [
+          [
+            120.022682,
+            30.2830029
+          ],
+          [
+            120.0228283,
+            30.2830393
+          ],
+          [
+            120.0228624,
+            30.2829369
+          ],
+          [
+            120.0228749,
+            30.2828993
+          ],
+          [
+            120.0228159,
+            30.2828846
+          ],
+          [
+            120.0227287,
+            30.282863
+          ],
+          [
+            120.022682,
+            30.2830029
+          ]
+        ],
+        [
+          [
+            120.0227035,
+            30.2827054
+          ],
+          [
+            120.0228503,
+            30.2827419
+          ],
+          [
+            120.0228867,
+            30.2826326
+          ],
+          [
+            120.02274,
+            30.2825961
+          ],
+          [
+            120.0227035,
+            30.2827054
+          ]
+        ]
+      ],
+      "height": {
+        "value": 14.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 4,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 2,
+      "bodyBottomM": 6,
+      "mappedLevelTag": "1",
+      "mappedMinLevelTag": "2",
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "relation/6752574",
+      "label": "A5",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.021335,
+            30.2823751
+          ],
+          [
+            120.0214057,
+            30.2821786
+          ],
+          [
+            120.0216948,
+            30.2822562
+          ],
+          [
+            120.0224633,
+            30.2824623
+          ],
+          [
+            120.022606,
+            30.2825005
+          ],
+          [
+            120.022508,
+            30.2827731
+          ],
+          [
+            120.0226709,
+            30.2828168
+          ],
+          [
+            120.0225877,
+            30.2830481
+          ],
+          [
+            120.0215157,
+            30.2827606
+          ],
+          [
+            120.0213895,
+            30.2827267
+          ],
+          [
+            120.0215,
+            30.2824194
+          ],
+          [
+            120.021335,
+            30.2823751
+          ]
+        ],
+        [
+          [
+            120.0216253,
+            30.282554
+          ],
+          [
+            120.0223389,
+            30.2827341
+          ],
+          [
+            120.0223663,
+            30.2826532
+          ],
+          [
+            120.0216527,
+            30.2824731
+          ],
+          [
+            120.0216253,
+            30.282554
+          ]
+        ]
+      ],
+      "height": {
+        "value": 28.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 5,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": "6",
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "relation/6752575",
+      "label": "A6",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.0228391,
+            30.2824514
+          ],
+          [
+            120.0229084,
+            30.2822558
+          ],
+          [
+            120.0232029,
+            30.2823336
+          ],
+          [
+            120.0235009,
+            30.2824123
+          ],
+          [
+            120.0241077,
+            30.2825725
+          ],
+          [
+            120.0240064,
+            30.2828587
+          ],
+          [
+            120.0241838,
+            30.2829055
+          ],
+          [
+            120.0241167,
+            30.2830949
+          ],
+          [
+            120.0233343,
+            30.2828883
+          ],
+          [
+            120.0230219,
+            30.2828058
+          ],
+          [
+            120.0229023,
+            30.2827742
+          ],
+          [
+            120.0230015,
+            30.2824943
+          ],
+          [
+            120.0228391,
+            30.2824514
+          ]
+        ],
+        [
+          [
+            120.0231314,
+            30.282624
+          ],
+          [
+            120.0234018,
+            30.2826955
+          ],
+          [
+            120.0238591,
+            30.2828164
+          ],
+          [
+            120.0238884,
+            30.2827337
+          ],
+          [
+            120.0234308,
+            30.2826127
+          ],
+          [
+            120.0231607,
+            30.2825413
+          ],
+          [
+            120.0231314,
+            30.282624
+          ]
+        ]
+      ],
+      "height": {
+        "value": 28.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 5,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": "6",
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "relation/6752593",
+      "label": "link-6752593",
+      "kind": "link",
+      "ringsWGS84": [
+        [
+          [
+            120.020686,
+            30.2828699
+          ],
+          [
+            120.0207095,
+            30.2828048
+          ],
+          [
+            120.0209862,
+            30.282879
+          ],
+          [
+            120.0210541,
+            30.28269
+          ],
+          [
+            120.0208937,
+            30.282647
+          ],
+          [
+            120.0209922,
+            30.2823731
+          ],
+          [
+            120.0208675,
+            30.2823396
+          ],
+          [
+            120.0209918,
+            30.2819941
+          ],
+          [
+            120.0217189,
+            30.2821891
+          ],
+          [
+            120.0216948,
+            30.2822562
+          ],
+          [
+            120.0214057,
+            30.2821786
+          ],
+          [
+            120.021335,
+            30.2823751
+          ],
+          [
+            120.0215,
+            30.2824194
+          ],
+          [
+            120.0213895,
+            30.2827267
+          ],
+          [
+            120.0215157,
+            30.2827606
+          ],
+          [
+            120.0214068,
+            30.2830632
+          ],
+          [
+            120.0209182,
+            30.2829322
+          ],
+          [
+            120.020686,
+            30.2828699
+          ]
+        ],
+        [
+          [
+            120.0210171,
+            30.2822828
+          ],
+          [
+            120.0212491,
+            30.2823453
+          ],
+          [
+            120.0213028,
+            30.2821936
+          ],
+          [
+            120.0210681,
+            30.2821311
+          ],
+          [
+            120.0210171,
+            30.2822828
+          ]
+        ],
+        [
+          [
+            120.0210956,
+            30.2828983
+          ],
+          [
+            120.0213276,
+            30.2829609
+          ],
+          [
+            120.0213812,
+            30.2828092
+          ],
+          [
+            120.0211465,
+            30.2827466
+          ],
+          [
+            120.0210956,
+            30.2828983
+          ]
+        ]
+      ],
+      "height": {
+        "value": 14.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 4,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 2,
+      "bodyBottomM": 6,
+      "mappedLevelTag": "1",
+      "mappedMinLevelTag": "2",
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "relation/6752592",
+      "label": "A4",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.0198221,
+            30.2825548
+          ],
+          [
+            120.019908,
+            30.2823092
+          ],
+          [
+            120.0199169,
+            30.2822838
+          ],
+          [
+            120.0199856,
+            30.2821018
+          ],
+          [
+            120.0202581,
+            30.2821763
+          ],
+          [
+            120.0203958,
+            30.2822132
+          ],
+          [
+            120.0208402,
+            30.2823323
+          ],
+          [
+            120.0208675,
+            30.2823396
+          ],
+          [
+            120.0209922,
+            30.2823731
+          ],
+          [
+            120.0208937,
+            30.282647
+          ],
+          [
+            120.0210541,
+            30.28269
+          ],
+          [
+            120.0209862,
+            30.282879
+          ],
+          [
+            120.0198221,
+            30.2825548
+          ]
+        ]
+      ],
+      "height": {
+        "value": 26.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 5,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": "6",
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "way/642355049",
+      "label": "A2",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.0166993,
+            30.2808378
+          ],
+          [
+            120.0167889,
+            30.2805899
+          ],
+          [
+            120.0170802,
+            30.2806684
+          ],
+          [
+            120.0171656,
+            30.2804319
+          ],
+          [
+            120.0176925,
+            30.2805739
+          ],
+          [
+            120.0175959,
+            30.2808413
+          ],
+          [
+            120.0182823,
+            30.2810263
+          ],
+          [
+            120.0182076,
+            30.2812329
+          ],
+          [
+            120.0179643,
+            30.2811674
+          ],
+          [
+            120.0178614,
+            30.2814521
+          ],
+          [
+            120.0172737,
+            30.2812938
+          ],
+          [
+            120.0173728,
+            30.2810193
+          ],
+          [
+            120.0166993,
+            30.2808378
+          ]
+        ]
+      ],
+      "height": {
+        "value": 26,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 6,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": null,
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "way/642355050",
+      "label": "link-642355050",
+      "kind": "link",
+      "ringsWGS84": [
+        [
+          [
+            120.0173666,
+            30.2804549
+          ],
+          [
+            120.0174515,
+            30.2801946
+          ],
+          [
+            120.0175221,
+            30.2799942
+          ],
+          [
+            120.0176292,
+            30.2796746
+          ],
+          [
+            120.0177484,
+            30.2797045
+          ],
+          [
+            120.0176422,
+            30.2800187
+          ],
+          [
+            120.0175693,
+            30.2802236
+          ],
+          [
+            120.0175032,
+            30.280433
+          ],
+          [
+            120.0179125,
+            30.2805357
+          ],
+          [
+            120.0178008,
+            30.2808675
+          ],
+          [
+            120.0176277,
+            30.2808241
+          ],
+          [
+            120.0177219,
+            30.2805441
+          ],
+          [
+            120.0173666,
+            30.2804549
+          ]
+        ]
+      ],
+      "height": {
+        "value": 14.5,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 4,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 2,
+      "bodyBottomM": 6,
+      "mappedLevelTag": null,
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "way/642355051",
+      "label": "A1",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.0173366,
+            30.2795408
+          ],
+          [
+            120.0174059,
+            30.2793384
+          ],
+          [
+            120.0175998,
+            30.279388
+          ],
+          [
+            120.0176899,
+            30.279125
+          ],
+          [
+            120.0189536,
+            30.2794479
+          ],
+          [
+            120.018899,
+            30.2796075
+          ],
+          [
+            120.0186174,
+            30.2795355
+          ],
+          [
+            120.0185125,
+            30.2798413
+          ],
+          [
+            120.0173366,
+            30.2795408
+          ]
+        ]
+      ],
+      "height": {
+        "value": 26,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 6,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": null,
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    },
+    {
+      "sourceId": "way/642355052",
+      "label": "A3",
+      "kind": "office",
+      "ringsWGS84": [
+        [
+          [
+            120.0181093,
+            30.2818107
+          ],
+          [
+            120.0181886,
+            30.2816044
+          ],
+          [
+            120.018374,
+            30.2816588
+          ],
+          [
+            120.0184641,
+            30.2813815
+          ],
+          [
+            120.019755,
+            30.2817399
+          ],
+          [
+            120.0196608,
+            30.2820119
+          ],
+          [
+            120.0199856,
+            30.2821018
+          ],
+          [
+            120.019908,
+            30.2823092
+          ],
+          [
+            120.0181093,
+            30.2818107
+          ]
+        ]
+      ],
+      "height": {
+        "value": 26,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 6,
+        "method": "KKAA completedphoto6–7 facade courses with approximate3.7–4.2m pitch and1–2m roof frame; source mappedlevels6 are not measured floors. Linktwo visible levels above~6m ground clearance; individual heights/photo registration remain approximate."
+      },
+      "courses": 6,
+      "bodyBottomM": 0,
+      "mappedLevelTag": null,
+      "mappedMinLevelTag": null,
+      "historicalUnitNumber": null,
+      "phase": null
+    }
+  ],
+  "facade": {
+    "bayM": 3.1,
+    "foldDepthM": 0.3,
+    "floorFinM": 1.25,
+    "finThicknessM": 0.15,
+    "roofRailHeightM": 1.0,
+    "roofEquipmentHeightM": 1.5
+  },
+  "links": {
+    "eaveDepthM": 2,
+    "eaveSlopeM": 2.0,
+    "meshSampleM": 1.6,
+    "trussPitchM": 9,
+    "columnPitchM": 18,
+    "columnSideM": 0.8,
+    "warmSourceIds": [
+      "relation/6752593",
+      "relation/6752573"
+    ],
+    "notes": "Colourregistration estimated fromcentralplaza photos; otherlinks silver, exactallsideassignment pending"
+  },
+  "unmappedRooflight": {
+    "widthM": 10,
+    "lengthFraction": 0.52,
+    "basis": "estimated",
+    "method": "Non-hole mappedoffice polygons get source-contained glazedroofstrip only, not inventedgroundcourtyard orreportedatriumoutline"
+  },
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  },
+  "groundDatum": {
+    "status": "pending",
+    "candidateBaseMetres": 0,
+    "lmYUnit": "already-scaledgameunits",
+    "notes": "Terrain/roadandlinkdeckdatumverifiedbymainintegrator;layer/minleveltags notmetricheight"
+  },
+  "pendingSubscopes": [
+    "历史一期六个architectunits与现行A1–A9/各期映射blocker；官方平面功能图例数字不是楼号",
+    "A9身份/建筑师/现状外观/高度/入口blocker，未建模或排除；其他停车/商城/总站/服务/历史院落保留基础对象",
+    "完整>1km links及剧场/体育/图书/食堂等具体sourcefunction crosswalk blocker",
+    "每栋竣工楼高/课程与楼层/海拔地面基准；6levelOSM标签与项目7F口径不直接等同",
+    "A1–A4源无内环，屋顶玻璃条仅estimated外观，地面院落/入口/内部分区不当真实可通行结构",
+    "全侧折叠幕墙及镂空铝网真实网格/编织尺度、橙白色各link配准、屋顶设备/绿化/栏杆布局",
+    "links地面净高/支柱/台阶和地形接合/车辆穿行，四个源link孔洞只代表mapped数据",
+    "园内湿地/水面/植被进入基础管线；准确门洞/字牌/夜景灯具与光度",
+    "GLB导出、双排除/地面碰撞/道路可到达点/存档与驾驶、昼夜实机三视角、性能"
+  ],
+  "excludedSubscopeBlockers": [
+    {
+      "subject": "historical6offices vs currentA1–A9",
+      "blocker": "Architect2013 sixunit/7F project includes multiple connectedplates, while currentA has expansions and namedA1–A9. Officialplan legend numbers are functions, not A buildingnumbers. No automatic1..6 mapping; phase/year/officialname crosswalk pending."
+    },
+    {
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "subject": "A9 currentcurvedbuilding",
+      "blocker": "Public/visitor building identity, architect, modern exterior/height/entrance not confirmed; base object retained."
+    },
+    {
+      "subject": "complete>1km linknetwork",
+      "blocker": "Four fixed mappedlinks are finite subset; architect reported>1km entire network and exact sourcefunction/hall/cafe/library mappings not established."
+    }
+  ],
+  "noPhotoTextures": true,
+  "noNewLights": true
+}

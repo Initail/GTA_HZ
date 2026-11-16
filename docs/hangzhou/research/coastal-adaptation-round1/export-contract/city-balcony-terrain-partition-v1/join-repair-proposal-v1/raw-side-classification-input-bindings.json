@@ -1,0 +1,15 @@
+{
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check.py": "c2e2bb8af9f4be7d71645073db080e8c960f927adaa571662926ecdc7fece005",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/actual-glb-v1-review/relative-position.py": "feec016aa626fd3f54db14586eed058365aeaa351930faf1cf676738e26904c0",
+  "artifacts/cities/hangzhou/render-input-v7/geography/site-surfaces.json": "f3b6ce4ee5fba89a79c305bb4207ed24903680dfb5f6745bd17de783e843ac81",
+  "artifacts/cities/hangzhou/landmarks/city-balcony-floor-v2/city-balcony.glb": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "artifacts/cities/hangzhou/shore-glb-v3/coastal-shoreline.glb": "0c683dd694ac4a3b5b19fbd46cabb330fb81775c474cb0a6536cdc86bb66d65c",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/actual-glb-v2-review/actual-report.json": "ed99c852757f4764d44ec9079f76725ca7d89cbc9c27dc366209a310d5a62501",
+  "artifacts/cities/hangzhou/city-balcony-terrain-glb-v2/city-balcony-terrain.glb": "49fee2ba93052f67e732c647d2edacc72c45718901d9ff692f4669ca252782a1",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-envelope-v2/slab-glb-correspondence.json": "18c4856addc9963f22028bedaa8ed70ed936a436f1b74279378a0f878d390f04",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/local-domains.geojson": "72ddec268f391ca2691365df60265601133ac1e53ea1b8d17d117ccde38c27b6",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/actual-glb-v1-review/shore-relative-position.json": "d3f31084ece926ee3ea742ed6dd697c72d1aa478df42ea2ee199f7adea35cf07",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/actual-glb-v1-review/actual-face-map.json": "9d14058ebd816b1a991374a4ad67d915cd404c3e580a7098bcb5ee98238fe11e",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/actual-glb-v1-review/actual-world-enu.npz": "09c5b1b6d0e278403d7aaec1dd31e2bdd68a2328068e3af3b6050a1f73771a5d",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership-contract.json": "9f460c5efeeb837ead9238eee2aa08700650d774cc8475980df27734447b39bd"
+}

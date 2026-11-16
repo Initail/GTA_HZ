@@ -1,0 +1,24 @@
+{
+  "id": "city-balcony-walk-envelope-v2",
+  "candidate": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-envelope-v2/site-surfaces-envelope.json",
+  "sha256": "4710642be132ba1a83d77ea393341bb48bbf70714936931c9642a8093baa3b03",
+  "walkFloorId": "city-balcony:upper",
+  "walkTriangles": 1626,
+  "openEdges": "per triangle [a-b,b-c,c-a]; world signed edge distance EPS1e-9g",
+  "solidSlabs": [
+    {
+      "id": "city-balcony:lower-slab",
+      "triangles": 27,
+      "thicknessGame": 0.39
+    },
+    {
+      "id": "city-balcony:upper-slab",
+      "triangles": 300,
+      "thicknessGame": 0.39
+    }
+  ],
+  "lowerWalkEnabled": false,
+  "actualGlbSha256": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "sourceGlbValidation": "matched top and slab bottom heights within .001g; max XY registration .000144688g; strict fixed-XY discontinuity exceptions retained",
+  "browserOrWorldAccepted": false
+}

@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA256",
+  "frozenAt": "2026-10-14",
+  "scope": "independent source/module delivery; mutable task stages must refresh after main integration",
+  "originalCoreResearchFilesUnchanged": 23,
+  "lingyinModuleAndSpecUnchanged": true,
+  "files": {
+    "docs/hangzhou/research/core/broken-bridge-round2/README.md": "fbe47024bf872b176f7a22389d748dff8cb87f824854e258d4d59b6937da99ec",
+    "docs/hangzhou/research/core/broken-bridge-round2/attempts.json": "ea8c5e3587079abb942f14c4b1ee0b24c0c463ead5953dbc42eef46a66d9e934",
+    "docs/hangzhou/research/core/broken-bridge-round2/cpu-geometry-validation.json": "0055d632798811ca3a23c95684d99a8d15ace4eb31f111af591aadc59445c120",
+    "docs/hangzhou/research/core/broken-bridge-round2/evidence.json": "6bd7309438d68bbc0f8829c4f40c91071545dbe19243f455a5008ec5cdd2cec4",
+    "docs/hangzhou/research/core/broken-bridge-round2/freeze_bridge.py": "3ec789f419e962f47a60c856c526a717d1aa17635fccb79614cad48feb6fc612",
+    "docs/hangzhou/research/core/broken-bridge-round2/geofabrik-bridge-features.geojson": "8b61459e4f84173a5f752b4c00492d5a6edd1870071999c410b9c2e392d7766a",
+    "docs/hangzhou/research/core/broken-bridge-round2/osm-measurements.json": "4d29aabc8bf08237ab421613e153543e7cd73bb1645f99d68a39266e1615d5a9",
+    "docs/hangzhou/research/core/broken-bridge-round2/photo-review.json": "fe65cb49f151d5f46f5ad9ca578edfc2568bea987f9ba58ca0a2b71e7fddf78a",
+    "docs/hangzhou/research/core/broken-bridge-round2/record_review.py": "13314bb0c666642909213d43adb5df139f2853ff9ae2c11cecf4ef29dcbc0b01",
+    "docs/hangzhou/research/core/broken-bridge-round2/source-claims.json": "dafbe216cc2c9716cafe9662d1690f538f435e065cbb38258196e2c09f639d39",
+    "docs/hangzhou/research/core/broken-bridge-round2/spec.json": "0b96b192a1011a5e217b98ace971bd04d5442228b51cad0193d2a9143a282eb4",
+    "docs/hangzhou/research/core/broken-bridge-round2/task-bundles/broken-bridge/evidence.json": "6bd7309438d68bbc0f8829c4f40c91071545dbe19243f455a5008ec5cdd2cec4",
+    "docs/hangzhou/research/core/broken-bridge-round2/task-bundles/broken-bridge/job.json": "edb37aa4fc5ff1ffe32aa73935029de55a492497da8498ff9d99c07a6c58d934",
+    "docs/hangzhou/research/core/broken-bridge-round2/task-bundles/broken-bridge/model.json": "db74755770b4af3c610f9d31d9b85005e360c05e1dd2c5615da26fde1a081a89",
+    "docs/hangzhou/research/core/broken-bridge-round2/task-bundles/broken-bridge/prompt.md": "1febc71f7f5bf6e0d3d3103d7d9f1163b0d99ac6607ea669bee2d34c2cdc164c",
+    "docs/hangzhou/research/core/broken-bridge-round2/task-bundles/broken-bridge/validation.json": "411a669ffdf3730891b4c790b993b3015e63d38955393eda2222f382f1c8f3a0",
+    "docs/hangzhou/research/core/broken-bridge-round2/task-catalog.json": "cd829e7a3e2bbe5895adf5b64b773f325c8e5fa5482266c6c2b5a5b2776ae3d2",
+    "docs/hangzhou/research/core/broken-bridge-round2/validate_cpu.py": "4d5dae31269718ff6e53cb22849bcd1c00358a0205dab6dc5f9655bfa245f9e2",
+    "scripts/landmarks/broken_bridge.py": "eab2ac0c16d54d9b7b6a2ba93a454e83ecd5cc963cafda2ff9f3494f727b78b2"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "petroff",
+      "url": "https://www.petroff.com/projects/hangzhou",
+      "publisher": "PETROFF Partnership Architects, project architect/prime consultant",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "page month/day Nov12, year not explicit; states project completion2010",
+      "status": "actual text and four reference images reviewed",
+      "sha256": "e266853e3865baf70608efa2c5be5044b464c8c664e6ab8d29576d21d96226a2",
+      "license": "unknown; reference-only; no photograph bundled or used as texture"
+    },
+    {
+      "id": "chinaasc",
+      "url": "https://www.chinaasc.org.cn/news/117011.html",
+      "publisher": "Architectural Society of China; structural engineer 葛家琪 first-person report",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2017-09-16",
+      "status": "actual report text read",
+      "sha256": "b714dcc6d56434b93b061ac9583c65f1a2db6ee32662c51767a72158bcb2f030",
+      "license": "unknown; reference-only",
+      "use": "Carlos Ott/CUC architecture,85m diameter, outer mesh-shell/inner steel frame, doubleC functional arrangement"
+    },
+    {
+      "id": "hunter",
+      "url": "https://ap.hunterdouglas.asia/project/hangzhou-international-conference-center",
+      "publisher": "Hunter Douglas facade product supplier",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "actual text and five actual exterior photo views reviewed",
+      "sha256": "8ac53592c0c43c396c5ecfb364d6ca56c93963ae55209e6e643035c220b163dc",
+      "license": "unknown; reference-only; no photographs/atlas bundled",
+      "use": "85m height/diameter,13m oval annex, golden glass and gold honeycomb panels; architect field conflict retained"
+    },
+    {
+      "id": "ihg",
+      "url": "https://www.ihg.com/intercontinental/hotels/cn/zh/hangzhou/hghha/hoteldetail",
+      "publisher": "InterContinental / IHG hotel operator",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "actual current page read and two actual exterior photos reviewed",
+      "license": "unknown; reference-only; no photograph texture",
+      "use": "ICC identity/address, golden globe with opposite theatre, current facade/glazed wedge and podium arrangement"
+    },
+    {
+      "id": "zjol2017",
+      "url": "https://town.zjol.com.cn/czjsb/201712/t20171214_6044540.shtml",
+      "publisher": "浙江在线 / 浙江日报集团，记者刘健、通讯员李云雁",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2017-12-14",
+      "status": "actual engineering interview and aerial context photo reviewed",
+      "sha256": "6dd549e308d890cfc0050a462f169a7284870060a529d871525344b9cfdb32e9",
+      "license": "unknown; reference-only",
+      "use": "13m annex/85m sphere,18floor label,1/3 honeycomb and2/3glass per level, concealed lighting interview; not a2026 structural survey"
+    },
+    {
+      "id": "tsinghua-lighting",
+      "url": "https://www.tsinghua.edu.cn/info/2066/68498.htm",
+      "publisher": "Tsinghua University; affiliated lighting project account",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2016-09-08 16:53:38",
+      "status": "actual page read; numerical fixture placement/current control still pending",
+      "license": "unknown; reference-only",
+      "use": "warm layer-by-layer LED lighting and shielding; do not infer real fixture count or current show timing"
+    },
+    {
+      "id": "government-cuc",
+      "url": "https://hzbjzx.gov.cn/data/2021/07/t20251225201139817.htm",
+      "publisher": "杭州市滨江区政协",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2021-07-05 (page indexed publication; URL contains a2025 token)",
+      "status": "search-index excerpt read; direct web page cache miss, only CUC project association corroborated",
+      "license": "unknown; reference-only",
+      "use": "government identity context only, not height/section evidence"
+    }
+  ],
+  "reported": {
+    "diameterM": 85,
+    "totalHeightM": 85,
+    "ovalAnnexM": 13,
+    "primaryArchitectRoles": "PETROFF project architect / Carlos Ott associate schematic architect / China United local architecture; society first-person report corroboratesCarlosOtt/CUC",
+    "sphereFloorScope": 15,
+    "pressFloorLabel": 18,
+    "shellMaterials": "golden glass + gold honeycomb cladding"
+  },
+  "sourceConflicts": [
+    "Supplier English Architect/Specifier field namesGS/XiaBangjie, whereas project architect official and engineer account supportCarlosOtt/PETROFF/CUC. Retained, not silently discarded.",
+    "Mapped floor rings extend108m and tag top88; primary engineering diameter85m/total height85m chosen, exact section remains pending.",
+    "OSM main/podium20m, supplier reported13m, secondary12m not silently unified.",
+    "Engineer15 floor sphere scope, press18label, historic19total count may cover different levels; no exact floor mapping asserted.",
+    "Supplier gold honeycomb product is supported; claims of solid gold or plain titanium sphere are not used.",
+    "Hotel/current384 rooms vs designer379/historical393 are operation-period differences, not geometric parameters.",
+    "The International Expo Center on the south bank is a different site/object."
+  ]
+}

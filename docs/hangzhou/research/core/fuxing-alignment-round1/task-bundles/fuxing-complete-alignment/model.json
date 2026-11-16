@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "placeId": "fuxing-complete-alignment",
+  "artifactPath": "artifacts/landmarks/fuxing-complete-alignment/model.glb",
+  "sourceModule": "scripts/landmarks/fuxing_alignment.py",
+  "sha256": null,
+  "sourceModuleSha256": "b098c2dabf3dbfda20f45a12341b9f5c9ab28fb6c3351c029e19383bfd48fe14",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed estimated rigid main-structure axis correction; CPU candidate only, no new GLB",
+  "estimatedParameters": [
+    "remaining northern lower source-road mismatch after axis correction",
+    "actual lane/road-edge widths and source placement accuracy",
+    "reported-width applicability to cantilevers/viewing decks and approaches",
+    "measured absolute height/longitudinal grade/bank abutments",
+    "actor clearance and road-specific permissions",
+    "parent export/placement/replacement/collisions",
+    "in-game views/night/browser/performance"
+  ],
+  "buildCommand": ".venv/bin/python -B docs/hangzhou/research/core/fuxing-alignment-round1/validate_candidate.py"
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/927.jpg",
+    "path": "<TEMP>/little-lotus-research/government-776-927.jpg",
+    "bytes": 108037,
+    "sha256": "5ad08e1e13dd6c94c8a154f5c1d5ae0192ab4896ae75635806ae17f78130573d",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/931.jpg",
+    "path": "<TEMP>/little-lotus-research/government-776-931.jpg",
+    "bytes": 49544,
+    "sha256": "877be64d10054a81263786d39ec90556208317011ba9c7612c756193d6d87a1d",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/933.jpg",
+    "path": "<TEMP>/little-lotus-research/government-776-933.jpg",
+    "bytes": 123697,
+    "sha256": "6a7b4ddfe9373b59e23e0e69576bf6354f22e65eb91e0f4bdcc2e5fb29d6ad5c",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/934.jpg",
+    "path": "<TEMP>/little-lotus-research/government-776-934.jpg",
+    "bytes": 121101,
+    "sha256": "ca57b81daea53dd3638dc5cf928f2bdfba0eb65b3da137ffd437abfb467899db",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/937.jpg",
+    "path": "<TEMP>/little-lotus-research/government-776-937.jpg",
+    "bytes": 90886,
+    "sha256": "b92c15e0e4b95f9e2013161ab48e5a187ec6b88b9f319543b53800af05c96cb0",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/938.jpg",
+    "path": "<TEMP>/little-lotus-research/government-776-938.jpg",
+    "bytes": 207207,
+    "sha256": "0a7cbd3ed499b3529601c2850cc2458d5efaf2e7e600bfac8ad5eff485d7ca8f",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/941.jpg",
+    "path": "<TEMP>/little-lotus-research/government-776-941.jpg",
+    "bytes": 154075,
+    "sha256": "bb3bc2164c52892881962f5f329352c3a7630172620f665d43bfdf09c14fdada",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/777/23.jpg",
+    "path": "<TEMP>/little-lotus-research/government-777-23.jpg",
+    "bytes": 133358,
+    "sha256": "833cea21770daead8cceb7b903d9217bec223d8f6c3625b9055b564d9abb117c",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/117/777/25.jpg",
+    "path": "<TEMP>/little-lotus-research/government-777-25.jpg",
+    "bytes": 146052,
+    "sha256": "7a96397ddaa6f775893a641f0ebc2eb80f98eb60c773256bdd59225732152fb1",
+    "status": "downloaded-unreviewed-reference-only"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "actualAttempts": [
+    {
+      "action": "initial PDF text extraction",
+      "result": "failed",
+      "reason": "pdftotext absent from shell PATH; direct bundled Poppler path used successfully"
+    },
+    {
+      "action": "pypdf extraction",
+      "result": "failed",
+      "reason": "project venv lacks pypdf; bundled native Poppler used, no dependencies changed"
+    },
+    {
+      "action": "2020 reference page bare ehangzhou domain",
+      "result": "failed",
+      "reason": "expired TLS certificate; valid www domain used, TLS verification not disabled"
+    },
+    {
+      "action": "source evidence-ready check",
+      "result": "passed",
+      "scope": "single arch and sloping approach candidate only"
+    },
+    {
+      "action": "first CPU check",
+      "result": "failed",
+      "triangles": 13806,
+      "reason": "above unchanged12000 provisional budget"
+    },
+    {
+      "action": "second CPU check",
+      "result": "passed",
+      "triangles": 7226,
+      "change": "masonry joint marks use outward vertical faces rather than six-face prisms; arch/deck/rail checks retained"
+    },
+    {
+      "action": "Blender/browser",
+      "result": "not-run",
+      "reason": "serial main integration owns heavy/export/browser work"
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "id": "little-lotus",
+  "cityId": "hangzhou",
+  "scope": "Source-bound finite Little Lotus exterior/bowl candidate:24 fixed wall-roof petals from mapped plan phase,8 upper static open-reference petals with center opening, low glazed concourse, red/grey bowl and regulation-form tennis court. Full podium/site/entrances and gameplay/runtime verification pending.",
+  "anchor": {
+    "lon": 120.22899373961485,
+    "lat": 30.229821337017597
+  },
+  "coordinateContract": "city_config load_city(hangzhou)+project; WGS84/physicalmetres scaleonce; lm.x/z/y gameunits; east/north/up and existingGLB direction retained",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "baseBuildingIdsToExclude": [
+    "relation/9874418"
+  ],
+  "footprintWGS84": [
+    [
+      120.228273,
+      30.2297797
+    ],
+    [
+      120.2283198,
+      30.2297383
+    ],
+    [
+      120.2283088,
+      30.2296201
+    ],
+    [
+      120.2283694,
+      30.2295856
+    ],
+    [
+      120.2283785,
+      30.229479
+    ],
+    [
+      120.2284383,
+      30.2294735
+    ],
+    [
+      120.2284953,
+      30.2293587
+    ],
+    [
+      120.2285802,
+      30.2293526
+    ],
+    [
+      120.2286506,
+      30.2292473
+    ],
+    [
+      120.2287072,
+      30.229284
+    ],
+    [
+      120.2288381,
+      30.2292108
+    ],
+    [
+      120.2288894,
+      30.2292481
+    ],
+    [
+      120.2290297,
+      30.2291962
+    ],
+    [
+      120.2290895,
+      30.2292411
+    ],
+    [
+      120.2292406,
+      30.2292361
+    ],
+    [
+      120.2292664,
+      30.2292901
+    ],
+    [
+      120.2294087,
+      30.2292986
+    ],
+    [
+      120.2293995,
+      30.2293528
+    ],
+    [
+      120.2295622,
+      30.2293953
+    ],
+    [
+      120.2295425,
+      30.2294491
+    ],
+    [
+      120.2296519,
+      30.2295539
+    ],
+    [
+      120.2296109,
+      30.2296003
+    ],
+    [
+      120.2296927,
+      30.2296905
+    ],
+    [
+      120.2296487,
+      30.2297404
+    ],
+    [
+      120.2297234,
+      30.2298531
+    ],
+    [
+      120.2296787,
+      30.2298939
+    ],
+    [
+      120.2296767,
+      30.2300233
+    ],
+    [
+      120.229629,
+      30.2300433
+    ],
+    [
+      120.2295921,
+      30.2301731
+    ],
+    [
+      120.2295272,
+      30.2301793
+    ],
+    [
+      120.2294547,
+      30.2302999
+    ],
+    [
+      120.2294019,
+      30.230295
+    ],
+    [
+      120.229308,
+      30.2304034
+    ],
+    [
+      120.2292596,
+      30.2303694
+    ],
+    [
+      120.2291107,
+      30.230446
+    ],
+    [
+      120.2290661,
+      30.2304116
+    ],
+    [
+      120.2289196,
+      30.2304521
+    ],
+    [
+      120.228889,
+      30.2304002
+    ],
+    [
+      120.2287624,
+      30.2304119
+    ],
+    [
+      120.2287387,
+      30.230364
+    ],
+    [
+      120.2285692,
+      30.230342
+    ],
+    [
+      120.2285695,
+      30.2302854
+    ],
+    [
+      120.2284508,
+      30.2302199
+    ],
+    [
+      120.2284552,
+      30.2301674
+    ],
+    [
+      120.2283425,
+      30.2300943
+    ],
+    [
+      120.2283628,
+      30.2300357
+    ],
+    [
+      120.2282836,
+      30.2299581
+    ],
+    [
+      120.2283179,
+      30.2298833
+    ],
+    [
+      120.228273,
+      30.2297797
+    ]
+  ],
+  "roof": {
+    "state": "open-static",
+    "realCounts": {
+      "fixed": 24,
+      "movableUpper": 8
+    },
+    "stateSourceIds": [
+      "little-lotus-primary-photos"
+    ],
+    "statePhotoId": "institutional-941",
+    "realMotionReported": "each upperpetal hasfixedaxis, synchronously counterclockwise up to45°; openingduration reports differ",
+    "gameMotionImplemented": false,
+    "realAxesVerified": false
+  },
+  "estimates": {
+    "candidateHeightM": {
+      "value": 40.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "operator interview says real roof operates atapprox40m; finite candidate maximum set40m with mapped139m envelope and exterior/court-photo proportion cross-check",
+      "uncertainty": "±4m, roof operating level is not a surveyed total height or altitude datum"
+    },
+    "openingRadiusM": {
+      "value": 30.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "source open interior941 round opening ratio to mapped139m building and standard-sized court; wide-angle perspective limits ratio",
+      "uncertainty": "±5m, no precise circle centerline survey; technical secondary133m/60m not treated measured"
+    },
+    "fixedPetalSections": {
+      "value": [
+        [
+          0,
+          1,
+          5,
+          0.18
+        ],
+        [
+          0.2,
+          1,
+          14,
+          5
+        ],
+        [
+          0.43,
+          0.99,
+          26,
+          7
+        ],
+        [
+          0.62,
+          0.91,
+          33,
+          7
+        ],
+        [
+          0.82,
+          0.68,
+          36,
+          6.8
+        ],
+        [
+          1,
+          0,
+          36,
+          6.5
+        ]
+      ],
+      "unit": "path fraction / remaining radial fraction / metres / angular half-width degrees",
+      "basis": "estimated",
+      "method": "control rows along each of24 mapped tip phases, inner radius fromopeningRadius; ground real photos934/937 droplet tip/rounded shoulder and aerial931 roof continuation",
+      "uncertainty": "height control±3m, widths/curvature±20%; this is a continuous reference-informed surface, no fabricated as-built sweep"
+    },
+    "fixedPetalTwistDegrees": {
+      "value": 8,
+      "unit": "degree",
+      "basis": "estimated",
+      "method": "clockwise/curving seam rhythm from closed aerial931; retains source tip anchoring",
+      "uncertainty": "±4°, exact panel axes and metal seam routing unknown"
+    },
+    "fixedPetalCrossCamberM": {
+      "value": 1.15,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "subtle double-curvature from close real exterior933/934",
+      "uncertainty": "±.6m"
+    },
+    "panelThicknessM": {
+      "value": 0.28,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "finite closed shell representation for visible edges/underside, not metal sheet thickness",
+      "uncertainty": "±.15m; actual truss depth/panel assembly not frozen"
+    },
+    "podiumHeightM": {
+      "value": 5.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "photo-relative raised lower concourse/grounds; sourceheight5 explicitly not adopted as surveyed datum",
+      "uncertainty": "±2m; site platform/ground/steps pending"
+    },
+    "upperRoofBaseM": {
+      "value": 36.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "open941 and closed938 underside ratios toapprox40m roof operating zone",
+      "uncertainty": "±3m"
+    },
+    "upperPetalPhaseDegrees": {
+      "value": 12,
+      "unit": "degree",
+      "basis": "estimated",
+      "method": "relative8-vs24 leaf phasing in931 aerial, tied to first mappedtip",
+      "uncertainty": "±10°; open-static profile is not a real pivot simulation"
+    },
+    "upperStaticProfile": {
+      "value": {
+        "radialSineM": 15,
+        "radialLinearM": 8,
+        "radialAcrossSineM": 10,
+        "minimumEndHalfWidthM": 0.25,
+        "angularStartRadians": -0.4,
+        "angularSweepRadians": 0.95,
+        "heightCrossCamberFactor": 0.15
+      },
+      "basis": "estimated",
+      "method": "original bounded curved leaf surfaces preserve eight parts and anapprox30m-radius center opening, guided by actualopen941/closed931 shapes",
+      "uncertainty": "shape/width±25%; real pivot coordinates, opening angle per photo and exact rigid-body contours pending; no animation"
+    },
+    "upperSeatRowSamples": {
+      "value": 24,
+      "unit": "row",
+      "basis": "estimated",
+      "method": "representative red stepped bands from current-tennis23/25; no10000 individualchair objects",
+      "uncertainty": "not an exact seat count/row schedule; radii34..53m heights14..23m estimated±15%"
+    },
+    "courtAbsoluteOrientation": {
+      "value": 0,
+      "unit": "degrees from north for candidate long axis",
+      "basis": "estimated",
+      "method": "reference-visible court rectangular form; absolute direction cannot be established from indoor views and roundOSM footprint, so generic north/south candidate orientation retained explicitly",
+      "uncertainty": "±45°; exact as-built court orientation pending and outside finite shell-phase acceptance"
+    },
+    "portalsAndConcourse": {
+      "value": "low glazed circular concourse and8 representative portal heads betweenpetals",
+      "basis": "estimated",
+      "method": "source937/934 ground portal/glazing observations, bounded sampling behind mapped envelope",
+      "uncertainty": "positions/count/clearance±25%; visual markers are not traversable entrances or full circulation plan"
+    }
+  },
+  "referenceImages": [
+    {
+      "id": "institutional-927",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/927.jpg",
+      "sha256": "5ad08e1e13dd6c94c8a154f5c1d5ae0192ab4896ae75635806ae17f78130573d",
+      "downloadBytes": 108037,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "ground distant towards southeast, estimate",
+        "bearingTowardDegrees": 135,
+        "allowanceDegrees": 35
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-931",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/931.jpg",
+      "sha256": "877be64d10054a81263786d39ec90556208317011ba9c7612c756193d6d87a1d",
+      "downloadBytes": 49544,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "near-top closed-roof aerial, azimuth unknown",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-933",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/933.jpg",
+      "sha256": "6a7b4ddfe9373b59e23e0e69576bf6354f22e65eb91e0f4bdcc2e5fb29d6ad5c",
+      "downloadBytes": 123697,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "close exterior details, absolute direction unknown",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-934",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/934.jpg",
+      "sha256": "ca57b81daea53dd3638dc5cf928f2bdfba0eb65b3da137ffd437abfb467899db",
+      "downloadBytes": 121101,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "ground exterior toward northeast, estimate",
+        "bearingTowardDegrees": 70,
+        "allowanceDegrees": 25
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-937",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/937.jpg",
+      "sha256": "b92c15e0e4b95f9e2013161ab48e5a187ec6b88b9f319543b53800af05c96cb0",
+      "downloadBytes": 90886,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "ground exterior/portal with eastern landmark background, estimate",
+        "bearingTowardDegrees": 70,
+        "allowanceDegrees": 25
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-938",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/938.jpg",
+      "sha256": "0a7cbd3ed499b3529601c2850cc2458d5efaf2e7e600bfac8ad5eff485d7ca8f",
+      "downloadBytes": 207207,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "closed-roof underside",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-941",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/776/941.jpg",
+      "sha256": "bb3bc2164c52892881962f5f329352c3a7630172620f665d43bfdf09c14fdada",
+      "downloadBytes": 154075,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "open-roof inner view",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-23",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/777/23.jpg",
+      "sha256": "833cea21770daead8cceb7b903d9217bec223d8f6c3625b9055b564d9abb117c",
+      "downloadBytes": 133358,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "court/upper-lower bowl frontal",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "institutional-25",
+      "sourceId": "little-lotus-primary-photos",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/117/777/25.jpg",
+      "sha256": "7a96397ddaa6f775893a641f0ebc2eb80f98eb60c773256bdd59225732152fb1",
+      "downloadBytes": 146052,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original downloaded reference",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "court/upper-lower bowl oblique",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "operator-exterior",
+      "sourceId": "little-lotus-tournament",
+      "url": "https://www.hangzhouopen.com/-/media/sites/tournaments/hangzhou/general-media-images/hangzhou-2024-announcement.jpg",
+      "sha256": "2906db035321d8d47376a7dabe20efc54f71dc6f6dd9cdc13ab32896aced54cd",
+      "downloadBytes": 148313,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image of original photo",
+      "captureDate": null,
+      "viewDirection": {
+        "description": "high eastern viewpoint toward west, estimated using north-neighbor stadium and river/sunset background",
+        "bearingTowardDegrees": 270,
+        "allowanceDegrees": 25
+      },
+      "license": "unknown",
+      "bundled": false
+    }
+  ],
+  "pendingSubscopes": [
+    "actual surveyed roofheight, contour, pivotcoordinates and closed/open rigid-body transforms",
+    "true absolutecourtorientation and exactseat/circulationplan",
+    "complete raisedpodium, terrain datum, bridges/steps and entrances",
+    "other semifinals/practice/indoorcourts and all adjacentbuildings including way626826731",
+    "material/metal seam and night lighting finish",
+    "roofanimation/interactions not implemented",
+    "actualGLB, namedvisual, collision/arrival, browser and performance"
+  ],
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  }
+}

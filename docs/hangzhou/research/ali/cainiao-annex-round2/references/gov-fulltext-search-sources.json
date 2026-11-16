@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "id": "area60412",
+      "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=60412%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title%2Ccontent%2Cbu11etincontent_701803%2Ccontent_556463%2Cvc_content%2Cbu11etincontent_701089%2Cbu11etincontent_701282%2Cbu11etincontent_701938%2Cbu11etincontent_701271%2Ccontent_555003%2Czhw_556786%2Cpubliccontent_564427%2Ccontent_555670%2Chfnrc_566913%2Cvc_content_564483%2Cbu11etincontent_701515%2Ccontent_564363%2Cdafuyijian_564367%2Ccontent_555735%2Czjdcjg_686587%2Cbu11etincontent_701958%2Ccontent_564298%2Ccontent_564180%2Cytnr_702526%2Cvc_content_564538%2Cfield_content%2Ccontenet_563187%2Cfield_415751_415751%2Cplaintext_702622",
+      "publisher": "余杭政府公开搜索",
+      "accessedAt": "2026-10-14",
+      "query": "60412",
+      "scope": "title anddefaultpubliccontentfields",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-search-area60412.json",
+      "bytes": 173,
+      "sha256": "1183f5a90e434151648ef2e59acfb194f90933ee7c58c2e8ccff764b851cf9d4"
+    },
+    {
+      "id": "phase2-fulltext",
+      "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%E7%BD%91%E7%BB%9C%E6%99%BA%E6%85%A7%E4%BA%A7%E4%B8%9A%E5%9B%AD%E4%BA%8C%E6%9C%9F%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title%2Ccontent%2Cbu11etincontent_701803%2Ccontent_556463%2Cvc_content%2Cbu11etincontent_701089%2Cbu11etincontent_701282%2Cbu11etincontent_701938%2Cbu11etincontent_701271%2Ccontent_555003%2Czhw_556786%2Cpubliccontent_564427%2Ccontent_555670%2Chfnrc_566913%2Cvc_content_564483%2Cbu11etincontent_701515%2Ccontent_564363%2Cdafuyijian_564367%2Ccontent_555735%2Czjdcjg_686587%2Cbu11etincontent_701958%2Ccontent_564298%2Ccontent_564180%2Cytnr_702526%2Cvc_content_564538%2Cfield_content%2Ccontenet_563187%2Cfield_415751_415751%2Cplaintext_702622",
+      "publisher": "余杭政府公开搜索",
+      "accessedAt": "2026-10-14",
+      "query": "菜鸟网络智慧产业园二期",
+      "scope": "title anddefaultpubliccontentfields",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-search-phase2-fulltext.json",
+      "bytes": 3014211,
+      "sha256": "db94bb27375962046773f4e066ef4597872c83799cf6ffe45417884da35a4a0a"
+    },
+    {
+      "id": "hq-fulltext",
+      "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%E7%BD%91%E7%BB%9C%E6%80%BB%E9%83%A8%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title%2Ccontent%2Cbu11etincontent_701803%2Ccontent_556463%2Cvc_content%2Cbu11etincontent_701089%2Cbu11etincontent_701282%2Cbu11etincontent_701938%2Cbu11etincontent_701271%2Ccontent_555003%2Czhw_556786%2Cpubliccontent_564427%2Ccontent_555670%2Chfnrc_566913%2Cvc_content_564483%2Cbu11etincontent_701515%2Ccontent_564363%2Cdafuyijian_564367%2Ccontent_555735%2Czjdcjg_686587%2Cbu11etincontent_701958%2Ccontent_564298%2Ccontent_564180%2Cytnr_702526%2Cvc_content_564538%2Cfield_content%2Ccontenet_563187%2Cfield_415751_415751%2Cplaintext_702622",
+      "publisher": "余杭政府公开搜索",
+      "accessedAt": "2026-10-14",
+      "query": "菜鸟网络总部",
+      "scope": "title anddefaultpubliccontentfields",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-search-hq-fulltext.json",
+      "bytes": 1919073,
+      "sha256": "3654b1a2b92c1c889886cb3c2ead6570f13d352d08f2e39a678a42da0e11b89c"
+    }
+  ]
+}

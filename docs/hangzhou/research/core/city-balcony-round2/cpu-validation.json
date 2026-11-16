@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-host-contract-only",
+  "at": "2026-10-14T04:12:08+00:00",
+  "sourceModuleSha256": "797c5450c927a330fe89815d98c20aa17e55432095b8bba861ddb0591be74c95",
+  "sourceSpecSha256": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+  "faces": 12622,
+  "trianglesBeforeBlenderExport": 25192,
+  "materials": [
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "roof",
+    "steel"
+  ],
+  "minimumTriangleAreaGameUnits2": 0.0007604999999925991,
+  "publicLevelsMetres": {
+    "upper": 6,
+    "lower": 0
+  },
+  "representativePierCount": 117,
+  "solidGroundFootprints": 136,
+  "upperOnlyRearBridgeTriangles": 7,
+  "waterMeshes": 0,
+  "lights": 0,
+  "checks": [
+    "finite/nondegenerate geometry",
+    "fixed28000triangle/7material ceiling",
+    "fixed WGS84 footprint vertices/projection",
+    ".60 scale once/game-unit baseY and translation",
+    "B frame restored",
+    "public floor queries agree with constrained triangulation",
+    "glazed-room voids excluded from public-floor API",
+    "upper approach bridges have no full lower slab",
+    "explicit piers/glass strips rather than whole platform obstacles",
+    "ground-footprint world translation and source ID binding",
+    "no invented stairs/ramps/lifts",
+    "no park/water thin slabs"
+  ],
+  "limitations": [
+    "No Blender/browser invoked; no exported GLB/runtime performance or visual acceptance.",
+    "6m upper level/3m glazed heads/structure/paving/skylight positions estimated; absolute grade/river datum unknown.",
+    "Candidate glass skylight circles are raised surface representations; slab shaft section not reconstructed.",
+    "Source shore mouths remain entry candidates. No genuine stairs/ramps/lifts/road-to-foot arrival verification."
+  ]
+}

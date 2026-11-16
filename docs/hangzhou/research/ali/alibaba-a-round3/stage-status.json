@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14",
+  "recordedStage": "planned",
+  "currentStage": "planned",
+  "evidenceReady": false,
+  "coreBlockers": [
+    {
+      "id": "A9-owner-identity-crosswalk",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "CurrentOSM A9/2016Building9 label andofficialNo.9Hall visitprogram lackauthoritativeWGS84identifiercrosswalk. Singlevendorfrontphoto supportslowcurvedhallwithBuilding4behind, butnot enoughcurrentplan/multiviewregistration tofreeze a trueA9body."
+    },
+    {
+      "id": "A9-shape-height-entry",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "3levelOSMlabelnotmetricheight; roofcoursebreaks,actualentryandsecondnon-collinearimage notconfirmed. Noheight/facade invented."
+    },
+    {
+      "id": "A-remaining-complete-link-network",
+      "reason": "All4mappedanonymous elevatedsourcepolygons alreadyround2; no newtaggedbuildinglink in fixedAparcel. Historic>1km network centerlines/functions/changes needregistration, not newbridgeinferred from38mixedgrade roadrecords."
+    }
+  ],
+  "modelOrHeavyValidationDone": false,
+  "sourceAuditChecks": 8
+}

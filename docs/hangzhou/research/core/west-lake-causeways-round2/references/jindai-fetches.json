@@ -1,0 +1,35 @@
+[
+  {
+    "id": "09582",
+    "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09582.jpg",
+    "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09582.jpg",
+    "bytes": 59436,
+    "sha256": "68edab4b06e632fa80587e24cdfd9df1bfa2315beab478c8735c13685b8696d1"
+  },
+  {
+    "id": "09585",
+    "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09585.jpg",
+    "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09585.jpg",
+    "bytes": 56714,
+    "sha256": "96fe60c00204f19193bfdef9d6c3805ef13d4b0a6b5175cf38f1355ed1f7b8b3"
+  },
+  {
+    "id": "09588",
+    "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09588.jpg",
+    "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09588.jpg",
+    "bytes": 67421,
+    "sha256": "2e78796efa2ff0bdef6a44554d3209f8fb864b217ea76c93f6396794fc94dc51"
+  },
+  {
+    "id": "09601",
+    "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09601.jpg",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "09519",
+    "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09519.jpg",
+    "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09519.jpg",
+    "bytes": 93899,
+    "sha256": "303b13950e2a01247520c8dbe462ec02a18fb6ee58f0f5270f26b43043756475"
+  }
+]

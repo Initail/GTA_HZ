@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-14T04:49:05+00:00",
+  "pyprojVersion": "3.7.2",
+  "projVersion": "9.5.1",
+  "verticalCRSs": {
+    "3855": {
+      "name": "EGM2008 height",
+      "datum": "EGM2008 geoid"
+    },
+    "5736": {
+      "name": "Yellow Sea 1956 height",
+      "datum": "Yellow Sea 1956"
+    },
+    "5737": {
+      "name": "Yellow Sea 1985 height",
+      "datum": "Yellow Sea 1985"
+    }
+  },
+  "sourceCompound": "EPSG:4326+3855",
+  "targetCompound": "EPSG:4326+5737",
+  "allowBallpark": false,
+  "availableNonBallparkOperations": [],
+  "unavailableOperationsCount": 0,
+  "empiricalOffsetApplied": null,
+  "blockers": [
+    "Official West Lake documents label Yellow Sea height but do not identify1956or1985 edition.",
+    "No trusted local vertical tie/transformation supplied. Identity/ballpark transformation not accepted.",
+    "Difference between DSM7.5 and reported7.18 must not be fitted as a datum correction; edited water and time/level are additional effects."
+  ]
+}

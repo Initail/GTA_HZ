@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "placeId": "grand-theatre",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/grand-theatre-v1/grand-theatre.glb",
+  "sourceModule": "scripts/landmarks/grand_theatre.py",
+  "sha256": "e24bab5c08af1caa0261e44d42e2ba9688aad055f7d50fce49f85f1d6693a071",
+  "sourceModuleSha256": "91879ae31e07431df4673aa5192517299599d9328cbdd0e67e423c11ec55675b",
+  "artifactMeshPrefix": "detail_grand-theatre_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "platformM",
+    "moonContourLevelsM",
+    "frameRadiusM",
+    "operaProfile",
+    "operaRoofProfile",
+    "frontWingHeightM",
+    "facadeGridSamples",
+    "stairProfile"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/grand-theatre-round2/task-bundles/grand-theatre/job.json --spec docs/hangzhou/research/core/grand-theatre-round2/spec.json --module scripts/landmarks/grand_theatre.py --output artifacts/cities/hangzhou/landmarks/grand-theatre-v1",
+  "candidateCommand": "python3 docs/hangzhou/research/core/grand-theatre-round2/validate_candidate.py",
+  "candidateReport": "docs/hangzhou/research/core/grand-theatre-round2/cpu-geometry-validation.json",
+  "status": "model-exported-not-verified",
+  "sourceSpec": "docs/hangzhou/research/core/grand-theatre-round2/spec.json",
+  "sourceSpecSha256": "fb44df429aaa82e6793c964f84d391cb4b08e20d815a9044fca14335efefdf1f",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/grand-theatre-build-v1.log",
+    "sha256": "56a3e48063c41c8831d2b9e4ad0079be987664ea554a96090dc6e516dc402cf8"
+  },
+  "modelDeliverySha256": "5dc1e88c0822463970e52b3caf41536bf936d8185f8dd43dd8acd608d26a1f31",
+  "glbStats": {
+    "triangles": 14001,
+    "materials": 6,
+    "bytes": 994776,
+    "selectedMeshes": 6,
+    "meshNamePrefix": "detail_grand-theatre_",
+    "wholeFileTriangles": 14001,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "fuxing-alignment",
+  "sourceBridgeId": "fuxing-bridge",
+  "triangleCountBeforeExport": 14592,
+  "faceCountBeforeExport": 7252,
+  "materials": [
+    "carpaint",
+    "concrete",
+    "silver"
+  ],
+  "part": {
+    "largeArches": 2,
+    "smallArches": 9,
+    "archCalculationLengthM": 1145,
+    "mainLengthM": 1376,
+    "currentRailwayTracksDrawn": 0
+  },
+  "correction": "rigid structural-axis correction only; reported deck widths unchanged",
+  "sourceRoadsRelocated": false,
+  "candidateRoadTopPlanes": 0,
+  "candidateWaterPlanes": 0,
+  "baseBuildingIdsToExclude": [],
+  "navigationAccepted": false,
+  "verticalDatum": "lm.y is original estimated water-display base in game units; source flat deck profiles retained",
+  "sourceModuleSha256": "b098c2dabf3dbfda20f45a12341b9f5c9ab28fb6c3351c029e19383bfd48fe14",
+  "specSha256": "88badd4328b6154936e48edb0a1be94dfc2ef90ae4a69affe1a74accbdc8cb67",
+  "frozenInputSha256": {
+    "scripts/landmarks/qiantang_bridges.py": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+    "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+    "scripts/landmarks/qiantang_bridge_collision.py": "f7c661b027b1551604259f6d72a57fe9da1522541c718459dd17b8ee40377fa3"
+  },
+  "coordinateConfigSha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24",
+  "checks": {
+    "finiteNondegenerateCandidate": true,
+    "triangleMaterialBudget": true,
+    "rigidCorrectionOnlyNoWidthOrHeightChange": true,
+    "exactRigidTransformOfOriginalAllVertices": true,
+    "frameRestoredSuccessAndFailure": true,
+    "scaleOnceAndGameDatum": true,
+    "sourceAnchorShiftCompensation": true,
+    "collisionVerticesMatchActualCandidateFaces": true,
+    "solidEnvelopesNonemptyAndHeightBounded": true,
+    "sourceWayCoordinatesNodeOrderAndHeightUnchanged": true,
+    "allSevenWaysAuditedIncludingNewFailures": true,
+    "specifiedWayMainTransverseGapsResolved": true,
+    "sourceRoadsDoNotFollowWrongModelPose": true,
+    "overrideHeightDoesNotWarpSolidDeck": true,
+    "frozenInputsUnchanged": true,
+    "noSceneImports": true
+  },
+  "geometryBoundsGameENU": {
+    "min": [
+      941.4725167930624,
+      -4634.303615066832,
+      1.1102230246251565e-16
+    ],
+    "max": [
+      1357.4453970945247,
+      -3905.4876890059763,
+      37.94975292583132
+    ]
+  },
+  "waterDisplayBaseYGame": 0.9,
+  "waterDatumMeasured": false,
+  "solidEnvelopeCount": 2636,
+  "roadDeckRegionCount": 46,
+  "maxRigidTransformVertexDifferenceGame": 1.8189894035458565e-12,
+  "remainingMainMismatchNodeOccurrences": 3,
+  "remainingMainMismatchSamples": 23,
+  "remainingMismatchWayId": "way/336983476",
+  "minimumIdentifiablePlanarAlignmentBoundary": {
+    "intervalM": [
+      -416.9,
+      416.9
+    ],
+    "lengthM": 833.8,
+    "basis": "original estimated stations covering2large190m and5central85m arches; dimensions come from original primary paper span sequence, not a fabricated field extent",
+    "sourceNodeAndSampleRecordsCompared": 233,
+    "allSourceCenterPointsInsideCandidateDeck": true,
+    "actorClearanceAccepted": false,
+    "fullBridgeAccepted": false
+  },
+  "inputVsModelConclusion": "original bridge axis is biased toward one carriageway in fixed data; paired upper midpoint and lower outer midpoint agree near+7.89m; width widening unsupported. Remaining near-end issue cannot be assigned to map error, curve, missing cantilever/ramp or extent without independent boundary survey.",
+  "validationScope": "CPU source-relative structural-axis candidate only; no GLB, Blender, browser, measured positioning/height, actor clearance or navigation acceptance."
+}

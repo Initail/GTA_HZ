@@ -1,0 +1,52 @@
+{
+  "meshSha256": "22ee89a1270aa39a93dc2462aa2a8ad0d7b40cf35ecbbb0f6509271d433ef489",
+  "sourceSamplerSha256": "da8a39ca3f5f5d7eccf9dd6d1acf6f7d6eb3b27ec2d7f8912aad060aee2a4a09",
+  "partitionSha256": "ef81445d47c1591b0a31c466e94daf367f5c5cfeeb14ac88607dc9f3c5e1b24b",
+  "topTriangles": 43031,
+  "wallTriangles": 1798,
+  "heightProbeCount": 301217,
+  "maxVertexSourceErrorGame": 4.9539894853012356e-08,
+  "maxInteriorEdgeProbeErrorGame": 0.005949681724250588,
+  "heightProbeErrorsAbovePoint01Game": 0,
+  "strictInteriorRuntimeMinFailuresAbovePoint01Game": 0,
+  "outsideCutF1ProbeCount": 143633,
+  "outsideCutMaxF1MeshApproximationGame": 0.005949681724250588,
+  "domainSymmetricDifferenceArea": 0.0,
+  "positiveAreaOverlapsAbove1eMinus10": 0,
+  "topWaterOverlapArea": 0.0,
+  "verticalWallPlanFailures": 0,
+  "zeroArea3dTriangles": 0,
+  "minimum3dDoubleArea": 2.1949127473105466e-14,
+  "exactUnpairedEdges": 1011,
+  "exactNonmanifoldEdges": 0,
+  "exactSameDirectionSharedEdges": 0,
+  "topologyWeldToleranceGame": 1e-09,
+  "weldedUnpairedByKind": {
+    "shore-v3-owned": 621,
+    "local-crop": 390
+  },
+  "unexpectedOpenEdges": 0,
+  "nonmanifoldEdges": 0,
+  "sameDirectionSharedEdges": 0,
+  "sourceFloorCoverage": {
+    "city-balcony:lower-slab": {
+      "area": 8814.282657745392,
+      "dryArea": 4284.833842528288,
+      "waterArea": 3860.679371769682,
+      "dryOutsideCutArea": 0.0
+    },
+    "city-balcony:upper-slab": {
+      "area": 10205.559536917242,
+      "dryArea": 5676.110721700138,
+      "waterArea": 3860.679371769682,
+      "dryOutsideCutArea": 0.0
+    }
+  },
+  "passed": true,
+  "limitations": [
+    "CPU projected terrain partition only; GLB intersections, actual renderer, actors and browser unverified",
+    "Welded topology uses explicit 1e-9g numerical tolerance; 1e-8g derived noding and boundary duplicate normalization are reported separately",
+    "Finite 1g mesh probe error is not a continuous error bound",
+    "crop and water boundaries remain open by ownership, not claimed closed full solid"
+  ]
+}

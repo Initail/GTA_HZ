@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/README.md",
+      "sha256": "7fd8e660d34f0a77768f9cdfd2cfa6e37c20dd59b945b85f0a109cd3f21d613b",
+      "bytes": 9058
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/all-pair-waterway-context.json",
+      "sha256": "d3954488597eac364b4909766ad8feaf8cb711a939eea69653a5211179c1bed6",
+      "bytes": 88687
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/audit_waterway_connections.py",
+      "sha256": "c916964c11d46c5c50e7202ebd31a6d0c381ea5c2a7ed7b8d4ff1c715b951f81",
+      "bytes": 3648
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/build_decisions.py",
+      "sha256": "93ef87c6d4ab8046cae3865e3dac2ba52acfd3c13e3c3e3d462304a873cb133c",
+      "bytes": 8664
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/decisions.json",
+      "sha256": "666b7e1d612648f1f7b55cc0c3ed1cc17e0cff34b2342b032fce95f4ded4af27",
+      "bytes": 28369
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/extract-context.log",
+      "sha256": "1e43a4dc0f3b6d9236d20671365c439b3cf3b58240bf02e040a6b5430b4bfb90",
+      "bytes": 1093
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/extract_context.py",
+      "sha256": "7b0fe4d2fbe45650fd8dd33443a3daea439697536816312f4f798fcabee4dc2b",
+      "bytes": 1747
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/geometry-dry-run.json",
+      "sha256": "5dd4268d182d412b2ba7527fcfa999b918e2f759e7af3573f23a734d7e2fcbfc",
+      "bytes": 2191
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/layer-context.json",
+      "sha256": "61405e50a587a2a6ccd38eab05c567cb8e77857f31b06b988252e4bd955e1b2f",
+      "bytes": 17871
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/sources.json",
+      "sha256": "feb4183b28f27e8b8b09e2a63a93cce33c9b8007c655620507bc62ae17fc89f7",
+      "bytes": 2749
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/validation.json",
+      "sha256": "1391aad55751cedbacff8663c9b8198653bb712c53ec0b7ff5053a16e24b34d2",
+      "bytes": 403
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/waterway-context.log",
+      "sha256": "65222c1f48d7ac9366a6ad0aafdf0640127ac2cd04192cefb24d035394330b05",
+      "bytes": 1374
+    }
+  ]
+}

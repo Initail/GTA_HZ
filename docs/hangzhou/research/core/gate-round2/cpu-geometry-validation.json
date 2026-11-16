@@ -1,0 +1,35 @@
+{
+  "id": "hangzhou-gate",
+  "scope": "exterior candidate; needs GLB and visual review",
+  "tower_count": 2,
+  "bridge_count": 1,
+  "curtain_count": 1,
+  "max_height": 186.0,
+  "geographyCityId": "hangzhou",
+  "projectionOriginWGS84": [
+    120.155,
+    30.274
+  ],
+  "generatedFaces": 8374,
+  "triangleCountBeforeExport": 16740,
+  "materials": [
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "silver",
+    "steel"
+  ],
+  "newLights": 0,
+  "source_spec": "docs/hangzhou/research/core/gate-round2/spec.json",
+  "checks": {
+    "finiteVertices": true,
+    "nondegenerateTriangleFans": true,
+    "sharedProjectionAgreement": true,
+    "frameRestored": true,
+    "heightAndBaseScaledOnce": true,
+    "materialsWithinBudget": true
+  },
+  "sourceModuleSha256": "a53fc34f885dd8a55c32e09ff38392d8772df4072973dd5e4b8f0db740d7357a",
+  "specSha256": "6bd2ceb5f50628fa1200b003490161aa739925842837476cc2669481bcd095ad",
+  "validationScope": "CPU B-interface record only; no bpy, GLB, physics, shader, game browser or FPS result"
+}

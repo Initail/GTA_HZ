@@ -1,0 +1,74 @@
+[
+  {
+    "id": "current-original",
+    "url": "https://hzdaily.hangzhou.com.cn/dskb/2025/05/14/article_detail_2_20250514A041.html",
+    "path": "<TEMP>/wulin-research/current-original.html",
+    "sha256": "20184b66c1d3c6c7f7b89ea64ffad6937731bf2714efeac479150abe522f4c13",
+    "imageUrls": [
+      "https://hzdaily.hangzhou.com.cn/img/logo/dskb1.png",
+      "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstiAC0xsAAFKqME6M-U162.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstiAHvBDAAEfmJ75bqI316.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstmAUtMTAADxCng9rQY319.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstmAdXImAAE_0cQE6gQ166.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstmAYBnKAAHAjJJ6Gg4806.jpg"
+    ],
+    "status": "reference-cache-only"
+  },
+  {
+    "id": "upgrade-original",
+    "url": "https://www.hangzhou2022.cn/sqzc/hzsq/202308/t20230815_69629.shtml",
+    "path": "<TEMP>/wulin-research/upgrade-original.html",
+    "sha256": "e1a60b650b52d3b7be40300b72d544d668b6605a6f28589bbe7965704a3596b1",
+    "imageUrls": [
+      "https://www.hangzhou2022.cn/sqzc/hzsq/202308/W020230815433380834125.png",
+      "https://www.hangzhou2022.cn/sqzc/hzsq/202308/W020230815433381097828.png",
+      "https://www.hangzhou2022.cn/sqzc/hzsq/202308/W020230815433381318937.png",
+      "https://www.hangzhou2022.cn/sqzc/hzsq/202308/wz-img.png",
+      "https://www.hangzhou2022.cn/sqzc/hzsq/202308/wz-img.png",
+      "https://www.hangzhou2022.cn/sqzc/hzsq/202308/wz-img.png",
+      "https://www.hangzhou2022.cn/sqzc/hzsq/202308/W020230815433383907407.png"
+    ],
+    "status": "reference-cache-only"
+  },
+  {
+    "id": "ai-original",
+    "url": "https://hznews.hangzhou.com.cn/chengshi/content/2025-02/28/content_8869973.htm",
+    "path": "<TEMP>/wulin-research/ai-original.html",
+    "sha256": "0f94a2fa8cf58d7a21c12db4a411051701cb732a5e631be50e5ae0a394a647fb",
+    "imageUrls": [
+      "https://www.hangzhou.com.cn/templateRes/202012/03/101729/att/images/logo_hzxw2.png",
+      "https://www.hangzhou.com.cn/templateRes/202012/03/101729/att/images/phone_logo.png",
+      "https://hznews.hangzhou.com.cn/chengshi/content/2025-02/28/e2796e07-7c7a-4dc1-a39e-79e4f88ec780.jpg",
+      "https://hznews.hangzhou.com.cn/chengshi/content/2025-02/28/56c4ca23-2b97-4612-8bcb-8fbea57403ea.jpg"
+    ],
+    "status": "reference-cache-only"
+  },
+  {
+    "id": "day2023-original",
+    "url": "https://zjtyol.zjol.com.cn/ydsd/202308/t20230830_26155624.shtml?mode=m2pc",
+    "path": "<TEMP>/wulin-research/day2023-original.html",
+    "sha256": "a15a046ef508d37abaaa0ede6c56be4f65c220c37470f81e1bd5231adb4ce37d",
+    "imageUrls": [
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940480_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940482_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940484_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940486_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940488_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940490_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940492_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940494_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940496_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/ydsd/202405/1795660595665940498_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/zt15474/ztlb/202405/1795660693813927936_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/zt15474/ztlb/202405/1795660694078169088_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/zt15474/ztlb/202406/1801460113208619008_1280px.jpg",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/typd/202609/2097507434611163136_1280px.png",
+      "https://meizi-zjol-1577-pub.zjol.com.cn/typd/202609/2097507434832830464_1280px.png",
+      "https://img.zjolcdn.com/pic/0/07/17/61/7176113_618531.png",
+      "https://zjtyol.zjol.com.cn/material/yiyuju.jpg",
+      "http://zjtyol.zjol.com.cn/material/images/lxlogo.png",
+      "https://zjtyol.zjol.com.cn/material/wtyQcode.png"
+    ],
+    "status": "reference-cache-only"
+  }
+]

@@ -1,0 +1,8 @@
+69:     try: lanes=max(1,min(6,int(tags.get('lanes','2').split(';')[0])))
+70:     except ValueError: lanes=2
+71:     # Legacy game-unit carriageway clearances, independent of geographic scaling.
+72:     width=4.5 if kind=='service' else max(5.8,min(16,lanes*3.0))
+73:     return [{'id':feature['id']+f'#{i}','sourceId':feature['id'],'name':tags.get('name:zh',tags.get('name','支路')),
+74:              'kind':kind,'width':width,'widthStatus':'upstream-gameplay-clearance; not surveyed width',
+75:              'oneway':oneway,'directionBasis':direction_basis,'points':p,'nodeIds':n,'grade':tags.get('layer','0'),
+76:              'bridge':tags.get('bridge','no'),'tunnel':tags.get('tunnel','no'),

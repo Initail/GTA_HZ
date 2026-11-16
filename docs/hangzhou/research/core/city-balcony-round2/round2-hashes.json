@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-14T04:14:44+00:00",
+  "stage": "evidence-ready",
+  "files": {
+    "README.md": {
+      "sha256": "60bbd654f343287db5dbaceabd5cc0dc32731c305bb1e622779b80eb1388141a",
+      "bytes": 6031
+    },
+    "attempts.json": {
+      "sha256": "463cdb6e7986ebc9a720cc64ee40ddb41233afd56e3b390b73c6bff2ac0f3c04",
+      "bytes": 3471
+    },
+    "cpu-distant.png": {
+      "sha256": "eafd1fe53224f9f655cf3bde434a2d8e21c795fcb1ddf6fe38039fed005a2e6a",
+      "bytes": 37281
+    },
+    "cpu-preview-manifest.json": {
+      "sha256": "492ea2faaa5c3a45b8b0f667840041f7ffa6ed2aa41e5c5accea3d7553b5b6e6",
+      "bytes": 1621
+    },
+    "cpu-street.png": {
+      "sha256": "26cc78fb5202b3c377cc4c8c3e828ab413d314118bdd31d1814ce25d164ea46d",
+      "bytes": 19702
+    },
+    "cpu-top.png": {
+      "sha256": "7ff7b78a9ce4b21acb99d6b0608749527b77216665f606f2fbdc8bafea015a90",
+      "bytes": 25273
+    },
+    "cpu-validation.json": {
+      "sha256": "663eb8fa696ff60e494e3189c6bf4fa87254f9d9f1cd1ba74cff0dc9c8eb77dd",
+      "bytes": 1777
+    },
+    "evidence.json": {
+      "sha256": "a9372dee905a4dbeec0b76990f3a4e70766c1c590aaad9d144fa686fa8003257",
+      "bytes": 9280
+    },
+    "freeze_balcony.py": {
+      "sha256": "a1ab4acf2382fe4026d3a881c7b362ab5e086cfae5605604c9816f3e350b9a86",
+      "bytes": 19193
+    },
+    "freeze_delivery.py": {
+      "sha256": "fc62a3844ed0cee0f022962146faa675a384d78e2dca10e2638b6f2d8d95de17",
+      "bytes": 5856
+    },
+    "geofabrik-balcony-features.geojson": {
+      "sha256": "e56bd2a1421c419b51d1d7fa86c762aa3199f98e2341900d72bb859d55992cb2",
+      "bytes": 487277
+    },
+    "osm-measurements.json": {
+      "sha256": "8c7e1b3632203153ac56c3a6d9ef347dbc554caa537715efe654b018180c06bf",
+      "bytes": 2637
+    },
+    "photo-review.json": {
+      "sha256": "31a4bc22b8cf1fe54c710bc40f03bf64b0710423abc7879134b3bcc3e020c15a",
+      "bytes": 9598
+    },
+    "preview_cpu.py": {
+      "sha256": "55023b2e49ca96ee56528ede9997aa09cddef6ff8a5fe25ab1ae68448628b28b",
+      "bytes": 3402
+    },
+    "record_review.py": {
+      "sha256": "af75ac3f1c587623b5d5ceef7a3c2c69ec6fd619cff03e260cfafd29bb0987fd",
+      "bytes": 6348
+    },
+    "source-claims.json": {
+      "sha256": "45de2933ce04640b4c6df0504d221364a21ade99cd7c3cb38df6eb16bf6145bf",
+      "bytes": 9422
+    },
+    "spec.json": {
+      "sha256": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+      "bytes": 28799
+    },
+    "task-bundles/city-balcony/evidence.json": {
+      "sha256": "a9372dee905a4dbeec0b76990f3a4e70766c1c590aaad9d144fa686fa8003257",
+      "bytes": 9280
+    },
+    "task-bundles/city-balcony/job.json": {
+      "sha256": "5ef387440f7be411fbb5c4ad4b02d698ba147215a22c822915e34385b1f69094",
+      "bytes": 8418
+    },
+    "task-bundles/city-balcony/model.json": {
+      "sha256": "6bcab47d6d2724731ee2a75cf387542d19bd7e2c4dc7fa48e8f2f9bdc8116118",
+      "bytes": 4219
+    },
+    "task-bundles/city-balcony/prompt.md": {
+      "sha256": "2f674b758d3f4054b1fa15e3cc7ff9685490a2bf50fe945aaa665d9ce0727c95",
+      "bytes": 3775
+    },
+    "task-bundles/city-balcony/validation.json": {
+      "sha256": "d88a367a25252f525539d1addb21be9bb3bdacbb79bd66dd67c8b4943f93ed5b",
+      "bytes": 1322
+    },
+    "task-catalog.json": {
+      "sha256": "2a0cabc5b5c3ffc9454f47c2aed05595495bf7947b3f26d6c0d4a4f3a09ed46e",
+      "bytes": 5977
+    },
+    "validate_cpu.py": {
+      "sha256": "7e36e7775ac2e80871575f6d41d704ed01e3cc1ad3265cfb1ca77e84441a82a2",
+      "bytes": 7302
+    }
+  },
+  "sourceModule": "scripts/landmarks/city_balcony.py",
+  "sourceModuleSha256": "797c5450c927a330fe89815d98c20aa17e55432095b8bba861ddb0591be74c95",
+  "sourceSpecSha256": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+  "priorResearchPreserved": {
+    "files": 23,
+    "sourceManifestSha256": "866986711482f3681ceae5b1f3fef5e8217aff17309dc71a6db9331710afb61e",
+    "priorIndependentModulesAndSpecs": {
+      "scripts/landmarks/lingyin_temple.py": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011",
+      "docs/hangzhou/research/core/lingyin-round2/spec.json": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93",
+      "scripts/landmarks/broken_bridge.py": "eab2ac0c16d54d9b7b6a2ba93a454e83ecd5cc963cafda2ff9f3494f727b78b2",
+      "docs/hangzhou/research/core/broken-bridge-round2/spec.json": "0b96b192a1011a5e217b98ace971bd04d5442228b51cad0193d2a9143a282eb4",
+      "scripts/landmarks/big_lotus.py": "faf3caf74bd5cc28dbcc632195fd052ab2f3029b62f7dec81a3960e7c8d4d368",
+      "docs/hangzhou/research/core/big-lotus-round2/spec.json": "f3b5a535875fba14addf94cd2b285148fa48c98b4f537093d5f63f4299081a73",
+      "scripts/landmarks/international_conference_center.py": "9c4c00a61709997328147965beea562995619f50d35bb12d91e00a99696cb77c",
+      "docs/hangzhou/research/core/international-conference-center-round2/spec.json": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20"
+    }
+  },
+  "releaseImages": "only original CPU candidate previews, zero reference photos bundled",
+  "stageLimit": "limited exterior only; actual GLB/current entrances/elevations/8formalchecks pending"
+}

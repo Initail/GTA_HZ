@@ -1,0 +1,283 @@
+{
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "actualElapsedSeconds": 41.935,
+  "counts": {
+    "taggedNodes": 18,
+    "allRawWays": 85,
+    "relationsWithLocalWays": 12,
+    "buildingOrPartWays": 9,
+    "otherClosedWays": 11
+  },
+  "buildingOrPartRecords": [
+    {
+      "type": "way",
+      "id": 783010760,
+      "version": 11,
+      "timestamp": "2026-07-13 11:46:38+00:00",
+      "tags": {
+        "building": "train_station",
+        "layer": "-1",
+        "name": "凤新路",
+        "name:en": "Fengxing Road",
+        "name:zh": "凤新路",
+        "operator": "杭州地铁运营有限公司",
+        "ref": "16",
+        "start_date": "2020-04-23"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 971913606,
+      "version": 10,
+      "timestamp": "2026-01-04 04:57:18+00:00",
+      "tags": {
+        "building": "train_station",
+        "layer": "-1",
+        "name": "金星",
+        "name:en": "Jinxing",
+        "name:zh": "金星",
+        "opening_hours": "06:09-23:49",
+        "operator": "杭州杭港地铁五号线有限公司",
+        "ref": "5",
+        "start_date": "-",
+        "wikidata": "Q62168473"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1073899576,
+      "version": 1,
+      "timestamp": "2022-06-27 14:37:51+00:00",
+      "tags": {
+        "building": "transportation",
+        "name": "垂梯"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1073899577,
+      "version": 1,
+      "timestamp": "2022-06-27 14:37:51+00:00",
+      "tags": {
+        "building": "transportation",
+        "name": "E"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1073899579,
+      "version": 1,
+      "timestamp": "2022-06-27 14:37:51+00:00",
+      "tags": {
+        "building": "transportation",
+        "name": "F"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1073899582,
+      "version": 1,
+      "timestamp": "2022-06-27 14:37:51+00:00",
+      "tags": {
+        "building": "transportation",
+        "name": "D"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1073899595,
+      "version": 1,
+      "timestamp": "2022-06-27 14:37:51+00:00",
+      "tags": {
+        "building": "transportation",
+        "name": "A"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1355173307,
+      "version": 2,
+      "timestamp": "2025-10-27 07:27:57+00:00",
+      "tags": {
+        "building": "yes",
+        "name": "菜鸟总部园区"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1537965106,
+      "version": 1,
+      "timestamp": "2026-07-13 11:46:38+00:00",
+      "tags": {
+        "building": "transportation",
+        "name": "D"
+      },
+      "closed": true,
+      "polygonValid": true
+    }
+  ],
+  "nonbuildingClosedRecords": [
+    {
+      "type": "way",
+      "id": 577616920,
+      "version": 7,
+      "timestamp": "2026-01-12 08:19:05+00:00",
+      "tags": {
+        "landuse": "forest",
+        "name": "马鞍山、营盘山"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 887470363,
+      "version": 5,
+      "timestamp": "2026-07-13 11:46:38+00:00",
+      "tags": {
+        "addr:city": "杭州市",
+        "addr:district": "余杭区",
+        "addr:province": "浙江省",
+        "addr:street": "凤新路",
+        "landuse": "residential",
+        "name": "梦栖金星雅苑",
+        "note": "华坞村回迁房",
+        "residential": "apartments"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 971913605,
+      "version": 2,
+      "timestamp": "2022-06-27 10:00:01+00:00",
+      "tags": {
+        "area": "yes",
+        "level": "-2",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 972190813,
+      "version": 2,
+      "timestamp": "2022-06-27 14:37:51+00:00",
+      "tags": {
+        "area": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1077940367,
+      "version": 1,
+      "timestamp": "2022-07-12 11:13:06+00:00",
+      "tags": {
+        "area": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1228913717,
+      "version": 2,
+      "timestamp": "2024-06-19 03:24:42+00:00",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟总部园区"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1293416973,
+      "version": 1,
+      "timestamp": "2024-06-18 12:48:38+00:00",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟智谷产业园一期"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1293548829,
+      "version": 1,
+      "timestamp": "2024-06-19 03:22:18+00:00",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟智谷产业园二期"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1315717922,
+      "version": 2,
+      "timestamp": "2026-01-12 08:19:05+00:00",
+      "tags": {
+        "landuse": "brownfield"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1466397040,
+      "version": 1,
+      "timestamp": "2026-01-12 08:19:05+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "closed": true,
+      "polygonValid": true
+    },
+    {
+      "type": "way",
+      "id": 1537965104,
+      "version": 1,
+      "timestamp": "2026-07-13 11:46:38+00:00",
+      "tags": {
+        "place": "square"
+      },
+      "closed": true,
+      "polygonValid": true
+    }
+  ],
+  "buildingOrPartRelations": [],
+  "relationCoordinateOutlineRoleUnknown": "Rawlocalmembercoordinates retained; no building identity assigned basedon untaggedclosedway alone"
+}

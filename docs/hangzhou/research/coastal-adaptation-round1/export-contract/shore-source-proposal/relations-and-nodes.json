@@ -1,0 +1,639 @@
+{
+  "relations": [
+    {
+      "id": "relation/4483583",
+      "version": 1,
+      "timestamp": "2015-01-13 13:43:58+00:00",
+      "tags": {
+        "building": "yes",
+        "type": "multipolygon",
+        "waterway": "dam"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 321810150,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 321810142,
+          "role": "outer"
+        }
+      ]
+    },
+    {
+      "id": "relation/6796749",
+      "version": 1,
+      "timestamp": "2016-12-16 10:58:24+00:00",
+      "tags": {
+        "man_made": "breakwater",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 459879951,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 459879952,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 459879950,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 459879953,
+          "role": "outer"
+        }
+      ]
+    },
+    {
+      "id": "relation/7610473",
+      "version": 1,
+      "timestamp": "2017-09-27 11:20:16+00:00",
+      "tags": {
+        "embankment": "yes",
+        "type": "embankment"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 528109802,
+          "role": ""
+        },
+        {
+          "type": "w",
+          "ref": 528109797,
+          "role": ""
+        }
+      ]
+    },
+    {
+      "id": "relation/9797542",
+      "version": 1,
+      "timestamp": "2019-07-15 13:51:08+00:00",
+      "tags": {
+        "area": "yes",
+        "type": "multipolygon",
+        "waterway": "dam"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 704557615,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 704557617,
+          "role": "outer"
+        }
+      ]
+    },
+    {
+      "id": "relation/11820411",
+      "version": 2,
+      "timestamp": "2023-10-09 06:43:32+00:00",
+      "tags": {
+        "name": "姜席堰",
+        "type": "multipolygon",
+        "waterway": "dam"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 699201189,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 860669457,
+          "role": "outer"
+        }
+      ]
+    },
+    {
+      "id": "relation/12524655",
+      "version": 2,
+      "timestamp": "2025-09-23 08:01:00+00:00",
+      "tags": {
+        "man_made": "pier",
+        "name": "General Cargo Terminal",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 45670771,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 924871015,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/13147241",
+      "version": 1,
+      "timestamp": "2021-08-30 14:20:45+00:00",
+      "tags": {
+        "man_made": "pier",
+        "source": "Bing",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 323248058,
+          "role": "outer"
+        }
+      ]
+    },
+    {
+      "id": "relation/14153789",
+      "version": 2,
+      "timestamp": "2026-05-15 14:49:46+00:00",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1061426031,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1061426030,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1061426029,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/15908211",
+      "version": 1,
+      "timestamp": "2023-05-27 08:14:00+00:00",
+      "tags": {
+        "area": "yes",
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 381480422,
+          "role": "outer"
+        }
+      ]
+    },
+    {
+      "id": "relation/17394547",
+      "version": 1,
+      "timestamp": "2024-03-27 09:01:55+00:00",
+      "tags": {
+        "type": "multipolygon",
+        "waterway": "dam"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1266726534,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1266726535,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/17627076",
+      "version": 2,
+      "timestamp": "2024-06-16 12:06:09+00:00",
+      "tags": {
+        "area": "yes",
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1285845679,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1285845678,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/17639729",
+      "version": 3,
+      "timestamp": "2025-02-10 17:30:57+00:00",
+      "tags": {
+        "area": "yes",
+        "layer": "1",
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1286867080,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1286867079,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1286867078,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/18168575",
+      "version": 3,
+      "timestamp": "2024-10-16 13:24:46+00:00",
+      "tags": {
+        "barrier": "city_wall",
+        "building": "yes",
+        "historic": "citywalls",
+        "material": "stone",
+        "name": "蒲壮所城",
+        "name:de": "Puzhuangsuo-Festung",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wikipedia": "zh:蒲壮所城"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 240168757,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1324364253,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1324364254,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1324343693,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1324364319,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1324343694,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1324343695,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1324343696,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/19001638",
+      "version": 1,
+      "timestamp": "2025-04-17 14:00:44+00:00",
+      "tags": {
+        "area": "yes",
+        "barrier": "retaining_wall",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1378344039,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/20147156",
+      "version": 1,
+      "timestamp": "2026-01-28 18:12:38+00:00",
+      "tags": {
+        "layer": "1",
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1472037997,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1472037996,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/20249424",
+      "version": 1,
+      "timestamp": "2026-02-22 04:15:12+00:00",
+      "tags": {
+        "area": "yes",
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 588231248,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1481654076,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1481654077,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1481654078,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/20426447",
+      "version": 1,
+      "timestamp": "2026-04-09 12:08:10+00:00",
+      "tags": {
+        "area": "yes",
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1497919934,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1497919935,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/20429766",
+      "version": 1,
+      "timestamp": "2026-04-10 11:27:34+00:00",
+      "tags": {
+        "man_made": "pier",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1497919932,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1498173128,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/20671451",
+      "version": 2,
+      "timestamp": "2026-05-11 08:36:29+00:00",
+      "tags": {
+        "barrier": "city_wall",
+        "building": "yes",
+        "historic": "citywalls",
+        "name": "严州城墙",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "wikidata": "Q19855315",
+        "wikipedia": "zh:严州城墙"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1511933460,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1511935229,
+          "role": "inner"
+        }
+      ]
+    },
+    {
+      "id": "relation/21615794",
+      "version": 1,
+      "timestamp": "2026-10-11 17:52:09+00:00",
+      "tags": {
+        "area": "yes",
+        "man_made": "quay",
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1567406335,
+          "role": "outer"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node/1254131723",
+      "version": 3,
+      "timestamp": "2017-03-06 07:59:05+00:00",
+      "tags": {
+        "waterway": "dam"
+      },
+      "pointWGS84": [
+        120.1517982,
+        30.2625926
+      ],
+      "pointGame": [
+        -184.84654536616551,
+        -758.7545854927799
+      ]
+    },
+    {
+      "id": "node/3395019469",
+      "version": 2,
+      "timestamp": "2026-10-03 06:05:52+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        120.0477101,
+        30.205772
+      ],
+      "pointGame": [
+        -6194.068139073298,
+        -4538.133830584057
+      ]
+    },
+    {
+      "id": "node/3395019472",
+      "version": 2,
+      "timestamp": "2026-10-03 06:05:52+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        120.047702,
+        30.205568
+      ],
+      "pointGame": [
+        -6194.535768849638,
+        -4551.70273633301
+      ]
+    },
+    {
+      "id": "node/13307299764",
+      "version": 1,
+      "timestamp": "2025-11-15 23:40:22+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        120.0787864,
+        30.2182814
+      ],
+      "pointGame": [
+        -4399.968976801197,
+        -3706.080548349453
+      ]
+    },
+    {
+      "id": "node/13307299765",
+      "version": 1,
+      "timestamp": "2025-11-15 23:40:22+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        120.0878366,
+        30.2178831
+      ],
+      "pointGame": [
+        -3877.4821865975596,
+        -3732.5731716816304
+      ]
+    },
+    {
+      "id": "node/13307325517",
+      "version": 2,
+      "timestamp": "2025-11-15 23:40:22+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        120.0880885,
+        30.2183406
+      ],
+      "pointGame": [
+        -3862.9394778784585,
+        -3702.1429051123314
+      ]
+    },
+    {
+      "id": "node/13672754888",
+      "version": 3,
+      "timestamp": "2026-07-03 05:37:50+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        120.1046654,
+        30.1957446
+      ],
+      "pointGame": [
+        -2905.9207078485583,
+        -5205.0987595397755
+      ]
+    },
+    {
+      "id": "node/13770780993",
+      "version": 1,
+      "timestamp": "2026-04-28 14:11:50+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        120.0070077,
+        30.1989251
+      ],
+      "pointGame": [
+        -8543.901991316858,
+        -4993.550206919614
+      ]
+    },
+    {
+      "id": "node/13770793259",
+      "version": 1,
+      "timestamp": "2026-04-28 14:11:50+00:00",
+      "tags": {
+        "natural": "cliff"
+      },
+      "pointWGS84": [
+        119.9960042,
+        30.1917826
+      ],
+      "pointGame": [
+        -9179.156836072058,
+        -5468.628193742447
+      ]
+    }
+  ]
+}

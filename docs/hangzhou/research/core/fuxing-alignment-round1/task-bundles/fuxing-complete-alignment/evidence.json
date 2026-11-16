@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "placeId": "fuxing-complete-alignment",
+  "cityId": "hangzhou",
+  "scope": "All fixed upper/lower source roads and approach structures physically matched with accurate edges/grades/actor clearance",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "fuxing-paper",
+      "fuxing-gov"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.17491023246365,
+      30.209804734010763
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik"
+    ],
+    "notes": "map-derived aggregate structure anchor inside fixed bridge source; estimated, not field geodetic centre"
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available; actual page/figure read",
+      "license": "ODbL-1.0",
+      "use": "exact EPSG4326 way/node transport identities and raw outer-boundary continuation; OSM is not a current surveying certificate",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "fuxing-gov",
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+      "publisher": "上城史志 / 杭州政协",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-09-20",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "reported two190m/nine85m arches and1376m; real elevated near-axis photo. Lower bus/slow-use history is not complete current per-way access policy",
+      "sha256": "a313237e339df85f6cd0db267e88d163c34712e49c20c691c572db7526de3bb1"
+    },
+    {
+      "id": "fuxing-paper",
+      "url": "https://siberc.fzu.edu.cn/__local/6/6F/29/7C1CCAEDC24D9BB28E4EFA81912_4886B803_FCC7B.pdf?e=.pdf",
+      "publisher": "陈宝春 / 福州大学；中外公路28(4),2008,95–100",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2008-08",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "p98 figure8 and text:11 calculation spans2×85+190+5×85+190+2×85,26.4/32m widths. Estimate heights/rise ratios from original drawing. 2008 centralmetro reservation not drawn as a current track",
+      "sha256": "f9da1571945ab9777213a466a8c435a42e778934379ce1ea8c5c8d10e2815f0c"
+    },
+    {
+      "id": "binjiang-gazette",
+      "url": "https://www.hhtz.gov.cn/attach/0/5434a3787bf34770b76fed0fbbcbb2af.pdf",
+      "publisher": "杭州市滨江区地方志编纂机构 / 杭州高新区（滨江）政府",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "actual PDF p23 printed colorplates30–31, photos by杜剑挥(Fuxing) and孙国尧(Zhijiang); completion-year captions are not image capture dates",
+      "sha256": "cbc1f07e5b2595d0dc24e3716bf52b673aceb30eeae27d97f356463195349c7a"
+    },
+    {
+      "id": "f1",
+      "url": "https://commons.wikimedia.org/wiki/File:Fourth_Qiantang_River_Bridge_1.JPG",
+      "publisher": "Huandy618 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2012-09-25",
+      "status": "available; actual page/figure read",
+      "license": "CC BY-SA3.0; reference only",
+      "use": "riverbank low oblique approaching bridge axis, mountain opposite shore supports southbank-looking north identification±25°; lowerdeck/piers/open gap andblue arch lattice clearlyvisible",
+      "sha256": "5f6deca1e90e36328c5a0858016f57084d2898c46e63b41a941375abd065f54a"
+    },
+    {
+      "id": "fgovphoto",
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+      "publisher": "上城史志 / 杭州政协",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "actual elevated north-bank near-axis view south toward buildings, two blue largearches and nine lowarches;capturedateunknown, governmentpagepublished2026",
+      "sha256": "a5b22a5c0be9df4ca1425cee36fcc1496f20f9a67648cd4c25a8d43359b49360"
+    },
+    {
+      "id": "osm-way-semantics",
+      "url": "https://wiki.openstreetmap.org/w/index.php?title=Way&oldid=3045544",
+      "publisher": "OpenStreetMap community primary mapping documentation",
+      "accessedAt": "2026-10-16",
+      "sourceDate": "2026-05-31",
+      "status": "read via web tool",
+      "license": "CC BY-SA2.0; reference paraphrase only",
+      "use": "a linear highway is a generalized main-lane/carriageway centreline, excludes sidewalk and does not encode bridge deck edges; not proof of these specific source ways position accuracy"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "mainLengthM": 1376,
+        "reportedSmallWidthM": 26.4,
+        "reportedLargeWidthM": 32,
+        "axisShiftM": 7.889329651525673,
+        "sourceRoadsModified": "none"
+      },
+      "basis": "estimated",
+      "unit": "physical metres",
+      "sourceIds": [
+        "osm-geofabrik",
+        "fuxing-paper"
+      ],
+      "uncertainty": "±5 physical metres (±3 game units at .60) assumed reconstruction allowance, not measured error bound or statistical confidence; station datum remains original estimate±35m; width source reported2008, current as-built edges unmeasured"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "upperRelativeWaterM": 22,
+        "lowerRelativeWaterM": 12,
+        "waterBaseGame": 0.9
+      },
+      "basis": "estimated",
+      "unit": "physical metres except explicitly game datum",
+      "sourceIds": [
+        "fuxing-paper",
+        "f1",
+        "fgovphoto"
+      ],
+      "uncertainty": "original source estimate retained, upper±6m/lower±4m; no measured tide or vertical datum"
+    },
+    {
+      "kind": "orientation",
+      "value": {
+        "radiansEastCCW": -1.0621113150790997,
+        "correctionDegrees": -0.04113607215461031,
+        "samplingWindowM": [
+          -500,
+          500
+        ]
+      },
+      "basis": "estimated",
+      "unit": "radians/degrees as named",
+      "sourceIds": [
+        "osm-geofabrik",
+        "osm-way-semantics"
+      ],
+      "uncertainty": "sample-window sensitivity explicitly axis-fit-evidence.json; absolute OSM/axis survey accuracy unknown, ±5m game adaptation allowance is not confidence interval"
+    },
+    {
+      "kind": "silhouette",
+      "value": "original two190m large/nine85m small blue arches and double deck retained; rigid frame correction, no source width/member changes",
+      "basis": "reported",
+      "unit": "structural arrangement",
+      "sourceIds": [
+        "fuxing-paper",
+        "fuxing-gov",
+        "f1",
+        "fgovphoto"
+      ],
+      "uncertainty": "finite original exterior only, original member/height/station estimates retained; not whole bridge arrival/current-all-side acceptance"
+    }
+  ],
+  "sourceSnapshots": {
+    "scripts/landmarks/fuxing_alignment.py": "b098c2dabf3dbfda20f45a12341b9f5c9ab28fb6c3351c029e19383bfd48fe14",
+    "scripts/landmarks/qiantang_bridges.py": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+    "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+    "scripts/landmarks/qiantang_bridge_collision.py": "f7c661b027b1551604259f6d72a57fe9da1522541c718459dd17b8ee40377fa3",
+    "docs/hangzhou/research/core/qiantang-bridges-round2/fixed-bridge-features.geojson": "0b915c9d81844c31f58181eb2850f7237f26ec12bc30363ea47aadbda9dcc3fd",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/spec.json": "88badd4328b6154936e48edb0a1be94dfc2ef90ae4a69affe1a74accbdc8cb67"
+  },
+  "blockers": [
+    "new candidate still has 3 in-main way/node mismatches and 23 in-main sample mismatches on other source road(s)",
+    "actual source-carriageway placement and road-edge widths unavailable; cannot assign remaining mismatch to mapping error or missing physical widening/ramp",
+    "full approach roads exceed finite1376m main structure; precise banks/abutments/grades not reconstructed",
+    "absolute vertical datum/real actor clearance/current per-way permissions/browser/performance pending"
+  ],
+  "pendingSubscopes": [
+    "remaining northern lower source-road mismatch after axis correction",
+    "actual lane/road-edge widths and source placement accuracy",
+    "reported-width applicability to cantilevers/viewing decks and approaches",
+    "measured absolute height/longitudinal grade/bank abutments",
+    "actor clearance and road-specific permissions",
+    "parent export/placement/replacement/collisions",
+    "in-game views/night/browser/performance"
+  ],
+  "absoluteMapAccuracy": "unknown",
+  "navigationAccepted": false,
+  "modelledAccepted": false,
+  "referenceImagesPublished": false,
+  "machineEvidence": [
+    "axis-fit-evidence.json",
+    "cpu-validation.json",
+    "source-alignment-audit.json",
+    "all-way-comparison.json",
+    "negative-controls.json"
+  ]
+}

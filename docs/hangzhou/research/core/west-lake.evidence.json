@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "placeId": "west-lake",
+  "name": "西湖",
+  "type": "landscape",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "unesco-westlake",
+      "unesco-nomination"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "unesco-westlake",
+      "url": "https://whc.unesco.org/en/list/1334",
+      "publisher": "UNESCO World Heritage Centre",
+      "title": "West Lake Cultural Landscape of Hangzhou",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "网页描述文本标CC-BY-SA IGO 3.0；本条不把该许可扩张到提名PDF或所有照片。"
+    },
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "中国缔约国提名文件 / UNESCO 发布",
+      "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "elevation_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "layout",
+      "value": "湖面、三面丘陵、两堤三岛共同构成文化景观，湖东为城市",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-westlake"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "需要保留丘陵天际线与湖岸/堤/岛的整体相对关系",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-westlake"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "OSM湖岸进入基础水体，DEM覆盖环湖丘陵；白堤与苏堤实地走向和桥孔分别建地表/碰撞。不可用椭圆薄片加小丘替代真实西湖。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [
+    "小瀛洲/三潭印月、湖心亭、阮公墩为景观框架证据，尚无独立精修任务包。"
+  ],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "提名网页的遗产范围3322.88ha并非湖水面积；不能拿作水面尺寸。湖面基准、岛岸和地形还未冻结。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

@@ -1,0 +1,215 @@
+{
+  "sources": [
+    {
+      "id": "geofabrik-fixed",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "license": "ODbL-1.0; © OpenStreetMap contributors",
+      "localPath": "data/processed/hangzhou/roads.geojson",
+      "sha256": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+      "pbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "use": "EPSG:4326 node IDs/geometry; not commercial map coordinates or field survey"
+    },
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "China State Party nomination, published by UNESCO World Heritage Centre",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2011 PDF metadata; aerial photographs 2006; elevation survey date unknown",
+      "status": "read-local-original-and-rendered",
+      "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+      "bytes": 79121258,
+      "pages": 1342,
+      "localPath": null,
+      "license": "unknown; reference only; page images excluded from runtime/release texture assets",
+      "reviewedPages": [
+        {
+          "pdfPage": 59,
+          "printedPage": 64,
+          "figures": [
+            "2a-7",
+            "2a-8"
+          ],
+          "use": "reported dimensions, two causeways and aerial layouts"
+        },
+        {
+          "pdfPage": 70,
+          "printedPage": 75,
+          "use": "six named stone arches, willow/peach and relative water height"
+        },
+        {
+          "pdfPage": 78,
+          "printedPage": 83,
+          "figure": "2a-22",
+          "use": "six separate arch elevations, gradual bridge approaches; survey epoch unknown"
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-release-six-bridges",
+      "url": "https://m.thepaper.cn/newsDetail_forward_19443734",
+      "publisher": "杭州发布 · 杭州市人民政府新闻办公室官方账号；资料/杭州西湖风景名胜区管委会",
+      "title": "苏堤上的六座桥你能认全吗？谁取的名？一起探寻西湖里的小秘密",
+      "sourceDate": "2022-08-13",
+      "accessedAt": "2026-10-14",
+      "status": "downloaded-and-photos-reviewed",
+      "license": "unknown; reference only; not runtime textures",
+      "localPath": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-six-bridges.html",
+      "sha256": "f9808066ed469fb0278a6f27c23a9a0071ea31cdc70b757a9be2988c3c362a06",
+      "use": "individual bridge reported core length/net width/clear span; photographed stone arches and railings"
+    },
+    {
+      "id": "jindai-original-photographer",
+      "url": "https://historicbridges.org/bridges/browser/photos.php?bridgebrowser=china/jindaibridge/&gallerynum=2&gallerysize=2",
+      "publisher": "Nathan Holth / HistoricBridges.org original photographic documentation",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2017-10-05 gallery documentation date",
+      "status": "downloaded-and-original-photos-reviewed",
+      "localPath": "docs/hangzhou/research/core/west-lake-causeways-round2/references/jindai-photographer-gallery.html",
+      "sha256": "4e943cbe396224a512b82c41676cf68c751ebb929525b25e5ad24740c6871bda",
+      "license": "© Nathan Holth / HistoricBridges.org. All rights reserved; reference only. No runtime photo textures.",
+      "use": "explicitly captioned western Jindai views: single arch amid long ramps; plain low stone parapet, courses; no metric claim"
+    }
+  ],
+  "images": [
+    {
+      "id": 879,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/879.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-879.jpg",
+      "bytes": 18525,
+      "sha256": "280465992f5d456e8fa0f05540cc711140bd6cc1b2ea6595284a4e7e18e4d2ed",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": 882,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/882.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-882.jpg",
+      "bytes": 108897,
+      "sha256": "141b3e6a865c90bb0c30d64c6facd8894dac5ae63545d68be0f207859e8adb5b",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": 887,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/887.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-887.jpg",
+      "bytes": 35258,
+      "sha256": "b863bdd09e8c5ba4994aa8aacb51d8eaf6eb9990f81fb620172961a3a4a0b0ce",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": 891,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/891.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-891.jpg",
+      "bytes": 29330,
+      "sha256": "2c9b7f21ca89f6cd0e362b2bbe25d6234bcfb4160e4eb69f696fc111c3d0c35d",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": 892,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/892.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-892.jpg",
+      "bytes": 31035,
+      "sha256": "258892545df0fa57b8d02e01a1afb9a85249220d7640fa9df79ce69d4b40d03d",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": 893,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/893.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-893.jpg",
+      "bytes": 32418,
+      "sha256": "04b6d102ad3c8c125b052dc92115fdfb73d5740a7f0b014a6485f357d88ea6af",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": 895,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/895.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-895.jpg",
+      "bytes": 36269,
+      "sha256": "c652f3aa48cf85a1fd8136f05f4921d5e2ac97330c3f4ae89a40d61b76f98fca",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": 897,
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/210/756/897.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-897.jpg",
+      "bytes": 33882,
+      "sha256": "2a45a22fd05ab69bf2af0d004fa4fbfb1c4886e65aa4b760a100e063f1241bbf",
+      "parentSourceId": "hangzhou-release-six-bridges",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": "09582",
+      "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09582.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09582.jpg",
+      "bytes": 59436,
+      "sha256": "68edab4b06e632fa80587e24cdfd9df1bfa2315beab478c8735c13685b8696d1",
+      "parentSourceId": "jindai-original-photographer",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": "09585",
+      "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09585.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09585.jpg",
+      "bytes": 56714,
+      "sha256": "96fe60c00204f19193bfdef9d6c3805ef13d4b0a6b5175cf38f1355ed1f7b8b3",
+      "parentSourceId": "jindai-original-photographer",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": "09588",
+      "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09588.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09588.jpg",
+      "bytes": 67421,
+      "sha256": "2e78796efa2ff0bdef6a44554d3209f8fb864b217ea76c93f6396794fc94dc51",
+      "parentSourceId": "jindai-original-photographer",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    },
+    {
+      "id": "09519",
+      "url": "https://historicbridges.org/china/jindaibridge/little_7westlakecausewaywalk_brg_09519.jpg",
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09519.jpg",
+      "bytes": 93899,
+      "sha256": "303b13950e2a01247520c8dbe462ec02a18fb6ee58f0f5270f26b43043756475",
+      "parentSourceId": "jindai-original-photographer",
+      "use": "research-only",
+      "license": "copyright/permission not established for asset publication"
+    }
+  ],
+  "runtimePhotoTextures": false,
+  "releaseImagesAuthorized": false,
+  "renderedReferencePages": [
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/unesco-causeway-aerial-p59.png",
+      "sha256": "0952a0e5491893bb2fb809ab1d97e6610e45fab6e6ddb5a49bace0c3f57500ff",
+      "sourceId": "unesco-nomination",
+      "use": "research-only"
+    },
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/references/unesco-six-elevations-p78.png",
+      "sha256": "ba51aa9e6fee6ad65ff574106fd4be3279d35730b30522863832daa6c2575bb7",
+      "sourceId": "unesco-nomination",
+      "use": "research-only"
+    }
+  ]
+}

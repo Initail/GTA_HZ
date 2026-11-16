@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "placeId": "city-balcony",
+  "name": "杭州城市阳台（主阳台与必要两翼衔接）",
+  "type": "district",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "balcony-hznews",
+      "balcony-fj"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "balcony-hznews",
+      "url": "https://hznews.hangzhou.com.cn/xinzheng/quxian/content/2012-11/02/content_4457933_2.htm",
+      "publisher": "杭州网",
+      "title": "“世界屋顶绿化最佳示范区金奖”花落钱江新城",
+      "sourceDate": "2012-11-02",
+      "accessedAt": "2026-10-12",
+      "provenance": "local-government-news-context",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "沿岸底线宽150m、外挑80m×长320m；与考察文322m存在约数口径差，不定为测绘。"
+    },
+    {
+      "id": "balcony-fj",
+      "url": "https://www.fjtb.gov.cn/focus/201707hxlw/201708/t20170829_11836501.html",
+      "publisher": "福建省委台港澳工作办公室 / 海峡瞭望2017年第7期",
+      "title": "浙江行思录",
+      "sourceDate": "2017-08-29",
+      "accessedAt": "2026-10-12",
+      "provenance": "government-hosted-observer-report",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "主平台长约322m宽80m上下两层；不是杭州平台设计图。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "reported_dimensions",
+      "value": {
+        "riverProjection": 80,
+        "lengthRange": [
+          320,
+          322
+        ],
+        "bankBaselineWidth": 150
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "balcony-hznews",
+        "balcony-fj"
+      ],
+      "uncertainty": "80m与150m口径不同；320/322m为历史描述，不视为测绘误差已量定。"
+    },
+    {
+      "kind": "layout",
+      "value": "钱江新城中轴尽端挑江主阳台双层，两翼副阳台衔接沿江景观",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "balcony-hznews",
+        "balcony-fj"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "大范围架空挑江平台而非独立高楼",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "balcony-fj"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "deck_elevation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "主阳台按实际岸线方向放置，明确结构支撑、上下层地板与江堤入口；水体保留在平台下方，防止落水到达点或薄片被过滤。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "没有取得平台曲线足印/柱位与上下层标高；322m不能作为随意拉长到江中的长度。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

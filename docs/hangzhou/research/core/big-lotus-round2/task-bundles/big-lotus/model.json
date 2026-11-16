@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "placeId": "big-lotus",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/big-lotus-v1/big-lotus.glb",
+  "sourceModule": "scripts/landmarks/big_lotus.py",
+  "sha256": "eabf0d1a2b8da87cbbbd3488d9444ed9131bde4bb82da3d1c82f393287a9699e",
+  "sourceModuleSha256": "faf3caf74bd5cc28dbcc632195fd052ab2f3029b62f7dec81a3960e7c8d4d368",
+  "artifactMeshPrefix": "detail_big-lotus_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": {
+    "petalCurve": {
+      "basis": "estimated",
+      "value": {
+        "wallTipHeightM": 2.5,
+        "maxHeightM": 59.4,
+        "innerEdgeHeightM": 46.5,
+        "thicknessM": 0.32,
+        "outerBaseRadiusFraction": 0.91,
+        "bulgeRadiusFraction": 1.0,
+        "uAtMaximum": 0.73
+      },
+      "sourceIds": [
+        "nbbj",
+        "operator",
+        "ccdi-project"
+      ],
+      "method": "piecewise radial/up profile fitted by eye to street, aerial and interior photographs, constrained by source outer/inner rings and reported overall height; no calibrated scan or structural section",
+      "uncertainty": "tips ±3m, inner roof edge ±5m, bulge/roof sweep ±8m, thickness ±.25m, curve phase ±half a petal pitch;59.4m uses operator height with datum conflict pending"
+    },
+    "petalWidth": {
+      "basis": "estimated",
+      "value": {
+        "largeMaxHalfPitch": 0.49,
+        "smallMaxHalfPitch": 0.18,
+        "smallHeightFactor": 0.94,
+        "largeHalfPitchProfile": [
+          [
+            0,
+            0.027
+          ],
+          [
+            0.16,
+            0.25
+          ],
+          [
+            0.38,
+            0.46
+          ],
+          [
+            0.62,
+            0.44
+          ],
+          [
+            0.73,
+            0.43
+          ],
+          [
+            0.88,
+            0.44
+          ],
+          [
+            1,
+            0.49
+          ]
+        ]
+      },
+      "sourceIds": [
+        "nbbj",
+        "operator"
+      ],
+      "method": "broad outer blades and narrow translucent interleaving blades visible in ground and aerial views;55 source count does not determine seam placement",
+      "uncertainty": "width/small-petal height ±20%; independent27-small distribution is approximate; north entrance asymmetry pending"
+    },
+    "bowl": {
+      "basis": "estimated",
+      "value": {
+        "tiers": 3,
+        "tierRangesM": [
+          [
+            3,
+            12
+          ],
+          [
+            15,
+            25
+          ],
+          [
+            29,
+            40
+          ]
+        ],
+        "trackMajorMinorM": [
+          176,
+          92
+        ],
+        "pitchLengthWidthM": [
+          105,
+          68
+        ],
+        "tierCanopyRadialFractions": [
+          [
+            null,
+            0.13
+          ],
+          [
+            0.17,
+            0.38
+          ],
+          [
+            0.42,
+            0.72
+          ]
+        ]
+      },
+      "sourceIds": [
+        "nbbj",
+        "operator"
+      ],
+      "method": "three visible seating tiers in actual NBBJ interior photo; representative football/running layout proportioned to the mapped opening, with tier heights and seat rows reduced for candidate budget",
+      "uncertainty": "tier height ±4m, track axes ±10m, standard pitch dimensions are a representation choice not surveyed stadium dimensions; permanent field/current event deck pending"
+    },
+    "entranceRhythm": {
+      "basis": "estimated",
+      "value": {
+        "slots": 28,
+        "lowestFacadeHeightM": 8,
+        "facadeTopM": 35
+      },
+      "sourceIds": [
+        "nbbj",
+        "operator"
+      ],
+      "method": "recurring gaps/columns behind independent petal tips; a slot per large-petal cadence represents street permeability without asserting signed gate names",
+      "uncertainty": "phase ±half-pitch; true gate count/labels/entry level unknown; exact large gap and current entrance use pending"
+    },
+    "roofRibs": {
+      "basis": "estimated",
+      "value": {
+        "ribWidthM": 0.18,
+        "visibleShellPanelBands": 8
+      },
+      "sourceIds": [
+        "nbbj",
+        "operator",
+        "ccdi-project"
+      ],
+      "method": "coarse curve-following ribs and transverse seams, informed by photographed panel/louver rhythm and reported pipe trusses; representative not structural simulation",
+      "uncertainty": "rib and seam dimensions ±50%; full structural bracing/connectors and panel inventory unknown"
+    }
+  },
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/big-lotus-round2/task-bundles/big-lotus/job.json --spec docs/hangzhou/research/core/big-lotus-round2/spec.json --module scripts/landmarks/big_lotus.py --output artifacts/cities/hangzhou/landmarks/big-lotus-v1",
+  "sourceSpec": "docs/hangzhou/research/core/big-lotus-round2/spec.json",
+  "sourceSpecSha256": "f3b5a535875fba14addf94cd2b285148fa48c98b4f537093d5f63f4299081a73",
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "71198717fe1890f5216d39ee801ca89d9d89376b22a2ac6b9bd29b6f0c3fcf4c"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/big-lotus-build-v1.log",
+    "sha256": "3b9d5f43c877173b39881359fe9726c935b34cf1875d8b78be374032ddb4b0b8"
+  },
+  "modelDeliverySha256": "1aed7da7148c5ee933e75c653205a9e47dac49ce4021b1603b56168c4f0913b9",
+  "glbStats": {
+    "triangles": 27854,
+    "materials": 10,
+    "bytes": 2318368,
+    "selectedMeshes": 10,
+    "meshNamePrefix": "detail_big-lotus_",
+    "wholeFileTriangles": 27854,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

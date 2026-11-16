@@ -1,0 +1,1055 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "docs/hangzhou/research/core/water-ground-round1/record_findings.py",
+      "beforeSha256": "243dd9a18cdd8b9d1b6cb65910dc5ca984b9fd77371a004038f7ac90b93c9433",
+      "afterSha256": "2bddd1d71b89baf479409cecf69eba00d1eb77116a39f59c6340401caa1b8126",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/task-status.json",
+      "beforeSha256": "077617f7403b71fc10a02ae32a81e7a26a549fe06bcb53ab0a945697c43b3019",
+      "afterSha256": "79b76ac2a3288ab6af992b2f94439c56ee771e9f1760e95ce9b28a84acc84be5",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/task-bundles/west-lake-causeways/prompt.md",
+      "beforeSha256": "8f67e6e464cc60e8cbbaa40698239622c0cc9e63b5d80c5385e29338ea90d468",
+      "afterSha256": "6e7c96696d86416c9accd8c75d0c0b6fe7d0e2f35c83eea484002e34359cb3fb",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/task-bundles/west-lake-causeways/job.json",
+      "beforeSha256": "5685a35f99a3002f08edf344bc113fd2c894d307bef0b5ed042850c377eb44cd",
+      "afterSha256": "a59e11de1de1dcde8ed37fe7e88b3f7cc1c7395892096379e02727add5b0803f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/runtime-collision.json",
+      "beforeSha256": "5cf8564e7d45a0ea07d423dfa91f36860454a32256f4b79dd129c6fd96107430",
+      "afterSha256": "03929bfe137cfd7c4a452266a806699be8075c23c2c25ded153d789215419631",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/before-edge-railings/runtime-collision.json",
+      "beforeSha256": "fce221bc07ff12d61f7e9c3a63fc9b6279c5b74ea37f697e0072850af1494579",
+      "afterSha256": "4fcc788941339ca0d01176b51f18782ae73a852c09c7b50454d54b4cd052ccef",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/task-bundles/qiantang-bridges-integration-v2/prompt.md",
+      "beforeSha256": "740d61394c8f5c9bc7ef0f69422690f8cf7df0c7ceeb841db963c2cbb23af18e",
+      "afterSha256": "e6e3f4654f3097ab8ac8332b5b2c659bba7925cd5ab2e54ff1074ec7882fd9cb",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/task-bundles/qiantang-bridges-integration-v2/job.json",
+      "beforeSha256": "ce569fd07d1b756867a23485df1138050e25d060b40618126c4fa327e602ad78",
+      "afterSha256": "73a19e22130ba8c352613a7d5ce5e36c76d3f9ebb1946bc622afa92055977439",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/before-qiantang-deck-offset/runtime-collision.json",
+      "beforeSha256": "4ba5574421f24e9a1cf837f104d617c26d8746d5afdb5eae32e945cc6f185c5e",
+      "afterSha256": "79da0f0cec9b6532cc2bbc3beac36b5814a4303b26b1dbf742c611a5ff07add7",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/before-upper-clearance/runtime-collision.json",
+      "beforeSha256": "d5175d7012f2b995fd0985fbff0fcc63432cae1574fbdc86badc532a2bc52a32",
+      "afterSha256": "77e6f054d70869e89e1583f09adb07f9d02b3e184e521acb0bdd827701aab8d0",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/international-conference-center-round2/cpu-preview-manifest.json",
+      "beforeSha256": "b21e0d977689df5918036b1b4e56f0b45c20f8bcc7e53fb843898dc1b74ea9a6",
+      "afterSha256": "348684d180b1ef88bc250b8d0f96d06a0ca99710f2c000037439b3135191ac56",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/international-conference-center-round2/record_review.py",
+      "beforeSha256": "3168750d579ad51ca6ef14a580dff6826f91e145a63161683840bae809aa0a96",
+      "afterSha256": "9fa01aad8f399967beee20847b82117b02884e660c853419440ba417ffb33c2e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/international-conference-center-round2/freeze_icc.py",
+      "beforeSha256": "9e646a692ec82b54ac5d8fcf17204a627e474fb2c2b20879a32b20236ecd4212",
+      "afterSha256": "70c9d6519f7f85a056ef5206e150fa99aca4f86b6cde382a84d5c506d9d7072e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/international-conference-center-round2/task-bundles/international-conference-center/prompt.md",
+      "beforeSha256": "a828e107aa39048fb7c42848d84a759c35325cea7938df67e68e7411babd291c",
+      "afterSha256": "1de826da6124f0080b288679d0f04c431f9815c349adfb0f98866f114442c8ee",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-round2/fetch-additional.json",
+      "beforeSha256": "d6ac30324e0a4268327f30e2c262726623d49091bbcd26b31156b973a9c8fb69",
+      "afterSha256": "62334abda3d74e8c09bc90ddb07804974778b1084f437ff40935d268efcde89e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-round2/fetch-attempts-escalated.json",
+      "beforeSha256": "76a85c2d0f156e38e26207e50218fc051695f0bfffa8d94f71fb9f2c1f891daf",
+      "afterSha256": "2d42d70d908a1af4e4bdd11c7266a4568823a94b7f6fe3474a834a6213cfa47b",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-round2/photo-review.md",
+      "beforeSha256": "eac25b3d9a6b68684f6c11b6ff676f3858e08f8e0ffb12a092cf0a4bf7f0d052",
+      "afterSha256": "2037520ed6da72dc400eaf65fc5d76643a949551ab2417fda20ad53caa9a6b68",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-round2/fetch-thupdi.json",
+      "beforeSha256": "1ccaafce401dcfea116016c779879a59e7898f16d2dd15232e36f6fd0ae38899",
+      "afterSha256": "e32cabfb2fedbcd709d65e493b192bbe0194141988dd52ee0b6800ca75821239",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-round2/stage-status.json",
+      "beforeSha256": "05dab2702f009d63fba04b5d72ff62dab539fe1cb50b61a9928b8fc71aefd972",
+      "afterSha256": "ae0bd0e3c8199bfd8bdec59f15aa405e49eacf6fe43e045841c29b77865013bf",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-round2/task-bundles/leifeng-pagoda/prompt.md",
+      "beforeSha256": "fc1fecf5be9930251cc02df66ca8fba0ae3132e2e5af3429375f727083bda539",
+      "afterSha256": "d119bdc756761b765d2ab2bcfe85d08dbaa4fc2f9b096301652f34e9e4d43dc7",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/big-lotus-round2/cpu-preview-manifest.json",
+      "beforeSha256": "9880fa735f44003d1263cd91cf7306937d606eb631502e54310e5e707ce70be5",
+      "afterSha256": "e710353063b7bea10e9251caffa8b2ff47eb99ec2b2d4af1dbfa7f60ee85f820",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/big-lotus-round2/freeze_lotus.py",
+      "beforeSha256": "bd3859d7e6c50cbf1c740d9080aaf71266c415c10a6543b2c45e61df79bfb024",
+      "afterSha256": "fe3e52581621246d0402dc5c163b332dea5ffc502047cf2027629c773eba6ad9",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/big-lotus-round2/record_review.py",
+      "beforeSha256": "72453b1bc978973f0ecc189dc217db9a759f44f9cc88733ee946c451be70532d",
+      "afterSha256": "7a1c83bc16dc886d22e9a0cec0a66608a1dbf4a73fb86ab201b776efdc9895d2",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/big-lotus-round2/task-bundles/big-lotus/prompt.md",
+      "beforeSha256": "c3333d3882dc0633bc693d543a7c821f736a0b71878fe0cf4c5b022df096e68d",
+      "afterSha256": "c8556f729558fb73a6a3f8b66968fbdb6aea93e652ee2609370f7166d2894de1",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/gate-round2/osm-footprints-and-measurements.json",
+      "beforeSha256": "d3a28af82786cd51667ec24789b5eb8f93e705c55d9dcd1b0dceb2c1957a3849",
+      "afterSha256": "8ad3566222d7a906217f2c6beab9264534b3a44ea6616845e7887dc4a087136b",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/gate-round2/freeze_gate.py",
+      "beforeSha256": "4cee691e11ed1dfa469fde800d5a973fc3a1683c1f1e814b9e961657820bdec9",
+      "afterSha256": "be9be73c80d3398acb89a27b7c639aece389b15287387d305d3b5495133c09cf",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/prompt.md",
+      "beforeSha256": "b443c809ac308a4e100d3eb2af9027be14ca74a5511d7aaba03a272385001bea",
+      "afterSha256": "2a388bdcfe614af3e8b2401f9b053728ec548b8d7f010d43e409138754dbd856",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/job.json",
+      "beforeSha256": "c16e8a403293b1041ee262d8f17b945eeaa15765ad8efdba2869ba7465f3c0b4",
+      "afterSha256": "3bfa02a29e4420d2159f6635b3bd6088f868029f7f27fc1097f15f5ecdf04df9",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/civic-center-round2/photo-review.md",
+      "beforeSha256": "25967096705bdc3bbc033a38f38dcc7e4a2b8dbbb45c2be21b6c4b15df75b18c",
+      "afterSha256": "422d7ccc11f22df6d67a611e39812656b7ad8bfc25eda71c9378ef3cdc97cc17",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/civic-center-round2/html-fetches.json",
+      "beforeSha256": "1caaffbcad80e088cc2060b8859d41628b205eea9b808e65e6b134e0e592aa2b",
+      "afterSha256": "d878ad03fc541a986cbf60ba9cc40e2537234e365ae691280d51c4aee3240c2a",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/civic-center-round2/photo-fetches.json",
+      "beforeSha256": "0f45c4576a83e55c00ef59d53edf4d87e6d04ac1424c43646b594dc23ad3016c",
+      "afterSha256": "ae8df927559838c5c52fc3a5e59fd78e99bf9d32fe8aa0f530ad24f32ba670d6",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/civic-center-round2/stage-status.json",
+      "beforeSha256": "3d6a4856dc3327ade20fffb49925f99ce8474e66250cb2b30d917379259b5a78",
+      "afterSha256": "a02f851da906c9453b9a43c23d0b8f19f8514da86c1bfa8bc14261419a6572f7",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/civic-center-round2/commons-photo-fetches.json",
+      "beforeSha256": "237867f04d04d591cec3e2868c643ca725f4835e0cbc28637100c19a0b6fcfd4",
+      "afterSha256": "a2ef3a1f6e72d125a591e972f938fbfaa1248a18cc86fb997b28ec0c0c19512c",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/civic-center-round2/task-bundles/civic-center/prompt.md",
+      "beforeSha256": "07ce51d3c1a5736e7fecd59e012e8f7df70bb7981af57718499f5f36847524df",
+      "afterSha256": "d0abbf98be41fa3b76ad26287e0e03c7423ecc5b538d195ddbb3117a28dab0fb",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/city-balcony-round2/cpu-preview-manifest.json",
+      "beforeSha256": "492ea2faaa5c3a45b8b0f667840041f7ffa6ed2aa41e5c5accea3d7553b5b6e6",
+      "afterSha256": "9bf6075cfcc293e223a2265fbb64325bdb94a4ae617c2f91411c0a48b3ee0d4a",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/city-balcony-round2/record_review.py",
+      "beforeSha256": "af75ac3f1c587623b5d5ceef7a3c2c69ec6fd619cff03e260cfafd29bb0987fd",
+      "afterSha256": "ace1ad85269e0a59d2b70381691a42dff807d49362f1305bd7302f32f0058910",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/city-balcony-round2/freeze_balcony.py",
+      "beforeSha256": "a1ab4acf2382fe4026d3a881c7b362ab5e086cfae5605604c9816f3e350b9a86",
+      "afterSha256": "a4926889e4387ec20e388eba958ab49d6e9329e92057e602e4a2351fffb033ea",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/city-balcony-round2/task-bundles/city-balcony/prompt.md",
+      "beforeSha256": "2f674b758d3f4054b1fa15e3cc7ff9685490a2bf50fe945aaa665d9ce0727c95",
+      "afterSha256": "f0b4e181c1e063a10a229f1fc9647c20e0229c9d1b42276c48d109ed720aae0e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/broken-bridge-round2/record_review.py",
+      "beforeSha256": "13314bb0c666642909213d43adb5df139f2853ff9ae2c11cecf4ef29dcbc0b01",
+      "afterSha256": "2d9571591c471c0466ab32f7df70f0074e1aafa8afe98543170ec383bdcad9f5",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/broken-bridge-round2/task-bundles/broken-bridge/prompt.md",
+      "beforeSha256": "1febc71f7f5bf6e0d3d3103d7d9f1163b0d99ac6607ea669bee2d34c2cdc164c",
+      "afterSha256": "b973c7a393e3167f44ae48530714056fc22e9d410f01bf0641e59cfb74bc9947",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/fuxing-alignment-round1/prepare_candidate.py",
+      "beforeSha256": "3eab2ab0791019db136cd957de63711c071d14b3c473e49da76f0c4026f7f322",
+      "afterSha256": "4b0bf0ccb88806a3cb4a5613ed78ffe2dba9caf39420e5fd551a5c068ae0567e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/fuxing-alignment-round1/task-generation-result.json",
+      "beforeSha256": "63755b1a6218e2e1f62bd44d67eee510df66b7e67fad6aea97be6019e0a4ae79",
+      "afterSha256": "87a0a99223b44dc26ab8f5487b75afae3239f47dd4dec53b246c677bfaaba591",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/fuxing-alignment-round1/source-review.json",
+      "beforeSha256": "85c9fccb1f6c06b0abe4876b4c7af1b434f57eb3e84a31c04dbc1e20de1d926d",
+      "afterSha256": "d79adb94c1f86c1108b55ad81552a114024d2fcb4430a1145a84aadd5ebd592a",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/fuxing-alignment-round1/task-bundles/fuxing-complete-alignment/prompt.md",
+      "beforeSha256": "9e3cbdb3cdc27168c9f86a1c6da3dfd8060b08c214edec9375198fae2f5aca6d",
+      "afterSha256": "0b3ca5d28991e66b9e27054453f05a0c818b0b1cf086218c6761e50845b2557f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/fuxing-alignment-round1/task-bundles/fuxing-complete-alignment/evidence-ready-result.json",
+      "beforeSha256": "54f80f82b4844c139205334b1f04063cbaa8956c1c579d610252d9345dc1fdb2",
+      "afterSha256": "e0616940203a4a1c340ca4668d6df1b0fc3db29a3f61b2d286224d7052c2f7d6",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/fuxing-alignment-round1/task-bundles/fuxing-alignment/prompt.md",
+      "beforeSha256": "6e8deab139d176a66760d57362acb9c7b30145399369ca2d05c629d09612155d",
+      "afterSha256": "16b8ceb8c47fe9ba3d8848abb6df4c0cfdad4ccb2aa22745ac24debca2764fb7",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/fuxing-alignment-round1/task-bundles/fuxing-alignment/evidence-ready-result.json",
+      "beforeSha256": "65a3dc4c218c0b18954db826dcc310fc3ffdda6e4a9b8f8a899d24445efef521",
+      "afterSha256": "f5262a543e4426d203b5cdd6528251969a5037e146bdfb8b54c0e0c9eb50886d",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/operator-fetches.json",
+      "beforeSha256": "730cc13e862aa29a65735f7d2f640da00a3677713b5a24c2fca9900bef318caf",
+      "afterSha256": "a9c314590f372a75c419cf9753df7f4666eaae76322736a5ad4704ea2dbb6797",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/prepare_evidence.py",
+      "beforeSha256": "db9272f3335212504e496109ad6e0db40b12e7f11fe9d377d185218d63027aaf",
+      "afterSha256": "2a7b677fc33f5ea1943ba6622c4c17450422a18769d90fb35752f77d0cfeedda",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/task-generation-result.json",
+      "beforeSha256": "55eecc08b72724230f92c4223190d25da2935f5e1a82e799fbee4c85df75c9e1",
+      "afterSha256": "550d406081e98e5cf742df96e8bef8486acb0783571b8f24972433be466e629d",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/photo-review.json",
+      "beforeSha256": "4e479edf63578274e6972edfd3e69945c219c1b599ab7e3f9a21601a26f0211a",
+      "afterSha256": "838f8731fecd171f0b346103a78c48f085579a3fcd22620e6aa560803ea3f77f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/task-bundles/leifeng-site-entry/prompt.md",
+      "beforeSha256": "28cb830d02829a2ef9ec51446cb6e3eeddb0300c87d55e53bce09281dc689d3b",
+      "afterSha256": "0ced404f60f8af23195afdd4d51969a6d713aba0dc53a2b61011ea52b7e9b6a8",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/task-bundles/leifeng-site-entry/evidence-ready-result.json",
+      "beforeSha256": "3bde2db3b9e03d67b465254a42bdc463d60098fc982b7aadf5a81d76f5a11f1d",
+      "afterSha256": "00e7a3f0a94fefae26f0cc6cc78bfb694dba892776e5a7b024e5554fc1510cb0",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/task-bundles/leifeng-site/prompt.md",
+      "beforeSha256": "41f55f65ed435afaac8eff702b0089931c9f5a7959842611ac99e0a4da0c44d6",
+      "afterSha256": "4f27fe895f073ddb0ea119acc6f5142f289afb280d9c61ad95492940513a24ca",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/leifeng-site-round2/task-bundles/leifeng-site/evidence-ready-result.json",
+      "beforeSha256": "e9f26c63c596f88508f9ca47bcb662eaf6757427dc0c02336a972b0eba56a6a9",
+      "afterSha256": "0e022593b4504b46ab05f0528d78c725c4532a0e1991f8aa425e93b87b763d69",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/government-photo-fetches.json",
+      "beforeSha256": "10f5e6e8c4941af54d163000a84900481bb6de1748975d4ac85a3c64d5c0fdf9",
+      "afterSha256": "b969c5bd5fb44018d9ab54d6f8d38e38aa7e5677f7e746eefeb62c2ba73a4a81",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/integration-notes.md",
+      "beforeSha256": "a8bab6b43d7980e813ca945a14e667b483e25f1bc05d2692cc74e9a95c741386",
+      "afterSha256": "8273ea4bd8c1f49feede7f69ae6f70fdb2d4e5fa77f630a3a0db609eeec3abef",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/photo-review.md",
+      "beforeSha256": "b9dfa698bb7aedf3c3e3b18ce0c1384a218f9dec18ac31390c45f87c97596610",
+      "afterSha256": "e91bc2cc2c5f6ccb414fc546ac00cfd2bb643b85b7e696bfda1441956f096279",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/html-curl-fetches.json",
+      "beforeSha256": "b0020b6968fdc7a23343d6b3f20f3ddf4e2283b123d947d4caee15697ddb007a",
+      "afterSha256": "45a9e9ee093c364ceeefb677c972cc90e309628d4b45e6e375a5995628587c73",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/alternative-html-fetches.json",
+      "beforeSha256": "04f554deca86b0ca61eaa4148cd18ec57bd998779f5d5b35576f6b68abba894d",
+      "afterSha256": "207d45b3a15606245bfc2912fb1cbebab78a77da10b2c8560c3bfbfb5776cddf",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/photo-fetches.json",
+      "beforeSha256": "0bbaa00666057150801cb4b45226053cd9742d786c451b6c2d8417dba4c502e0",
+      "afterSha256": "0d8cea3096e230fdbc0328f9ff487f3c4951ff00bfd569ae8cfe270d673fb2c4",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/stage-status.json",
+      "beforeSha256": "151712ad25663d04f3bdabefb41695408e89b218984f5478160d7bcc4c963e76",
+      "afterSha256": "59927183d61a9b214db9eae8a4c416159f8fac30e0e93ba728f5178a40feb935",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/little-lotus-round2/task-bundles/little-lotus/prompt.md",
+      "beforeSha256": "c375427fbb03df97335b928b11c88b9ec4b4f2d7e1ba5af00c5f17d4043e42e7",
+      "afterSha256": "1fb4b3c276c9195c2b7f054eb0a0a2652aee10c2402c729ecedbc5393b8e7d1e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/evidence.json",
+      "beforeSha256": "a0792641e83c3702acb720954365a90182571e6c19ef9d545a86e5fa365383ff",
+      "afterSha256": "84946f0d49c0a1bcfef292987fdd75b14c90986b940fcfd1e5e2b620ff542ab4",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/integration-notes.md",
+      "beforeSha256": "2585d1ad44bf73c90f41fc1009f40507ade795788a3c422b471f804f121e86ae",
+      "afterSha256": "470982a8694e04053cc78b9f40777c4d1cfe40829929d6150652d625bd084982",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/gazette-fetches.json",
+      "beforeSha256": "75228f15c52b2a5ada6351d6028c1a8e7729b68ee3b43cb6555fb4c2aa635d04",
+      "afterSha256": "4c609adaad1e0a5872e2c11875241cdc14cca5d0351ba4f3275bc270b81bc6d8",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/prepare_evidence.py",
+      "beforeSha256": "8499cb980a9c2b9548123f5facbe3b94baa54dc698b277ad18f7ae6390aefa42",
+      "afterSha256": "5d92eb050a5fceb19302a13e677ecce23998e89e914de8466356b8e9b3e346b1",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/source-fetches.json",
+      "beforeSha256": "69fe702d164f82c51389d70637303105b952d986b4cf7accdd7446afd0a3d78a",
+      "afterSha256": "a043521555e91e230ef9981566c47af2d078923664ab12d53edbdc5d1beef1a5",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-generation-result.json",
+      "beforeSha256": "792458b9475d51e7a374538b9f1886a8540e4133f79ca220f23a36bd83a1e828",
+      "afterSha256": "8df51915e5b28a02cd25876a532fff9c43379f232773a54fdc82c17d6790130a",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/status-source-fetches.json",
+      "beforeSha256": "ad1fc2359874a3a1928841cd40f87d673e47b2566178b4d6e24a7a385f54ef1f",
+      "afterSha256": "462363f9a33d3aa21b93a595f474111c171279a5923b007beed37c18925be497",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/photo-image-fetches.json",
+      "beforeSha256": "52efe6ca4f01a6a9773fc86fdd72c425c30c4c4937b704529fa7c0c32db9f951",
+      "afterSha256": "90d5cc3460788fccc04fe3a6c86f80dd1b290581f44b5b2d3371ce31ab5cc644",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/photo-page-fetches.json",
+      "beforeSha256": "4be777d8baab444a123585cff7a29ae32e94286db2826a32af2bb5385c87c6e4",
+      "afterSha256": "65a53f4009f3dcc102256f25023fd76c27b9975c25ea65d109561be61a7d9ed6",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/photo-review.json",
+      "beforeSha256": "e93fcbc7c63fb82dbdd12dbf1b6fba2b574eed50266841d9175fcbd0d01abbb4",
+      "afterSha256": "4bd36d2b653329b6d5b3c39afee0db4866e97a3e87adbc53d221e727aa68ce1e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/gazette-read.json",
+      "beforeSha256": "9db5ed81eb35f7d82984fd100df4aaac2954d27086e9e77f41feeca6714785fc",
+      "afterSha256": "05373a4e9b38d2d5a6234e03509c22f4b59ef6036846a876ee50394205f24954",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges/evidence.json",
+      "beforeSha256": "a0792641e83c3702acb720954365a90182571e6c19ef9d545a86e5fa365383ff",
+      "afterSha256": "84946f0d49c0a1bcfef292987fdd75b14c90986b940fcfd1e5e2b620ff542ab4",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges/prompt.md",
+      "beforeSha256": "28e31df0f542b3ebc59a8cd181406a9503008614169611ae8c9430949b77638d",
+      "afterSha256": "ceff4ddaf6fe7e323c272899bf788b3c41e21c47a5112278b2b70360652b38fa",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges/evidence-ready-result.json",
+      "beforeSha256": "5b4532fe08404faa9348d36a42c4f38633ce6b1a54b76043bd325d739adda5b9",
+      "afterSha256": "ffaa08fa552dc4daa1ec06784840bc90b999f8996fe344971075271d34705691",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/xixing-bridge-current/prompt.md",
+      "beforeSha256": "ad69975f2b14d307ea0bb4efb4fb9340647fed899b31039031f24ade99aac4e9",
+      "afterSha256": "11d9921d26a9667bdf3fe6c9f958ba4544bb8bbceb8725aff517c1bb7c8d6979",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/xixing-bridge-current/evidence-ready-result.json",
+      "beforeSha256": "85b74615d7536e56b1ef115bcf8897c9be96139819fc7d9a148a3f83548a0fc3",
+      "afterSha256": "f50ece1cf9fb884b53666981bc6a86a0ef66f9061175527e7cd0b86b0177eb9e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/boao-tunnel-profile/prompt.md",
+      "beforeSha256": "099731627ee33330490cbad81cd6b15d391fe337da4ffa039301bedca9882fe5",
+      "afterSha256": "4d59e395a2ef79ce90a5b39ac6fafa733222fb44a2fba5d90bed23133a960ee4",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/boao-tunnel-profile/evidence-ready-result.json",
+      "beforeSha256": "a3c0f0426373dd32762d6d85eabc06ed6aa3deb6ae3ecef1b5790729e349cdcc",
+      "afterSha256": "6867c1d9a64e8c4ed03e9de6cbefb27a7b90a0dcc9bf06eaf7b7796096661143",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges-decks/evidence.json",
+      "beforeSha256": "20ba39b283566fc2c46c2d82e5c63b94ce41e7af37b36676e5e84d12bccea93b",
+      "afterSha256": "01a4f0fce6945a45d5ac932371cdd896b88632f05ce259d1491569329ebf991b",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges-decks/prompt.md",
+      "beforeSha256": "e45073dc406a8e7176d3d3ea85f71ae4af9e6076e5a8c83d2760c5e78ed2e76e",
+      "afterSha256": "f6c4ec6fa8f071846d5b4b6aefc0f7b306bea1d7959d6ce75c70491524539b74",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges-decks/evidence-ready-result.json",
+      "beforeSha256": "0e15e5b3024fd05c43f91284da1f3c316b7e8160c0b6c692fb35beb048d36735",
+      "afterSha256": "22a2660c0b3bb45dca708208b21d4c739020c0ca40e50d4c350f4db26259eed4",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/lingyin-round3/record_research.py",
+      "beforeSha256": "507da372915e7daca0c5bb4e05b37ff3cdd166be57b9a4cd5173dee8eb65b54a",
+      "afterSha256": "4453d345bffa7d1a0417a476aefb941bf6e211734685e4ac89c0cde0e088cd36",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/lingyin-round3/task-bundles/lingyin-temple/prompt.md",
+      "beforeSha256": "f48902b23d73b953006fa2edd51d218701b28b15ecb59926776fa295ff24b715",
+      "afterSha256": "f9450a383e066e5323e8cdb98df7f989c1b97a9a77b21fbee3676b06ce0722c7",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/lingyin-round2/record_review.py",
+      "beforeSha256": "dcdbca3b95ea1a58eaf3e0a7231cb531685743b6dce84ae76086b80f36d1c8c9",
+      "afterSha256": "af32f50c1b9c87e8c08bfe2fb49684b68c9873dfb2e06c6b706dfc60f2a7aefe",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/lingyin-round2/task-bundles/lingyin-temple/prompt.md",
+      "beforeSha256": "a25df143f61db7110797a29330be1e5b6178af7d5f57ec713eaa1b7366df930b",
+      "afterSha256": "4a8593d7389d7aa751a74b23e6c3dce3b53a94d37d0fc67c7146f51e65da8cdf",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/wind-paper-review.json",
+      "beforeSha256": "902e48a7c464f12db343c46c2eafa23de1783032c8c07bec2326079e020d6b65",
+      "afterSha256": "a3338104b4aa3c1a76afc6c64e29920f02cf687f0f44a50fa8c2049d5724392f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/ott-original-photo-fetches.json",
+      "beforeSha256": "630a7e2d90ba72647ecba62858f1243cc1696bd699edd5b522b9b6dd6bef0370",
+      "afterSha256": "7579829380134f1a017def16f4fc4faa72001e03e74a169605b63f366df788cd",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/source-fetches.json",
+      "beforeSha256": "fb9b9c0627f55d73a1f9c76ff94daff2b9e2f8e45261b8d0f076f4c094d09bfa",
+      "afterSha256": "6fa86a32338da2890b7cbdbc07f6cf6eb60b24065f8d9058b82f0a1b16b190e1",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/ott-photo-fetches.json",
+      "beforeSha256": "cdf748c60a2e14eda66686e766e23217bd6ade9b0376ced11ad47174db69c11a",
+      "afterSha256": "96454e2504b944acc39ed988a4967bb52c4e19d00f32eb965388407dc12fd033",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/commons-thumb-fetches.json",
+      "beforeSha256": "e406ea80be5499b4cc9a863cebf964363686bc4be10b82b4b8f2671e7835c8a9",
+      "afterSha256": "6f4e4a2f1a12ecdb32077384fab4bd37285f09273d4008a037e7401c8ed7753a",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/stage-status.json",
+      "beforeSha256": "af1aebcedbf64b54045c8ce7b2378f0c27afafc2ebbe179ec331ae627ba58b68",
+      "afterSha256": "618b0558b287cee125038fc9187240f69787bb992e4ee8a6b6f06a6b74d13892",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/commons-photo-fetches.json",
+      "beforeSha256": "47cbbd6a2142a267a6ec43204cc52d142ca834657e762beff9cd452b4ae0b384",
+      "afterSha256": "7c78d9588c091627d4995d07deefb405a8d4f59c9afa81d02fb9f85faa82a15a",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/grand-theatre-round2/task-bundles/grand-theatre/prompt.md",
+      "beforeSha256": "c9d269435eaf20811ab96a1c0e35f6d36baf95166717996f51abda884e239fe6",
+      "afterSha256": "6241d9663c491582260f701f4faab33f0df744b7bf499d12ac8faf8cc50fc3e0",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/wulin-round2/commons-photo-fetch.json",
+      "beforeSha256": "343b07a30d98e8cabda07752a2bbf2edcdcad699fe49e51536360f64a9ed5c75",
+      "afterSha256": "4ea7bd8f96a394ce981059fe16b9be0f0d2127fad7ff6eba8df3199f5641e0da",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/wulin-round2/html-original-fetches.json",
+      "beforeSha256": "c2df35d5c08b1ce2df540311f3269629e4eac0e55682b4729371e62a45ac5397",
+      "afterSha256": "ccbef6cc5e26955397acc76f01b3928840c9a452ff4f3083a70d9e772d83650d",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/wulin-round2/photo-original-fetches.json",
+      "beforeSha256": "91529d0d4906c90ac7316a2d337ec8d38e8c49c226d53c55fb0f458cfd516341",
+      "afterSha256": "d62b4651af8e3f6955a269202f63d0616305e4862cc43c1f3d681c1290625fba",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/wulin-round2/html-fetches.json",
+      "beforeSha256": "36450cac6af3666a9db7973845471639aca69dfeda4c7e0807dae2b8db584767",
+      "afterSha256": "bfbed6e3cb30a33e7b80dbe61fb54b6e0dc0df0f32dd6cbffbf757a77a0e257b",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/wulin-round2/stage-status.json",
+      "beforeSha256": "6906251134f028e46682c795d1af81bd286644adcd7344e180a46e0206b98430",
+      "afterSha256": "1e8056dd2341738553ee70aa21d6e18119dae85b624222c2cf3cb0496c762101",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/wulin-round2/task-bundles/wulin-square/prompt.md",
+      "beforeSha256": "fd7c32ead7a1e8f776693b5257b1c12449acd474bc98babe34241a2655c76f67",
+      "afterSha256": "9df7ec9fdb0cf4031861d2882ec54cd860c20d5eca361d7ebeea7dc7922bbc1f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridge-collision-round1/task-generation-result.json",
+      "beforeSha256": "85b29edfa4e20ea27df18418c40849dc819105e176fd169a589720989e8bd9f8",
+      "afterSha256": "eaaa021bf8668316e6889bb856d6c7bc4062fe9787bbec2831eaac09cacc01dc",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridge-collision-round1/task-bundles/qiantang-bridge-passage/prompt.md",
+      "beforeSha256": "0910faadb3b0cc77dd614caab5eec7ba6c576c21c3e5298a254226adf01b3dde",
+      "afterSha256": "7cc2dce69c083cb49473108116c475ad593d4e907d810f324a6e6e1762e4fb92",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridge-collision-round1/task-bundles/qiantang-bridge-passage/evidence-ready-result.json",
+      "beforeSha256": "b2e38236da2b2a2cd53ae72775422c0f6d5f7da48ceb00ebe7766517d7e65ebf",
+      "afterSha256": "3d7e5191579d0dd54805ddd0a2f446c9c5a8daaca3a5fc79448547b1a3f2ade9",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridge-collision-round1/task-bundles/qiantang-bridge-collision/prompt.md",
+      "beforeSha256": "131c63107c0e19022d56241060dfbd03255b44cf9b47fae680fb450827e030c3",
+      "afterSha256": "332bdf9281b4d6047e8189048008fcb03f335f7f57ead6790457cc5d10ef3ba3",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/core/qiantang-bridge-collision-round1/task-bundles/qiantang-bridge-collision/evidence-ready-result.json",
+      "beforeSha256": "dc0a3a5002f57a344417dc04211ba0f20e1a2d4195f789ef1ebb30c52f684d18",
+      "afterSha256": "308cf7392d0c2aeec1e8ffd1b274e2f4771dd29f92c4ae1b6dd67ddcc387058c",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership-contract.json",
+      "beforeSha256": "9f460c5efeeb837ead9238eee2aa08700650d774cc8475980df27734447b39bd",
+      "afterSha256": "52748f5dd62018fe3be3f104cf9f96ccb039e2002ce28a692b2a1cb7cebf37a8",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-envelope-v2/validation-input-bindings.json",
+      "beforeSha256": "e72a71f15af17de8cad4dbda660436c79ea29462fbb39ae2cb8d714b96e6d369",
+      "afterSha256": "61c5d846d558915d45a463eb577c080d05707fe7e0db60fd524f0fffe7e20f9e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/cainiao-round2/stage-status.json",
+      "beforeSha256": "2bcec16fda24fe993fe70260581239b2cc1516955cc3cc80ad06c8346b233fd5",
+      "afterSha256": "1acc45037608af8832f5cb658b4b9799b7a850a19bbc3524d808df9b371cd76f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/cainiao-round2/task/cainiao-headquarters/prompt.md",
+      "beforeSha256": "af8f605a882b6351641e5aab90f6a8515c127ee5faac6653637da0e931c7f5f2",
+      "afterSha256": "795ba24a58b7d3dea07902be7d87cb0d4f8fda8769c0a84640e0f30142af7dac",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-b-round2/stage-status.json",
+      "beforeSha256": "3e2e3ba66fbf5b26eb8701546030e31c7aa372a8d05eb0ae557626e3e7abcf88",
+      "afterSha256": "b28975d51fa40a10e98ad3ce468a4f83ccd73a53cd6a04ae9b2f0281fd1f9313",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-b-round2/task/alibaba-b/prompt.md",
+      "beforeSha256": "fad495744323c0ac9d46d8bbb98f9009afea1e3ebf6d2911fb8e241d01c72057",
+      "afterSha256": "4aea1e234bf036e5d16337ea52ffca18ab5110a41cbd3ee73e7f16d12d6b22d2",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-c-round2/stage-status.json",
+      "beforeSha256": "c2eaf931dd4b5deb8d9c7ae5052e8267836475061a60e57a4559e4b2abe3eef3",
+      "afterSha256": "ee34e130445df6fa9f7ab4027085d8cf4bf241633dc3aede80f68f3a85ecd694",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-c-round2/task/alibaba-c/prompt.md",
+      "beforeSha256": "b31f734d486c940045919f2a07a4b2db4abb7d1fe5634783efa06a7a93409a18",
+      "afterSha256": "bc7b20d0fec4c2cd23d8549812f5651c9542f7b668d5fb5221acc75cc751f59f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/cainiao-annex-round2/evidence-gate-result.json",
+      "beforeSha256": "f5823efc8fc841f63dd6c0960a99c97d5c98060b2ca72941e3f091b517a6db5d",
+      "afterSha256": "4473a7ac9bc039d5a62ad844902fb1b6f155a1fbd6ee21d5beff37eaeae92b13",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/cainiao-annex-round2/task/cainiao-annex/prompt.md",
+      "beforeSha256": "16e9f3cec500fa85a3ff8e706d0aebe59c29709e0e31e1fb00d58eac84074a0b",
+      "afterSha256": "e377509b80e0cdfbc0720a7a4f51da4ca9e0a1e59cc0f309391ce8ec8abe17d7",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-a-round3/evidence-gate-result.json",
+      "beforeSha256": "a33923d18d65ad5448525ff55162e69298ddf697e14d38abd3e83a132bf02706",
+      "afterSha256": "d2d490d13d91768dfea46f5b73fad3193ce1ee2adf96db26fa023e585d300c97",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-a-round3/evidence-gate-result-first.json",
+      "beforeSha256": "eaef11dbf4847264fb0ea9cf8fb852d4e611574ef9a0f9409407b9e5eaea9a04",
+      "afterSha256": "1973f442522a816eb66605ad17f71466fa9c10fc7cb633663ebde5c5f37c5ff4",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-a-round3/task/alibaba-a-extensions/prompt.md",
+      "beforeSha256": "f98f19adbe1baa1ac3015291fa4d8d6ea21ea5b9f50c896a2bf3239c43c2ac46",
+      "afterSha256": "6a1b1c6212934aa928d553450ff22c33a66685264bbc43ee353288a7f54e9074",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-a-round2/stage-status.json",
+      "beforeSha256": "4272864509c8b81b996742e527bbd36ac7b6019176d8be38cbd39946a2b3e1ba",
+      "afterSha256": "fa0cfc3ca30e885ecb29a8c4abaeffb81c50790e016456bd94576e76630fd066",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-a-round2/task/alibaba-a/prompt.md",
+      "beforeSha256": "586586b341c6c604ccd0f714a10820a81b124de8d4bfb342bbd4f531e145d175",
+      "afterSha256": "af5e68860e2f6fd505a0be70b390aa1c60dab6404f28fa2a83a15e1d3ab3129f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/landmarks/agent-workflow.md",
+      "beforeSha256": "edc589c1f9f2925ceefea15b21d91d9112681a371b1c13696f7f78248d534d4c",
+      "afterSha256": "88022d76816243cb24b1b9b9041ca50f4b497486628e0a08ddf07090bed82891",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "docs/history/RELEASE_V16_20261113.md",
+      "beforeSha256": "92eb43d98e8af6d8fb02d29a6681593a1dc83a13676cfdf022e1471bb99581f2",
+      "afterSha256": "049b23a0d2e6ed8622312dc16f8e2ff55ee7d0480da151762c35aa2977c45c81",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/qiantang-bridge/prompt.md",
+      "beforeSha256": "1ad503174f0195b162a719774eeb7c3dfcc172b5192d31b3e9c3e79459bd28fe",
+      "afterSha256": "a9f6b71871cd5174104e2e79afde6c895045389e9098e1535a31b6cb3fbc2a59",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/qiantang-bridge/job.json",
+      "beforeSha256": "039de2684e0a07f43ee69bd61b0de447e8efcd4def579b67f6dccfc769ab5665",
+      "afterSha256": "7c8df85be145c0d93fa1b1d4649fb461c2aa69ae4b77c8f7247871d5d20c925b",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/alibaba-c/prompt.md",
+      "beforeSha256": "cc949238b9eed4685a0cb94bc451c45be2f0df82052db913c32865edce62ffab",
+      "afterSha256": "e287dd91c79756a9a341084cd234783c9465848e92a776a654690363b4e9a22b",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/alibaba-c/job.json",
+      "beforeSha256": "48d02239530e66b6eff5c617465edca533a39087c39a713ecb281f3d0cdf7e8c",
+      "afterSha256": "d41c1d6240fd8cf76336da872b9ec0ec78c76971cae11858db6e2acb72696991",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/alibaba-b/prompt.md",
+      "beforeSha256": "07b54d6648f77ee0b85c2653a355b6cad0f3abf9c9d4bd239017c90940274250",
+      "afterSha256": "db5bc7e97b45f18b7790db467f4ab064898f743c8e4b2478b4e1e3ae51e1b666",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/alibaba-b/job.json",
+      "beforeSha256": "bc813fa8c63c23d43b6a3ce937acad97829ddfca85d31ea58c2ea0d8e1b0afd5",
+      "afterSha256": "93c7ab6fa853969d942e2e84d3d985234d2be20558e7c9641de4bc419de2ef0d",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/civic-center/prompt.md",
+      "beforeSha256": "76f2af25e2653fe749e6a1f0c21d20b15212fc60f13e052d8af92cbfba0b3d02",
+      "afterSha256": "50e1303247e4b4de1f4536d00b3e93fe23373c24f49ef5a3369d4e7e5c1ef4a6",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/civic-center/job.json",
+      "beforeSha256": "97ac16592b5036557a572c717c942c3ae3e5da3d244121354c7066c79676e289",
+      "afterSha256": "7624b11d203d61d5f943866f437092b8b5b0c5a45a0ef8b3242528718442d1e6",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/city-balcony/prompt.md",
+      "beforeSha256": "7d5ac2058eff987610e8ac9964e2256cf346d16e7dfb1e5c276e5cc3a9e184bf",
+      "afterSha256": "483911b50b70011a039f15880c1aa3cb3d421a4b7d2daebd89bc8bf414f5830f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/city-balcony/job.json",
+      "beforeSha256": "72826332952f843fea2764103d3cfa8e30a45240fe27e5649bb47e3fbe32e1ba",
+      "afterSha256": "a7f551f61254e9391692017bbfdddcd84a3abf8eaddb3817b0ee246ca2421c67",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/west-lake/prompt.md",
+      "beforeSha256": "c57ecbf0ae0dab5d636ca16f6de904217b9edaabffa33f8c746d658bead6997c",
+      "afterSha256": "69ac1414cc5ef908ebb1febd4e137d26739dc620d898b5b375edc0ecd8f5e059",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/west-lake/job.json",
+      "beforeSha256": "4463e897767d8b3b8e63d6bee8cc038a3df8047a6a918ccaa1a4c9882930caea",
+      "afterSha256": "bb3fe38e85f724ff42835a838e0caaf8b9b9532144dec6c107fd912677f3465d",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/xixing-bridge/prompt.md",
+      "beforeSha256": "b57a366aa91c405b4888ba752975e8f840a77c09df707e635c74fcb69dee73de",
+      "afterSha256": "d5aabd6675cae2f7f1fac666f9088f2e2d933e299382dd0c17903dd6b97a775d",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/xixing-bridge/job.json",
+      "beforeSha256": "f10c592d2f3976581af757d00c3736667d982d18dd3d922d8db90d5794a3be31",
+      "afterSha256": "431784955aaa98d25b5c309e0593eb8005c9273802efbbdaf5b32186aea4e574",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/leifeng-pagoda/prompt.md",
+      "beforeSha256": "ee4328ba745d06c1182041cff5bc691dd01951cc4fb75d206567110403dc1c63",
+      "afterSha256": "5741d6f3a48faa848a26c2b5ef580120f38ef7c9139bb79a1d624d2de6fb321e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/leifeng-pagoda/job.json",
+      "beforeSha256": "b618528cea042ed3c85d7633b02a86837da20de88ee4ac8ff430dce21c22a7a3",
+      "afterSha256": "15367f588e479c5210da5715be901c580bd5866a472843f2c6e5bbb25ff371f0",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/lingyin-temple/prompt.md",
+      "beforeSha256": "d9dd3bade3d361fdeb51c6bae6efdd0b997e64f4d6d8ca0cdf5bbab8e9c50116",
+      "afterSha256": "fc8682a537a461499a381fa6d07f471b1b61b7e7dd3040d98fcbd1904c4e273f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/lingyin-temple/job.json",
+      "beforeSha256": "d463b3c99df93fc041468eababfd2523dd7002640bfe72cca6615c3a964b0f6a",
+      "afterSha256": "3ffd0a70e8f2cd1cc4a031ad7b9ddf302e3ce096b1fb7c9bee96a2f7d8143efb",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/grand-theatre/prompt.md",
+      "beforeSha256": "e93bf9fe51b9cb7c456eed46097d20828b488ad56d1d79491133b0a8ce7adb2b",
+      "afterSha256": "76ec24ca7bd6cae5e42273358886328ba495bfd6ec75b68c686c2d93092587ec",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/grand-theatre/job.json",
+      "beforeSha256": "69bb62ee582cb177edbdc92a84f5d4b566d1873fb80c5e30f805f536486ad95e",
+      "afterSha256": "28311d75d5c7bde00f9145defc3518c0693142e4cbb375cbe26118df985dad33",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/zhijiang-bridge/prompt.md",
+      "beforeSha256": "e2367c55613e628b786d9873d7f655ff68341648bb6df9c9c9a12c0236798573",
+      "afterSha256": "bfca6c4cc53ce98b66d0244bca49559269a776202b88a79c195f5ad3777cbe4f",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/zhijiang-bridge/job.json",
+      "beforeSha256": "929c4ec5334af3fcc548b22fe51a8ebe5033c0a22e16e6ac7dd78487fae64f38",
+      "afterSha256": "30cb4140cc56f673fed74f6ecc96b847b13a7df1dcaf91c5b653be57a3706037",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/international-conference-center/prompt.md",
+      "beforeSha256": "0af062d453aa3f2951c404aa2dd5d519a02f88e13430cce9dbb4c7101d6aeefa",
+      "afterSha256": "340c6297dfce10edfd05055eedf9bacc374b5c47e366a6c6aa2fbcec74930e0e",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/international-conference-center/job.json",
+      "beforeSha256": "910d6135a11447f8060f62368c920e0cf1b25351244f699ccd4999d5bdb3bde7",
+      "afterSha256": "da94e0cd5eb05c2b6db87366ec251ee50e03c590cb6c17988be712f59b6ca6fa",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/wulin-square/prompt.md",
+      "beforeSha256": "dc68282910c26b95b60d40043f33b524902009aa2585e8e110406b97aa26a2ba",
+      "afterSha256": "191341438674c37be1d916774fbe5cc05b58297afc01ab189bdcf068d0ce9be7",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/wulin-square/job.json",
+      "beforeSha256": "8a4e1ff542714a0dd6f469f490cadcf300f27139695f63d8cb54df8d4c2e2f03",
+      "afterSha256": "8d47e565cbd1312642ba37ffa724417a00b75237c5e513520191fcc74db9a170",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/little-lotus/prompt.md",
+      "beforeSha256": "3b072f3a3ea7e08c1e09744f0a4df5f5071d300149c950f2b773463b23022405",
+      "afterSha256": "67e3702930f02587dc8fd9d573ef20b5f5785552e044d2c2f0473c318caecc3c",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/little-lotus/job.json",
+      "beforeSha256": "258647f4c6c296243497c2b24c90ebdff2cb5fb1d2d6f26fe82f98cb63f13ac2",
+      "afterSha256": "8175b83e439679c02571b46134b74c83dec53fceb1b47b9af310e9209fa49d11",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/broken-bridge/prompt.md",
+      "beforeSha256": "cf311ec1d310bb8958e3753a1ff1d3863689a5dd29a184ea91e6a5ac6e703d85",
+      "afterSha256": "498f3c332e9746e884ca3105248b11ff559b88ad31b2bc270c2f89e23dacef99",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/broken-bridge/job.json",
+      "beforeSha256": "80c3b6526c0da3e608590ccda5050426e5d8323c78a5c6844b285e605c414bcd",
+      "afterSha256": "08f43107e854514d008d839f372ffe671ee1b5bb438af9230da81a4358ec4008",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/alibaba-a/prompt.md",
+      "beforeSha256": "58ecc9c38ce4882c7ddde8396624c7f0e991b9cb52fb42c2b9d848d7b611fe50",
+      "afterSha256": "7a162809efb84e93b7f60d9c7ecc5e0ae52080a21b601becd9119b24484bd142",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/alibaba-a/job.json",
+      "beforeSha256": "9f66907c522cb98e8dbed4c6005725756192d11c90c794ff2c74dd20c9fb843a",
+      "afterSha256": "90710b513156b3af1d5d9428aa978f6edeeca4742e537c15e312d8c212bd33b6",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/boao-tunnel/prompt.md",
+      "beforeSha256": "2c9993591299d0d49da51c89d423c4eaffc01c2ab6499b6e5e36ddf589848d15",
+      "afterSha256": "e6820d9646df3a3a5236161bdadb0e3bf9ddb871fe9b619a7de5a1f0ede57baf",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/boao-tunnel/job.json",
+      "beforeSha256": "3db1fae4f65f7321e794d6d404c359da1303a1667da94ac903b05075904abe42",
+      "afterSha256": "3b31a77cae5423b9b20f1d9e4a8b2a5abf0bf19b9ca221a7da02519edd71a4ea",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/bai-causeway/prompt.md",
+      "beforeSha256": "679960d3e74db428fbc0b68a1805a0c500d1d40a35569eedf28cce7b23db3880",
+      "afterSha256": "2035787265649940616fa14e3e79c338c6c948a48862c450a63eb380aad0aa25",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/bai-causeway/job.json",
+      "beforeSha256": "7fb829ad3c4fa44aa1652292d4d6c0c8d5dd222550fb533b326ab5a135cf3a40",
+      "afterSha256": "9685f1571804def4b957d1217971542f57ba7a3278b9aaaa385ccc09b8ea9c72",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/hangzhou-gate/prompt.md",
+      "beforeSha256": "3ef77b16ec63a99ab2a0d11f107a813cb5007e2ce6411d843a4330ef20849180",
+      "afterSha256": "06e538127db0aa590e87733f2123b73bd88589867c9bc2f85feffe4327d86ddc",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/hangzhou-gate/job.json",
+      "beforeSha256": "09c74360de5470adc8cd76e11c734a8b981db401632de19f261bb6d5f90f19c7",
+      "afterSha256": "a5c74799fc81ffcd8aed5a16bcf08675c115df6e2b8c3770dbe7e391d3614e4c",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/fuxing-bridge/prompt.md",
+      "beforeSha256": "ece637036b8eb28518fc85dbce4391e17b3d381bf6bd34a1898ad0bee3d68e37",
+      "afterSha256": "3ab2154acc58f5c1cfb7ec5b837ef70284d64080950afc3423459b1af4f327e3",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/fuxing-bridge/job.json",
+      "beforeSha256": "7c89361e6a4008352fcb13d77d2fe4b0d0c9eeb17fd3ef6402576c1103775999",
+      "afterSha256": "5f5d33c6a537959fe58e5fb26f4e9902ed72af05f04c66161b577e806986c733",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/big-lotus/prompt.md",
+      "beforeSha256": "1cc1efadbf61e23147f015a8a8f927b9c2aa330eec0a5d4ee99ca945ed0aa900",
+      "afterSha256": "ee95561dd518c70126326674fac2a3343a68eb5d36edce29186e855dace268af",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/big-lotus/job.json",
+      "beforeSha256": "b750fc9e1461b903ec8ca70fa0af4aa5b44b95bccf8438441b21f14017764e91",
+      "afterSha256": "2995e1069c68dfd333bd121be1aff651f22d6c14007efce507aeffbe54fcaf57",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/cainiao-headquarters/prompt.md",
+      "beforeSha256": "6f3b830e810451afc66e8dd5c730e6c8a40f13cbd45f5386685f4c6540aa778b",
+      "afterSha256": "13668f23d7f7f736f00e6c1a1b66d208ae36fd272772b3a6b986169b18fb0b4a",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/cainiao-headquarters/job.json",
+      "beforeSha256": "e82f919ea62b5046ac914762d14011e7b9067a9bd0dfd9931fdf1c9e3447ad72",
+      "afterSha256": "4ef6d04d610cdaba1e48465e186283bbedbf71e7036799a5ef302b18b6aea5f6",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/su-causeway/prompt.md",
+      "beforeSha256": "0d00eecb830d322068b7066fb8d06572041965603899faed10c750b6ac62ba50",
+      "afterSha256": "d4b0ad5dabe8977cc9f1299f7f21c36d046680920e124a348fd5944c23bdaefa",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "data/hangzhou/jobs/su-causeway/job.json",
+      "beforeSha256": "be19c9f1098ea8dcb472b3f59e48cef25adf8ee4cc1f92b91f765ebb264eac58",
+      "afterSha256": "02b377588811e9b12c987afaf6fa6cdda4f6610ba985099e2fdf995a440a76eb",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "scripts/prepare_tank.py",
+      "beforeSha256": "be6bd1ff7b71875e23070fcc2993c8975c3f364990a00abbd60ff7e49b3b4af7",
+      "afterSha256": "a736e0f49488f7cf4dceefa09a028872815bba09581faf069d061f84f66a0c1d",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "scripts/preview_data.py",
+      "beforeSha256": "22319cb9aa81df49f7290bc0adf64e706b78692976f2b87fbffb6fc59a103224",
+      "afterSha256": "81b9a004318bc6f6fef34c11fc3cb87ae5441203e096c41c80c66c8e5a49ccb0",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "scripts/restore_upstream_baseline.py",
+      "beforeSha256": "638f9d8ff1141044820803c4aeeefc16513fb033f33ac4c952d7ef8117bcf455",
+      "afterSha256": "0d95ad1759e26857aaa08bbcf9c743d0ca80fe7e75122ad6b5a2ba195367e713",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "scripts/prepare_rider.py",
+      "beforeSha256": "07b4510e3a65b7da4272157f696e64c6846470276ca4c1cce03ad18d616056d3",
+      "afterSha256": "0c99d3a528fe16fb257db4d253e6f21b845614900963147ec4153e8b349a60c8",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    },
+    {
+      "path": "scripts/prepare_cafe_characters.py",
+      "beforeSha256": "a3c536186e5f43dd13e148de03d7fa0f1713142d57b78a4deabe01effdea0c6e",
+      "afterSha256": "8175c29c820d8da75ee5f76897659050a0c263d261c91ff708e8c6eaee0a4614",
+      "reason": "Redacted author-specific absolute paths and private LAN addresses; historical hashes remain historical."
+    }
+  ]
+}

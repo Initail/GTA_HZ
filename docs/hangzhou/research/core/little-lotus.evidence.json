@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "placeId": "little-lotus",
+  "name": "杭州奥体中心网球决赛馆（小莲花）",
+  "type": "building",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "little-lotus-2022",
+      "little-lotus-motion",
+      "nbbj-olympic"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "little-lotus-2022",
+      "url": "https://www.hangzhou2022.cn/sssg/sscg/202203/t20220330_46200.shtml",
+      "publisher": "杭州亚运会组委会官网",
+      "title": "杭州奥体中心网球中心",
+      "sourceDate": "2022-04-01",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "网页日期2022/04/01，URL含20220330。建筑面积523000m²与其他总中心约5.2万m²冲突，疑误，不用于足印。"
+    },
+    {
+      "id": "little-lotus-motion",
+      "url": "https://www.hangzhou2022.cn/xwzx/jdxw/ttxw/202206/t20220627_50173.shtml",
+      "publisher": "杭州亚运会组委会官网",
+      "title": "打卡亚运场馆“大小莲花” 高颜值场馆里藏着大智慧",
+      "sourceDate": "2022-06-27",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "官方采访转轴旋转/45°，是现有建筑能力证据，不代表上游游戏实现屋盖互动。"
+    },
+    {
+      "id": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+      "publisher": "NBBJ 设计方",
+      "title": "杭州奥体中心",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "确认与CCDI合作、三层步行空间、公园/浅色地面/地下停车。中文页面积37000m²口径不清，不采用作为足印或综合体面积。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "component_count",
+      "value": {
+        "fixedLowerPetals": 24,
+        "movableUpperPetals": 8
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "little-lotus-2022",
+        "little-lotus-motion"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "24下层固定瓣与8旋转屋盖；相邻主体育场，共享三层步行组织",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "little-lotus-2022",
+        "nbbj-olympic"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "roof_motion",
+      "value": {
+        "rotationDirectionWhenOpening": "counterclockwise",
+        "maxAngle": 45
+      },
+      "unit": "deg",
+      "basis": "reported",
+      "sourceIds": [
+        "little-lotus-motion"
+      ],
+      "uncertainty": "建筑现实能力；不代表上游已有该游戏互动，不要求新增玩法。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "冻一个来源明确的屋盖状态，保持上下层瓣不同节奏；花瓣有独立转轴几何但不据此宣称新增互动。外围决赛馆以外球场另按OSM。"
+  },
+  "referenceImages": [
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/08/100526_00_Hangzhou_N77_screenview.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    },
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/08/100526_00_Hangzhou_Tennis_Swimming_screenview-2000x1334.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    },
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/100526_00_Hangzhou_N82_screenview.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    },
+    {
+      "sourceId": "nbbj-olympic",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/100526_00_Hangzhou_N69_screenview.jpg",
+      "kind": "official-gallery",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "link-resolved-not-visually-reviewed",
+      "license": "unknown"
+    }
+  ],
+  "pendingSubscopes": [
+    "两片半决赛场、预赛与练习场、室内网球馆未做逐对象精修。"
+  ],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "官网523000m²建筑面积疑误，未采用；屋盖15/20分钟描述差异与本轮静态候选无关。总高与平面直径未冻结。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

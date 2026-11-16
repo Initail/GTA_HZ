@@ -1,0 +1,3674 @@
+[
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3285.7884564387605,
+        -2078.565169312268
+      ],
+      [
+        3286.267218105868,
+        -2077.987858939844
+      ],
+      [
+        3285.689907733444,
+        -2077.5090972727367
+      ],
+      [
+        3285.2111460663364,
+        -2078.0864076451608
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3291.150587110365,
+        -2072.0992931411192
+      ],
+      [
+        3291.629348777473,
+        -2071.521982768695
+      ],
+      [
+        3291.0520384050487,
+        -2071.0432211015873
+      ],
+      [
+        3290.5732767379413,
+        -2071.6205314740114
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3284.684710939216,
+        -2066.7371624695143
+      ],
+      [
+        3285.1634726063235,
+        -2066.15985209709
+      ],
+      [
+        3284.5861622338994,
+        -2065.6810904299828
+      ],
+      [
+        3284.107400566792,
+        -2066.258400802407
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3278.2188347680667,
+        -2061.3750317979097
+      ],
+      [
+        3278.697596435174,
+        -2060.7977214254856
+      ],
+      [
+        3278.12028606275,
+        -2060.318959758378
+      ],
+      [
+        3277.6415243956426,
+        -2060.896270130802
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3271.7529585969173,
+        -2056.0129011263048
+      ],
+      [
+        3272.231720264025,
+        -2055.4355907538807
+      ],
+      [
+        3271.654409891601,
+        -2054.9568290867733
+      ],
+      [
+        3271.175648224493,
+        -2055.5341394591974
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3265.287082425768,
+        -2050.6507704547003
+      ],
+      [
+        3265.765844092876,
+        -2050.073460082276
+      ],
+      [
+        3265.1885337204517,
+        -2049.5946984151688
+      ],
+      [
+        3264.7097720533443,
+        -2050.1720087875924
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3296.51271778197,
+        -2065.63341696997
+      ],
+      [
+        3296.9914794490774,
+        -2065.0561065975457
+      ],
+      [
+        3296.4141690766533,
+        -2064.5773449304384
+      ],
+      [
+        3295.935407409546,
+        -2065.154655302862
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3290.0468416108206,
+        -2060.271286298365
+      ],
+      [
+        3290.5256032779284,
+        -2059.6939759259412
+      ],
+      [
+        3289.9482929055043,
+        -2059.2152142588334
+      ],
+      [
+        3289.4695312383965,
+        -2059.7925246312575
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3270.649213097373,
+        -2044.1848942835509
+      ],
+      [
+        3271.1279747644803,
+        -2043.6075839111268
+      ],
+      [
+        3270.5506643920567,
+        -2043.1288222440194
+      ],
+      [
+        3270.071902724949,
+        -2043.7061326164433
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3264.1833369262235,
+        -2038.8227636119461
+      ],
+      [
+        3264.6620985933314,
+        -2038.245453239522
+      ],
+      [
+        3264.0847882209073,
+        -2037.7666915724146
+      ],
+      [
+        3263.6060265537994,
+        -2038.3440019448385
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3301.8748484535745,
+        -2059.1675407988205
+      ],
+      [
+        3302.3536101206823,
+        -2058.5902304263964
+      ],
+      [
+        3301.776299748258,
+        -2058.111468759289
+      ],
+      [
+        3301.297538081151,
+        -2058.688779131713
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3295.4089722824256,
+        -2053.805410127216
+      ],
+      [
+        3295.887733949533,
+        -2053.228099754792
+      ],
+      [
+        3295.310423577109,
+        -2052.749338087684
+      ],
+      [
+        3294.8316619100015,
+        -2053.326648460108
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3276.0113437689774,
+        -2037.7190181124015
+      ],
+      [
+        3276.4901054360853,
+        -2037.1417077399776
+      ],
+      [
+        3275.912795063661,
+        -2036.66294607287
+      ],
+      [
+        3275.434033396554,
+        -2037.240256445294
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3269.5454675978285,
+        -2032.356887440797
+      ],
+      [
+        3270.024229264936,
+        -2031.7795770683729
+      ],
+      [
+        3269.446918892512,
+        -2031.3008154012653
+      ],
+      [
+        3268.9681572254044,
+        -2031.8781257736894
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3307.2369791251795,
+        -2052.701664627671
+      ],
+      [
+        3307.715740792287,
+        -2052.1243542552475
+      ],
+      [
+        3307.1384304198627,
+        -2051.6455925881396
+      ],
+      [
+        3306.6596687527554,
+        -2052.2229029605637
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3300.77110295403,
+        -2047.3395339560666
+      ],
+      [
+        3301.249864621138,
+        -2046.7622235836425
+      ],
+      [
+        3300.672554248714,
+        -2046.2834619165349
+      ],
+      [
+        3300.193792581606,
+        -2046.860772288959
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3281.3734744405824,
+        -2031.2531419412524
+      ],
+      [
+        3281.85223610769,
+        -2030.6758315688282
+      ],
+      [
+        3281.2749257352657,
+        -2030.1970699017209
+      ],
+      [
+        3280.7961640681583,
+        -2030.7743802741447
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3274.907598269433,
+        -2025.8910112696476
+      ],
+      [
+        3275.386359936541,
+        -2025.3137008972235
+      ],
+      [
+        3274.809049564117,
+        -2024.834939230116
+      ],
+      [
+        3274.330287897009,
+        -2025.41224960254
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3312.599109796784,
+        -2046.235788456522
+      ],
+      [
+        3313.077871463892,
+        -2045.658478084098
+      ],
+      [
+        3312.5005610914677,
+        -2045.1797164169905
+      ],
+      [
+        3312.0217994243603,
+        -2045.7570267894146
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3306.133233625635,
+        -2040.8736577849172
+      ],
+      [
+        3306.6119952927424,
+        -2040.2963474124933
+      ],
+      [
+        3306.0346849203183,
+        -2039.8175857453857
+      ],
+      [
+        3305.555923253211,
+        -2040.3948961178098
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3286.735605112187,
+        -2024.7872657701032
+      ],
+      [
+        3287.214366779295,
+        -2024.209955397679
+      ],
+      [
+        3286.6370564068707,
+        -2023.7311937305715
+      ],
+      [
+        3286.1582947397633,
+        -2024.3085041029956
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3280.269728941038,
+        -2019.4251350984985
+      ],
+      [
+        3280.7484906081454,
+        -2018.8478247260744
+      ],
+      [
+        3280.1711802357213,
+        -2018.3690630589667
+      ],
+      [
+        3279.692418568614,
+        -2018.9463734313908
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3317.961240468389,
+        -2039.7699122853728
+      ],
+      [
+        3318.4400021354963,
+        -2039.1926019129487
+      ],
+      [
+        3317.8626917630722,
+        -2038.713840245841
+      ],
+      [
+        3317.383930095965,
+        -2039.2911506182652
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3311.4953642972396,
+        -2034.407781613768
+      ],
+      [
+        3311.974125964347,
+        -2033.830471241344
+      ],
+      [
+        3311.3968155919233,
+        -2033.3517095742363
+      ],
+      [
+        3310.9180539248155,
+        -2033.9290199466604
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3292.097735783792,
+        -2018.3213895989538
+      ],
+      [
+        3292.5764974508993,
+        -2017.7440792265297
+      ],
+      [
+        3291.999187078475,
+        -2017.2653175594223
+      ],
+      [
+        3291.520425411368,
+        -2017.8426279318462
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3285.6318596126425,
+        -2012.959258927349
+      ],
+      [
+        3286.1106212797504,
+        -2012.381948554925
+      ],
+      [
+        3285.5333109073263,
+        -2011.9031868878176
+      ],
+      [
+        3285.0545492402184,
+        -2012.4804972602415
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3323.3233711399935,
+        -2033.3040361142234
+      ],
+      [
+        3323.8021328071013,
+        -2032.7267257417996
+      ],
+      [
+        3323.224822434677,
+        -2032.247964074692
+      ],
+      [
+        3322.7460607675694,
+        -2032.825274447116
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3316.8574949688445,
+        -2027.9419054426187
+      ],
+      [
+        3317.336256635952,
+        -2027.3645950701948
+      ],
+      [
+        3316.758946263528,
+        -2026.8858334030872
+      ],
+      [
+        3316.2801845964204,
+        -2027.4631437755113
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3297.4598664553964,
+        -2011.8555134278047
+      ],
+      [
+        3297.9386281225043,
+        -2011.2782030553806
+      ],
+      [
+        3297.36131775008,
+        -2010.799441388273
+      ],
+      [
+        3296.8825560829728,
+        -2011.376751760697
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3290.9939902842475,
+        -2006.4933827562
+      ],
+      [
+        3291.472751951355,
+        -2005.9160723837758
+      ],
+      [
+        3290.895441578931,
+        -2005.4373107166682
+      ],
+      [
+        3290.4166799118234,
+        -2006.0146210890923
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3284.528114113098,
+        -2001.1312520845952
+      ],
+      [
+        3285.0068757802055,
+        -2000.553941712171
+      ],
+      [
+        3284.4295654077814,
+        -2000.0751800450635
+      ],
+      [
+        3283.950803740674,
+        -2000.6524904174876
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3328.6855018115984,
+        -2026.8381599430743
+      ],
+      [
+        3329.164263478706,
+        -2026.2608495706502
+      ],
+      [
+        3328.5869531062817,
+        -2025.7820879035426
+      ],
+      [
+        3328.1081914391743,
+        -2026.3593982759667
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3322.219625640449,
+        -2021.4760292714695
+      ],
+      [
+        3322.6983873075565,
+        -2020.8987188990454
+      ],
+      [
+        3322.121076935133,
+        -2020.419957231938
+      ],
+      [
+        3321.642315268025,
+        -2020.997267604362
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3315.7537494692997,
+        -2016.1138985998648
+      ],
+      [
+        3316.2325111364075,
+        -2015.5365882274407
+      ],
+      [
+        3315.6552007639834,
+        -2015.0578265603333
+      ],
+      [
+        3315.1764390968756,
+        -2015.6351369327572
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3309.2878732981508,
+        -2010.75176792826
+      ],
+      [
+        3309.766634965258,
+        -2010.174457555836
+      ],
+      [
+        3309.189324592834,
+        -2009.6956958887286
+      ],
+      [
+        3308.7105629257267,
+        -2010.2730062611524
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3302.8219971270014,
+        -2005.3896372566553
+      ],
+      [
+        3303.300758794109,
+        -2004.8123268842312
+      ],
+      [
+        3302.7234484216847,
+        -2004.3335652171238
+      ],
+      [
+        3302.2446867545773,
+        -2004.9108755895477
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3296.356120955852,
+        -2000.0275065850506
+      ],
+      [
+        3296.8348826229594,
+        -1999.4501962126265
+      ],
+      [
+        3296.2575722505358,
+        -1998.971434545519
+      ],
+      [
+        3295.778810583428,
+        -1999.548744917943
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3289.8902447847026,
+        -1994.6653759134458
+      ],
+      [
+        3290.3690064518105,
+        -1994.088065541022
+      ],
+      [
+        3289.7916960793864,
+        -1993.6093038739143
+      ],
+      [
+        3289.312934412279,
+        -1994.1866142463382
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3334.047632483203,
+        -2020.372283771925
+      ],
+      [
+        3334.526394150311,
+        -2019.794973399501
+      ],
+      [
+        3333.9490837778867,
+        -2019.3162117323934
+      ],
+      [
+        3333.470322110779,
+        -2019.8935221048175
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3327.581756312054,
+        -2015.0101531003202
+      ],
+      [
+        3328.0605179791614,
+        -2014.4328427278963
+      ],
+      [
+        3327.4832076067373,
+        -2013.9540810607887
+      ],
+      [
+        3327.00444593963,
+        -2014.5313914332128
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3308.184127798606,
+        -1998.9237610855062
+      ],
+      [
+        3308.6628894657138,
+        -1998.346450713082
+      ],
+      [
+        3308.0855790932897,
+        -1997.8676890459744
+      ],
+      [
+        3307.606817426182,
+        -1998.4449994183985
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3301.718251627457,
+        -1993.5616304139014
+      ],
+      [
+        3302.1970132945644,
+        -1992.9843200414773
+      ],
+      [
+        3301.6197029221403,
+        -1992.5055583743697
+      ],
+      [
+        3301.140941255033,
+        -1993.0828687467938
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3295.2523754563076,
+        -1988.1994997422967
+      ],
+      [
+        3295.731137123415,
+        -1987.6221893698726
+      ],
+      [
+        3295.153826750991,
+        -1987.143427702765
+      ],
+      [
+        3294.6750650838835,
+        -1987.720738075189
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3339.409763154808,
+        -2013.9064076007758
+      ],
+      [
+        3339.8885248219153,
+        -2013.3290972283517
+      ],
+      [
+        3339.311214449491,
+        -2012.8503355612443
+      ],
+      [
+        3338.832452782384,
+        -2013.4276459336681
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3332.9438869836586,
+        -2008.544276929171
+      ],
+      [
+        3333.422648650766,
+        -2007.966966556747
+      ],
+      [
+        3332.8453382783423,
+        -2007.4882048896395
+      ],
+      [
+        3332.3665766112344,
+        -2008.0655152620634
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3307.0803822990615,
+        -1987.095754242752
+      ],
+      [
+        3307.559143966169,
+        -1986.5184438703282
+      ],
+      [
+        3306.9818335937453,
+        -1986.0396822032205
+      ],
+      [
+        3306.5030719266374,
+        -1986.6169925756444
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3300.614506127912,
+        -1981.7336235711473
+      ],
+      [
+        3301.09326779502,
+        -1981.1563131987234
+      ],
+      [
+        3300.515957422596,
+        -1980.6775515316158
+      ],
+      [
+        3300.037195755488,
+        -1981.25486190404
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3344.7718938264125,
+        -2007.4405314296264
+      ],
+      [
+        3345.2506554935203,
+        -2006.8632210572025
+      ],
+      [
+        3344.673345121096,
+        -2006.384459390095
+      ],
+      [
+        3344.1945834539883,
+        -2006.961769762519
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3338.306017655263,
+        -2002.0784007580219
+      ],
+      [
+        3338.784779322371,
+        -2001.5010903855978
+      ],
+      [
+        3338.207468949947,
+        -2001.0223287184901
+      ],
+      [
+        3337.7287072828394,
+        -2001.5996390909143
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3318.9083891418154,
+        -1985.9920087432076
+      ],
+      [
+        3319.3871508089233,
+        -1985.4146983707835
+      ],
+      [
+        3318.809840436499,
+        -1984.935936703676
+      ],
+      [
+        3318.3310787693913,
+        -1985.5132470761
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3312.4425129706665,
+        -1980.629878071603
+      ],
+      [
+        3312.921274637774,
+        -1980.0525676991788
+      ],
+      [
+        3312.3439642653498,
+        -1979.5738060320712
+      ],
+      [
+        3311.8652025982424,
+        -1980.1511164044953
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3305.976636799517,
+        -1975.2677473999981
+      ],
+      [
+        3306.4553984666245,
+        -1974.690437027574
+      ],
+      [
+        3305.8780880942004,
+        -1974.2116753604664
+      ],
+      [
+        3305.399326427093,
+        -1974.7889857328905
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3350.1340244980174,
+        -2000.9746552584772
+      ],
+      [
+        3350.612786165125,
+        -2000.3973448860531
+      ],
+      [
+        3350.0354757927007,
+        -1999.9185832189457
+      ],
+      [
+        3349.5567141255933,
+        -2000.4958935913696
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3343.668148326868,
+        -1995.6125245868725
+      ],
+      [
+        3344.1469099939754,
+        -1995.0352142144484
+      ],
+      [
+        3343.5695996215513,
+        -1994.556452547341
+      ],
+      [
+        3343.090837954444,
+        -1995.1337629197649
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3337.2022721557187,
+        -1990.2503939152678
+      ],
+      [
+        3337.6810338228265,
+        -1989.6730835428436
+      ],
+      [
+        3337.1037234504024,
+        -1989.1943218757363
+      ],
+      [
+        3336.6249617832946,
+        -1989.7716322481601
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3330.7363959845693,
+        -1984.888263243663
+      ],
+      [
+        3331.215157651677,
+        -1984.310952871239
+      ],
+      [
+        3330.637847279253,
+        -1983.8321912041315
+      ],
+      [
+        3330.1590856121456,
+        -1984.4095015765554
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3324.2705198134204,
+        -1979.5261325720583
+      ],
+      [
+        3324.7492814805278,
+        -1978.9488221996344
+      ],
+      [
+        3324.1719711081037,
+        -1978.4700605325268
+      ],
+      [
+        3323.6932094409963,
+        -1979.0473709049506
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3317.804643642271,
+        -1974.1640019004535
+      ],
+      [
+        3318.2834053093784,
+        -1973.5866915280296
+      ],
+      [
+        3317.7060949369547,
+        -1973.107929860922
+      ],
+      [
+        3317.227333269847,
+        -1973.6852402333461
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3311.3387674711216,
+        -1968.8018712288488
+      ],
+      [
+        3311.8175291382295,
+        -1968.224560856425
+      ],
+      [
+        3311.2402187658054,
+        -1967.7457991893173
+      ],
+      [
+        3310.7614570986975,
+        -1968.3231095617414
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3355.496155169622,
+        -1994.508779087328
+      ],
+      [
+        3355.97491683673,
+        -1993.931468714904
+      ],
+      [
+        3355.3976064643057,
+        -1993.4527070477964
+      ],
+      [
+        3354.918844797198,
+        -1994.0300174202205
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3349.0302789984726,
+        -1989.1466484157233
+      ],
+      [
+        3349.5090406655804,
+        -1988.5693380432992
+      ],
+      [
+        3348.9317302931563,
+        -1988.0905763761916
+      ],
+      [
+        3348.452968626049,
+        -1988.6678867486157
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3342.5644028273236,
+        -1983.7845177441186
+      ],
+      [
+        3343.043164494431,
+        -1983.2072073716945
+      ],
+      [
+        3342.465854122007,
+        -1982.7284457045869
+      ],
+      [
+        3341.9870924548995,
+        -1983.305756077011
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3336.0985266561743,
+        -1978.4223870725139
+      ],
+      [
+        3336.5772883232817,
+        -1977.8450767000897
+      ],
+      [
+        3335.9999779508576,
+        -1977.3663150329821
+      ],
+      [
+        3335.52121628375,
+        -1977.9436254054062
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3329.632650485025,
+        -1973.060256400909
+      ],
+      [
+        3330.1114121521327,
+        -1972.482946028485
+      ],
+      [
+        3329.5341017797086,
+        -1972.0041843613774
+      ],
+      [
+        3329.055340112601,
+        -1972.5814947338015
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3323.1667743138755,
+        -1967.6981257293044
+      ],
+      [
+        3323.6455359809834,
+        -1967.1208153568803
+      ],
+      [
+        3323.0682256085593,
+        -1966.6420536897726
+      ],
+      [
+        3322.589463941452,
+        -1967.2193640621967
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3316.7008981427266,
+        -1962.3359950576996
+      ],
+      [
+        3317.179659809834,
+        -1961.7586846852755
+      ],
+      [
+        3316.60234943741,
+        -1961.279923018168
+      ],
+      [
+        3316.1235877703025,
+        -1961.857233390592
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3360.858285841227,
+        -1988.0429029161787
+      ],
+      [
+        3361.3370475083343,
+        -1987.4655925437546
+      ],
+      [
+        3360.75973713591,
+        -1986.9868308766472
+      ],
+      [
+        3360.280975468803,
+        -1987.564141249071
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3354.3924096700775,
+        -1982.680772244574
+      ],
+      [
+        3354.871171337185,
+        -1982.1034618721499
+      ],
+      [
+        3354.293860964761,
+        -1981.6247002050425
+      ],
+      [
+        3353.8150992976534,
+        -1982.2020105774664
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3347.926533498928,
+        -1977.3186415729692
+      ],
+      [
+        3348.405295166036,
+        -1976.7413312005451
+      ],
+      [
+        3347.827984793612,
+        -1976.2625695334377
+      ],
+      [
+        3347.349223126504,
+        -1976.8398799058616
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3341.460657327779,
+        -1971.9565109013645
+      ],
+      [
+        3341.9394189948866,
+        -1971.3792005289406
+      ],
+      [
+        3341.3621086224625,
+        -1970.900438861833
+      ],
+      [
+        3340.883346955355,
+        -1971.4777492342569
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3334.99478115663,
+        -1966.5943802297597
+      ],
+      [
+        3335.4735428237373,
+        -1966.0170698573359
+      ],
+      [
+        3334.896232451313,
+        -1965.5383081902282
+      ],
+      [
+        3334.4174707842058,
+        -1966.1156185626523
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3328.5289049854805,
+        -1961.232249558155
+      ],
+      [
+        3329.007666652588,
+        -1960.654939185731
+      ],
+      [
+        3328.430356280164,
+        -1960.1761775186235
+      ],
+      [
+        3327.9515946130564,
+        -1960.7534878910476
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3322.063028814331,
+        -1955.8701188865502
+      ],
+      [
+        3322.541790481439,
+        -1955.2928085141264
+      ],
+      [
+        3321.964480109015,
+        -1954.8140468470187
+      ],
+      [
+        3321.485718441907,
+        -1955.3913572194429
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3315.5971526431817,
+        -1950.5079882149455
+      ],
+      [
+        3316.0759143102896,
+        -1949.9306778425216
+      ],
+      [
+        3315.4986039378655,
+        -1949.451916175414
+      ],
+      [
+        3315.019842270758,
+        -1950.029226547838
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3366.2204165128314,
+        -1981.5770267450296
+      ],
+      [
+        3366.699178179939,
+        -1980.9997163726055
+      ],
+      [
+        3366.121867807515,
+        -1980.5209547054978
+      ],
+      [
+        3365.6431061404073,
+        -1981.098265077922
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3359.754540341682,
+        -1976.2148960734248
+      ],
+      [
+        3360.23330200879,
+        -1975.6375857010007
+      ],
+      [
+        3359.655991636366,
+        -1975.158824033893
+      ],
+      [
+        3359.1772299692584,
+        -1975.7361344063172
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3333.891035657085,
+        -1954.7663733870058
+      ],
+      [
+        3334.369797324193,
+        -1954.1890630145817
+      ],
+      [
+        3333.7924869517688,
+        -1953.7103013474741
+      ],
+      [
+        3333.3137252846614,
+        -1954.2876117198982
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3327.425159485936,
+        -1949.404242715401
+      ],
+      [
+        3327.9039211530435,
+        -1948.826932342977
+      ],
+      [
+        3327.3266107806194,
+        -1948.3481706758694
+      ],
+      [
+        3326.847849113512,
+        -1948.9254810482935
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3320.9592833147867,
+        -1944.0421120437964
+      ],
+      [
+        3321.438044981894,
+        -1943.4648016713722
+      ],
+      [
+        3320.86073460947,
+        -1942.9860400042649
+      ],
+      [
+        3320.3819729423626,
+        -1943.5633503766887
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3371.5825471844364,
+        -1975.1111505738802
+      ],
+      [
+        3372.061308851544,
+        -1974.533840201456
+      ],
+      [
+        3371.4839984791197,
+        -1974.0550785343487
+      ],
+      [
+        3371.0052368120123,
+        -1974.6323889067726
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3365.116671013287,
+        -1969.7490199022754
+      ],
+      [
+        3365.5954326803944,
+        -1969.1717095298513
+      ],
+      [
+        3365.0181223079703,
+        -1968.692947862744
+      ],
+      [
+        3364.539360640863,
+        -1969.2702582351678
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3339.25316632869,
+        -1948.3004972158565
+      ],
+      [
+        3339.7319279957974,
+        -1947.7231868434326
+      ],
+      [
+        3339.1546176233733,
+        -1947.244425176325
+      ],
+      [
+        3338.675855956266,
+        -1947.821735548749
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3332.7872901575406,
+        -1942.9383665442517
+      ],
+      [
+        3333.2660518246485,
+        -1942.3610561718278
+      ],
+      [
+        3332.6887414522243,
+        -1941.8822945047202
+      ],
+      [
+        3332.2099797851165,
+        -1942.4596048771443
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3326.3214139863912,
+        -1937.576235872647
+      ],
+      [
+        3326.800175653499,
+        -1936.998925500223
+      ],
+      [
+        3326.222865281075,
+        -1936.5201638331155
+      ],
+      [
+        3325.7441036139676,
+        -1937.0974742055396
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3376.944677856041,
+        -1968.645274402731
+      ],
+      [
+        3377.4234395231483,
+        -1968.067964030307
+      ],
+      [
+        3376.8461291507247,
+        -1967.5892023631993
+      ],
+      [
+        3376.367367483617,
+        -1968.1665127356234
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3370.4788016848916,
+        -1963.2831437311263
+      ],
+      [
+        3370.9575633519994,
+        -1962.7058333587022
+      ],
+      [
+        3370.3802529795753,
+        -1962.2270716915946
+      ],
+      [
+        3369.9014913124674,
+        -1962.8043820640187
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3364.0129255137426,
+        -1957.9210130595216
+      ],
+      [
+        3364.49168718085,
+        -1957.3437026870974
+      ],
+      [
+        3363.914376808426,
+        -1956.8649410199898
+      ],
+      [
+        3363.4356151413185,
+        -1957.442251392414
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3338.1494208291456,
+        -1936.4724903731026
+      ],
+      [
+        3338.628182496253,
+        -1935.8951800006785
+      ],
+      [
+        3338.050872123829,
+        -1935.416418333571
+      ],
+      [
+        3337.5721104567215,
+        -1935.993728705995
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3331.683544657996,
+        -1931.1103597014978
+      ],
+      [
+        3332.1623063251036,
+        -1930.5330493290737
+      ],
+      [
+        3331.5849959526795,
+        -1930.0542876619663
+      ],
+      [
+        3331.106234285572,
+        -1930.6315980343902
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3375.8409323564965,
+        -1956.817267559977
+      ],
+      [
+        3376.319694023604,
+        -1956.239957187553
+      ],
+      [
+        3375.74238365118,
+        -1955.7611955204454
+      ],
+      [
+        3375.2636219840724,
+        -1956.3385058928693
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3369.375056185347,
+        -1951.4551368883722
+      ],
+      [
+        3369.8538178524545,
+        -1950.8778265159483
+      ],
+      [
+        3369.276507480031,
+        -1950.3990648488407
+      ],
+      [
+        3368.797745812923,
+        -1950.9763752212648
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3343.51155150075,
+        -1930.0066142019532
+      ],
+      [
+        3343.9903131678575,
+        -1929.4293038295293
+      ],
+      [
+        3343.413002795434,
+        -1928.9505421624217
+      ],
+      [
+        3342.934241128326,
+        -1929.5278525348458
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3337.0456753296007,
+        -1924.6444835303487
+      ],
+      [
+        3337.5244369967086,
+        -1924.0671731579246
+      ],
+      [
+        3336.9471266242845,
+        -1923.588411490817
+      ],
+      [
+        3336.468364957177,
+        -1924.165721863241
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3381.203063028101,
+        -1950.3513913888278
+      ],
+      [
+        3381.681824695209,
+        -1949.7740810164037
+      ],
+      [
+        3381.104514322785,
+        -1949.295319349296
+      ],
+      [
+        3380.625752655677,
+        -1949.8726297217202
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3374.737186856952,
+        -1944.989260717223
+      ],
+      [
+        3375.2159485240595,
+        -1944.411950344799
+      ],
+      [
+        3374.6386381516354,
+        -1943.9331886776913
+      ],
+      [
+        3374.159876484528,
+        -1944.5104990501154
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3348.873682172355,
+        -1923.540738030804
+      ],
+      [
+        3349.3524438394625,
+        -1922.96342765838
+      ],
+      [
+        3348.7751334670384,
+        -1922.4846659912725
+      ],
+      [
+        3348.296371799931,
+        -1923.0619763636964
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3342.4078060012057,
+        -1918.1786073591993
+      ],
+      [
+        3342.886567668313,
+        -1917.6012969867752
+      ],
+      [
+        3342.309257295889,
+        -1917.1225353196678
+      ],
+      [
+        3341.8304956287816,
+        -1917.6998456920917
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3386.565193699706,
+        -1943.8855152176784
+      ],
+      [
+        3387.0439553668134,
+        -1943.3082048452545
+      ],
+      [
+        3386.4666449943893,
+        -1942.829443178147
+      ],
+      [
+        3385.987883327282,
+        -1943.406753550571
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3380.0993175285566,
+        -1938.5233845460737
+      ],
+      [
+        3380.578079195664,
+        -1937.9460741736498
+      ],
+      [
+        3380.0007688232404,
+        -1937.4673125065422
+      ],
+      [
+        3379.5220071561325,
+        -1938.0446228789663
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3354.2358128439596,
+        -1917.074861859655
+      ],
+      [
+        3354.714574511067,
+        -1916.4975514872308
+      ],
+      [
+        3354.1372641386433,
+        -1916.0187898201232
+      ],
+      [
+        3353.6585024715355,
+        -1916.5961001925473
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3347.76993667281,
+        -1911.7127311880502
+      ],
+      [
+        3348.248698339918,
+        -1911.135420815626
+      ],
+      [
+        3347.671387967494,
+        -1910.6566591485184
+      ],
+      [
+        3347.192626300386,
+        -1911.2339695209425
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3391.9273243713105,
+        -1937.4196390465293
+      ],
+      [
+        3392.4060860384184,
+        -1936.8423286741051
+      ],
+      [
+        3391.8287756659943,
+        -1936.3635670069975
+      ],
+      [
+        3391.3500139988864,
+        -1936.9408773794216
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3385.461448200161,
+        -1932.0575083749245
+      ],
+      [
+        3385.940209867269,
+        -1931.4801980025004
+      ],
+      [
+        3385.362899494845,
+        -1931.0014363353928
+      ],
+      [
+        3384.8841378277375,
+        -1931.578746707817
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3378.9955720290122,
+        -1926.6953777033198
+      ],
+      [
+        3379.4743336961196,
+        -1926.1180673308957
+      ],
+      [
+        3378.8970233236955,
+        -1925.639305663788
+      ],
+      [
+        3378.418261656588,
+        -1926.2166160362121
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3359.5979435155646,
+        -1910.6089856885055
+      ],
+      [
+        3360.076705182672,
+        -1910.0316753160814
+      ],
+      [
+        3359.499394810248,
+        -1909.552913648974
+      ],
+      [
+        3359.0206331431405,
+        -1910.130224021398
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3353.132067344415,
+        -1905.2468550169008
+      ],
+      [
+        3353.6108290115226,
+        -1904.6695446444767
+      ],
+      [
+        3353.0335186390985,
+        -1904.1907829773693
+      ],
+      [
+        3352.554756971991,
+        -1904.7680933497932
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3397.2894550429155,
+        -1930.9537628753799
+      ],
+      [
+        3397.768216710023,
+        -1930.376452502956
+      ],
+      [
+        3397.190906337599,
+        -1929.8976908358484
+      ],
+      [
+        3396.7121446704914,
+        -1930.4750012082725
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3390.823578871766,
+        -1925.5916322037751
+      ],
+      [
+        3391.3023405388735,
+        -1925.0143218313513
+      ],
+      [
+        3390.7250301664494,
+        -1924.5355601642436
+      ],
+      [
+        3390.246268499342,
+        -1925.1128705366677
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3384.3577027006168,
+        -1920.2295015321704
+      ],
+      [
+        3384.8364643677246,
+        -1919.6521911597465
+      ],
+      [
+        3384.2591539953005,
+        -1919.173429492639
+      ],
+      [
+        3383.7803923281926,
+        -1919.750739865063
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3377.8918265294674,
+        -1914.8673708605656
+      ],
+      [
+        3378.370588196575,
+        -1914.2900604881418
+      ],
+      [
+        3377.793277824151,
+        -1913.8112988210341
+      ],
+      [
+        3377.3145161570437,
+        -1914.3886091934583
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3371.4259503583185,
+        -1909.5052401889611
+      ],
+      [
+        3371.904712025426,
+        -1908.927929816537
+      ],
+      [
+        3371.3274016530017,
+        -1908.4491681494294
+      ],
+      [
+        3370.8486399858944,
+        -1909.0264785218535
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3364.960074187169,
+        -1904.1431095173564
+      ],
+      [
+        3365.4388358542765,
+        -1903.5657991449323
+      ],
+      [
+        3364.861525481853,
+        -1903.0870374778247
+      ],
+      [
+        3364.382763814745,
+        -1903.6643478502488
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3358.4941980160197,
+        -1898.7809788457516
+      ],
+      [
+        3358.9729596831276,
+        -1898.2036684733275
+      ],
+      [
+        3358.3956493107034,
+        -1897.72490680622
+      ],
+      [
+        3357.9168876435956,
+        -1898.302217178644
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3290.578361205112,
+        -1991.1682854061628
+      ],
+      [
+        3291.0571228722197,
+        -1990.5909750337387
+      ],
+      [
+        3290.4798124997956,
+        -1990.112213366631
+      ],
+      [
+        3290.0010508326877,
+        -1990.6895237390552
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3278.3705968582026,
+        -1981.0444250191722
+      ],
+      [
+        3278.8493585253104,
+        -1980.467114646748
+      ],
+      [
+        3278.2720481528863,
+        -1979.9883529796405
+      ],
+      [
+        3277.7932864857785,
+        -1980.5656633520646
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.247797216956501,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3319.403953877682,
+        -1954.3942417564688
+      ],
+      [
+        3319.8827155447893,
+        -1953.8169313840447
+      ],
+      [
+        3319.3054051723657,
+        -1953.3381697169373
+      ],
+      [
+        3318.826643505258,
+        -1953.9154800893612
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "representative-pier",
+    "polygonGame": [
+      [
+        3306.3475421371613,
+        -1943.566600768333
+      ],
+      [
+        3306.826303804269,
+        -1942.9892903959092
+      ],
+      [
+        3306.248993431845,
+        -1942.5105287288015
+      ],
+      [
+        3305.770231764737,
+        -1943.0878391012257
+      ]
+    ],
+    "minYGame": 0.15790200314201552,
+    "maxYGame": 5.11050630494355,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision; upper profile pier-head envelope, not a new full platform obstacle",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "lower-front-glass-strip",
+    "polygonGame": [
+      [
+        3257.1876905052645,
+        -2050.4752757945557
+      ],
+      [
+        3257.0682882999167,
+        -2050.5934583370827
+      ],
+      [
+        3260.8208729241874,
+        -2054.3847702374037
+      ],
+      [
+        3260.940275129535,
+        -2054.2665876948768
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "lower-front-glass-strip",
+    "polygonGame": [
+      [
+        3260.9402696535894,
+        -2054.266582162931
+      ],
+      [
+        3260.820878400133,
+        -2054.3847757693493
+      ],
+      [
+        3265.7396508610504,
+        -2059.3533897864118
+      ],
+      [
+        3265.8590421145072,
+        -2059.2351961799936
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "lower-front-glass-strip",
+    "polygonGame": [
+      [
+        3265.859041858491,
+        -2059.2351959213843
+      ],
+      [
+        3265.7396511170664,
+        -2059.3533900450207
+      ],
+      [
+        3287.146703094574,
+        -2080.9771707261575
+      ],
+      [
+        3287.2660938359986,
+        -2080.8589766025216
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "lower-front-glass-strip",
+    "polygonGame": [
+      [
+        3287.143234137421,
+        -2080.8626997744154
+      ],
+      [
+        3287.2695627931516,
+        -2080.9734475542637
+      ],
+      [
+        3368.146421248466,
+        -1988.7181913101247
+      ],
+      [
+        3368.0200925927356,
+        -1988.6074435302762
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "lower-front-glass-strip",
+    "polygonGame": [
+      [
+        3368.0089732018446,
+        -1988.6236009806917
+      ],
+      [
+        3368.157540639357,
+        -1988.7020338597092
+      ],
+      [
+        3402.6928655934003,
+        -1923.2852750163554
+      ],
+      [
+        3402.544298155888,
+        -1923.2068421373378
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "lower-front-glass-strip",
+    "polygonGame": [
+      [
+        3402.564960567928,
+        -1923.310717338558
+      ],
+      [
+        3402.67220318136,
+        -1923.1813998151351
+      ],
+      [
+        3358.5591276257624,
+        -1886.5985656880403
+      ],
+      [
+        3358.4518850123304,
+        -1886.7278832114632
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "lower-front-glass-strip",
+    "polygonGame": [
+      [
+        3358.5725217781546,
+        -1886.713869570351
+      ],
+      [
+        3358.438490859938,
+        -1886.6125793291524
+      ],
+      [
+        3318.557176118494,
+        -1939.3849804134807
+      ],
+      [
+        3318.6912070367107,
+        -1939.4862706546794
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 5.167902003142014,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "relation/8718551"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3273.7721704275023,
+        -2050.9324736410567
+      ],
+      [
+        3273.9106775668865,
+        -2051.0275513584224
+      ],
+      [
+        3301.310318528701,
+        -2011.11235361362
+      ],
+      [
+        3301.1718113893166,
+        -2011.017275896254
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826744"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3301.2947773536107,
+        -2011.000231640533
+      ],
+      [
+        3301.187352564407,
+        -2011.129397869341
+      ],
+      [
+        3314.783255316463,
+        -2022.4368193266048
+      ],
+      [
+        3314.8906801056673,
+        -2022.3076530977967
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826744"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3314.9031540931005,
+        -2022.4239601218856
+      ],
+      [
+        3314.77078132903,
+        -2022.3205123025157
+      ],
+      [
+        3285.136909214771,
+        -2060.2402827313726
+      ],
+      [
+        3285.2692819788413,
+        -2060.3437305507423
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826744"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3285.149848560722,
+        -2060.3569739647537
+      ],
+      [
+        3285.25634263289,
+        -2060.227039317361
+      ],
+      [
+        3273.8946710332784,
+        -2050.9150451760433
+      ],
+      [
+        3273.7881769611104,
+        -2051.0449798234363
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826744"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3308.9755995292626,
+        -1996.8175514452764
+      ],
+      [
+        3309.1057360092914,
+        -1996.923798782023
+      ],
+      [
+        3317.794412715613,
+        -1986.2815197631717
+      ],
+      [
+        3317.664276235584,
+        -1986.175272426425
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826741"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3317.7667612723967,
+        -1986.1531898230028
+      ],
+      [
+        3317.6919276788003,
+        -1986.3036023665936
+      ],
+      [
+        3336.408665141064,
+        -1995.6155965079115
+      ],
+      [
+        3336.4834987346603,
+        -1995.4651839643207
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826741"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3336.5117057299317,
+        -1995.5928260818175
+      ],
+      [
+        3336.3804581457925,
+        -1995.4879543904144
+      ],
+      [
+        3320.7870257320274,
+        -2015.0032335411274
+      ],
+      [
+        3320.918273316166,
+        -2015.1081052325305
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826741"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3320.782205635113,
+        -2015.1014259000792
+      ],
+      [
+        3320.9230934130806,
+        -2015.0099128735787
+      ],
+      [
+        3309.111111658261,
+        -1996.8249186003993
+      ],
+      [
+        3308.970223880293,
+        -1996.9164316269
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826741"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3334.5899810635156,
+        -1956.9125115047318
+      ],
+      [
+        3334.734340816094,
+        -1956.9984432324895
+      ],
+      [
+        3362.584291932296,
+        -1910.2123240962358
+      ],
+      [
+        3362.4399321797173,
+        -1910.126392368478
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826742"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3362.572446999071,
+        -1910.1109142878852
+      ],
+      [
+        3362.451777112942,
+        -1910.2278021768286
+      ],
+      [
+        3380.2794406799726,
+        -1928.6322934549721
+      ],
+      [
+        3380.4001105661014,
+        -1928.515405566029
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826742"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3380.4114344805935,
+        -1928.6176788172909
+      ],
+      [
+        3380.268116765481,
+        -1928.5300202037101
+      ],
+      [
+        3352.1930105720853,
+        -1974.4314998965872
+      ],
+      [
+        3352.3363282871983,
+        -1974.519158510168
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826742"
+    ]
+  },
+  {
+    "kind": "glazed-wall-strip",
+    "polygonGame": [
+      [
+        3352.2054124084257,
+        -1974.5348657924353
+      ],
+      [
+        3352.323926450858,
+        -1974.41579261432
+      ],
+      [
+        3334.721417961021,
+        -1956.895940779553
+      ],
+      [
+        3334.6029039185887,
+        -1957.0150139576683
+      ]
+    ],
+    "minYGame": 1.9579020031420153,
+    "maxYGame": 7.357902003142015,
+    "basis": "estimated structure registered to fixed OSM footprint; not surveyed collision",
+    "sourceFeatureIds": [
+      "way/626826742"
+    ]
+  }
+]

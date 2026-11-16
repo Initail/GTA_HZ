@@ -1,0 +1,4525 @@
+[
+  {
+    "id": "way/557050557#0",
+    "sourceRoad": {
+      "id": "way/557050557#0",
+      "sourceId": "way/557050557",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3175.9855634202245,
+          -2157.6888139362086
+        ],
+        [
+          3219.5617307141274,
+          -2096.9347035876235
+        ],
+        [
+          3222.1019418443016,
+          -2092.9438489554955
+        ],
+        [
+          3226.680095085223,
+          -2085.361225154617
+        ],
+        [
+          3233.7407273853273,
+          -2073.501735473182
+        ],
+        [
+          3274.8979208986298,
+          -1995.2876361095382
+        ]
+      ],
+      "nodeIds": [
+        "5372764513",
+        "361013730",
+        "3439149586",
+        "3386084106",
+        "361013732",
+        "361013734"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        4.88990906559643,
+        4.767532615845437,
+        4.757597800196787,
+        4.749490917638635,
+        5.130076668987199,
+        5.852615903429586
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "lengthGame": 190.5382307451469,
+    "nodeStations": [
+      0.0,
+      74.76592994321857,
+      79.49663742525955,
+      88.35415800401121,
+      102.1563326146055,
+      190.5382307451469
+    ],
+    "sharedNodeConnections": [
+      {
+        "nodeId": "5372764513",
+        "station": 0.0,
+        "connections": [
+          {
+            "roadId": "way/557050553#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 4.88990906559643
+          },
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 4.88990906559643
+          }
+        ]
+      },
+      {
+        "nodeId": "361013730",
+        "station": 74.76592994321857,
+        "connections": [
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 4.767532615845437
+          },
+          {
+            "roadId": "way/595993911#0",
+            "nodeIndex": 3,
+            "rawEstimatedY": 4.767532615845437
+          }
+        ]
+      },
+      {
+        "nodeId": "3439149586",
+        "station": 79.49663742525955,
+        "connections": [
+          {
+            "roadId": "way/336828925#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 4.757597800196787
+          },
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 4.757597800196787
+          }
+        ]
+      },
+      {
+        "nodeId": "3386084106",
+        "station": 88.35415800401121,
+        "connections": [
+          {
+            "roadId": "way/51718751#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 4.749490917638635
+          },
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 3,
+            "rawEstimatedY": 4.749490917638635
+          }
+        ]
+      },
+      {
+        "nodeId": "361013732",
+        "station": 102.1563326146055,
+        "connections": [
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 4,
+            "rawEstimatedY": 5.130076668987199
+          }
+        ]
+      },
+      {
+        "nodeId": "361013734",
+        "station": 190.5382307451469,
+        "connections": [
+          {
+            "roadId": "way/157967583#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.852615903429586
+          },
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 5,
+            "rawEstimatedY": 5.852615903429586
+          }
+        ]
+      }
+    ],
+    "occupiedCrossSections": [],
+    "minRawClearance": null,
+    "minConservativeTargetY": null
+  },
+  {
+    "id": "way/157967583#0",
+    "sourceRoad": {
+      "id": "way/157967583#0",
+      "sourceId": "way/157967583",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3274.8979208986298,
+          -1995.2876361095382
+        ],
+        [
+          3313.57840856034,
+          -1923.325875669475
+        ]
+      ],
+      "nodeIds": [
+        "361013734",
+        "361013736"
+      ],
+      "grade": "-1",
+      "bridge": "no",
+      "tunnel": "yes",
+      "elevationStatus": "pending-deck-ramp-and-DEM",
+      "heights": [
+        5.852615903429586,
+        5.373177284613926
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "lengthGame": 81.6986847591855,
+    "nodeStations": [
+      0.0,
+      81.6986847591855
+    ],
+    "sharedNodeConnections": [
+      {
+        "nodeId": "361013734",
+        "station": 0.0,
+        "connections": [
+          {
+            "roadId": "way/157967583#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.852615903429586
+          },
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 5,
+            "rawEstimatedY": 5.852615903429586
+          }
+        ]
+      },
+      {
+        "nodeId": "361013736",
+        "station": 81.6986847591855,
+        "connections": [
+          {
+            "roadId": "way/157967583#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 5.373177284613926
+          },
+          {
+            "roadId": "way/157967584#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.373177284613926
+          }
+        ]
+      }
+    ],
+    "occupiedCrossSections": [
+      {
+        "station": 5.0,
+        "point": [
+          3277.2651859149346,
+          -1990.8835407038302
+        ],
+        "rawEstimatedRoadY": 5.823274022331448,
+        "minimumActualSlabBottomY": 5.217570507056573,
+        "rawVerticalClearance": -0.6057035152748753,
+        "conservativeTargetYAt3point6Clearance": 1.617570507056573,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 5.5,
+        "point": [
+          3277.501912416565,
+          -1990.4431311632593
+        ],
+        "rawEstimatedRoadY": 5.820339834221635,
+        "minimumActualSlabBottomY": 5.217959992054502,
+        "rawVerticalClearance": -0.6023798421671325,
+        "conservativeTargetYAt3point6Clearance": 1.617959992054502,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 6.0,
+        "point": [
+          3277.7386389181956,
+          -1990.0027216226886
+        ],
+        "rawEstimatedRoadY": 5.81740564611182,
+        "minimumActualSlabBottomY": 5.218349476967636,
+        "rawVerticalClearance": -0.599056169144184,
+        "conservativeTargetYAt3point6Clearance": 1.6183494769676359,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 6.5,
+        "point": [
+          3277.975365419826,
+          -1989.5623120821178
+        ],
+        "rawEstimatedRoadY": 5.814471458002006,
+        "minimumActualSlabBottomY": 5.218739145990484,
+        "rawVerticalClearance": -0.5957323120115223,
+        "conservativeTargetYAt3point6Clearance": 1.6187391459904839,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 7.0,
+        "point": [
+          3278.2120919214567,
+          -1989.121902541547
+        ],
+        "rawEstimatedRoadY": 5.811537269892193,
+        "minimumActualSlabBottomY": 5.219128126028826,
+        "rawVerticalClearance": -0.5924091438633674,
+        "conservativeTargetYAt3point6Clearance": 1.619128126028826,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 7.5,
+        "point": [
+          3278.4488184230872,
+          -1988.6814930009762
+        ],
+        "rawEstimatedRoadY": 5.80860308178238,
+        "minimumActualSlabBottomY": 5.219517015115037,
+        "rawVerticalClearance": -0.5890860666673428,
+        "conservativeTargetYAt3point6Clearance": 1.6195170151150369,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 8.0,
+        "point": [
+          3278.6855449247178,
+          -1988.2410834604054
+        ],
+        "rawEstimatedRoadY": 5.805668893672565,
+        "minimumActualSlabBottomY": 5.219906884350647,
+        "rawVerticalClearance": -0.5857620093219182,
+        "conservativeTargetYAt3point6Clearance": 1.6199068843506468,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 8.5,
+        "point": [
+          3278.9222714263483,
+          -1987.8006739198345
+        ],
+        "rawEstimatedRoadY": 5.802734705562751,
+        "minimumActualSlabBottomY": 5.220296465064874,
+        "rawVerticalClearance": -0.5824382404978774,
+        "conservativeTargetYAt3point6Clearance": 1.620296465064874,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 9.0,
+        "point": [
+          3279.158997927979,
+          -1987.3602643792638
+        ],
+        "rawEstimatedRoadY": 5.799800517452938,
+        "minimumActualSlabBottomY": 5.220685888560618,
+        "rawVerticalClearance": -0.5791146288923192,
+        "conservativeTargetYAt3point6Clearance": 1.6206858885606183,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 9.5,
+        "point": [
+          3279.3957244296093,
+          -1986.919854838693
+        ],
+        "rawEstimatedRoadY": 5.796866329343124,
+        "minimumActualSlabBottomY": 5.220292082027831,
+        "rawVerticalClearance": -0.5765742473152926,
+        "conservativeTargetYAt3point6Clearance": 1.6202920820278313,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 10.0,
+        "point": [
+          3279.63245093124,
+          -1986.479445298122
+        ],
+        "rawEstimatedRoadY": 5.793932141233309,
+        "minimumActualSlabBottomY": 5.218683597951403,
+        "rawVerticalClearance": -0.5752485432819068,
+        "conservativeTargetYAt3point6Clearance": 1.6186835979514025,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 10.5,
+        "point": [
+          3279.8691774328704,
+          -1986.0390357575513
+        ],
+        "rawEstimatedRoadY": 5.790997953123496,
+        "minimumActualSlabBottomY": 5.217075113874974,
+        "rawVerticalClearance": -0.5739228392485218,
+        "conservativeTargetYAt3point6Clearance": 1.6170751138749737,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 11.0,
+        "point": [
+          3280.105903934501,
+          -1985.5986262169806
+        ],
+        "rawEstimatedRoadY": 5.788063765013682,
+        "minimumActualSlabBottomY": 5.215466629798545,
+        "rawVerticalClearance": -0.5725971352151369,
+        "conservativeTargetYAt3point6Clearance": 1.615466629798545,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 11.5,
+        "point": [
+          3280.3426304361315,
+          -1985.1582166764097
+        ],
+        "rawEstimatedRoadY": 5.785129576903869,
+        "minimumActualSlabBottomY": 5.213858145722116,
+        "rawVerticalClearance": -0.5712714311817528,
+        "conservativeTargetYAt3point6Clearance": 1.6138581457221162,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 12.0,
+        "point": [
+          3280.579356937762,
+          -1984.717807135839
+        ],
+        "rawEstimatedRoadY": 5.7821953887940545,
+        "minimumActualSlabBottomY": 5.2122496616456875,
+        "rawVerticalClearance": -0.569945727148367,
+        "conservativeTargetYAt3point6Clearance": 1.6122496616456874,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 12.5,
+        "point": [
+          3280.8160834393925,
+          -1984.2773975952682
+        ],
+        "rawEstimatedRoadY": 5.779261200684241,
+        "minimumActualSlabBottomY": 5.210641177569259,
+        "rawVerticalClearance": -0.568620023114982,
+        "conservativeTargetYAt3point6Clearance": 1.6106411775692586,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 13.0,
+        "point": [
+          3281.0528099410226,
+          -1983.8369880546973
+        ],
+        "rawEstimatedRoadY": 5.776327012574427,
+        "minimumActualSlabBottomY": 5.209032693492833,
+        "rawVerticalClearance": -0.5672943190815944,
+        "conservativeTargetYAt3point6Clearance": 1.6090326934928325,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 13.5,
+        "point": [
+          3281.289536442653,
+          -1983.3965785141265
+        ],
+        "rawEstimatedRoadY": 5.773392824464613,
+        "minimumActualSlabBottomY": 5.207424209416405,
+        "rawVerticalClearance": -0.5659686150482086,
+        "conservativeTargetYAt3point6Clearance": 1.6074242094164046,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 14.0,
+        "point": [
+          3281.5262629442836,
+          -1982.9561689735558
+        ],
+        "rawEstimatedRoadY": 5.770458636354799,
+        "minimumActualSlabBottomY": 5.205815725339975,
+        "rawVerticalClearance": -0.5646429110148237,
+        "conservativeTargetYAt3point6Clearance": 1.605815725339975,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 14.5,
+        "point": [
+          3281.762989445914,
+          -1982.5157594329849
+        ],
+        "rawEstimatedRoadY": 5.767524448244986,
+        "minimumActualSlabBottomY": 5.204207241263546,
+        "rawVerticalClearance": -0.5633172069814396,
+        "conservativeTargetYAt3point6Clearance": 1.6042072412635462,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 15.0,
+        "point": [
+          3281.9997159475447,
+          -1982.0753498924141
+        ],
+        "rawEstimatedRoadY": 5.764590260135172,
+        "minimumActualSlabBottomY": 5.2025987571871175,
+        "rawVerticalClearance": -0.5619915029480547,
+        "conservativeTargetYAt3point6Clearance": 1.6025987571871174,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 15.5,
+        "point": [
+          3282.2364424491752,
+          -1981.6349403518434
+        ],
+        "rawEstimatedRoadY": 5.7616560720253585,
+        "minimumActualSlabBottomY": 5.20099027311069,
+        "rawVerticalClearance": -0.5606657989146688,
+        "conservativeTargetYAt3point6Clearance": 1.6009902731106895,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 16.0,
+        "point": [
+          3282.4731689508058,
+          -1981.1945308112724
+        ],
+        "rawEstimatedRoadY": 5.758721883915544,
+        "minimumActualSlabBottomY": 5.19938178903426,
+        "rawVerticalClearance": -0.5593400948812839,
+        "conservativeTargetYAt3point6Clearance": 1.5993817890342599,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 16.5,
+        "point": [
+          3282.7098954524363,
+          -1980.7541212707017
+        ],
+        "rawEstimatedRoadY": 5.755787695805731,
+        "minimumActualSlabBottomY": 5.197773304957831,
+        "rawVerticalClearance": -0.5580143908478998,
+        "conservativeTargetYAt3point6Clearance": 1.597773304957831,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 17.0,
+        "point": [
+          3282.946621954067,
+          -1980.313711730131
+        ],
+        "rawEstimatedRoadY": 5.752853507695916,
+        "minimumActualSlabBottomY": 5.196164820881402,
+        "rawVerticalClearance": -0.556688686814514,
+        "conservativeTargetYAt3point6Clearance": 1.5961648208814023,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 17.5,
+        "point": [
+          3283.1833484556973,
+          -1979.87330218956
+        ],
+        "rawEstimatedRoadY": 5.749919319586103,
+        "minimumActualSlabBottomY": 5.194556336804974,
+        "rawVerticalClearance": -0.555362982781129,
+        "conservativeTargetYAt3point6Clearance": 1.5945563368049736,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 18.0,
+        "point": [
+          3283.420074957328,
+          -1979.4328926489893
+        ],
+        "rawEstimatedRoadY": 5.746985131476288,
+        "minimumActualSlabBottomY": 5.192947852728545,
+        "rawVerticalClearance": -0.5540372787477432,
+        "conservativeTargetYAt3point6Clearance": 1.5929478527285448,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 18.5,
+        "point": [
+          3283.6568014589584,
+          -1978.9924831084186
+        ],
+        "rawEstimatedRoadY": 5.744050943366474,
+        "minimumActualSlabBottomY": 5.191339368652116,
+        "rawVerticalClearance": -0.5527115747143583,
+        "conservativeTargetYAt3point6Clearance": 1.591339368652116,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 19.0,
+        "point": [
+          3283.893527960589,
+          -1978.5520735678479
+        ],
+        "rawEstimatedRoadY": 5.741116755256661,
+        "minimumActualSlabBottomY": 5.189730884575687,
+        "rawVerticalClearance": -0.5513858706809733,
+        "conservativeTargetYAt3point6Clearance": 1.5897308845756872,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 19.5,
+        "point": [
+          3284.1302544622195,
+          -1978.111664027277
+        ],
+        "rawEstimatedRoadY": 5.738182567146847,
+        "minimumActualSlabBottomY": 5.1881224004992585,
+        "rawVerticalClearance": -0.5500601666475884,
+        "conservativeTargetYAt3point6Clearance": 1.5881224004992585,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 20.0,
+        "point": [
+          3284.36698096385,
+          -1977.6712544867062
+        ],
+        "rawEstimatedRoadY": 5.735248379037033,
+        "minimumActualSlabBottomY": 5.18651391642283,
+        "rawVerticalClearance": -0.5487344626142034,
+        "conservativeTargetYAt3point6Clearance": 1.5865139164228297,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 20.5,
+        "point": [
+          3284.6037074654805,
+          -1977.2308449461354
+        ],
+        "rawEstimatedRoadY": 5.7323141909272195,
+        "minimumActualSlabBottomY": 5.184905432346401,
+        "rawVerticalClearance": -0.5474087585808185,
+        "conservativeTargetYAt3point6Clearance": 1.584905432346401,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 21.0,
+        "point": [
+          3284.8404339671106,
+          -1976.7904354055645
+        ],
+        "rawEstimatedRoadY": 5.729380002817406,
+        "minimumActualSlabBottomY": 5.183296948269975,
+        "rawVerticalClearance": -0.5460830545474309,
+        "conservativeTargetYAt3point6Clearance": 1.5832969482699748,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 21.5,
+        "point": [
+          3285.077160468741,
+          -1976.3500258649938
+        ],
+        "rawEstimatedRoadY": 5.726445814707592,
+        "minimumActualSlabBottomY": 5.181688464193546,
+        "rawVerticalClearance": -0.544757350514046,
+        "conservativeTargetYAt3point6Clearance": 1.581688464193546,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 22.0,
+        "point": [
+          3285.3138869703716,
+          -1975.909616324423
+        ],
+        "rawEstimatedRoadY": 5.723511626597778,
+        "minimumActualSlabBottomY": 5.180079980117117,
+        "rawVerticalClearance": -0.543431646480661,
+        "conservativeTargetYAt3point6Clearance": 1.5800799801171173,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 22.5,
+        "point": [
+          3285.550613472002,
+          -1975.469206783852
+        ],
+        "rawEstimatedRoadY": 5.720577438487965,
+        "minimumActualSlabBottomY": 5.179202104934772,
+        "rawVerticalClearance": -0.5413753335531926,
+        "conservativeTargetYAt3point6Clearance": 1.579202104934772,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 23.0,
+        "point": [
+          3285.7873399736327,
+          -1975.0287972432814
+        ],
+        "rawEstimatedRoadY": 5.717643250378151,
+        "minimumActualSlabBottomY": 5.179271521535082,
+        "rawVerticalClearance": -0.5383717288430692,
+        "conservativeTargetYAt3point6Clearance": 1.5792715215350817,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 23.5,
+        "point": [
+          3286.024066475263,
+          -1974.5883877027106
+        ],
+        "rawEstimatedRoadY": 5.714709062268337,
+        "minimumActualSlabBottomY": 5.179340949095334,
+        "rawVerticalClearance": -0.5353681131730035,
+        "conservativeTargetYAt3point6Clearance": 1.5793409490953336,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 24.0,
+        "point": [
+          3286.2607929768938,
+          -1974.1479781621397
+        ],
+        "rawEstimatedRoadY": 5.7117748741585235,
+        "minimumActualSlabBottomY": 5.179410515859642,
+        "rawVerticalClearance": -0.5323643582988815,
+        "conservativeTargetYAt3point6Clearance": 1.5794105158596419,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 24.5,
+        "point": [
+          3286.4975194785243,
+          -1973.707568621569
+        ],
+        "rawEstimatedRoadY": 5.70884068604871,
+        "minimumActualSlabBottomY": 5.179480115102746,
+        "rawVerticalClearance": -0.5293605709459639,
+        "conservativeTargetYAt3point6Clearance": 1.5794801151027458,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 25.0,
+        "point": [
+          3286.734245980155,
+          -1973.2671590809982
+        ],
+        "rawEstimatedRoadY": 5.705906497938895,
+        "minimumActualSlabBottomY": 5.179549527272077,
+        "rawVerticalClearance": -0.5263569706668179,
+        "conservativeTargetYAt3point6Clearance": 1.5795495272720772,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 25.5,
+        "point": [
+          3286.9709724817853,
+          -1972.8267495404273
+        ],
+        "rawEstimatedRoadY": 5.702972309829081,
+        "minimumActualSlabBottomY": 5.179618877502821,
+        "rawVerticalClearance": -0.5233534323262603,
+        "conservativeTargetYAt3point6Clearance": 1.579618877502821,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 47.5,
+        "point": [
+          3297.386938553527,
+          -1953.4487297553121
+        ],
+        "rawEstimatedRoadY": 5.573868032997273,
+        "minimumActualSlabBottomY": 5.094310456494199,
+        "rawVerticalClearance": -0.4795575765030744,
+        "conservativeTargetYAt3point6Clearance": 1.494310456494199,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 48.0,
+        "point": [
+          3297.6236650551577,
+          -1953.0083202147412
+        ],
+        "rawEstimatedRoadY": 5.57093384488746,
+        "minimumActualSlabBottomY": 5.078217402513776,
+        "rawVerticalClearance": -0.49271644237368406,
+        "conservativeTargetYAt3point6Clearance": 1.4782174025137755,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 48.5,
+        "point": [
+          3297.8603915567883,
+          -1952.5679106741704
+        ],
+        "rawEstimatedRoadY": 5.567999656777646,
+        "minimumActualSlabBottomY": 5.070841082762835,
+        "rawVerticalClearance": -0.49715857401481056,
+        "conservativeTargetYAt3point6Clearance": 1.4708410827628353,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 49.0,
+        "point": [
+          3298.097118058419,
+          -1952.1275011335997
+        ],
+        "rawEstimatedRoadY": 5.565065468667831,
+        "minimumActualSlabBottomY": 5.070879631891567,
+        "rawVerticalClearance": -0.49418583677626415,
+        "conservativeTargetYAt3point6Clearance": 1.4708796318915671,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 49.5,
+        "point": [
+          3298.3338445600493,
+          -1951.6870915930288
+        ],
+        "rawEstimatedRoadY": 5.562131280558018,
+        "minimumActualSlabBottomY": 5.070883004444121,
+        "rawVerticalClearance": -0.49124827611389676,
+        "conservativeTargetYAt3point6Clearance": 1.4708830044441208,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 50.0,
+        "point": [
+          3298.57057106168,
+          -1951.246682052458
+        ],
+        "rawEstimatedRoadY": 5.559197092448204,
+        "minimumActualSlabBottomY": 5.070907625669853,
+        "rawVerticalClearance": -0.48828946677835106,
+        "conservativeTargetYAt3point6Clearance": 1.4709076256698528,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 50.5,
+        "point": [
+          3298.8072975633104,
+          -1950.8062725118873
+        ],
+        "rawEstimatedRoadY": 5.55626290433839,
+        "minimumActualSlabBottomY": 5.070932246895587,
+        "rawVerticalClearance": -0.48533065744280357,
+        "conservativeTargetYAt3point6Clearance": 1.4709322468955865,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 51.0,
+        "point": [
+          3299.044024064941,
+          -1950.3658629713163
+        ],
+        "rawEstimatedRoadY": 5.5533287162285765,
+        "minimumActualSlabBottomY": 5.0709568681213195,
+        "rawVerticalClearance": -0.482371848107257,
+        "conservativeTargetYAt3point6Clearance": 1.4709568681213194,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 51.5,
+        "point": [
+          3299.2807505665714,
+          -1949.9254534307456
+        ],
+        "rawEstimatedRoadY": 5.550394528118762,
+        "minimumActualSlabBottomY": 5.0709814893470515,
+        "rawVerticalClearance": -0.4794130387717104,
+        "conservativeTargetYAt3point6Clearance": 1.4709814893470514,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 52.0,
+        "point": [
+          3299.517477068202,
+          -1949.485043890175
+        ],
+        "rawEstimatedRoadY": 5.547460340008948,
+        "minimumActualSlabBottomY": 5.071006110572785,
+        "rawVerticalClearance": -0.4764542294361629,
+        "conservativeTargetYAt3point6Clearance": 1.4710061105727852,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 52.5,
+        "point": [
+          3299.7542035698325,
+          -1949.044634349604
+        ],
+        "rawEstimatedRoadY": 5.5445261518991344,
+        "minimumActualSlabBottomY": 5.071030731798517,
+        "rawVerticalClearance": -0.4734954201006172,
+        "conservativeTargetYAt3point6Clearance": 1.4710307317985172,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 53.0,
+        "point": [
+          3299.990930071463,
+          -1948.6042248090332
+        ],
+        "rawEstimatedRoadY": 5.541591963789321,
+        "minimumActualSlabBottomY": 5.071045766878923,
+        "rawVerticalClearance": -0.4705461969103979,
+        "conservativeTargetYAt3point6Clearance": 1.4710457668789227,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 53.5,
+        "point": [
+          3300.2276565730936,
+          -1948.1638152684625
+        ],
+        "rawEstimatedRoadY": 5.538657775679507,
+        "minimumActualSlabBottomY": 5.070974287048232,
+        "rawVerticalClearance": -0.46768348863127507,
+        "conservativeTargetYAt3point6Clearance": 1.4709742870482319,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 54.0,
+        "point": [
+          3300.464383074724,
+          -1947.7234057278915
+        ],
+        "rawEstimatedRoadY": 5.535723587569693,
+        "minimumActualSlabBottomY": 5.070946823332819,
+        "rawVerticalClearance": -0.4647767642368743,
+        "conservativeTargetYAt3point6Clearance": 1.470946823332819,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 54.5,
+        "point": [
+          3300.701109576354,
+          -1947.2829961873208
+        ],
+        "rawEstimatedRoadY": 5.53278939945988,
+        "minimumActualSlabBottomY": 5.070957824519601,
+        "rawVerticalClearance": -0.4618315749402786,
+        "conservativeTargetYAt3point6Clearance": 1.4709578245196009,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 55.0,
+        "point": [
+          3300.9378360779847,
+          -1946.84258664675
+        ],
+        "rawEstimatedRoadY": 5.529855211350066,
+        "minimumActualSlabBottomY": 5.070968825706385,
+        "rawVerticalClearance": -0.4588863856436811,
+        "conservativeTargetYAt3point6Clearance": 1.4709688257063847,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 55.5,
+        "point": [
+          3301.174562579615,
+          -1946.4021771061794
+        ],
+        "rawEstimatedRoadY": 5.526921023240252,
+        "minimumActualSlabBottomY": 5.070979826893169,
+        "rawVerticalClearance": -0.45594119634708274,
+        "conservativeTargetYAt3point6Clearance": 1.4709798268931693,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 56.0,
+        "point": [
+          3301.4112890812457,
+          -1945.9617675656084
+        ],
+        "rawEstimatedRoadY": 5.523986835130438,
+        "minimumActualSlabBottomY": 5.070990828079953,
+        "rawVerticalClearance": -0.45299600705048526,
+        "conservativeTargetYAt3point6Clearance": 1.470990828079953,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 56.5,
+        "point": [
+          3301.6480155828763,
+          -1945.5213580250377
+        ],
+        "rawEstimatedRoadY": 5.521052647020625,
+        "minimumActualSlabBottomY": 5.071001829266736,
+        "rawVerticalClearance": -0.45005081775388867,
+        "conservativeTargetYAt3point6Clearance": 1.471001829266736,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 57.0,
+        "point": [
+          3301.884742084507,
+          -1945.0809484844667
+        ],
+        "rawEstimatedRoadY": 5.51811845891081,
+        "minimumActualSlabBottomY": 5.070953423461539,
+        "rawVerticalClearance": -0.4471650354492711,
+        "conservativeTargetYAt3point6Clearance": 1.470953423461539,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 57.5,
+        "point": [
+          3302.1214685861373,
+          -1944.640538943896
+        ],
+        "rawEstimatedRoadY": 5.515184270800996,
+        "minimumActualSlabBottomY": 5.070868233836084,
+        "rawVerticalClearance": -0.4443160369649126,
+        "conservativeTargetYAt3point6Clearance": 1.4708682338360837,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 58.0,
+        "point": [
+          3302.358195087768,
+          -1944.2001294033253
+        ],
+        "rawEstimatedRoadY": 5.512250082691183,
+        "minimumActualSlabBottomY": 5.070783044210627,
+        "rawVerticalClearance": -0.4414670384805559,
+        "conservativeTargetYAt3point6Clearance": 1.4707830442106267,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 58.5,
+        "point": [
+          3302.5949215893984,
+          -1943.7597198627545
+        ],
+        "rawEstimatedRoadY": 5.509315894581369,
+        "minimumActualSlabBottomY": 5.0707674635497275,
+        "rawVerticalClearance": -0.43854843103164143,
+        "conservativeTargetYAt3point6Clearance": 1.4707674635497274,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 59.0,
+        "point": [
+          3302.831648091029,
+          -1943.3193103221836
+        ],
+        "rawEstimatedRoadY": 5.506381706471555,
+        "minimumActualSlabBottomY": 5.070764949593782,
+        "rawVerticalClearance": -0.43561675687777335,
+        "conservativeTargetYAt3point6Clearance": 1.4707649495937818,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 59.5,
+        "point": [
+          3303.0683745926594,
+          -1942.8789007816129
+        ],
+        "rawEstimatedRoadY": 5.503447518361741,
+        "minimumActualSlabBottomY": 5.070762435637837,
+        "rawVerticalClearance": -0.4326850827239035,
+        "conservativeTargetYAt3point6Clearance": 1.470762435637837,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 60.0,
+        "point": [
+          3303.30510109429,
+          -1942.4384912410421
+        ],
+        "rawEstimatedRoadY": 5.500513330251927,
+        "minimumActualSlabBottomY": 5.070759921681892,
+        "rawVerticalClearance": -0.4297534085700345,
+        "conservativeTargetYAt3point6Clearance": 1.4707599216818923,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 60.5,
+        "point": [
+          3303.5418275959205,
+          -1941.9980817004712
+        ],
+        "rawEstimatedRoadY": 5.497579142142113,
+        "minimumActualSlabBottomY": 5.070738052950931,
+        "rawVerticalClearance": -0.426841089191182,
+        "conservativeTargetYAt3point6Clearance": 1.470738052950931,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 61.0,
+        "point": [
+          3303.778554097551,
+          -1941.5576721599004
+        ],
+        "rawEstimatedRoadY": 5.4946449540323,
+        "minimumActualSlabBottomY": 5.070639518540909,
+        "rawVerticalClearance": -0.4240054354913916,
+        "conservativeTargetYAt3point6Clearance": 1.4706395185409087,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 61.5,
+        "point": [
+          3304.0152805991816,
+          -1941.1172626193297
+        ],
+        "rawEstimatedRoadY": 5.491710765922486,
+        "minimumActualSlabBottomY": 5.070540984130886,
+        "rawVerticalClearance": -0.42116978179159936,
+        "conservativeTargetYAt3point6Clearance": 1.4705409841308863,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 62.0,
+        "point": [
+          3304.252007100812,
+          -1940.6768530787588
+        ],
+        "rawEstimatedRoadY": 5.488776577812672,
+        "minimumActualSlabBottomY": 5.070442449720863,
+        "rawVerticalClearance": -0.4183341280918089,
+        "conservativeTargetYAt3point6Clearance": 1.470442449720863,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 62.5,
+        "point": [
+          3304.4887336024426,
+          -1940.236443538188
+        ],
+        "rawEstimatedRoadY": 5.485842389702858,
+        "minimumActualSlabBottomY": 5.070283725569819,
+        "rawVerticalClearance": -0.4155586641330391,
+        "conservativeTargetYAt3point6Clearance": 1.4702837255698191,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 63.0,
+        "point": [
+          3304.7254601040727,
+          -1939.7960339976173
+        ],
+        "rawEstimatedRoadY": 5.482908201593045,
+        "minimumActualSlabBottomY": 5.069947717926061,
+        "rawVerticalClearance": -0.4129604836669838,
+        "conservativeTargetYAt3point6Clearance": 1.4699477179260607,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 63.5,
+        "point": [
+          3304.962186605703,
+          -1939.3556244570464
+        ],
+        "rawEstimatedRoadY": 5.479974013483231,
+        "minimumActualSlabBottomY": 5.069611710282302,
+        "rawVerticalClearance": -0.4103623032009285,
+        "conservativeTargetYAt3point6Clearance": 1.4696117102823023,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 64.0,
+        "point": [
+          3305.1989131073337,
+          -1938.9152149164756
+        ],
+        "rawEstimatedRoadY": 5.477039825373417,
+        "minimumActualSlabBottomY": 5.069275702638547,
+        "rawVerticalClearance": -0.4077641227348705,
+        "conservativeTargetYAt3point6Clearance": 1.4692757026385466,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 64.5,
+        "point": [
+          3305.4356396089643,
+          -1938.474805375905
+        ],
+        "rawEstimatedRoadY": 5.4741056372636026,
+        "minimumActualSlabBottomY": 5.06893969499479,
+        "rawVerticalClearance": -0.40516594226881253,
+        "conservativeTargetYAt3point6Clearance": 1.46893969499479,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 65.0,
+        "point": [
+          3305.672366110595,
+          -1938.034395835334
+        ],
+        "rawEstimatedRoadY": 5.47117144915379,
+        "minimumActualSlabBottomY": 5.068603687351033,
+        "rawVerticalClearance": -0.40256776180275633,
+        "conservativeTargetYAt3point6Clearance": 1.4686036873510333,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 65.5,
+        "point": [
+          3305.9090926122253,
+          -1937.5939862947632
+        ],
+        "rawEstimatedRoadY": 5.468237261043975,
+        "minimumActualSlabBottomY": 5.068267679707277,
+        "rawVerticalClearance": -0.39996958133669835,
+        "conservativeTargetYAt3point6Clearance": 1.4682676797072767,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 66.0,
+        "point": [
+          3306.145819113856,
+          -1937.1535767541925
+        ],
+        "rawEstimatedRoadY": 5.465303072934161,
+        "minimumActualSlabBottomY": 5.067931672063521,
+        "rawVerticalClearance": -0.3973714008706404,
+        "conservativeTargetYAt3point6Clearance": 1.467931672063521,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 66.5,
+        "point": [
+          3306.3825456154864,
+          -1936.7131672136215
+        ],
+        "rawEstimatedRoadY": 5.462368884824348,
+        "minimumActualSlabBottomY": 5.067595664419764,
+        "rawVerticalClearance": -0.3947732204045833,
+        "conservativeTargetYAt3point6Clearance": 1.4675956644197643,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 67.0,
+        "point": [
+          3306.619272117117,
+          -1936.2727576730508
+        ],
+        "rawEstimatedRoadY": 5.459434696714534,
+        "minimumActualSlabBottomY": 5.067259656776008,
+        "rawVerticalClearance": -0.3921750399385262,
+        "conservativeTargetYAt3point6Clearance": 1.4672596567760077,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 67.5,
+        "point": [
+          3306.8559986187474,
+          -1935.83234813248
+        ],
+        "rawEstimatedRoadY": 5.45650050860472,
+        "minimumActualSlabBottomY": 5.066923649132251,
+        "rawVerticalClearance": -0.3895768594724691,
+        "conservativeTargetYAt3point6Clearance": 1.466923649132251,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 68.0,
+        "point": [
+          3307.092725120378,
+          -1935.3919385919091
+        ],
+        "rawEstimatedRoadY": 5.4535663204949065,
+        "minimumActualSlabBottomY": 5.0665876414884945,
+        "rawVerticalClearance": -0.38697867900641203,
+        "conservativeTargetYAt3point6Clearance": 1.4665876414884944,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 68.5,
+        "point": [
+          3307.3294516220085,
+          -1934.9515290513384
+        ],
+        "rawEstimatedRoadY": 5.450632132385092,
+        "minimumActualSlabBottomY": 5.066251633844738,
+        "rawVerticalClearance": -0.38438049854035405,
+        "conservativeTargetYAt3point6Clearance": 1.4662516338447378,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 69.0,
+        "point": [
+          3307.566178123639,
+          -1934.5111195107677
+        ],
+        "rawEstimatedRoadY": 5.447697944275279,
+        "minimumActualSlabBottomY": 5.065915626200982,
+        "rawVerticalClearance": -0.38178231807429697,
+        "conservativeTargetYAt3point6Clearance": 1.465915626200982,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 69.5,
+        "point": [
+          3307.8029046252695,
+          -1934.0707099701967
+        ],
+        "rawEstimatedRoadY": 5.4447637561654645,
+        "minimumActualSlabBottomY": 5.0655796185572255,
+        "rawVerticalClearance": -0.379184137608239,
+        "conservativeTargetYAt3point6Clearance": 1.4655796185572254,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 70.0,
+        "point": [
+          3308.0396311269,
+          -1933.630300429626
+        ],
+        "rawEstimatedRoadY": 5.441829568055651,
+        "minimumActualSlabBottomY": 5.065243610913469,
+        "rawVerticalClearance": -0.3765859571421819,
+        "conservativeTargetYAt3point6Clearance": 1.4652436109134688,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 70.5,
+        "point": [
+          3308.2763576285306,
+          -1933.1898908890553
+        ],
+        "rawEstimatedRoadY": 5.438895379945837,
+        "minimumActualSlabBottomY": 5.064907603269712,
+        "rawVerticalClearance": -0.3739877766761248,
+        "conservativeTargetYAt3point6Clearance": 1.4649076032697121,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 71.0,
+        "point": [
+          3308.513084130161,
+          -1932.7494813484843
+        ],
+        "rawEstimatedRoadY": 5.435961191836023,
+        "minimumActualSlabBottomY": 5.064571595625955,
+        "rawVerticalClearance": -0.3713895962100686,
+        "conservativeTargetYAt3point6Clearance": 1.4645715956259546,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 71.5,
+        "point": [
+          3308.749810631791,
+          -1932.3090718079136
+        ],
+        "rawEstimatedRoadY": 5.433027003726209,
+        "minimumActualSlabBottomY": 5.064235587982196,
+        "rawVerticalClearance": -0.3687914157440124,
+        "conservativeTargetYAt3point6Clearance": 1.4642355879821962,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 72.0,
+        "point": [
+          3308.9865371334217,
+          -1931.8686622673429
+        ],
+        "rawEstimatedRoadY": 5.430092815616396,
+        "minimumActualSlabBottomY": 5.064007186111436,
+        "rawVerticalClearance": -0.36608562950496015,
+        "conservativeTargetYAt3point6Clearance": 1.4640071861114357,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 72.5,
+        "point": [
+          3309.2232636350523,
+          -1931.428252726772
+        ],
+        "rawEstimatedRoadY": 5.427158627506581,
+        "minimumActualSlabBottomY": 5.064852298421163,
+        "rawVerticalClearance": -0.3623063290854187,
+        "conservativeTargetYAt3point6Clearance": 1.4648522984211625,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 73.0,
+        "point": [
+          3309.459990136683,
+          -1930.9878431862012
+        ],
+        "rawEstimatedRoadY": 5.4242244393967685,
+        "minimumActualSlabBottomY": 5.06568722554986,
+        "rawVerticalClearance": -0.3585372138469083,
+        "conservativeTargetYAt3point6Clearance": 1.46568722554986,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 73.5,
+        "point": [
+          3309.6967166383133,
+          -1930.5474336456305
+        ],
+        "rawEstimatedRoadY": 5.421290251286954,
+        "minimumActualSlabBottomY": 5.066375151581869,
+        "rawVerticalClearance": -0.35491509970508517,
+        "conservativeTargetYAt3point6Clearance": 1.4663751515818686,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 74.0,
+        "point": [
+          3309.933443139944,
+          -1930.1070241050595
+        ],
+        "rawEstimatedRoadY": 5.41835606317714,
+        "minimumActualSlabBottomY": 5.06711301223773,
+        "rawVerticalClearance": -0.3512430509394102,
+        "conservativeTargetYAt3point6Clearance": 1.4671130122377298,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 74.5,
+        "point": [
+          3310.1701696415744,
+          -1929.6666145644888
+        ],
+        "rawEstimatedRoadY": 5.415421875067326,
+        "minimumActualSlabBottomY": 5.067761676317301,
+        "rawVerticalClearance": -0.34766019875002563,
+        "conservativeTargetYAt3point6Clearance": 1.4677616763173007,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      }
+    ],
+    "minRawClearance": -0.6057035152748753,
+    "minConservativeTargetY": 1.4640071861114357
+  },
+  {
+    "id": "way/157967584#0",
+    "sourceRoad": {
+      "id": "way/157967584#0",
+      "sourceId": "way/157967584",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3313.57840856034,
+          -1923.325875669475
+        ],
+        [
+          3369.05315571637,
+          -1834.2167431601654
+        ],
+        [
+          3372.6498637479804,
+          -1828.9953750167615
+        ],
+        [
+          3374.555022095611,
+          -1825.9024626767025
+        ],
+        [
+          3419.0779953565584,
+          -1759.0489961658016
+        ]
+      ],
+      "nodeIds": [
+        "361013736",
+        "361013740",
+        "3439149591",
+        "1701988336",
+        "5741665148"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        5.373177284613926,
+        4.65852101540849,
+        4.670211000567708,
+        4.655293542268847,
+        5.030784986518769
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "lengthGame": 195.26133261185967,
+    "nodeStations": [
+      0.0,
+      104.96611390628475,
+      111.30638156259106,
+      114.93897499880661,
+      195.26133261185967
+    ],
+    "sharedNodeConnections": [
+      {
+        "nodeId": "361013736",
+        "station": 0.0,
+        "connections": [
+          {
+            "roadId": "way/157967583#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 5.373177284613926
+          },
+          {
+            "roadId": "way/157967584#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.373177284613926
+          }
+        ]
+      },
+      {
+        "nodeId": "361013740",
+        "station": 104.96611390628475,
+        "connections": [
+          {
+            "roadId": "way/157967584#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 4.65852101540849
+          },
+          {
+            "roadId": "way/979747412#0",
+            "nodeIndex": 12,
+            "rawEstimatedY": 4.65852101540849
+          }
+        ]
+      },
+      {
+        "nodeId": "3439149591",
+        "station": 111.30638156259106,
+        "connections": [
+          {
+            "roadId": "way/157967584#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 4.670211000567708
+          },
+          {
+            "roadId": "way/336828926#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 4.670211000567708
+          }
+        ]
+      },
+      {
+        "nodeId": "1701988336",
+        "station": 114.93897499880661,
+        "connections": [
+          {
+            "roadId": "way/157967584#0",
+            "nodeIndex": 3,
+            "rawEstimatedY": 4.655293542268847
+          },
+          {
+            "roadId": "way/979747410#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 4.655293542268847
+          }
+        ]
+      },
+      {
+        "nodeId": "5741665148",
+        "station": 195.26133261185967,
+        "connections": [
+          {
+            "roadId": "way/157967584#0",
+            "nodeIndex": 4,
+            "rawEstimatedY": 5.030784986518769
+          },
+          {
+            "roadId": "way/605330158#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.030784986518769
+          }
+        ]
+      }
+    ],
+    "occupiedCrossSections": [],
+    "minRawClearance": null,
+    "minConservativeTargetY": null
+  },
+  {
+    "id": "way/605330157#0",
+    "sourceRoad": {
+      "id": "way/605330157#0",
+      "sourceId": "way/605330157",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3407.0870441811744,
+          -1758.5368364879453
+        ],
+        [
+          3367.20572943973,
+          -1820.348523313856
+        ],
+        [
+          3361.5422132610574,
+          -1828.6162438265405
+        ],
+        [
+          3326.8394653008118,
+          -1883.1579237978583
+        ],
+        [
+          3304.676123191187,
+          -1921.1774655925005
+        ]
+      ],
+      "nodeIds": [
+        "5741665147",
+        "1701988337",
+        "136998353",
+        "9544816928",
+        "136998205"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        5.191581151366008,
+        4.957105978660656,
+        5.054728416923453,
+        5.449061935079647,
+        5.375012797396557
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "lengthGame": 192.23610910528933,
+    "nodeStations": [
+      0.0,
+      73.56088562388724,
+      83.58239339377647,
+      148.22816332565972,
+      192.23610910528933
+    ],
+    "sharedNodeConnections": [
+      {
+        "nodeId": "5741665147",
+        "station": 0.0,
+        "connections": [
+          {
+            "roadId": "way/605330153#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 5.191581151366008
+          },
+          {
+            "roadId": "way/605330157#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.191581151366008
+          }
+        ]
+      },
+      {
+        "nodeId": "1701988337",
+        "station": 73.56088562388724,
+        "connections": [
+          {
+            "roadId": "way/605330157#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 4.957105978660656
+          },
+          {
+            "roadId": "way/979747410#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 4.957105978660656
+          }
+        ]
+      },
+      {
+        "nodeId": "136998353",
+        "station": 83.58239339377647,
+        "connections": [
+          {
+            "roadId": "way/605330157#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 5.054728416923453
+          },
+          {
+            "roadId": "way/979747412#0",
+            "nodeIndex": 11,
+            "rawEstimatedY": 5.054728416923453
+          }
+        ]
+      },
+      {
+        "nodeId": "9544816928",
+        "station": 148.22816332565972,
+        "connections": [
+          {
+            "roadId": "way/605330157#0",
+            "nodeIndex": 3,
+            "rawEstimatedY": 5.449061935079647
+          }
+        ]
+      },
+      {
+        "nodeId": "136998205",
+        "station": 192.23610910528933,
+        "connections": [
+          {
+            "roadId": "way/157967585#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.375012797396557
+          },
+          {
+            "roadId": "way/605330157#0",
+            "nodeIndex": 4,
+            "rawEstimatedY": 5.375012797396557
+          }
+        ]
+      }
+    ],
+    "occupiedCrossSections": [],
+    "minRawClearance": null,
+    "minConservativeTargetY": null
+  },
+  {
+    "id": "way/157967585#0",
+    "sourceRoad": {
+      "id": "way/157967585#0",
+      "sourceId": "way/157967585",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3304.676123191187,
+          -1921.1774655925005
+        ],
+        [
+          3269.488425833467,
+          -1991.0706330482174
+        ]
+      ],
+      "nodeIds": [
+        "136998205",
+        "136998158"
+      ],
+      "grade": "-1",
+      "bridge": "no",
+      "tunnel": "yes",
+      "elevationStatus": "pending-deck-ramp-and-DEM",
+      "heights": [
+        5.375012797396557,
+        5.933717193351623
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "lengthGame": 78.251063266459,
+    "nodeStations": [
+      0.0,
+      78.251063266459
+    ],
+    "sharedNodeConnections": [
+      {
+        "nodeId": "136998205",
+        "station": 0.0,
+        "connections": [
+          {
+            "roadId": "way/157967585#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.375012797396557
+          },
+          {
+            "roadId": "way/605330157#0",
+            "nodeIndex": 4,
+            "rawEstimatedY": 5.375012797396557
+          }
+        ]
+      },
+      {
+        "nodeId": "136998158",
+        "station": 78.251063266459,
+        "connections": [
+          {
+            "roadId": "way/157967585#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 5.933717193351623
+          },
+          {
+            "roadId": "way/157967586#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.933717193351623
+          }
+        ]
+      }
+    ],
+    "occupiedCrossSections": [
+      {
+        "station": 2.0,
+        "point": [
+          3303.7767693450187,
+          -1922.9638481549384
+        ],
+        "rawEstimatedRoadY": 5.3892925879229185,
+        "minimumActualSlabBottomY": 5.009129658772486,
+        "rawVerticalClearance": -0.3801629291504325,
+        "conservativeTargetYAt3point6Clearance": 1.409129658772486,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 2.5,
+        "point": [
+          3303.551930883477,
+          -1923.410443795548
+        ],
+        "rawEstimatedRoadY": 5.392862535554509,
+        "minimumActualSlabBottomY": 5.008900542698859,
+        "rawVerticalClearance": -0.38396199285565036,
+        "conservativeTargetYAt3point6Clearance": 1.4089005426988588,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 3.0,
+        "point": [
+          3303.3270924219346,
+          -1923.8570394361575
+        ],
+        "rawEstimatedRoadY": 5.3964324831861,
+        "minimumActualSlabBottomY": 5.0086325585788165,
+        "rawVerticalClearance": -0.3877999246072834,
+        "conservativeTargetYAt3point6Clearance": 1.4086325585788164,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 3.5,
+        "point": [
+          3303.1022539603928,
+          -1924.303635076767
+        ],
+        "rawEstimatedRoadY": 5.40000243081769,
+        "minimumActualSlabBottomY": 5.008350417813597,
+        "rawVerticalClearance": -0.3916520130040926,
+        "conservativeTargetYAt3point6Clearance": 1.408350417813597,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 4.0,
+        "point": [
+          3302.8774154988505,
+          -1924.7502307173766
+        ],
+        "rawEstimatedRoadY": 5.40357237844928,
+        "minimumActualSlabBottomY": 5.007925916288405,
+        "rawVerticalClearance": -0.39564646216087507,
+        "conservativeTargetYAt3point6Clearance": 1.4079259162884052,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 4.5,
+        "point": [
+          3302.6525770373087,
+          -1925.196826357986
+        ],
+        "rawEstimatedRoadY": 5.407142326080871,
+        "minimumActualSlabBottomY": 5.007633857887883,
+        "rawVerticalClearance": -0.39950846819298835,
+        "conservativeTargetYAt3point6Clearance": 1.4076338578878826,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 5.0,
+        "point": [
+          3302.4277385757664,
+          -1925.6434219985954
+        ],
+        "rawEstimatedRoadY": 5.410712273712462,
+        "minimumActualSlabBottomY": 5.007058749070686,
+        "rawVerticalClearance": -0.4036535246417756,
+        "conservativeTargetYAt3point6Clearance": 1.407058749070686,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 5.5,
+        "point": [
+          3302.2029001142246,
+          -1926.090017639205
+        ],
+        "rawEstimatedRoadY": 5.4142822213440525,
+        "minimumActualSlabBottomY": 5.006621967527544,
+        "rawVerticalClearance": -0.40766025381650817,
+        "conservativeTargetYAt3point6Clearance": 1.4066219675275442,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 6.0,
+        "point": [
+          3301.9780616526823,
+          -1926.5366132798144
+        ],
+        "rawEstimatedRoadY": 5.417852168975642,
+        "minimumActualSlabBottomY": 5.006049106964576,
+        "rawVerticalClearance": -0.4118030620110664,
+        "conservativeTargetYAt3point6Clearance": 1.4060491069645757,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 6.5,
+        "point": [
+          3301.7532231911405,
+          -1926.983208920424
+        ],
+        "rawEstimatedRoadY": 5.421422116607233,
+        "minimumActualSlabBottomY": 5.005528691523006,
+        "rawVerticalClearance": -0.415893425084227,
+        "conservativeTargetYAt3point6Clearance": 1.4055286915230059,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 7.0,
+        "point": [
+          3301.528384729598,
+          -1927.4298045610335
+        ],
+        "rawEstimatedRoadY": 5.424992064238824,
+        "minimumActualSlabBottomY": 5.005030361326834,
+        "rawVerticalClearance": -0.41996170291198975,
+        "conservativeTargetYAt3point6Clearance": 1.4050303613268338,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 7.5,
+        "point": [
+          3301.3035462680564,
+          -1927.876400201643
+        ],
+        "rawEstimatedRoadY": 5.428562011870413,
+        "minimumActualSlabBottomY": 5.004315818936152,
+        "rawVerticalClearance": -0.4242461929342616,
+        "conservativeTargetYAt3point6Clearance": 1.4043158189361518,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 8.0,
+        "point": [
+          3301.078707806514,
+          -1928.3229958422526
+        ],
+        "rawEstimatedRoadY": 5.432131959502005,
+        "minimumActualSlabBottomY": 5.003772831524273,
+        "rawVerticalClearance": -0.4283591279777319,
+        "conservativeTargetYAt3point6Clearance": 1.403772831524273,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 8.5,
+        "point": [
+          3300.8538693449723,
+          -1928.7695914828619
+        ],
+        "rawEstimatedRoadY": 5.435701907133595,
+        "minimumActualSlabBottomY": 5.002854434285708,
+        "rawVerticalClearance": -0.4328474728478868,
+        "conservativeTargetYAt3point6Clearance": 1.4028544342857079,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 9.0,
+        "point": [
+          3300.62903088343,
+          -1929.2161871234714
+        ],
+        "rawEstimatedRoadY": 5.4392718547651855,
+        "minimumActualSlabBottomY": 5.002201379965663,
+        "rawVerticalClearance": -0.43707047479952266,
+        "conservativeTargetYAt3point6Clearance": 1.4022013799656627,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 9.5,
+        "point": [
+          3300.404192421888,
+          -1929.662782764081
+        ],
+        "rawEstimatedRoadY": 5.442841802396776,
+        "minimumActualSlabBottomY": 5.001261643784374,
+        "rawVerticalClearance": -0.4415801586124024,
+        "conservativeTargetYAt3point6Clearance": 1.4012616437843737,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 10.0,
+        "point": [
+          3300.179353960346,
+          -1930.1093784046905
+        ],
+        "rawEstimatedRoadY": 5.446411750028366,
+        "minimumActualSlabBottomY": 5.000421947565279,
+        "rawVerticalClearance": -0.44598980246308706,
+        "conservativeTargetYAt3point6Clearance": 1.4004219475652788,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 10.5,
+        "point": [
+          3299.954515498804,
+          -1930.5559740453
+        ],
+        "rawEstimatedRoadY": 5.449981697659957,
+        "minimumActualSlabBottomY": 4.999516215301192,
+        "rawVerticalClearance": -0.4504654823587648,
+        "conservativeTargetYAt3point6Clearance": 1.3995162153011917,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 11.0,
+        "point": [
+          3299.729677037262,
+          -1931.0025696859095
+        ],
+        "rawEstimatedRoadY": 5.453551645291547,
+        "minimumActualSlabBottomY": 4.99849223861186,
+        "rawVerticalClearance": -0.4550594066796876,
+        "conservativeTargetYAt3point6Clearance": 1.3984922386118597,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 11.5,
+        "point": [
+          3299.50483857572,
+          -1931.4491653265188
+        ],
+        "rawEstimatedRoadY": 5.457121592923138,
+        "minimumActualSlabBottomY": 4.9976563007144,
+        "rawVerticalClearance": -0.4594652922087379,
+        "conservativeTargetYAt3point6Clearance": 1.3976563007144,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 12.0,
+        "point": [
+          3299.2800001141777,
+          -1931.8957609671284
+        ],
+        "rawEstimatedRoadY": 5.460691540554728,
+        "minimumActualSlabBottomY": 4.996488236697015,
+        "rawVerticalClearance": -0.4642033038577127,
+        "conservativeTargetYAt3point6Clearance": 1.396488236697015,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 12.5,
+        "point": [
+          3299.055161652636,
+          -1932.3423566077379
+        ],
+        "rawEstimatedRoadY": 5.4642614881863185,
+        "minimumActualSlabBottomY": 4.9956244689853,
+        "rawVerticalClearance": -0.46863701920101875,
+        "conservativeTargetYAt3point6Clearance": 1.3956244689852997,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 13.0,
+        "point": [
+          3298.8303231910936,
+          -1932.7889522483474
+        ],
+        "rawEstimatedRoadY": 5.467831435817909,
+        "minimumActualSlabBottomY": 4.994463584799532,
+        "rawVerticalClearance": -0.4733678510183772,
+        "conservativeTargetYAt3point6Clearance": 1.394463584799532,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 13.5,
+        "point": [
+          3298.605484729552,
+          -1933.235547888957
+        ],
+        "rawEstimatedRoadY": 5.4714013834495,
+        "minimumActualSlabBottomY": 4.994871783745495,
+        "rawVerticalClearance": -0.4765295997040049,
+        "conservativeTargetYAt3point6Clearance": 1.394871783745495,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 14.0,
+        "point": [
+          3298.3806462680095,
+          -1933.6821435295665
+        ],
+        "rawEstimatedRoadY": 5.474971331081091,
+        "minimumActualSlabBottomY": 4.9953231187967875,
+        "rawVerticalClearance": -0.4796482122843031,
+        "conservativeTargetYAt3point6Clearance": 1.3953231187967874,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 14.5,
+        "point": [
+          3298.1558078064677,
+          -1934.128739170176
+        ],
+        "rawEstimatedRoadY": 5.47854127871268,
+        "minimumActualSlabBottomY": 4.995774453848083,
+        "rawVerticalClearance": -0.48276682486459777,
+        "conservativeTargetYAt3point6Clearance": 1.3957744538480825,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 15.0,
+        "point": [
+          3297.9309693449254,
+          -1934.5753348107853
+        ],
+        "rawEstimatedRoadY": 5.482111226344271,
+        "minimumActualSlabBottomY": 4.996225788899374,
+        "rawVerticalClearance": -0.4858854374448969,
+        "conservativeTargetYAt3point6Clearance": 1.396225788899374,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 15.5,
+        "point": [
+          3297.7061308833836,
+          -1935.0219304513948
+        ],
+        "rawEstimatedRoadY": 5.485681173975862,
+        "minimumActualSlabBottomY": 4.996677123950669,
+        "rawVerticalClearance": -0.4890040500251924,
+        "conservativeTargetYAt3point6Clearance": 1.3966771239506692,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 16.0,
+        "point": [
+          3297.4812924218413,
+          -1935.4685260920044
+        ],
+        "rawEstimatedRoadY": 5.489251121607452,
+        "minimumActualSlabBottomY": 4.997128459001961,
+        "rawVerticalClearance": -0.49212266260549153,
+        "conservativeTargetYAt3point6Clearance": 1.3971284590019608,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 16.5,
+        "point": [
+          3297.2564539602995,
+          -1935.915121732614
+        ],
+        "rawEstimatedRoadY": 5.492821069239043,
+        "minimumActualSlabBottomY": 4.997579794053257,
+        "rawVerticalClearance": -0.4952412751857862,
+        "conservativeTargetYAt3point6Clearance": 1.3975797940532568,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 17.0,
+        "point": [
+          3297.031615498757,
+          -1936.3617173732234
+        ],
+        "rawEstimatedRoadY": 5.496391016870633,
+        "minimumActualSlabBottomY": 4.9980311291045485,
+        "rawVerticalClearance": -0.4983598877660844,
+        "conservativeTargetYAt3point6Clearance": 1.3980311291045484,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 17.5,
+        "point": [
+          3296.8067770372154,
+          -1936.808313013833
+        ],
+        "rawEstimatedRoadY": 5.499960964502224,
+        "minimumActualSlabBottomY": 4.998482464155844,
+        "rawVerticalClearance": -0.50147850034638,
+        "conservativeTargetYAt3point6Clearance": 1.3984824641558435,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 18.0,
+        "point": [
+          3296.581938575673,
+          -1937.2549086544423
+        ],
+        "rawEstimatedRoadY": 5.503530912133814,
+        "minimumActualSlabBottomY": 4.998933799207135,
+        "rawVerticalClearance": -0.5045971129266791,
+        "conservativeTargetYAt3point6Clearance": 1.3989337992071351,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 18.5,
+        "point": [
+          3296.3571001141313,
+          -1937.7015042950518
+        ],
+        "rawEstimatedRoadY": 5.507100859765405,
+        "minimumActualSlabBottomY": 4.99938513425843,
+        "rawVerticalClearance": -0.5077157255069746,
+        "conservativeTargetYAt3point6Clearance": 1.3993851342584303,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 19.0,
+        "point": [
+          3296.132261652589,
+          -1938.1480999356613
+        ],
+        "rawEstimatedRoadY": 5.510670807396995,
+        "minimumActualSlabBottomY": 4.999836469309723,
+        "rawVerticalClearance": -0.510834338087272,
+        "conservativeTargetYAt3point6Clearance": 1.3998364693097227,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 19.5,
+        "point": [
+          3295.907423191047,
+          -1938.5946955762709
+        ],
+        "rawEstimatedRoadY": 5.514240755028586,
+        "minimumActualSlabBottomY": 5.000287804361018,
+        "rawVerticalClearance": -0.5139529506675684,
+        "conservativeTargetYAt3point6Clearance": 1.4002878043610179,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 20.0,
+        "point": [
+          3295.682584729505,
+          -1939.0412912168804
+        ],
+        "rawEstimatedRoadY": 5.517810702660176,
+        "minimumActualSlabBottomY": 5.0007391394123095,
+        "rawVerticalClearance": -0.5170715632478666,
+        "conservativeTargetYAt3point6Clearance": 1.4007391394123094,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 20.5,
+        "point": [
+          3295.457746267963,
+          -1939.48788685749
+        ],
+        "rawEstimatedRoadY": 5.521380650291767,
+        "minimumActualSlabBottomY": 5.0011904744636055,
+        "rawVerticalClearance": -0.5201901758281613,
+        "conservativeTargetYAt3point6Clearance": 1.4011904744636055,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 21.0,
+        "point": [
+          3295.232907806421,
+          -1939.9344824980994
+        ],
+        "rawEstimatedRoadY": 5.5249505979233575,
+        "minimumActualSlabBottomY": 5.001641809514897,
+        "rawVerticalClearance": -0.5233087884084604,
+        "conservativeTargetYAt3point6Clearance": 1.401641809514897,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 21.5,
+        "point": [
+          3295.008069344879,
+          -1940.3810781387087
+        ],
+        "rawEstimatedRoadY": 5.528520545554947,
+        "minimumActualSlabBottomY": 5.002093144566192,
+        "rawVerticalClearance": -0.5264274009887551,
+        "conservativeTargetYAt3point6Clearance": 1.4020931445661922,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 22.0,
+        "point": [
+          3294.7832308833367,
+          -1940.8276737793183
+        ],
+        "rawEstimatedRoadY": 5.532090493186538,
+        "minimumActualSlabBottomY": 5.002544479617484,
+        "rawVerticalClearance": -0.5295460135690542,
+        "conservativeTargetYAt3point6Clearance": 1.4025444796174837,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 22.5,
+        "point": [
+          3294.558392421795,
+          -1941.2742694199278
+        ],
+        "rawEstimatedRoadY": 5.535660440818129,
+        "minimumActualSlabBottomY": 5.002995814668779,
+        "rawVerticalClearance": -0.5326646261493497,
+        "conservativeTargetYAt3point6Clearance": 1.4029958146687789,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 23.0,
+        "point": [
+          3294.3335539602526,
+          -1941.7208650605373
+        ],
+        "rawEstimatedRoadY": 5.539230388449719,
+        "minimumActualSlabBottomY": 5.003447149720071,
+        "rawVerticalClearance": -0.535783238729648,
+        "conservativeTargetYAt3point6Clearance": 1.4034471497200713,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 23.5,
+        "point": [
+          3294.108715498711,
+          -1942.1674607011469
+        ],
+        "rawEstimatedRoadY": 5.54280033608131,
+        "minimumActualSlabBottomY": 5.003898484771367,
+        "rawVerticalClearance": -0.5389018513099435,
+        "conservativeTargetYAt3point6Clearance": 1.4038984847713665,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 24.0,
+        "point": [
+          3293.8838770371685,
+          -1942.6140563417564
+        ],
+        "rawEstimatedRoadY": 5.5463702837129,
+        "minimumActualSlabBottomY": 5.0048784458385125,
+        "rawVerticalClearance": -0.5414918378743874,
+        "conservativeTargetYAt3point6Clearance": 1.4048784458385124,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 24.5,
+        "point": [
+          3293.6590385756267,
+          -1943.060651982366
+        ],
+        "rawEstimatedRoadY": 5.5499402313444905,
+        "minimumActualSlabBottomY": 5.006297638217545,
+        "rawVerticalClearance": -0.543642593126946,
+        "conservativeTargetYAt3point6Clearance": 1.4062976382175445,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 25.0,
+        "point": [
+          3293.4342001140844,
+          -1943.5072476229752
+        ],
+        "rawEstimatedRoadY": 5.553510178976081,
+        "minimumActualSlabBottomY": 5.005812703966393,
+        "rawVerticalClearance": -0.5476974750096879,
+        "conservativeTargetYAt3point6Clearance": 1.4058127039663932,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 25.5,
+        "point": [
+          3293.2093616525426,
+          -1943.9538432635848
+        ],
+        "rawEstimatedRoadY": 5.557080126607672,
+        "minimumActualSlabBottomY": 5.007706468267742,
+        "rawVerticalClearance": -0.5493736583399302,
+        "conservativeTargetYAt3point6Clearance": 1.4077064682677416,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 26.0,
+        "point": [
+          3292.9845231910003,
+          -1944.4004389041943
+        ],
+        "rawEstimatedRoadY": 5.560650074239263,
+        "minimumActualSlabBottomY": 5.008139524110113,
+        "rawVerticalClearance": -0.5525105501291492,
+        "conservativeTargetYAt3point6Clearance": 1.4081395241101133,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 26.5,
+        "point": [
+          3292.7596847294585,
+          -1944.8470345448038
+        ],
+        "rawEstimatedRoadY": 5.564220021870852,
+        "minimumActualSlabBottomY": 5.009631431418287,
+        "rawVerticalClearance": -0.5545885904525658,
+        "conservativeTargetYAt3point6Clearance": 1.4096314314182865,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 27.0,
+        "point": [
+          3292.5348462679162,
+          -1945.2936301854133
+        ],
+        "rawEstimatedRoadY": 5.567789969502444,
+        "minimumActualSlabBottomY": 5.011795586684982,
+        "rawVerticalClearance": -0.5559943828174623,
+        "conservativeTargetYAt3point6Clearance": 1.4117955866849816,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 27.5,
+        "point": [
+          3292.3100078063744,
+          -1945.7402258260229
+        ],
+        "rawEstimatedRoadY": 5.571359917134034,
+        "minimumActualSlabBottomY": 5.0125299950402145,
+        "rawVerticalClearance": -0.5588299220938193,
+        "conservativeTargetYAt3point6Clearance": 1.4125299950402144,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 28.0,
+        "point": [
+          3292.085169344832,
+          -1946.1868214666322
+        ],
+        "rawEstimatedRoadY": 5.5749298647656245,
+        "minimumActualSlabBottomY": 5.0150801831445175,
+        "rawVerticalClearance": -0.5598496816211069,
+        "conservativeTargetYAt3point6Clearance": 1.4150801831445174,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 28.5,
+        "point": [
+          3291.8603308832903,
+          -1946.6334171072417
+        ],
+        "rawEstimatedRoadY": 5.578499812397215,
+        "minimumActualSlabBottomY": 5.01678448513621,
+        "rawVerticalClearance": -0.5617153272610054,
+        "conservativeTargetYAt3point6Clearance": 1.4167844851362097,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 29.0,
+        "point": [
+          3291.635492421748,
+          -1947.0800127478512
+        ],
+        "rawEstimatedRoadY": 5.582069760028805,
+        "minimumActualSlabBottomY": 5.019719766044594,
+        "rawVerticalClearance": -0.5623499939842107,
+        "conservativeTargetYAt3point6Clearance": 1.4197197660445942,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 29.5,
+        "point": [
+          3291.410653960206,
+          -1947.5266083884608
+        ],
+        "rawEstimatedRoadY": 5.5856397076603965,
+        "minimumActualSlabBottomY": 5.02265504695298,
+        "rawVerticalClearance": -0.5629846607074169,
+        "conservativeTargetYAt3point6Clearance": 1.4226550469529795,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 30.0,
+        "point": [
+          3291.185815498664,
+          -1947.9732040290703
+        ],
+        "rawEstimatedRoadY": 5.589209655291986,
+        "minimumActualSlabBottomY": 5.034525012069296,
+        "rawVerticalClearance": -0.5546846432226902,
+        "conservativeTargetYAt3point6Clearance": 1.434525012069296,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 30.5,
+        "point": [
+          3290.960977037122,
+          -1948.4197996696798
+        ],
+        "rawEstimatedRoadY": 5.592779602923576,
+        "minimumActualSlabBottomY": 5.048569169377964,
+        "rawVerticalClearance": -0.5442104335456124,
+        "conservativeTargetYAt3point6Clearance": 1.4485691693779637,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 53.5,
+        "point": [
+          3280.618407806188,
+          -1968.9631991377166
+        ],
+        "rawEstimatedRoadY": 5.75699719397674,
+        "minimumActualSlabBottomY": 5.1912515056981166,
+        "rawVerticalClearance": -0.5657456882786231,
+        "conservativeTargetYAt3point6Clearance": 1.5912515056981165,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 54.0,
+        "point": [
+          3280.393569344646,
+          -1969.409794778326
+        ],
+        "rawEstimatedRoadY": 5.76056714160833,
+        "minimumActualSlabBottomY": 5.193281154810819,
+        "rawVerticalClearance": -0.5672859867975113,
+        "conservativeTargetYAt3point6Clearance": 1.593281154810819,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 54.5,
+        "point": [
+          3280.1687308831038,
+          -1969.8563904189355
+        ],
+        "rawEstimatedRoadY": 5.764137089239921,
+        "minimumActualSlabBottomY": 5.195997488892351,
+        "rawVerticalClearance": -0.5681396003475703,
+        "conservativeTargetYAt3point6Clearance": 1.5959974888923507,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 55.0,
+        "point": [
+          3279.943892421562,
+          -1970.302986059545
+        ],
+        "rawEstimatedRoadY": 5.767707036871511,
+        "minimumActualSlabBottomY": 5.198713822973882,
+        "rawVerticalClearance": -0.5689932138976292,
+        "conservativeTargetYAt3point6Clearance": 1.5987138229738815,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 55.5,
+        "point": [
+          3279.7190539600197,
+          -1970.7495817001545
+        ],
+        "rawEstimatedRoadY": 5.771276984503102,
+        "minimumActualSlabBottomY": 5.201430157055413,
+        "rawVerticalClearance": -0.5698468274476882,
+        "conservativeTargetYAt3point6Clearance": 1.6014301570554133,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 56.0,
+        "point": [
+          3279.494215498478,
+          -1971.196177340764
+        ],
+        "rawEstimatedRoadY": 5.774846932134692,
+        "minimumActualSlabBottomY": 5.204146491136942,
+        "rawVerticalClearance": -0.5707004409977499,
+        "conservativeTargetYAt3point6Clearance": 1.6041464911369423,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 56.5,
+        "point": [
+          3279.2693770369356,
+          -1971.6427729813736
+        ],
+        "rawEstimatedRoadY": 5.778416879766282,
+        "minimumActualSlabBottomY": 5.206475566869983,
+        "rawVerticalClearance": -0.5719413128962989,
+        "conservativeTargetYAt3point6Clearance": 1.606475566869983,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 57.0,
+        "point": [
+          3279.0445385753937,
+          -1972.089368621983
+        ],
+        "rawEstimatedRoadY": 5.781986827397874,
+        "minimumActualSlabBottomY": 5.208521046188339,
+        "rawVerticalClearance": -0.573465781209535,
+        "conservativeTargetYAt3point6Clearance": 1.6085210461883386,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 57.5,
+        "point": [
+          3278.8197001138515,
+          -1972.5359642625924
+        ],
+        "rawEstimatedRoadY": 5.785556775029463,
+        "minimumActualSlabBottomY": 5.210733774024774,
+        "rawVerticalClearance": -0.5748230010046891,
+        "conservativeTargetYAt3point6Clearance": 1.6107337740247742,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 58.0,
+        "point": [
+          3278.5948616523096,
+          -1972.982559903202
+        ],
+        "rawEstimatedRoadY": 5.789126722661054,
+        "minimumActualSlabBottomY": 5.213253612975624,
+        "rawVerticalClearance": -0.5758731096854302,
+        "conservativeTargetYAt3point6Clearance": 1.6132536129756239,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 58.5,
+        "point": [
+          3278.3700231907674,
+          -1973.4291555438115
+        ],
+        "rawEstimatedRoadY": 5.792696670292645,
+        "minimumActualSlabBottomY": 5.215773451926475,
+        "rawVerticalClearance": -0.5769232183661694,
+        "conservativeTargetYAt3point6Clearance": 1.6157734519264753,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 59.0,
+        "point": [
+          3278.1451847292255,
+          -1973.875751184421
+        ],
+        "rawEstimatedRoadY": 5.7962666179242355,
+        "minimumActualSlabBottomY": 5.218293290877325,
+        "rawVerticalClearance": -0.5779733270469105,
+        "conservativeTargetYAt3point6Clearance": 1.6182932908773249,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 59.5,
+        "point": [
+          3277.9203462676833,
+          -1974.3223468250305
+        ],
+        "rawEstimatedRoadY": 5.799836565555825,
+        "minimumActualSlabBottomY": 5.2208131298281755,
+        "rawVerticalClearance": -0.5790234357276498,
+        "conservativeTargetYAt3point6Clearance": 1.6208131298281754,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 60.0,
+        "point": [
+          3277.6955078061414,
+          -1974.76894246564
+        ],
+        "rawEstimatedRoadY": 5.803406513187416,
+        "minimumActualSlabBottomY": 5.223332968779025,
+        "rawVerticalClearance": -0.5800735444083909,
+        "conservativeTargetYAt3point6Clearance": 1.623332968779025,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 60.5,
+        "point": [
+          3277.470669344599,
+          -1975.2155381062494
+        ],
+        "rawEstimatedRoadY": 5.806976460819007,
+        "minimumActualSlabBottomY": 5.225852807729875,
+        "rawVerticalClearance": -0.5811236530891319,
+        "conservativeTargetYAt3point6Clearance": 1.6258528077298746,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 61.0,
+        "point": [
+          3277.2458308830574,
+          -1975.662133746859
+        ],
+        "rawEstimatedRoadY": 5.8105464084505964,
+        "minimumActualSlabBottomY": 5.228372646680724,
+        "rawVerticalClearance": -0.5821737617698721,
+        "conservativeTargetYAt3point6Clearance": 1.6283726466807242,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 61.5,
+        "point": [
+          3277.020992421515,
+          -1976.1087293874684
+        ],
+        "rawEstimatedRoadY": 5.814116356082188,
+        "minimumActualSlabBottomY": 5.230892485631576,
+        "rawVerticalClearance": -0.5832238704506123,
+        "conservativeTargetYAt3point6Clearance": 1.6308924856315756,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 62.0,
+        "point": [
+          3276.7961539599733,
+          -1976.555325028078
+        ],
+        "rawEstimatedRoadY": 5.817686303713778,
+        "minimumActualSlabBottomY": 5.233284892428177,
+        "rawVerticalClearance": -0.5844014112856009,
+        "conservativeTargetYAt3point6Clearance": 1.6332848924281769,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 62.5,
+        "point": [
+          3276.571315498431,
+          -1977.0019206686875
+        ],
+        "rawEstimatedRoadY": 5.821256251345369,
+        "minimumActualSlabBottomY": 5.235141778132229,
+        "rawVerticalClearance": -0.58611447321314,
+        "conservativeTargetYAt3point6Clearance": 1.6351417781322293,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 63.0,
+        "point": [
+          3276.346477036889,
+          -1977.448516309297
+        ],
+        "rawEstimatedRoadY": 5.824826198976959,
+        "minimumActualSlabBottomY": 5.236998663836277,
+        "rawVerticalClearance": -0.5878275351406819,
+        "conservativeTargetYAt3point6Clearance": 1.6369986638362772,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 63.5,
+        "point": [
+          3276.121638575347,
+          -1977.8951119499065
+        ],
+        "rawEstimatedRoadY": 5.828396146608549,
+        "minimumActualSlabBottomY": 5.23885554954033,
+        "rawVerticalClearance": -0.5895405970682193,
+        "conservativeTargetYAt3point6Clearance": 1.6388555495403296,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 64.0,
+        "point": [
+          3275.896800113805,
+          -1978.3417075905159
+        ],
+        "rawEstimatedRoadY": 5.831966094240141,
+        "minimumActualSlabBottomY": 5.240712435244378,
+        "rawVerticalClearance": -0.5912536589957629,
+        "conservativeTargetYAt3point6Clearance": 1.6407124352443776,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 64.5,
+        "point": [
+          3275.671961652263,
+          -1978.7883032311254
+        ],
+        "rawEstimatedRoadY": 5.83553604187173,
+        "minimumActualSlabBottomY": 5.242569320948429,
+        "rawVerticalClearance": -0.5929667209233012,
+        "conservativeTargetYAt3point6Clearance": 1.6425693209484291,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 65.0,
+        "point": [
+          3275.447123190721,
+          -1979.234898871735
+        ],
+        "rawEstimatedRoadY": 5.839105989503321,
+        "minimumActualSlabBottomY": 5.244426206652476,
+        "rawVerticalClearance": -0.5946797828508448,
+        "conservativeTargetYAt3point6Clearance": 1.6444262066524762,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 65.5,
+        "point": [
+          3275.2222847291787,
+          -1979.6814945123444
+        ],
+        "rawEstimatedRoadY": 5.842675937134912,
+        "minimumActualSlabBottomY": 5.246420577460306,
+        "rawVerticalClearance": -0.5962553596746059,
+        "conservativeTargetYAt3point6Clearance": 1.6464205774603058,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 66.0,
+        "point": [
+          3274.997446267637,
+          -1980.128090152954
+        ],
+        "rawEstimatedRoadY": 5.846245884766502,
+        "minimumActualSlabBottomY": 5.248747058036589,
+        "rawVerticalClearance": -0.5974988267299137,
+        "conservativeTargetYAt3point6Clearance": 1.6487470580365886,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 66.5,
+        "point": [
+          3274.7726078060946,
+          -1980.5746857935635
+        ],
+        "rawEstimatedRoadY": 5.849815832398092,
+        "minimumActualSlabBottomY": 5.251073538612872,
+        "rawVerticalClearance": -0.5987422937852198,
+        "conservativeTargetYAt3point6Clearance": 1.6510735386128723,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 67.0,
+        "point": [
+          3274.5477693445528,
+          -1981.021281434173
+        ],
+        "rawEstimatedRoadY": 5.853385780029683,
+        "minimumActualSlabBottomY": 5.253400019189155,
+        "rawVerticalClearance": -0.5999857608405277,
+        "conservativeTargetYAt3point6Clearance": 1.6534000191891551,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 67.5,
+        "point": [
+          3274.3229308830105,
+          -1981.4678770747823
+        ],
+        "rawEstimatedRoadY": 5.856955727661274,
+        "minimumActualSlabBottomY": 5.255726499765438,
+        "rawVerticalClearance": -0.6012292278958355,
+        "conservativeTargetYAt3point6Clearance": 1.655726499765438,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 68.0,
+        "point": [
+          3274.0980924214687,
+          -1981.9144727153919
+        ],
+        "rawEstimatedRoadY": 5.860525675292863,
+        "minimumActualSlabBottomY": 5.257581565383003,
+        "rawVerticalClearance": -0.6029441099098607,
+        "conservativeTargetYAt3point6Clearance": 1.6575815653830026,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 68.5,
+        "point": [
+          3273.8732539599264,
+          -1982.3610683560014
+        ],
+        "rawEstimatedRoadY": 5.864095622924455,
+        "minimumActualSlabBottomY": 5.259253017671165,
+        "rawVerticalClearance": -0.6048426052532898,
+        "conservativeTargetYAt3point6Clearance": 1.659253017671165,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 69.0,
+        "point": [
+          3273.6484154983846,
+          -1982.807663996611
+        ],
+        "rawEstimatedRoadY": 5.867665570556045,
+        "minimumActualSlabBottomY": 5.260924469959323,
+        "rawVerticalClearance": -0.6067411005967216,
+        "conservativeTargetYAt3point6Clearance": 1.660924469959323,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 69.5,
+        "point": [
+          3273.4235770368423,
+          -1983.2542596372205
+        ],
+        "rawEstimatedRoadY": 5.8712355181876354,
+        "minimumActualSlabBottomY": 5.262595922247485,
+        "rawVerticalClearance": -0.6086395959401507,
+        "conservativeTargetYAt3point6Clearance": 1.6625959222474846,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 70.0,
+        "point": [
+          3273.1987385753005,
+          -1983.70085527783
+        ],
+        "rawEstimatedRoadY": 5.874805465819226,
+        "minimumActualSlabBottomY": 5.264267374535643,
+        "rawVerticalClearance": -0.6105380912835834,
+        "conservativeTargetYAt3point6Clearance": 1.6642673745356427,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 70.5,
+        "point": [
+          3272.973900113758,
+          -1984.1474509184393
+        ],
+        "rawEstimatedRoadY": 5.878375413450816,
+        "minimumActualSlabBottomY": 5.265938826823804,
+        "rawVerticalClearance": -0.6124365866270116,
+        "conservativeTargetYAt3point6Clearance": 1.6659388268238042,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 71.0,
+        "point": [
+          3272.7490616522164,
+          -1984.5940465590488
+        ],
+        "rawEstimatedRoadY": 5.8819453610824075,
+        "minimumActualSlabBottomY": 5.2676102791119614,
+        "rawVerticalClearance": -0.6143350819704461,
+        "conservativeTargetYAt3point6Clearance": 1.6676102791119614,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 71.5,
+        "point": [
+          3272.524223190674,
+          -1985.0406421996584
+        ],
+        "rawEstimatedRoadY": 5.885515308713997,
+        "minimumActualSlabBottomY": 5.269281731400124,
+        "rawVerticalClearance": -0.6162335773138734,
+        "conservativeTargetYAt3point6Clearance": 1.6692817314001238,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 72.0,
+        "point": [
+          3272.2993847291323,
+          -1985.4872378402679
+        ],
+        "rawEstimatedRoadY": 5.889085256345588,
+        "minimumActualSlabBottomY": 5.270953183688281,
+        "rawVerticalClearance": -0.618132072657307,
+        "conservativeTargetYAt3point6Clearance": 1.670953183688281,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 72.5,
+        "point": [
+          3272.07454626759,
+          -1985.9338334808774
+        ],
+        "rawEstimatedRoadY": 5.892655203977179,
+        "minimumActualSlabBottomY": 5.272624635976443,
+        "rawVerticalClearance": -0.6200305680007361,
+        "conservativeTargetYAt3point6Clearance": 1.6726246359764425,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 73.0,
+        "point": [
+          3271.849707806048,
+          -1986.380429121487
+        ],
+        "rawEstimatedRoadY": 5.896225151608769,
+        "minimumActualSlabBottomY": 5.2742960882646,
+        "rawVerticalClearance": -0.6219290633441696,
+        "conservativeTargetYAt3point6Clearance": 1.6742960882645996,
+        "slabs": [
+          "city-balcony:upper-slab"
+        ]
+      }
+    ],
+    "minRawClearance": -0.6219290633441696,
+    "minConservativeTargetY": 1.394463584799532
+  },
+  {
+    "id": "way/157967586#0",
+    "sourceRoad": {
+      "id": "way/157967586#0",
+      "sourceId": "way/157967586",
+      "name": "\u4e4b\u6c5f\u8def",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3269.488425833467,
+          -1991.0706330482174
+        ],
+        [
+          3224.5209156249025,
+          -2069.5906979336823
+        ],
+        [
+          3218.349357220031,
+          -2079.401548904164
+        ],
+        [
+          3211.0982090858197,
+          -2089.704605279345
+        ],
+        [
+          3169.941015571697,
+          -2147.7249802046986
+        ]
+      ],
+      "nodeIds": [
+        "136998158",
+        "136998122",
+        "3386084105",
+        "136998016",
+        "5372764514"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        5.933717193351623,
+        5.511784816291353,
+        5.260612576944671,
+        5.316331424649917,
+        5.320435128121126
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "lengthGame": 185.8097628750421,
+    "nodeStations": [
+      0.0,
+      90.4846813774297,
+      102.07523485471201,
+      114.67412845432742,
+      185.8097628750421
+    ],
+    "sharedNodeConnections": [
+      {
+        "nodeId": "136998158",
+        "station": 0.0,
+        "connections": [
+          {
+            "roadId": "way/157967585#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 5.933717193351623
+          },
+          {
+            "roadId": "way/157967586#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.933717193351623
+          }
+        ]
+      },
+      {
+        "nodeId": "136998122",
+        "station": 90.4846813774297,
+        "connections": [
+          {
+            "roadId": "way/157967586#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 5.511784816291353
+          }
+        ]
+      },
+      {
+        "nodeId": "3386084105",
+        "station": 102.07523485471201,
+        "connections": [
+          {
+            "roadId": "way/51718751#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 5.260612576944671
+          },
+          {
+            "roadId": "way/157967586#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 5.260612576944671
+          }
+        ]
+      },
+      {
+        "nodeId": "136998016",
+        "station": 114.67412845432742,
+        "connections": [
+          {
+            "roadId": "way/157967586#0",
+            "nodeIndex": 3,
+            "rawEstimatedY": 5.316331424649917
+          },
+          {
+            "roadId": "way/595993911#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 5.316331424649917
+          }
+        ]
+      },
+      {
+        "nodeId": "5372764514",
+        "station": 185.8097628750421,
+        "connections": [
+          {
+            "roadId": "way/157967586#0",
+            "nodeIndex": 4,
+            "rawEstimatedY": 5.320435128121126
+          },
+          {
+            "roadId": "way/557050559#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 5.320435128121126
+          }
+        ]
+      }
+    ],
+    "occupiedCrossSections": [],
+    "minRawClearance": null,
+    "minConservativeTargetY": null
+  },
+  {
+    "id": "way/336828925#0",
+    "sourceRoad": {
+      "id": "way/336828925#0",
+      "sourceId": "way/336828925",
+      "name": "\u652f\u8def",
+      "kind": "service",
+      "width": 4.5,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": false,
+      "points": [
+        [
+          3222.1019418443016,
+          -2092.9438489554955
+        ],
+        [
+          3235.9807317453638,
+          -2090.45621623485
+        ],
+        [
+          3251.470246431509,
+          -2073.195769951362
+        ],
+        [
+          3260.880574026861,
+          -2054.32567896614
+        ],
+        [
+          3263.2360425288794,
+          -2049.4568363150997
+        ],
+        [
+          3270.8335830906785,
+          -2028.1523240044758
+        ]
+      ],
+      "nodeIds": [
+        "3439149586",
+        "3439149587",
+        "3439149588",
+        "10935463454",
+        "3439149589",
+        "3439149590"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        4.757597800196787,
+        4.284008482214795,
+        4.555631105880335,
+        4.958691331000607,
+        5.123058815732846,
+        5.655308741779709
+      ],
+      "directionBasis": "no-oneway-restriction-recorded"
+    },
+    "lengthGame": 86.40524906574782,
+    "nodeStations": [
+      0.0,
+      14.09996899537906,
+      37.29152071400068,
+      58.37788121652429,
+      63.786565032813634,
+      86.40524906574782
+    ],
+    "sharedNodeConnections": [
+      {
+        "nodeId": "3439149586",
+        "station": 0.0,
+        "connections": [
+          {
+            "roadId": "way/336828925#0",
+            "nodeIndex": 0,
+            "rawEstimatedY": 4.757597800196787
+          },
+          {
+            "roadId": "way/557050557#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 4.757597800196787
+          }
+        ]
+      },
+      {
+        "nodeId": "3439149587",
+        "station": 14.09996899537906,
+        "connections": [
+          {
+            "roadId": "way/336828925#0",
+            "nodeIndex": 1,
+            "rawEstimatedY": 4.284008482214795
+          }
+        ]
+      },
+      {
+        "nodeId": "3439149588",
+        "station": 37.29152071400068,
+        "connections": [
+          {
+            "roadId": "way/336828925#0",
+            "nodeIndex": 2,
+            "rawEstimatedY": 4.555631105880335
+          }
+        ]
+      },
+      {
+        "nodeId": "10935463454",
+        "station": 58.37788121652429,
+        "connections": [
+          {
+            "roadId": "way/336828925#0",
+            "nodeIndex": 3,
+            "rawEstimatedY": 4.958691331000607
+          }
+        ]
+      },
+      {
+        "nodeId": "3439149589",
+        "station": 63.786565032813634,
+        "connections": [
+          {
+            "roadId": "way/336828925#0",
+            "nodeIndex": 4,
+            "rawEstimatedY": 5.123058815732846
+          }
+        ]
+      },
+      {
+        "nodeId": "3439149590",
+        "station": 86.40524906574782,
+        "connections": [
+          {
+            "roadId": "way/336828925#0",
+            "nodeIndex": 5,
+            "rawEstimatedY": 5.655308741779709
+          }
+        ]
+      }
+    ],
+    "occupiedCrossSections": [
+      {
+        "station": 58.0,
+        "point": [
+          3260.711934870796,
+          -2054.663843199677
+        ],
+        "rawEstimatedRoadY": 4.951468231111806,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.3835662621558127,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 58.37788121652429,
+        "point": [
+          3260.880574026861,
+          -2054.32567896614
+        ],
+        "rawEstimatedRoadY": 4.958691331000607,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.3907893620446137,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 58.5,
+        "point": [
+          3260.933756456774,
+          -2054.215748868232
+        ],
+        "rawEstimatedRoadY": 4.962402466271265,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.3945004973152715,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 59.0,
+        "point": [
+          3261.151505227272,
+          -2053.7656539083105
+        ],
+        "rawEstimatedRoadY": 4.977597242885605,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.4096952739296116,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 59.5,
+        "point": [
+          3261.3692539977696,
+          -2053.315558948389
+        ],
+        "rawEstimatedRoadY": 4.992792019499947,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.4248900505439535,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 60.0,
+        "point": [
+          3261.5870027682677,
+          -2052.8654639884676
+        ],
+        "rawEstimatedRoadY": 5.007986796114288,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.4400848271582944,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 60.5,
+        "point": [
+          3261.8047515387657,
+          -2052.415369028546
+        ],
+        "rawEstimatedRoadY": 5.023181572728629,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.4552796037726354,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 61.0,
+        "point": [
+          3262.0225003092637,
+          -2051.9652740686247
+        ],
+        "rawEstimatedRoadY": 5.038376349342971,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.4704743803869773,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 61.5,
+        "point": [
+          3262.2402490797617,
+          -2051.5151791087033
+        ],
+        "rawEstimatedRoadY": 5.053571125957312,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.4856691570013183,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 62.0,
+        "point": [
+          3262.4579978502597,
+          -2051.0650841487823
+        ],
+        "rawEstimatedRoadY": 5.068765902571653,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.5008639336156593,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 62.5,
+        "point": [
+          3262.6757466207578,
+          -2050.614989188861
+        ],
+        "rawEstimatedRoadY": 5.083960679185995,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.516058710230001,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 63.0,
+        "point": [
+          3262.893495391256,
+          -2050.1648942289394
+        ],
+        "rawEstimatedRoadY": 5.099155455800336,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.531253486844342,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 63.5,
+        "point": [
+          3263.111244161754,
+          -2049.714799269018
+        ],
+        "rawEstimatedRoadY": 5.114350232414677,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.546448263458683,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 63.786565032813634,
+        "point": [
+          3263.2360425288794,
+          -2049.4568363150997
+        ],
+        "rawEstimatedRoadY": 5.123058815732846,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.5551568467768524,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 64.0,
+        "point": [
+          3263.30773462282,
+          -2049.2558021665473
+        ],
+        "rawEstimatedRoadY": 5.128081245213507,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.5601792762575135,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 64.5,
+        "point": [
+          3263.4756829559487,
+          -2048.784852745272
+        ],
+        "rawEstimatedRoadY": 5.1398469590205496,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.571944990064556,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 65.0,
+        "point": [
+          3263.643631289078,
+          -2048.3139033239972
+        ],
+        "rawEstimatedRoadY": 5.151612672827592,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.5837107038715983,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 65.5,
+        "point": [
+          3263.811579622207,
+          -2047.8429539027222
+        ],
+        "rawEstimatedRoadY": 5.163378386634635,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.5954764176786416,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 66.0,
+        "point": [
+          3263.9795279553355,
+          -2047.3720044814472
+        ],
+        "rawEstimatedRoadY": 5.1751441004416785,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.607242131485685,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 66.5,
+        "point": [
+          3264.1474762884645,
+          -2046.9010550601722
+        ],
+        "rawEstimatedRoadY": 5.18690981424872,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.6190078452927263,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 67.0,
+        "point": [
+          3264.315424621593,
+          -2046.4301056388974
+        ],
+        "rawEstimatedRoadY": 5.198675528055762,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.6307735590997687,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 67.5,
+        "point": [
+          3264.483372954722,
+          -2045.9591562176224
+        ],
+        "rawEstimatedRoadY": 5.210441241862806,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.642539272906812,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 68.0,
+        "point": [
+          3264.651321287851,
+          -2045.4882067963474
+        ],
+        "rawEstimatedRoadY": 5.222206955669849,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.6543049867138553,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 68.5,
+        "point": [
+          3264.81926962098,
+          -2045.0172573750724
+        ],
+        "rawEstimatedRoadY": 5.233972669476892,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.6660707005208986,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 69.0,
+        "point": [
+          3264.9872179541085,
+          -2044.5463079537974
+        ],
+        "rawEstimatedRoadY": 5.245738383283935,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.677836414327941,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 69.5,
+        "point": [
+          3265.1551662872375,
+          -2044.0753585325224
+        ],
+        "rawEstimatedRoadY": 5.257504097090978,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.6896021281349842,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 70.0,
+        "point": [
+          3265.323114620366,
+          -2043.6044091112474
+        ],
+        "rawEstimatedRoadY": 5.26926981089802,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.7013678419420266,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 70.5,
+        "point": [
+          3265.491062953495,
+          -2043.1334596899724
+        ],
+        "rawEstimatedRoadY": 5.281035524705063,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.713133555749069,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 71.0,
+        "point": [
+          3265.6590112866243,
+          -2042.6625102686976
+        ],
+        "rawEstimatedRoadY": 5.292801238512105,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.7248992695561114,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 71.5,
+        "point": [
+          3265.826959619753,
+          -2042.1915608474226
+        ],
+        "rawEstimatedRoadY": 5.304566952319148,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.7366649833631547,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 72.0,
+        "point": [
+          3265.994907952882,
+          -2041.7206114261476
+        ],
+        "rawEstimatedRoadY": 5.316332666126191,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.748430697170197,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 72.5,
+        "point": [
+          3266.1628562860105,
+          -2041.2496620048726
+        ],
+        "rawEstimatedRoadY": 5.328098379933234,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.7601964109772403,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 73.0,
+        "point": [
+          3266.3308046191396,
+          -2040.7787125835976
+        ],
+        "rawEstimatedRoadY": 5.339864093740276,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.7719621247842827,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 73.5,
+        "point": [
+          3266.498752952268,
+          -2040.3077631623225
+        ],
+        "rawEstimatedRoadY": 5.35162980754732,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.783727838591326,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 74.0,
+        "point": [
+          3266.6667012853973,
+          -2039.8368137410475
+        ],
+        "rawEstimatedRoadY": 5.363395521354363,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.7954935523983693,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 74.5,
+        "point": [
+          3266.834649618526,
+          -2039.3658643197725
+        ],
+        "rawEstimatedRoadY": 5.375161235161405,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.8072592662054117,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 75.0,
+        "point": [
+          3267.002597951655,
+          -2038.8949148984977
+        ],
+        "rawEstimatedRoadY": 5.386926948968448,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.819024980012454,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 75.5,
+        "point": [
+          3267.170546284784,
+          -2038.4239654772227
+        ],
+        "rawEstimatedRoadY": 5.39869266277549,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.8307906938194964,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 76.0,
+        "point": [
+          3267.3384946179126,
+          -2037.9530160559477
+        ],
+        "rawEstimatedRoadY": 5.410458376582533,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.8425564076265397,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 76.5,
+        "point": [
+          3267.5064429510417,
+          -2037.4820666346727
+        ],
+        "rawEstimatedRoadY": 5.422224090389577,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.854322121433583,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 77.0,
+        "point": [
+          3267.6743912841703,
+          -2037.0111172133977
+        ],
+        "rawEstimatedRoadY": 5.433989804196619,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.8660878352406254,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 77.5,
+        "point": [
+          3267.8423396172993,
+          -2036.5401677921227
+        ],
+        "rawEstimatedRoadY": 5.445755518003661,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.8778535490476678,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 78.0,
+        "point": [
+          3268.010287950428,
+          -2036.0692183708477
+        ],
+        "rawEstimatedRoadY": 5.457521231810704,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.88961926285471,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 78.5,
+        "point": [
+          3268.178236283557,
+          -2035.5982689495727
+        ],
+        "rawEstimatedRoadY": 5.469286945617747,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.9013849766617534,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 79.0,
+        "point": [
+          3268.3461846166856,
+          -2035.127319528298
+        ],
+        "rawEstimatedRoadY": 5.48105265942479,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.9131506904687967,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 79.5,
+        "point": [
+          3268.5141329498147,
+          -2034.656370107023
+        ],
+        "rawEstimatedRoadY": 5.492818373231833,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.924916404275839,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 80.0,
+        "point": [
+          3268.6820812829433,
+          -2034.1854206857479
+        ],
+        "rawEstimatedRoadY": 5.504584087038875,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.9366821180828815,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 80.5,
+        "point": [
+          3268.8500296160723,
+          -2033.7144712644729
+        ],
+        "rawEstimatedRoadY": 5.516349800845918,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.9484478318899248,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 81.0,
+        "point": [
+          3269.0179779492014,
+          -2033.2435218431979
+        ],
+        "rawEstimatedRoadY": 5.528115514652961,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.960213545696967,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 81.5,
+        "point": [
+          3269.18592628233,
+          -2032.7725724219229
+        ],
+        "rawEstimatedRoadY": 5.539881228460004,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.9719792595040104,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 82.0,
+        "point": [
+          3269.353874615459,
+          -2032.3016230006479
+        ],
+        "rawEstimatedRoadY": 5.5516469422670465,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.983744973311053,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 82.5,
+        "point": [
+          3269.5218229485877,
+          -2031.8306735793728
+        ],
+        "rawEstimatedRoadY": 5.56341265607409,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -3.995510687118096,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 83.0,
+        "point": [
+          3269.6897712817167,
+          -2031.359724158098
+        ],
+        "rawEstimatedRoadY": 5.575178369881132,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.0072764009251385,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 83.5,
+        "point": [
+          3269.8577196148453,
+          -2030.888774736823
+        ],
+        "rawEstimatedRoadY": 5.586944083688175,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.019042114732182,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 84.0,
+        "point": [
+          3270.0256679479744,
+          -2030.417825315548
+        ],
+        "rawEstimatedRoadY": 5.598709797495218,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.030807828539224,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 84.5,
+        "point": [
+          3270.193616281103,
+          -2029.946875894273
+        ],
+        "rawEstimatedRoadY": 5.61047551130226,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.0425735423462665,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 85.0,
+        "point": [
+          3270.361564614232,
+          -2029.475926472998
+        ],
+        "rawEstimatedRoadY": 5.6222412251093035,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.05433925615331,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 85.5,
+        "point": [
+          3270.529512947361,
+          -2029.004977051723
+        ],
+        "rawEstimatedRoadY": 5.634006938916346,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.066104969960352,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 86.0,
+        "point": [
+          3270.6974612804897,
+          -2028.534027630448
+        ],
+        "rawEstimatedRoadY": 5.645772652723388,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.077870683767395,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      },
+      {
+        "station": 86.40524906574782,
+        "point": [
+          3270.8335830906785,
+          -2028.1523240044758
+        ],
+        "rawEstimatedRoadY": 5.655308741779709,
+        "minimumActualSlabBottomY": 1.5679019689559937,
+        "rawVerticalClearance": -4.087406772823716,
+        "conservativeTargetYAt3point6Clearance": -2.0320980310440064,
+        "slabs": [
+          "city-balcony:lower-slab",
+          "city-balcony:upper-slab"
+        ]
+      }
+    ],
+    "minRawClearance": -4.087406772823716,
+    "minConservativeTargetY": -2.0320980310440064
+  }
+]

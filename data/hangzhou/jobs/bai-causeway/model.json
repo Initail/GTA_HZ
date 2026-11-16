@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "placeId": "bai-causeway",
+  "artifactPath": "artifacts/landmarks/bai-causeway/model.glb",
+  "sourceModule": "scripts/landmarks/bai-causeway.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [],
+  "buildCommand": null
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "placeId": "qiantang-bridge",
+  "artifactPath": "artifacts/landmarks/qiantang-bridge/model.glb",
+  "sourceModule": "scripts/landmarks/qiantang-bridge.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [],
+  "buildCommand": null
+}

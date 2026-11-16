@@ -1,0 +1,42 @@
+{
+  "exitCode": 2,
+  "result": {
+    "id": "boao-tunnel-profile",
+    "recordedStage": "planned",
+    "currentStage": "planned",
+    "errors": {
+      "evidence-ready": [
+        "缺少 height 的有来源观察及不确定度（不能为 unknown）",
+        "evidence.blockers 尚未清空：[\"地下真实埋深/道路标高/坡道入口和净高未知；不作任意负layer×6m或地表桥面。\", \"旧命名页本次403；9m单管/总宽未确认。2025发布会禁止隧道行人与非机动车，无actorpath acceptance。\"]"
+      ],
+      "modelled": [
+        "模型缺失或无效：[Errno 2] No such file or directory: '__missing__'",
+        "model.buildCommand 未填写"
+      ],
+      "verified": [
+        "验收未绑定当前 GLB SHA256",
+        "验收未绑定当前 evidence.json SHA256",
+        "scale 尚未完成具名验收",
+        "scale 缺少可读取的验收证据文件",
+        "orientation 尚未完成具名验收",
+        "orientation 缺少可读取的验收证据文件",
+        "silhouette 尚未完成具名验收",
+        "silhouette 缺少可读取的验收证据文件",
+        "context 尚未完成具名验收",
+        "context 缺少可读取的验收证据文件",
+        "collision 尚未完成具名验收",
+        "collision 缺少可读取的验收证据文件",
+        "browser 尚未完成具名验收",
+        "browser 缺少可读取的验收证据文件",
+        "performance 尚未完成具名验收",
+        "performance 缺少可读取的验收证据文件",
+        "provenance 尚未完成具名验收",
+        "provenance 缺少可读取的验收证据文件"
+      ]
+    },
+    "modelStats": null,
+    "note": "检查结构与证据文件；照片/形体判断须由具名评审实际核对",
+    "requestedStage": "evidence-ready",
+    "passed": false
+  }
+}

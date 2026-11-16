@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 1,
+  "placeId": "civic-center",
+  "cityId": "hangzhou",
+  "scope": "Finite Civic Center core candidate: six mapped arc towers with reported109.6m/26-floor envelope, high annular enclosed connection, four exact mapped L podium plans, estimated lower curved central ring canopy/open roof garden, two mapped roof pavilions, bounded water/walk/greenery. Fullentry/G1G2/underground/site/terrain and runtime acceptance pending.",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "civic-complex",
+      "civic-government",
+      "civic-site-map"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.20521943442597,
+      30.248993004078663
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik"
+    ]
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "use": "fixed ring and12 explicit component plans; unverified height120/80 not adopted"
+    },
+    {
+      "id": "civic-complex",
+      "url": "https://www.skyscrapercenter.com/complex/940",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "six completed high-rise component records; TJADRI actual photos"
+    },
+    {
+      "id": "civic-government",
+      "url": "https://www.zjdj.com.cn/zx/xw/jrzj/201610/t20161001_1951228_ext.shtml",
+      "publisher": "浙江党建网 / 浙江新闻客户端 / 杭州日报，杭州市政府公告",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2016-10-01",
+      "status": "web-index-text available; directcurl403",
+      "license": "unknown; reference only",
+      "use": "address解放东路18号; six arc26-storey towers, approxinner70m andupperclosedring; not photos"
+    },
+    {
+      "id": "civic-landscape",
+      "url": "https://www.ldgpartner.com/project/detail.aspx?id=46",
+      "publisher": "LDG / 兰斯凯普景观设计方",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2007-09 design, actual photo capture unknown",
+      "status": "available",
+      "license": "unknown; reference only; photos not bundled",
+      "use": "G first-floor/roof public garden; West Lake water motif, walks/bridges/stoppingplatforms; actual built garden/canopy detail photos"
+    },
+    {
+      "id": "civic-designer",
+      "url": "https://world-architects.com/zh/atelier-land-yangpu-district-shanghai/project/hangzhou-citizen-center",
+      "publisher": "ATELIER L+ architect profile / World-Architects",
+      "accessedAt": "2026-10-14",
+      "status": "search-index available, direct403",
+      "license": "unknown; reference only",
+      "use": "six towers/four podiums400m block, approx90m highconnection; retain85/90 ambiguity; no directphotos claimed"
+    },
+    {
+      "id": "civic-paper",
+      "url": "https://global.ctbuh.org/resources/papers/download/1908-urban-mega-structure-vertical-landscape-of-hangzhou-civic-center.pdf",
+      "publisher": "Linxue Li / Jie Wu / CTBUH 2014 Shanghai conference",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2014",
+      "status": "search-index only; direct404",
+      "license": "unknown; reference only",
+      "use": "legacy report bridge85English/90Chinese retained conflict; fullpaper/section not directlyread thisround"
+    },
+    {
+      "id": "civic-west-photo",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Citizen%27s_Centre_20231205163814.jpg",
+      "publisher": "XiaYZ2023 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2023-12-05",
+      "status": "available",
+      "license": "CC BY-SA4.0 metadata; reference only, not bundled",
+      "use": "actual west-to-east independent photograph with statedWGS84camera; exterior shape/low podium"
+    },
+    {
+      "id": "civic-site-map",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Civic_Center_map.JPG",
+      "publisher": "Huandy618 own photograph of site operator map / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2012-10-03",
+      "status": "available",
+      "license": "CC BY-SA3.0 photo metadata; reference only, not bundled",
+      "use": "official on-site drawnlayout/labels A-F/HJKL/G1G2/adjacentstreets; no measuredproportions or currententryclaim"
+    },
+    {
+      "id": "cvu1",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-1/15392",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu2",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-2/15393",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu3",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-3/15394",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu4",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-4/15395",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu5",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-5/15396",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    },
+    {
+      "id": "cvu6",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-6/15397",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "accessedAt": "2026-10-14",
+      "status": "available",
+      "license": "unknown; reference only",
+      "use": "individuallyread109.6m architectural/99.4occupied/26floors; noCVU1..6 toA-F mapping claim"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "annularRadiiM": [
+          [
+            97.42372244241415,
+            99.30617422661268
+          ],
+          [
+            66.78436594545111,
+            69.8393780153517
+          ]
+        ],
+        "componentIds": [
+          "relation/4762996",
+          "way/336830558",
+          "way/336830559",
+          "way/336830561",
+          "way/336830562",
+          "way/336830564",
+          "way/336830565",
+          "way/336828914",
+          "way/336828913",
+          "way/336828912",
+          "way/336828911",
+          "way/582480145",
+          "way/582480146"
+        ],
+        "mappedTowerPlanCount": 6,
+        "mappedPodiumPlanCount": 4
+      },
+      "unit": "m/mapIds",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "civic-site-map"
+      ],
+      "uncertainty": "Signed mapped ringcentroid/individualfootprints withcity_configphysicalmetres; fieldaccuracyunverified±5m; sourceG/oval are roofpartplans not totalG."
+    },
+    {
+      "kind": "height",
+      "value": {
+        "allSixReportedTowerM": 109.6,
+        "reportedFloors": 26,
+        "glassBodyCandidateM": 99.4,
+        "candidateBridgeM": [
+          85,
+          92
+        ],
+        "candidatePodiumM": 16,
+        "candidateCentralDeckM": 24
+      },
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "cvu1",
+        "cvu2",
+        "cvu3",
+        "cvu4",
+        "cvu5",
+        "cvu6",
+        "civic-complex",
+        "civic-landscape"
+      ],
+      "uncertainty": "AllsixCVUreported109.6m/26 floors independentlyconfirmed; body99.4±3, bridgeeach±4, podium16±3, centraldeck24±4 photoproportionestimates; bridge85/90 conflict not solved and source120/80 ignored."
+    },
+    {
+      "kind": "orientation",
+      "value": {
+        "A": -66.51193297641363,
+        "B": -122.18737566691492,
+        "C": 178.32670068212332,
+        "D": 99.2974719787702,
+        "E": 43.08481451405779,
+        "F": -2.0084146936011598,
+        "H": -89.14470868187651,
+        "J": -172.13633714211377,
+        "K": 97.09792316914768,
+        "L": 19.009814742929148,
+        "G-roof-pavilion": 5.821789644542263,
+        "roof-oval": -46.590521157035624
+      },
+      "unit": "degrees from east to mappedcomponentcentroid",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "civic-site-map",
+        "civic-west-photo"
+      ],
+      "uncertainty": "Angles computed frommapcentroid/eachmappedcomponentcentroid;±3° externaldirection, lowercanopy/gardenphaseestimated. Independent2023authorWGS84camera seeswest-to-east; onsiteletterorder matches maps."
+    },
+    {
+      "kind": "silhouette",
+      "value": "Six separated arcuate glassbody towers with open latticecrowns, connectedhighclosedannulus and open center; low4L podiums outside; estimated lowerfluted ring canopy aroundopen greenroofgarden andtwo circular/ovalpavilions.",
+      "unit": "description",
+      "basis": "estimated",
+      "sourceIds": [
+        "civic-complex",
+        "civic-landscape",
+        "civic-west-photo",
+        "civic-site-map"
+      ],
+      "uncertainty": "Actualdifferentdirection exterior andinterior photos reviewed; preciseprofiles/garden/ribs/mulliongrid/podiumheights photoproportion±15..25%; finitecoreonly."
+    },
+    {
+      "kind": "component_count",
+      "value": {
+        "tower": 6,
+        "podium": 4,
+        "roofPavilionForms": 2
+      },
+      "unit": "count",
+      "basis": "reported",
+      "sourceIds": [
+        "civic-complex",
+        "civic-landscape",
+        "osm-geofabrik",
+        "civic-site-map"
+      ],
+      "uncertainty": "6+4 mainpublicsources; two mappedlittlepavilions correspond toactualroofphotoforms, purposes/heights estimated; G1G2 ceremonialhalls/underground furthercomponents outside finitecandidate."
+    }
+  ],
+  "estimatedParameters": {
+    "bodyHeightM": {
+      "value": 99.4,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "CVU highestoccupiedlevel adopted as finite glassbody termination; real roofwall/crowntransition not surveyed",
+      "uncertainty": "±3m; highestoccupied is not guaranteed walltop"
+    },
+    "spandrelBandM": {
+      "value": 0.35,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "actual south/west glass facade horizontalbands as proportion offloorpitch",
+      "uncertainty": "±.15m; exactfloorsections/panelgrid pending"
+    },
+    "mullionPitchM": {
+      "value": 3.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "actual glass/metal photo rhythm with reported26floors as verticalguide",
+      "uncertainty": "±25%; finite combined line sampling, no exactwindowcount"
+    },
+    "mullionWidthM": {
+      "value": 0.12,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "bounded curtainwall seam representation from near photos",
+      "uncertainty": "±.06m; view/readability approximation"
+    },
+    "bridgeBottomM": {
+      "value": 85.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "CVU calls85m bridge; choose candidate underside85, conflict with designer90 retained",
+      "uncertainty": "±4m; not a reconciled surveyed underside"
+    },
+    "bridgeTopM": {
+      "value": 92.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "two-three storey-looking closedlink depth from actual realphotos vs109.6m tower",
+      "uncertainty": "±4m; not interpreted as designer90m roof"
+    },
+    "podiumHeightM": {
+      "value": 16.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "representative4-layer low glazedLbuilding proportions inactual2023west/south",
+      "uncertainty": "±3m and±1storey; sourceH80 rejected"
+    },
+    "podiumFloorSamples": {
+      "value": 4,
+      "unit": "row",
+      "basis": "estimated",
+      "method": "photo-relative lowbuilding horizontaldivision count",
+      "uncertainty": "representative not exactasbuilt schedule"
+    },
+    "centralDeckM": {
+      "value": 24.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "central meetingbuilding roofgarden elevatedlevel from realphotos relative99.4m glassbody, earlytechnical24m secondary not promoted measured",
+      "uncertainty": "±4m; grounddatum/terrain/G entrancelevel pending"
+    },
+    "centralRadiusM": {
+      "value": 64.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "source dome21m envelope and actual courtyard-aerial proportions, perspective allowance",
+      "uncertainty": "±6m; centralmappedG only smallroofpavilion, not wholegarden footprint"
+    },
+    "canopyInnerMeanRadiusM": {
+      "value": 51.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "irregular edge in actual courtyard3, dome reference andoutercircle ratio",
+      "uncertainty": "±5m; controlwavesoriginalphotoinformed not exact gardenboundary"
+    },
+    "canopyInnerWavesM": {
+      "value": [
+        3.5,
+        2.2
+      ],
+      "unit": "m",
+      "basis": "estimated",
+      "method": "two bounded wave amplitudes recover the irregular inwardgardenedge from actualaerial",
+      "uncertainty": "±40%; landscaping detail not survey"
+    },
+    "canopyOuterHeightAboveDeckM": {
+      "value": 2.6,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "rounded roof profile abovegarden from actuallandscape4/court3",
+      "uncertainty": "±1.5m"
+    },
+    "canopyInnerHeightAboveDeckM": {
+      "value": 0.45,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "canopy rises outside andcomesdown toopen gardenedge in actualphoto",
+      "uncertainty": "±.8m"
+    },
+    "canopyThicknessM": {
+      "value": 0.55,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "thin shell/edge representation",
+      "uncertainty": "±.3m; no structuraldesign"
+    },
+    "domeBaseAboveDeckM": {
+      "value": 1.1,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "source centralroundpavilion mapsplan andactualphoto glasswall",
+      "uncertainty": "±.8m"
+    },
+    "domeRiseM": {
+      "value": 3.6,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "shallow radialglassroof proportion to21m sourceplan",
+      "uncertainty": "±1.3m"
+    },
+    "ovalHeightAboveDeckM": {
+      "value": 5.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "actual secondpavilion glasswall/tippedflatoval frommapped15.98×11.19m plan",
+      "uncertainty": "±2m; purpose/inside pending"
+    },
+    "gardenSamples": {
+      "value": {
+        "treeCount": 18,
+        "waterRadiusM": 19,
+        "waterWaveM": 4,
+        "pathWidthM": 2.4
+      },
+      "unit": "mixed",
+      "basis": "estimated",
+      "method": "bounded representative lawns/wavy water/stonewalks/shortstairs/benches guided byactualLDG5/6 andcourt3; map-derivedtwopavilion phase",
+      "uncertainty": "positions/shape±25%, treecount representative; no exactlandscape/openaccessclaim"
+    }
+  },
+  "referenceImages": [
+    {
+      "id": "council-south",
+      "url": "https://images.skyscrapercenter.com/complex/2015-06-04-15-44-44_hangzhouciviccenter_ext_overallclosesouthview3_(c)tjadri.jpg",
+      "bytes": 92991,
+      "sha256": "c93cdf8a3ca8c514b2d356eb3829a6b6dbe86fd0ad1584aff307da52dd9f7596",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-complex",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "south towards north estimate0±25°"
+    },
+    {
+      "id": "council-court2",
+      "url": "https://images.skyscrapercenter.com/complex/2015-06-04-15-44-44_hangzhouciviccenter_courtview2_(c)tjadri.jpg",
+      "bytes": 144535,
+      "sha256": "e3dcf48b016a4b6e1145ad6e85b21e23f9116cb7001567631fb68d176cc92d37",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-complex",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "courtyard towards southeast estimate135±35°"
+    },
+    {
+      "id": "council-court3",
+      "url": "https://images.skyscrapercenter.com/complex/2015-06-04-15-44-44_hangzhouciviccenter_courtview3_(c)tjadri.jpg",
+      "bytes": 128312,
+      "sha256": "f3ae2ad259126007e9676b6932df44336a5cbaf3998fea0c5ecc8e16db16399c",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-complex",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-0",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/98ade8e4b45440a99aba3cb8c1d2aead.png",
+      "bytes": 407982,
+      "sha256": "031957d01c2db7fead46d3b34ef91ca09031c0a925bca3b55ff0246834195d11",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "design-plan-not-builtphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-1",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/04fbc7b700a544a5be849db109fa6a7b.png",
+      "bytes": 1049143,
+      "sha256": "7c1d9ae70baa402ea6b31852ad515bac0dd77f4a17e90599a4f587fcf5dc708c",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-2",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/3b586822974a4fb8867307823b2384aa.jpg",
+      "bytes": 411241,
+      "sha256": "c2050e9bf9ca5c9a5014ead84b604ccf26021938657affc211a95c46959cf032",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "courtyard towards southeast estimate135±35°"
+    },
+    {
+      "id": "landscape-3",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/092367a3098c4da5a443ce0ed1b7441e.jpg",
+      "bytes": 536490,
+      "sha256": "c4bb9d2772648b8cece9bc5325534a74cb3ef27820a07a81ed30e5e0b28e4eac",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-4",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/faf7753641c34895b1370f1b0b89588a.png",
+      "bytes": 417865,
+      "sha256": "2943546ba991cac774edb847b95616d2368b70d9a699b39624b6f913c76dc629",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-5",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/7e7ccf6230d74ff992c3ee00d4e23575.png",
+      "bytes": 533627,
+      "sha256": "a3b87d6eb3c583e4fbb2cf6b7563c1e567abac26404bf65bfb58202b461959a4",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-6",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/e74ad485db614b1abddf18f56b192cac.png",
+      "bytes": 1153177,
+      "sha256": "cde27a1691bb0554a3eedc93441e325250a725939dbc9c62b42c9bc2f9a1f0ea",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "commons-2023",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hangzhou_Citizen%27s_Centre_20231205163814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "bytes": 2858193,
+      "sha256": "f5fcb94d58f5332a53ceb288f44138ed05fc887df5484e590210ca45c1d71d2b",
+      "captureDate": "2023-12-05 16:38:14",
+      "author": "XiaYZ2023",
+      "license": "CC BY-SA 4.0",
+      "description": "Seen from west to east",
+      "bundled": false,
+      "sourceId": "civic-west-photo",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "west-to-east90° reported"
+    },
+    {
+      "id": "commons-map",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangzhou_Civic_Center_map.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "bytes": 647203,
+      "sha256": "99e5f01c981bb592b03bf603bf97ad2597cad286a6af282d0dfd09a89071356b",
+      "captureDate": "2012-10-03 17:02:43",
+      "author": "Huandy618",
+      "license": "CC BY-SA 3.0",
+      "description": "Hangzhou citizen center map",
+      "bundled": false,
+      "sourceId": "civic-site-map",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "onsiteoperator-map-photo",
+      "viewDirection": "map-facingwest; schematiconly"
+    }
+  ],
+  "photosBundled": false,
+  "pendingSubscopes": [
+    "precise bridge85/90m datum/underside/roof and realstructuralmembers",
+    "fullcentralG/G1/G2 ceremonialhall envelope andentrances, basement/metro corridors",
+    "survey ground/terrain datum and centralroofgardenheight/geometry",
+    "allgrounddoors, accessibleplatform/stairs, arrival/collision and publicaccess currentstate",
+    "exact curtainwall seams/PBR metallicglass and night lighting",
+    "currentGLB, namedvisual review, browser/performance and complete2026 facadecondition"
+  ],
+  "blockers": [],
+  "conflicts": [
+    {
+      "topic": "OSM heights",
+      "resolution": "tower120m/H80m unverified map tags ignored; directsixCVU109.6 and lowpodiumphotoestimates used."
+    },
+    {
+      "topic": "bridge85/90",
+      "resolution": "CVU85 versusarchitect90/searchindexedpaper85English90Chinese not reconciled; candidate85..92 each±4m explicitlyestimated, not asserted bottom/top meaning ofreports."
+    },
+    {
+      "topic": "sourceG",
+      "resolution": "G-tagged21m pavilion outline is not the full64m-radius centralgardenbuilding; fullcentralbase/entrances estimated/pending."
+    },
+    {
+      "topic": "sourcephotosdate",
+      "resolution": "CVU/LDGcaptureunknown, 2015filenameupload notcapture.2023westphoto newer but doesnotproveall2026details;2009westpartialfile excluded."
+    },
+    {
+      "topic": "rejecteddesignscheme",
+      "resolution": "SinoSun page radialspindles/16-sidedsinglemainbody differs built6arc scheme; not used."
+    }
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/civic-center-round2/geofabrik-civic-features.geojson": "dfd49f8efb658b72e9e9ca5c4967d0c1ae716acb403ea5c37b455afd0d90c696",
+    "docs/hangzhou/research/core/civic-center-round2/measurements.json": "89044f2617249fb924f58e8bb23f72a2c15a1cf72e55ded6ef0e57c68c23873e",
+    "docs/hangzhou/research/core/civic-center-round2/photo-review.md": "25967096705bdc3bbc033a38f38dcc7e4a2b8dbbb45c2be21b6c4b15df75b18c",
+    "docs/hangzhou/research/core/civic-center-round2/cvu-height-fetches.json": "a28a865ca27dccf5127fa2419a3b725d6fe3b4152fecbb3a047178ece785d293",
+    "data/raw/hangzhou/zhejiang-261011.osm.pbf": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+  },
+  "statusBoundary": "finitecoreevidence only; noactualGLB/scene/entry/runtime or visualpass"
+}

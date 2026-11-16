@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "isolated site path overlay; not runtime installation",
+  "baseManifest": {
+    "file": "artifacts/cities/hangzhou/city-leisure-v15/public/cities/hangzhou/geography/manifest.json",
+    "bytes": 912,
+    "sha256": "49486c54cd59dc934dcf8e8d72fdac40eb731ec3d3a304d80052afad6e8448f5"
+  },
+  "baseSurfaces": {
+    "file": "artifacts/cities/hangzhou/city-leisure-v15/public/cities/hangzhou/geography/site-surfaces.json",
+    "bytes": 819459,
+    "sha256": "1a6cd159cb0d19a4cda09e2190038580641c865cbbe6a3209cffd6a13b3e68c1"
+  },
+  "addition": {
+    "file": "artifacts/cities/hangzhou/city-leisure-v15/site-path-ground-fit-v2/site-surfaces-candidate.json",
+    "bytes": 335336,
+    "sha256": "886f07420261bc84628ed339301a70257c70dc0e25cd3402bcd30d93a4c6c90a"
+  },
+  "outputs": [
+    {
+      "file": "artifacts/cities/hangzhou/city-leisure-v15/site-path-integration-v2/geography/manifest.json",
+      "bytes": 912,
+      "sha256": "fa88b1cf6b32fc08a049c8178808ab3fd1c1a1e575975d6bee03d9f2dc952b0a"
+    },
+    {
+      "file": "artifacts/cities/hangzhou/city-leisure-v15/site-path-integration-v2/geography/site-surfaces.json",
+      "bytes": 1152340,
+      "sha256": "46d75c46044333a4435168e53a46b38bf86125ddd6ee116ff46d221edd920183"
+    }
+  ],
+  "appendedFloors": 1,
+  "appendedSourceCorridors": 7,
+  "displayedTriangles": 1096,
+  "groundEvidence": {
+    "file": "artifacts/cities/hangzhou/city-leisure-v15/site-path-ground-fit-v2/actual-terrain-contact-bound.json",
+    "bytes": 1912725,
+    "sha256": "cecef06f236d695a258899295c7637c0ddfd536dbe50de82f78eeeca0c2e12f0"
+  },
+  "preserved": {
+    "allAppendedFieldPrefixes": true,
+    "allOtherOriginalFields": true
+  },
+  "runtimeInstalled": false,
+  "physicalAcceptance": "depends on source candidate audit; parsing does not prove traversability",
+  "browserAccepted": false
+}

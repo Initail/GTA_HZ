@@ -1,0 +1,29 @@
+{
+  "kind": "actual three-bridge GLB independent source fidelity review; actor/support/visual blockers retained",
+  "sourcePackageSha256": "a8a23e664563bfd8147731c4faa7cd86ace8cc75b6277517809b8a35be1502b1",
+  "artifactSha256": "ad3ea5cab69e69dead631b01a7e2a176bfd62c41e53d9525742a0627789a1bc6",
+  "sourceModuleSha256": "187f31907f305d758f54d736f282e0eb1f6314acbc89936649cf606a3e078450",
+  "specSha256": "0cac8bde8b84ccab0d2193840974c840f0605966d2577184c089be22adfae255",
+  "actualGlbChecks": {
+    "passed": 65,
+    "failed": 0
+  },
+  "nullEngineChecks": {
+    "passed": 20,
+    "failed": 0,
+    "faceRays": 73
+  },
+  "files": {
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/README.md": "8e671feeb2d11401645e1d4a9c40ed1363d00197f051013d28e3cd9ed6733d4e",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/coastal-bridges.glb": "ad3ea5cab69e69dead631b01a7e2a176bfd62c41e53d9525742a0627789a1bc6",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/expected-runtime.json": "c6f26f62eb37075dfc58b6ccb734eafd69c8649a7fa429618a1ea434dc46d484",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/export.log": "3ccdb6cbc5bf9f93644aae3746f15fe07935f7aa0681308fb70122c215eba25d",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/export.py": "b35ab45dded781e63086b083c43e345b42e344c985a53c6d651c112a78262c15",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/freeze.py": "d33fedd2f31f42189f5ddcd84310f88b2bc353a90ffb82861e20f601761ffca0",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/glb-review.json": "1c8b8c42c2fb2c2865838f0f1584fde60b5855dd4de6d6b7766ef5975ff3a19a",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/model-delivery.json": "6ab710e5dff5499cf244e1eaf970f5857cb7bf38024c65cc25018c932adfe47b",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/nullengine-review.json": "6be4ad8520e13790a9a9b09ffc9fbd990323d2699e715f561a28f4f08eb3afe1",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/nullengine.mjs": "4b2ae944cddc88edb9061313a47cb529fb6f2f7983814eaefe3f6244a5681f86",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/review.py": "1fd0b60c8705192e355780f8127a2752f8389fd975792d0a6c47fdd5585cced5"
+  }
+}

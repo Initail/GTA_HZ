@@ -1,0 +1,46 @@
+{
+  "createdDate": "2026-11-11",
+  "kind": "independent-current-serialized-candidate-cpu-check",
+  "candidate": "artifacts/cities/hangzhou/coastal-data-v1",
+  "checks": {
+    "crossingsSourceGeometry": true,
+    "all26DrySupportAndPark": true,
+    "all26WaterClearanceAbove4": true,
+    "all26ObstacleEnvelopesClear": true,
+    "all26PublicSourcePathsReachable": true,
+    "all26ConnectingSegmentsDry": true,
+    "all26IndependentGroundMatches": true,
+    "all26SampledSlopeBelowPoint12": true,
+    "all26SpacingAtLeast55": true,
+    "pngRandomAndBoundaryMaskSamples": true,
+    "pngDistanceWithinOneRedCode": true,
+    "allProducerInputAndOutputHashesMatch": true,
+    "runtimeActualCandidateAccepted": true,
+    "runtimeAllNineNegativeControlsRejected": true
+  },
+  "allListedCpuChecksPassed": true,
+  "scope": "finite serialized source/clearance/pixel checks, not runtime visual or bridge driving acceptance",
+  "crossings": 2132,
+  "lights": 26,
+  "minimumWaterClearanceFromSupportGame": 4.683403339392786,
+  "maxSlope96PolarSamplesPerLight": 0.054606186546262814,
+  "maxGroundErrorGame": 8.881784197001252e-16,
+  "minimumLightSpacingGame": 55.848414170816824,
+  "pngSamples": 11569,
+  "boundaryWetSamples": 182,
+  "runtimeValidatorInitialGapsFixedInSecondResult": true,
+  "unverified": [
+    "Browser Texture invertY/upload/filter/readiness",
+    "actual GLB and reflected rendering against source",
+    "full-resolution triangle collision of every prop rather than conservative source envelopes",
+    "bridge physical grades/rigid landmark geometry/tunnel portals",
+    "light pole full 3D body/head contact and visual/collision acceptance",
+    "continuous terrain extrema between finite slope samples",
+    "dynamic actors and generated runtime roadside vegetation",
+    "GPU memory/frame timing and 8192 texture hardware limits"
+  ],
+  "additionalScopeNotes": [
+    "producer did not bind refined collision or original details/roadDetails envelopes; this check independently adds them and hashes them",
+    "open-vegetation manifest has zero eligible islandTree/palm instances, so no additional open model footprint was silently skipped"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "actualCommand": [
+    "<LOCAL_HOME>/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "scripts/landmark_tasks.py",
+    "check",
+    "--job",
+    "docs/hangzhou/research/ali/alibaba-a-round3/task/alibaba-a-extensions/job.json",
+    "--stage",
+    "evidence-ready",
+    "--record"
+  ],
+  "actualExitCode": 2,
+  "expectedFailureBecauseCoreBlockersPreserved": true,
+  "stdout": "{\n  \"id\": \"alibaba-a-extensions\",\n  \"recordedStage\": \"planned\",\n  \"currentStage\": \"planned\",\n  \"errors\": {\n    \"evidence-ready\": [\n      \"地点身份未由可追溯来源确认\",\n      \"缺少 height 的有来源观察及不确定度（不能为 unknown）\",\n      \"缺少 silhouette 的有来源观察及不确定度（不能为 unknown）\",\n      \"evidence.blockers 尚未清空：[{\\\"id\\\": \\\"A9-owner-identity-crosswalk\\\", \\\"sourceIds\\\": [\\\"way/456731145\\\"], \\\"reason\\\": \\\"CurrentOSM A9/2016Building9 label andofficialNo.9Hall visitprogram lackauthoritativeWGS84identifiercrosswalk. Singlevendorfrontphoto supportslowcurvedhallwithBuilding4behind, butnot enoughcurrentplan/multiviewregistration tofreeze a trueA9body.\\\"}, {\\\"id\\\": \\\"A9-shape-height-entry\\\", \\\"sourceIds\\\": [\\\"way/456731145\\\"], \\\"reason\\\": \\\"3levelOSMlabelnotmetricheight; roofcoursebreaks,actualentryandsecondnon-collinearimage notconfirmed. Noheight/facade invented.\\\"}, {\\\"id\\\": \\\"A-remaining-complete-link-network\\\", \\\"reason\\\": \\\"All4mappedanonymous elevatedsourcepolygons alreadyround2; no newtaggedbuildinglink in fixedAparcel. Historic>1km network centerlines/functions/changes needregistration, not newbridgeinferred from38mixedgrade roadrecords.\\\"}]\"\n    ],\n    \"modelled\": [\n      \"模型缺失或无效：[Errno 2] No such file or directory: '__missing__'\",\n      \"可重复构建的 sourceModule 缺失\",\n      \"model.buildCommand 未填写\"\n    ],\n    \"verified\": [\n      \"验收未绑定当前 GLB SHA256\",\n      \"验收未绑定当前 evidence.json SHA256\",\n      \"scale 尚未完成具名验收\",\n      \"scale 缺少可读取的验收证据文件\",\n      \"orientation 尚未完成具名验收\",\n      \"orientation 缺少可读取的验收证据文件\",\n      \"silhouette 尚未完成具名验收\",\n      \"silhouette 缺少可读取的验收证据文件\",\n      \"context 尚未完成具名验收\",\n      \"context 缺少可读取的验收证据文件\",\n      \"collision 尚未完成具名验收\",\n      \"collision 缺少可读取的验收证据文件\",\n      \"browser 尚未完成具名验收\",\n      \"browser 缺少可读取的验收证据文件\",\n      \"performance 尚未完成具名验收\",\n      \"performance 缺少可读取的验收证据文件\",\n      \"provenance 尚未完成具名验收\",\n      \"provenance 缺少可读取的验收证据文件\"\n    ]\n  },\n  \"modelStats\": null,\n  \"note\": \"检查结构与证据文件；照片/形体判断须由具名评审实际核对\",\n  \"requestedStage\": \"evidence-ready\",\n  \"passed\": false\n}\n",
+  "stderr": ""
+}

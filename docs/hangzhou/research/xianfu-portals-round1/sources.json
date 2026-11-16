@@ -1,0 +1,24 @@
+{
+  "researchDate": "2026-11-11",
+  "accepted": [
+    {"id":"fixed-pbf","url":"https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf","local":"data/raw/hangzhou/zhejiang-261011.osm.pbf","scope":"fixed node/way/relation topology, geometry, metadata; not survey accuracy","sha256":"4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9","license":"ODbL-1.0","attribution":"© OpenStreetMap contributors"},
+    {"id":"osm-layer-semantics","url":"https://wiki.openstreetmap.org/wiki/Key:layer","scope":"layer represents vertical ordering; not absolute elevation or metric clearance; checked 2026-11-11"},
+    {"id":"osm-residential-semantics","url":"https://wiki.openstreetmap.org/wiki/Tag:highway=residential","scope":"mapped road class semantics only; not local legal access guarantee; checked 2026-11-11"}
+  ],
+  "leadsNotAcceptedAsPhysicalProof": [
+    {"url":"https://m.icauto.com.cn/chuxing/bl_53867.html","reason":"third-party bus stop list, no geolocated portal image or dimensions"},
+    {"url":"https://www.modiauto.com.cn/cx/bus_128712.html","reason":"third-party route list; cannot establish current operator confirmation or portal dimensions"},
+    {"url":"https://www.fymate.net/html/text/lar/171473/17147326.html","reason":"secondary reproduction of regional road project approval; primary not obtained and dimensions not tied to way697096305"}
+  ],
+  "searchesWithoutTargetSpecificPrimaryResult": [
+    "site.hzbus.com.cn 2482 严潮坞",
+    "site.yuhang.gov.cn 2482 严潮坞",
+    "site.hangzhou.gov.cn 2482 源峰街 里东路口",
+    "严潮坞 闲富 涵洞",
+    "源峰街里东路口 2482 公告",
+    "余杭区闲林埠至富阳市祝家村公路改建工程 批复"
+  ],
+  "verifiedPortalPhotos": [],
+  "currentOfficialBusOperationVerified": false,
+  "sourceAbsenceProven": false
+}

@@ -1,0 +1,69 @@
+{
+  "citySha256": "15904a2c40f323546262e7ead44bd4794f354dd45f8125cf7c827313c09814fb",
+  "result": "three-pair-horizontal-geometry-check-only",
+  "checks": [
+    {
+      "pair": 1,
+      "sourceAValid": true,
+      "sourceBValid": true,
+      "subjectSourceAreaGameSquared": 1911.5614685727464,
+      "renderAreasGameSquared": [
+        2150392.6402165885
+      ],
+      "originalOverlapAreaGameSquared": 1911.561468572746,
+      "remainingPairOverlapGameSquared": 0,
+      "wetUnionSymmetricDifferenceGameSquared": 0.0,
+      "resultGeometryValid": true,
+      "resultGeometryTypes": [
+        "Polygon"
+      ],
+      "scope": "in-memory Shapely dry-run only; no GLB, runtime, hydraulic or visual pass"
+    },
+    {
+      "pair": 2,
+      "sourceAValid": true,
+      "sourceBValid": true,
+      "subjectSourceAreaGameSquared": 181.52423911943896,
+      "renderAreasGameSquared": [
+        2875.8714684561514,
+        181.52423911943896
+      ],
+      "originalOverlapAreaGameSquared": 181.52423911943896,
+      "remainingPairOverlapGameSquared": 0.0,
+      "wetUnionSymmetricDifferenceGameSquared": 0.0,
+      "resultGeometryValid": true,
+      "resultGeometryTypes": [
+        "MultiPolygon",
+        "Polygon"
+      ],
+      "scope": "in-memory Shapely dry-run only; no GLB, runtime, hydraulic or visual pass"
+    },
+    {
+      "pair": 3,
+      "sourceAValid": true,
+      "sourceBValid": true,
+      "subjectSourceAreaGameSquared": 1679.3384106582364,
+      "renderAreasGameSquared": [
+        1621.9362678413488,
+        50400.865806016074
+      ],
+      "originalOverlapAreaGameSquared": 57.402142816888066,
+      "remainingPairOverlapGameSquared": 0.0,
+      "wetUnionSymmetricDifferenceGameSquared": 0.0,
+      "resultGeometryValid": true,
+      "resultGeometryTypes": [
+        "Polygon",
+        "Polygon"
+      ],
+      "scope": "in-memory Shapely dry-run only; no GLB, runtime, hydraulic or visual pass"
+    }
+  ],
+  "pairwiseOverlapAreaAll27GameSquared": 2243.042084094205,
+  "pairwiseOverlapAreaFirst3GameSquared": 2150.487850509073,
+  "notClaimed": [
+    "global water hydraulic pass",
+    "all 27 pairs resolved",
+    "runtime mesh validated",
+    "visual acceptance"
+  ]
+}

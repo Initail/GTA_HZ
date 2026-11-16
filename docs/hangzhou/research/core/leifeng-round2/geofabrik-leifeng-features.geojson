@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "cityId": "hangzhou",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/229726934",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 229726934,
+        "tags": {
+          "alt_name:en": "Six Harmonies Pagoda",
+          "building": "pagoda",
+          "building:levels": "5",
+          "fee": "yes",
+          "height": "71.7",
+          "historic": "tower",
+          "name": "雷峰塔",
+          "name:en": "Leifeng Pagoda",
+          "name:ru": "Пагода Лэйфэн",
+          "opening_hours": "Mo-Su 09:00-17:30",
+          "source:height": "http://www.chinaspree.com/china-travel-guide/china-tours-hangzhou-west-lake-more.html",
+          "tourism": "attraction",
+          "wikidata": "Q1155765",
+          "wikipedia": "zh:雷峰塔"
+        },
+        "name": "雷峰塔",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "heightStatus": "tagged-unverified"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1447113,
+                30.2337857
+              ],
+              [
+                120.1448883,
+                30.2336304
+              ],
+              [
+                120.1451356,
+                30.2336363
+              ],
+              [
+                120.1453127,
+                30.2337916
+              ],
+              [
+                120.1453148,
+                30.2340059
+              ],
+              [
+                120.1451405,
+                30.2341379
+              ],
+              [
+                120.1448936,
+                30.2341356
+              ],
+              [
+                120.1447113,
+                30.2339757
+              ],
+              [
+                120.1447113,
+                30.2337857
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/340652169",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 340652169,
+        "tags": {
+          "highway": "steps",
+          "name": "电梯"
+        },
+        "name": "电梯",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "3479012380",
+          "3479012381"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1450384,
+            30.2335066
+          ],
+          [
+            120.1450116,
+            30.2330711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1448327494",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 1448327494,
+        "tags": {
+          "highway": "footway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "13288333730",
+          "13288277097"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1455137,
+            30.2338223
+          ],
+          [
+            120.145518,
+            30.2342889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1448327495",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 1448327495,
+        "tags": {
+          "highway": "steps"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "13288333701",
+          "13288333730"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1454087,
+            30.23375
+          ],
+          [
+            120.1455137,
+            30.2338223
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "readOnly": true,
+  "sourceModuleSha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+  "specSha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+  "roadCount": 15,
+  "roadIds": [
+    "way/4348186",
+    "way/29169666",
+    "way/154135283",
+    "way/29170042",
+    "way/154135290",
+    "way/336983476",
+    "way/340648409",
+    "way/589429905",
+    "way/306360721",
+    "way/589558021",
+    "way/306360739",
+    "way/306360714",
+    "way/306360716",
+    "way/306360719",
+    "way/589558020"
+  ],
+  "fourOuterContinuations": [
+    "way/306360714",
+    "way/306360716",
+    "way/306360719",
+    "way/589558020"
+  ],
+  "sourceNodeOrderAndWGSMatch": true,
+  "estimatedStatusPreserved": true,
+  "railwayMixedIntoRoads": false,
+  "drivingAccepted": false
+}

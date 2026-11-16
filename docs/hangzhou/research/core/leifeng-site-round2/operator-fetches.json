@@ -1,0 +1,22 @@
+[
+  {
+    "id": "operator",
+    "url": "https://www.leifengta.com",
+    "returncode": 60,
+    "httpStatus": "000",
+    "path": "<TEMP>/leifeng-site-research/operator.html",
+    "bytes": 0,
+    "sha256": null,
+    "readAsEvidence": false
+  },
+  {
+    "id": "operator-jing",
+    "url": "https://jing.leifengta.com",
+    "returncode": 60,
+    "httpStatus": "000",
+    "path": "<TEMP>/leifeng-site-research/operator-jing.html",
+    "bytes": 0,
+    "sha256": null,
+    "readAsEvidence": false
+  }
+]

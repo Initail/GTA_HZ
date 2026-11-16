@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-a-extensions",
+  "artifactPath": null,
+  "sourceModule": "scripts/landmarks/alibaba_a_extensions.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "notmodeled;coreidentity/exterior evidence blocked",
+  "estimatedParameters": [],
+  "buildCommand": null,
+  "candidateCreated": false,
+  "baseBuildingIdsToExclude": []
+}

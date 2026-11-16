@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-b",
+  "scope": "Finite currentB mapped exterior:19 connected building-arm/junction/visitor sourceways +2 confirmed low green roof outlines; no fullPhaseIV or entireB completion claim",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "nbbj-phase4",
+      "benoy-phase4",
+      "geofabrik-fixed"
+    ],
+    "notes": "Current mappedB544285896 unique two-cluster folded plan matchesNBBJ completed aerial. Historical phases/numbers and central roof crosswalk remain pending outside finite scope."
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.02267895,
+      30.27828295
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "geofabrik-fixed",
+      "osm-site-geometries"
+    ],
+    "notes": "Mapped parcel reference only, not spawn/arrival"
+  },
+  "sources": [
+    {
+      "id": "nbbj-phase4",
+      "url": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "finalUrl": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "publisher": "NBBJ",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/nbbj-phase4.html",
+      "sha256": "765e4e92e1da9673c98ec6b6b973b0bdefeb17c3e31c779a21a66a783f997f1a",
+      "bytes": 104396,
+      "license": "Copyright retained; reference only, no runtime/published image license verified"
+    },
+    {
+      "id": "benoy-phase4",
+      "url": "https://www.benoy.com/projects/alibaba-xixi-park-iv",
+      "finalUrl": "https://www.benoy.com/projects/alibaba-xixi-park-iv",
+      "publisher": "Benoy",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/benoy-phase4.html",
+      "sha256": "e373b0627f2f8e047e44fc6dd357681a9bffb35060cdb97659d731c93d95b670",
+      "bytes": 135727,
+      "license": "Copyright retained; reference only, no runtime/published image license verified"
+    },
+    {
+      "id": "nbbj-photo-DJI_0456_screenview-2000x1263",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DJI_0456_screenview-2000x1263.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DJI_0456_screenview-2000x1263.jpg",
+      "sha256": "9979c3026d146871b27b3ea67ec09c89a089d453ed822b4934af8235aa17d43f",
+      "bytes": 476272,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "nbbj-photo-DJI_0999_screenview",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DJI_0999_screenview.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DJI_0999_screenview.jpg",
+      "sha256": "2564f09db6c6d9b4342f3da0a1ec36d4cd330a75cacd1f48013ce26fb4ab6610",
+      "bytes": 387080,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "nbbj-photo-DSC07936_screenview-2000x1334",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DSC07936_screenview-2000x1334.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DSC07936_screenview-2000x1334.jpg",
+      "sha256": "e99948f6a0dcdab185ba4efcce36cb29d501cf2647f2ccb231110e48acb62380",
+      "bytes": 488329,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "nbbj-photo-DSC07966R_screenview-2000x1334",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DSC07966R_screenview-2000x1334.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DSC07966R_screenview-2000x1334.jpg",
+      "sha256": "179b5ede88f23057ab441f215df3796fe4cd9a8a4ffc78e028514e98d44ea946",
+      "bytes": 590477,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "nbbj-photo-DSC08728R_screenview-2000x1301",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DSC08728R_screenview-2000x1301.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DSC08728R_screenview-2000x1301.jpg",
+      "sha256": "f220633d8bf20515865200484b79038fbdd18ee26353f30af501a90a4ed5b8ea",
+      "bytes": 666826,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "nbbj-photo-DSF0994R_screenview-2000x1330",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DSF0994R_screenview-2000x1330.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DSF0994R_screenview-2000x1330.jpg",
+      "sha256": "d0d27e6122cbe0a4daa9bfe711cb8256c31f4e880a1d96a5e071de1d6ff83034",
+      "bytes": 647040,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "nbbj-photo-DSF1342_screenview-2000x1347",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DSF1342_screenview-2000x1347.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DSF1342_screenview-2000x1347.jpg",
+      "sha256": "af5cbe1ab80e1340aec5989801e609192f80be9ec3432aa9069f71fbad2a743d",
+      "bytes": 447497,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "nbbj-photo-DSF1929R_screenview-2000x1334",
+      "url": "https://www.nbbj.cn/wp-content/uploads/2022/07/DSF1929R_screenview-2000x1334.jpg",
+      "publisher": "NBBJ",
+      "parentPage": "https://www.nbbj.cn/work/alibaba-xix-campus/",
+      "sourceDate": null,
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-b-round2/references/DSF1929R_screenview-2000x1334.jpg",
+      "sha256": "6969ea51bc31dd8dccb24168ddcc450fbdb8c6a240826640f03a6f39a003a867",
+      "bytes": 376954,
+      "referenceKind": "architect-published completed campus photo; upload folder2022/07 is not a verified capture date",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Multidirection shape/height/layout comparison only, no runtime photo asset"
+    },
+    {
+      "id": "people-xixi-zones",
+      "url": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+      "finalUrl": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+      "path": "docs/hangzhou/research/ali/snapshots/people-xixi-zones.html",
+      "bytes": 38475,
+      "sha256": "d46be27bdf2c67c19ef5aa4b1299fa9798f71c76ca563fb591cfaf5610cf6d83",
+      "status": "downloaded",
+      "title": "阿里巴巴杭州全球总部正式启用",
+      "publisher": "人民网 / 中国网科技",
+      "sourceDate": "2024-05-10",
+      "authority": "public-news-owner-statements",
+      "use": "A/B/C identity functions and opening",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/people-xixi-zones.html"
+    },
+    {
+      "id": "osm-site-geometries",
+      "url": "https://overpass-api.de/api/interpreter",
+      "publisher": "OpenStreetMap contributors / Overpass API",
+      "title": "overpass-site-geometries.json",
+      "accessedAt": "2026-10-12",
+      "requestMethod": "POST",
+      "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+      "sourceDate": "2026-10-12T09:27:36Z",
+      "dataCrs": "EPSG:4326 / WGS84",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+      "bytes": 10879,
+      "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+      "status": "downloaded",
+      "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary",
+      "localPath": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json"
+    },
+    {
+      "id": "osm-alibaba-buildings",
+      "url": "https://overpass-api.de/api/interpreter",
+      "publisher": "OpenStreetMap contributors / Overpass API",
+      "title": "overpass-alibaba-buildings.json",
+      "accessedAt": "2026-10-12",
+      "requestMethod": "POST",
+      "query": "[out:json][timeout:45];(way[\"building\"](30.274,120.014,30.289,120.028);relation[\"building\"](30.274,120.014,30.289,120.028););out meta geom;",
+      "sourceDate": "2026-10-12T09:28:41Z",
+      "dataCrs": "EPSG:4326 / WGS84",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "path": "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json",
+      "bytes": 415501,
+      "sha256": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+      "status": "downloaded",
+      "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary",
+      "localPath": "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json"
+    },
+    {
+      "id": "geofabrik-fixed",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "source-verified",
+      "localPath": "data/processed/hangzhou/buildings.geojson",
+      "sha256": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+      "license": "ODbL-1.0; © OpenStreetMap contributors",
+      "use": "Mapped EPSG:4326 footprint23 objects of B parcel, no measured heights or elevations"
+    }
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/nbbj-phase4.html": "765e4e92e1da9673c98ec6b6b973b0bdefeb17c3e31c779a21a66a783f997f1a",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/benoy-phase4.html": "e373b0627f2f8e047e44fc6dd357681a9bffb35060cdb97659d731c93d95b670",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DJI_0456_screenview-2000x1263.jpg": "9979c3026d146871b27b3ea67ec09c89a089d453ed822b4934af8235aa17d43f",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DJI_0999_screenview.jpg": "2564f09db6c6d9b4342f3da0a1ec36d4cd330a75cacd1f48013ce26fb4ab6610",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DSC07936_screenview-2000x1334.jpg": "e99948f6a0dcdab185ba4efcce36cb29d501cf2647f2ccb231110e48acb62380",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DSC07966R_screenview-2000x1334.jpg": "179b5ede88f23057ab441f215df3796fe4cd9a8a4ffc78e028514e98d44ea946",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DSC08728R_screenview-2000x1301.jpg": "f220633d8bf20515865200484b79038fbdd18ee26353f30af501a90a4ed5b8ea",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DSF0994R_screenview-2000x1330.jpg": "d0d27e6122cbe0a4daa9bfe711cb8256c31f4e880a1d96a5e071de1d6ff83034",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DSF1342_screenview-2000x1347.jpg": "af5cbe1ab80e1340aec5989801e609192f80be9ec3432aa9069f71fbad2a743d",
+    "docs/hangzhou/research/ali/alibaba-b-round2/references/DSF1929R_screenview-2000x1334.jpg": "6969ea51bc31dd8dccb24168ddcc450fbdb8c6a240826640f03a6f39a003a867",
+    "docs/hangzhou/research/ali/snapshots/people-xixi-zones.html": "d46be27bdf2c67c19ef5aa4b1299fa9798f71c76ca563fb591cfaf5610cf6d83",
+    "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+    "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+    "data/processed/hangzhou/buildings.geojson": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+    "docs/hangzhou/research/ali/alibaba-b-round2/geofabrik-footprints.json": "d6871f66488179b645ebda7e14ad4b882d7c70c17a3edbca2cb3239aca885bc7",
+    "docs/hangzhou/research/ali/alibaba-b-round2/object-groups.json": "02000ecf8add6a2b107c0ddfb4a4616ecb537e53a5ea3a55a4f6a1aa97b68c93",
+    "docs/hangzhou/research/ali/alibaba-b-round2/footprint-correspondence.json": "b28317dafb56a142f448dcb26793c90bcd2605fc0e20f95d7594ade28bc0dd8f"
+  },
+  "observations": [
+    {
+      "kind": "footprint",
+      "basis": "measured",
+      "unit": "EPSG:4326 / m",
+      "value": {
+        "mappedObjects": 23,
+        "finiteModeledObjects": 21,
+        "visitorLengthM": 105.81,
+        "parcelWayId": 544285896
+      },
+      "sourceIds": [
+        "geofabrik-fixed",
+        "osm-site-geometries"
+      ],
+      "uncertainty": "Source vertices measured using WGS84 ECEF→ENU, all23 exact cyclic matches to auxiliary snapshot. Volunteered OSM plan precision unknown. Object counts are source ways/roofs, not independent main buildings."
+    },
+    {
+      "kind": "height",
+      "basis": "estimated",
+      "unit": "m",
+      "value": {
+        "southwest-visitor": {
+          "heightM": 18.5,
+          "errorPlusMinusM": 5
+        },
+        "west-south-arm": {
+          "heightM": 25.4,
+          "errorPlusMinusM": 7
+        },
+        "west-north-folded-arm": {
+          "heightM": 34,
+          "errorPlusMinusM": 8
+        },
+        "west-inner-folded-arm": {
+          "heightM": 34,
+          "errorPlusMinusM": 8
+        },
+        "west-junction-north": {
+          "heightM": 19.6,
+          "errorPlusMinusM": 6
+        },
+        "west-junction-south": {
+          "heightM": 14.4,
+          "errorPlusMinusM": 5
+        },
+        "west-southwest-link-arm": {
+          "heightM": 25.4,
+          "errorPlusMinusM": 7
+        },
+        "west-southeast-link-arm": {
+          "heightM": 25.4,
+          "errorPlusMinusM": 7
+        },
+        "west-short-connector": {
+          "heightM": 14.4,
+          "errorPlusMinusM": 5
+        },
+        "west-central-junction": {
+          "heightM": 19.6,
+          "errorPlusMinusM": 6
+        },
+        "east-north-folded-arm": {
+          "heightM": 34,
+          "errorPlusMinusM": 8
+        },
+        "east-west-arm": {
+          "heightM": 34,
+          "errorPlusMinusM": 8
+        },
+        "east-south-folded-arm": {
+          "heightM": 34,
+          "errorPlusMinusM": 8
+        },
+        "east-inner-short-arm": {
+          "heightM": 25.4,
+          "errorPlusMinusM": 7
+        },
+        "east-north-junction": {
+          "heightM": 19.6,
+          "errorPlusMinusM": 6
+        },
+        "east-middle-junction": {
+          "heightM": 14.4,
+          "errorPlusMinusM": 5
+        },
+        "east-southeast-junction": {
+          "heightM": 19.6,
+          "errorPlusMinusM": 6
+        },
+        "east-outer-short-arm": {
+          "heightM": 25.4,
+          "errorPlusMinusM": 7
+        },
+        "visitor-to-west-junction": {
+          "heightM": 14.4,
+          "errorPlusMinusM": 5
+        },
+        "west-stepped-green-roof": {
+          "heightM": 5.8,
+          "errorPlusMinusM": 2.5
+        },
+        "east-stepped-green-roof": {
+          "heightM": 5.8,
+          "errorPlusMinusM": 2.5
+        }
+      },
+      "sourceIds": [
+        "nbbj-photo-DJI_0999_screenview",
+        "nbbj-photo-DSC07936_screenview-2000x1334",
+        "nbbj-photo-DSF1342_screenview-2000x1347"
+      ],
+      "uncertainty": "Manual person-relative pilotis around6±2m and4–6 visible facade courses, 4.2–4.7m pitch, bounded against mapped20–40m arm width and two street directions. Candidate high34±8m, lower25.4±7m, link14.4–19.6±5–6m, visitor18.5±5m, garden roof5.8±2.5m. Per-object values remain estimates, not a surveyed floor inventory."
+    },
+    {
+      "kind": "orientation",
+      "basis": "measured",
+      "unit": "degrees from north modulo180",
+      "value": {
+        "way/1363020721": 74.38,
+        "way/1363020722": 73.86,
+        "way/1363020723": 62.74,
+        "way/1363020724": 101.61,
+        "way/1363020725": 10.94,
+        "way/1363020726": 131.62,
+        "way/1363020727": 72.55,
+        "way/1363020728": 72.56,
+        "way/1363020729": 73.05,
+        "way/1363020730": 13.44,
+        "way/1363020731": 89.79,
+        "way/1363020732": 11.59,
+        "way/1363020733": 95.6,
+        "way/1363020734": 75.37,
+        "way/1363020735": 156.1,
+        "way/1363020736": 133.72,
+        "way/1363020737": 13.82,
+        "way/1363020738": 170.46,
+        "way/1363020739": 72.06,
+        "way/1363020740": 133.46,
+        "way/1363020741": 169.72,
+        "way/1363020742": 162.45,
+        "way/1363020743": 13.94
+      },
+      "sourceIds": [
+        "geofabrik-fixed"
+      ],
+      "uncertainty": "Oriented minimum-area envelope from WGS84 ENU. Every folded arm follows its complete source polygon; a single campus bearing would be insufficient. No commercial-map coordinate conversion."
+    },
+    {
+      "kind": "silhouette",
+      "basis": "reported",
+      "unit": "campus layout",
+      "value": {
+        "mainClusters": "east and west connected beehive/hexagonal groups",
+        "visitor": "southwest",
+        "sports": "central between groups",
+        "features": "roof gardens and open/public exchange spaces"
+      },
+      "sourceIds": [
+        "nbbj-phase4",
+        "benoy-phase4"
+      ],
+      "uncertainty": "Completed architect aerial strongly matches mapped folded arm network. Central sports/canteen exactsourceId remains outside finite scope blocker; reported public functions do not authorize imaginary internal gameplay."
+    },
+    {
+      "kind": "roof-and-facade",
+      "basis": "estimated",
+      "unit": "visual / m",
+      "value": {
+        "outer": "warm orange vertical sunshade fins over dark glass",
+        "courtyard": "silver horizontal louvers and glass",
+        "gardenRoofs": "hexagonal stepped planted cells with triangle rooflights",
+        "pilotis": "exposed lower support level and covered connectors",
+        "candidateFacadeFinSamplingM": 1.8,
+        "candidateGardenCellRadiusM": 11
+      },
+      "sourceIds": [
+        "nbbj-photo-DJI_0456_screenview-2000x1263",
+        "nbbj-photo-DSF1342_screenview-2000x1347",
+        "nbbj-photo-DSC07966R_screenview-2000x1334",
+        "nbbj-photo-DSF0994R_screenview-2000x1330"
+      ],
+      "uncertainty": "Completed top/elevated/ground pictures manually compared; fin sampling1.8m abstracts denser observed shades, green cells11±3m radius and triangular glazing5±2m are proportional estimates against source87–115m roof extent/person scale. Gold shared material is a warm-color candidate, not finalized orange surface."
+    },
+    {
+      "kind": "reported-project-metric",
+      "basis": "reported",
+      "unit": "ft / m²",
+      "value": {
+        "benoyPageHeightFeet": 134,
+        "benoyInteriorSizeM2": 55000,
+        "nbbjProjectAreaM2": 180000
+      },
+      "sourceIds": [
+        "benoy-phase4",
+        "nbbj-phase4"
+      ],
+      "uncertainty": "Benoy current interior case page lists2025,55,000m²,Height134feet(~40.84m) but metric scope not explained. NBBJ180,000m² is project program area, not footprint. No listed metric is silently attributed to all individual wings."
+    }
+  ],
+  "blockers": [],
+  "pendingSubscopes": [
+    "中央roof0741/0742功能/形体/标高crosswalk blocker，未建模、未排除基础对象",
+    "历史四期期次/概念总图与现代B名称/编号关系blocker，有限范围仅当前B源足印",
+    "逐栋实测高度/楼层；Benoy室内页面134feet高度字段范围未明确，不统套任一楼群",
+    "所有地面玻璃体/架空支柱/入口/门洞的准确配准；真实内部与交互",
+    "屋顶花园/种植/设备精确分区、绿顶防水构造和三角天窗数量/高度；外侧全立面",
+    "多层基座与路面标高、屋顶/架空层实际可通行路径、地面与雨棚避让",
+    "真实B编号/Logo与夜景灯具配准；不创建虚构标牌、灯光",
+    "GLB导出/城市双排除/实际碰撞/可达到达点/昼夜实机三视角/FPS及内存"
+  ],
+  "excludedSubscopeBlockers": [
+    {
+      "sourceIds": [
+        "way/1363020741",
+        "way/1363020742"
+      ],
+      "blocker": "Exact central sports/canteen/roof functional crosswalk, as-built height and rooftop profile unconfirmed. Retain source building/roof tags and base objects; no guessed published model."
+    },
+    {
+      "subject": "historical PhaseIV masterplan versus modern B zone terminology",
+      "blocker": "Historical preliminary phases/areas and exact NBBJ office-building numbers are not resolved by current page/photos. This finite source-bound model covers only mapped B parcel shapes; no earlier conceptual footprint expansion."
+    }
+  ],
+  "unknownObservations": [
+    {
+      "kind": "individual-height-and-name",
+      "status": "unknown",
+      "notes": "All21 parts use bounded reference-informed estimates; no B1..B6 number mapping or individual height is asserted."
+    },
+    {
+      "kind": "entrance-and-lighting",
+      "status": "unknown",
+      "notes": "Visitor exterior accent is not a verified entrance. Artificial-light photos establish lights exist but exact lamp positions/photometry and usage remain pending; no new lights."
+    }
+  ]
+}

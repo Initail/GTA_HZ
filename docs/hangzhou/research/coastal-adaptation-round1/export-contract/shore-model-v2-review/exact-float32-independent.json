@@ -1,0 +1,26 @@
+[
+  {
+    "id": "binjiang-source-retaining-wall",
+    "orientedFloat32TrianglesExactlyEqual": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "id": "qianjiang-city-balcony",
+    "orientedFloat32TrianglesExactlyEqual": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "id": "olympic-big-lotus",
+    "orientedFloat32TrianglesExactlyEqual": true,
+    "missing": 0,
+    "extra": 0
+  },
+  {
+    "id": "binjiang-park",
+    "orientedFloat32TrianglesExactlyEqual": true,
+    "missing": 0,
+    "extra": 0
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "path": "artifacts/cities/hangzhou/render-input-v5/city.json",
+    "recorded": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47",
+    "actual": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47",
+    "match": true
+  },
+  {
+    "path": "config/hangzhou/waterfront.json",
+    "recorded": "f07c6cc6c46e583735e9b9cd2021d6c3ad426a70694738724546983341f50e11",
+    "actual": "f07c6cc6c46e583735e9b9cd2021d6c3ad426a70694738724546983341f50e11",
+    "match": true
+  },
+  {
+    "path": "data/processed/hangzhou-261011-extended/roads.geojson",
+    "recorded": "c5cdedeb89a1fd1d9b10522305678a9fba46411de412fa3860b80bc20bad1f54",
+    "actual": "c5cdedeb89a1fd1d9b10522305678a9fba46411de412fa3860b80bc20bad1f54",
+    "match": true
+  },
+  {
+    "path": "scripts/prepare_hangzhou_coastal.py",
+    "recorded": "3a96b0c7ba0f3026a7356026599b17cdae680cb711bfb76d59a5b2adaae9f98a",
+    "actual": "3a96b0c7ba0f3026a7356026599b17cdae680cb711bfb76d59a5b2adaae9f98a",
+    "match": true
+  },
+  {
+    "path": "scripts/pack_hangzhou_ambient.py",
+    "recorded": "a9c5c84816b7a8660a9c264e2b39ba9889f0afd2b5d30d011c7b3b28f458e768",
+    "actual": "a9c5c84816b7a8660a9c264e2b39ba9889f0afd2b5d30d011c7b3b28f458e768",
+    "match": true
+  },
+  {
+    "path": "scripts/hangzhou_surface.py",
+    "recorded": "debdc759d513563c2a6ea8e261d71b025a3fad009e03c464c8dedecd1710948b",
+    "actual": "debdc759d513563c2a6ea8e261d71b025a3fad009e03c464c8dedecd1710948b",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/render-input-v5/geography/manifest.json",
+    "recorded": "86405ade07b6c8a07476209c22c33cebb7ae7a52bf02515db765290f8041b4bb",
+    "actual": "86405ade07b6c8a07476209c22c33cebb7ae7a52bf02515db765290f8041b4bb",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/render-input-v5/geography/terrain-game.bin",
+    "recorded": "dd1ae9e4707979cfaf4bf7b793bae1c590f18e71803f241c0c3d5d4a265792ac",
+    "actual": "dd1ae9e4707979cfaf4bf7b793bae1c590f18e71803f241c0c3d5d4a265792ac",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/render-input-v5/geography/road-levels.json",
+    "recorded": "0db3134e9a24b53ab0361a3f2fdc1738f818ceddafc56d94c5500b8ba75a25c1",
+    "actual": "0db3134e9a24b53ab0361a3f2fdc1738f818ceddafc56d94c5500b8ba75a25c1",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/canopy-trees.json",
+    "recorded": "b581f38f250a773d76a0476c56208fdabb26a2298e78051b99475600b8216cd8",
+    "actual": "b581f38f250a773d76a0476c56208fdabb26a2298e78051b99475600b8216cd8",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/planting.json",
+    "recorded": "f4ed557a3a2a3eae4833bc1f6b9ed88906a694241ec27af37fd9c19650a72c1a",
+    "actual": "f4ed557a3a2a3eae4833bc1f6b9ed88906a694241ec27af37fd9c19650a72c1a",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/runtime-data-v4/street/manifest.json",
+    "recorded": "85f7ddc81d5edda72534e271bd9e0f51f57dd5ec466f9beb0864df62a7f6b2f6",
+    "actual": "85f7ddc81d5edda72534e271bd9e0f51f57dd5ec466f9beb0864df62a7f6b2f6",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/runtime-data-v4/signals/traffic-signals.json",
+    "recorded": "7d23c810e54dca7660a9d8c46b6fec05fa9269c2f5f8708765bc56687eb710ff",
+    "actual": "7d23c810e54dca7660a9d8c46b6fec05fa9269c2f5f8708765bc56687eb710ff",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/render-input-v5/lamps.json",
+    "recorded": "43f96afd1df7307f6130605259b92d67e1bc71ee303f2480cef47a17f2a3e3d1",
+    "actual": "43f96afd1df7307f6130605259b92d67e1bc71ee303f2480cef47a17f2a3e3d1",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/ebikes-v4/parked.json",
+    "recorded": "61624c646a9f8614fc7416db5db9b7552af1dcfa92b6d8af045a51c5231c454e",
+    "actual": "61624c646a9f8614fc7416db5db9b7552af1dcfa92b6d8af045a51c5231c454e",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/life-sites-v3/life-sites.json",
+    "recorded": "3e0e7f735f800cfc50b8d04dc7c2275ce9876233153dc6577baeae828e708e87",
+    "actual": "3e0e7f735f800cfc50b8d04dc7c2275ce9876233153dc6577baeae828e708e87",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/cafe-v3/report.json",
+    "recorded": "81fa3ca4181ce9ad20b851d3874c630b0bb28f21cb097a1f2386e5974c9d130b",
+    "actual": "81fa3ca4181ce9ad20b851d3874c630b0bb28f21cb097a1f2386e5974c9d130b",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/coastal-data-v1/shore-distance.png",
+    "recorded": "f87e3e5ae9e479d086ad363f9fc30a5ddc0621ceeff9824245c1845677b67327",
+    "actual": "f87e3e5ae9e479d086ad363f9fc30a5ddc0621ceeff9824245c1845677b67327",
+    "match": true
+  },
+  {
+    "path": "artifacts/cities/hangzhou/coastal-data-v1/infrastructure.json",
+    "recorded": "4d55666a9a2b4e9cb1e89b038935218c0583c64a2e1789bbd7a6741aebc91d1a",
+    "actual": "4d55666a9a2b4e9cb1e89b038935218c0583c64a2e1789bbd7a6741aebc91d1a",
+    "match": true
+  }
+]

@@ -1,0 +1,641 @@
+{
+  "scope": "independent actual GLB directed triangle and UV/material/transform review, not browser acceptance",
+  "sources": {
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/coastal-bridges.glb": "ad3ea5cab69e69dead631b01a7e2a176bfd62c41e53d9525742a0627789a1bc6",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/actual-glb-v4/model-delivery.json": "6ab710e5dff5499cf244e1eaf970f5857cb7bf38024c65cc25018c932adfe47b",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/candidate-mesh.npz": "2f11ccfe9abcdb1bb974be3d689dc2e13fed3f3374d64feef8d0d85f013e8e32"
+  },
+  "checks": [
+    {
+      "name": "coastal_qiantang-bridge_concrete one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_concrete all directed source triangles exact",
+      "pass": true,
+      "value": 432
+    },
+    {
+      "name": "coastal_qiantang-bridge_concrete exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_concrete original material identity",
+      "pass": true,
+      "value": "concrete"
+    },
+    {
+      "name": "coastal_qiantang-bridge_concrete exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_concrete geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 1.0870499461889267
+      }
+    },
+    {
+      "name": "coastal_qiantang-bridge_concrete source world error bounded",
+      "pass": true,
+      "value": 1.4363616315367173e-05
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver all directed source triangles exact",
+      "pass": true,
+      "value": 896
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver original material identity",
+      "pass": true,
+      "value": "silver"
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 0.019597360769775377
+      }
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver source world error bounded",
+      "pass": true,
+      "value": 1.5545919854852754e-05
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel all directed source triangles exact",
+      "pass": true,
+      "value": 6360
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel original material identity",
+      "pass": true,
+      "value": "steel"
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 0.002177208810921788
+      }
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel source world error bounded",
+      "pass": true,
+      "value": 1.5862921340160193e-05
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint all directed source triangles exact",
+      "pass": true,
+      "value": 8904
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint original material identity",
+      "pass": true,
+      "value": "carpaint"
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 0.06719502356891659
+      }
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint source world error bounded",
+      "pass": true,
+      "value": 1.6791001886322586e-05
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete all directed source triangles exact",
+      "pass": true,
+      "value": 572
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete original material identity",
+      "pass": true,
+      "value": "concrete"
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 1.3748634904623032
+      }
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete source world error bounded",
+      "pass": true,
+      "value": 1.4997054537965624e-05
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver all directed source triangles exact",
+      "pass": true,
+      "value": 5904
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver original material identity",
+      "pass": true,
+      "value": "silver"
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 0.019590232042046015
+      }
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver source world error bounded",
+      "pass": true,
+      "value": 1.6267294573849497e-05
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred all directed source triangles exact",
+      "pass": true,
+      "value": 680
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred original material identity",
+      "pass": true,
+      "value": "civicred"
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 1.665781468653494
+      }
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred source world error bounded",
+      "pass": true,
+      "value": 4.140200976500639e-06
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete all directed source triangles exact",
+      "pass": true,
+      "value": 80
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete original material identity",
+      "pass": true,
+      "value": "concrete"
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 2.996092139161192
+      }
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete source world error bounded",
+      "pass": true,
+      "value": 3.3779121929567026e-06
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver one original material primitive",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver all directed source triangles exact",
+      "pass": true,
+      "value": 1088
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver exact directed positions and UV after V flip",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver original material identity",
+      "pass": true,
+      "value": "silver"
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver exact local ENU translation and no hidden transforms",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver geometry UV and winding-normal direction preserved",
+      "pass": true,
+      "value": {
+        "zeroGeometry": 0,
+        "zeroUV": 0,
+        "minNormalDot": 0.019597349914936557
+      }
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver source world error bounded",
+      "pass": true,
+      "value": 7.02592738447441e-06
+    },
+    {
+      "name": "all24916 source triangles and9 material meshes retained",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "all frozen source hashes and actual artifact bound",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "parts": [
+    {
+      "name": "coastal_qiantang-bridge_concrete",
+      "triangles": 432,
+      "maxSourceErrorGame": 1.4363616315367173e-05,
+      "sourceBoundsENU": [
+        [
+          -1321.2727568701944,
+          -5500.957702739868,
+          1.1102230246251565e-16
+        ],
+        [
+          -1060.2300229958064,
+          -4910.646592597614,
+          5.880000000000001
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          -1321.2727508544922,
+          -5500.957702636719,
+          0.0
+        ],
+        [
+          -1060.2300262451172,
+          -4910.6466064453125,
+          5.880000114440918
+        ]
+      ]
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver",
+      "triangles": 896,
+      "maxSourceErrorGame": 1.5545919854852754e-05,
+      "sourceBoundsENU": [
+        [
+          -1322.4075100878506,
+          -5501.455152370502,
+          12.45
+        ],
+        [
+          -1059.0952697781502,
+          -4910.1389832737,
+          13.137000000000002
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          -1322.4075164794922,
+          -5501.455139160156,
+          12.449999809265137
+        ],
+        [
+          -1059.0952758789062,
+          -4910.138977050781,
+          13.13700008392334
+        ]
+      ]
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel",
+      "triangles": 6360,
+      "maxSourceErrorGame": 1.5862921340160193e-05,
+      "sourceBoundsENU": [
+        [
+          -1321.6793996697418,
+          -5501.155083013858,
+          5.736000000000001
+        ],
+        [
+          -1059.823380196259,
+          -4910.4421447451605,
+          12.443999999999999
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          -1321.6793975830078,
+          -5501.155090332031,
+          5.736000061035156
+        ],
+        [
+          -1059.8233795166016,
+          -4910.442138671875,
+          12.443999767303467
+        ]
+      ]
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint",
+      "triangles": 8904,
+      "maxSourceErrorGame": 1.6791001886322586e-05,
+      "sourceBoundsENU": [
+        [
+          971.9808246417963,
+          -4584.25223516894,
+          6.829233361542102
+        ],
+        [
+          1326.9370892457898,
+          -3955.5469191106954,
+          37.94975292583132
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          971.9808197021484,
+          -4584.252227783203,
+          6.829233169555664
+        ],
+        [
+          1326.9370880126953,
+          -3955.546905517578,
+          37.94975280761719
+        ]
+      ]
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete",
+      "triangles": 572,
+      "maxSourceErrorGame": 1.4997054537965624e-05,
+      "sourceBoundsENU": [
+        [
+          969.414130772346,
+          -4541.75467701842,
+          1.1102230246251565e-16
+        ],
+        [
+          1304.6652951221847,
+          -3953.501806548529,
+          7.86
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          969.4141235351562,
+          -4541.754669189453,
+          0.0
+        ],
+        [
+          1304.665298461914,
+          -3953.5018005371094,
+          7.859999656677246
+        ]
+      ]
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver",
+      "triangles": 5904,
+      "maxSourceErrorGame": 1.6267294573849497e-05,
+      "sourceBoundsENU": [
+        [
+          941.4725167930621,
+          -4634.3114652736585,
+          8.1
+        ],
+        [
+          1357.445397094524,
+          -3905.487689005977,
+          36.599999999999994
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          941.4725189208984,
+          -4634.311462402344,
+          8.099999904632568
+        ],
+        [
+          1357.4454040527344,
+          -3905.4877014160156,
+          36.60000038146973
+        ]
+      ]
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred",
+      "triangles": 680,
+      "maxSourceErrorGame": 4.140200976500639e-06,
+      "sourceBoundsENU": [
+        [
+          -2074.6585432040465,
+          -7565.962342655508,
+          1.7700000000000018
+        ],
+        [
+          -1925.7265630328452,
+          -7475.073234398395,
+          57.15
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          -2074.658546447754,
+          -7565.962341308594,
+          1.7700004577636719
+        ],
+        [
+          -1925.7265625,
+          -7475.0732345581055,
+          57.14999961853027
+        ]
+      ]
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete",
+      "triangles": 80,
+      "maxSourceErrorGame": 3.3779121929567026e-06,
+      "sourceBoundsENU": [
+        [
+          -2074.1800674184997,
+          -7566.07448827724,
+          1.1102230246251565e-16
+        ],
+        [
+          -1926.2050388183916,
+          -7474.961088776663,
+          1.7700000000000018
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          -2074.1800689697266,
+          -7566.074489593506,
+          0.0
+        ],
+        [
+          -1926.2050399780273,
+          -7474.961090087891,
+          1.7700004577636719
+        ]
+      ]
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver",
+      "triangles": 1088,
+      "maxSourceErrorGame": 7.02592738447441e-06,
+      "sourceBoundsENU": [
+        [
+          -2135.0667471418956,
+          -7593.278117016025,
+          11.7
+        ],
+        [
+          -1865.327774300707,
+          -7447.7574600378775,
+          52.54545748481776
+        ]
+      ],
+      "actualBoundsENU": [
+        [
+          -2135.0667419433594,
+          -7593.278114318848,
+          11.699999809265137
+        ],
+        [
+          -1865.3277740478516,
+          -7447.757461547852,
+          52.54545783996582
+        ]
+      ]
+    }
+  ],
+  "passed": 65,
+  "failed": 0,
+  "pending": [
+    "source road support ownership and82 road profiles not yet integrated",
+    "frozen actor failures remain; mesh fidelity does not resolve source path clearance",
+    "browser/real driving/day-night/performance"
+  ]
+}

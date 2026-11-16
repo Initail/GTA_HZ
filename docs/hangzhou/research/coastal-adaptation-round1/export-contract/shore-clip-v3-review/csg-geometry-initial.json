@@ -1,0 +1,20 @@
+{
+  "sampleCounts": {
+    "unchanged": 2453,
+    "cap": 1203,
+    "pillar-hole": 159,
+    "boundaryToleranceSkipped": 8
+  },
+  "rayFailureCount": 0,
+  "rayFailures": [],
+  "maxOutsideHeightErrorGame": 1.40611904875243e-06,
+  "maxInsideHeightErrorGame": 2.46492786182273e-08,
+  "expectedFootprintBoundaryHausdorffGame": 0.05987369686136696,
+  "footprintSymmetricDifferenceGame2": 0.001256406804538221,
+  "newFootprintOutsideOriginalGame2": 0.0012467376651050383,
+  "sourceFrontMaxBoundaryDistanceExcludingPillarGame": 5.256132372873452e-05,
+  "pillarResidualProjectedAreaGame2": 0.0,
+  "vertexViolationCount": 0,
+  "vertexViolations": [],
+  "newVsOriginalOutsideMaskProjectedSymDiffGame2": 1.961366020228895e-05
+}

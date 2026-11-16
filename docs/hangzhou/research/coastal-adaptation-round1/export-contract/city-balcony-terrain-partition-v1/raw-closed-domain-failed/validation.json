@@ -1,0 +1,50 @@
+{
+  "meshSha256": "224e8ea2e16a3bbc9c6699f9e7c7d50e899f173607d1ab0a239706cf0d157860",
+  "sourceSamplerSha256": "da8a39ca3f5f5d7eccf9dd6d1acf6f7d6eb3b27ec2d7f8912aad060aee2a4a09",
+  "partitionSha256": "ef81445d47c1591b0a31c466e94daf367f5c5cfeeb14ac88607dc9f3c5e1b24b",
+  "topTriangles": 14027,
+  "wallTriangles": 1230,
+  "heightProbeCount": 98189,
+  "maxVertexSourceErrorGame": 5.000444502911705e-13,
+  "maxInteriorEdgeProbeErrorGame": 0.015538041190861662,
+  "heightProbeErrorsAbovePoint01Game": 9,
+  "strictInteriorRuntimeMinFailuresAbovePoint01Game": 17,
+  "outsideCutF1ProbeCount": 42399,
+  "outsideCutMaxF1MeshApproximationGame": 0.015538041190861662,
+  "domainSymmetricDifferenceArea": 0.0,
+  "positiveAreaOverlapsAbove1eMinus10": 0,
+  "topWaterOverlapArea": 0.0,
+  "verticalWallPlanFailures": 0,
+  "zeroArea3dTriangles": 0,
+  "minimum3dDoubleArea": 1.6922300037417813e-15,
+  "exactUnpairedEdges": 475,
+  "topologyWeldToleranceGame": 1e-09,
+  "weldedUnpairedByKind": {
+    "shore-v3-owned": 262,
+    "local-crop": 213
+  },
+  "unexpectedOpenEdges": 0,
+  "nonmanifoldEdges": 149,
+  "sameDirectionSharedEdges": 0,
+  "sourceFloorCoverage": {
+    "city-balcony:lower-slab": {
+      "area": 8814.282657745392,
+      "dryArea": 4284.833842528288,
+      "waterArea": 3860.679371769682,
+      "dryOutsideCutArea": 0.0
+    },
+    "city-balcony:upper-slab": {
+      "area": 10205.559536917242,
+      "dryArea": 5676.110721700138,
+      "waterArea": 3860.679371769682,
+      "dryOutsideCutArea": 8.590350653037149e-14
+    }
+  },
+  "passed": false,
+  "limitations": [
+    "CPU projected terrain partition only; GLB intersections, actual renderer, actors and browser unverified",
+    "Welded topology uses explicit 1e-9g numerical tolerance; tiny triangles retained and exact incidence reported",
+    "Finite 2g mesh probe error is not a continuous error bound",
+    "crop and water boundaries remain open by ownership, not claimed closed full solid"
+  ]
+}

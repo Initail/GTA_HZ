@@ -1,0 +1,109 @@
+{
+  "sourceModuleBeforeSha256": "9c4c00a61709997328147965beea562995619f50d35bb12d91e00a99696cb77c",
+  "specSha256": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20",
+  "meshFaceStreamSha256": "6a9e13d443dedcf421e5c043de1b90afd84a90c9b5333f183f0194e908058388",
+  "faces": 10066,
+  "report": {
+    "scope": "Limited ICC exterior candidate: truncated golden sphere with terraced floor/window rhythm, theatre-facing glazed wedge and glass skylight; source-bound rounded podium wings/front/rear glazed entries. Hotel interiors/site levels/fountains excluded.",
+    "sourceFeatureIds": [
+      "way/626826759",
+      "way/626826760",
+      "way/626826766",
+      "way/626826767",
+      "way/626826768",
+      "way/626826769",
+      "way/626826770",
+      "way/626826771",
+      "way/626826772",
+      "way/626826773",
+      "way/626826774",
+      "way/626826775",
+      "way/626826776",
+      "way/626826777",
+      "way/626826778",
+      "way/626826779",
+      "way/626838539",
+      "way/626838541",
+      "way/626838542",
+      "way/626838543",
+      "way/626838544",
+      "way/626838545",
+      "way/626838546",
+      "way/626838547",
+      "way/626838548",
+      "way/626838549",
+      "way/626838551",
+      "way/626838553",
+      "way/626838555",
+      "way/626838557",
+      "way/626838559",
+      "way/626838560"
+    ],
+    "faces": 10066,
+    "materials": [
+      "darkglass",
+      "gold",
+      "landmarkglass",
+      "steel"
+    ],
+    "sphereDiameterReportedM": 85,
+    "overallHeightReportedM": 85,
+    "annexHeightReportedM": 13,
+    "estimatedSphereSection": {
+      "centerHeightM": 46,
+      "lowerCutM": 20,
+      "goldSkinTopM": 81.5,
+      "skyRoofTopM": 85,
+      "skylightBaseM": 81.5
+    },
+    "terracedSphereBands": 15,
+    "glazedFaceRadians": -1.5707963267948966,
+    "glazedFaceHalfRadians": 0.39,
+    "shallowGlassSkylight": true,
+    "roundedPodiumRoofFaces": 344,
+    "sourceAxisRadiansEastCCW": 2.5036604469886576,
+    "entryCandidates": [
+      {
+        "sourcePolygonVertices": 36,
+        "outerUVMetres": [
+          -3.3799655898461687,
+          -90.17881611394515
+        ],
+        "roofHeightMetres": 5.5,
+        "datum": "isolated candidate base, not a surveyed arrival"
+      },
+      {
+        "sourcePolygonVertices": 9,
+        "outerUVMetres": [
+          -4.323866144436204,
+          66.11339816204183
+        ],
+        "roofHeightMetres": 7.5,
+        "datum": "isolated candidate base, not a surveyed arrival"
+      }
+    ],
+    "lights": 0,
+    "waterMeshes": 0,
+    "scaleOnce": 0.6,
+    "baseHeightGame": 0.0,
+    "materialSubstitutions": "darkglass stands for still-unmatched golden glass; gold for honeycomb; no official photograph textures",
+    "integrationContract": {
+      "sourceExclusions": "Only these32 main/part IDs from the same ICC object, in base and facades. Do not exclude theatre way626838819 or transport N2way1023947435.",
+      "arrival": "Sphere/podium anchor is not an entry. Bind current connected entry outside the source glass corridors after terrain/collision verification.",
+      "materials": "Existing gold/darkglass/landmarkglass aliases are provisional; tint golden glass and test reflections through the main material process.",
+      "night": "Source confirms warm LED/hidden grooves, but module emits zero lights until main fixture/control integration and visual performance review.",
+      "water": "No candidate water, fountain, park slab or claimed interior gameplay."
+    },
+    "pending": [
+      "surveyed ground/base elevation, podium levels, true entrance route and collision",
+      "85m reported diameter/height versus108m/88m OSM layer conflict and full surveyed section",
+      "precise sphere centre/cuts, terraces, glass wedge shape, skylight section and full panel inventory",
+      "15sphere/18label/19historical total floor scope reconciliation",
+      "architect roles conflict in supplier GS/Xia field; PETROFF/CarlosOtt/CUC primary attribution preferred with remaining role detail pending",
+      "hotel/conference interiors, basements, pool, sculptures and fountains",
+      "gold tinted glass and honeycomb final material, sign/logos and all-side current geometry",
+      "warm lighting fixture positions/current control, real day/night top/street/distant views and performance"
+    ],
+    "accuracyClaim": "reference-informed exterior candidate; no current field survey, site accessibility or runtime acceptance"
+  }
+}

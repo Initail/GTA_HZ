@@ -1,0 +1,42 @@
+{
+  "deliveryBaseYGame": 1.9579020031420153,
+  "expectedBaseYGame": 1.9579020031420153,
+  "artifactHashMatches": true,
+  "moduleHashMatches": true,
+  "specHashMatches": true,
+  "allFrozenCandidateFilesMatch": true,
+  "actualTriangles": 26026,
+  "cpuTriangles": 26026,
+  "actualMeshes": [
+    "detail_city-balcony_concrete",
+    "detail_city-balcony_darkglass",
+    "detail_city-balcony_landmarkglass",
+    "detail_city-balcony_roof",
+    "detail_city-balcony_steel"
+  ],
+  "materials": [
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "roof",
+    "steel"
+  ],
+  "vertexChecks": {
+    "actualToCpu": {
+      "maxErrorGame": 0.00016878601848719008,
+      "overToleranceCount": 0,
+      "examples": []
+    },
+    "cpuToActual": {
+      "maxErrorGame": 0.00016878601848719008,
+      "overToleranceCount": 0,
+      "examples": []
+    }
+  },
+  "expectedUpperTopTriangles": 300,
+  "missingExactFloat32UpperTopTriangles": 0,
+  "actualAllUvsFinite": true,
+  "actualAllNormalsFinite": true,
+  "actualNondegenerateTriangles": true,
+  "noBrowserOrBlenderRun": true
+}

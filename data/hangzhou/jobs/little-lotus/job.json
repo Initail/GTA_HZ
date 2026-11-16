@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T09:57:09+00:00",
+  "stage": "planned",
+  "agent": "main-integration",
+  "place": {
+    "id": "little-lotus",
+    "name": "杭州奥体中心网球决赛馆（小莲花）",
+    "kind": "building"
+  },
+  "sourceManifest": "data/hangzhou/landmarks.json",
+  "sourceManifestSha256": "b1079f1880ea058cb866540fea9d0252fd7cff53296f1fa1f13183686ec83e8a",
+  "sourceRecord": {
+    "id": "little-lotus",
+    "name": "杭州奥体中心网球决赛馆（小莲花）",
+    "kind": "building",
+    "researchEvidence": "docs/hangzhou/research/core/little-lotus.evidence.json",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": null,
+      "status": "unknown",
+      "sourceIds": []
+    },
+    "sources": [
+      {
+        "id": "little-lotus-2022",
+        "url": "https://www.hangzhou2022.cn/sssg/sscg/202203/t20220330_46200.shtml",
+        "publisher": "杭州亚运会组委会官网",
+        "title": "杭州奥体中心网球中心",
+        "sourceDate": "2022-04-01",
+        "accessedAt": "2026-10-12",
+        "provenance": "primary",
+        "accessMethod": "search-index-page-text",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "网页日期2022/04/01，URL含20220330。建筑面积523000m²与其他总中心约5.2万m²冲突，疑误，不用于足印。"
+      },
+      {
+        "id": "little-lotus-motion",
+        "url": "https://www.hangzhou2022.cn/xwzx/jdxw/ttxw/202206/t20220627_50173.shtml",
+        "publisher": "杭州亚运会组委会官网",
+        "title": "打卡亚运场馆“大小莲花” 高颜值场馆里藏着大智慧",
+        "sourceDate": "2022-06-27",
+        "accessedAt": "2026-10-12",
+        "provenance": "primary",
+        "accessMethod": "search-index-page-text",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "官方采访转轴旋转/45°，是现有建筑能力证据，不代表上游游戏实现屋盖互动。"
+      },
+      {
+        "id": "nbbj-olympic",
+        "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+        "publisher": "NBBJ 设计方",
+        "title": "杭州奥体中心",
+        "sourceDate": null,
+        "accessedAt": "2026-10-12",
+        "provenance": "primary",
+        "accessMethod": "web-page-text-read",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "确认与CCDI合作、三层步行空间、公园/浅色地面/地下停车。中文页面积37000m²口径不清，不采用作为足印或综合体面积。"
+      }
+    ]
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/little-lotus.py"
+    ],
+    "workerDirectories": [
+      "data/hangzhou/jobs/little-lotus",
+      "artifacts/landmarks/little-lotus"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-12T09:57:09+00:00",
+      "reason": "task generated; inputs require review"
+    }
+  ]
+}

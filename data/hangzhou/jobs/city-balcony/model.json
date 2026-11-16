@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "placeId": "city-balcony",
+  "artifactPath": "artifacts/landmarks/city-balcony/model.glb",
+  "sourceModule": "scripts/landmarks/city-balcony.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [],
+  "buildCommand": null
+}

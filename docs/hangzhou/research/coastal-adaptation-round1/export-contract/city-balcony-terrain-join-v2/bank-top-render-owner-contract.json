@@ -1,0 +1,19 @@
+{
+  "actualShoreSha256": "0c683dd694ac4a3b5b19fbd46cabb330fb81775c474cb0a6536cdc86bb66d65c",
+  "newPhysicsSha256": "db0fd4739fd81574f44fc581569d9322cb4aefaf0eb66d87c5490cf9e7919658",
+  "ownerArea": 25.527205664292858,
+  "actualTopFragments": 557,
+  "interiorHeightBudgetGame": 0.01,
+  "sourceDiscontinuityBandGame": 0.001,
+  "interiorSamples": 4265,
+  "interiorMinimumShoreMinusPhysics": -0.006435091757071021,
+  "interiorMaximumShoreMinusPhysics": 0.0013465519706681306,
+  "interiorFailures": 0,
+  "boundaryBandSamples": 2046,
+  "boundaryBandMinimumShoreMinusPhysics": -0.0003852357480473856,
+  "boundaryBandMaximumShoreMinusPhysics": 2.7860582820447526,
+  "physicsSupportDeleted": false,
+  "wholeSolidProjectionUsed": false,
+  "passedSampledInteriorHeightGate": true,
+  "notClaimed": "continuous analytic error bound, exact unique height at closed cliff edges, browser acceptance"
+}

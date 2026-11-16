@@ -1,0 +1,598 @@
+{
+  "date": "2026-10-14",
+  "moduleBeforeSha256": "4c09475070cf0157d27856a1aedaadcb7d8a3587f982d1f45f8c377bfc4e90a6",
+  "actualParentReportedGinkgoTriangles": 1052,
+  "CPUginkgoTriangles": 1112,
+  "method": "CPU material-local polygon vertex-set equality ignoring winding at gameunit 1e-5 quantization; not Blender weld execution",
+  "results": [
+    {
+      "id": "hz-tree-camphor-lod0",
+      "cpuTriangles": 1392,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-camphor-lod1",
+      "cpuTriangles": 340,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-camphor-lod2",
+      "cpuTriangles": 120,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-ginkgo-lod0",
+      "cpuTriangles": 1112,
+      "duplicateFacesIgnoringWinding": [
+        {
+          "faceIndex": 533,
+          "firstFaceIndex": 532,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 535,
+          "firstFaceIndex": 534,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 537,
+          "firstFaceIndex": 536,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 539,
+          "firstFaceIndex": 538,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 541,
+          "firstFaceIndex": 540,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 543,
+          "firstFaceIndex": 542,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 545,
+          "firstFaceIndex": 544,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 547,
+          "firstFaceIndex": 546,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 549,
+          "firstFaceIndex": 548,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 551,
+          "firstFaceIndex": 550,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 553,
+          "firstFaceIndex": 552,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 555,
+          "firstFaceIndex": 554,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 557,
+          "firstFaceIndex": 556,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 559,
+          "firstFaceIndex": 558,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 561,
+          "firstFaceIndex": 560,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 563,
+          "firstFaceIndex": 562,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 565,
+          "firstFaceIndex": 564,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 567,
+          "firstFaceIndex": 566,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 569,
+          "firstFaceIndex": 568,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 571,
+          "firstFaceIndex": 570,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 573,
+          "firstFaceIndex": 572,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 575,
+          "firstFaceIndex": 574,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 577,
+          "firstFaceIndex": 576,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 579,
+          "firstFaceIndex": 578,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 581,
+          "firstFaceIndex": 580,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 583,
+          "firstFaceIndex": 582,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 585,
+          "firstFaceIndex": 584,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 587,
+          "firstFaceIndex": 586,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 589,
+          "firstFaceIndex": 588,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 591,
+          "firstFaceIndex": 590,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 593,
+          "firstFaceIndex": 592,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 595,
+          "firstFaceIndex": 594,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 597,
+          "firstFaceIndex": 596,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 599,
+          "firstFaceIndex": 598,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 601,
+          "firstFaceIndex": 600,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 603,
+          "firstFaceIndex": 602,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 605,
+          "firstFaceIndex": 604,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 607,
+          "firstFaceIndex": 606,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 609,
+          "firstFaceIndex": 608,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 611,
+          "firstFaceIndex": 610,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 613,
+          "firstFaceIndex": 612,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 615,
+          "firstFaceIndex": 614,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 617,
+          "firstFaceIndex": 616,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 619,
+          "firstFaceIndex": 618,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 621,
+          "firstFaceIndex": 620,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 623,
+          "firstFaceIndex": 622,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 625,
+          "firstFaceIndex": 624,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 627,
+          "firstFaceIndex": 626,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 629,
+          "firstFaceIndex": 628,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 631,
+          "firstFaceIndex": 630,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 633,
+          "firstFaceIndex": 632,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 635,
+          "firstFaceIndex": 634,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 637,
+          "firstFaceIndex": 636,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 639,
+          "firstFaceIndex": 638,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 641,
+          "firstFaceIndex": 640,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 643,
+          "firstFaceIndex": 642,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 645,
+          "firstFaceIndex": 644,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 647,
+          "firstFaceIndex": 646,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 649,
+          "firstFaceIndex": 648,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        },
+        {
+          "faceIndex": 651,
+          "firstFaceIndex": 650,
+          "part": "ginkgo-fan-leaf-detail",
+          "triangleCount": 1,
+          "vertexCount": 3
+        }
+      ],
+      "duplicateTriangles": 60,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-ginkgo-lod1",
+      "cpuTriangles": 244,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-ginkgo-lod2",
+      "cpuTriangles": 120,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-masson-pine-lod0",
+      "cpuTriangles": 892,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-masson-pine-lod1",
+      "cpuTriangles": 244,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-masson-pine-lod2",
+      "cpuTriangles": 120,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-osmanthus-lod0",
+      "cpuTriangles": 1392,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-osmanthus-lod1",
+      "cpuTriangles": 340,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-osmanthus-lod2",
+      "cpuTriangles": 120,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-peach-lod0",
+      "cpuTriangles": 1192,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-peach-lod1",
+      "cpuTriangles": 292,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-peach-lod2",
+      "cpuTriangles": 120,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-plane-lod0",
+      "cpuTriangles": 1392,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-plane-lod1",
+      "cpuTriangles": 340,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-plane-lod2",
+      "cpuTriangles": 120,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-sweetgum-lod0",
+      "cpuTriangles": 992,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-sweetgum-lod1",
+      "cpuTriangles": 244,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-sweetgum-lod2",
+      "cpuTriangles": 120,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-willow-lod0",
+      "cpuTriangles": 2164,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-willow-lod1",
+      "cpuTriangles": 724,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    },
+    {
+      "id": "hz-tree-willow-lod2",
+      "cpuTriangles": 216,
+      "duplicateFacesIgnoringWinding": [],
+      "duplicateTriangles": 0,
+      "withinFaceCoincidentAfter10MicrometreQuantize": []
+    }
+  ]
+}

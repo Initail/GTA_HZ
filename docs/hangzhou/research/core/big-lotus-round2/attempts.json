@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "actualAttempts": [
+    {
+      "action": "primary official text and reference-photo review",
+      "result": "completed",
+      "notes": "NBBJ/CCDI publication identity, operator, organizer and fixed OSM; no capture-date or photo-license invention"
+    },
+    {
+      "action": "ARCHINA web-tool page open",
+      "result": "failed",
+      "reason": "web-tool redirect/internal error; same public page fetched/read successfully by curl"
+    },
+    {
+      "action": "ARCHINA CDN HTTPS photo download",
+      "result": "failed",
+      "reason": "certificate hostname mismatch; no TLS verification bypass; photographs not viewed or bundled"
+    },
+    {
+      "action": "OSM way626826731 coarse neighbourhood classification",
+      "result": "corrected",
+      "notes": "Footprint is east of main stadium in tennis area, not the main bowl. Sent immediate parent correction, explicit do-not-exclude recorded."
+    },
+    {
+      "action": "first source freeze",
+      "result": "failed",
+      "reason": "list equality incorrectly required identical ring starting point/order; replaced with exact undirected edge-set comparison of cyclic/reversed rings"
+    },
+    {
+      "action": "dependent task generation after initial failed freeze",
+      "result": "failed",
+      "reason": "no task-catalog existed yet; subsequent successful freeze generated catalog before task generation"
+    },
+    {
+      "action": "limited core evidence-ready",
+      "result": "passed",
+      "scope": "main stadium shell/bowl, not site terraces/interiors"
+    },
+    {
+      "action": "first CPU geometry draft",
+      "result": "passed-host-contract-only",
+      "triangles": 26806,
+      "notes": "No degenerate fan triangles; first draft preview exposed overly narrow roof tips/gaps. Revised curved broad canopy ends to match the visible annular roof."
+    },
+    {
+      "action": "current CPU geometry",
+      "result": "passed-host-contract-only",
+      "triangles": 27854,
+      "notes": "55 independent petals, three tiers, exact source vertex projection, open-core/roof and provisional base-slot rays; fixed28000/10material budget not raised"
+    },
+    {
+      "action": "current CPU three-view projection",
+      "result": "generated and actually viewed",
+      "notes": "Pillow front-face orthographic drawings, not game screenshots; geometry recognizability only, full visual acceptance pending"
+    },
+    {
+      "action": "Blender export and browser validation",
+      "result": "not-run",
+      "reason": "serial main integration owns these operations"
+    }
+  ]
+}

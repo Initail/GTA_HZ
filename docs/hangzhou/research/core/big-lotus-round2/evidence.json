@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "placeId": "big-lotus",
+  "scope": "Source-bound main-stadium shell candidate:28 broad exterior petals,27 interleaved narrow petals, open roof, three seating tiers and a representative field/track. Site terraces, interiors and small lotus excluded.",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "nbbj",
+      "operator",
+      "ccdi-project"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.2243820151114,
+      30.23168281200902
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "osm-aux"
+    ]
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "osm-aux",
+      "url": "https://api.openstreetmap.org/api/0.6/relation/8718531/full.json",
+      "publisher": "OpenStreetMap contributors / OpenStreetMap API",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2023-03-30T22:43:32Z",
+      "license": "ODbL-1.0",
+      "localPath": "docs/hangzhou/research/core/big-lotus-round2/osm-relation-8718531-aux.json",
+      "sha256": "5436e5822c35d08fbd654edfa34dc6e47ba18eca046015e253221667def74227",
+      "use": "member IDs/version corroboration; fixed Geofabrik remains the city source"
+    },
+    {
+      "id": "nbbj",
+      "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+      "publisher": "NBBJ, project architect partnered with CCDI",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "actual text and multiple project photographs reviewed",
+      "sha256": "5cf27f7bda4f425fe4a899365b08c93a4a36446288217d9d3e0f0283e1883386",
+      "license": "unknown; references only, images not bundled or used as textures"
+    },
+    {
+      "id": "operator",
+      "url": "https://www.bjatzxjq.com/",
+      "publisher": "杭州滨江奥体博览城开发建设运营管理有限公司",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "page undated; copyright2025 and news2025 do not date the photograph",
+      "status": "actual stadium-specific text and aerial photograph reviewed",
+      "sha256": "92cd999d6b168e189b7bec8a0cf4861a01d78f0f7197f34776586cbc1804c4e1",
+      "license": "unknown; references only, images not bundled or used as textures"
+    },
+    {
+      "id": "ccdi-project",
+      "url": "https://www.archina.com/index.php?g=works&m=index&a=show&id=3484",
+      "publisher": "CCDI悉地国际 project post on ARCHINA; publication credits verified, host notes third-party submissions",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2019-09-13",
+      "status": "actual HTML fetched/read; web-tool redirect error, CDN image TLS failed",
+      "sha256": "971856bc2efb189d9dda2deacc1ac7e826d789e46c58a72da53b801421450b3b",
+      "license": "unknown; reference only, no images bundled; not CCD interior design company"
+    },
+    {
+      "id": "asian-games",
+      "url": "https://www.hangzhou2022.cn/hzhyn/mlhz/202105/t20210514_26126.shtml",
+      "publisher": "Hangzhou2022 official organizer portal; credits 杭州日报",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "URL2021-05-14; text contextual date2019 (Alibaba20th anniversary/three years until2022)",
+      "license": "unknown; reference only",
+      "use": "28large/27small petals and staggered translucent shell; reprint period mismatch retained"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "outerRing": 626832662,
+        "innerRing": 626826721,
+        "outerBoundsM": [
+          330.7870050906724,
+          276.5710781587295
+        ],
+        "openingBoundsM": [
+          194.93318047309953,
+          144.9194898571326
+        ]
+      },
+      "unit": "metres/EPSG:4326",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "osm-aux"
+      ],
+      "uncertainty": "Canonical coefficients and uniform polygon area-moments; OSM source accuracy unknown, planning±5m. Some roof component vertices extend beyond coarse main ring; exact final cladding envelope pending."
+    },
+    {
+      "kind": "height",
+      "value": {
+        "buildingHeightM": 59.4,
+        "alternativeStructureLevelM": 60.7
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "operator",
+        "ccdi-project"
+      ],
+      "uncertainty": "Different terms/periods; base datum unknown. Candidate uses operator59.4m overall height at isolated neutral base; roof edge estimates not surveyed."
+    },
+    {
+      "kind": "orientation",
+      "value": 90.4885001813021,
+      "unit": "degrees east counterclockwise",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "osm-aux"
+      ],
+      "uncertainty": "Inner opening uniform polygon moments; planning±2deg, not field confidence interval; shell area-moment axis differs4.24deg and source shell boundary is independently retained."
+    },
+    {
+      "kind": "silhouette",
+      "value": "elliptic concrete bowl,28 broad pale curled petals plus27 narrow interleaved translucent petals, a large open central roof and visible three seating tiers",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "nbbj",
+        "operator",
+        "ccdi-project",
+        "asian-games"
+      ],
+      "uncertainty": "Official actual street/interior/aerial images checked; camera calibration and capture dates mostly unknown. Full asymmetric phase, section and all-current-side reconstruction pending."
+    }
+  ],
+  "blockers": [],
+  "pendingSubscopes": [
+    "surveyed stadium base elevation, surrounding raised platform, ramps and pedestrian bridges",
+    "59.4m building-height versus60.7m structural-level datum reconciliation",
+    "precise asymmetric petal phase/curves, north opening and all-side geometric fit",
+    "real gate labels/count, entry levels, connected safe arrival and collision",
+    "photographed matte white cladding/translucent louvers, current seating pattern and field configuration",
+    "basements, concourses, museum/retail interiors and auxiliary structures",
+    "small lotus is a different object and not included",
+    "night light fixtures/control, current in-game top/street/distant views and performance"
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/big-lotus-round2/geofabrik-stadium-features.geojson": "b01633bcb6c43f48ac149f4a8b2919247f267a9cad1c978a31a56f8ed9a1401d",
+    "docs/hangzhou/research/core/big-lotus-round2/osm-measurements.json": "257d1eb16bb0915a3e80186249a59475367342f8528fd7f600ef7653e70a562e",
+    "docs/hangzhou/research/core/big-lotus-round2/osm-relation-8718531-aux.json": "5436e5822c35d08fbd654edfa34dc6e47ba18eca046015e253221667def74227",
+    "docs/hangzhou/research/core/big-lotus-round2/source-claims.json": "cf7aca92037eb768561e2ec55b0a3644213bd96dbb6163f801b0a38cb0dd820a",
+    "docs/hangzhou/research/core/big-lotus-round2/spec.json": "f3b5a535875fba14addf94cd2b285148fa48c98b4f537093d5f63f4299081a73",
+    "docs/hangzhou/research/core/big-lotus-round2/photo-review.json": "61e0084ad4d1d9d49b3f35a013e853c079e4ebdc3359df105891240adafa8da4"
+  },
+  "photosBundled": false,
+  "stageLimit": "limited main-shell exterior evidence-ready; no exported/visual/runtime completion claim",
+  "photoReview": "docs/hangzhou/research/core/big-lotus-round2/photo-review.json"
+}

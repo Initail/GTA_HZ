@@ -1,0 +1,1015 @@
+{
+  "mainRelation": 8718531,
+  "outerMemberWay": 626832662,
+  "innerMemberWay": 626826721,
+  "outer": {
+    "areaM2": 71309.63372531344,
+    "centroidWGS84": [
+      120.22440297233359,
+      30.231691715959325
+    ],
+    "axisRadiansEastCCW": 1.6532694054106747,
+    "axisDegreesEastCCW": 94.72535932813473,
+    "majorMinorBoundsM": [
+      330.7870050906724,
+      276.5710781587295
+    ],
+    "method": "uniform polygon area centroid and second moments, not uneven-vertex PCA"
+  },
+  "innerRoofOpening": {
+    "areaM2": 22159.96396540461,
+    "centroidWGS84": [
+      120.2243820151114,
+      30.23168281200902
+    ],
+    "axisRadiansEastCCW": 1.5793222633552075,
+    "axisDegreesEastCCW": 90.4885001813021,
+    "majorMinorBoundsM": [
+      194.93318047309953,
+      144.9194898571326
+    ],
+    "method": "uniform polygon area centroid and second moments, not uneven-vertex PCA"
+  },
+  "anchorWGS84": [
+    120.2243820151114,
+    30.23168281200902
+  ],
+  "axisRadiansEastCCW": 1.5793222633552075,
+  "axisUse": "the inner opening area-moment major axis; the shell lobes are retained as a source radial boundary, not rotated to its different major axis",
+  "outerUVMetres": [
+    [
+      32.27281795427207,
+      135.51705811581053
+    ],
+    [
+      16.187887695206204,
+      134.33593699680412
+    ],
+    [
+      -5.294847483193756,
+      133.28743958849782
+    ],
+    [
+      -29.88608286770841,
+      134.32463107825927
+    ],
+    [
+      -37.48534091036758,
+      133.70623576709733
+    ],
+    [
+      -44.22872302731194,
+      132.05095044648021
+    ],
+    [
+      -50.940489944066286,
+      130.20294833753013
+    ],
+    [
+      -71.16517998341925,
+      120.67604646107637
+    ],
+    [
+      -89.86183125480805,
+      112.23306552870777
+    ],
+    [
+      -95.5519348935761,
+      109.28902571341054
+    ],
+    [
+      -112.36944632622038,
+      93.6998530296248
+    ],
+    [
+      -114.11434058861403,
+      91.88648154561817
+    ],
+    [
+      -126.50761650031654,
+      80.30097906347211
+    ],
+    [
+      -142.53618450041552,
+      64.92639405069566
+    ],
+    [
+      -145.33048058646574,
+      62.25595737490361
+    ],
+    [
+      -146.99783877554583,
+      57.83426481897275
+    ],
+    [
+      -154.22210051343683,
+      38.78584979763743
+    ],
+    [
+      -158.72102857244883,
+      20.820769774961505
+    ],
+    [
+      -159.7181822864911,
+      16.9899493768602
+    ],
+    [
+      -165.31222701476597,
+      -4.593423843096367
+    ],
+    [
+      -166.125781147558,
+      -7.694510156599725
+    ],
+    [
+      -165.02313629818755,
+      -10.994759127164794
+    ],
+    [
+      -161.03520356232423,
+      -23.056712795322756
+    ],
+    [
+      -157.98712168752695,
+      -37.42964230326224
+    ],
+    [
+      -152.54886942936176,
+      -53.622332362550004
+    ],
+    [
+      -144.8719179763937,
+      -75.09754168009209
+    ],
+    [
+      -140.97355096727773,
+      -79.4608424291836
+    ],
+    [
+      -133.26467902737343,
+      -88.09047118708756
+    ],
+    [
+      -118.97933984367243,
+      -97.73840800374334
+    ],
+    [
+      -104.62663700961163,
+      -111.18775200051147
+    ],
+    [
+      -93.93280384604087,
+      -116.8887659570624
+    ],
+    [
+      -78.9570689235479,
+      -124.87792063390813
+    ],
+    [
+      -69.16452985672268,
+      -128.3677292255861
+    ],
+    [
+      -61.460878609357906,
+      -131.1084281797713
+    ],
+    [
+      -38.13490562526604,
+      -134.91569435865503
+    ],
+    [
+      -11.796416044603376,
+      -141.66422124792368
+    ],
+    [
+      -3.8981008899408396,
+      -141.07724282492296
+    ],
+    [
+      6.14115465474746,
+      -140.3353158583273
+    ],
+    [
+      24.79169139104916,
+      -136.0006901437116
+    ],
+    [
+      30.66787665920757,
+      -134.63630418786568
+    ],
+    [
+      48.111120622259335,
+      -132.77395421046532
+    ],
+    [
+      57.82036014127032,
+      -131.73092027211206
+    ],
+    [
+      73.89268649722003,
+      -125.52681894103696
+    ],
+    [
+      92.5387198835155,
+      -112.61863065701309
+    ],
+    [
+      115.48193464123528,
+      -102.80699173984709
+    ],
+    [
+      130.1240297244732,
+      -88.8158278924824
+    ],
+    [
+      140.37793253525192,
+      -68.09970838478071
+    ],
+    [
+      142.62978702692055,
+      -65.33804552106328
+    ],
+    [
+      157.72124093327912,
+      -45.45220531762277
+    ],
+    [
+      163.42278573204808,
+      -25.563284297148833
+    ],
+    [
+      163.54450380896117,
+      1.7150730141500596
+    ],
+    [
+      163.13456892108243,
+      25.14901864167335
+    ],
+    [
+      158.60873614288568,
+      44.33610609635741
+    ],
+    [
+      143.9526369185486,
+      66.40967287519362
+    ],
+    [
+      131.37827792203586,
+      88.19606431400341
+    ],
+    [
+      118.66153459439096,
+      99.78396646015054
+    ],
+    [
+      95.32720258387948,
+      111.71257709016476
+    ],
+    [
+      76.43955427807131,
+      123.77647716619592
+    ],
+    [
+      56.20620665946786,
+      128.83714927008475
+    ]
+  ],
+  "innerUVMetres": [
+    [
+      -0.6686652067294124,
+      72.55976157028881
+    ],
+    [
+      12.263291024506039,
+      71.91064961189579
+    ],
+    [
+      24.1159529817062,
+      70.79924415252941
+    ],
+    [
+      38.106540987669625,
+      66.88874793077449
+    ],
+    [
+      49.66715033243921,
+      62.729543931480265
+    ],
+    [
+      57.67554013064411,
+      58.02328496945952
+    ],
+    [
+      64.5329450920819,
+      53.54815378458127
+    ],
+    [
+      72.18225725939637,
+      48.33497120595745
+    ],
+    [
+      79.89776359922907,
+      41.783715984555634
+    ],
+    [
+      85.05650233636317,
+      35.7161334858235
+    ],
+    [
+      89.54282163501192,
+      28.797893951905888
+    ],
+    [
+      93.11670047520376,
+      21.483294828705933
+    ],
+    [
+      96.15110149433372,
+      13.307282827309185
+    ],
+    [
+      97.17741121557103,
+      6.25496368216647
+    ],
+    [
+      97.38800240890541,
+      -0.2515482817332636
+    ],
+    [
+      96.77328739034462,
+      -8.637006436459622
+    ],
+    [
+      95.38521571630156,
+      -15.408936456378346
+    ],
+    [
+      92.44463766691018,
+      -23.534004930892984
+    ],
+    [
+      88.22562955312468,
+      -30.772538423322946
+    ],
+    [
+      82.22337456306845,
+      -39.12168400338546
+    ],
+    [
+      73.25445230349253,
+      -48.253813726751325
+    ],
+    [
+      57.78905994350209,
+      -58.68730659849354
+    ],
+    [
+      48.575808852232925,
+      -62.66938969121024
+    ],
+    [
+      37.493253591099595,
+      -67.45343556175794
+    ],
+    [
+      22.09899664516799,
+      -70.8439662640524
+    ],
+    [
+      9.148582388457962,
+      -72.35972828684373
+    ],
+    [
+      -4.364403668795264,
+      -72.24451463327765
+    ],
+    [
+      -12.496094954627193,
+      -71.59784097419212
+    ],
+    [
+      -22.779986495199136,
+      -69.82624576525667
+    ],
+    [
+      -35.02680775965666,
+      -66.83511913712339
+    ],
+    [
+      -41.29568618228479,
+      -64.8475751033617
+    ],
+    [
+      -48.19478624155273,
+      -62.662210478464225
+    ],
+    [
+      -61.086965662671716,
+      -56.04757347927805
+    ],
+    [
+      -72.62214395011509,
+      -48.90565421635022
+    ],
+    [
+      -79.83635052220258,
+      -42.070002301667124
+    ],
+    [
+      -85.98874690694846,
+      -35.5224520184931
+    ],
+    [
+      -91.83857962441009,
+      -25.994549343990695
+    ],
+    [
+      -96.58073372645804,
+      -12.675258070681155
+    ],
+    [
+      -97.5451780641941,
+      0.3327754239007949
+    ],
+    [
+      -96.37064037872211,
+      11.965818666363505
+    ],
+    [
+      -93.31429763399343,
+      21.966260623233683
+    ],
+    [
+      -91.10927689740107,
+      28.336708394994442
+    ],
+    [
+      -80.75052874740784,
+      40.545766332964604
+    ],
+    [
+      -74.21024111101765,
+      45.686078160170624
+    ],
+    [
+      -67.91128706566202,
+      51.12674084273607
+    ],
+    [
+      -61.6560894987012,
+      55.33611431551712
+    ],
+    [
+      -56.02257137037612,
+      59.444942338184035
+    ],
+    [
+      -48.23127456143355,
+      63.083121837230514
+    ],
+    [
+      -36.83905860932266,
+      66.47890742953466
+    ],
+    [
+      -26.00168212602251,
+      69.81206713136906
+    ],
+    [
+      -13.889074970206357,
+      71.88344702675397
+    ]
+  ],
+  "qualifiedPetalFeatures": [
+    {
+      "id": "way/626826698",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22543458888887,
+        30.231463866666665
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "a853508bd599584b7bc3ddb84f501b4f73b3eb1ada819f986db8138db2c20888"
+    },
+    {
+      "id": "way/626826700",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.2253842375,
+        30.2318086125
+      ],
+      "verticesInsideMainOuter": 8,
+      "vertices": 8,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "a6ab7213da8bdabb4bfc8bb02640b9f0fc8c637dcf8c6bbedd825b30a5cff690"
+    },
+    {
+      "id": "way/626826703",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22531584000001,
+        30.23112572
+      ],
+      "verticesInsideMainOuter": 10,
+      "vertices": 10,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "3dd0654b7004fd9613ee5f696f93970a42e11e80fc62935b2112569ba43338a7"
+    },
+    {
+      "id": "way/626826704",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22335815,
+        30.2319382375
+      ],
+      "verticesInsideMainOuter": 8,
+      "vertices": 8,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "17a15cb39e681364d3e4268df2a6f7f192965f6769c32a9e1f279d8247f2a2e9"
+    },
+    {
+      "id": "way/626826708",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22524473333334,
+        30.232355155555556
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "22238c7a08f1ce424f0d7e228e5ee2c7e0026b94a305811ab44c8b5ceef123ec"
+    },
+    {
+      "id": "way/626826715",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22380050000001,
+        30.230903185714286
+      ],
+      "verticesInsideMainOuter": 7,
+      "vertices": 7,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "45a16d70966fc8556e1b7caad76960798f6441b65b592178fda5a551dce981ad"
+    },
+    {
+      "id": "way/626826717",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.2236024,
+        30.232346214285712
+      ],
+      "verticesInsideMainOuter": 7,
+      "vertices": 7,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "c716cebc68ceada4084eafc4b429d09aa82422c5763f0b19c427e69c7177a58e"
+    },
+    {
+      "id": "way/626826718",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22349041428572,
+        30.231144714285712
+      ],
+      "verticesInsideMainOuter": 7,
+      "vertices": 7,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "00ed8687285003838bf682902377fb782c80f1bb5e0259623750cc621efee6d2"
+    },
+    {
+      "id": "way/626826727",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22480535,
+        30.232666487499998
+      ],
+      "verticesInsideMainOuter": 8,
+      "vertices": 8,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "ac6cc2f5aec8a61d8805f84b9223b267d22568223db2c294e4f843db9dc84600"
+    },
+    {
+      "id": "way/626826729",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22437268888888,
+        30.23274842222222
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "d97a70a493663e0cf34ac7c939ac9f42397b936512b1477d9be2b1351eb524b4"
+    },
+    {
+      "id": "way/626826730",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22393434285713,
+        30.232655457142858
+      ],
+      "verticesInsideMainOuter": 7,
+      "vertices": 7,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "ad5bcc8978986a8c39de51c0bf9c63c776ba967998418d3249718216c59636e6"
+    },
+    {
+      "id": "way/626826734",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22451024444445,
+        30.23063708888889
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "e4f096d9d8560c5358c23d4de87a8573a1ae80a5d0838c102cefa235594d2e84"
+    },
+    {
+      "id": "way/626826736",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22495345,
+        30.230805875
+      ],
+      "verticesInsideMainOuter": 8,
+      "vertices": 8,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "695e3be28fdd438c845e6b116525639c5f58103e0588d7bb5edb82c8d49ab4fc"
+    },
+    {
+      "id": "way/626826739",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.2240015625,
+        30.230713325
+      ],
+      "verticesInsideMainOuter": 8,
+      "vertices": 8,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "620dc6e8bc03cb640663caa1997bed8773a7afcde0dec1e53572bf45b81034c3"
+    },
+    {
+      "id": "way/626832622",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22553864166666,
+        30.23166326666667
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 12,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "df45ec33799f2fa4447ff8bb9a03a989eb1441c2966dded17891c4333c854be1"
+    },
+    {
+      "id": "way/626832624",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22550920769231,
+        30.23196973076923
+      ],
+      "verticesInsideMainOuter": 10,
+      "vertices": 13,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "00c197f34dd1463bb32b082cd49b1b0c4fca54e6248d11249b0210801ddd0842"
+    },
+    {
+      "id": "way/626832626",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22533444615384,
+        30.230983223076922
+      ],
+      "verticesInsideMainOuter": 10,
+      "vertices": 13,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "e8c3a5783e9b5e9706edb756f71f0cbe942d5c81caa0a8dcfe7017f00a8be23a"
+    },
+    {
+      "id": "way/626832627",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22545993333334,
+        30.231257933333335
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 12,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "b11d8fcadcbdb872b5f618ba8fef5de2820a9966db8122442186dd8737477ebc"
+    },
+    {
+      "id": "way/626832631",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22326007777777,
+        30.231801144444447
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "81faef3589e040d6c3f0381af45e0db6e65835df7387ce08aa0237980d362e68"
+    },
+    {
+      "id": "way/626832632",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.2233831888889,
+        30.23229452222222
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "c04a992e5137b17a1c47852259dcac0827567e23f82daaa63b5c457fa7fcb525"
+    },
+    {
+      "id": "way/626832634",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.2233313,
+        30.232086799999998
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "4b080f3c724d6553432167e031c048f3015def94e2dfbb48ff5744064cd61b50"
+    },
+    {
+      "id": "way/626832640",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22538215454546,
+        30.232245963636363
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 11,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "1277040e7ed6ab8ca325283027f2ec602810bbf1263cf6e1144dca5c0be4a828"
+    },
+    {
+      "id": "way/626832644",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22326221,
+        30.23154555
+      ],
+      "verticesInsideMainOuter": 10,
+      "vertices": 10,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "747f18e89ce40161859fbed9de09ad465edbda8c2d1fe3e12ec9036848b2aab5"
+    },
+    {
+      "id": "way/626832648",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.2252221818182,
+        30.232522963636367
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 11,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "25bca4b91fbba26d0befa271e0cb0d3ad3639a78cbfb3626d49215db23fe99fd"
+    },
+    {
+      "id": "way/626832651",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22353450833333,
+        30.230920166666664
+      ],
+      "verticesInsideMainOuter": 12,
+      "vertices": 12,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "a9dc0310931e5f1e8d65c2ff0a66355039c5ce2a0192947a948a1bec2b238534"
+    },
+    {
+      "id": "way/626832656",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22356857777777,
+        30.232533244444443
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "a9385db772e5236ef820a13c3966f8379325d182fee8db90effc5df5fe74086f"
+    },
+    {
+      "id": "way/626832661",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22332179166666,
+        30.2312737
+      ],
+      "verticesInsideMainOuter": 12,
+      "vertices": 12,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "9a66e239b2ee9291ff2ba7110332d4b5e84ef6b1f27ea3b00a5e6f15bdd9378e"
+    },
+    {
+      "id": "way/626832664",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22398621111113,
+        30.232832877777778
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "27003f484b2bc6b705c73d1cc971169a756fbedd86cad60e45a4a69862ec01f9"
+    },
+    {
+      "id": "way/626832665",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22371813333332,
+        30.232705322222223
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 9,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "79706dc445274efffb37381f82fe023d054d63e6617631de36f15a4292d1a32f"
+    },
+    {
+      "id": "way/626832666",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22477895454546,
+        30.232847227272728
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 11,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "5b37d5c3a63597f09ab4f195ac7fa980ad8a7a57b60949ecd8ba5354a830acea"
+    },
+    {
+      "id": "way/626832667",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22503425833334,
+        30.232722908333333
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 12,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "628972e4bcb676bbab4225645753b0fd55c7c9c119eca56b2df7ec6c7da39244"
+    },
+    {
+      "id": "way/626832669",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.2242325,
+        30.23292301
+      ],
+      "verticesInsideMainOuter": 10,
+      "vertices": 10,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "20864c547e45adae599279fdaf190709ce0fdc4586e0ccd1ca070dd855910f8a"
+    },
+    {
+      "id": "way/626832671",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.224525675,
+        30.232887125
+      ],
+      "verticesInsideMainOuter": 11,
+      "vertices": 12,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "ccd877f6aa64062b264b948c58c09e8c78eb3dd730480a3d73bc69511418b1d0"
+    },
+    {
+      "id": "way/626832674",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22436596923077,
+        30.230454530769233
+      ],
+      "verticesInsideMainOuter": 13,
+      "vertices": 13,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "f7feda58fa343189924aae236b46bd5d723c6c6043a9098b5bb5d11214c9239e"
+    },
+    {
+      "id": "way/626832675",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22466142142856,
+        30.230464542857142
+      ],
+      "verticesInsideMainOuter": 11,
+      "vertices": 14,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "9735db3463ed5d4aaaff7dbc820c1a03717fa43ccdf1f5804238bc7493d55c7c"
+    },
+    {
+      "id": "way/626832677",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22517691818183,
+        30.23073279090909
+      ],
+      "verticesInsideMainOuter": 8,
+      "vertices": 11,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "9afbe9bfb425dc0703ecc9114d0c4c61db71b8335cc27d7cbe4932ed0215c72a"
+    },
+    {
+      "id": "way/626832679",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22380733333334,
+        30.230661475
+      ],
+      "verticesInsideMainOuter": 12,
+      "vertices": 12,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "5da79b46cc3b7286babb24370588c8787a1f1b7ebee542b0f1b715d31c4af715"
+    },
+    {
+      "id": "way/626832680",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22493536363636,
+        30.2306164
+      ],
+      "verticesInsideMainOuter": 9,
+      "vertices": 11,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "ad4740e21e621cfa7c0eb912de4c0bfbba1966a727967e85669944ed2fbb67cd"
+    },
+    {
+      "id": "way/626832682",
+      "reason": "mapped stadium petal-shaped roof component; anonymous pale shell within main outer-ring centroid area",
+      "centroidWGS84": [
+        120.22406025,
+        30.230526764285713
+      ],
+      "verticesInsideMainOuter": 14,
+      "vertices": 14,
+      "heightTag": "26",
+      "heightUse": "not adopted as full roof height",
+      "featureSha256": "b2c8aac2ddbc2255d9147b3060e58a9bc70d941ad893abf87fd33c9d587ed153"
+    }
+  ],
+  "mappedPetalCount": 39,
+  "reportedPetalCount": 55,
+  "petalCountInterpretation": "OSM mapping is incomplete;39 mapped pieces are not evidence of39 total constructed petals.",
+  "mainHeightTag": "2",
+  "mainHeightUse": "rejected as full stadium roof height",
+  "fieldPartHeightTags": {
+    "height": "3",
+    "min_height": "2",
+    "use": "unverified; not used as field datum"
+  },
+  "apiRelation": {
+    "version": 10,
+    "timestamp": "2023-03-30T22:43:32Z",
+    "changeset": 134322303,
+    "auxSnapshotSha256": "5436e5822c35d08fbd654edfa34dc6e47ba18eca046015e253221667def74227",
+    "memberRingsMatchFixedSnapshot": true
+  },
+  "doNotExclude": [
+    "way/626826731",
+    "all small-lotus / tennis center sources",
+    "district-wide bounding-box contents"
+  ],
+  "uncertainty": "Dimensions measured on OSM geometry with the canonical WGS84 local coefficients; not a field survey. Ground/source accuracy unknown; planning envelope ±5m, axis ±2deg. Outer and inner map axes differ by4.24deg; no claim of surveying precision."
+}

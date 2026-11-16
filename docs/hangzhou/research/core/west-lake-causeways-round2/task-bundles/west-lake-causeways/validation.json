@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "placeId": "west-lake-causeways",
+  "artifactSha256": null,
+  "evidenceSha256": null,
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": ""
+    }
+  },
+  "notes": "17CPU structural checks andfourCPU previews available; no GLB or actual game screenshots. Final eightchecks remainunknown.",
+  "candidateSourceModuleSha256": "16c89d4c4a60955489f8089f17cf81a85f68f43c837080ed66f16f37377d6c3b"
+}

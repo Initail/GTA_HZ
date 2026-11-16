@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "placeId": "broken-bridge",
+  "scope": "Source-bound single-arch stone body with continuous sloping asphalt approaches and railings; lake water and pavilion groups excluded.",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "unesco-nomination",
+      "government-2018"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.14703035,
+      30.26090085
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik"
+    ]
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "China State Party nomination / UNESCO World Heritage Centre publication",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2011 (PDF creation/modification metadata; underlying surveys undated)",
+      "status": "available-read-and-rendered",
+      "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+      "bytes": 79121258,
+      "pages": 1342,
+      "license": "unknown; reference only; PDF/page images not bundled",
+      "reviewedPages": [
+        {
+          "pdfPage": 100,
+          "printedPage": 105,
+          "use": "stone semicircular arch, asphalt slopes,8.8m length/8.6m width/6.1m clear span"
+        },
+        {
+          "pdfPage": 107,
+          "printedPage": 112,
+          "figure": "2a-59",
+          "use": "plan and north arrow/corridor/pavilion layout"
+        },
+        {
+          "pdfPage": 108,
+          "printedPage": 113,
+          "figure": "2a-61",
+          "use": "single small central arch and long gradual slopes with ruler"
+        }
+      ]
+    },
+    {
+      "id": "government-2018",
+      "url": "https://www.ehangzhou.gov.cn/2018-06/14/c_242889.htm",
+      "publisher": "Information Office of Hangzhou Municipal People’s Government",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2018-06-14",
+      "status": "available-read-and-photo-reviewed",
+      "license": "unknown; reference only; no image texture"
+    },
+    {
+      "id": "government-rain2020",
+      "url": "https://www.ehangzhou.gov.cn/2020-06/05/c_271613_2.htm",
+      "publisher": "Hangzhou government English portal / China Daily photographer Xiao Da",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2020-06-05",
+      "status": "available-photo-reviewed",
+      "license": "unknown; reference only; no image texture"
+    },
+    {
+      "id": "government-night2023",
+      "url": "https://www.ehangzhou.gov.cn/2023-08/17/c_286564.htm",
+      "publisher": "Hangzhou government English portal; photo credited IC",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2023-08-17",
+      "status": "available-photo-reviewed",
+      "license": "unknown; reference only; no image texture"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "lineWay": 28538289,
+        "areaWay": 1466925249,
+        "corridorLengthM": 122.63663198506704
+      },
+      "unit": "EPSG:4326/metres",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "unesco-nomination"
+      ],
+      "uncertainty": "OSM geometry measured, not field measured; unknown source accuracy, planning±5m; area includes approaches."
+    },
+    {
+      "kind": "height",
+      "value": {
+        "clearSpanM": 6.1,
+        "semicircleRadiusM": 3.05
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "reported span; radius follows reported semicircle, not measured arch rise/current water clearance."
+    },
+    {
+      "kind": "height",
+      "value": {
+        "candidateCrestAboveEndpointsM": 2.35,
+        "railHeightM": 1.0
+      },
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018",
+        "government-night2023"
+      ],
+      "uncertainty": "crest±.9m/rail±.25m; endpoint ground and lake elevations pending; isolated shared endpoint datum only."
+    },
+    {
+      "kind": "orientation",
+      "value": 36.68886242039378,
+      "unit": "degrees north clockwise",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "unesco-nomination"
+      ],
+      "uncertainty": "source endpoints and plan north arrow checked; planning±3deg, not survey confidence interval."
+    },
+    {
+      "kind": "silhouette",
+      "value": "one small semicircular stone arch amid long continuous shallow asphalt slopes, narrow stone rails; bridge is intact",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018",
+        "government-rain2020"
+      ],
+      "uncertainty": "Old plan/elevation and actual2018/2020/2023 photo views; precise current height/post ornament and full abutments pending."
+    }
+  ],
+  "blockers": [],
+  "pendingSubscopes": [
+    "current surveyed arch position/ground/water elevations",
+    "runtime deck-height/collision and connected walking verification",
+    "precise railing/post ornamental survey",
+    "pavilion/stele/waterside structures and landscaping",
+    "lamps and day/night material integration",
+    "current in-game top/street/distant views",
+    "performance and whole-city acceptance"
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/broken-bridge-round2/geofabrik-bridge-features.geojson": "8b61459e4f84173a5f752b4c00492d5a6edd1870071999c410b9c2e392d7766a",
+    "docs/hangzhou/research/core/broken-bridge-round2/osm-measurements.json": "4d29aabc8bf08237ab421613e153543e7cd73bb1645f99d68a39266e1615d5a9",
+    "docs/hangzhou/research/core/broken-bridge-round2/source-claims.json": "dafbe216cc2c9716cafe9662d1690f538f435e065cbb38258196e2c09f639d39",
+    "docs/hangzhou/research/core/broken-bridge-round2/spec.json": "0b96b192a1011a5e217b98ace971bd04d5442228b51cad0193d2a9143a282eb4",
+    "docs/hangzhou/research/core/broken-bridge-round2/photo-review.json": "fe65cb49f151d5f46f5ad9ca578edfc2568bea987f9ba58ca0a2b71e7fddf78a"
+  },
+  "photosBundled": false,
+  "stageLimit": "limited exterior evidence-ready only; no GLB/visual/runtime claim",
+  "photoReview": "docs/hangzhou/research/core/broken-bridge-round2/photo-review.json"
+}

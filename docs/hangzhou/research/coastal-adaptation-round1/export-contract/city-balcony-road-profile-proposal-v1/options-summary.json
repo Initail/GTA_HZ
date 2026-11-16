@@ -1,0 +1,76 @@
+[
+  {
+    "scenario": "confirmed-tunnel-only",
+    "status": "non-activated estimated geometry option; service identity unresolved",
+    "sourceXYTopologyWidthsUnchanged": true,
+    "clearanceGame": 3.6,
+    "clearanceBasis": "existing city default tier clearance 6 real metres times 0.60; conservative game adaptation, not surveyed tunnel headroom",
+    "loweringTransitionGradient": 0.04,
+    "transitionRule": "max of nonnegative source-station lowering cones, propagated through every original shared node; same node receives same lowering",
+    "affectedRoads": 6,
+    "affectedSourceNodes": 7,
+    "maximumLoweringGame": 4.22192906334417,
+    "maximumSampledAbsoluteGrade": 0.047139895263182297,
+    "minimumProposedActualSlabClearanceGame": 3.5999999999999996,
+    "sourceNodeHeightMismatchCount": 0,
+    "sourceNodeHeightMismatches": [],
+    "affectedRoadIds": [
+      "way/157967583#0",
+      "way/157967584#0",
+      "way/157967585#0",
+      "way/157967586#0",
+      "way/557050557#0",
+      "way/605330157#0"
+    ],
+    "pending": [
+      "source role of service 336828925 cannot be inferred from geometric fit",
+      "road corridor terrain excavation and retaining walls, no generic grass over an open sunken road",
+      "reconcile road surfaces and navigation/collision/dynamic vehicle supports",
+      "independent actual source junction and longitudinal grade validation",
+      "full-width continuous ceiling, piers and shell clearance beyond <=.5g finite probes",
+      "real browser driving under complete tunnel and ramps"
+    ]
+  },
+  {
+    "scenario": "service-under-lower-floor-hypothesis",
+    "status": "non-activated estimated geometry option; service identity unresolved",
+    "sourceXYTopologyWidthsUnchanged": true,
+    "clearanceGame": 3.6,
+    "clearanceBasis": "existing city default tier clearance 6 real metres times 0.60; conservative game adaptation, not surveyed tunnel headroom",
+    "loweringTransitionGradient": 0.04,
+    "transitionRule": "max of nonnegative source-station lowering cones, propagated through every original shared node; same node receives same lowering",
+    "affectedRoads": 16,
+    "affectedSourceNodes": 40,
+    "maximumLoweringGame": 7.687406772823715,
+    "maximumSampledAbsoluteGrade": 0.08989963277118705,
+    "minimumProposedActualSlabClearanceGame": 3.5999999999999996,
+    "sourceNodeHeightMismatchCount": 0,
+    "sourceNodeHeightMismatches": [],
+    "affectedRoadIds": [
+      "way/51718751#0",
+      "way/157967583#0",
+      "way/157967584#0",
+      "way/157967585#0",
+      "way/157967586#0",
+      "way/336828925#0",
+      "way/557050553#0",
+      "way/557050557#0",
+      "way/557050559#0",
+      "way/582257212#0",
+      "way/582257213#0",
+      "way/582257214#0",
+      "way/582257215#0",
+      "way/582257216#0",
+      "way/595993911#0",
+      "way/605330157#0"
+    ],
+    "pending": [
+      "source role of service 336828925 cannot be inferred from geometric fit",
+      "road corridor terrain excavation and retaining walls, no generic grass over an open sunken road",
+      "reconcile road surfaces and navigation/collision/dynamic vehicle supports",
+      "independent actual source junction and longitudinal grade validation",
+      "full-width continuous ceiling, piers and shell clearance beyond <=.5g finite probes",
+      "real browser driving under complete tunnel and ramps"
+    ]
+  }
+]

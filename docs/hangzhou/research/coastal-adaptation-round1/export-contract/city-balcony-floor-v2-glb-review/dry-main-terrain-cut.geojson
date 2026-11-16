@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "coordinateSystem": "Hangzhou game ENU metres; XY east/north and optional third coordinate up; WGS84-derived local projection scale0.60 already applied",
+  "sourceArtifactSha256": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "dry-main-terrain-cap",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3284.2822566553627,
+              -1996.4099389743567
+            ],
+            [
+              3296.413064469334,
+              -1978.1564748212872
+            ],
+            [
+              3308.125593865333,
+              -1961.8157497320215
+            ],
+            [
+              3318.5983536520584,
+              -1939.4200572118414
+            ],
+            [
+              3358.500496330832,
+              -1886.6200958459729
+            ],
+            [
+              3375.6491069463755,
+              -1900.8413844266772
+            ],
+            [
+              3362.3042765999458,
+              -1922.5144018942624
+            ],
+            [
+              3320.598628410587,
+              -1993.7378542272766
+            ],
+            [
+              3286.178767599346,
+              -2042.798760503912
+            ],
+            [
+              3272.656920392081,
+              -2066.2639358678507
+            ],
+            [
+              3265.77802662109,
+              -2059.3153989843486
+            ],
+            [
+              3260.859252204478,
+              -2054.346782991591
+            ],
+            [
+              3257.0915091627394,
+              -2050.5401562364996
+            ],
+            [
+              3284.2822566553627,
+              -1996.4099389743567
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, capTopYGame)",
+        "capTopYGame": 1.5579020031420152,
+        "noNewWaterOrLandOrFill": true,
+        "keepLowerPublicVolumeOpen": true,
+        "originalWaterYGame": 0.8999999999999999,
+        "actualDryTerrainSamplerChanged": false
+      }
+    }
+  ]
+}

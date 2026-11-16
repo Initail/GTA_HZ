@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "id": "gov-completion-2023",
+      "url": "https://www.yuhang.gov.cn/art/2024/1/27/art_1229267926_59079965.html",
+      "publisher": "杭州市余杭区人民政府",
+      "accessedAt": "2026-10-14",
+      "use": "Officialconstructionprogress context, not surveyedfootprints",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-completion-2023.html",
+      "bytes": 1122222,
+      "sha256": "c0db1070b360eacd7282fb1c739c23174ac567204b0cc75a676674b6f3910895"
+    },
+    {
+      "id": "gov-progress-mid2024",
+      "url": "https://www.yuhang.gov.cn/art/2024/8/1/art_1229267926_59105854.html",
+      "publisher": "杭州市余杭区人民政府",
+      "accessedAt": "2026-10-14",
+      "use": "Officialconstructionprogress context, not surveyedfootprints",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-progress-mid2024.html",
+      "bytes": 487180,
+      "sha256": "8449a5332e37d070c332528fddb8ed155dc3d9e8ba8f4ed9c5c1abe222124835"
+    }
+  ]
+}

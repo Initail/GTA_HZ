@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q2024",
+    "url": "https://commons.wikimedia.org/wiki/File:20240128_Qiantang_River_Bridge_01.jpg",
+    "localPath": "<TEMP>/qiantang-bridges-research/q2024.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 117420,
+    "sha256": "700046c0d2d73e99c0fd45d16e734ff04b8aee8aebb4e43fd8b3cb4037f89444",
+    "bundled": false
+  },
+  {
+    "id": "qside",
+    "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Qiantangjiang_Daqiao_20120518-06.jpg",
+    "localPath": "<TEMP>/qiantang-bridges-research/qside.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 123645,
+    "sha256": "aac683190bb13f5046852c3a8a9ba558c3c7a09e8c865d76fabda025cfa2c601",
+    "bundled": false
+  },
+  {
+    "id": "qair",
+    "url": "https://commons.wikimedia.org/wiki/File:Qiantang_River_Bridge_DJI_0579.jpg",
+    "localPath": "<TEMP>/qiantang-bridges-research/qair.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 123669,
+    "sha256": "817531ad7552b8518e37f6712b221631479eea678ab009d2954b8c1b104867ce",
+    "bundled": false
+  },
+  {
+    "id": "f1",
+    "url": "https://commons.wikimedia.org/wiki/File:Fourth_Qiantang_River_Bridge_1.JPG",
+    "localPath": "<TEMP>/qiantang-bridges-research/f1.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 116502,
+    "sha256": "cb841698f113f886ec6ac6430ceea7344709e70c0799b143ee8c34321726efac",
+    "bundled": false
+  },
+  {
+    "id": "f7",
+    "url": "https://commons.wikimedia.org/wiki/File:Fourth_Qiantang_River_Bridge_7.JPG",
+    "localPath": "<TEMP>/qiantang-bridges-research/f7.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 113717,
+    "sha256": "64f48e5ee2d6596017b977da9b21aec7dd137adfef6cd7f8607b43a2197e6b82",
+    "bundled": false
+  },
+  {
+    "id": "zair",
+    "url": "https://commons.wikimedia.org/wiki/File:Zhijiang_Bridge.jpg",
+    "localPath": "<TEMP>/qiantang-bridges-research/zair.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 101076,
+    "sha256": "c725cf51d5ebddab2ec961d64574b03990061e83a53d2481a0a71c7911d6dc73",
+    "bundled": false
+  },
+  {
+    "id": "fgovphoto",
+    "url": "https://www.hzzx.gov.cn/zxyw/images/2026-09/20/d0f99700-c9ca-48bd-a567-2b027c6d98a8.jpeg",
+    "localPath": "<TEMP>/qiantang-bridges-research/fgovphoto.jpg",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 241358,
+    "sha256": "a5b22a5c0be9df4ca1425cee36fcc1496f20f9a67648cd4c25a8d43359b49360",
+    "bundled": false
+  },
+  {
+    "id": "zgovpdf",
+    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2945/site/attach/0/8fdbde324604498091b2e7acad4f172d.pdf",
+    "localPath": "<TEMP>/qiantang-bridges-research/zgovpdf.pdf",
+    "returncode": 0,
+    "httpStatus": "403",
+    "bytes": 398,
+    "sha256": "4bb88a2c8f66ef1af1763d11b8861ecb493e269e613ec2889fcb3b9a2130eede",
+    "bundled": false
+  },
+  {
+    "id": "zenvpdf",
+    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/9f63726a2fe54a2990ee37d8ff31b7f8.pdf",
+    "localPath": "<TEMP>/qiantang-bridges-research/zenvpdf.pdf",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 2597553,
+    "sha256": "3e3c753e374659b2856cbc5e2af4d796efb0308136d8e6708f65e2965530721a",
+    "bundled": false
+  }
+]

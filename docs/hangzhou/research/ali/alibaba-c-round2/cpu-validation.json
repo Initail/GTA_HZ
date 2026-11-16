@@ -1,0 +1,285 @@
+{
+  "checkedAt": "2026-10-13",
+  "scope": "CPU/source candidate checks only; not actual GLB/GPU/terrain/driving/visual validation",
+  "sourceModule": "scripts/landmarks/alibaba_c.py",
+  "sourceModuleSha256": "b2262ce67a979fb8005f3666462d9b427443110dd2f4f3fb0a8e253930b8d1cc",
+  "specSha256": "21ea6d00a07552a87fb24c9762c47984a9b8470ae0a43d0c3d61c3b01c23c0dd",
+  "evidenceSha256": "a8cda475e4c0628a07bb790fe3d0617cb03ebd3a7d13fab67b89cebe43481dd6",
+  "checks": {
+    "eightExactExclusionFootprints": true,
+    "allOuterInnerSourceCornersRetained": true,
+    "fixedGeofabrikAndAuxiliaryHashes": true,
+    "finiteGeometry": true,
+    "triangleMaterialBudget": true,
+    "singleScaleGameHeightAndOffsetProjection": true,
+    "frameRestoredOnSuccessAndError": true,
+    "sixAtriumCollisionAndOpaqueRoofVoids": true,
+    "concaveVisitorNotchAndPlanArea": true,
+    "elevatedBridgeAndMediaRoofUnderpasses": true,
+    "noWholeCampusCollider": true,
+    "individualEstimatedHeights": true,
+    "noSceneImportExportOrPhotoTextures": true
+  },
+  "report": {
+    "id": "alibaba-c",
+    "scope": "Finite source-bound exterior candidate: C1–C6, visitor, inter-unit bridges and south Media/Ali Roof; no full campus completion claim",
+    "officeCount": 6,
+    "visitorCount": 1,
+    "sourceAtriumCount": 6,
+    "bridgeCount": 6,
+    "mediaRoofSupportCount": 32,
+    "generatedFaces": 8111,
+    "triangleCountBeforeExport": 16179,
+    "materials": [
+      "concrete",
+      "darkglass",
+      "landmarkglass",
+      "roof",
+      "silver",
+      "steel"
+    ],
+    "partTriangles": {
+      "C6-facade-and-roof": 1972,
+      "C5-facade-and-roof": 1984,
+      "C4-facade-and-roof": 2210,
+      "C3-facade-and-roof": 2548,
+      "C2-facade-and-roof": 2356,
+      "C1-facade-and-roof": 2132,
+      "访客中心-facade-and-roof": 2417,
+      "visitor-estimated-arrival-accent": 4,
+      "exchange-C6-C5": 24,
+      "exchange-C5-C4": 24,
+      "exchange-C4-C3": 24,
+      "exchange-C3-C2": 24,
+      "exchange-C2-C1": 24,
+      "exchange-C1-访客中心": 24,
+      "south-media-roof": 412
+    },
+    "heightEstimatesM": {
+      "C6": {
+        "value": 54,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 12,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 10 candidate courses, not verified storeys"
+      },
+      "C5": {
+        "value": 59.2,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 12,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 11 candidate courses, not verified storeys"
+      },
+      "C4": {
+        "value": 64.4,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 11,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 12 candidate courses, not verified storeys"
+      },
+      "C3": {
+        "value": 80,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 8,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 15 candidate courses, not verified storeys"
+      },
+      "C2": {
+        "value": 74.8,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 11,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 14 candidate courses, not verified storeys"
+      },
+      "C1": {
+        "value": 64.4,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 12,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 12 candidate courses, not verified storeys"
+      },
+      "访客中心": {
+        "value": 38.4,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 10,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 7 candidate courses, not verified storeys"
+      }
+    },
+    "sourceFootprintIds": [
+      "relation/18754982",
+      "relation/18754983",
+      "relation/18754984",
+      "relation/18754985",
+      "relation/18754986",
+      "relation/18754987",
+      "way/1363020716",
+      "way/1363020718"
+    ],
+    "photoTextures": 0,
+    "newLights": 0,
+    "geographyCityId": "hangzhou",
+    "projectionOriginWGS84": [
+      120.155,
+      30.274
+    ],
+    "pendingSubscopes": [
+      "逐栋竣工高度/层数与屋顶机械设备测绘；C3=80m仅为候选归属，不是逐栋reported",
+      "全侧立面及方案图到竣工状态差异；入口门洞准确落位、安检与可交互内部",
+      "多层景观基座/地下室地形标高与地面道路衔接；Exchange Ring全路径及可通行性",
+      "中央湖面必须由基础water管线接入；环形景观雨棚及树木家具另立范围",
+      "真实字牌字形、安装位置与许可；夜景照明事实",
+      "基础楼体/近景立面排除、GLB导出、当前资产碰撞/导航、昼夜实机三视角与性能"
+    ]
+  },
+  "collisionPolygonCount": 116,
+  "planAreaChecks": [
+    {
+      "label": "C6",
+      "sourcePlanAreaM2": 6804.02496314832,
+      "collisionBandAreaM2": 6804.024963148317
+    },
+    {
+      "label": "C5",
+      "sourcePlanAreaM2": 6804.808324177297,
+      "collisionBandAreaM2": 6804.8083241772965
+    },
+    {
+      "label": "C4",
+      "sourcePlanAreaM2": 6191.489596210071,
+      "collisionBandAreaM2": 6191.4895962100745
+    },
+    {
+      "label": "C3",
+      "sourcePlanAreaM2": 5995.849765226858,
+      "collisionBandAreaM2": 5995.84976522686
+    },
+    {
+      "label": "C2",
+      "sourcePlanAreaM2": 6407.266573826538,
+      "collisionBandAreaM2": 6407.266573826536
+    },
+    {
+      "label": "C1",
+      "sourcePlanAreaM2": 6803.949389704363,
+      "collisionBandAreaM2": 6803.949389704362
+    },
+    {
+      "label": "访客中心",
+      "sourcePlanAreaM2": 8985.259783190817,
+      "collisionBandAreaM2": 8985.25978319082
+    }
+  ],
+  "probes": [
+    {
+      "kind": "atrium-void",
+      "label": "C6",
+      "game": [
+        7.318946194700217,
+        -194.82541032715466
+      ]
+    },
+    {
+      "kind": "atrium-void",
+      "label": "C5",
+      "game": [
+        -11.253461090085437,
+        -130.94180480478332
+      ]
+    },
+    {
+      "kind": "atrium-void",
+      "label": "C4",
+      "game": [
+        -31.199891667578385,
+        -69.05695231047206
+      ]
+    },
+    {
+      "kind": "atrium-void",
+      "label": "C3",
+      "game": [
+        56.350794211215586,
+        -8.701927425265438
+      ]
+    },
+    {
+      "kind": "atrium-void",
+      "label": "C2",
+      "game": [
+        145.82973126636517,
+        18.21306135567987
+      ]
+    },
+    {
+      "kind": "atrium-void",
+      "label": "C1",
+      "game": [
+        165.00832529819888,
+        -44.67948193318293
+      ]
+    },
+    {
+      "kind": "visitor-mapped-notch",
+      "game": [
+        197.41535744950835,
+        -95.6495798084664
+      ]
+    },
+    {
+      "kind": "bridge-underpass",
+      "link": "C6-C5",
+      "game": [
+        -3.6368419580420266,
+        -165.2077034916103
+      ]
+    },
+    {
+      "kind": "bridge-underpass",
+      "link": "C5-C4",
+      "game": [
+        -22.968382375384294,
+        -102.34763798134699
+      ]
+    },
+    {
+      "kind": "bridge-underpass",
+      "link": "C4-C3",
+      "game": [
+        11.96318828762908,
+        -42.86022078308742
+      ]
+    },
+    {
+      "kind": "bridge-underpass",
+      "link": "C3-C2",
+      "game": [
+        102.90200912880285,
+        1.2644912831333386
+      ]
+    },
+    {
+      "kind": "bridge-underpass",
+      "link": "C2-C1",
+      "game": [
+        158.76287769599418,
+        -15.181880162085648
+      ]
+    },
+    {
+      "kind": "bridge-underpass",
+      "link": "C1-访客中心",
+      "game": [
+        191.2935932903818,
+        -74.88925596353381
+      ]
+    }
+  ],
+  "limitations": [
+    "finite CPU probes do not prove all collision/door/navigation paths",
+    "source OSM layer2 is not physical deck elevation",
+    "ground datum and multilevel podium remain unmeasured",
+    "scheme roof/link/facade abstractions need actual GLB three-view visual checks",
+    "no FPS, GLB bytes or GPU material result"
+  ]
+}

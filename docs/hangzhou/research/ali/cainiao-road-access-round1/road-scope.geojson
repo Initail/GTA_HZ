@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "source": {
+    "sourceUrl": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+    "sourcePage": "https://download.geofabrik.de/asia/china/zhejiang.html",
+    "downloadedAtUTC": "2026-10-12T10:09:47.554885+00:00",
+    "snapshot": "261011",
+    "sourceLastModified": "Mon, 12 Oct 2026 01:02:05 GMT",
+    "osmReplicationTimestamp": "2026-10-11T20:21:06Z",
+    "generator": "osmium/1.16.0",
+    "bytes": 90463400,
+    "md5": "1f2a11bd2fe688ef55633a1a87b91c34",
+    "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+    "checksumVerified": true,
+    "crs": "EPSG:4326",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "licenseUrl": "https://www.openstreetmap.org/copyright",
+    "bboxWGS84": [
+      119.93,
+      30.16,
+      120.3,
+      30.34
+    ],
+    "status": "source-verified"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "yunlian-northbound-fengxin-junction-inclusive",
+      "properties": {
+        "id": "yunlian-northbound-fengxin-junction-inclusive",
+        "osmWay": 1350297693,
+        "sourceVersion": 6,
+        "sourceTimestamp": "2026-07-13 11:46:38+00:00",
+        "sourceNodeIds": [
+          13037359845,
+          13037359823,
+          14008463189,
+          13449607094
+        ],
+        "sourceTags": {
+          "access": "no",
+          "highway": "secondary",
+          "name": "云联路",
+          "oneway": "yes"
+        },
+        "sourceSliceInclusive": [
+          13037359845,
+          13449607094
+        ],
+        "wholeWay": false,
+        "lengthMetresMeasured": 218.078,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "official-2023-road-scope",
+        "recommendation": "eligible-scoped-derived-access",
+        "claimSourceIds": [
+          "gov-2023-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9581142,
+            30.2627367
+          ],
+          [
+            119.958114,
+            30.2628527
+          ],
+          [
+            119.9581121,
+            30.2645907
+          ],
+          [
+            119.958112,
+            30.2647039
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yunlian-northbound-bridge",
+      "properties": {
+        "id": "yunlian-northbound-bridge",
+        "osmWay": 1466397037,
+        "sourceVersion": 1,
+        "sourceTimestamp": "2026-01-12 08:19:05+00:00",
+        "sourceNodeIds": [
+          13449607094,
+          13449607093
+        ],
+        "sourceTags": {
+          "access": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "name": "云联路",
+          "oneway": "yes"
+        },
+        "sourceSliceInclusive": [
+          13449607094,
+          13449607093
+        ],
+        "wholeWay": true,
+        "lengthMetresMeasured": 40.795,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "official-2023-road-scope",
+        "recommendation": "eligible-scoped-derived-access",
+        "claimSourceIds": [
+          "gov-2023-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.958112,
+            30.2647039
+          ],
+          [
+            119.9581111,
+            30.2650719
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yunlian-northbound-north",
+      "properties": {
+        "id": "yunlian-northbound-north",
+        "osmWay": 1466397036,
+        "sourceVersion": 1,
+        "sourceTimestamp": "2026-01-12 08:19:05+00:00",
+        "sourceNodeIds": [
+          13449607093,
+          13037359844,
+          13037359843,
+          13037359842
+        ],
+        "sourceTags": {
+          "access": "no",
+          "highway": "secondary",
+          "name": "云联路",
+          "oneway": "yes"
+        },
+        "sourceSliceInclusive": [
+          13449607093,
+          13037359842
+        ],
+        "wholeWay": true,
+        "lengthMetresMeasured": 302.303,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "official-2023-road-scope",
+        "recommendation": "eligible-scoped-derived-access",
+        "claimSourceIds": [
+          "gov-2023-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9581111,
+            30.2650719
+          ],
+          [
+            119.9581136,
+            30.2661597
+          ],
+          [
+            119.958097,
+            30.2677241
+          ],
+          [
+            119.958097,
+            30.2677988
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yunlian-southbound-north",
+      "properties": {
+        "id": "yunlian-southbound-north",
+        "osmWay": 1466397038,
+        "sourceVersion": 2,
+        "sourceTimestamp": "2026-07-13 11:46:38+00:00",
+        "sourceNodeIds": [
+          7276172378,
+          13449607169,
+          7276172384,
+          13449607095
+        ],
+        "sourceTags": {
+          "access": "no",
+          "highway": "secondary",
+          "name": "云联路",
+          "oneway": "yes"
+        },
+        "sourceSliceInclusive": [
+          7276172378,
+          13449607095
+        ],
+        "wholeWay": true,
+        "lengthMetresMeasured": 291.117,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "official-2023-road-scope",
+        "recommendation": "eligible-scoped-derived-access",
+        "claimSourceIds": [
+          "gov-2023-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9579317,
+            30.2677643
+          ],
+          [
+            119.9579456,
+            30.2663515
+          ],
+          [
+            119.9579472,
+            30.2661854
+          ],
+          [
+            119.9579494,
+            30.2651383
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yunlian-southbound-bridge",
+      "properties": {
+        "id": "yunlian-southbound-bridge",
+        "osmWay": 1466397039,
+        "sourceVersion": 1,
+        "sourceTimestamp": "2026-01-12 08:19:05+00:00",
+        "sourceNodeIds": [
+          13449607095,
+          13449607096
+        ],
+        "sourceTags": {
+          "access": "no",
+          "bridge": "yes",
+          "highway": "secondary",
+          "layer": "1",
+          "name": "云联路",
+          "oneway": "yes"
+        },
+        "sourceSliceInclusive": [
+          13449607095,
+          13449607096
+        ],
+        "wholeWay": true,
+        "lengthMetresMeasured": 38.867,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "official-2023-road-scope",
+        "recommendation": "eligible-scoped-derived-access",
+        "claimSourceIds": [
+          "gov-2023-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9579494,
+            30.2651383
+          ],
+          [
+            119.9579514,
+            30.2647877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yunlian-southbound-fengxin-junction-inclusive",
+      "properties": {
+        "id": "yunlian-southbound-fengxin-junction-inclusive",
+        "osmWay": 779247992,
+        "sourceVersion": 6,
+        "sourceTimestamp": "2026-01-12 08:19:05+00:00",
+        "sourceNodeIds": [
+          13449607096,
+          7276172379,
+          13037359824,
+          7276172380
+        ],
+        "sourceTags": {
+          "access": "no",
+          "highway": "secondary",
+          "name": "云联路",
+          "oneway": "yes"
+        },
+        "sourceSliceInclusive": [
+          13449607096,
+          7276172380
+        ],
+        "wholeWay": false,
+        "lengthMetresMeasured": 227.634,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "official-2023-road-scope",
+        "recommendation": "eligible-scoped-derived-access",
+        "claimSourceIds": [
+          "gov-2023-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9579514,
+            30.2647877
+          ],
+          [
+            119.9579556,
+            30.2630141
+          ],
+          [
+            119.9579561,
+            30.2628574
+          ],
+          [
+            119.9579564,
+            30.2627343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cainiao-north-yunlian-to-shuyun-junction-inclusive",
+      "properties": {
+        "id": "cainiao-north-yunlian-to-shuyun-junction-inclusive",
+        "osmWay": 779247995,
+        "sourceVersion": 6,
+        "sourceTimestamp": "2026-07-13 11:46:38+00:00",
+        "sourceNodeIds": [
+          13037359844,
+          13429837945,
+          14008463188,
+          13429837948,
+          7276175685,
+          13429837942
+        ],
+        "sourceTags": {
+          "access": "no",
+          "highway": "tertiary",
+          "name": "菜鸟北路"
+        },
+        "sourceSliceInclusive": [
+          13037359844,
+          13429837942
+        ],
+        "wholeWay": true,
+        "lengthMetresMeasured": 516.839,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "official-2023-road-scope",
+        "recommendation": "eligible-scoped-derived-access",
+        "claimSourceIds": [
+          "gov-2023-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9581136,
+            30.2661597
+          ],
+          [
+            119.9611147,
+            30.26616
+          ],
+          [
+            119.9613117,
+            30.2661601
+          ],
+          [
+            119.9614074,
+            30.2661601
+          ],
+          [
+            119.9631927,
+            30.2661603
+          ],
+          [
+            119.9634846,
+            30.2661605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yunlian-2026-north-extension-mapped-centerline-only",
+      "properties": {
+        "id": "yunlian-2026-north-extension-mapped-centerline-only",
+        "osmWay": 1228913715,
+        "sourceVersion": 3,
+        "sourceTimestamp": "2026-07-13 11:46:38+00:00",
+        "sourceNodeIds": [
+          1185806164,
+          7276172378
+        ],
+        "sourceTags": {
+          "access": "no",
+          "highway": "construction",
+          "name": "云联路"
+        },
+        "sourceSliceInclusive": [
+          1185806164,
+          7276172378
+        ],
+        "wholeWay": true,
+        "lengthMetresMeasured": 337.339,
+        "measurement": "WGS84 ECEF to local ENU at [119.960,30.266], sum of source centerline segments; OSM mapping not survey; no game scale applied",
+        "role": "reported-2026-opening-unresolved-current-geometry",
+        "recommendation": "hold-physical-reconstruction-and-current-primary-notice",
+        "claimSourceIds": [
+          "official-weibo-index-2026",
+          "zjol-2026-opening"
+        ],
+        "preserveTags": [
+          "oneway",
+          "bridge",
+          "layer",
+          "tunnel"
+        ],
+        "runtimeModified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9578012,
+            30.2708052
+          ],
+          [
+            119.9579317,
+            30.2677643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "out-of-scope-south-0",
+      "properties": {
+        "osmWay": 1350297693,
+        "sourceNodeIds": [
+          9575340391,
+          9575340397,
+          13329858081,
+          13329858084,
+          13329858082,
+          12491282621,
+          13037359845
+        ],
+        "reason": "凤新路南侧，超出2023公告；共享边界节点保留，不沿经纬度或路名整way开放。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9580697,
+            30.2594079
+          ],
+          [
+            119.9581155,
+            30.2597946
+          ],
+          [
+            119.9580924,
+            30.2601187
+          ],
+          [
+            119.9580926,
+            30.261109
+          ],
+          [
+            119.9580932,
+            30.2615687
+          ],
+          [
+            119.9581245,
+            30.2625201
+          ],
+          [
+            119.9581142,
+            30.2627367
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "out-of-scope-south-1",
+      "properties": {
+        "osmWay": 779247992,
+        "sourceNodeIds": [
+          7276172380,
+          12491282622,
+          12491282626,
+          8973495760,
+          13329858083,
+          13329858093,
+          8973495747
+        ],
+        "reason": "凤新路南侧，超出2023公告；共享边界节点保留，不沿经纬度或路名整way开放。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.9579564,
+            30.2627343
+          ],
+          [
+            119.9579622,
+            30.2625574
+          ],
+          [
+            119.9579729,
+            30.2612751
+          ],
+          [
+            119.9579654,
+            30.2611116
+          ],
+          [
+            119.9579522,
+            30.2599467
+          ],
+          [
+            119.9579234,
+            30.2597641
+          ],
+          [
+            119.9578714,
+            30.2594355
+          ]
+        ]
+      }
+    }
+  ]
+}

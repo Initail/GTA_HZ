@@ -1,0 +1,10 @@
+test('source walking chain has continuous full-body support from public road to dock',()=>{
+ const midpoint=(a:number[],b:number[])=>[(a[0]+b[0])/2,(a[1]+b[1])/2];const ps:number[][]=[site.arrival.point];
+ for(const f of site.floors){const t=f.triangles;ps.push(midpoint(t[0][0],t[0][1]),f.id==='leisure:marina-deck'?[site.dock.land.x,site.dock.land.z]:midpoint(t[0][2],t[1][2]));}
+ hint={id:null,height:terrain(...ps[0] as [number,number])};let previous=hint.height;
+ for(let j=1;j<ps.length;j++){const a=ps[j-1],b=ps[j],n=Math.max(1,Math.ceil(Math.hypot(b[0]-a[0],b[1]-a[1])/.15));for(let i=1;i<=n;i++){
+  const x=a[0]+(b[0]-a[0])*i/n,z=a[1]+(b[1]-a[1])*i/n;const f=floor(x,z);hint=f;
+  assert.ok(Math.abs(f.height-previous)<.48,`step at ${x},${z}: ${previous} -> ${f.height}`);previous=f.height;
+  assert.ok(walk.clear(x,z),`blocked at ${x},${z} floor ${f.id}`);
+ }}
+});

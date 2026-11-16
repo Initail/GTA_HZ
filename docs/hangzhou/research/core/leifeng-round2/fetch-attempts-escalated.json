@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/381.jpg",
+    "path": "<TEMP>/leifeng-research/381.jpg",
+    "bytes": 21772,
+    "sha256": "7c31fddf6f1f1525c8f6866b8f8e408093fb60795cf50dfb29c98cf7f09c7717",
+    "status": "downloaded-reference-cache-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/390.jpg",
+    "path": "<TEMP>/leifeng-research/390.jpg",
+    "bytes": 43400,
+    "sha256": "27b67aff51ac323814da08650fd7a9b00cbce4e997714feeb7b7d9e0568ce1a2",
+    "status": "downloaded-reference-cache-only"
+  },
+  {
+    "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+    "path": "<TEMP>/leifeng-research/newsDetail_forward_9592382.html",
+    "bytes": 54403,
+    "sha256": "61491fe1f60e3cf360c390914d68d9ef994731ccdeea92357da0628eedd13b8c",
+    "status": "downloaded-reference-cache-only"
+  }
+]

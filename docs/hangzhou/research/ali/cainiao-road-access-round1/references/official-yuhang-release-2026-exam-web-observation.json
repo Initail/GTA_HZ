@@ -1,0 +1,24 @@
+{
+  "id": "official-yuhang-release-2026-exam",
+  "sourceUrl": "https://m.thepaper.cn/baijiahao_33300540",
+  "publisher": "余杭发布政务号（供稿包括区公安分局交管大队）",
+  "title": "余杭高考考点出炉！周边将临时交通管理",
+  "publishedAt": "2026-06-03T17:27:00+08:00",
+  "signedBy": "杭州市公安局余杭区分局交通管理大队",
+  "signedDate": "2026-06-03",
+  "observedOn": "2026-10-16",
+  "accessMethod": "web tool directly opened and parsed complete article; direct urllib HTML archive failed",
+  "facts": {
+    "examDates": "2026-06-07..2026-06-10",
+    "yunlian": "菜鸟北路—文一西路，规定时段禁止货车、机动车禁鸣；未列为所有机动车禁行路段",
+    "wener": "智溢路—云联路，规定时段禁止一切机动车通行",
+    "times": [
+      "06-07 08:00–12:00,14:00–17:30",
+      "06-08 08:00–11:00,14:00–17:30",
+      "06-09..10 07:00–12:30,14:00–17:00"
+    ],
+    "ending": "具体结束时间以现场管控措施为准"
+  },
+  "limitations": "Event-limited notice, not permanent access restriction; do not extrapolate to2026-10-16 or universal vehicle entry. It corroborates intended normal traffic on Yunlian north extension but does not survey geometry.",
+  "rawHtmlArchived": false
+}

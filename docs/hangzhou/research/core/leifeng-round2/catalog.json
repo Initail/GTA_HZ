@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "places": [
+    {
+      "id": "leifeng-pagoda",
+      "name": "雷峰塔（现雷峰新塔）",
+      "kind": "building",
+      "scope": "Source-bound finite exterior candidate: mapped octagonal protection base, five-storey body, five main roofs, four waist roofs and finial; full site, exact entrances, interior and runtime validation pending.",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": [
+          120.14501471758403,
+          30.23388616474085
+        ],
+        "status": "confirmed",
+        "sourceIds": [
+          "osm-geofabrik"
+        ]
+      },
+      "sources": [
+        {
+          "id": "osm-geofabrik",
+          "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+          "publisher": "OpenStreetMap contributors / Geofabrik",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2026-10-11T20:21:06Z",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+          "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+          "use": "Mapped octagonal exterior base and south access line; height/alias tags not adopted"
+        },
+        {
+          "id": "wgly-leifeng",
+          "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+          "publisher": "杭州市文化广电旅游局",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2022-12-01",
+          "status": "available-indexed",
+          "license": "unknown; reference only",
+          "use": "identity and approximate 71m height; erroneous five-faces/eight-storeys wording retained as conflict",
+          "accessMethod": "web search-index text; direct fetch 403"
+        },
+        {
+          "id": "tsinghua-leifeng",
+          "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+          "publisher": "人文清华讲坛，黄薏橦 / 澎湃号平台",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2020-10-17",
+          "status": "available",
+          "license": "unknown; reference only; no photo textures bundled",
+          "use": "designer account: octagonal five-storey form, 9.7m heritage cover, 48m max column-grid span, copper over modern steel; 381/390 images actually reviewed"
+        },
+        {
+          "id": "thupdi-design",
+          "url": "https://www.thupdi.com/project/view?id=1782",
+          "publisher": "清华同衡 / 建筑与城市遗产研究所清华大学建筑设计研究院有限公司",
+          "accessedAt": "2026-10-13",
+          "sourceDate": null,
+          "status": "available",
+          "license": "unknown; reference only; no photo textures bundled",
+          "use": "designer project identity, south-front real exterior and lake-side real exterior, section drawing; source images in 2013/07 path, capture date not known",
+          "accessMethod": "direct public HTML and linked image reads; web page tool timed out"
+        }
+      ],
+      "researchEvidence": "docs/hangzhou/research/core/leifeng-round2/evidence.json"
+    }
+  ]
+}

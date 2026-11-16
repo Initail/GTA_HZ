@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-b",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/alibaba-b-v2/alibaba-b.glb",
+  "sourceModule": "scripts/landmarks/alibaba_b.py",
+  "sha256": "2069a41a15beea1d8b12e03ce53438901ca5cf44a488ee4e7e577e3fb16b3869",
+  "sourceModuleSha256": "6c7295850eb698cf17683dda1ef311d1f2d1fd7932006ed15ec60e245641389d",
+  "artifactMeshPrefix": "detail_alibaba-b_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "individual heights/courses, ground recess and columns, facade sampling and warmgold tone, roof terrace/equipment placement, hex/triangle lowgreen roof count, visitor arrivalaccent"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/ali/alibaba-b-round2/task/alibaba-b/job.json --spec docs/hangzhou/research/ali/alibaba-b-round2/spec.json --module scripts/landmarks/alibaba_b.py --output artifacts/cities/hangzhou/landmarks/alibaba-b-v2 --palette data/hangzhou/material-palettes.json",
+  "status": "model-exported-not-verified",
+  "cpuBuildCommand": "python3 -B docs/hangzhou/research/ali/alibaba-b-round2/check_candidate.py",
+  "cpuValidationPath": "docs/hangzhou/research/ali/alibaba-b-round2/cpu-validation.json",
+  "cpuValidationSha256": "f689f4a8cbd3664d6c17ce9831427f78fcf3d002727e20103abe501bd665784a",
+  "sourceSpec": "docs/hangzhou/research/ali/alibaba-b-round2/spec.json",
+  "sourceSpecSha256": "13b5e859b1617d1c1ffeeaaf6eaef64253a0ee37c8aad029d30453bed4d28ebe",
+  "cpuTriangleCount": 14862,
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "sourceInputs": [
+    {
+      "path": "docs/hangzhou/audit/city-config-hangzhou-7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9.json",
+      "sha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9"
+    },
+    {
+      "path": "data/hangzhou/material-palettes.json",
+      "sha256": "a36da19cef1cdc024dcb25fcb585d2a8e0d0a9f17c57fbfd9af7d50d291c1775",
+      "basis": "Authored PBR look from referenced photos; colors/roughness/metallicity estimated, no photo textures or calibrated reflectance claim"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/alibaba-b-build-v2.log",
+    "sha256": "aaea7a73d8f863e5771268a8228aa89cba346f5ecd9e6758322472d8048f26da"
+  },
+  "modelDeliverySha256": "ead9609a5472914149686489b98d1b3cfb21d0237ea204c5f7f215a60c177f81",
+  "glbStats": {
+    "triangles": 14862,
+    "materials": 7,
+    "bytes": 1061408,
+    "selectedMeshes": 7,
+    "meshNamePrefix": "detail_alibaba-b_",
+    "wholeFileTriangles": 14862,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

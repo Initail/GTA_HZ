@@ -1,0 +1,81 @@
+{
+  "id": "leifeng-site",
+  "triangleCountBeforeExport": 1279,
+  "faceCountBeforeExport": 1119,
+  "materials": [
+    "concrete",
+    "land",
+    "landmarkglass",
+    "pavement",
+    "rubber",
+    "silver",
+    "steel"
+  ],
+  "candidateWaterPlanes": 0,
+  "lightCount": 0,
+  "baseBuildingIdsToExclude": [],
+  "staticApproach": {
+    "sourceWayId": "way/340652169",
+    "planLengthM": 48.34707465962417,
+    "staticBeltCount": 2,
+    "flankingFlights": 2,
+    "treadCountPerFlightEstimate": 29,
+    "heightDifferenceEstimatedM": 5.305641217416039,
+    "animationImplemented": false,
+    "actualEscalatorSlopeAndTreadCount": "pending"
+  },
+  "towerPlacement": {
+    "id": "leifeng-pagoda",
+    "lon": 120.14501471758403,
+    "lat": 30.23388616474085,
+    "x": -576.4710347609545,
+    "z": -2668.141420883383,
+    "y": 21.454824446162398,
+    "status": "estimated-placement-not-finishedfloor",
+    "sourceHeightEgm2008M": 32.92470741027066,
+    "errorGame": 7.199999999999999,
+    "entranceAccepted": false
+  },
+  "sourcePathCount": 6,
+  "sourceEntranceGapM": 14.115757308842218,
+  "groundFootprints": [],
+  "terrainStatus": "estimated GLO30-v3 park/shore-clipped original triangles, no source-resolution improvement",
+  "collisionAndSafeArrivalAccepted": false,
+  "pending": [
+    "source mainlift uppernode-to-towerfootprint gap has no source connection or surveyed gate/door",
+    "frozen originalbase walls/ground collision envelope do not expose entrance; externalsite cannot make throughwall traversal valid",
+    "actualground/plaza/stair/escalatorfinishedlevels and water/shore collision datum not surveyed; DSM estimated ±12m",
+    "no currentoperatorentrance map/current all-direction closephotos obtained; whole plaza/internal elevator/access not complete"
+  ],
+  "accuracyClaim": "finite estimated hill/site/externalapproach candidate; full plaza/gate/door/interior and actual arrival remain blocked",
+  "checks": {
+    "cpuBudget": true,
+    "nondegenerateFiniteGeometry": true,
+    "onceScaleAndGameVerticalDatum": true,
+    "sourceShiftCompensation": true,
+    "frameRestoredSuccessAndFailure": true,
+    "sourceLandWaterDryClipping": true,
+    "sourceOnlyWalkQueryAndEstimatedOptIn": true,
+    "sourceEntranceGapNotJoined": true,
+    "towerModuleAndSpecUntouched": true,
+    "bridge15ProfilesReadonlyRechecked": true,
+    "noWaterAndNoSceneImports": true
+  },
+  "sourceModuleSha256": "07e6e33d77e9760616c10b8a5b4c718f609188a67e65ca7ee85acb326ac4e2ed",
+  "specSha256": "35ddbb65696edc2d3f8067ab47daeb901cd3654c675df695d0dcb1e8dc21d11e",
+  "minimumTriangleCrossAreaGame": 2.948011368872623e-05,
+  "sourceDryTerrainAreaM2": 202965.54571411858,
+  "boundsGameENU": {
+    "min": [
+      -816.596168832119,
+      -2816.552307988964,
+      7.6034483336775365
+    ],
+    "max": [
+      -377.33681695075893,
+      -2528.1713056954113,
+      23.034645843505857
+    ]
+  },
+  "validationScope": "CPU geometry/source masks/counts/queries only; mathematical dry mask is not proof of no-waterfalls/entrance/collision/actors/Blender/GLB/browser/visual/performance acceptance."
+}

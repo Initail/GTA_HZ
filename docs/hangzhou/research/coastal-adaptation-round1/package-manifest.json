@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/README.md",
+      "sha256": "da2a2a0b66f3e7ff60281d04b93ddabb77e3411b5ce24e2eb28e8a4fd630a4ac",
+      "bytes": 8558
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/audit.py",
+      "sha256": "c6e220452956cbaa9a60796a35046f96f95b2e0c6e65baa8df55d0e26c7b4330",
+      "bytes": 7284
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/contract.json",
+      "sha256": "8b7d855f9bc729af21326eba6034f7911ac6f6bc153dde696d46954c7749ab18",
+      "bytes": 7089
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/crosswater-audit.json",
+      "sha256": "ccaeef9e08a507b176133b3e8328f58013433edd40fe9610ed209398df8c52e7",
+      "bytes": 1506107
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/input-bindings.json",
+      "sha256": "6d927bda9d77ac53ebd5cd3f3d9251aadaf87e4b0ba5b8b2446c95c1758e117c",
+      "bytes": 1982
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/lighting-shore-audit.json",
+      "sha256": "5b611379aeb864919f2d5b03c6a1fbe878c93cc315ef6349b0571555fc36eec4",
+      "bytes": 39991
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/source-bridge-context.json",
+      "sha256": "f0bcf8095f6140f609ee2460dd96096321fed876550caa24ff912a4384955658",
+      "bytes": 24826
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/validation.json",
+      "sha256": "e0685c969e59b2ddc5e5c2d679fde9a9de037b315f7152a5599a9459f25b3b1f",
+      "bytes": 461
+    }
+  ]
+}

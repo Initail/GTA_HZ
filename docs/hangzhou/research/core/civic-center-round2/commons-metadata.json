@@ -1,0 +1,221 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "158983336": {
+        "pageid": 158983336,
+        "ns": 6,
+        "title": "File:Hangzhou Citizen's Centre 20231205163814.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hangzhou_Citizen%27s_Centre_20231205163814.jpg/1920px-Hangzhou_Citizen%27s_Centre_20231205163814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1400,
+            "thumbheight": 1049,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hangzhou_Citizen%27s_Centre_20231205163814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hangzhou_Citizen%27s_Centre_20231205163814.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=158983336",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Hangzhou Citizen's Centre 20231205163814",
+                "source": "mediawiki-metadata"
+              },
+              "GPSLatitude": {
+                "value": "30.248786",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "120.202819",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Seen from west to east",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:XiaYZ2023\" title=\"User:XiaYZ2023\">XiaYZ2023</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "168678855": {
+        "pageid": 168678855,
+        "ns": 6,
+        "title": "File:Hangzhou Civic Center map.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Hangzhou_Civic_Center_map.JPG/1920px-Hangzhou_Civic_Center_map.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1400,
+            "thumbheight": 1018,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangzhou_Civic_Center_map.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hangzhou_Civic_Center_map.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168678855",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "Hangzhou Civic Center map",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "Hangzhou citizen center map",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Huandy618\" title=\"User:Huandy618\">Huandy618</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "7824474": {
+        "pageid": 7824474,
+        "ns": 6,
+        "title": "File:杭州市市民中心西大门.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%E8%A5%BF%E5%A4%A7%E9%97%A8.jpg/1920px-%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%E8%A5%BF%E5%A4%A7%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1400,
+            "thumbheight": 1050,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%E8%A5%BF%E5%A4%A7%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%E8%A5%BF%E5%A4%A7%E9%97%A8.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7824474",
+            "extmetadata": {
+              "ObjectName": {
+                "value": "杭州市市民中心西大门",
+                "source": "mediawiki-metadata"
+              },
+              "ImageDescription": {
+                "value": "​于2009.9.12拍摄杭州市市民中心西大门",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "拍摄",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "孙学",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

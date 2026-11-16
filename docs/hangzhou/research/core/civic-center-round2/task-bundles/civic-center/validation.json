@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "placeId": "civic-center",
+  "artifactSha256": null,
+  "evidenceSha256": null,
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and artifact hash plus named integration review; pure CPU report does not grant a visual/runtime or artifact pass."
+    }
+  },
+  "cpuCandidateReport": "docs/hangzhou/research/core/civic-center-round2/cpu-geometry-validation.json"
+}

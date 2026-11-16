@@ -1,0 +1,534 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-12T09:20:35Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1715898828,
+  "lat": 30.1918037,
+  "lon": 120.1854490,
+  "tags": {
+    "man_made": "works",
+    "name": "阿里巴巴集团 Ālǐbābā Jítuán",
+    "name:en": "Alibaba Group",
+    "name:fr": "Groupe Alibaba",
+    "name:zh": "阿里巴巴集团"
+  }
+},
+{
+  "type": "node",
+  "id": 5254121322,
+  "lat": 30.2783766,
+  "lon": 120.0179752,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "海曼大叔(阿里巴巴)",
+    "name:en": "Falco's"
+  }
+},
+{
+  "type": "node",
+  "id": 6045998428,
+  "lat": 30.2910353,
+  "lon": 120.0091871,
+  "tags": {
+    "amenity": "college",
+    "education": "college",
+    "name": "阿里巴巴商学院"
+  }
+},
+{
+  "type": "node",
+  "id": 6069593973,
+  "lat": 30.2824715,
+  "lon": 120.0205793,
+  "tags": {
+    "name": "阿里巴巴集团天猫事业部",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 6089219893,
+  "lat": 30.3207428,
+  "lon": 120.3369674,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "菜鸟驿站",
+    "brand:en": "Cainiao",
+    "brand:wikidata": "Q16947973",
+    "brand:wikipedia": "zh:菜鸟网络",
+    "brand:zh": "菜鸟驿站",
+    "name": "菜鸟驿站",
+    "name:en": "CAI NIAO",
+    "name:zh": "菜鸟驿站"
+  }
+},
+{
+  "type": "node",
+  "id": 6510202185,
+  "lat": 30.2794873,
+  "lon": 120.0182267,
+  "tags": {
+    "addr:housenumber": "969",
+    "addr:street": "文一西路",
+    "name": "阿里巴巴盒马产品技术部",
+    "office": "company",
+    "website": "https://www.freshhema.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6511472386,
+  "lat": 30.2794656,
+  "lon": 120.0195915,
+  "tags": {
+    "historic": "monument",
+    "name": "阿里巴巴标志",
+    "name:en": "Alibaba Logo"
+  }
+},
+{
+  "type": "node",
+  "id": 6511524487,
+  "lat": 30.2831473,
+  "lon": 120.0219533,
+  "tags": {
+    "name": "阿里巴巴西溪园区访客中心",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 6511531585,
+  "lat": 30.2800162,
+  "lon": 120.0195456,
+  "tags": {
+    "addr:housenumber": "969",
+    "addr:street": "文一西路",
+    "name": "阿里巴巴集团董事局办公室",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 6511548090,
+  "lat": 30.2823580,
+  "lon": 120.0216434,
+  "tags": {
+    "name": "阿里巴巴报告厅",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11197015986,
+  "lat": 30.3016529,
+  "lon": 120.0678713,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "菜鸟驿站",
+    "brand:en": "Cainiao",
+    "brand:wikidata": "Q16947973",
+    "brand:zh": "菜鸟驿站",
+    "name": "菜鸟驿站",
+    "name:en": "CAI NIAO",
+    "name:zh": "菜鸟驿站"
+  }
+},
+{
+  "type": "node",
+  "id": 11893496619,
+  "lat": 30.2817777,
+  "lon": 120.0190408,
+  "tags": {
+    "name": "阿里巴巴（中国）网络技术有限公司",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 11989873629,
+  "lat": 30.2853771,
+  "lon": 120.0259809,
+  "tags": {
+    "amenity": "parking_entrance",
+    "motor_vehicle": "yes",
+    "name": "阿里巴巴C区地下车库入口",
+    "parking": "underground"
+  }
+},
+{
+  "type": "node",
+  "id": 12188410698,
+  "lat": 30.2302576,
+  "lon": 120.0353717,
+  "tags": {
+    "amenity": "parcel_locker",
+    "brand": "菜鸟驿站",
+    "brand:en": "Cainiao",
+    "brand:wikidata": "Q16947973",
+    "brand:zh": "菜鸟驿站",
+    "name": "菜鸟驿站",
+    "name:en": "Cainiao",
+    "name:zh": "菜鸟驿站",
+    "operator": "菜鸟驿站"
+  }
+},
+{
+  "type": "node",
+  "id": 12691357678,
+  "lat": 30.2832282,
+  "lon": 120.0193021,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "阿里巴巴西溪园区",
+    "name:zh": "阿里巴巴西溪园区",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12691357679,
+  "lat": 30.2833170,
+  "lon": 120.0192877,
+  "tags": {
+    "bus": "yes",
+    "name": "阿里巴巴西溪园区",
+    "name:zh": "阿里巴巴西溪园区",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12691357680,
+  "lat": 30.2831332,
+  "lon": 120.0176257,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "阿里巴巴西溪园区",
+    "name:zh": "阿里巴巴西溪园区",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12691357681,
+  "lat": 30.2830467,
+  "lon": 120.0176446,
+  "tags": {
+    "bus": "yes",
+    "name": "阿里巴巴西溪园区",
+    "name:zh": "阿里巴巴西溪园区",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13415558610,
+  "lat": 30.2987449,
+  "lon": 120.0734436,
+  "tags": {
+    "amenity": "post_office",
+    "brand": "菜鸟驿站",
+    "brand:en": "Cainiao",
+    "brand:wikidata": "Q16947973",
+    "brand:zh": "菜鸟驿站",
+    "name": "菜鸟驿站",
+    "name:en": "CAI NIAO",
+    "name:zh": "菜鸟驿站"
+  }
+},
+{
+  "type": "way",
+  "id": 159476097,
+  "center": {
+    "lat": 30.1919278,
+    "lon": 120.1858237
+  },
+  "tags": {
+    "building": "yes",
+    "height": "120",
+    "name": "阿里巴巴集团",
+    "name:en": "Alibaba Group",
+    "name:fr": "Groupe Alibaba",
+    "name:zh": "阿里巴巴集团"
+  }
+},
+{
+  "type": "way",
+  "id": 337801219,
+  "center": {
+    "lat": 30.1948900,
+    "lon": 120.1853308
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "阿里巴巴二期",
+    "name:en": "Alibaba Phase 2"
+  }
+},
+{
+  "type": "way",
+  "id": 456958582,
+  "center": {
+    "lat": 30.2827563,
+    "lon": 120.0250715
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "阿里巴巴淘宝城二期"
+  }
+},
+{
+  "type": "way",
+  "id": 544285896,
+  "center": {
+    "lat": 30.2782829,
+    "lon": 120.0226789
+  },
+  "tags": {
+    "alt_name": "阿里巴巴数字生态创新园",
+    "landuse": "commercial",
+    "name": "阿里巴巴西溪B区"
+  }
+},
+{
+  "type": "way",
+  "id": 643657841,
+  "center": {
+    "lat": 30.2787474,
+    "lon": 120.0261687
+  },
+  "tags": {
+    "landuse": "construction",
+    "name": "阿里巴巴西溪七期工地"
+  }
+},
+{
+  "type": "way",
+  "id": 645093961,
+  "center": {
+    "lat": 30.2857516,
+    "lon": 120.0185145
+  },
+  "tags": {
+    "alt_name": "阿里巴巴西溪园区五期",
+    "landuse": "commercial",
+    "name": "阿里巴巴西溪C区"
+  }
+},
+{
+  "type": "way",
+  "id": 645135612,
+  "center": {
+    "lat": 30.2815813,
+    "lon": 120.0212740
+  },
+  "tags": {
+    "addr:housenumber": "969",
+    "addr:street": "文一西路",
+    "landuse": "commercial",
+    "name": "阿里巴巴西溪A区",
+    "name:en": "Alibaba Xixi Campus",
+    "name:zh": "阿里巴巴西溪园区"
+  }
+},
+{
+  "type": "way",
+  "id": 779247995,
+  "center": {
+    "lat": 30.2661601,
+    "lon": 119.9607991
+  },
+  "tags": {
+    "access": "no",
+    "highway": "tertiary",
+    "name": "菜鸟北路"
+  }
+},
+{
+  "type": "way",
+  "id": 824020943,
+  "center": {
+    "lat": 30.3210295,
+    "lon": 120.0331527
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "阿里巴巴云谷园区"
+  }
+},
+{
+  "type": "way",
+  "id": 1089599254,
+  "center": {
+    "lat": 30.3177741,
+    "lon": 120.0354367
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "菜鸟云谷园区（云谷中心）"
+  }
+},
+{
+  "type": "way",
+  "id": 1172935177,
+  "center": {
+    "lat": 30.4021883,
+    "lon": 120.2268636
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "菜鸟网络杭州临平申通园区"
+  }
+},
+{
+  "type": "way",
+  "id": 1172935178,
+  "center": {
+    "lat": 30.4042752,
+    "lon": 120.2301864
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "大成阿里巴巴浙江云计算数据中心"
+  }
+},
+{
+  "type": "way",
+  "id": 1228913717,
+  "center": {
+    "lat": 30.2648072,
+    "lon": 119.9606604
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "菜鸟总部园区"
+  }
+},
+{
+  "type": "way",
+  "id": 1235465991,
+  "center": {
+    "lat": 30.2732194,
+    "lon": 120.0041119
+  },
+  "tags": {
+    "alt_name": "钉钉总部",
+    "landuse": "commercial",
+    "name": "阿里巴巴西溪六期（钉钉总部）"
+  }
+},
+{
+  "type": "way",
+  "id": 1293416973,
+  "center": {
+    "lat": 30.2668694,
+    "lon": 119.9609634
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "菜鸟智谷产业园一期"
+  }
+},
+{
+  "type": "way",
+  "id": 1293548829,
+  "center": {
+    "lat": 30.2653987,
+    "lon": 119.9639703
+  },
+  "tags": {
+    "landuse": "industrial",
+    "name": "菜鸟智谷产业园二期"
+  }
+},
+{
+  "type": "way",
+  "id": 1355173307,
+  "center": {
+    "lat": 30.2648025,
+    "lon": 119.9599997
+  },
+  "tags": {
+    "building": "yes",
+    "name": "菜鸟总部园区"
+  }
+},
+{
+  "type": "relation",
+  "id": 11281860,
+  "center": {
+    "lat": 30.3209911,
+    "lon": 120.0303694
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "6",
+    "name": "阿里巴巴云谷园区1号楼",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 18878540,
+  "center": {
+    "lat": 30.2831818,
+    "lon": 120.0184639
+  },
+  "tags": {
+    "name": "阿里巴巴西溪园区",
+    "name:zh": "阿里巴巴西溪园区",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19435729,
+  "center": {
+    "lat": 30.2837243,
+    "lon": 120.0287869
+  },
+  "tags": {
+    "from": "阿里巴巴西溪园区",
+    "name": "2507路：阿里巴巴西溪园区 -> 广福寺西",
+    "name:zh": "2507路：阿里巴巴西溪园区 -> 广福寺西",
+    "opening_hours": "Mo-Su 07:15-18:45",
+    "public_transport:version": "2",
+    "ref": "2507",
+    "route": "bus",
+    "to": "广福寺西",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 19435730,
+  "center": {
+    "lat": 30.2845076,
+    "lon": 120.0282318
+  },
+  "tags": {
+    "from": "广福寺西",
+    "name": "2507路：广福寺西 -> 阿里巴巴西溪园区",
+    "name:zh": "2507路：广福寺西 -> 阿里巴巴西溪园区",
+    "opening_hours": "Mo-Su 07:00-18:30",
+    "public_transport:version": "2",
+    "ref": "2507",
+    "route": "bus",
+    "to": "阿里巴巴西溪园区",
+    "type": "route"
+  }
+}
+
+  ]
+}

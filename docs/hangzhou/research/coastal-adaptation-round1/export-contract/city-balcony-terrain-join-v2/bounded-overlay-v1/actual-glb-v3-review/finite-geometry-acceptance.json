@@ -1,0 +1,53 @@
+{
+  "status": "finite actual geometry/UV/import gate passed under explicit .001g serialization boundary budget",
+  "assetSha256": "bf5b70430f8c1ec8ccbabde8a79128ce6652f5412fcad1d37afc9cc276c39e84",
+  "sourceVertexCorrespondenceCount": 109512,
+  "allSourceFacesMatchedOnce": true,
+  "maximumSourceVertexErrorGame": 4.310465846102356e-05,
+  "sourceEdgeCorrespondenceBoundGame": 4.310465846102356e-05,
+  "sourceEdgeBoundReason": "Each actual directed triangle edge has both endpoints paired to the same source edge. Linear segment interpolation displacement is bounded by the maximum endpoint norm. No arbitrary nearest unrelated edge matching.",
+  "positionBudgetGame": 0.001,
+  "gapBandProbes": 2122,
+  "maximumGapProbeDistanceToSourceDryOrOwnerBoundaryGame": 3.942119738359841e-05,
+  "maximumGapProbeDistanceToActualSupportGame": 3.342009835980423e-05,
+  "actualClosedBankCombinedGapArea": 0.004119144994608234,
+  "actualUpwardTopOverlapArea": 0.0012376939231580836,
+  "actualTerrainOutsideDryArea": 0.0024290793065664066,
+  "actualTerrainWaterOverlapArea": 1.976441233916422e-05,
+  "rawCombinedExteriorHausdorffGame": 0.12003835977613239,
+  "rawSetMetricInterpretation": "Raw set boundary metric includes boundaries of bank-strip components separated by sub-0.001g serialization gaps; these can sit a full bank-strip width from original dry boundary. It is preserved, not used as physical endpoint displacement.",
+  "normalizedCombinedMicroHoleCount": 134,
+  "maximumMicroHoleArea": 2.6464096104891754e-05,
+  "actualFloorChecks": [
+    {
+      "id": "city-balcony:lower-slab",
+      "minimumActualSlabBottomClearanceGame": 0.009999990463256836,
+      "overlapArea": 4275.989606738748,
+      "penetratingPairs": 0
+    },
+    {
+      "id": "city-balcony:upper-slab",
+      "minimumActualSlabBottomClearanceGame": 0.007414492040138221,
+      "overlapArea": 5667.27105839604,
+      "penetratingPairs": 0
+    }
+  ],
+  "actualNearCoplanarBankOverlapArea": 0.0012299285623682391,
+  "actualOverlapHeightDifferenceRange": [
+    -0.006917903549950921,
+    0.00047874781398071775
+  ],
+  "smoothPhysicsMaximumHeightErrorGame": 0.005949543382191003,
+  "discontinuousBandMaximumHeightDifferenceGame": 4.27821892105208,
+  "uvSerializedExactValueError": 0,
+  "nullEnginePassed": true,
+  "nullEngineMaximumWorldErrorGame": 1.5963585187641013e-05,
+  "passed": true,
+  "pending": [
+    "Global terrain constrained crop join",
+    "browser antialiasing and visual checks of microscopic seams",
+    "actual daylight/night appearance and performance",
+    "road profiles and car/body collision",
+    "lower-floor entry not enabled"
+  ]
+}

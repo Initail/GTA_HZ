@@ -1,0 +1,6 @@
+{
+  "command": ".venv/bin/python -B docs/hangzhou/research/core/fuxing-alignment-round1/validate_candidate.py",
+  "exitCode": 0,
+  "stdout": "{\"triangles\": 14592, \"materials\": 3, \"solidEnvelopes\": 2636, \"roadDeckRegions\": 46, \"sourceRoadsUnchanged\": true, \"targetWayMainMismatches\": 0, \"remainingOtherWayNodes\": 3, \"remainingOtherWaySamples\": 23, \"centralRecognizableLengthM\": 833.8, \"navigationAccepted\": false}\n",
+  "scope": "CPU candidate only; no Blender/browser/export"
+}

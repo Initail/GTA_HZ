@@ -1,0 +1,22 @@
+{
+  "sourceModuleSha256": "c500ed2da137eecacb04580e3dedfdd8da63121e6026a4918a722db9a7b1d340",
+  "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "images": [
+    {
+      "path": "docs/hangzhou/research/vegetation/cpu-palette-front.png",
+      "sha256": "57c371cef9123203182a0699d61606124e6445c9b7d9f40812eac76bb86a2b41",
+      "actualInGameScreenshot": false
+    },
+    {
+      "path": "docs/hangzhou/research/vegetation/cpu-palette-diagonal.png",
+      "sha256": "aae2017fcf978499a971c5f30eb23ace776b4d09a5427b8a52c97904e889263d",
+      "actualInGameScreenshot": false
+    },
+    {
+      "path": "docs/hangzhou/research/vegetation/cpu-static-season-details.png",
+      "sha256": "1b3733b75ef604084747edf250ce715df36576b6064e0478b803a82fa19ca704",
+      "actualInGameScreenshot": false
+    }
+  ],
+  "kind": "CPU painter only; materialregistration not yet exported/GPUtested"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "sourceModuleSha256": "797c5450c927a330fe89815d98c20aa17e55432095b8bba861ddb0591be74c95",
+  "sourceSpecSha256": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+  "previewMethod": "Pillow painter of front-facing CPU triangle fans; no Blender/browser/render-engine invocation",
+  "previews": [
+    {
+      "path": "docs/hangzhou/research/core/city-balcony-round2/cpu-top.png",
+      "sha256": "7ff7b78a9ce4b21acb99d6b0608749527b77216665f606f2fbdc8bafea015a90",
+      "bytes": 25273,
+      "cameraAzimuthEastCCW": -90.0,
+      "cameraElevation": 89.95,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    },
+    {
+      "path": "docs/hangzhou/research/core/city-balcony-round2/cpu-street.png",
+      "sha256": "26cc78fb5202b3c377cc4c8c3e828ab413d314118bdd31d1814ce25d164ea46d",
+      "bytes": 19702,
+      "cameraAzimuthEastCCW": -39.66881024054738,
+      "cameraElevation": 4.0,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    },
+    {
+      "path": "docs/hangzhou/research/core/city-balcony-round2/cpu-distant.png",
+      "sha256": "eafd1fe53224f9f655cf3bde434a2d8e21c795fcb1ddf6fe38039fed005a2e6a",
+      "bytes": 37281,
+      "cameraAzimuthEastCCW": -19.66881024054738,
+      "cameraElevation": 27.0,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    }
+  ],
+  "imagesAreGameScreenshots": false,
+  "visualAcceptance": "pending GLB/day/night/context review"
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "This round only, actual attempts",
+  "attempts": [
+    {
+      "action": "initial freeze_lingyin.py",
+      "result": "failed",
+      "reason": "ROOT parents index selected one directory too high; corrected from6 to5"
+    },
+    {
+      "action": "first evidence-ready check",
+      "result": "passed",
+      "scope": "five axial hall shell evidence only"
+    },
+    {
+      "action": "first CPU geometry check",
+      "result": "failed",
+      "triangles": 25692,
+      "reason": "above unchanged25000 triangle budget"
+    },
+    {
+      "action": "second CPU geometry check",
+      "result": "passed",
+      "triangles": 23844,
+      "change": "one horizontal lattice bar per window; roof/pillars/hall count and checks retained"
+    },
+    {
+      "action": "Blender/browser",
+      "result": "not-run",
+      "reason": "main integrator controls heavy/real-browser work serially"
+    }
+  ]
+}

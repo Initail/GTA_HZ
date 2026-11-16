@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-14T04:04:54+00:00",
+  "stage": "modelled",
+  "agent": "landmark_evidence",
+  "place": {
+    "id": "city-balcony",
+    "name": "城市阳台主挑台独立候选",
+    "kind": "civic-platform"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/city-balcony-round2/task-catalog.json",
+  "sourceManifestSha256": "2a0cabc5b5c3ffc9454f47c2aed05595495bf7947b3f26d6c0d4a4f3a09ed46e",
+  "sourceRecord": {
+    "id": "city-balcony",
+    "name": "城市阳台主挑台独立候选",
+    "kind": "civic-platform",
+    "location": {
+      "center": [
+        120.21258014878033,
+        30.24424700302543
+      ]
+    },
+    "sources": [
+      {
+        "id": "osm-geofabrik",
+        "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+        "publisher": "OpenStreetMap contributors / Geofabrik",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2026-10-11T20:21:06Z",
+        "license": "ODbL-1.0",
+        "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+        "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+      },
+      {
+        "id": "owner-project",
+        "url": "https://www.hzyjfz.cn/index.php?a=detail&id=45&m=project",
+        "publisher": "杭州钱江新城建设管理委员会项目网站（页脚署名；正文信息来源标为网络）",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2018-05-03",
+        "status": "actual TLS curl HTML/text read",
+        "sha256": "ac4bc466ae3b5eca5a83d44a140f180f17602427004de3c9489db4e6234fcee0",
+        "license": "unknown; reference only",
+        "use": "main80m projection/max320m width/28000m²; wings are separate2.4km landscape/garage/tunnel scope"
+      },
+      {
+        "id": "zju-teaching",
+        "url": "https://cmicce.zju.edu.cn/mobile/teacher_case.aspx?id=208",
+        "publisher": "浙江大学传媒与国际文化学院继续教育中心",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2020-05-18",
+        "status": "actual web text read; direct curl/image timed out",
+        "license": "unknown; reference only",
+        "use": "main322m long/80m projection,twolevels/24000m² per floor, identity; no roof/deck numerical survey"
+      },
+      {
+        "id": "construction-engineer",
+        "url": "https://news.sohu.com/20070126/n247846969.shtml",
+        "publisher": "浙江在线·今日早报原创施工采访；搜狐刊载；记者钟黎明/总工苏永会",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2007-01-26",
+        "status": "actual native curl full interview read",
+        "sha256": "09f36c4e379b5d928e35c633501921ff5b4e9006474fc9ecc1af3b1ebf68ac1a",
+        "license": "unknown; reference only",
+        "use": "near200 concrete piers,steel/concrete structure,round roughly2m skylights; lower glass/upper open park and lifts were construction plans, not current operation verification"
+      },
+      {
+        "id": "government-2020",
+        "url": "https://www.ehangzhou.gov.cn/2020-04/09/c_242801.htm",
+        "publisher": "杭州市人民政府新闻办公室英文门户",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2020-04-09",
+        "status": "actual page and official night aerial viewed",
+        "license": "unknown; reference only",
+        "use": "one main/two side parks, identity/site night silhouette.12000m² on page is exhibition hall, NOT balcony area"
+      },
+      {
+        "id": "ihg-context",
+        "url": "https://www.ihg.com/intercontinental/hotels/cn/zh/hangzhou/hghha/hoteldetail",
+        "publisher": "IHG / 杭州洲际酒店运营方",
+        "accessedAt": "2026-10-14",
+        "sourceDate": null,
+        "status": "actual official hotel aerial viewed; Balcony is background context",
+        "license": "unknown; reference only",
+        "use": "source-bound rear bridges and platform night outline/lamps, no surveyed or independent close balcony facade"
+      },
+      {
+        "id": "photographer-2010",
+        "url": "https://dp.pconline.com.cn/photo/list_1941203.html",
+        "publisher": "摄影师石上清流原创照片 / 太平洋摄影部落",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2010-09-27",
+        "status": "actual page and9 original street-level photographs viewed",
+        "sha256": "1ca3d5f1f4146a7d7b5e2682d451618db2e6f1542dd99d1316df98a586185ab7",
+        "license": "author copyright; page explicitly prohibits unlicensed commercial photo use; reference only, no released photos",
+        "use": "actual multiple directions: glass rails, tiled/wood-like deck, rear raised bridge with beams/piers, glazed room/pit, circle skylights; not calibrated or current2026 survey"
+      },
+      {
+        "id": "hangzhou-publish-2020",
+        "url": "https://hznews.hangzhou.com.cn/chengshi/content/2020-08/14/content_7792495_0.htm",
+        "publisher": "杭州发布项目消息 / 杭州网刊载",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2020-08-14",
+        "status": "actual web text read",
+        "license": "unknown; reference only",
+        "use": "glass-room identity and riverside promenade; interactive lighting described in2020, current fixtures/timing not verified"
+      },
+      {
+        "id": "glass-2011",
+        "url": "https://zjnews.zjol.com.cn/05zjnews/system/2011/07/15/017681168.shtml",
+        "publisher": "浙江在线/现场记者姜晓蓉",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2011-07-15",
+        "status": "search-index original report text read",
+        "license": "unknown; reference only",
+        "use": "tempered glass rails/lower restaurant context only. Historical maintenance incident not asserted as current condition."
+      }
+    ],
+    "scope": "Limited main balcony exterior: exact source cantilever plan and two explicitly mapped shore approach fingers, open upper park and lower glazed facade/public-floor outline, three mapped glass heads, transparent rails, representative structural beams/piers and round skylights. No invented stair/ramp/lift operation or whole side parks.",
+    "modeling": {
+      "blockers": []
+    }
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 28000,
+    "maxMaterials": 7,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048,
+    "reason": "Source-bound two public floors,3glazed heads,glass rails/piers; ceiling28000/7 frozen before CPU build, under30k integrator cap."
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/city_balcony.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/city-balcony-round2"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-14T04:04:54+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T04:07:38+00:00",
+      "evidenceSha256": "a2523f97ae1de1f71b2069a1ecc73f5a84f0695fa1f7ae9334d20b6b4093d9c4",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T04:12:30+00:00",
+      "evidenceSha256": "a9372dee905a4dbeec0b76990f3a4e70766c1c590aaad9d144fa686fa8003257",
+      "modelSha256": null
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-14T04:22:40+00:00",
+      "evidenceSha256": "a9372dee905a4dbeec0b76990f3a4e70766c1c590aaad9d144fa686fa8003257",
+      "modelSha256": "b286952250403177a3bc0fa6a63207bf6937bddc982a032174a7e8f4c5e6d681"
+    }
+  ]
+}

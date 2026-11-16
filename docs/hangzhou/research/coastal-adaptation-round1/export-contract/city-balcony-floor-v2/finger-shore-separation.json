@@ -1,0 +1,12 @@
+[
+  {
+    "id": "west",
+    "sourceFingerDistanceToShoreFrontGame": 28.164934599401125,
+    "sourceFingerIntersectsShoreFront": false
+  },
+  {
+    "id": "east",
+    "sourceFingerDistanceToShoreFrontGame": 26.86374603984764,
+    "sourceFingerIntersectsShoreFront": false
+  }
+]

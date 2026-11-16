@@ -1,0 +1,45 @@
+{
+  "kind": "actual runtime selector under NullEngine, no GPU shader compile or browser",
+  "sourceSha256": "af35153119db83ddcbbe400a9431a0a60e2eba4273587ed5e737fce0b7250a73",
+  "inputNames": [
+    "coastal_shore_5_-4_concrete",
+    "coastal_shore_5_-4_seawall",
+    "coastal_shore_5_-4_coastal-rock",
+    "coastal_shore_5_-4_pavement",
+    "terrain_pavement",
+    "terrain_5_-4_pavement",
+    "coastal_bridge_5_-4_concrete",
+    "coastal_shore_5_-4_seawall.001"
+  ],
+  "stats": {
+    "enabled": true,
+    "mode": "sunset",
+    "disposed": false,
+    "waterHeight": 0.9,
+    "center": [
+      -2283.27,
+      -794.82
+    ],
+    "fullRadius": 420,
+    "outerRadius": 600,
+    "meshes": [
+      "coastal_shore_5_-4_concrete",
+      "coastal_shore_5_-4_seawall",
+      "coastal_shore_5_-4_coastal-rock",
+      "terrain_pavement"
+    ],
+    "materials": 4,
+    "additionalMeshes": 0,
+    "additionalTriangles": 0,
+    "additionalTextures": 0,
+    "additionalLights": 0,
+    "additionalRenderTargets": 0,
+    "receiverMask": "named existing coast meshes + per-submesh gate + smooth world radius",
+    "pavingBaseColorLinear": [
+      0.166116,
+      0.195645,
+      0.185488
+    ],
+    "materialEstimate": "authored 1.2 m × 0.6 m stone slabs, 10 mm joints and concrete weathering; not surveyed"
+  }
+}

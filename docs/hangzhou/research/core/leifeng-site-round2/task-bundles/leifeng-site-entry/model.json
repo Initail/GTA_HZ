@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "placeId": "leifeng-site-entry",
+  "artifactPath": null,
+  "sourceModule": "scripts/landmarks/leifeng_site.py",
+  "sha256": null,
+  "sourceModuleSha256": "07e6e33d77e9760616c10b8a5b4c718f609188a67e65ca7ee85acb326ac4e2ed",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "blocked entry; no accepted entrance geometry",
+  "estimatedParameters": {
+    "apronBufferM": {
+      "value": 3,
+      "errorM": 2,
+      "method": "narrow ground-apron interpretation around mappedbasement from designersection, exact semantic/widthunknown"
+    },
+    "siteHeights": {
+      "errorM": 12,
+      "method": "GLO30 30m native, prepared grid50m real,3×3min/max/mean covers150m real neighborhood; broadcanopy/slopespike bias remains"
+    },
+    "railHeightM": {
+      "value": 1.1,
+      "errorM": 0.3,
+      "method": "representative static exterior guardrails readfrontphoto; not measured"
+    }
+  },
+  "buildCommand": null,
+  "sourceSpec": "docs/hangzhou/research/core/leifeng-site-round2/spec.json",
+  "sourceSpecSha256": "35ddbb65696edc2d3f8067ab47daeb901cd3654c675df695d0dcb1e8dc21d11e"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-14",
+  "trigger": "parent actual detail-collision audit found4invalid inset-derived scanline rings in491old rings",
+  "formerIssues": {
+    "gamePositions": [
+      [
+        -7729.27407867586,
+        252.068065946917
+      ],
+      [
+        -7543.64039367403,
+        298.815572895111
+      ]
+    ],
+    "sourceIds": [
+      "way/1363020727",
+      "way/1363020734"
+    ],
+    "ringIndices": [
+      136,
+      137,
+      285,
+      286
+    ],
+    "tinyAreaGameM2": [
+      0.00056,
+      0.00134
+    ],
+    "selfIntersectingQuadAreaGameM2": [
+      21.17,
+      45.63
+    ]
+  },
+  "cause": "2.4m estimated miter target crossed nonadjacent edges in two narrow concave source arms; inside(vertex) didnot guarantee simple boundary; scanline decomposition then emittedbowties/slivers",
+  "fix": "reject crossing/touching/collapsedfulloffset boundaries and choose nearest topology-feasibleestimatedrecess with4cm margin; reuse same offset for3Dglass/roof andcollision; emit completeconcavebodyfootprints, not artificialscanlinecollision fragments",
+  "originalSpecSha256Preserved": "13b5e859b1617d1c1ffeeaaf6eaef64253a0ee37c8aad029d30453bed4d28ebe",
+  "evidenceSha256Preserved": "eecda58d306fc810fcb7b587820a3b45b0d5967d9ea162bb353d2304c5a49a5a",
+  "sourceFootprintsSha256Preserved": "d6871f66488179b645ebda7e14ad4b882d7c70c17a3edbca2cb3239aca885bc7",
+  "moduleSha256": "6c7295850eb698cf17683dda1ef311d1f2d1fd7932006ed15ec60e245641389d",
+  "recessAdjustments": [
+    {
+      "sourceId": "way/1363020727",
+      "formerRequestedInsetM": 2.4,
+      "formerCrossingEdges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "effectiveEstimatedInsetM": 1.5634226638573447,
+      "correctedAreaM2": 1161.5764774727916,
+      "marginMethod": "feasible topology interval less4cm; no make_valid/delete-cells"
+    },
+    {
+      "sourceId": "way/1363020734",
+      "formerRequestedInsetM": 2.4,
+      "formerCrossingEdges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "effectiveEstimatedInsetM": 2.186123276343423,
+      "correctedAreaM2": 1566.5847590665464,
+      "marginMethod": "feasible topology interval less4cm; no make_valid/delete-cells"
+    }
+  ],
+  "collisionPolygonsNow": 326,
+  "newMinGameWorldCollisionAreaM2": 0.2303999993018806,
+  "newTotalGameWorldCollisionAreaM2": 12620.45725676592,
+  "actualGameAnchor": {
+    "x": -7639.168271512522,
+    "z": 284.877180771841,
+    "y": 0
+  },
+  "allAbsoluteGameWorldRingsSimple": true,
+  "collisionAreaConserved": true,
+  "noCollisionAreaDiscarded": true,
+  "CPUchecksPassed": 18,
+  "triangles": 14862,
+  "materials": [
+    "concrete",
+    "darkglass",
+    "gold",
+    "landmarkglass",
+    "leaf",
+    "roof",
+    "silver"
+  ],
+  "currentCoordinatePolicyReview": {
+    "frozenWholeFileSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6",
+    "currentWholeFileSha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9",
+    "geometryRelevantFieldsEqual": true,
+    "policy": "historical spec retained; all projection/scaling fields individually compared"
+  },
+  "parentGLBReexportNeeded": true,
+  "finalInGameCollisionPass": false,
+  "pending": [
+    "actualnewBGLBexport/hash/taskmodelledrefresh",
+    "repeatmaincollisionauditonnewasset",
+    "realwalking/piloti/entrance/drivingandnight/performancechecks",
+    "unknowncentralroof0741/42andhistoricalphaseblockersunchanged"
+  ]
+}

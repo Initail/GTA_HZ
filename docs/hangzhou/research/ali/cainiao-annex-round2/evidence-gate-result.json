@@ -1,0 +1,17 @@
+{
+  "actualCommand": [
+    ".venv/bin/python",
+    "-B",
+    "scripts/landmark_tasks.py",
+    "check",
+    "--job",
+    "docs/hangzhou/research/ali/cainiao-annex-round2/task/cainiao-annex/job.json",
+    "--stage",
+    "evidence-ready",
+    "--record"
+  ],
+  "actualExitCode": 2,
+  "stdout": "{\n  \"id\": \"cainiao-annex\",\n  \"recordedStage\": \"planned\",\n  \"currentStage\": \"planned\",\n  \"errors\": {\n    \"evidence-ready\": [\n      \"地点身份未由可追溯来源确认\",\n      \"缺少 footprint 的有来源观察及不确定度（不能为 unknown）\",\n      \"缺少 height 的有来源观察及不确定度（不能为 unknown）\",\n      \"evidence.blockers 尚未清空：[{\\\"id\\\": \\\"rawcoverage\\\", \\\"reason\\\": \\\"FullfixedPBF9building/partwayrecords areHQplusmetroonly;all9exactlyinextract. No annexe/towerpart hiddenbytagfilter. Cannot useparcelredline asindividualbuildingfootprint.\\\"}, {\\\"id\\\": \\\"originalplans-and-coordinateframe\\\", \\\"reason\\\": \\\"2024/2025reproducednoticeplans haveindividualoutlines/localXYgrid, but originalgovsheet/completeannotations/coordinateCRSnot recovered. X≈82300/Y≈60600 cannotbe blindlyconverted toWGS84.\\\"}, {\\\"id\\\": \\\"asbuilt-body-crosswalk\\\", \\\"reason\\\": \\\"Sixmain+aux vs7count andhistorical10plan figures use differentphysical/perioddefinitions;percurrentA/Bnumbers/floorplans/rooftops remainunregistered. Six/7/10 notautomaticallysameasphotoassetnodecount.\\\"}, {\\\"id\\\": \\\"entrance-platform-andlevels\\\", \\\"reason\\\": \\\"Localdrawinggatesandwaveplatforms visiblebutactualWGS84gatepoints,deckbase/roadcrossing clearance and currentpublicaccessunknown. No centerpointgoal or guessedbridge connections.\\\"}]\"\n    ],\n    \"modelled\": [\n      \"模型缺失或无效：[Errno 2] No such file or directory: '__missing__'\",\n      \"可重复构建的 sourceModule 缺失\",\n      \"model.buildCommand 未填写\"\n    ],\n    \"verified\": [\n      \"验收未绑定当前 GLB SHA256\",\n      \"验收未绑定当前 evidence.json SHA256\",\n      \"scale 尚未完成具名验收\",\n      \"scale 缺少可读取的验收证据文件\",\n      \"orientation 尚未完成具名验收\",\n      \"orientation 缺少可读取的验收证据文件\",\n      \"silhouette 尚未完成具名验收\",\n      \"silhouette 缺少可读取的验收证据文件\",\n      \"context 尚未完成具名验收\",\n      \"context 缺少可读取的验收证据文件\",\n      \"collision 尚未完成具名验收\",\n      \"collision 缺少可读取的验收证据文件\",\n      \"browser 尚未完成具名验收\",\n      \"browser 缺少可读取的验收证据文件\",\n      \"performance 尚未完成具名验收\",\n      \"performance 缺少可读取的验收证据文件\",\n      \"provenance 尚未完成具名验收\",\n      \"provenance 缺少可读取的验收证据文件\"\n    ]\n  },\n  \"modelStats\": null,\n  \"note\": \"检查结构与证据文件；照片/形体判断须由具名评审实际核对\",\n  \"requestedStage\": \"evidence-ready\",\n  \"passed\": false\n}\n",
+  "stderr": "",
+  "expectedCoreBlockerFailure": true
+}

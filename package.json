@@ -1,0 +1,44 @@
+{
+  "name": "gta-hz",
+  "version": "0.16.0-rc.3",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.13.0 <25"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Initail/GTA_HZ.git"
+  },
+  "scripts": {
+    "postinstall": "python3 tools/prepare-types.py",
+    "dev": "node tools/dev.mjs",
+    "start": "node tools/dev.mjs",
+    "typecheck": "node --max-old-space-size=512 node_modules/typescript/bin/tsc --noEmit",
+    "test": "node --experimental-transform-types --test --test-concurrency=1 tests/*.test.ts",
+    "test:routes": "node --experimental-transform-types --test tests/leisure-city-data.test.ts",
+    "test:tools": "python3 -m unittest discover -s tools/tests -p 'test_*.py'",
+    "build": "node tools/build.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 5241 --strictPort",
+    "assets:fetch": "python3 tools/assets.py fetch",
+    "assets:verify": "python3 tools/assets.py verify",
+    "assets": "python3 tools/assets.py plan",
+    "docs:check": "node tools/check-docs.mjs",
+    "release:check": "node tools/release-check.mjs"
+  },
+  "dependencies": {
+    "@babylonjs/core": "8.56.2",
+    "@babylonjs/loaders": "8.56.2"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.0",
+    "@gltf-transform/extensions": "4.5.0",
+    "@gltf-transform/functions": "4.5.0",
+    "meshoptimizer": "1.2.0",
+    "playwright": "1.63.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "esbuild": "0.28.2"
+  }
+}

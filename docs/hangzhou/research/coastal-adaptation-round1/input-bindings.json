@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/city.json",
+      "sha256": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/lamps.json",
+      "sha256": "43f96afd1df7307f6130605259b92d67e1bc71ee303f2480cef47a17f2a3e3d1"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/geography/road-levels.json",
+      "sha256": "0db3134e9a24b53ab0361a3f2fdc1738f818ceddafc56d94c5500b8ba75a25c1"
+    },
+    {
+      "path": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24"
+    },
+    {
+      "path": "src/city-coastal-infrastructure.ts",
+      "sha256": "a8b7dee88419581011d5fd19700332b1c990dfea300c1883e6439e5c185ac570"
+    },
+    {
+      "path": "src/city-bay-water.ts",
+      "sha256": "f79c09a023ae9a7bc770bf52c97d845f1415b4e872108d2ec4f3a50f75f5f956"
+    },
+    {
+      "path": "src/city-baypark-look.ts",
+      "sha256": "17351c9a4a6ed13cb6f5bcf0b6d0622ceb36f86e97286a2e2936aa9451fa7ddf"
+    },
+    {
+      "path": "src/city-public-lighting.ts",
+      "sha256": "285472ff7028d139bd81602092a3b2846c515d5f6524e8e58e658687e1f7ee69"
+    },
+    {
+      "path": "src/city-local-lighting.ts",
+      "sha256": "55b711d2cd221dadad528b86fd21712d478c11eecfe739dc1aa258648bb74952"
+    },
+    {
+      "path": "src/city-roadside-planting.ts",
+      "sha256": "729c149c7608cac6a251d49904f8db0f2f783dd3ff0effac81815c78cd154cf0"
+    },
+    {
+      "path": "scripts/prepare_coastal_infrastructure.py",
+      "sha256": "33f2f9c8ea8aa89f1cf9e6a6d22200cf5c98a6b992b510af16bbf5adbdf61042"
+    },
+    {
+      "path": "scripts/build_coastal_infrastructure.py",
+      "sha256": "d1fe14fd6a57efd38b9333f2c3542a802b7976cfef3fd05f73d5383a2ba24046"
+    }
+  ]
+}

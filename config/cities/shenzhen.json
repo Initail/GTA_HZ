@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "shenzhen",
+  "product": {
+    "project": "GTA_SZ",
+    "name": "深城纪",
+    "city": "深圳",
+    "nameEn": "SHENZHEN"
+  },
+  "geography": {
+    "crs": "EPSG:4326",
+    "originWGS84": [
+      114.025,
+      22.536
+    ],
+    "bboxWGS84": [
+      113.915,
+      22.497,
+      114.135,
+      22.575
+    ],
+    "scale": 0.6,
+    "projection": "legacy-equirectangular",
+    "eastMetresPerDegree": 102850,
+    "northMetresPerDegree": 111320
+  },
+  "assets": {
+    "runtimeRoot": "/city",
+    "candidateRoot": "artifacts/cities/shenzhen",
+    "processedRoot": "data/processed/shenzhen_study",
+    "landmarkCatalog": "data/landmarks/priority-places.json"
+  },
+  "storage": {
+    "namespace": "shenchengji",
+    "life": "shenchengji-city-life-v1",
+    "career": "shenchengji-city-career-v2",
+    "story": "shenchengji-city-story-v1",
+    "favorites": "shenchengji-observer-places-v1",
+    "graphics": "shenchengji-graphics-quality-v1",
+    "mapView": "shenchengji-city-map-view-v1",
+    "database": "shenchengji-v1"
+  },
+  "spawn": {
+    "sourceWGS84": [
+      113.98182704697102,
+      22.52309071645631
+    ],
+    "roadName": "滨海大道",
+    "status": "upstream",
+    "gamePoint": [
+      -2664.20293141859,
+      -862.2368664502956
+    ]
+  },
+  "missionPlaces": {
+    "hub": "life-sites:hub",
+    "office": "life-sites:office",
+    "park": "life-sites:workshop",
+    "workshop": "life-sites:office",
+    "bay": "spawn-road:+950",
+    "legacyOffice": "civic",
+    "legacyLake": "xiangmi",
+    "legacyWork": "tencent",
+    "legacyDinner": "talent",
+    "legacyCoastFrom": "spawn-road:155",
+    "legacyCoastTo": "spawn-road:900"
+  },
+  "streetScene": {
+    "id": "bamboo-talent",
+    "name": "春笋–人才公园",
+    "originGame": [
+      -5146,
+      -1216.62
+    ],
+    "destinationGame": [
+      -4988.02,
+      -1492.13
+    ],
+    "spineGame": [
+      [
+        -5180,
+        -700
+      ],
+      [
+        -5160,
+        -1900
+      ]
+    ],
+    "halfWidthGame": 88,
+    "cafeAnchor": [
+      -5088,
+      -1304
+    ],
+    "sourceRoadName": "科苑南路",
+    "lengthGame": 1200
+  },
+  "localLighting": [
+    {
+      "id": "bamboo",
+      "x": -5146,
+      "z": -1216.62,
+      "inner": 130,
+      "outer": 220
+    },
+    {
+      "id": "baypark",
+      "x": -2283.27,
+      "z": -794.82,
+      "inner": 420,
+      "outer": 600
+    }
+  ],
+  "water": {
+    "southernOcean": true,
+    "oppositeShore": true,
+    "publicSurfaceLookCenterGame": [
+      -2283.27,
+      -794.82
+    ]
+  },
+  "delivery": {
+    "status": "upstream-baseline",
+    "blockers": [
+      "本机完整检出与 LFS 本体恢复中，尚未建立实机基线"
+    ]
+  },
+  "narrative": {
+    "replacements": []
+  }
+}

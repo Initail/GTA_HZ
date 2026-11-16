@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-c",
+  "artifactPath": "artifacts/landmarks/alibaba-c/model.glb",
+  "sourceModule": "scripts/landmarks/alibaba-c.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [],
+  "buildCommand": null
+}

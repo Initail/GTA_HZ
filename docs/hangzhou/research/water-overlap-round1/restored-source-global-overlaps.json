@@ -1,0 +1,346 @@
+{
+  "kind": "read-only-hypothetical-unsimplified-source-overlap-check",
+  "thresholdGameSquared": 1e-06,
+  "allRuntimePartsMatchedOneToOne": true,
+  "partsChecked": 2153,
+  "positiveAreaPairs": 27,
+  "previous55StillPositive": 17,
+  "newlyVisibleSourceOverlapPairs": [
+    {
+      "aIndex": 440,
+      "bIndex": 473,
+      "a": "way/641855998",
+      "b": "way/642559807",
+      "sourceOverlapAreaGameSquared": 0.6056455978982029,
+      "heightDifferenceGame": 0.49783811298120817,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 603,
+      "bIndex": 2099,
+      "a": "relation/9599999",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.04475525794817159,
+      "heightDifferenceGame": 1.6783274941272035,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 11,
+      "bIndex": 437,
+      "a": "way/86096970",
+      "b": "way/641838036",
+      "sourceOverlapAreaGameSquared": 0.016684820467590455,
+      "heightDifferenceGame": 1.1578043071552657,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 246,
+      "bIndex": 2099,
+      "a": "way/519276932",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.010828813016088512,
+      "heightDifferenceGame": 1.2249860591325756,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 1643,
+      "bIndex": 1644,
+      "a": "way/922868868",
+      "b": "way/922868869",
+      "sourceOverlapAreaGameSquared": 0.009762565711240494,
+      "heightDifferenceGame": 0.6484628645353296,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 447,
+      "bIndex": 464,
+      "a": "way/641923487",
+      "b": "way/642325265",
+      "sourceOverlapAreaGameSquared": 0.007795208180076507,
+      "heightDifferenceGame": 0.037737958475854594,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 325,
+      "bIndex": 2099,
+      "a": "way/544075672",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.006393608561117592,
+      "heightDifferenceGame": 0.12483492297517973,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 90,
+      "bIndex": 2099,
+      "a": "way/345071228",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.005625605313438697,
+      "heightDifferenceGame": 1.1445444272829959,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 2109,
+      "bIndex": 2111,
+      "a": "way/1485378647",
+      "b": "way/1485378664",
+      "sourceOverlapAreaGameSquared": 0.004876807535537653,
+      "heightDifferenceGame": 1.1198502443362859,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 78,
+      "bIndex": 480,
+      "a": "way/285191776",
+      "b": "way/642786334",
+      "sourceOverlapAreaGameSquared": 0.0017280010785221123,
+      "heightDifferenceGame": 2.5384975372432153,
+      "wasInParent55": false
+    }
+  ],
+  "pairs": [
+    {
+      "aIndex": 1699,
+      "bIndex": 2066,
+      "a": "way/975870009",
+      "b": "relation/2308774",
+      "sourceOverlapAreaGameSquared": 1911.561468572746,
+      "heightDifferenceGame": 0.899101892292312,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 260,
+      "bIndex": 581,
+      "a": "way/520199008",
+      "b": "way/662789923",
+      "sourceOverlapAreaGameSquared": 181.52423911943896,
+      "heightDifferenceGame": 0.7882983978902578,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 351,
+      "bIndex": 473,
+      "a": "way/552611233",
+      "b": "way/642559807",
+      "sourceOverlapAreaGameSquared": 57.402142816888066,
+      "heightDifferenceGame": 1.9674592511646565,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 1813,
+      "bIndex": 1817,
+      "a": "way/1058472319",
+      "b": "way/1058472323",
+      "sourceOverlapAreaGameSquared": 54.0368918588566,
+      "heightDifferenceGame": 1.1336684579775256,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 1813,
+      "bIndex": 1820,
+      "a": "way/1058472319",
+      "b": "way/1058472326",
+      "sourceOverlapAreaGameSquared": 14.32566746498838,
+      "heightDifferenceGame": 0.6924651131720803,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 308,
+      "bIndex": 317,
+      "a": "way/538148437",
+      "b": "way/541014093",
+      "sourceOverlapAreaGameSquared": 4.264076013449568,
+      "heightDifferenceGame": 2.3122947490788124,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 366,
+      "bIndex": 2104,
+      "a": "way/578276721",
+      "b": "way/1479955347",
+      "sourceOverlapAreaGameSquared": 4.127646086192266,
+      "heightDifferenceGame": 1.224408767626839,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 228,
+      "bIndex": 1317,
+      "a": "way/518534703",
+      "b": "relation/8932833",
+      "sourceOverlapAreaGameSquared": 3.191274602861612,
+      "heightDifferenceGame": 0.8337508534648084,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 1214,
+      "bIndex": 1215,
+      "a": "relation/9602999",
+      "b": "relation/10872319",
+      "sourceOverlapAreaGameSquared": 2.787862872800234,
+      "heightDifferenceGame": 0.4575318050300399,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 603,
+      "bIndex": 2053,
+      "a": "relation/9599999",
+      "b": "way/1461484039",
+      "sourceOverlapAreaGameSquared": 2.6401954780172616,
+      "heightDifferenceGame": 0.6156162349661827,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 1831,
+      "bIndex": 1906,
+      "a": "relation/9436423",
+      "b": "way/1122311097",
+      "sourceOverlapAreaGameSquared": 2.266908587797346,
+      "heightDifferenceGame": 0.6451491505993268,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 195,
+      "bIndex": 495,
+      "a": "way/516302975",
+      "b": "relation/8924449",
+      "sourceOverlapAreaGameSquared": 1.6440405646602287,
+      "heightDifferenceGame": 0.6711904671078246,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 433,
+      "bIndex": 2138,
+      "a": "way/641124890",
+      "b": "relation/8227206",
+      "sourceOverlapAreaGameSquared": 1.3043729161924773,
+      "heightDifferenceGame": 4.783338353362803,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 308,
+      "bIndex": 1326,
+      "a": "way/538148437",
+      "b": "way/845633888",
+      "sourceOverlapAreaGameSquared": 0.6320456335434919,
+      "heightDifferenceGame": 2.450464018886837,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 440,
+      "bIndex": 473,
+      "a": "way/641855998",
+      "b": "way/642559807",
+      "sourceOverlapAreaGameSquared": 0.6056455978982029,
+      "heightDifferenceGame": 0.49783811298120817,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 1620,
+      "bIndex": 1625,
+      "a": "way/922860415",
+      "b": "way/922860420",
+      "sourceOverlapAreaGameSquared": 0.3551904405109312,
+      "heightDifferenceGame": 0.7668805316062497,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 1713,
+      "bIndex": 2066,
+      "a": "way/979543008",
+      "b": "relation/2308774",
+      "sourceOverlapAreaGameSquared": 0.15629103734687913,
+      "heightDifferenceGame": 2.244430149559572,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 326,
+      "bIndex": 2144,
+      "a": "way/544319798",
+      "b": "way/1546020480",
+      "sourceOverlapAreaGameSquared": 0.10767374220493679,
+      "heightDifferenceGame": 0.3421391595472336,
+      "wasInParent55": true
+    },
+    {
+      "aIndex": 603,
+      "bIndex": 2099,
+      "a": "relation/9599999",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.04475525794817159,
+      "heightDifferenceGame": 1.6783274941272035,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 11,
+      "bIndex": 437,
+      "a": "way/86096970",
+      "b": "way/641838036",
+      "sourceOverlapAreaGameSquared": 0.016684820467590455,
+      "heightDifferenceGame": 1.1578043071552657,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 246,
+      "bIndex": 2099,
+      "a": "way/519276932",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.010828813016088512,
+      "heightDifferenceGame": 1.2249860591325756,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 1643,
+      "bIndex": 1644,
+      "a": "way/922868868",
+      "b": "way/922868869",
+      "sourceOverlapAreaGameSquared": 0.009762565711240494,
+      "heightDifferenceGame": 0.6484628645353296,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 447,
+      "bIndex": 464,
+      "a": "way/641923487",
+      "b": "way/642325265",
+      "sourceOverlapAreaGameSquared": 0.007795208180076507,
+      "heightDifferenceGame": 0.037737958475854594,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 325,
+      "bIndex": 2099,
+      "a": "way/544075672",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.006393608561117592,
+      "heightDifferenceGame": 0.12483492297517973,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 90,
+      "bIndex": 2099,
+      "a": "way/345071228",
+      "b": "way/1479533509",
+      "sourceOverlapAreaGameSquared": 0.005625605313438697,
+      "heightDifferenceGame": 1.1445444272829959,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 2109,
+      "bIndex": 2111,
+      "a": "way/1485378647",
+      "b": "way/1485378664",
+      "sourceOverlapAreaGameSquared": 0.004876807535537653,
+      "heightDifferenceGame": 1.1198502443362859,
+      "wasInParent55": false
+    },
+    {
+      "aIndex": 78,
+      "bIndex": 480,
+      "a": "way/285191776",
+      "b": "way/642786334",
+      "sourceOverlapAreaGameSquared": 0.0017280010785221123,
+      "heightDifferenceGame": 2.5384975372432153,
+      "wasInParent55": false
+    }
+  ],
+  "note": "No shared geometry modified; independent heights retained for this measurement, and source overlaps remain blockers."
+}

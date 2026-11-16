@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T10:26:00+00:00",
+  "stage": "modelled",
+  "agent": "codex-landmark-evidence",
+  "place": {
+    "id": "hangzhou-gate",
+    "name": "杭州之门（杭州世纪中心）",
+    "kind": "building-group"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/gate-round2/catalog.json",
+  "sourceManifestSha256": "a759691ac67f1ff34d9c112370e069790db57ff39173d2cb882f0d46247c3e78",
+  "sourceRecord": {
+    "id": "hangzhou-gate",
+    "name": "杭州之门（杭州世纪中心）",
+    "kind": "building-group",
+    "researchEvidence": "docs/hangzhou/research/core/gate-round2/evidence.json",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": [
+        120.23255672887714,
+        30.229744850587956
+      ],
+      "status": "confirmed",
+      "sourceIds": [
+        "osm-geofabrik",
+        "osm-api"
+      ]
+    },
+    "sources": [
+      {
+        "id": "osm-geofabrik",
+        "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+        "publisher": "OpenStreetMap contributors / Geofabrik",
+        "accessedAt": "2026-10-12",
+        "sourceDate": "2026-10-11T20:21:06Z",
+        "status": "available",
+        "license": "ODbL-1.0",
+        "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+        "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+        "use": "WGS84 footprints; Geofabrik subset equals OSM API rings"
+      },
+      {
+        "id": "osm-api",
+        "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=120.230,30.227,120.234,30.231",
+        "publisher": "OpenStreetMap contributors",
+        "accessedAt": "2026-10-12",
+        "status": "available",
+        "license": "ODbL-1.0",
+        "localPath": "docs/hangzhou/research/core/gate-round2/osm-local-map.json",
+        "sha256": "fccb1560ed559ca266d93d873ee27281ff9b9f7bbad48fa37ec7e8ca137c6d4e",
+        "use": "auxiliary exact node/way version provenance; not replacement for main Geofabrik city"
+      },
+      {
+        "id": "ecadi-primary",
+        "url": "https://www.thepaper.cn/newsDetail_forward_21768064",
+        "publisher": "华建集团华东建筑设计研究院有限公司供稿 / 澎湃号政务平台",
+        "accessedAt": "2026-10-12",
+        "sourceDate": "2023-02-01",
+        "status": "available",
+        "license": "unknown; reference only; images not bundled",
+        "use": "T1/T2 identity, 310m, bridge/curtain elevations, official photos and SOM section image"
+      },
+      {
+        "id": "som-primary",
+        "url": "https://www.som.com/projects/greenland-hangzhou-century-center/",
+        "publisher": "SOM",
+        "accessedAt": "2026-10-12",
+        "status": "available-indexed",
+        "sourceDate": null,
+        "license": "unknown; reference only",
+        "use": "twin towers, H/arched bridge, flowing glass enclosure, 64 stories; indexed text, direct fetch 403"
+      }
+    ],
+    "scope": "Source-bound exterior candidate for twin towers, arched banquet bridge and open curtain; full retail, interiors, rooftop equipment and exact entrance details pending."
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/hangzhou_gate.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate",
+      "artifacts/landmarks/hangzhou-gate"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-12T10:26:00+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-12T10:26:30+00:00",
+      "evidenceSha256": "00dfbb4051a16d14fd00cc1d701c426f1d05d2ab5c95840cfdcfe9ccd730f376",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-12T10:33:34+00:00",
+      "evidenceSha256": "567b032d4cc33bb3ce8fb185e763a74586f5ac13d5df1a67342cae5ceb81fa4e",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-12T10:39:45+00:00",
+      "evidenceSha256": "94f7f0e98326bbd8dcdaa7b90faf4ccb06e660097c2d945954b706fd91d5d517",
+      "modelSha256": null
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-12T12:33:19+00:00",
+      "evidenceSha256": "94f7f0e98326bbd8dcdaa7b90faf4ccb06e660097c2d945954b706fd91d5d517",
+      "modelSha256": "c10adac2ca17328ac2820fa184e06f43c296b71d0d962993d090563ce3af0ed1"
+    }
+  ]
+}

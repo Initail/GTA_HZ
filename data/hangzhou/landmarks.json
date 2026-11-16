@@ -1,0 +1,1245 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "status": "planned",
+  "crs": "EPSG:4326",
+  "scope": "完整指定范围及优先补充对象；调查身份不等于模型/可达性通过",
+  "places": [
+    {
+      "id": "cainiao-headquarters",
+      "name": "菜鸟总部",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/ali/evidence.json",
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          119.9606604,
+          30.26480725
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "sources": [
+        {
+          "id": "cainiao-contact",
+          "url": "https://www.cainiao.com/en/about-us-contact-us.html?from=subHeaderClick",
+          "finalUrl": "https://www.cainiao.com/en/about-us-contact-us.html?from=subHeaderClick",
+          "path": "docs/hangzhou/research/ali/snapshots/cainiao-contact.html",
+          "bytes": 37930,
+          "sha256": "8dd9df4966f336ed8de4d4e9ae2dd429b4a35a28bbc78e811638c2a571b0ebff",
+          "status": "downloaded",
+          "title": "Contact Cainiao",
+          "publisher": "菜鸟",
+          "sourceDate": null,
+          "authority": "owner",
+          "use": "address",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "aedas-cainiao",
+          "url": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+          "finalUrl": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+          "path": "docs/hangzhou/research/ali/snapshots/aedas-cainiao.html",
+          "bytes": 63361,
+          "sha256": "37200c89e42b4fe676829ea15c161605f3e56383722f27c60b472c23741c0082",
+          "status": "downloaded",
+          "title": "Cainiao Hangzhou Headquarters & Industry Park Project",
+          "publisher": "Aedas",
+          "sourceDate": null,
+          "authority": "architect",
+          "use": "identity, floors, facade, entrance canopy",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "cscec-cainiao",
+          "url": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202305/3671552.html",
+          "finalUrl": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202305/3671552.html",
+          "path": "docs/hangzhou/research/ali/snapshots/cscec-cainiao.html",
+          "bytes": 79464,
+          "sha256": "29d1ba6e7061b0c5ec0098c2f5ae9f6ba2d4370665bf8c2e114c052e949b2b74",
+          "status": "downloaded",
+          "title": "中建三局承建的杭州菜鸟网络全球总部项目一期交付",
+          "publisher": "中国建筑 / 中建三局",
+          "sourceDate": "2023-05-25",
+          "authority": "contractor",
+          "use": "reported program and building counts",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "osm-site-geometries",
+          "url": "https://overpass-api.de/api/interpreter",
+          "publisher": "OpenStreetMap contributors / Overpass API",
+          "title": "overpass-site-geometries.json",
+          "accessedAt": "2026-10-12",
+          "requestMethod": "POST",
+          "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+          "sourceDate": "2026-10-12T09:27:36Z",
+          "dataCrs": "EPSG:4326 / WGS84",
+          "license": "ODbL 1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "licenseUrl": "https://www.openstreetmap.org/copyright",
+          "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+          "bytes": 10879,
+          "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+          "status": "downloaded",
+          "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary"
+        }
+      ]
+    },
+    {
+      "id": "alibaba-a",
+      "name": "阿里巴巴西溪 A 区",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/ali/evidence.json",
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          120.021274,
+          30.2815813
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "sources": [
+        {
+          "id": "alibaba-esg-campus",
+          "url": "https://www.alibabagroup.com/zh-HK/document-1586194337035714560",
+          "finalUrl": "https://www.alibabagroup.com/zh-HK/document-1586194337035714560",
+          "path": "docs/hangzhou/research/ali/snapshots/alibaba-esg-campus.html",
+          "bytes": 102141,
+          "sha256": "1bf9fe06cffae277ea9c01a044324b5a8aa2746ead8e7412c0e7c03534a7caf6",
+          "status": "downloaded",
+          "title": "阿里巴巴總務線總裁劉菲：冀辦公園區綠色實踐推動低碳創新",
+          "publisher": "阿里巴巴集团",
+          "sourceDate": "2023-04-21",
+          "authority": "owner",
+          "use": "A/B zone existence; A wetland landscape",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "people-xixi-zones",
+          "url": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+          "finalUrl": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+          "path": "docs/hangzhou/research/ali/snapshots/people-xixi-zones.html",
+          "bytes": 38475,
+          "sha256": "d46be27bdf2c67c19ef5aa4b1299fa9798f71c76ca563fb591cfaf5610cf6d83",
+          "status": "downloaded",
+          "title": "阿里巴巴杭州全球总部正式启用",
+          "publisher": "人民网 / 中国网科技",
+          "sourceDate": "2024-05-10",
+          "authority": "public-news-owner-statements",
+          "use": "A/B/C identity functions and opening",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "osm-site-geometries",
+          "url": "https://overpass-api.de/api/interpreter",
+          "publisher": "OpenStreetMap contributors / Overpass API",
+          "title": "overpass-site-geometries.json",
+          "accessedAt": "2026-10-12",
+          "requestMethod": "POST",
+          "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+          "sourceDate": "2026-10-12T09:27:36Z",
+          "dataCrs": "EPSG:4326 / WGS84",
+          "license": "ODbL 1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "licenseUrl": "https://www.openstreetmap.org/copyright",
+          "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+          "bytes": 10879,
+          "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+          "status": "downloaded",
+          "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary"
+        }
+      ]
+    },
+    {
+      "id": "alibaba-b",
+      "name": "阿里巴巴西溪 B 区 / 数字生态创新园",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/ali/evidence.json",
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          120.02267895,
+          30.278282949999998
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "sources": [
+        {
+          "id": "alibaba-esg-campus",
+          "url": "https://www.alibabagroup.com/zh-HK/document-1586194337035714560",
+          "finalUrl": "https://www.alibabagroup.com/zh-HK/document-1586194337035714560",
+          "path": "docs/hangzhou/research/ali/snapshots/alibaba-esg-campus.html",
+          "bytes": 102141,
+          "sha256": "1bf9fe06cffae277ea9c01a044324b5a8aa2746ead8e7412c0e7c03534a7caf6",
+          "status": "downloaded",
+          "title": "阿里巴巴總務線總裁劉菲：冀辦公園區綠色實踐推動低碳創新",
+          "publisher": "阿里巴巴集团",
+          "sourceDate": "2023-04-21",
+          "authority": "owner",
+          "use": "A/B zone existence; A wetland landscape",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "people-xixi-zones",
+          "url": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+          "finalUrl": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+          "path": "docs/hangzhou/research/ali/snapshots/people-xixi-zones.html",
+          "bytes": 38475,
+          "sha256": "d46be27bdf2c67c19ef5aa4b1299fa9798f71c76ca563fb591cfaf5610cf6d83",
+          "status": "downloaded",
+          "title": "阿里巴巴杭州全球总部正式启用",
+          "publisher": "人民网 / 中国网科技",
+          "sourceDate": "2024-05-10",
+          "authority": "public-news-owner-statements",
+          "use": "A/B/C identity functions and opening",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "osm-site-geometries",
+          "url": "https://overpass-api.de/api/interpreter",
+          "publisher": "OpenStreetMap contributors / Overpass API",
+          "title": "overpass-site-geometries.json",
+          "accessedAt": "2026-10-12",
+          "requestMethod": "POST",
+          "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+          "sourceDate": "2026-10-12T09:27:36Z",
+          "dataCrs": "EPSG:4326 / WGS84",
+          "license": "ODbL 1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "licenseUrl": "https://www.openstreetmap.org/copyright",
+          "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+          "bytes": 10879,
+          "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+          "status": "downloaded",
+          "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary"
+        }
+      ]
+    },
+    {
+      "id": "alibaba-c",
+      "name": "阿里巴巴西溪 C 区 / 杭州全球总部",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/ali/evidence.json",
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          120.01851450000001,
+          30.28575155
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "sources": [
+        {
+          "id": "people-xixi-zones",
+          "url": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+          "finalUrl": "http://finance.people.com.cn/n1/2024/0510/c1004-40233098.html",
+          "path": "docs/hangzhou/research/ali/snapshots/people-xixi-zones.html",
+          "bytes": 38475,
+          "sha256": "d46be27bdf2c67c19ef5aa4b1299fa9798f71c76ca563fb591cfaf5610cf6d83",
+          "status": "downloaded",
+          "title": "阿里巴巴杭州全球总部正式启用",
+          "publisher": "人民网 / 中国网科技",
+          "sourceDate": "2024-05-10",
+          "authority": "public-news-owner-statements",
+          "use": "A/B/C identity functions and opening",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "nihonsekkei-phase5",
+          "url": "https://www.nihonsekkei.co.jp/think/ideas/case-study_17626/?lang=en",
+          "finalUrl": "https://www.nihonsekkei.co.jp/think/ideas/case-study_17626/?lang=en",
+          "status": "downloaded",
+          "path": "docs/hangzhou/research/ali/snapshots/nihonsekkei-phase5.html",
+          "bytes": 53760,
+          "sha256": "8dcd355af0ae4ab0645ebe3f73c52ceca052d7966f712a0479cf26172b6b4e30",
+          "title": "Global headquarters for 30,000 human resources from around the world",
+          "publisher": "Nihon Sekkei / 日本设计",
+          "sourceDate": "2022-01-17",
+          "authority": "architect",
+          "use": "Phase 5; six offices plus visitor; second-floor ring; south-side media roof",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "aspect-park-c",
+          "url": "https://www.aspect-studios.com/au/projects/alibaba-xixi-campus-park-c",
+          "finalUrl": "https://www.aspect-studios.com/au/projects/alibaba-xixi-campus-park-c",
+          "status": "downloaded",
+          "path": "docs/hangzhou/research/ali/snapshots/aspect-park-c.html",
+          "bytes": 102525,
+          "sha256": "ae835a09046ffd16969ef17d4056c71f31f9ced296fcf8fd8665f1a2cc61be90",
+          "title": "Alibaba Xixi Campus (Park C)",
+          "publisher": "ASPECT Studios",
+          "sourceDate": "2024",
+          "authority": "landscape-designer",
+          "use": "Park C identity; multi-storey podium; water and landscape",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "credaward-park-c",
+          "url": "https://www.credaward.com/project/365186/",
+          "finalUrl": "https://www.credaward.com/project/365186/",
+          "status": "downloaded",
+          "path": "docs/hangzhou/research/ali/snapshots/credaward-park-c.html",
+          "bytes": 78819,
+          "sha256": "16b144d33014f9b814302e5db4ed6c4a4634ec5607329395b66cd73309da8d00",
+          "title": "阿里巴巴全球总部（杭州西溪园区C区)",
+          "publisher": "CREDAWARD / project submission",
+          "sourceDate": null,
+          "authority": "awards-project-submission",
+          "use": "explicit Park C and architect identity; six offices plus visitor",
+          "accessedAt": "2026-10-12",
+          "license": "Copyright retained by source; no game-texture or redistribution license verified",
+          "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+          "imageUse": "reference only, not a runtime asset"
+        },
+        {
+          "id": "osm-site-geometries",
+          "url": "https://overpass-api.de/api/interpreter",
+          "publisher": "OpenStreetMap contributors / Overpass API",
+          "title": "overpass-site-geometries.json",
+          "accessedAt": "2026-10-12",
+          "requestMethod": "POST",
+          "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+          "sourceDate": "2026-10-12T09:27:36Z",
+          "dataCrs": "EPSG:4326 / WGS84",
+          "license": "ODbL 1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "licenseUrl": "https://www.openstreetmap.org/copyright",
+          "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+          "bytes": 10879,
+          "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+          "status": "downloaded",
+          "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary"
+        }
+      ]
+    },
+    {
+      "id": "bai-causeway",
+      "name": "白堤",
+      "kind": "linear-landscape",
+      "researchEvidence": "docs/hangzhou/research/core/bai-causeway.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "unesco-nomination",
+          "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+          "publisher": "中国缔约国提名文件 / UNESCO 发布",
+          "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+        }
+      ]
+    },
+    {
+      "id": "big-lotus",
+      "name": "杭州奥体中心主体育场（大莲花）",
+      "kind": "building",
+      "researchEvidence": "docs/hangzhou/research/core/big-lotus.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "lotus-2021",
+          "url": "https://www.hangzhou2022.cn/hzhyn/mlhz/202105/t20210514_26126.shtml",
+          "publisher": "杭州亚运会组委会官网",
+          "title": "杭州奥体中心：“莲花”盛放时 宾朋四方至",
+          "sourceDate": "2021-05-14",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "大莲花28大+27小，小莲花24固定+8开合；小莲花15分钟与2022页面20分钟有运行描述差异，无新增游戏机制要求。"
+        },
+        {
+          "id": "nbbj-olympic",
+          "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+          "publisher": "NBBJ 设计方",
+          "title": "杭州奥体中心",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "确认与CCDI合作、三层步行空间、公园/浅色地面/地下停车。中文页面积37000m²口径不清，不采用作为足印或综合体面积。"
+        },
+        {
+          "id": "ccdi-lotus",
+          "url": "https://www.archina.com/index.php?a=show&g=works&id=3484&m=index",
+          "publisher": "CCDI悉地国际项目投稿 / ARCHINA平台",
+          "title": "杭州奥体博览城主体育场",
+          "sourceDate": "2019-09-13",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary-designer-project-submission",
+          "accessMethod": "search-index-full-project-text; direct fetch redirect loop",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "给60.7m罩棚最高结构标高。投稿竣工年份2017、地点写萧山区青年路，与运营场馆2019启用/滨江飞虹路口径不同；不能直接混入当前邮政地址或竣工时间。"
+        }
+      ]
+    },
+    {
+      "id": "boao-tunnel",
+      "name": "博奥隧道（奥体至钱江新城必要过江通道）",
+      "kind": "tunnel",
+      "researchEvidence": "docs/hangzhou/research/core/boao-tunnel.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "boao-naming",
+          "url": "https://www.hangzhou.gov.cn/art/2021/11/12/art_1229063387_1804264.html",
+          "publisher": "杭州市人民政府",
+          "title": "杭州市人民政府关于对潮声路等部分道路桥梁隧道人行地道命名的批复",
+          "sourceDate": "2021-11-12",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "列博奥隧道2772m×9m和南北端位置；宽度未注明单管/整体口径。"
+        },
+        {
+          "id": "boao-designer",
+          "url": "https://www.hzyjfz.cn/index.php?a=detail&g=&id=42&m=project",
+          "publisher": "杭州市地下工程设计研究院相关项目网站",
+          "title": "博奥隧道",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "project-design-organization",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "全长约2.8km双向四车道、设计时速60km/h；网页精确机构版权未进一步核验，不据此定施工剖面。"
+        }
+      ]
+    },
+    {
+      "id": "broken-bridge",
+      "name": "断桥（断桥残雪）",
+      "kind": "bridge",
+      "researchEvidence": "docs/hangzhou/research/core/broken-bridge.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "ehangzhou-broken",
+          "url": "https://www.ehangzhou.gov.cn/2018-06/14/c_242889.htm",
+          "publisher": "杭州市人民政府新闻办公室英文网站",
+          "title": "Duanqiao Bridge Remnant Snow",
+          "sourceDate": "2018-06-14",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "图1528770914755017832.jpg存在链接；拍摄日期与方位未核验。"
+        },
+        {
+          "id": "unesco-nomination",
+          "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+          "publisher": "中国缔约国提名文件 / UNESCO 发布",
+          "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+        }
+      ]
+    },
+    {
+      "id": "city-balcony",
+      "name": "杭州城市阳台（主阳台与必要两翼衔接）",
+      "kind": "district",
+      "researchEvidence": "docs/hangzhou/research/core/city-balcony.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "balcony-hznews",
+          "url": "https://hznews.hangzhou.com.cn/xinzheng/quxian/content/2012-11/02/content_4457933_2.htm",
+          "publisher": "杭州网",
+          "title": "“世界屋顶绿化最佳示范区金奖”花落钱江新城",
+          "sourceDate": "2012-11-02",
+          "accessedAt": "2026-10-12",
+          "provenance": "local-government-news-context",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "沿岸底线宽150m、外挑80m×长320m；与考察文322m存在约数口径差，不定为测绘。"
+        },
+        {
+          "id": "balcony-fj",
+          "url": "https://www.fjtb.gov.cn/focus/201707hxlw/201708/t20170829_11836501.html",
+          "publisher": "福建省委台港澳工作办公室 / 海峡瞭望2017年第7期",
+          "title": "浙江行思录",
+          "sourceDate": "2017-08-29",
+          "accessedAt": "2026-10-12",
+          "provenance": "government-hosted-observer-report",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "主平台长约322m宽80m上下两层；不是杭州平台设计图。"
+        }
+      ]
+    },
+    {
+      "id": "civic-center",
+      "name": "杭州市民中心",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/core/civic-center.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "civic-paper",
+          "url": "https://global.ctbuh.org/resources/papers/download/1908-urban-mega-structure-vertical-landscape-of-hangzhou-civic-center.pdf",
+          "publisher": "Linxue Li / CTBUH 2014 Shanghai Conference",
+          "title": "Urban Mega-structure: Vertical Landscape of Hangzhou Civic Center",
+          "sourceDate": "2014",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary-designer-conference-paper",
+          "accessMethod": "search-index-extract; direct relocated PDF fetch failed",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "旧地址https://global.ctbuh.org/resources/papers/1908-Li_2014_UrbanMegaStructure.pdf返回404。论文p224英文字段连桥85m、中文90m；100m为概括，不等同于精确建筑高。"
+        },
+        {
+          "id": "civic-cvu6",
+          "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-6/15397",
+          "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+          "title": "Hangzhou Civic Center 6",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary-building-council-database",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "建筑高109.6m、使用楼层高99.4m、26层，只直接支持本记录tower6，不把tower6映射A-F标签或其他五塔高度当已核验。"
+        }
+      ]
+    },
+    {
+      "id": "fuxing-bridge",
+      "name": "复兴大桥（钱江四桥）",
+      "kind": "bridge",
+      "researchEvidence": "docs/hangzhou/research/core/fuxing-bridge.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "fuxing-2026",
+          "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+          "publisher": "上城史志 / 杭州市政协网站",
+          "title": "寻梦上城 | 复兴大桥",
+          "sourceDate": "2026-09-20",
+          "accessedAt": "2026-10-12",
+          "provenance": "government-local-history",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "两座190m主拱+9座85m小拱、主桥1376m、双层、上层六车道及下层组织。不是桥坡度施工图。"
+        }
+      ]
+    },
+    {
+      "id": "grand-theatre",
+      "name": "杭州大剧院",
+      "kind": "building",
+      "researchEvidence": "docs/hangzhou/research/core/grand-theatre.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "ott-grand",
+          "url": "https://carlosott.com/?project=hangzhou-grand-theatre",
+          "publisher": "Carlos Ott 设计方",
+          "title": "Hangzhou Grand Theatre",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-full-project-text; direct fetch timed out twice",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "列项目设计日期1999、2004完成、面积50000m²；未列建筑总高，不以歌剧厅舞台高度代替外部高度。"
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-gate",
+      "name": "杭州之门（杭州世纪中心）",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/core/hangzhou-gate.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "som-gate",
+          "url": "https://www.som.com/projects/greenland-hangzhou-century-center/",
+          "publisher": "SOM",
+          "title": "Greenland Hangzhou Century Center",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-text; direct fetch returned 403",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "项目页列 2023 竣工；竣工年份不是网页发布日期。总建筑面积口径与中文项目宣传的53万平方米不同，不由面积推导足印。"
+        }
+      ]
+    },
+    {
+      "id": "international-conference-center",
+      "name": "杭州国际会议中心（杭州洲际酒店ICC）",
+      "kind": "building",
+      "researchEvidence": "docs/hangzhou/research/core/international-conference-center.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "hunter-conference",
+          "url": "https://apvn.hunterdouglas.asia/project/hangzhou-international-conference-center",
+          "publisher": "Hunter Douglas 幕墙产品供应商",
+          "title": "HANGZHOU INTERNATIONAL CONFERENCE CENTER",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "报总高85m、球直径85m、椭圆附楼13m、金玻璃/蜂窝面板；二手百科裙房12m不能静默合并。"
+        },
+        {
+          "id": "icc-operator",
+          "url": "https://www.intercontinental.com/hotels/gb/en/hangzhou/hghha/hoteldetail?cid=145698&newRedirect=true&qDest=No.+2+Jiefang+East+Road%2C+Hangzhou%2C+ZJ%2C+CN&qSlH=hghha&setPMCookies=true",
+          "publisher": "InterContinental Hangzhou ICC 运营方",
+          "title": "InterContinental Hangzhou ICC",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "确认金球与对面月形大剧院的组合；当前客房384和会议面积不用于建模尺寸。"
+        }
+      ]
+    },
+    {
+      "id": "leifeng-pagoda",
+      "name": "雷峰塔（现雷峰新塔）",
+      "kind": "building",
+      "researchEvidence": "docs/hangzhou/research/core/leifeng-pagoda.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "wgly-leifeng",
+          "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+          "publisher": "杭州市文化广电旅游局",
+          "title": "雷峰塔（雷峰夕照）",
+          "sourceDate": "2022-12-01",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "原文“五面八层”与设计师材料八角五层冲突，不能静默当作测绘参数。通高71米为约数。"
+        },
+        {
+          "id": "tsinghua-leifeng",
+          "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+          "publisher": "人文清华讲坛，原创黄薏橦 / 澎湃号平台",
+          "title": "郭黛姮：雷峰新塔，彰显文化遗产魅力的里程碑",
+          "sourceDate": "2020-10-17",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary-institutional-account-with-designer-statements",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "包含新塔剖面/立面图、保护罩高度和柱网跨度。图片381.jpg/390.jpg抓取超时，396.jpg缓存未命中，本轮未读图。"
+        }
+      ]
+    },
+    {
+      "id": "lingyin-temple",
+      "name": "灵隐寺",
+      "kind": "building-group",
+      "researchEvidence": "docs/hangzhou/research/core/lingyin-temple.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "lingyin-2014",
+          "url": "https://www.lingyinsi.org/detail_44_7946.html",
+          "publisher": "灵隐寺运营方网站，编辑性恩行者",
+          "title": "千年古寺 大慈灵隐",
+          "sourceDate": "2014-08-08",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "现状寺院主轴五殿；历史鼎盛期九楼十八阁等不得作为当前楼数。文章图片部分来源mzb.com.cn，不默认拥有图片再发布权。"
+        },
+        {
+          "id": "lingyin-grand",
+          "url": "https://en.lingyinsi.org/detail_1141.html",
+          "publisher": "Lingyin Temple 运营方",
+          "title": "The Grand Hall",
+          "sourceDate": "2013-01-18",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "大雄宝殿面积1200m²为source reported，不由该面积假推长宽。"
+        },
+        {
+          "id": "lingyin-kings",
+          "url": "https://en.lingyinsi.org/list_82.html",
+          "publisher": "Lingyin Temple 运营方",
+          "title": "The Hall of Heavenly Kings",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "入口殿双檐；地址Fayun Lane Lingyin Road No.1只确认地点身份，不提供WGS84。"
+        }
+      ]
+    },
+    {
+      "id": "little-lotus",
+      "name": "杭州奥体中心网球决赛馆（小莲花）",
+      "kind": "building",
+      "researchEvidence": "docs/hangzhou/research/core/little-lotus.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "little-lotus-2022",
+          "url": "https://www.hangzhou2022.cn/sssg/sscg/202203/t20220330_46200.shtml",
+          "publisher": "杭州亚运会组委会官网",
+          "title": "杭州奥体中心网球中心",
+          "sourceDate": "2022-04-01",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "网页日期2022/04/01，URL含20220330。建筑面积523000m²与其他总中心约5.2万m²冲突，疑误，不用于足印。"
+        },
+        {
+          "id": "little-lotus-motion",
+          "url": "https://www.hangzhou2022.cn/xwzx/jdxw/ttxw/202206/t20220627_50173.shtml",
+          "publisher": "杭州亚运会组委会官网",
+          "title": "打卡亚运场馆“大小莲花” 高颜值场馆里藏着大智慧",
+          "sourceDate": "2022-06-27",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "官方采访转轴旋转/45°，是现有建筑能力证据，不代表上游游戏实现屋盖互动。"
+        },
+        {
+          "id": "nbbj-olympic",
+          "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+          "publisher": "NBBJ 设计方",
+          "title": "杭州奥体中心",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "确认与CCDI合作、三层步行空间、公园/浅色地面/地下停车。中文页面积37000m²口径不清，不采用作为足印或综合体面积。"
+        }
+      ]
+    },
+    {
+      "id": "qiantang-bridge",
+      "name": "钱塘江大桥（钱江一桥）",
+      "kind": "bridge",
+      "researchEvidence": "docs/hangzhou/research/core/qiantang-bridge.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "qiantang-archive",
+          "url": "https://www.zjda.gov.cn/col/col1402047/index.html",
+          "publisher": "浙江省档案馆",
+          "title": "钱塘江大桥专题",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "档案页报公路1453m×6.1m、铁路1322.1m；历史建桥/修复资料，未核验现状宽度与桥坡。"
+        }
+      ]
+    },
+    {
+      "id": "su-causeway",
+      "name": "苏堤",
+      "kind": "linear-landscape",
+      "researchEvidence": "docs/hangzhou/research/core/su-causeway.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "unesco-nomination",
+          "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+          "publisher": "中国缔约国提名文件 / UNESCO 发布",
+          "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+        }
+      ]
+    },
+    {
+      "id": "west-lake",
+      "name": "西湖",
+      "kind": "landscape",
+      "researchEvidence": "docs/hangzhou/research/core/west-lake.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "unesco-westlake",
+          "url": "https://whc.unesco.org/en/list/1334",
+          "publisher": "UNESCO World Heritage Centre",
+          "title": "West Lake Cultural Landscape of Hangzhou",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "网页描述文本标CC-BY-SA IGO 3.0；本条不把该许可扩张到提名PDF或所有照片。"
+        },
+        {
+          "id": "unesco-nomination",
+          "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+          "publisher": "中国缔约国提名文件 / UNESCO 发布",
+          "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+          "sourceDate": null,
+          "accessedAt": "2026-10-12",
+          "provenance": "primary",
+          "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+        }
+      ]
+    },
+    {
+      "id": "wulin-square",
+      "name": "武林广场",
+      "kind": "district",
+      "researchEvidence": "docs/hangzhou/research/core/wulin-square.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "wulin-current",
+          "url": "https://www.hzzx.gov.cn/cshz/content/2025-05/14/content_8994396.htm",
+          "publisher": "杭州市政协网站 / 都市快报，记者董吕平",
+          "title": "杭州武林广场“八少女”喷泉开始检修 5月22日恢复喷放",
+          "sourceDate": "2025-05-14",
+          "accessedAt": "2026-10-12",
+          "provenance": "government-hosted-original-field-report",
+          "accessMethod": "web-page-text-read",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "2025现场报道并回顾2016雕像复建；历史白水泥与现不锈钢喷白漆不混淆。"
+        }
+      ]
+    },
+    {
+      "id": "xixing-bridge",
+      "name": "西兴大桥（钱江三桥）旧桥形体与施工状态",
+      "kind": "bridge",
+      "researchEvidence": "docs/hangzhou/research/core/xixing-bridge.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "xixing-2026",
+          "url": "https://www.hzzx.gov.cn/zxyw/content/2026-10/12/content_9334487.htm",
+          "publisher": "上城史志 / 杭州市政协网站",
+          "title": "寻梦上城 | 西兴大桥",
+          "sourceDate": "2026-10-12",
+          "accessedAt": "2026-10-12",
+          "provenance": "government-local-history",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "81m双塔、1280m主桥为旧桥；改建2024启动/2027计划。本轮日历日期与文章日期相同，不将计划作为完工。"
+        },
+        {
+          "id": "xixing-closure",
+          "url": "https://www.hzzx.gov.cn/cshz/content/2025-11/10/content_9120865_0.htm",
+          "publisher": "杭州市政协网站，交通组织发布会报道",
+          "title": "时间定了！钱江三桥将全封闭断流施工！禁行范围确定，14条绕行路径公布",
+          "sourceDate": "2025-11-10",
+          "accessedAt": "2026-10-12",
+          "provenance": "government-hosted-traffic-announcement-report",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "2025-11-22零时起旧桥全封闭断流，禁止车辆行人；本条针对历史发布的施工状态。"
+        },
+        {
+          "id": "xixing-firstday",
+          "url": "https://hznews.hangzhou.com.cn/chengshi/content/2025-11/23/content_9129621_0.htm",
+          "publisher": "杭州网现场报道",
+          "title": "钱江三桥封闭施工首日周边交通情况如何？",
+          "sourceDate": "2025-11-23",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary-field-report",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "证实断流启动而非只有计划；新桥双层上层八车道是未来工程，不放进旧桥模型。"
+        }
+      ]
+    },
+    {
+      "id": "zhijiang-bridge",
+      "name": "之江大桥（钱江七桥）",
+      "kind": "bridge",
+      "researchEvidence": "docs/hangzhou/research/core/zhijiang-bridge.evidence.json",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": null,
+        "status": "unknown",
+        "sourceIds": []
+      },
+      "sources": [
+        {
+          "id": "zhijiang-transport",
+          "url": "https://tb.hangzhou.gov.cn/art/2017/9/8/art_1510413_19832695.html",
+          "publisher": "杭州市交通运输局",
+          "title": "2015版杭州市年鉴交通篇",
+          "sourceDate": "2017-09-08",
+          "accessedAt": "2026-10-12",
+          "provenance": "primary-government-transport-yearbook",
+          "accessMethod": "search-index-page-text",
+          "license": {
+            "status": "unknown",
+            "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+          },
+          "use": "reference-only; no photo texture generated or bundled",
+          "localPath": null,
+          "sha256": null,
+          "notes": "线路4.7km含接线；塔90.5m主桥宽40.5m；2013通车，不声称本轮通行实测。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "placeId": "grand-theatre",
+  "artifactSha256": null,
+  "evidenceSha256": null,
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound to its hash and named integration review; pure CPU report does not grant an artifact, visual or runtime pass."
+    }
+  },
+  "cpuCandidateReport": "docs/hangzhou/research/core/grand-theatre-round2/cpu-geometry-validation.json"
+}

@@ -1,0 +1,1418 @@
+[
+  {
+    "station": 57.75,
+    "rawEstimatedY": 4.946689546982412,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.6112124561596026,
+      -0.6112124561596026
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 0.4039047511071236
+  },
+  {
+    "station": 58.0,
+    "rawEstimatedY": 4.951468231111806,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.6064337720302087,
+      -0.6064337720302087
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 1.1389543115601728
+  },
+  {
+    "station": 58.25,
+    "rawEstimatedY": 4.9562469152411985,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.6016550879008165,
+      -0.6016550879008165
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 1.874003872013222
+  },
+  {
+    "station": 58.37788121652429,
+    "rawEstimatedY": 4.958691331000607,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5992106721414077,
+      -0.5992106721414077
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 2.249999999998858
+  },
+  {
+    "station": 58.5,
+    "rawEstimatedY": 4.962402466271265,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5954995368707499,
+      -0.5954995368707499
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 2.595289931104223
+  },
+  {
+    "station": 58.75,
+    "rawEstimatedY": 4.969999854578434,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5879021485635807,
+      -0.5879021485635807
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 3.3021630289141752
+  },
+  {
+    "station": 59.0,
+    "rawEstimatedY": 4.977597242885605,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5803047602564098,
+      -0.5803047602564098
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.009036126725342
+  },
+  {
+    "station": 59.25,
+    "rawEstimatedY": 4.985194631192776,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5727073719492388,
+      -0.5727073719492388
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 59.5,
+    "rawEstimatedY": 4.992792019499947,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5651099836420679,
+      -0.5651099836420679
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 59.75,
+    "rawEstimatedY": 5.000389407807118,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5575125953348969,
+      -0.5575125953348969
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 60.0,
+    "rawEstimatedY": 5.007986796114288,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5499152070277269,
+      -0.5499152070277269
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 60.25,
+    "rawEstimatedY": 5.015584184421459,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.542317818720556,
+      -0.542317818720556
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 60.5,
+    "rawEstimatedY": 5.023181572728629,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5347204304133859,
+      -0.5347204304133859
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 60.75,
+    "rawEstimatedY": 5.0307789610358,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.527123042106215,
+      -0.527123042106215
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 61.0,
+    "rawEstimatedY": 5.038376349342971,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.519525653799044,
+      -0.519525653799044
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 61.25,
+    "rawEstimatedY": 5.045973737650142,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.5119282654918731,
+      -0.5119282654918731
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 61.5,
+    "rawEstimatedY": 5.053571125957312,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.504330877184703,
+      -0.504330877184703
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 61.75,
+    "rawEstimatedY": 5.061168514264483,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.4967334888775321,
+      -0.4967334888775321
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 62.0,
+    "rawEstimatedY": 5.068765902571653,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.48913610057036205,
+      -0.48913610057036205
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 62.25,
+    "rawEstimatedY": 5.076363290878824,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.4815387122631911,
+      -0.4815387122631911
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 62.5,
+    "rawEstimatedY": 5.083960679185995,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.4739413239560202,
+      -0.4739413239560202
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 62.75,
+    "rawEstimatedY": 5.091558067493165,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.4663439356488501,
+      -0.4663439356488501
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 63.0,
+    "rawEstimatedY": 5.099155455800336,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.4587465473416792,
+      -0.4587465473416792
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 63.25,
+    "rawEstimatedY": 5.106752844107507,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.45114915903450825,
+      -0.45114915903450825
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 63.5,
+    "rawEstimatedY": 5.114350232414677,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.4435517707273382,
+      -0.4435517707273382
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 63.75,
+    "rawEstimatedY": 5.121947620721848,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.43595438242016726,
+      -0.43595438242016726
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.4999999999997495
+  },
+  {
+    "station": 63.786565032813634,
+    "rawEstimatedY": 5.123058815732846,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.43484318740916894,
+      -0.43484318740916894
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 64.0,
+    "rawEstimatedY": 5.128081245213507,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.4298207579285078,
+      -0.4298207579285078
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 64.25,
+    "rawEstimatedY": 5.133964102117028,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.42393790102498663,
+      -0.42393790102498663
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 64.5,
+    "rawEstimatedY": 5.1398469590205496,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.41805504412146544,
+      -0.41805504412146544
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 64.75,
+    "rawEstimatedY": 5.145729815924071,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.41217218721794424,
+      -0.41217218721794424
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 65.0,
+    "rawEstimatedY": 5.151612672827592,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.40628933031442305,
+      -0.40628933031442305
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 65.25,
+    "rawEstimatedY": 5.157495529731113,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.40040647341090185,
+      -0.40040647341090185
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 65.5,
+    "rawEstimatedY": 5.163378386634635,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.39452361650737977,
+      -0.39452361650737977
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.499999999999961
+  },
+  {
+    "station": 65.75,
+    "rawEstimatedY": 5.169261243538156,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3886407596038586,
+      -0.3886407596038586
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.499999999999961
+  },
+  {
+    "station": 66.0,
+    "rawEstimatedY": 5.1751441004416785,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3827579027003365,
+      -0.3827579027003365
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 66.25,
+    "rawEstimatedY": 5.1810269573452,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3768750457968153,
+      -0.3768750457968153
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 66.5,
+    "rawEstimatedY": 5.18690981424872,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.370992188893295,
+      -0.370992188893295
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 66.75,
+    "rawEstimatedY": 5.192792671152242,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3651093319897729,
+      -0.3651093319897729
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 67.0,
+    "rawEstimatedY": 5.198675528055762,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3592264750862526,
+      -0.3592264750862526
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 67.25,
+    "rawEstimatedY": 5.2045583849592845,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3533436181827305,
+      -0.3533436181827305
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 67.5,
+    "rawEstimatedY": 5.210441241862806,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.34746076127920933,
+      -0.34746076127920933
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 67.75,
+    "rawEstimatedY": 5.216324098766328,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.34157790437568725,
+      -0.34157790437568725
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 68.0,
+    "rawEstimatedY": 5.222206955669849,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.33569504747216605,
+      -0.33569504747216605
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 68.25,
+    "rawEstimatedY": 5.228089812573371,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.32981219056864397,
+      -0.32981219056864397
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 68.5,
+    "rawEstimatedY": 5.233972669476892,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3239293336651228,
+      -0.3239293336651228
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 68.75,
+    "rawEstimatedY": 5.239855526380413,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3180464767616016,
+      -0.3180464767616016
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 69.0,
+    "rawEstimatedY": 5.245738383283935,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3121636198580804,
+      -0.3121636198580804
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 69.25,
+    "rawEstimatedY": 5.251621240187456,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3062807629545592,
+      -0.3062807629545592
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 69.5,
+    "rawEstimatedY": 5.257504097090978,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.3003979060510371,
+      -0.3003979060510371
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 69.75,
+    "rawEstimatedY": 5.263386953994498,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.2945150491475168,
+      -0.2945150491475168
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 70.0,
+    "rawEstimatedY": 5.26926981089802,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.2886321922439947,
+      -0.2886321922439947
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 70.25,
+    "rawEstimatedY": 5.2751526678015415,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.28274933534047353,
+      -0.28274933534047353
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 70.5,
+    "rawEstimatedY": 5.281035524705063,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.27686647843695233,
+      -0.27686647843695233
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 70.75,
+    "rawEstimatedY": 5.286918381608585,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.27098362153343025,
+      -0.27098362153343025
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 71.0,
+    "rawEstimatedY": 5.292801238512105,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.26510076462990995,
+      -0.26510076462990995
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 71.25,
+    "rawEstimatedY": 5.298684095415627,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.25921790772638786,
+      -0.25921790772638786
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 71.5,
+    "rawEstimatedY": 5.304566952319148,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.25333505082286667,
+      -0.25333505082286667
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 71.75,
+    "rawEstimatedY": 5.31044980922267,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.2474521939193446,
+      -0.2474521939193446
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 72.0,
+    "rawEstimatedY": 5.316332666126191,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.24156933701582428,
+      -0.24156933701582428
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 72.25,
+    "rawEstimatedY": 5.322215523029713,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.2356864801123022,
+      -0.2356864801123022
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 72.5,
+    "rawEstimatedY": 5.328098379933234,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.229803623208781,
+      -0.229803623208781
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 72.75,
+    "rawEstimatedY": 5.333981236836755,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.2239207663052598,
+      -0.2239207663052598
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 73.0,
+    "rawEstimatedY": 5.339864093740276,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.21803790940173862,
+      -0.21803790940173862
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 73.25,
+    "rawEstimatedY": 5.3457469506437985,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.21215505249821653,
+      -0.21215505249821653
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 73.5,
+    "rawEstimatedY": 5.35162980754732,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.20627219559469534,
+      -0.20627219559469534
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 73.75,
+    "rawEstimatedY": 5.357512664450841,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.20038933869117415,
+      -0.20038933869117415
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 74.0,
+    "rawEstimatedY": 5.363395521354363,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.19450648178765206,
+      -0.19450648178765206
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 74.25,
+    "rawEstimatedY": 5.369278378257883,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.18862362488413176,
+      -0.18862362488413176
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 74.5,
+    "rawEstimatedY": 5.375161235161405,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.18274076798060968,
+      -0.18274076798060968
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 74.75,
+    "rawEstimatedY": 5.381044092064926,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.17685791107708937,
+      -0.17685791107708937
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 75.0,
+    "rawEstimatedY": 5.386926948968448,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.1709750541735673,
+      -0.1709750541735673
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 75.25,
+    "rawEstimatedY": 5.39280980587197,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.1650921972700452,
+      -0.1650921972700452
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 75.5,
+    "rawEstimatedY": 5.39869266277549,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.1592093403665249,
+      -0.1592093403665249
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 75.75,
+    "rawEstimatedY": 5.404575519679012,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.15332648346300282,
+      -0.15332648346300282
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 76.0,
+    "rawEstimatedY": 5.410458376582533,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.14744362655948162,
+      -0.14744362655948162
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 76.25,
+    "rawEstimatedY": 5.416341233486055,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.14156076965596043,
+      -0.14156076965596043
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 76.5,
+    "rawEstimatedY": 5.422224090389577,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.13567791275243835,
+      -0.13567791275243835
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 76.75,
+    "rawEstimatedY": 5.428106947293098,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.12979505584891715,
+      -0.12979505584891715
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 77.0,
+    "rawEstimatedY": 5.433989804196619,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.12391219894539596,
+      -0.12391219894539596
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 77.25,
+    "rawEstimatedY": 5.43987266110014,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.11802934204187476,
+      -0.11802934204187476
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 77.5,
+    "rawEstimatedY": 5.445755518003661,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.11214648513835357,
+      -0.11214648513835357
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 77.75,
+    "rawEstimatedY": 5.451638374907183,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.10626362823483237,
+      -0.10626362823483237
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 78.0,
+    "rawEstimatedY": 5.457521231810704,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.10038077133131118,
+      -0.10038077133131118
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 78.25,
+    "rawEstimatedY": 5.463404088714226,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.0944979144277891,
+      -0.0944979144277891
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 78.5,
+    "rawEstimatedY": 5.469286945617747,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.0886150575242679,
+      -0.0886150575242679
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 78.75,
+    "rawEstimatedY": 5.475169802521268,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.08273220062074671,
+      -0.08273220062074671
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 79.0,
+    "rawEstimatedY": 5.48105265942479,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.07684934371722463,
+      -0.07684934371722463
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 79.25,
+    "rawEstimatedY": 5.486935516328311,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.07096648681370432,
+      -0.07096648681370432
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 79.5,
+    "rawEstimatedY": 5.492818373231833,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.06508362991018224,
+      -0.06508362991018224
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 79.75,
+    "rawEstimatedY": 5.498701230135354,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.059200773006661045,
+      -0.059200773006661045
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 80.0,
+    "rawEstimatedY": 5.504584087038875,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.05331791610313985,
+      -0.05331791610313985
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 80.25,
+    "rawEstimatedY": 5.510466943942397,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.04743505919961777,
+      -0.04743505919961777
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 80.5,
+    "rawEstimatedY": 5.516349800845918,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.041552202296096574,
+      -0.041552202296096574
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 80.75,
+    "rawEstimatedY": 5.52223265774944,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.03566934539257538,
+      -0.03566934539257538
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 81.0,
+    "rawEstimatedY": 5.528115514652961,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.029786488489054186,
+      -0.029786488489054186
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 81.25,
+    "rawEstimatedY": 5.533998371556483,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.023903631585532104,
+      -0.023903631585532104
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 81.5,
+    "rawEstimatedY": 5.539881228460004,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.01802077468201091,
+      -0.01802077468201091
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 81.75,
+    "rawEstimatedY": 5.545764085363525,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.012137917778489715,
+      -0.012137917778489715
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 82.0,
+    "rawEstimatedY": 5.5516469422670465,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.006255060874968521,
+      -0.006255060874968521
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 82.25,
+    "rawEstimatedY": 5.557529799170568,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      -0.00037220397144732686,
+      -0.00037220397144732686
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 82.5,
+    "rawEstimatedY": 5.56341265607409,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.0055106529320747555,
+      0.0055106529320747555
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 82.75,
+    "rawEstimatedY": 5.569295512977611,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.01139350983559595,
+      0.01139350983559595
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 83.0,
+    "rawEstimatedY": 5.575178369881132,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.017276366739117144,
+      0.017276366739117144
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 83.25,
+    "rawEstimatedY": 5.581061226784653,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.023159223642638338,
+      0.023159223642638338
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 83.5,
+    "rawEstimatedY": 5.586944083688175,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.02904208054616042,
+      0.02904208054616042
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 83.75,
+    "rawEstimatedY": 5.592826940591696,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.034924937449680726,
+      0.034924937449680726
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 84.0,
+    "rawEstimatedY": 5.598709797495218,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.04080779435320281,
+      0.04080779435320281
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 84.25,
+    "rawEstimatedY": 5.604592654398739,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.046690651256724,
+      0.046690651256724
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 84.5,
+    "rawEstimatedY": 5.61047551130226,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.0525735081602452,
+      0.0525735081602452
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 84.75,
+    "rawEstimatedY": 5.616358368205782,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.05845636506376728,
+      0.05845636506376728
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 85.0,
+    "rawEstimatedY": 5.6222412251093035,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.06433922196728847,
+      0.06433922196728847
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 85.25,
+    "rawEstimatedY": 5.628124082012825,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.07022207887080967,
+      0.07022207887080967
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 85.5,
+    "rawEstimatedY": 5.634006938916346,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.07610493577433086,
+      0.07610493577433086
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 85.75,
+    "rawEstimatedY": 5.639889795819868,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.08198779267785294,
+      0.08198779267785294
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 86.0,
+    "rawEstimatedY": 5.645772652723388,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.08787064958137325,
+      0.08787064958137325
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.500000000000036
+  },
+  {
+    "station": 86.25,
+    "rawEstimatedY": 5.651655509626909,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.09375350648489444,
+      0.09375350648489444
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.486510544644499
+  },
+  {
+    "station": 86.40524906574782,
+    "rawEstimatedY": 5.655308741779709,
+    "upperMinY": 5.557902003142015,
+    "upperMaxY": 5.557902003142015,
+    "rawMinusUpperRange": [
+      0.09740673863769445,
+      0.09740673863769445
+    ],
+    "widthGame": 4.5,
+    "supportedWidthGame": 4.467326586273436
+  }
+]

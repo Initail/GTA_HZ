@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "id": "leifeng-pagoda",
+  "cityId": "hangzhou",
+  "scope": "Source-bound finite exterior candidate: mapped octagonal protection base, five-storey body, five main roofs, four waist roofs and finial; full site, exact entrances, interior and runtime validation pending.",
+  "anchor": {
+    "lon": 120.14501471758403,
+    "lat": 30.23388616474085
+  },
+  "coordinateContract": "scripts/city_config.py load_city(hangzhou) + project(); physical dimensions scale once, lm.x/lm.z/lm.y are game units; Blender east/north/up; no root rotation",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "baseBuildingIdsToExclude": [
+    "way/229726934"
+  ],
+  "heightM": 71,
+  "heightBasis": "reported-approximate",
+  "heightSourceIds": [
+    "wgly-leifeng"
+  ],
+  "heightUncertainty": "±1m conservative allowance for rounded published height; 71.7 OSM tag and 71.679 secondary publication not claimed measured",
+  "base": {
+    "osmWayId": 229726934,
+    "footprintWGS84": [
+      [
+        120.1447113,
+        30.2337857
+      ],
+      [
+        120.1448883,
+        30.2336304
+      ],
+      [
+        120.1451356,
+        30.2336363
+      ],
+      [
+        120.1453127,
+        30.2337916
+      ],
+      [
+        120.1453148,
+        30.2340059
+      ],
+      [
+        120.1451405,
+        30.2341379
+      ],
+      [
+        120.1448936,
+        30.2341356
+      ],
+      [
+        120.1447113,
+        30.2339757
+      ],
+      [
+        120.1447113,
+        30.2337857
+      ]
+    ],
+    "centroidWGS84": [
+      120.14501471758403,
+      30.23388616474085
+    ],
+    "heritageCoverHeightM": 9.7,
+    "heritageCoverBasis": "reported",
+    "heritageCoverSourceIds": [
+      "tsinghua-leifeng"
+    ],
+    "outlineSemantic": "mapped broad exterior envelope; protection terrace/base interpretation estimated; not upper tower diameter"
+  },
+  "levels": [
+    [
+      9.7,
+      12.8,
+      17.2,
+      15.8,
+      21.7,
+      21.0
+    ],
+    [
+      22.4,
+      10.8,
+      12.9,
+      26.7,
+      29.3,
+      14.8
+    ],
+    [
+      29.8,
+      10.2,
+      12.3,
+      34.2,
+      36.8,
+      14.0
+    ],
+    [
+      37.2,
+      9.7,
+      11.7,
+      41.6,
+      44.2,
+      13.4
+    ],
+    [
+      44.7,
+      9.2,
+      11.1,
+      49.0,
+      55.5,
+      12.8
+    ]
+  ],
+  "estimates": {
+    "levels": {
+      "value": [
+        [
+          9.7,
+          12.8,
+          17.2,
+          15.8,
+          21.7,
+          21.0
+        ],
+        [
+          22.4,
+          10.8,
+          12.9,
+          26.7,
+          29.3,
+          14.8
+        ],
+        [
+          29.8,
+          10.2,
+          12.3,
+          34.2,
+          36.8,
+          14.0
+        ],
+        [
+          37.2,
+          9.7,
+          11.7,
+          41.6,
+          44.2,
+          13.4
+        ],
+        [
+          44.7,
+          9.2,
+          11.1,
+          49.0,
+          55.5,
+          12.8
+        ]
+      ],
+      "unit": "m",
+      "basis": "estimated",
+      "method": "five rows [gallery floor, core circumradius, column circumradius, major eave height, roof inner/top height, eave circumradius]; ratios traced from THUPDI section and checked against south-front real photo, scaled by reported approx 71m; first floor uses reported cover 9.7m",
+      "uncertainty": "gallery/main-eave levels ±2m; core/column/eave radii ±15%; no measured floor plan or construction drawing"
+    },
+    "octagonVertexAngleDegrees": {
+      "value": 22.8,
+      "unit": "degrees counterclockwise from east",
+      "basis": "estimated",
+      "method": "regular upper octagon aligned to mapped near-cardinal north/east base faces; vertex angle22.5° + estimated .3° face twist",
+      "uncertainty": "±2° from map-edge irregularity; applies to regular upper profiles, source base is preserved exactly"
+    },
+    "eaveCornerLiftM": {
+      "value": 0.65,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "small convex corner upsweep seen in south-front photo; ratio to approx71m",
+      "uncertainty": "±.3m; curved tiles/ornaments simplified"
+    },
+    "waistCornerLiftM": {
+      "value": 0.26,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "smaller gallery waist-eave upsweep in section/photo",
+      "uncertainty": "±.15m; no tile schedule"
+    },
+    "finialBaseM": {
+      "value": 55.5,
+      "unit": "m above candidate base",
+      "basis": "estimated",
+      "method": "gold finial base relative to total section height and source south-front photo",
+      "uncertainty": "±2m; ring counts/diameters are representative decorative expression"
+    },
+    "coverTopPlanFactor": {
+      "value": 0.94,
+      "unit": "ratio",
+      "basis": "estimated",
+      "method": "limited slope representation of broad cover base, preserving real mapped outer ring at ground and terrace",
+      "uncertainty": "±.06 factor; photos obscure sides; not a structural/survey reconstruction"
+    },
+    "decorativeMembers": {
+      "value": {
+        "columnRadiusM": 0.2,
+        "balustradeHeightM": 1.18,
+        "balustradeBaysPerOctagonSide": 4,
+        "roofSideSubdivisions": 4,
+        "mainColumnsPerSideIncludingSharedCorner": 3
+      },
+      "basis": "estimated",
+      "method": "bounded representative rhythm from front photo and section; no independently confirmed schedule",
+      "uncertainty": "widths ±40%; bay count and bracket shapes are abstraction, not quantity survey"
+    }
+  },
+  "referenceImages": [
+    {
+      "id": "thupdi-south-front",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+      "sha256": "dbe56617ff2595da3539498b8b0ec1269ea9be79226940ccdd5c0ded3ce1f558",
+      "downloadBytes": 743493,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "south approach looking north, estimated",
+        "bearingTowardDegrees": 3,
+        "allowanceDegrees": 15
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "thupdi-lake-day",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+      "sha256": "c9f4d9f265d6ddc5c5b13d84d5d62e222974f70c61575f2d259e9891bbd4060c",
+      "downloadBytes": 332705,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "lake north/northeast sector looking southwest to south, estimated",
+        "bearingTowardDegrees": 210,
+        "allowanceDegrees": 35
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "thupdi-section",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+      "sha256": "06b99ff5498c6075dfd1df1e60c5e9e6bb3db15b534484957df1a413e9298519",
+      "downloadBytes": 149033,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "design-drawing",
+      "viewDirection": {
+        "description": "section drawing, direction unlabelled",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "tsinghua-section",
+      "sourceId": "tsinghua-leifeng",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/381.jpg",
+      "sha256": "7c31fddf6f1f1525c8f6866b8f8e408093fb60795cf50dfb29c98cf7f09c7717",
+      "downloadBytes": 21772,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "design-drawing",
+      "viewDirection": {
+        "description": "paired section/elevation drawing, direction unlabelled",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "tsinghua-lake-day",
+      "sourceId": "tsinghua-leifeng",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/390.jpg",
+      "sha256": "27b67aff51ac323814da08650fd7a9b00cbce4e997714feeb7b7d9e0568ce1a2",
+      "downloadBytes": 43400,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "lake northern sector toward south, estimated",
+        "bearingTowardDegrees": 180,
+        "allowanceDegrees": 45
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    }
+  ],
+  "pendingSubscopes": [
+    "exact footprint semantics and as-built tower floor plan",
+    "terrace/cover side surfaces and full entrances/stairs/escalators",
+    "precise roof curve, tile ornament and copper finish",
+    "ground/terrain elevation datum and connected arrival",
+    "heritage interior and archaeological remains",
+    "full all-side facade observations and signage",
+    "GLB build, visual/collision/game-browser/performance review"
+  ],
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  }
+}

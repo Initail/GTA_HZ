@@ -1,0 +1,60 @@
+{
+  "id": "civic-center",
+  "scope": "Finite Civic Center core candidate: six mapped arc towers with reported109.6m/26-floor envelope, high annular enclosed connection, four exact mapped L podium plans, estimated lower curved central ring canopy/open roof garden, two mapped roof pavilions, bounded water/walk/greenery. Fullentry/G1G2/underground/site/terrain and runtime acceptance pending.",
+  "towerCount": 6,
+  "podiumCount": 4,
+  "roofPavilionCount": 2,
+  "reportedTowerHeightM": 109.6,
+  "annularSkybridge": true,
+  "centralGardenOpen": true,
+  "generatedFaces": 11185,
+  "triangleCountBeforeExport": 22021,
+  "materials": [
+    "bark",
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "leaf",
+    "pavement",
+    "roof",
+    "silver",
+    "steel",
+    "water"
+  ],
+  "newLights": 0,
+  "geographyCityId": "hangzhou",
+  "projectionOriginWGS84": [
+    120.155,
+    30.274
+  ],
+  "sourceSpec": "docs/hangzhou/research/core/civic-center-round2/spec.json",
+  "collisionStatus": "pending; conservative ground footprints only, roofgarden/entries not verified traversable",
+  "checks": {
+    "finiteVertices": true,
+    "noDegenerateTriangleFans": true,
+    "sixFourTwoComponentCounts": true,
+    "mappedFootprintAndConcavePodiumArea": true,
+    "annularBridgeDoesNotCapCenter": true,
+    "oneTimeScaleAndGameBasePreserved": true,
+    "sourceAnchorSurvivesShiftedLm": true,
+    "frameRestoredSuccessAndFailure": true,
+    "cpuBudget": true,
+    "noSceneImports": true,
+    "undergroundNotRemoved": true
+  },
+  "sourceModuleSha256": "280ba9ab5d0bf112ea6bee9ebb3a3fb37e7fc3a1e428f3f08f7e732d0057d102",
+  "specSha256": "d38e37d5c9abffda2e0660cdbb24ed16eb2c730e784050741bb527d512047948",
+  "boundsGameENU": {
+    "min": [
+      2783.0437676405168,
+      -1777.3736703510804,
+      2.5
+    ],
+    "max": [
+      3014.9419509834424,
+      -1548.112374589045,
+      68.25999999999999
+    ]
+  },
+  "validationScope": "Pure CPU FakeB primitive accounting/projection only, not final Blender/GLB bytes or triangulation, visual/PBR, terrain, access/collision, GPU/browser/night/FPS acceptance."
+}

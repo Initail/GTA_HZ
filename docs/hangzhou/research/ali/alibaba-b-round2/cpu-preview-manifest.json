@@ -1,0 +1,20 @@
+{
+  "sourceModuleSha256": "6c7295850eb698cf17683dda1ef311d1f2d1fd7932006ed15ec60e245641389d",
+  "specSha256": "13b5e859b1617d1c1ffeeaaf6eaef64253a0ee37c8aad029d30453bed4d28ebe",
+  "command": "python3 docs/hangzhou/research/ali/alibaba-b-round2/render_cpu_preview.py",
+  "kind": "CPU orthographic painter geometry preview, not real game screenshot",
+  "images": [
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-b-round2/cpu-preview-top.png",
+      "sha256": "9bf6073ed226ccd089c1e03d3c7de246d3ccbefc886fa7c34159d1ef3e4843c9"
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-b-round2/cpu-preview-southeast.png",
+      "sha256": "9c5036ba3034422c8358ccd3c21f41b7b82810ee3d2293141ab47df35b42cd9a"
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-b-round2/cpu-preview-south.png",
+      "sha256": "1899f5c5132e54588a8eb0dc0e871421558256541094c0839d23822a20e791aa"
+    }
+  ]
+}

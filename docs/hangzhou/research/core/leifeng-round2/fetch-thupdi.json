@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://img.thupdi.com/project/2013/07/1782-ca9b0486-a76b-4541-b7c9-5bc2179d5b6e.jpg",
+    "path": "<TEMP>/leifeng-research/1782-ca9b0486-a76b-4541-b7c9-5bc2179d5b6e.jpg",
+    "bytes": 355307,
+    "sha256": "3aa6f922f728ba74e2c2c0088a5e24ffe16d1bc80a4710899051bd5fd9b9f616",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/logo-1782-ca9b0486-a76b-4541-b7c9-5bc2179d5b6e.jpg",
+    "path": "<TEMP>/leifeng-research/logo-1782-ca9b0486-a76b-4541-b7c9-5bc2179d5b6e.jpg",
+    "bytes": 9790,
+    "sha256": "827bb5ddf8ba39eff33122e4ec4be732db24ec8bd1b4c360bfc2e15ccaaf81ab",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+    "path": "<TEMP>/leifeng-research/1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+    "bytes": 743493,
+    "sha256": "dbe56617ff2595da3539498b8b0ec1269ea9be79226940ccdd5c0ded3ce1f558",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/logo-1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+    "path": "<TEMP>/leifeng-research/logo-1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+    "bytes": 22068,
+    "sha256": "5009efc452d152c2da2e344cfa1781e846ead31f6379c59d56cce505e3abb8f6",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/1782-0f872a15-2593-475c-9279-55068c22c4ef.jpg",
+    "path": "<TEMP>/leifeng-research/1782-0f872a15-2593-475c-9279-55068c22c4ef.jpg",
+    "bytes": 256657,
+    "sha256": "392b71567d8f5c2c8041e2f5d50e0bc1de256f8956307aeb0efbdc5e25a4b093",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/logo-1782-0f872a15-2593-475c-9279-55068c22c4ef.jpg",
+    "path": "<TEMP>/leifeng-research/logo-1782-0f872a15-2593-475c-9279-55068c22c4ef.jpg",
+    "bytes": 14450,
+    "sha256": "9edcfa8985f22020b12133a679e7e2edc8eb836e7c77b311a2ab0e53f9cfc9c3",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+    "path": "<TEMP>/leifeng-research/1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+    "bytes": 149033,
+    "sha256": "06b99ff5498c6075dfd1df1e60c5e9e6bb3db15b534484957df1a413e9298519",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/logo-1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+    "path": "<TEMP>/leifeng-research/logo-1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+    "bytes": 13797,
+    "sha256": "d982bbe8fad7ea825cad082d1fbe58e03a880033644304a0652d89d77ca5e8fa",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+    "path": "<TEMP>/leifeng-research/1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+    "bytes": 332705,
+    "sha256": "c9f4d9f265d6ddc5c5b13d84d5d62e222974f70c61575f2d259e9891bbd4060c",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://img.thupdi.com/project/2013/07/logo-1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+    "path": "<TEMP>/leifeng-research/logo-1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+    "bytes": 12276,
+    "sha256": "d9e71114cacec32082c4656ac31b5c39cb67fa6c51ec0178ed7a390c72d10d75",
+    "status": "reference-cache-only"
+  }
+]

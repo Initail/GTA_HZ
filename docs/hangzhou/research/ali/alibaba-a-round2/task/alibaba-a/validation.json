@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-a",
+  "artifactSha256": null,
+  "evidenceSha256": "6b4325c026f956eca7ff53912d5aa50457f13f6fa62659c9b16d85a586586683",
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPUsource/geometry andpainterpreviews do not replace actualGLB/context/collision/GPU/daynight/browser/performance acceptance."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "actualGlbMatchesFrozenCandidate": true,
+  "actualTriangles": 26026,
+  "remainingActualShore3dPairs": 625,
+  "maskFiles": 8,
+  "existingWitnessesUncovered": 0,
+  "newClippedSolidsBuilt": false,
+  "terrainChanged": false,
+  "physicalVisualAcceptance": false,
+  "sharedFilesModified": false,
+  "sourceArtifactSha256": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757"
+}

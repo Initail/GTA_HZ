@@ -1,0 +1,4923 @@
+[
+  {
+    "id": "city-balcony:lower-slab",
+    "thicknessGame": 0.39,
+    "triangles": 27,
+    "missingTopOrBottomTriangles": [],
+    "actualFaceLinks": [
+      {
+        "triangle": 0,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 0
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 1
+          }
+        ]
+      },
+      {
+        "triangle": 1,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 2
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 3
+          }
+        ]
+      },
+      {
+        "triangle": 2,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 4
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 5
+          }
+        ]
+      },
+      {
+        "triangle": 3,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 6
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 7
+          }
+        ]
+      },
+      {
+        "triangle": 4,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 8
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 9
+          }
+        ]
+      },
+      {
+        "triangle": 5,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 10
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 11
+          }
+        ]
+      },
+      {
+        "triangle": 6,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 12
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 13
+          }
+        ]
+      },
+      {
+        "triangle": 7,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 14
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 15
+          }
+        ]
+      },
+      {
+        "triangle": 8,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 16
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 17
+          }
+        ]
+      },
+      {
+        "triangle": 9,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 18
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 19
+          }
+        ]
+      },
+      {
+        "triangle": 10,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 20
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 21
+          }
+        ]
+      },
+      {
+        "triangle": 11,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 22
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 23
+          }
+        ]
+      },
+      {
+        "triangle": 12,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 24
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 25
+          }
+        ]
+      },
+      {
+        "triangle": 13,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 26
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 27
+          }
+        ]
+      },
+      {
+        "triangle": 14,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 28
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 29
+          }
+        ]
+      },
+      {
+        "triangle": 15,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 30
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 31
+          }
+        ]
+      },
+      {
+        "triangle": 16,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 32
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 33
+          }
+        ]
+      },
+      {
+        "triangle": 17,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 34
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 35
+          }
+        ]
+      },
+      {
+        "triangle": 18,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 36
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 37
+          }
+        ]
+      },
+      {
+        "triangle": 19,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 38
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 39
+          }
+        ]
+      },
+      {
+        "triangle": 20,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 40
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 41
+          }
+        ]
+      },
+      {
+        "triangle": 21,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 42
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 43
+          }
+        ]
+      },
+      {
+        "triangle": 22,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 44
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 45
+          }
+        ]
+      },
+      {
+        "triangle": 23,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 46
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 47
+          }
+        ]
+      },
+      {
+        "triangle": 24,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 48
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 49
+          }
+        ]
+      },
+      {
+        "triangle": 25,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 50
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 51
+          }
+        ]
+      },
+      {
+        "triangle": 26,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 52
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 53
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "city-balcony:upper-slab",
+    "thicknessGame": 0.39,
+    "triangles": 300,
+    "missingTopOrBottomTriangles": [],
+    "actualFaceLinks": [
+      {
+        "triangle": 0,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 0
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 100
+          }
+        ]
+      },
+      {
+        "triangle": 1,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 1
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 101
+          }
+        ]
+      },
+      {
+        "triangle": 2,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 2
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 102
+          }
+        ]
+      },
+      {
+        "triangle": 3,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 3
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 103
+          }
+        ]
+      },
+      {
+        "triangle": 4,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 4
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 104
+          }
+        ]
+      },
+      {
+        "triangle": 5,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 5
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 105
+          }
+        ]
+      },
+      {
+        "triangle": 6,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 6
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 106
+          }
+        ]
+      },
+      {
+        "triangle": 7,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 7
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 107
+          }
+        ]
+      },
+      {
+        "triangle": 8,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 8
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 108
+          }
+        ]
+      },
+      {
+        "triangle": 9,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 9
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 109
+          }
+        ]
+      },
+      {
+        "triangle": 10,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 10
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 110
+          }
+        ]
+      },
+      {
+        "triangle": 11,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_roof",
+            "triangleIndex": 11
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 111
+          }
+        ]
+      },
+      {
+        "triangle": 12,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 112
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 113
+          }
+        ]
+      },
+      {
+        "triangle": 13,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 114
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 115
+          }
+        ]
+      },
+      {
+        "triangle": 14,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 116
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 117
+          }
+        ]
+      },
+      {
+        "triangle": 15,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 118
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 119
+          }
+        ]
+      },
+      {
+        "triangle": 16,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 120
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 121
+          }
+        ]
+      },
+      {
+        "triangle": 17,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 122
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 123
+          }
+        ]
+      },
+      {
+        "triangle": 18,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 124
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 125
+          }
+        ]
+      },
+      {
+        "triangle": 19,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 126
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 127
+          }
+        ]
+      },
+      {
+        "triangle": 20,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 128
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 129
+          }
+        ]
+      },
+      {
+        "triangle": 21,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 130
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 131
+          }
+        ]
+      },
+      {
+        "triangle": 22,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 132
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 133
+          }
+        ]
+      },
+      {
+        "triangle": 23,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 134
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 135
+          }
+        ]
+      },
+      {
+        "triangle": 24,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 136
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 137
+          }
+        ]
+      },
+      {
+        "triangle": 25,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 138
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 139
+          }
+        ]
+      },
+      {
+        "triangle": 26,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 140
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 141
+          }
+        ]
+      },
+      {
+        "triangle": 27,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 142
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 143
+          }
+        ]
+      },
+      {
+        "triangle": 28,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 144
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 145
+          }
+        ]
+      },
+      {
+        "triangle": 29,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 146
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 147
+          }
+        ]
+      },
+      {
+        "triangle": 30,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 148
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 149
+          }
+        ]
+      },
+      {
+        "triangle": 31,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 150
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 151
+          }
+        ]
+      },
+      {
+        "triangle": 32,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 152
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 153
+          }
+        ]
+      },
+      {
+        "triangle": 33,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 154
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 155
+          }
+        ]
+      },
+      {
+        "triangle": 34,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 156
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 157
+          }
+        ]
+      },
+      {
+        "triangle": 35,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 158
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 159
+          }
+        ]
+      },
+      {
+        "triangle": 36,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 160
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 161
+          }
+        ]
+      },
+      {
+        "triangle": 37,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 162
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 163
+          }
+        ]
+      },
+      {
+        "triangle": 38,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 164
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 165
+          }
+        ]
+      },
+      {
+        "triangle": 39,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 166
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 167
+          }
+        ]
+      },
+      {
+        "triangle": 40,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 168
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 169
+          }
+        ]
+      },
+      {
+        "triangle": 41,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 170
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 171
+          }
+        ]
+      },
+      {
+        "triangle": 42,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 172
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 173
+          }
+        ]
+      },
+      {
+        "triangle": 43,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 174
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 175
+          }
+        ]
+      },
+      {
+        "triangle": 44,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 176
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 177
+          }
+        ]
+      },
+      {
+        "triangle": 45,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 178
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 179
+          }
+        ]
+      },
+      {
+        "triangle": 46,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 180
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 181
+          }
+        ]
+      },
+      {
+        "triangle": 47,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 182
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 183
+          }
+        ]
+      },
+      {
+        "triangle": 48,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 184
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 185
+          }
+        ]
+      },
+      {
+        "triangle": 49,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 186
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 187
+          }
+        ]
+      },
+      {
+        "triangle": 50,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 188
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 189
+          }
+        ]
+      },
+      {
+        "triangle": 51,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 190
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 191
+          }
+        ]
+      },
+      {
+        "triangle": 52,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 192
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 193
+          }
+        ]
+      },
+      {
+        "triangle": 53,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 194
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 195
+          }
+        ]
+      },
+      {
+        "triangle": 54,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 196
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 197
+          }
+        ]
+      },
+      {
+        "triangle": 55,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 198
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 199
+          }
+        ]
+      },
+      {
+        "triangle": 56,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 200
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 201
+          }
+        ]
+      },
+      {
+        "triangle": 57,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 202
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 203
+          }
+        ]
+      },
+      {
+        "triangle": 58,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 204
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 205
+          }
+        ]
+      },
+      {
+        "triangle": 59,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 206
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 207
+          }
+        ]
+      },
+      {
+        "triangle": 60,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 208
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 209
+          }
+        ]
+      },
+      {
+        "triangle": 61,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 210
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 211
+          }
+        ]
+      },
+      {
+        "triangle": 62,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 212
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 213
+          }
+        ]
+      },
+      {
+        "triangle": 63,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 214
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 215
+          }
+        ]
+      },
+      {
+        "triangle": 64,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 216
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 217
+          }
+        ]
+      },
+      {
+        "triangle": 65,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 218
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 219
+          }
+        ]
+      },
+      {
+        "triangle": 66,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 220
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 221
+          }
+        ]
+      },
+      {
+        "triangle": 67,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 222
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 223
+          }
+        ]
+      },
+      {
+        "triangle": 68,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 224
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 225
+          }
+        ]
+      },
+      {
+        "triangle": 69,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 226
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 227
+          }
+        ]
+      },
+      {
+        "triangle": 70,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 228
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 229
+          }
+        ]
+      },
+      {
+        "triangle": 71,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 230
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 231
+          }
+        ]
+      },
+      {
+        "triangle": 72,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 232
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 233
+          }
+        ]
+      },
+      {
+        "triangle": 73,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 234
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 235
+          }
+        ]
+      },
+      {
+        "triangle": 74,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 236
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 237
+          }
+        ]
+      },
+      {
+        "triangle": 75,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 238
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 239
+          }
+        ]
+      },
+      {
+        "triangle": 76,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 240
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 241
+          }
+        ]
+      },
+      {
+        "triangle": 77,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 242
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 243
+          }
+        ]
+      },
+      {
+        "triangle": 78,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 244
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 245
+          }
+        ]
+      },
+      {
+        "triangle": 79,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 246
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 247
+          }
+        ]
+      },
+      {
+        "triangle": 80,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 248
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 249
+          }
+        ]
+      },
+      {
+        "triangle": 81,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 250
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 251
+          }
+        ]
+      },
+      {
+        "triangle": 82,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 252
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 253
+          }
+        ]
+      },
+      {
+        "triangle": 83,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 254
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 255
+          }
+        ]
+      },
+      {
+        "triangle": 84,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 256
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 257
+          }
+        ]
+      },
+      {
+        "triangle": 85,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 258
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 259
+          }
+        ]
+      },
+      {
+        "triangle": 86,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 260
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 261
+          }
+        ]
+      },
+      {
+        "triangle": 87,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 262
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 263
+          }
+        ]
+      },
+      {
+        "triangle": 88,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 264
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 265
+          }
+        ]
+      },
+      {
+        "triangle": 89,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 266
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 267
+          }
+        ]
+      },
+      {
+        "triangle": 90,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 268
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 269
+          }
+        ]
+      },
+      {
+        "triangle": 91,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 270
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 271
+          }
+        ]
+      },
+      {
+        "triangle": 92,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 272
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 273
+          }
+        ]
+      },
+      {
+        "triangle": 93,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 274
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 275
+          }
+        ]
+      },
+      {
+        "triangle": 94,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 276
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 277
+          }
+        ]
+      },
+      {
+        "triangle": 95,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 278
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 279
+          }
+        ]
+      },
+      {
+        "triangle": 96,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 280
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 281
+          }
+        ]
+      },
+      {
+        "triangle": 97,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 282
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 283
+          }
+        ]
+      },
+      {
+        "triangle": 98,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 284
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 285
+          }
+        ]
+      },
+      {
+        "triangle": 99,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 286
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 287
+          }
+        ]
+      },
+      {
+        "triangle": 100,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 288
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 289
+          }
+        ]
+      },
+      {
+        "triangle": 101,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 290
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 291
+          }
+        ]
+      },
+      {
+        "triangle": 102,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 292
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 293
+          }
+        ]
+      },
+      {
+        "triangle": 103,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 294
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 295
+          }
+        ]
+      },
+      {
+        "triangle": 104,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 296
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 297
+          }
+        ]
+      },
+      {
+        "triangle": 105,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 298
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 299
+          }
+        ]
+      },
+      {
+        "triangle": 106,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 300
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 301
+          }
+        ]
+      },
+      {
+        "triangle": 107,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 302
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 303
+          }
+        ]
+      },
+      {
+        "triangle": 108,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 304
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 305
+          }
+        ]
+      },
+      {
+        "triangle": 109,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 306
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 307
+          }
+        ]
+      },
+      {
+        "triangle": 110,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 308
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 309
+          }
+        ]
+      },
+      {
+        "triangle": 111,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 310
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 311
+          }
+        ]
+      },
+      {
+        "triangle": 112,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 312
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 313
+          }
+        ]
+      },
+      {
+        "triangle": 113,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 314
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 315
+          }
+        ]
+      },
+      {
+        "triangle": 114,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 316
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 317
+          }
+        ]
+      },
+      {
+        "triangle": 115,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 318
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 319
+          }
+        ]
+      },
+      {
+        "triangle": 116,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 320
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 321
+          }
+        ]
+      },
+      {
+        "triangle": 117,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 322
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 323
+          }
+        ]
+      },
+      {
+        "triangle": 118,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 324
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 325
+          }
+        ]
+      },
+      {
+        "triangle": 119,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 326
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 327
+          }
+        ]
+      },
+      {
+        "triangle": 120,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 328
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 329
+          }
+        ]
+      },
+      {
+        "triangle": 121,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 330
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 331
+          }
+        ]
+      },
+      {
+        "triangle": 122,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 332
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 333
+          }
+        ]
+      },
+      {
+        "triangle": 123,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 334
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 335
+          }
+        ]
+      },
+      {
+        "triangle": 124,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 336
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 337
+          }
+        ]
+      },
+      {
+        "triangle": 125,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 338
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 339
+          }
+        ]
+      },
+      {
+        "triangle": 126,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 340
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 341
+          }
+        ]
+      },
+      {
+        "triangle": 127,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 342
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 343
+          }
+        ]
+      },
+      {
+        "triangle": 128,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 344
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 345
+          }
+        ]
+      },
+      {
+        "triangle": 129,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 346
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 347
+          }
+        ]
+      },
+      {
+        "triangle": 130,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 348
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 349
+          }
+        ]
+      },
+      {
+        "triangle": 131,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 350
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 351
+          }
+        ]
+      },
+      {
+        "triangle": 132,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 352
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 353
+          }
+        ]
+      },
+      {
+        "triangle": 133,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 354
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 355
+          }
+        ]
+      },
+      {
+        "triangle": 134,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 356
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 357
+          }
+        ]
+      },
+      {
+        "triangle": 135,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 358
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 359
+          }
+        ]
+      },
+      {
+        "triangle": 136,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 360
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 361
+          }
+        ]
+      },
+      {
+        "triangle": 137,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 362
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 363
+          }
+        ]
+      },
+      {
+        "triangle": 138,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 364
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 365
+          }
+        ]
+      },
+      {
+        "triangle": 139,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 366
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 367
+          }
+        ]
+      },
+      {
+        "triangle": 140,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 368
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 369
+          }
+        ]
+      },
+      {
+        "triangle": 141,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 370
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 371
+          }
+        ]
+      },
+      {
+        "triangle": 142,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 372
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 373
+          }
+        ]
+      },
+      {
+        "triangle": 143,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 374
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 375
+          }
+        ]
+      },
+      {
+        "triangle": 144,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 376
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 377
+          }
+        ]
+      },
+      {
+        "triangle": 145,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 378
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 379
+          }
+        ]
+      },
+      {
+        "triangle": 146,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 380
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 381
+          }
+        ]
+      },
+      {
+        "triangle": 147,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 382
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 383
+          }
+        ]
+      },
+      {
+        "triangle": 148,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 384
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 385
+          }
+        ]
+      },
+      {
+        "triangle": 149,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 386
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 387
+          }
+        ]
+      },
+      {
+        "triangle": 150,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 388
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 389
+          }
+        ]
+      },
+      {
+        "triangle": 151,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 390
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 391
+          }
+        ]
+      },
+      {
+        "triangle": 152,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 392
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 393
+          }
+        ]
+      },
+      {
+        "triangle": 153,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 394
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 395
+          }
+        ]
+      },
+      {
+        "triangle": 154,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 396
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 397
+          }
+        ]
+      },
+      {
+        "triangle": 155,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 398
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 399
+          }
+        ]
+      },
+      {
+        "triangle": 156,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 400
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 401
+          }
+        ]
+      },
+      {
+        "triangle": 157,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 402
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 403
+          }
+        ]
+      },
+      {
+        "triangle": 158,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 404
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 405
+          }
+        ]
+      },
+      {
+        "triangle": 159,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 406
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 407
+          }
+        ]
+      },
+      {
+        "triangle": 160,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 408
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 409
+          }
+        ]
+      },
+      {
+        "triangle": 161,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 410
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 411
+          }
+        ]
+      },
+      {
+        "triangle": 162,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 412
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 413
+          }
+        ]
+      },
+      {
+        "triangle": 163,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 414
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 415
+          }
+        ]
+      },
+      {
+        "triangle": 164,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 416
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 417
+          }
+        ]
+      },
+      {
+        "triangle": 165,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 418
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 419
+          }
+        ]
+      },
+      {
+        "triangle": 166,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 420
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 421
+          }
+        ]
+      },
+      {
+        "triangle": 167,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 422
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 423
+          }
+        ]
+      },
+      {
+        "triangle": 168,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 424
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 425
+          }
+        ]
+      },
+      {
+        "triangle": 169,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 426
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 427
+          }
+        ]
+      },
+      {
+        "triangle": 170,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 428
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 429
+          }
+        ]
+      },
+      {
+        "triangle": 171,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 430
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 431
+          }
+        ]
+      },
+      {
+        "triangle": 172,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 432
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 433
+          }
+        ]
+      },
+      {
+        "triangle": 173,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 434
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 435
+          }
+        ]
+      },
+      {
+        "triangle": 174,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 436
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 437
+          }
+        ]
+      },
+      {
+        "triangle": 175,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 438
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 439
+          }
+        ]
+      },
+      {
+        "triangle": 176,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 440
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 441
+          }
+        ]
+      },
+      {
+        "triangle": 177,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 442
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 443
+          }
+        ]
+      },
+      {
+        "triangle": 178,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 444
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 445
+          }
+        ]
+      },
+      {
+        "triangle": 179,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 446
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 447
+          }
+        ]
+      },
+      {
+        "triangle": 180,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 448
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 449
+          }
+        ]
+      },
+      {
+        "triangle": 181,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 450
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 451
+          }
+        ]
+      },
+      {
+        "triangle": 182,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 452
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 453
+          }
+        ]
+      },
+      {
+        "triangle": 183,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 454
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 455
+          }
+        ]
+      },
+      {
+        "triangle": 184,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 456
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 457
+          }
+        ]
+      },
+      {
+        "triangle": 185,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 458
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 459
+          }
+        ]
+      },
+      {
+        "triangle": 186,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 460
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 461
+          }
+        ]
+      },
+      {
+        "triangle": 187,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 462
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 463
+          }
+        ]
+      },
+      {
+        "triangle": 188,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 464
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 465
+          }
+        ]
+      },
+      {
+        "triangle": 189,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 466
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 467
+          }
+        ]
+      },
+      {
+        "triangle": 190,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 468
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 469
+          }
+        ]
+      },
+      {
+        "triangle": 191,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 470
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 471
+          }
+        ]
+      },
+      {
+        "triangle": 192,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 472
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 473
+          }
+        ]
+      },
+      {
+        "triangle": 193,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 474
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 475
+          }
+        ]
+      },
+      {
+        "triangle": 194,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 476
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 477
+          }
+        ]
+      },
+      {
+        "triangle": 195,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 478
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 479
+          }
+        ]
+      },
+      {
+        "triangle": 196,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 480
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 481
+          }
+        ]
+      },
+      {
+        "triangle": 197,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 482
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 483
+          }
+        ]
+      },
+      {
+        "triangle": 198,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 484
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 485
+          }
+        ]
+      },
+      {
+        "triangle": 199,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 486
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 487
+          }
+        ]
+      },
+      {
+        "triangle": 200,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 488
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 489
+          }
+        ]
+      },
+      {
+        "triangle": 201,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 490
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 491
+          }
+        ]
+      },
+      {
+        "triangle": 202,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 492
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 493
+          }
+        ]
+      },
+      {
+        "triangle": 203,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 494
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 495
+          }
+        ]
+      },
+      {
+        "triangle": 204,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 496
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 497
+          }
+        ]
+      },
+      {
+        "triangle": 205,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 498
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 499
+          }
+        ]
+      },
+      {
+        "triangle": 206,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 500
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 501
+          }
+        ]
+      },
+      {
+        "triangle": 207,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 502
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 503
+          }
+        ]
+      },
+      {
+        "triangle": 208,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 504
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 505
+          }
+        ]
+      },
+      {
+        "triangle": 209,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 506
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 507
+          }
+        ]
+      },
+      {
+        "triangle": 210,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 508
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 509
+          }
+        ]
+      },
+      {
+        "triangle": 211,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 510
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 511
+          }
+        ]
+      },
+      {
+        "triangle": 212,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 512
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 513
+          }
+        ]
+      },
+      {
+        "triangle": 213,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 514
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 515
+          }
+        ]
+      },
+      {
+        "triangle": 214,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 516
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 517
+          }
+        ]
+      },
+      {
+        "triangle": 215,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 518
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 519
+          }
+        ]
+      },
+      {
+        "triangle": 216,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 520
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 521
+          }
+        ]
+      },
+      {
+        "triangle": 217,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 522
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 523
+          }
+        ]
+      },
+      {
+        "triangle": 218,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 524
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 525
+          }
+        ]
+      },
+      {
+        "triangle": 219,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 526
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 527
+          }
+        ]
+      },
+      {
+        "triangle": 220,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 528
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 529
+          }
+        ]
+      },
+      {
+        "triangle": 221,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 530
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 531
+          }
+        ]
+      },
+      {
+        "triangle": 222,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 532
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 533
+          }
+        ]
+      },
+      {
+        "triangle": 223,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 534
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 535
+          }
+        ]
+      },
+      {
+        "triangle": 224,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 536
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 537
+          }
+        ]
+      },
+      {
+        "triangle": 225,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 538
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 539
+          }
+        ]
+      },
+      {
+        "triangle": 226,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 540
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 541
+          }
+        ]
+      },
+      {
+        "triangle": 227,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 542
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 543
+          }
+        ]
+      },
+      {
+        "triangle": 228,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 544
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 545
+          }
+        ]
+      },
+      {
+        "triangle": 229,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 546
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 547
+          }
+        ]
+      },
+      {
+        "triangle": 230,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 548
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 549
+          }
+        ]
+      },
+      {
+        "triangle": 231,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 550
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 551
+          }
+        ]
+      },
+      {
+        "triangle": 232,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 552
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 553
+          }
+        ]
+      },
+      {
+        "triangle": 233,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 554
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 555
+          }
+        ]
+      },
+      {
+        "triangle": 234,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 556
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 557
+          }
+        ]
+      },
+      {
+        "triangle": 235,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 558
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 559
+          }
+        ]
+      },
+      {
+        "triangle": 236,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 560
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 561
+          }
+        ]
+      },
+      {
+        "triangle": 237,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 562
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 563
+          }
+        ]
+      },
+      {
+        "triangle": 238,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 564
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 565
+          }
+        ]
+      },
+      {
+        "triangle": 239,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 566
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 567
+          }
+        ]
+      },
+      {
+        "triangle": 240,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 568
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 569
+          }
+        ]
+      },
+      {
+        "triangle": 241,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 570
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 571
+          }
+        ]
+      },
+      {
+        "triangle": 242,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 572
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 573
+          }
+        ]
+      },
+      {
+        "triangle": 243,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 574
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 575
+          }
+        ]
+      },
+      {
+        "triangle": 244,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 576
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 577
+          }
+        ]
+      },
+      {
+        "triangle": 245,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 578
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 579
+          }
+        ]
+      },
+      {
+        "triangle": 246,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 580
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 581
+          }
+        ]
+      },
+      {
+        "triangle": 247,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 582
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 583
+          }
+        ]
+      },
+      {
+        "triangle": 248,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 584
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 585
+          }
+        ]
+      },
+      {
+        "triangle": 249,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 586
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 587
+          }
+        ]
+      },
+      {
+        "triangle": 250,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 588
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 589
+          }
+        ]
+      },
+      {
+        "triangle": 251,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 590
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 591
+          }
+        ]
+      },
+      {
+        "triangle": 252,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 592
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 593
+          }
+        ]
+      },
+      {
+        "triangle": 253,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 594
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 595
+          }
+        ]
+      },
+      {
+        "triangle": 254,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 596
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 597
+          }
+        ]
+      },
+      {
+        "triangle": 255,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 598
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 599
+          }
+        ]
+      },
+      {
+        "triangle": 256,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 600
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 601
+          }
+        ]
+      },
+      {
+        "triangle": 257,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 602
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 603
+          }
+        ]
+      },
+      {
+        "triangle": 258,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 604
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 605
+          }
+        ]
+      },
+      {
+        "triangle": 259,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 606
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 607
+          }
+        ]
+      },
+      {
+        "triangle": 260,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 608
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 609
+          }
+        ]
+      },
+      {
+        "triangle": 261,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 610
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 611
+          }
+        ]
+      },
+      {
+        "triangle": 262,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 612
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 613
+          }
+        ]
+      },
+      {
+        "triangle": 263,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 614
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 615
+          }
+        ]
+      },
+      {
+        "triangle": 264,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 616
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 617
+          }
+        ]
+      },
+      {
+        "triangle": 265,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 618
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 619
+          }
+        ]
+      },
+      {
+        "triangle": 266,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 620
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 621
+          }
+        ]
+      },
+      {
+        "triangle": 267,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 622
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 623
+          }
+        ]
+      },
+      {
+        "triangle": 268,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 624
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 625
+          }
+        ]
+      },
+      {
+        "triangle": 269,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 626
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 627
+          }
+        ]
+      },
+      {
+        "triangle": 270,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 628
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 629
+          }
+        ]
+      },
+      {
+        "triangle": 271,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 630
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 631
+          }
+        ]
+      },
+      {
+        "triangle": 272,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 632
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 633
+          }
+        ]
+      },
+      {
+        "triangle": 273,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 634
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 635
+          }
+        ]
+      },
+      {
+        "triangle": 274,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 636
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 637
+          }
+        ]
+      },
+      {
+        "triangle": 275,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 638
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 639
+          }
+        ]
+      },
+      {
+        "triangle": 276,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 640
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 641
+          }
+        ]
+      },
+      {
+        "triangle": 277,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 642
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 643
+          }
+        ]
+      },
+      {
+        "triangle": 278,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 644
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 645
+          }
+        ]
+      },
+      {
+        "triangle": 279,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 646
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 647
+          }
+        ]
+      },
+      {
+        "triangle": 280,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 648
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 649
+          }
+        ]
+      },
+      {
+        "triangle": 281,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 650
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 651
+          }
+        ]
+      },
+      {
+        "triangle": 282,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 652
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 653
+          }
+        ]
+      },
+      {
+        "triangle": 283,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 654
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 655
+          }
+        ]
+      },
+      {
+        "triangle": 284,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 656
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 657
+          }
+        ]
+      },
+      {
+        "triangle": 285,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 658
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 659
+          }
+        ]
+      },
+      {
+        "triangle": 286,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 660
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 661
+          }
+        ]
+      },
+      {
+        "triangle": 287,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 662
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 663
+          }
+        ]
+      },
+      {
+        "triangle": 288,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 664
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 665
+          }
+        ]
+      },
+      {
+        "triangle": 289,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 666
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 667
+          }
+        ]
+      },
+      {
+        "triangle": 290,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 668
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 669
+          }
+        ]
+      },
+      {
+        "triangle": 291,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 670
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 671
+          }
+        ]
+      },
+      {
+        "triangle": 292,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 672
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 673
+          }
+        ]
+      },
+      {
+        "triangle": 293,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 674
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 675
+          }
+        ]
+      },
+      {
+        "triangle": 294,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 676
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 677
+          }
+        ]
+      },
+      {
+        "triangle": 295,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 678
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 679
+          }
+        ]
+      },
+      {
+        "triangle": 296,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 680
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 681
+          }
+        ]
+      },
+      {
+        "triangle": 297,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 682
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 683
+          }
+        ]
+      },
+      {
+        "triangle": 298,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 684
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 685
+          }
+        ]
+      },
+      {
+        "triangle": 299,
+        "actualTopFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 686
+          }
+        ],
+        "actualBottomFaces": [
+          {
+            "mesh": "detail_city-balcony_concrete",
+            "triangleIndex": 687
+          }
+        ]
+      }
+    ]
+  }
+]

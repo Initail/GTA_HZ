@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/README.md",
+      "sha256": "3e65e7589d66751029cd61a1e0e4839131e94d7c5ecf78de37aef6b842002f78",
+      "bytes": 5170
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check-run2.log",
+      "sha256": "d5748643479242cf5831b43967e95cbbfeffd4f593b441fb88f808102b42bdfd",
+      "bytes": 5840
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check.log",
+      "sha256": "52035b156da6a377323a24efbfd3e83914eaedde3e4c63d95a1b2a6f8ec9f959",
+      "bytes": 652
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check.py",
+      "sha256": "c2e2bb8af9f4be7d71645073db080e8c960f927adaa571662926ecdc7fece005",
+      "bytes": 9984
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/city-balcony-actual-3d-intersections.json",
+      "sha256": "9ec99f0934dde866617d3431161436601fc22cb59a1742bb923a51e772cbb0f0",
+      "bytes": 436186
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/city-balcony-projection-overlap.json",
+      "sha256": "ee19cee7867d557d2dfcf8293ef693b208a05ee28a7a1561668fbfc6f7197eef",
+      "bytes": 105353
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/city-balcony-upper-deck.json",
+      "sha256": "87204f720d06700aa4c033900e11f4d3674fa5a8d7be11a25a3a50112bccd21d",
+      "bytes": 70594
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/exact-float32-independent.json",
+      "sha256": "73a7f7b5c840fb57822fcd09e42cb770ad812a16fff28e14b27974d4889d13e9",
+      "bytes": 509
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/geometry.json",
+      "sha256": "b6a19dcf0e7272f2a607a9aad3652cc5b65becb3dec3aa54ac5ca0155a3597d7",
+      "bytes": 7537
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/input-bindings.json",
+      "sha256": "ffe76b7894cb140787d42667e8826f7b510c94ee2d52867bcb34e2ee3326a279",
+      "bytes": 2216
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/intersections.log",
+      "sha256": "b7c0323d4a488a9c2eaa922f9cabc247accc70a9045875aa417bfa9d70a5471c",
+      "bytes": 6016
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/intersections.py",
+      "sha256": "74ca3f8ba7a385d3f3b261d1c9902c0ffa2faf73a6ac40275502c9be587e43f3",
+      "bytes": 4456
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/runtime-exporter-check.json",
+      "sha256": "515da0db0c71f8b1d0e3b13877f607de4fb1aca1a885fd66c0d3da3d3b5ab2e1",
+      "bytes": 1804
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/serialization.log",
+      "sha256": "d5748643479242cf5831b43967e95cbbfeffd4f593b441fb88f808102b42bdfd",
+      "bytes": 5840
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/serialization.py",
+      "sha256": "bf0ea8112515c7265d6fccfe0de9bc4613f47d156b52d0275f2160b8909d59ca",
+      "bytes": 1632
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/serialized-boundary.json",
+      "sha256": "57852d5be40a8f054be09aa844c4e86de33c63c9e96f7fa248659e7aef6d50b3",
+      "bytes": 1583
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/validation.json",
+      "sha256": "038cb70e0029e9a411afdb1b598b55ee2cf0a0c9fbc599872c533004dd5a62e0",
+      "bytes": 1209
+    }
+  ]
+}

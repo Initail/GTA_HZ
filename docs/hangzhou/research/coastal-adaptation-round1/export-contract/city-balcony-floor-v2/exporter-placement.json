@@ -1,0 +1,35 @@
+{
+  "id": "city-balcony",
+  "cityId": "hangzhou",
+  "units": "absolute game metres; never multiply input y by .60",
+  "landmark": {
+    "id": "city-balcony",
+    "x": 3324.221245460762,
+    "z": -1978.9980965522925,
+    "y": 1.9579020031420153
+  },
+  "heightBasis": "estimated common upper floor5.557902003142015g from two fixed-source shore mouth ground centers, lower floor upper minus3.6g; full-width source-finger profile frozen separately; not measured building datum",
+  "sourceInputs": [
+    {
+      "path": "scripts/landmarks/city_balcony_floor_v2.py",
+      "sha256": "9b69526095965d6e9980967a1f242f5ce23f0130fcaa4eb982de373c76d45d48"
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2/placement.json",
+      "sha256": "4b0acd3e7747ccc6066d1c0c5682b050b115698cc1b4d57b78d512fae45dfa7e"
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2/candidate-spec.json",
+      "sha256": "bab55dc39b18be3ed2445515c08831a29a03842b36e2373dafa16134fd6551a3"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v6/geography/manifest.json",
+      "sha256": "86405ade07b6c8a07476209c22c33cebb7ae7a52bf02515db765290f8041b4bb"
+    }
+  ],
+  "pending": [
+    "source finger terrain joins and accessible arrival",
+    "lower shore structural ownership",
+    "GLB/runtime visual physical acceptance"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "placeId": "fuxing-alignment",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/fuxing-alignment-v1/fuxing-alignment.glb",
+  "sourceModule": "scripts/landmarks/fuxing_alignment.py",
+  "sha256": "a863ef83fc15c7b424c6d478787c535c4cf4febab153360d6b684f7913945485",
+  "sourceModuleSha256": "b098c2dabf3dbfda20f45a12341b9f5c9ab28fb6c3351c029e19383bfd48fe14",
+  "artifactMeshPrefix": "detail_fuxing-alignment_",
+  "accuracyClaim": "reference-informed estimated rigid main-structure axis correction; CPU candidate only, no new GLB",
+  "estimatedParameters": [
+    "remaining northern lower source-road mismatch after axis correction",
+    "actual lane/road-edge widths and source placement accuracy",
+    "reported-width applicability to cantilevers/viewing decks and approaches",
+    "measured absolute height/longitudinal grade/bank abutments",
+    "actor clearance and road-specific permissions",
+    "parent export/placement/replacement/collisions",
+    "in-game views/night/browser/performance"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python-exit-code 1 --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/fuxing-alignment-round1/task-bundles/fuxing-alignment/job.json --spec docs/hangzhou/research/core/fuxing-alignment-round1/spec.json --module scripts/landmarks/fuxing_alignment.py --output artifacts/cities/hangzhou/landmarks/fuxing-alignment-v1 --base-y 0.9",
+  "sourceSpec": "docs/hangzhou/research/core/fuxing-alignment-round1/spec.json",
+  "sourceSpecSha256": "88badd4328b6154936e48edb0a1be94dfc2ef90ae4a69affe1a74accbdc8cb67",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/fuxing-alignment-v1.log",
+    "sha256": "977aadfeeb643d794469f88ce3e135e7dcd0cb49caca717c80c1c569a6fe6f4d"
+  },
+  "modelDeliverySha256": "a0a872b45b804f45cb14399a7a6381a3dea5b2ef6d8dc4d9234146378bccfb62",
+  "glbStats": {
+    "triangles": 14592,
+    "materials": 3,
+    "bytes": 1022044,
+    "selectedMeshes": 3,
+    "meshNamePrefix": "detail_fuxing-alignment_",
+    "wholeFileTriangles": 14592,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "places": [
+    {
+      "id": "wulin-square",
+      "name": "武林广场八少女喷泉与广场近区",
+      "kind": "district",
+      "scope": "Source-bound finite square exterior candidate: fixed mapped southern plaza extent, five-petal raised basin and shallow moat, 3 central original dance figures +5 outer original musician figures, ring/axis paving and flower-pot samples. Surrounding buildings, full gardens/sunken courtyard and runtime acceptance pending.",
+      "location": {
+        "crs": "EPSG:4326",
+        "center": [
+          120.15865041655836,
+          30.27335428045256
+        ],
+        "status": "confirmed",
+        "sourceIds": [
+          "osm-geofabrik",
+          "osm-api",
+          "wulin-gps2026"
+        ]
+      },
+      "sources": [
+        {
+          "id": "osm-geofabrik",
+          "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+          "publisher": "OpenStreetMap contributors / Geofabrik",
+          "sourceDate": "2026-10-11T20:21:06Z",
+          "accessedAt": "2026-10-13",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+          "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+          "use": "fixed mapped plaza footprint way/589390765 and fountain POI node/4228526321; not a basin survey"
+        },
+        {
+          "id": "osm-api",
+          "url": "https://api.openstreetmap.org/api/0.6/way/589390765/full.json",
+          "publisher": "OpenStreetMap contributors",
+          "accessedAt": "2026-10-13",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "use": "original node/way identity/versions; exact coordinates agree with fixed source; supplementary not replacement for Geofabrik"
+        },
+        {
+          "id": "wulin-current",
+          "url": "https://www.hzzx.gov.cn/cshz/content/2025-05/14/content_8994396.htm",
+          "publisher": "杭州市政协网站 / 都市快报，董吕平",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2025-05-14",
+          "status": "available",
+          "license": "unknown; reference-only; no photo textures",
+          "use": "current maintenance report, three central/five outer statues, 2016 stainless steel with white fluorocarbon paint; actual opposite-direction source photos"
+        },
+        {
+          "id": "wulin-current-original",
+          "url": "https://hzdaily.hangzhou.com.cn/dskb/2025/05/14/article_detail_2_20250514A041.html",
+          "publisher": "都市快报，记者董吕平",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2025-05-14",
+          "status": "available",
+          "license": "unknown; reference-only; no photo textures",
+          "use": "original contemporary maintenance photo bytes; government-hosted image URL redirects in loop"
+        },
+        {
+          "id": "wulin-aerial2026",
+          "url": "https://www.hzzx.gov.cn/cshz/content/2026-09/02/content_9296296_2.htm",
+          "publisher": "杭州市政协网站 / 都市快报，记者夏阳摄影",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2026-09-02",
+          "status": "available",
+          "license": "unknown; reference-only; no photo textures",
+          "use": "source actual aerial square layout, five-lobe raised pool, ring paving, center axis; image bytes from original URL attribute"
+        },
+        {
+          "id": "wulin-upgrade2023",
+          "url": "https://www.hangzhou2022.cn/sqzc/hzsq/202308/t20230815_69629.shtml",
+          "publisher": "杭州亚运会官方网站 / 杭州日报，许卓恒摄影",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2023-08-15",
+          "status": "available",
+          "license": "unknown; reference-only",
+          "use": "completed landscape upgrade, 100+ bougainvillea pots and seasonal flowers, east-west paths; images redirect and were not adopted"
+        },
+        {
+          "id": "wulin-operator-layout",
+          "url": "https://hznews.hangzhou.com.cn/chengshi/content/2015-07/04/content_5832227.htm",
+          "publisher": "杭州网 / 都市快报，记者魏奋，武林广场地下商城建设有限公司 quoted",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2015-07-04",
+          "status": "available",
+          "license": "unknown; reference-only",
+          "use": "five-petal pool, central dance ribbons, five named instruments; prospective2015 rendering NOT adopted as current geometry"
+        },
+        {
+          "id": "wulin-sculpture2025",
+          "url": "https://hzdaily.hangzhou.com.cn/hzrb/2025/12/26/article_detail_1_20251226A149.html",
+          "publisher": "杭州日报",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2025-12-26",
+          "status": "available",
+          "license": "unknown; reference-only",
+          "use": "approximately7m central/3m+ outer group reporting and photo supplement; historic/current continuity, not as-built measurement"
+        },
+        {
+          "id": "wulin-gps2026",
+          "url": "https://commons.wikimedia.org/wiki/File:Wuling_Square_Fountain.jpg",
+          "publisher": "原作者 Takashishin / Wikimedia Commons",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2026-04-30",
+          "status": "available",
+          "license": "CC BY 4.0; still reference-only in this candidate",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "use": "independent current photograph with WGS-84 phone GPS and heading; confirms near-source location and actual raised basin/moat; not survey center/diameter"
+        },
+        {
+          "id": "hzmetro-operator",
+          "url": "https://www.hzmetro.com/service_1.aspx?Line1=14&Site1=268",
+          "publisher": "杭州地铁",
+          "accessedAt": "2026-10-13",
+          "status": "available-indexed",
+          "license": "unknown; reference-only",
+          "use": "official station locality: north Ring City North Road/canal, south square/TiyuchangRoad, west Wulinmen; mapped neighbor adjacency corroboration"
+        }
+      ],
+      "researchEvidence": "docs/hangzhou/research/core/wulin-round2/evidence.json"
+    }
+  ]
+}

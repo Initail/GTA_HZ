@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "placeId": "zhijiang-bridge",
+  "artifactPath": "artifacts/landmarks/zhijiang-bridge/model.glb",
+  "sourceModule": "scripts/landmarks/zhijiang-bridge.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [],
+  "buildCommand": null
+}

@@ -1,0 +1,24 @@
+{
+  "allProducerInputsMatch": true,
+  "producerInputChecks": {
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/package-manifest.json": true,
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/proposals.json": true,
+    "artifacts/cities/hangzhou/render-input-v6/city.json": true,
+    "artifacts/cities/hangzhou/render-input-v6/geography/manifest.json": true,
+    "artifacts/cities/hangzhou/render-input-v6/geography/terrain-game.bin": true,
+    "artifacts/cities/hangzhou/render-input-v6/geography/road-levels.json": true,
+    "scripts/prepare_hangzhou_shores.py": true,
+    "scripts/hangzhou_surface.py": true
+  },
+  "geometryObjects": 4,
+  "actualGlbTriangles": 19512,
+  "noBrowserOrBlenderRun": true,
+  "cityBalconyPending": true,
+  "npzAndActualGlbClosedTopology": true,
+  "independentExactFloat32Triangles": true,
+  "actualUvFiniteAndNondegenerate": true,
+  "continuousTopBelowGroundClaim": false,
+  "cityBalconyActual3dConflict": true,
+  "cityBalconyIntegrationAccepted": false,
+  "otherThreeScope": "bounded geometry candidate only; no conflict with distant city-balcony; not all-city collision or visual accepted"
+}

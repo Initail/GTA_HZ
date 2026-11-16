@@ -1,0 +1,208 @@
+{
+  "researchDate": "2026-11-11",
+  "status": "source-topology-confirmed-portal-dimensions-and-appearance-blocked",
+  "inputs": {
+    "fixedContextSha256": "d5b92a5a0b37ec8698f0a498ce86b1432df5c61d728478bbacb66855ae52ddc9",
+    "cityConfigSha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24",
+    "P1ReviewSha256": "495d23f07daa51dbdb7a1fcce6dc9daefcd8ded3376d5960c277a54ac9ab89a7",
+    "portalContextSha256": "c6815a56d71172ed24c11f936a275650412d30e8671ec70aad5f99c00650d3d7"
+  },
+  "projection": {
+    "crs": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "bboxWGS84": [
+      119.93,
+      30.15,
+      120.3,
+      30.34
+    ],
+    "scale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "coefficientMethod": "WGS84 ellipsoid radii of curvature at origin latitude",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902
+  },
+  "measurementClass": "measured-from-OSM-coordinate-geometry-not-field-survey",
+  "sourcePositionalAccuracy": "unknown; decimal precision is not positional accuracy",
+  "tunnel": {
+    "wayId": 697096305,
+    "version": 1,
+    "timestamp": "2019-06-14 09:04:19+00:00",
+    "tags": {
+      "highway": "residential",
+      "layer": "-1",
+      "tunnel": "yes"
+    },
+    "sourceNodeCount": 2,
+    "wgs84GeodesicLengthMetres": 34.8766784606533,
+    "localProjectionLengthMetres": 34.86084084643731,
+    "gameLength": 20.91650450786239,
+    "initialAzimuthDegreesFromNorth": 53.349998340885215,
+    "missingDimensionAndConstructionTags": [
+      "width",
+      "maxwidth",
+      "height",
+      "maxheight",
+      "lanes",
+      "ele",
+      "incline",
+      "surface",
+      "lit",
+      "sidewalk",
+      "embankment",
+      "cutting"
+    ]
+  },
+  "portals": [
+    {
+      "nodeId": 6547053710,
+      "wgs84": [
+        119.9840438,
+        30.2035938
+      ],
+      "gamePoint": [
+        -9869.655499698503,
+        -4683.015156575961
+      ],
+      "connectedWayIds": [
+        697096305,
+        1418959639
+      ],
+      "nearestUpperCentrelineLocalMetres": 7.230769826597128
+    },
+    {
+      "nodeId": 6547053711,
+      "wgs84": [
+        119.9843344,
+        30.2037816
+      ],
+      "gamePoint": [
+        -9852.878559826138,
+        -4670.523781577727
+      ],
+      "connectedWayIds": [
+        697096305,
+        697096306
+      ],
+      "nearestUpperCentrelineLocalMetres": 7.230269224144267
+    }
+  ],
+  "planarCrossings": [
+    {
+      "upperWay": 358503184,
+      "wgs84": [
+        119.98412110553336,
+        30.203643758634428
+      ],
+      "distanceFromWestPortalLocalMetres": 9.273695440629794,
+      "sharedSourceNodeIds": [],
+      "navigationJunction": false,
+      "upperTags": {
+        "highway": "trunk",
+        "name": "闲富路",
+        "oneway": "yes",
+        "ref": "G235;G320"
+      }
+    },
+    {
+      "upperWay": 697096309,
+      "wgs84": [
+        119.98425933677488,
+        30.203733090455348
+      ],
+      "distanceFromWestPortalLocalMetres": 25.856136290631287,
+      "sharedSourceNodeIds": [],
+      "navigationJunction": false,
+      "upperTags": {
+        "highway": "trunk",
+        "name": "闲富路",
+        "oneway": "yes",
+        "ref": "G235;G320"
+      }
+    }
+  ],
+  "busRelations": [
+    {
+      "relationId": 19412493,
+      "version": 3,
+      "timestamp": "2025-12-07 06:28:50+00:00",
+      "tags": {
+        "from": "沈家坞",
+        "name": "2482路：沈家坞 -> 闲林公交总站",
+        "name:zh": "2482路：沈家坞 -> 闲林公交总站",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "public_transport:version": "2",
+        "ref": "2482",
+        "route": "bus",
+        "to": "闲林公交总站",
+        "type": "route"
+      },
+      "memberIndicesZeroBased": [
+        27,
+        28,
+        29
+      ],
+      "orderedWayRefs": [
+        1418959639,
+        697096305,
+        697096306
+      ],
+      "directionOrderValidated": false
+    },
+    {
+      "relationId": 19412494,
+      "version": 2,
+      "timestamp": "2025-12-07 06:28:50+00:00",
+      "tags": {
+        "from": "闲林公交总站",
+        "name": "2482路：闲林公交总站 -> 沈家坞",
+        "name:zh": "2482路：闲林公交总站 -> 沈家坞",
+        "opening_hours": "Mo-Su 06:00-18:30",
+        "public_transport:version": "2",
+        "ref": "2482",
+        "route": "bus",
+        "to": "沈家坞",
+        "type": "route"
+      },
+      "memberIndicesZeroBased": [
+        32,
+        33,
+        34
+      ],
+      "orderedWayRefs": [
+        1418959639,
+        697096305,
+        697096306
+      ],
+      "directionOrderValidated": false
+    }
+  ],
+  "distinctMountainTunnels": [
+    {
+      "wayId": 371748017,
+      "name": "万丈山隧道",
+      "nearestMappedEndpointWGS84": [
+        119.9839694,
+        30.2010908
+      ],
+      "endpointDistanceFromLowTunnelMidpointLocalMetres": 288.6598354268968,
+      "sharedNodeIdsWithLowTunnel": []
+    },
+    {
+      "wayId": 697096310,
+      "name": "万丈山隧道",
+      "nearestMappedEndpointWGS84": [
+        119.9842769,
+        30.2011109
+      ],
+      "endpointDistanceFromLowTunnelMidpointLocalMetres": 285.78140292461643,
+      "sharedNodeIdsWithLowTunnel": []
+    }
+  ],
+  "physicalMeasurementVerified": false,
+  "photosVerified": 0,
+  "browserOrDrivingTestPerformed": false
+}

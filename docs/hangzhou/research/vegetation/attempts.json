@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "attempts": [
+    {
+      "action": "government source retrieval",
+      "result": "fivecriticalsourcesdownloaded/read; othergovernmentpages/PDF403preserved, neverclaimed fullfetch"
+    },
+    {
+      "action": "planningPDFread/render",
+      "result": "70pages,sourceSHA626088a6305520c6aa69fd984b5f86cd8db85d0a71cef65a38f446d20a94d252;PDFpage19actually rendered/viewed;matches5/9/10/11/16/17/18/19/20/21/52/56"
+    },
+    {
+      "action": "initial treeCPUchecks",
+      "result": "14checks/24models passed,14256tris;roundfar8view minimumIoU about0.57prompted improvement"
+    },
+    {
+      "action": "far crown refinement",
+      "result": "threeclumps insteadtwo,14352tris;newstrict0.72silhouette threshold passesall8species/eightviews;14checks passed"
+    },
+    {
+      "action": "CPU contact sheets",
+      "result": "front/diagonal/staticseasonimagesgenerated andactuallyviewed"
+    },
+    {
+      "action": "heavyvalidation",
+      "result": "Blender/browser notlaunched;parentserialexport/GPUvalidation pending"
+    },
+    {
+      "action": "parentactualBlenderexport v1",
+      "result": "ginkgo full CPU1112 butGLB1052; parentstoppedcandidate andretainedfailure, nofinalpass"
+    },
+    {
+      "action": "CPUdiagnosis+fix",
+      "result": "60same-material reversed duplicate triangles in12 fanleaves; replacedzero-thickness backs with4mm authored closedthinleafgeometry, no budgetchange.24 summer14520tri,ginkgo1280/244/120.17CPUchecks passed, parentreexport required."
+    }
+  ]
+}

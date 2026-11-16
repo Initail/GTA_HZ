@@ -1,0 +1,25 @@
+{
+  "id": "xianfu-way697096305-portals-round1",
+  "owner": "portal_evidence",
+  "recordedStage": "planned",
+  "currentStage": "planned",
+  "contractReference": "docs/landmarks/agent-workflow.md",
+  "contractUse": "Research supplement for a road structure, not a registered landmark catalog item; no landmark_tasks.py stage check claimed. Evidence-ready is blocked.",
+  "allowedWritePaths": [
+    "docs/hangzhou/research/xianfu-portals-round1/**"
+  ],
+  "sourceSnapshotSha256": "d5b92a5a0b37ec8698f0a498ce86b1432df5c61d728478bbacb66855ae52ddc9",
+  "cityConfigSha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24",
+  "stageHistory": [
+    {
+      "date": "2026-11-11",
+      "stage": "planned",
+      "event": "Fixed-source research collected; unresolved physical dimensions and visual evidence blockers retained."
+    }
+  ],
+  "blockers": [
+    "No located multi-direction portal photos or measured portal/road boundaries",
+    "No measured width, clearance, absolute elevation or retaining-wall structure",
+    "Current candidate source-surface overlap remains; no physical/runtime/visual validation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "yuhang-public-search-result",
+  "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%E7%BD%91%E7%BB%9C%E6%99%BA%E6%85%A7%E4%BA%A7%E4%B8%9A%E5%9B%AD%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=10&pos=title",
+  "publisher": "余杭区政府公开搜索",
+  "accessedAt": "2026-10-14",
+  "publicRequestParams": {
+    "q": "菜鸟网络智慧产业园#",
+    "serviceId": "YcTOd1ftgC5dxzJ8RhCBN",
+    "websiteid": "330110000000",
+    "cateid": "6N89tbnrVTYIQK5jt7q3T",
+    "p": "1",
+    "pg": "10",
+    "pos": "title"
+  },
+  "status": "downloaded",
+  "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/yuhang-search-results.json",
+  "bytes": 4059,
+  "sha256": "7e5a1cb29b5556ef23aa097d1577be91d6deceea8224a202d09a048fbb96759c"
+}

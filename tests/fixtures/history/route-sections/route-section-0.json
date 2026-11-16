@@ -1,0 +1,30 @@
+{
+  "section": 0,
+  "count": 8,
+  "from": 1,
+  "to": 27,
+  "total": 222,
+  "inputs": {
+    "./leisure-route-walk.ts": "93ada568d1e26945709875b738fd26ecb1221409307938e60de7501bc3ab3444",
+    "./cpu-world.ts": "0cd761f030f08965e1512fd78cb4da277673f4957b5ce1191a88935a5ff2d51c",
+    "../src/city-walk.ts": "457398ad1a91d781e16f1cace4e6c497a7719c4e35259a5c0e969ea98a471c53",
+    "../src/city-road-levels.ts": "db651ec8556cb5b7bfecf6c7617f830c0fdb899e524527556f15ccc42098da1f",
+    "../src/driving.ts": "26ded48f744a462ec5cf85a10279c1d2059833a8c9e58c19a6982c8bd20c683d",
+    "../src/city-site-surfaces.ts": "b0d83ed6a613bb0fb701ddbaf35c0034b0234d42feafc3f2ea356b708ed52753",
+    "../src/city-world.ts": "c2aa733a9134da780ea132daa730bc2b97642f5cfa0c93c741d06432adfdf25f",
+    "./main-city-fixture-v2.json": "c6ec413baf9a17d24774d36c7ddecd3d3de57af35e11c86ed67561fa8b012830",
+    "../public/cities/hangzhou/leisure.json": "7e9dd29483e75e11ee283534d4c91767464fb156e86e58597789ec0261cbde4d",
+    "../public/cities/hangzhou/geography/site-surfaces.json": "1a6cd159cb0d19a4cda09e2190038580641c865cbbe6a3209cffd6a13b3e68c1"
+  },
+  "priorHash": null,
+  "visited": 329,
+  "height": 5.896049006065133,
+  "hint": {
+    "id": "leisure:approach:0:12",
+    "height": 5.896049006065133
+  },
+  "roadHint": {
+    "height": 5.871049006065133,
+    "groundOnly": true
+  }
+}

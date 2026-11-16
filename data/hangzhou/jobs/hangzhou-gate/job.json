@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T09:57:09+00:00",
+  "stage": "planned",
+  "agent": "main-integration",
+  "place": {
+    "id": "hangzhou-gate",
+    "name": "杭州之门（杭州世纪中心）",
+    "kind": "building-group"
+  },
+  "sourceManifest": "data/hangzhou/landmarks.json",
+  "sourceManifestSha256": "b1079f1880ea058cb866540fea9d0252fd7cff53296f1fa1f13183686ec83e8a",
+  "sourceRecord": {
+    "id": "hangzhou-gate",
+    "name": "杭州之门（杭州世纪中心）",
+    "kind": "building-group",
+    "researchEvidence": "docs/hangzhou/research/core/hangzhou-gate.evidence.json",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": null,
+      "status": "unknown",
+      "sourceIds": []
+    },
+    "sources": [
+      {
+        "id": "som-gate",
+        "url": "https://www.som.com/projects/greenland-hangzhou-century-center/",
+        "publisher": "SOM",
+        "title": "Greenland Hangzhou Century Center",
+        "sourceDate": null,
+        "accessedAt": "2026-10-12",
+        "provenance": "primary",
+        "accessMethod": "search-index-text; direct fetch returned 403",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "项目页列 2023 竣工；竣工年份不是网页发布日期。总建筑面积口径与中文项目宣传的53万平方米不同，不由面积推导足印。"
+      }
+    ]
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/hangzhou-gate.py"
+    ],
+    "workerDirectories": [
+      "data/hangzhou/jobs/hangzhou-gate",
+      "artifacts/landmarks/hangzhou-gate"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-12T09:57:09+00:00",
+      "reason": "task generated; inputs require review"
+    }
+  ]
+}

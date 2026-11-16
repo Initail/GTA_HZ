@@ -1,0 +1,14 @@
+await import('./contact-geometry.test.ts');
+await import('./contact-regression.test.ts');
+await import('./site-access.test.ts');
+await import('./traffic-response.test.ts');
+await import('./upstream-city-career.test.ts');
+await import('./upstream-city-road-access-integration.test.ts');
+await import('./upstream-city-site-surfaces.test.ts');
+await import('./upstream-city-stacked-collision.test.ts');
+await import('./upstream-city-story.test.ts');
+await import('./upstream-city-tank.test.ts');
+await import('./upstream-city-walk.test.ts');
+await import('./upstream-navigation-directed.test.ts');
+await import('./upstream-pedestrian-impact.test.ts');
+await import('./upstream-road-access.test.ts');

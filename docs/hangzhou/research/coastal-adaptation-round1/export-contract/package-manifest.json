@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/README.md",
+      "sha256": "c83f50cc143f5135d317cf78f0dd8e654a51303caa1040fff18022cb3f52615a",
+      "bytes": 10419
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/export-contract.json",
+      "sha256": "c8f89dbd99d343f79f16f29201ae8b56add9afcfe1e02d27c2f42cdbedc952d4",
+      "bytes": 10218
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/name-probe-result.json",
+      "sha256": "f6de9cee5ed81bb037f10e100691c3f855c04b407e82cd8d3c3e0bcf246380ed",
+      "bytes": 1297
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/name-probe.mjs",
+      "sha256": "72a5edf56a0956e62f60564d9667621c7eef26fea8a556b1e9570e8930e9e830",
+      "bytes": 1312
+    }
+  ]
+}

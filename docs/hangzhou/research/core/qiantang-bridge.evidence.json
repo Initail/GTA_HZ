@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "placeId": "qiantang-bridge",
+  "name": "钱塘江大桥（钱江一桥）",
+  "type": "bridge",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "qiantang-archive"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "qiantang-archive",
+      "url": "https://www.zjda.gov.cn/col/col1402047/index.html",
+      "publisher": "浙江省档案馆",
+      "title": "钱塘江大桥专题",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "档案页报公路1453m×6.1m、铁路1322.1m；历史建桥/修复资料，未核验现状宽度与桥坡。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": {
+        "upperRoadLength": 1453,
+        "upperRoadWidth": 6.1,
+        "lowerRailLength": 1322.1
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "qiantang-archive"
+      ],
+      "uncertainty": "历史档案介绍尺寸；两层长度不同，含引道口径未分解，非本轮测量。"
+    },
+    {
+      "kind": "height",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "公路/铁路双层两用现代桥梁；茅以升主持设计建造",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "qiantang-archive"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "layout",
+      "value": {
+        "upper": "公路",
+        "lower": "单线铁路",
+        "completion": "1937-09-26"
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "qiantang-archive"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "ramp_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "用真实桥梁/铁路源线区分上下层，铁路不进入汽车路网；桁架、桥墩和道路净空须有进一步图证。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "历史档案报尺寸但现状桥宽/改建变化、跨径、车道与坡道还未核实。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "coastal_shore_0_-8_seawall",
+    "materials": [
+      "seawall"
+    ],
+    "topology": {
+      "vertices": 4484,
+      "edges": 13446,
+      "triangles": 8964,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 404.83435291128745
+    },
+    "uvFinite": true,
+    "normalFinite": true,
+    "exactOriginalOrientedWorldTriangleSetUnchanged": true
+  },
+  {
+    "name": "coastal_shore_4_-7_land",
+    "materials": [
+      "land"
+    ],
+    "topology": {
+      "vertices": 1576,
+      "edges": 4722,
+      "triangles": 3148,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 110.49390868280939
+    },
+    "uvFinite": true,
+    "normalFinite": true,
+    "exactOriginalOrientedWorldTriangleSetUnchanged": true
+  },
+  {
+    "name": "coastal_shore_5_-4_land",
+    "materials": [
+      "land"
+    ],
+    "topology": {
+      "vertices": 2080,
+      "edges": 6228,
+      "triangles": 4152,
+      "euler": 4,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 139.40009742793848
+    },
+    "uvFinite": true,
+    "normalFinite": true,
+    "exactOriginalOrientedWorldTriangleSetUnchanged": false
+  },
+  {
+    "name": "coastal_shore_5_-5_land",
+    "materials": [
+      "land"
+    ],
+    "topology": {
+      "vertices": 1908,
+      "edges": 5718,
+      "triangles": 3812,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 60.76896434497551
+    },
+    "uvFinite": true,
+    "normalFinite": true,
+    "exactOriginalOrientedWorldTriangleSetUnchanged": true
+  }
+]

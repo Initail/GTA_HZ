@@ -1,0 +1,1198 @@
+{
+  "citySha256": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47",
+  "lampsSha256": "43f96afd1df7307f6130605259b92d67e1bc71ee303f2480cef47a17f2a3e3d1",
+  "streetLamps": 69723,
+  "regions": [
+    {
+      "id": "hangzhou-cafe",
+      "lampsWithinOuterRadius": 76,
+      "withinInnerRadius": 31
+    },
+    {
+      "id": "city-balcony",
+      "lampsWithinOuterRadius": 291,
+      "withinInnerRadius": 142
+    }
+  ],
+  "namedWaterfrontGreenAreas": [
+    {
+      "id": "relation/13164471",
+      "name": "杭州西湖文化景观",
+      "areaGameSquared": 21172958.85140058,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/783223294",
+      "name": "西溪国家湿地公园",
+      "areaGameSquared": 4048292.612943234,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164474",
+      "name": "环湖景区",
+      "areaGameSquared": 3883210.430149341,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164480",
+      "name": "五云景区",
+      "areaGameSquared": 3880943.4848265573,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164477",
+      "name": "钱江景区",
+      "areaGameSquared": 3226866.23791363,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164478",
+      "name": "虎跑龙井景区",
+      "areaGameSquared": 3033279.3789318856,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164475",
+      "name": "凤凰山景区",
+      "areaGameSquared": 2588534.697341475,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13166510",
+      "name": "龙坞片区",
+      "areaGameSquared": 2259911.6610343186,
+      "waterDistanceGame": 9.91876982758344,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13166508",
+      "name": "杭州西山国家森林公园",
+      "areaGameSquared": 2259911.6610343186,
+      "waterDistanceGame": 9.91876982758344,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164479",
+      "name": "灵竺景区",
+      "areaGameSquared": 2160872.5980113014,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13166509",
+      "name": "大清谷片区",
+      "areaGameSquared": 1332415.8508372994,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13166508",
+      "name": "杭州西山国家森林公园",
+      "areaGameSquared": 1332415.8508372994,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164472",
+      "name": "植物园景区",
+      "areaGameSquared": 1174561.3712476445,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/2676824",
+      "name": "西溪湿地核心保护区",
+      "areaGameSquared": 1167006.0182543194,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13164473",
+      "name": "北山景区",
+      "areaGameSquared": 797570.4813123401,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13166511",
+      "name": "杭州午潮山国家森林公园",
+      "areaGameSquared": 793190.2399517794,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/154107491",
+      "name": "西山",
+      "areaGameSquared": 499166.7545896549,
+      "waterDistanceGame": 23.72459304116012,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/2131508",
+      "name": "宝石山",
+      "areaGameSquared": 495638.227808,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1124743169",
+      "name": "西溪艺术集合村",
+      "areaGameSquared": 396312.7894857049,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13794808",
+      "name": "杭州植物园",
+      "areaGameSquared": 390448.3309757199,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1107926698",
+      "name": "湘湖国家旅游度假区",
+      "areaGameSquared": 381596.33808601985,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/615060920",
+      "name": "拱墅运河体育公园",
+      "areaGameSquared": 187950.24551715492,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1124743170",
+      "name": "西溪大众休憩村",
+      "areaGameSquared": 180686.57589922502,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1124743168",
+      "name": "西溪五常民俗文化体验村",
+      "areaGameSquared": 160748.49292432485,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/422017166",
+      "name": "城北体育公园",
+      "areaGameSquared": 124196.10407057001,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1124743167",
+      "name": "西溪农耕文化村",
+      "areaGameSquared": 122523.62499571488,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1110789885",
+      "name": "西山公园",
+      "areaGameSquared": 121649.58593104982,
+      "waterDistanceGame": 28.44855968281769,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/975340430",
+      "name": "花港观鱼",
+      "areaGameSquared": 92143.87529220502,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/975710351",
+      "name": "曲院风荷",
+      "areaGameSquared": 90630.01263284002,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/639059981",
+      "name": "杭州城西休闲公园",
+      "areaGameSquared": 89752.93554584996,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/965580909",
+      "name": "之江大桥下公园",
+      "areaGameSquared": 85638.55549003504,
+      "waterDistanceGame": 1.7681747804621837,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/975360504",
+      "name": "雷峰夕照",
+      "areaGameSquared": 82587.91476342999,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/583102352",
+      "name": "杭州花圃",
+      "areaGameSquared": 75616.49293856001,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/20083679",
+      "name": "孤山公园",
+      "areaGameSquared": 70008.929453405,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/703706201",
+      "name": "绕城公园",
+      "areaGameSquared": 67814.6465267949,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13132005",
+      "name": "柳浪闻莺",
+      "areaGameSquared": 65850.584416415,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/8248438",
+      "name": "双峰插云",
+      "areaGameSquared": 61607.80547450001,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/2308804",
+      "name": "樱花碧桃源",
+      "areaGameSquared": 57853.76765752001,
+      "waterDistanceGame": 0.9704049294250642,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/975710349",
+      "name": "三台云水",
+      "areaGameSquared": 56141.36078287994,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/611828307",
+      "name": "钱江世纪公园C区",
+      "areaGameSquared": 53348.12821607993,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/102674550",
+      "name": "塔山公园",
+      "areaGameSquared": 52699.16831069009,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/337813312",
+      "name": "城东公园",
+      "areaGameSquared": 52107.067741334984,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/975360503",
+      "name": "三潭印月",
+      "areaGameSquared": 49330.252123985,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/606110948",
+      "name": "北塘河公园",
+      "areaGameSquared": 47764.758320165165,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/356904142",
+      "name": "滨江公园",
+      "areaGameSquared": 47651.380400699796,
+      "waterDistanceGame": 1.1202380930830793,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/964050865",
+      "name": "新塘高铁公园",
+      "areaGameSquared": 46387.239317114945,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/844706249",
+      "name": "丰收湖公园",
+      "areaGameSquared": 44923.02122580495,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/20059292",
+      "name": "学士公园",
+      "areaGameSquared": 44879.11673222002,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1104876637",
+      "name": "六和塔文化公园",
+      "areaGameSquared": 44871.163624994995,
+      "waterDistanceGame": 20.87836017294139,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/975356953",
+      "name": "太子湾公园",
+      "areaGameSquared": 40517.81319827002,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/643268750",
+      "name": "余杭中央公园",
+      "areaGameSquared": 40067.90665121493,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/19298209",
+      "name": "东湖路市民公园",
+      "areaGameSquared": 35329.35410440988,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/674043406",
+      "name": "运河中央公园",
+      "areaGameSquared": 34462.43867981,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/604005357",
+      "name": "杭州世纪中心",
+      "areaGameSquared": 31719.197267990057,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/611828308",
+      "name": "钱江世纪公园D区",
+      "areaGameSquared": 30733.87656906999,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/664966986",
+      "name": "浙窑公园",
+      "areaGameSquared": 30015.330922225006,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/19798142",
+      "name": "江河汇西岸公园",
+      "areaGameSquared": 29318.440877789933,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13131996",
+      "name": "六公园",
+      "areaGameSquared": 27411.17063387501,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/688792610",
+      "name": "同心文化公园",
+      "areaGameSquared": 25875.01558757004,
+      "waterDistanceGame": 32.60527235940936,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/677359153",
+      "name": "南江公园",
+      "areaGameSquared": 25303.848978805014,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/522168349",
+      "name": "宪法公园",
+      "areaGameSquared": 23759.420608069984,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1086332741",
+      "name": "亚运主题公园",
+      "areaGameSquared": 23436.974061074965,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1107037577",
+      "name": "万松书院",
+      "areaGameSquared": 23288.850263455,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/368944701",
+      "name": "白塔公园",
+      "areaGameSquared": 22977.04827873004,
+      "waterDistanceGame": 23.3637607420038,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/566200364",
+      "name": "信息港公园",
+      "areaGameSquared": 22412.966857360047,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/775708037",
+      "name": "南湖公园",
+      "areaGameSquared": 22074.103947725,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/604005358",
+      "name": "综合训练馆",
+      "areaGameSquared": 21090.44473868504,
+      "waterDistanceGame": 1.0245002042004294,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/289682865",
+      "name": "人民广场",
+      "areaGameSquared": 20747.887613950006,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/611828306",
+      "name": "钱江世纪公园B区",
+      "areaGameSquared": 20118.977750684964,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/568042899",
+      "name": "大运河音乐公园",
+      "areaGameSquared": 19629.04346735001,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/611828309",
+      "name": "钱江世纪公园E区",
+      "areaGameSquared": 19323.286004964997,
+      "waterDistanceGame": 2.721911528445915,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/703706198",
+      "name": "紫金明珠公园",
+      "areaGameSquared": 18942.673587739995,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13132004",
+      "name": "涌金公园",
+      "areaGameSquared": 17753.955417309993,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1031042591",
+      "name": "浙农·东巢艺术公园",
+      "areaGameSquared": 17318.444855220005,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/539219538",
+      "name": "运河天地公园",
+      "areaGameSquared": 16438.082523679997,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/514153718",
+      "name": "青莎公园",
+      "areaGameSquared": 16336.337204734971,
+      "waterDistanceGame": 0.09108543466417121,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/154267018",
+      "name": "江寺公园",
+      "areaGameSquared": 13672.984073574966,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/337813314",
+      "name": "清泰铁路公园",
+      "areaGameSquared": 13439.33681161998,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/5740510",
+      "name": "小瀛洲",
+      "areaGameSquared": 13303.523131399968,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1190009971",
+      "name": "上泗沿山浦绿道亭子",
+      "areaGameSquared": 13089.182155420018,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/535621393",
+      "name": "江一公园",
+      "areaGameSquared": 12651.781772549986,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13132003",
+      "name": "西湖天地",
+      "areaGameSquared": 12536.621315810005,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13131995",
+      "name": "少年宫广场",
+      "areaGameSquared": 12506.463442065,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1091284656",
+      "name": "之江船工业遗址公园",
+      "areaGameSquared": 12438.261868530042,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/702339260",
+      "name": "文澜化雨",
+      "areaGameSquared": 12421.998356639997,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1006030092",
+      "name": "北塘河游步道",
+      "areaGameSquared": 12292.109513475038,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/29090714",
+      "name": "墅园",
+      "areaGameSquared": 11352.446837204998,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1006030104",
+      "name": "北塘河游步道",
+      "areaGameSquared": 11336.697963424984,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1111005329",
+      "name": "西河公园",
+      "areaGameSquared": 11273.897855405,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/976816615",
+      "name": "长桥公园",
+      "areaGameSquared": 11205.62117914999,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1354869234",
+      "name": "六和文化公园",
+      "areaGameSquared": 10404.712172800024,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/514146350",
+      "name": "紫荆公园",
+      "areaGameSquared": 10401.96966170501,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/290504027",
+      "name": "新安公园",
+      "areaGameSquared": 10310.57737752004,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/242430624",
+      "name": "丰潭文化公园",
+      "areaGameSquared": 10208.761577084966,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1416022251",
+      "name": "926工匠公园",
+      "areaGameSquared": 10198.606826914991,
+      "waterDistanceGame": 16.46861422266412,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1107333546",
+      "name": "赛石花朝园",
+      "areaGameSquared": 10115.355450175035,
+      "waterDistanceGame": 2.767999923078208,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/674580449",
+      "name": "紫金园",
+      "areaGameSquared": 9941.166218514989,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1069574867",
+      "name": "感知之轴公园",
+      "areaGameSquared": 9734.408765839982,
+      "waterDistanceGame": 38.747970186051234,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1053239789",
+      "name": "白石公园",
+      "areaGameSquared": 9662.637690060008,
+      "waterDistanceGame": 1.2238943166024676,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1111036218",
+      "name": "道源路南侧绿道廊架",
+      "areaGameSquared": 9309.47362906002,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/621254372",
+      "name": "北塘河活力公园",
+      "areaGameSquared": 9262.51747271002,
+      "waterDistanceGame": 1.9972935680475914e-05,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/29104812",
+      "name": "嘉绿苑公园",
+      "areaGameSquared": 9101.949939554994,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1093309834",
+      "name": "朗郡庭园网球场",
+      "areaGameSquared": 9077.30988154006,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1093273203",
+      "name": "五常北部园区公园",
+      "areaGameSquared": 8838.551170795023,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1164071767",
+      "name": "芦荡公园",
+      "areaGameSquared": 8791.51269832996,
+      "waterDistanceGame": 5.981870856712811,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/584113796",
+      "name": "元宝塘公园",
+      "areaGameSquared": 8743.855385804993,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/338125046",
+      "name": "艮山运河公园",
+      "areaGameSquared": 8618.632279610005,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1464095174",
+      "name": "朝晖文化公园",
+      "areaGameSquared": 8009.766815885005,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/577397774",
+      "name": "鸡笼山",
+      "areaGameSquared": 7465.292845499993,
+      "waterDistanceGame": 28.06614071678454,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1531890708",
+      "name": "东冠社区口袋公园",
+      "areaGameSquared": 7170.485012514993,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1453005201",
+      "name": "西塘河公园",
+      "areaGameSquared": 6911.69329152501,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/606110944",
+      "name": "北塘河公园",
+      "areaGameSquared": 6716.664789009998,
+      "waterDistanceGame": 1.8022658811169448e-05,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13132001",
+      "name": "一公园",
+      "areaGameSquared": 6565.896720134993,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/306101588",
+      "name": "校友林",
+      "areaGameSquared": 6351.6180533399975,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/173434448",
+      "name": "沿江临桥巷公园",
+      "areaGameSquared": 6245.84674462498,
+      "waterDistanceGame": 13.614862494419754,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1053664353",
+      "name": "东区操场",
+      "areaGameSquared": 6132.078240434991,
+      "waterDistanceGame": 14.185492009574828,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/595988714",
+      "name": "自在公园",
+      "areaGameSquared": 6126.964827930006,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/430212519",
+      "name": "体育场",
+      "areaGameSquared": 6007.947711904996,
+      "waterDistanceGame": 33.45044564261916,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/392592157",
+      "name": "大鸟公园",
+      "areaGameSquared": 5947.601674680018,
+      "waterDistanceGame": 28.765720590205117,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/488495871",
+      "name": "莲花港绿道健身设施",
+      "areaGameSquared": 5673.056233360033,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/514249979",
+      "name": "霞湾公园",
+      "areaGameSquared": 5655.248345305006,
+      "waterDistanceGame": 0.32474418005901773,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1166034992",
+      "name": "洛克公园(长城街)",
+      "areaGameSquared": 5599.781701359987,
+      "waterDistanceGame": 8.459449586889326,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/514216466",
+      "name": "富义仓公园",
+      "areaGameSquared": 5581.267313594994,
+      "waterDistanceGame": 3.18444557173228e-05,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/488493993",
+      "name": "横河公园",
+      "areaGameSquared": 5573.119768650004,
+      "waterDistanceGame": 22.24781727152795,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1420425043",
+      "name": "土桥湾铁路公园",
+      "areaGameSquared": 5550.665561860032,
+      "waterDistanceGame": 1.0222892565725896,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/530950105",
+      "name": "运动场",
+      "areaGameSquared": 5498.882125124997,
+      "waterDistanceGame": 11.010277137871096,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/445920822",
+      "name": "情人坡",
+      "areaGameSquared": 5458.926513689995,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1111591441",
+      "name": "长阳公园",
+      "areaGameSquared": 5079.137625970008,
+      "waterDistanceGame": 2.585921680342141,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/445920829",
+      "name": "西区大草坪",
+      "areaGameSquared": 5035.131474740015,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1414531065",
+      "name": "费家塘铁路公园",
+      "areaGameSquared": 4974.600862254997,
+      "waterDistanceGame": 1.3758524192787667,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/679631796",
+      "name": "憇园",
+      "areaGameSquared": 4958.031642055016,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/445920824",
+      "name": "湖心岛",
+      "areaGameSquared": 4863.862561919985,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/547358176",
+      "name": "青年公园",
+      "areaGameSquared": 4813.140886640018,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1111012245",
+      "name": "城河公园",
+      "areaGameSquared": 4806.674913590066,
+      "waterDistanceGame": 20.94016328525559,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/338125070",
+      "name": "田径场",
+      "areaGameSquared": 4700.950311719995,
+      "waterDistanceGame": 10.738614459645206,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1006030109",
+      "name": "北塘河游步道",
+      "areaGameSquared": 4611.419109625002,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1111036245",
+      "name": "育才路沿河绿道健身设施",
+      "areaGameSquared": 4606.112992855002,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/675126108",
+      "name": "青春生育文化园",
+      "areaGameSquared": 4254.927926874992,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/331537622",
+      "name": "万向公园",
+      "areaGameSquared": 4202.418600364998,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1120244664",
+      "name": "白马湖小区北公园",
+      "areaGameSquared": 3802.254696259978,
+      "waterDistanceGame": 1.7953589060725914,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1120244694",
+      "name": "白马湖生态创意城SOHO创意园",
+      "areaGameSquared": 3691.794662455011,
+      "waterDistanceGame": 24.026921526258192,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/673264090",
+      "name": "政苑社区健身苑",
+      "areaGameSquared": 3687.3827096299965,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/338149654",
+      "name": "植物园",
+      "areaGameSquared": 3440.283826914998,
+      "waterDistanceGame": 10.418430860748114,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13131998",
+      "name": "四公园",
+      "areaGameSquared": 3348.422023515,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/504974730",
+      "name": "安古竹园",
+      "areaGameSquared": 3336.3868844850076,
+      "waterDistanceGame": 1.1319706441717434,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1214020908",
+      "name": "西体育场",
+      "areaGameSquared": 3277.271671490027,
+      "waterDistanceGame": 26.942144244927473,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/979207133",
+      "name": "五公园",
+      "areaGameSquared": 3220.846055055004,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13132000",
+      "name": "二公园",
+      "areaGameSquared": 3045.0758389200028,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/351705418",
+      "name": "西篮球场",
+      "areaGameSquared": 2952.4828073299996,
+      "waterDistanceGame": 36.927146431443745,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/514946127",
+      "name": "古荡绿色广场",
+      "areaGameSquared": 2916.034521975003,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/546576898",
+      "name": "皋亭坝公园",
+      "areaGameSquared": 2911.264363735003,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1164071754",
+      "name": "三墩兰里公园",
+      "areaGameSquared": 2810.2833130350155,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1069574866",
+      "name": "感知之轴公园",
+      "areaGameSquared": 2809.905733955037,
+      "waterDistanceGame": 32.71686494071188,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1178593098",
+      "name": "操场",
+      "areaGameSquared": 2747.3498764099777,
+      "waterDistanceGame": 30.371192161335287,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1427821877",
+      "name": "风雨球场",
+      "areaGameSquared": 2739.9312725649925,
+      "waterDistanceGame": 13.022898588632508,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1083813040",
+      "name": "东体育场",
+      "areaGameSquared": 2704.5346422500033,
+      "waterDistanceGame": 33.97988160786227,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1084641020",
+      "name": "亚运公园足球训练场",
+      "areaGameSquared": 2679.437166859998,
+      "waterDistanceGame": 28.26979602619665,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/637105002",
+      "name": "翠苑四区公园",
+      "areaGameSquared": 2632.2833002149982,
+      "waterDistanceGame": 0.9651383059808091,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1368372600",
+      "name": "北塘河爱心公园",
+      "areaGameSquared": 2519.962241465003,
+      "waterDistanceGame": 3.7337835023266908,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/9051318",
+      "name": "西溪湿地大草坪",
+      "areaGameSquared": 2422.8163147049845,
+      "waterDistanceGame": 3.8352800411133483,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "relation/13131999",
+      "name": "三公园",
+      "areaGameSquared": 2375.444718470002,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1429435683",
+      "name": "芙蓉公园",
+      "areaGameSquared": 2356.3731908300015,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/424289942",
+      "name": "运河生育文化广场",
+      "areaGameSquared": 2315.3032425800075,
+      "waterDistanceGame": 21.363488061638108,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/909271404",
+      "name": "东城文体公园",
+      "areaGameSquared": 2278.913166219976,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/289682276",
+      "name": "时代公园",
+      "areaGameSquared": 2113.381825980017,
+      "waterDistanceGame": 0.0,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1115890437",
+      "name": "紫金港东五人制足球场",
+      "areaGameSquared": 2098.5550294850045,
+      "waterDistanceGame": 1.220014289813224,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/331537621",
+      "name": "市民公园",
+      "areaGameSquared": 2059.435799525,
+      "waterDistanceGame": 1.2508790815941015,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    },
+    {
+      "id": "way/1058139896",
+      "name": "口袋公园",
+      "areaGameSquared": 1886.962118420002,
+      "waterDistanceGame": 11.461407612640084,
+      "status": "semantic site candidate only, no fixture positions frozen"
+    }
+  ],
+  "parkLampPositionsFrozen": false,
+  "sourceCoastLineCount": 0,
+  "existingLandmarkBridgeOverlapPolicy": "source IDs identify named bridge landmark ownership; generic parapets/supports must not duplicate them"
+}

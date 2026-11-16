@@ -1,0 +1,19 @@
+{
+  "checkedAtUtc": "2026-10-16T04:29:28+00:00",
+  "scope": "estimated finite structural-axis candidate only",
+  "jobs": {
+    "fuxing-alignment": {
+      "exitCode": 0,
+      "recordedStage": "evidence-ready",
+      "passed": true
+    },
+    "fuxing-complete-alignment": {
+      "exitCode": 2,
+      "recordedStage": "planned",
+      "passed": false
+    }
+  },
+  "modelExported": false,
+  "navigationAccepted": false,
+  "runtimeAccepted": false
+}

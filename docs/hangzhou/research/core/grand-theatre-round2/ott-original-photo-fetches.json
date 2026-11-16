@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ott-original-01",
+    "url": "https://carlosott.com/wp-content/uploads/2021/06/105_Hangzhou_01-1.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/ott-original-01.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 1369153,
+    "sha256": "230939e7bc030ae19426321b5d41924fc5a05d194e0ca0a9ab32550f7041e471",
+    "verifiedReadableImage": true,
+    "error": "",
+    "captureDate": null,
+    "bundled": false
+  },
+  {
+    "id": "ott-original-03",
+    "url": "https://carlosott.com/wp-content/uploads/2021/06/105_Hangzhou_03-scaled.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/ott-original-03.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 1517115,
+    "sha256": "ef9def4001458379e8baadab465d175c1d9722ddebafeca60f3e0e0fd1ab5135",
+    "verifiedReadableImage": true,
+    "error": "",
+    "captureDate": null,
+    "bundled": false
+  },
+  {
+    "id": "ott-original-12",
+    "url": "https://carlosott.com/wp-content/uploads/2021/06/105_Hangzhou_12-scaled.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/ott-original-12.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 2576072,
+    "sha256": "5f88ae0b77c54fbd92bf228042b97019c14c3df65f770535dbbd0b7f6fa0c239",
+    "verifiedReadableImage": true,
+    "error": "",
+    "captureDate": null,
+    "bundled": false
+  }
+]

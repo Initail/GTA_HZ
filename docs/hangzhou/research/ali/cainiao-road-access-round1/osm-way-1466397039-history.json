@@ -1,0 +1,23 @@
+{
+  "sourceFile": "references/osm-way-1466397039-history.xml",
+  "sourceSha256": "386180c0712f96fb0670f770ba3474e5e39f3ee4aa023675d6d0520addfeeca1",
+  "versions": [
+    {
+      "version": 1,
+      "timestamp": "2026-01-12T08:19:05Z",
+      "changeset": "177126414",
+      "tags": {
+        "access": "no",
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "云联路",
+        "oneway": "yes"
+      },
+      "nodeIds": [
+        13449607095,
+        13449607096
+      ]
+    }
+  ]
+}

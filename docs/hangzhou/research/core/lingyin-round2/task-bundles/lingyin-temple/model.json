@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "placeId": "lingyin-temple",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/lingyin-v2/lingyin-temple.glb",
+  "sourceModule": "scripts/landmarks/lingyin_temple.py",
+  "sha256": "6245574cd406ead02350c98e0760d89f6a05dd7ce93a2039233cc73d99e9e56e",
+  "sourceModuleSha256": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011",
+  "artifactMeshPrefix": "detail_lingyin-temple_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": {
+    "secondaryHeights": {
+      "basis": "estimated",
+      "value": {
+        "kings": [
+          20.0,
+          6.0
+        ],
+        "medicine": [
+          24.0,
+          7.0
+        ],
+        "dharma": [
+          23.0,
+          6.0
+        ],
+        "huayan": [
+          23.0,
+          7.0
+        ]
+      },
+      "unit": "[metres, allowance metres]",
+      "sourceIds": [
+        "kings-official",
+        "medicine-official",
+        "dharma-official",
+        "huayan-official",
+        "axis-photo-2020",
+        "hall-photo-2020"
+      ],
+      "method": "Coarse width-to-height proportions and number of visible eaves/levels in official street photos, using OSM width as contextual bound. Cropping/occlusion and perspective prevent calibrated photogrammetry. Broad candidate values, not pixel-derived survey.",
+      "uncertainty": "±6–7m planning allowance; not a statistical confidence interval; exact roof finial and ground datum unknown"
+    },
+    "roofProfiles": {
+      "basis": "estimated",
+      "sourceIds": [
+        "axis-photo-2020",
+        "hall-photo-2020",
+        "roof-photo-2021"
+      ],
+      "value": {
+        "twoTierEaveHeightFractions": [
+          0.4,
+          0.72
+        ],
+        "twoTierTopHeightFractions": [
+          0.58,
+          1
+        ],
+        "threeTierEaveHeightFractions": [
+          0.36,
+          0.62,
+          0.83
+        ],
+        "threeTierTopHeightFractions": [
+          0.5,
+          0.73,
+          1
+        ],
+        "threeTierUpperPlanFactors": [
+          0.86,
+          0.72
+        ],
+        "twoTierUpperPlanFactors": [
+          0.82,
+          0.76
+        ],
+        "cornerLiftFraction": 0.045,
+        "roofThicknessM": 0.16,
+        "topRidgeDecorationAllowanceM": 0.72
+      },
+      "method": "Visible stacked eaves, upturned corners and hipped-gabled roof rhythm simplified into curved surfaces. Ratios reproduce silhouette without asserting joinery survey.",
+      "uncertainty": "height fractions ±.06; plan factors ±.10; corner lift ±.8m; rear roof evidence incomplete"
+    },
+    "facade": {
+      "basis": "estimated",
+      "sourceIds": [
+        "grand-official",
+        "axis-photo-2020",
+        "hall-photo-2020"
+      ],
+      "value": {
+        "bodyPlanFactor": 0.88,
+        "doorHeightFraction": 0.26,
+        "pillarRadiusM": 0.22,
+        "plinthHeightM": 0.5,
+        "latticePitchM": 0.6
+      },
+      "method": "Visible yellow end walls, red pillars/doors, pale stone bases, green windows, gold plaque frames. Simplified repeated mesh detail; exact traditional components unknown.",
+      "uncertainty": "body inset ±.05, door fraction ±.06, pillar radius ±.10m, plinth ±.5m; plaque lettering pending"
+    }
+  },
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/lingyin-round2/task-bundles/lingyin-temple/job.json --spec docs/hangzhou/research/core/lingyin-round2/spec.json --module scripts/landmarks/lingyin_temple.py --output artifacts/cities/hangzhou/landmarks/lingyin-v2 --palette data/hangzhou/material-palettes.json",
+  "sourceSpec": "docs/hangzhou/research/core/lingyin-round2/spec.json",
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "sourceSpecSha256": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9"
+    },
+    {
+      "path": "data/hangzhou/material-palettes.json",
+      "sha256": "a36da19cef1cdc024dcb25fcb585d2a8e0d0a9f17c57fbfd9af7d50d291c1775",
+      "basis": "Authored PBR look from referenced photos; colors/roughness/metallicity estimated, no photo textures or calibrated reflectance claim"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/lingyin-build-v2.log",
+    "sha256": "ae8a9205892b9df796db0e76d5395a30dc8eb3a487437ba90706f7707ba54c91"
+  },
+  "modelDeliverySha256": "ba4d30c5885089fa69fe6abd4568e8d88b5c4dc9b9aa1b7ed5fe48b831ce5e43",
+  "glbStats": {
+    "triangles": 23844,
+    "materials": 6,
+    "bytes": 1646132,
+    "selectedMeshes": 6,
+    "meshNamePrefix": "detail_lingyin-temple_",
+    "wholeFileTriangles": 23844,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

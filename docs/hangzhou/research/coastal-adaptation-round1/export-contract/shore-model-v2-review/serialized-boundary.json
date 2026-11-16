@@ -1,0 +1,38 @@
+[
+  {
+    "id": "binjiang-source-retaining-wall",
+    "npzAllBoundaryFrontNormalsFaceWet": true,
+    "boundaryVerticalFaces": 2240,
+    "float32FootprintWetIntrusionAreaGame2": 0.009803963738000484,
+    "float32VsNpZFootprintHausdorffGame": 6.669191455540572e-05,
+    "float32VsNpZFootprintSymmetricDifferenceGame2": 0.038618576417853545,
+    "distanceToActualCityBalconyFootprintGame": 3384.4593014205666
+  },
+  {
+    "id": "qianjiang-city-balcony",
+    "npzAllBoundaryFrontNormalsFaceWet": true,
+    "boundaryVerticalFaces": 896,
+    "float32FootprintWetIntrusionAreaGame2": 0.003466140692556173,
+    "float32VsNpZFootprintHausdorffGame": 4.008897516376843e-05,
+    "float32VsNpZFootprintSymmetricDifferenceGame2": 0.013511118263705746,
+    "distanceToActualCityBalconyFootprintGame": 0.0
+  },
+  {
+    "id": "olympic-big-lotus",
+    "npzAllBoundaryFrontNormalsFaceWet": true,
+    "boundaryVerticalFaces": 952,
+    "float32FootprintWetIntrusionAreaGame2": 0.0032997137417746167,
+    "float32VsNpZFootprintHausdorffGame": 4.081458509828798e-05,
+    "float32VsNpZFootprintSymmetricDifferenceGame2": 0.012807342434541633,
+    "distanceToActualCityBalconyFootprintGame": 688.3223368548141
+  },
+  {
+    "id": "binjiang-park",
+    "npzAllBoundaryFrontNormalsFaceWet": true,
+    "boundaryVerticalFaces": 786,
+    "float32FootprintWetIntrusionAreaGame2": 0.003432859588058614,
+    "float32VsNpZFootprintHausdorffGame": 4.139778837154068e-05,
+    "float32VsNpZFootprintSymmetricDifferenceGame2": 0.012854091035024186,
+    "distanceToActualCityBalconyFootprintGame": 1668.1266303373618
+  }
+]

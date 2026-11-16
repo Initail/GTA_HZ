@@ -1,0 +1,113 @@
+{
+  "cityId": "hangzhou",
+  "crs": "EPSG:4326",
+  "osmFeatureId": "way/229726934",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceSnapshot": "2026-10-11T20:21:06Z",
+  "processedSourceSha256": {
+    "buildings": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+    "places": "6d7e3714bfc34ae86bf5a2487bae1433ce14801dcbf494b315689567eb0e0ef7",
+    "roads": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b"
+  },
+  "centerWGS84": [
+    120.14501471758403,
+    30.23388616474085
+  ],
+  "centerGameEN": [
+    -576.4710347609545,
+    -2668.141420883383
+  ],
+  "footprintWGS84": [
+    [
+      120.1447113,
+      30.2337857
+    ],
+    [
+      120.1448883,
+      30.2336304
+    ],
+    [
+      120.1451356,
+      30.2336363
+    ],
+    [
+      120.1453127,
+      30.2337916
+    ],
+    [
+      120.1453148,
+      30.2340059
+    ],
+    [
+      120.1451405,
+      30.2341379
+    ],
+    [
+      120.1448936,
+      30.2341356
+    ],
+    [
+      120.1447113,
+      30.2339757
+    ],
+    [
+      120.1447113,
+      30.2337857
+    ]
+  ],
+  "footprintLocalMetresEN": [
+    [
+      -29.194875910065964,
+      -11.137227121712854
+    ],
+    [
+      -12.163914923916689,
+      -28.35333057598951
+    ],
+    [
+      11.631320396165616,
+      -27.699273844466543
+    ],
+    [
+      28.671903393599802,
+      -10.483170390189885
+    ],
+    [
+      28.87396564152193,
+      13.273500377741083
+    ],
+    [
+      12.10279897647374,
+      27.906634028642046
+    ],
+    [
+      -11.653948295734178,
+      27.65166276026102
+    ],
+    [
+      -29.194875910065964,
+      9.925616769616155
+    ]
+  ],
+  "areaM2": 2663.049001459417,
+  "bboxEastM": 58.068841551587894,
+  "bboxNorthM": 56.259964604631556,
+  "edgeBearingsDegreesClockwiseFromNorth": [
+    135.30974271419848,
+    88.4255143385364,
+    44.70643706569315,
+    0.4873172234079419,
+    311.1052617549595,
+    269.3850918845744,
+    224.69925391440694,
+    180.0
+  ],
+  "southApproachFeatureId": "way/340652169",
+  "southApproachBearingTowardTowerDegrees": 3.0574491713051923,
+  "method": "area centroid and edge bearings of fixed mapped WGS84 octagon; city_config Hangzhou coefficients; metres before one .60 game scaling",
+  "uncertainty": "Vector computations only. OSM mapping accuracy unverified: use ±5m plan-position/outline allowance and ±2° face direction. Ring likely covers broad protection base/terrace, not upper tower diameter; no survey claim.",
+  "ignoredTags": {
+    "height": "71.7: tagged-unverified; do not treat as survey",
+    "alt_name:en": "Six Harmonies Pagoda: identity conflict, not adopted"
+  }
+}

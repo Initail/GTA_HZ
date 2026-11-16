@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "placeId": "west-lake-causeways",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/west-lake-causeways-v1/west-lake-causeways.glb",
+  "sourceModule": "scripts/landmarks/west_lake_causeways.py",
+  "sha256": "010aa6a94890d9e1c4071d76a3337f11534f370ee22659562ae04f673ec317c0",
+  "sourceModuleSha256": "16c89d4c4a60955489f8089f17cf81a85f68f43c837080ed66f16f37377d6c3b",
+  "artifactMeshPrefix": "detail_west-lake-causeways_",
+  "accuracyClaim": "finite reference-informed causeway/bridge candidate; mapped plan, Su dimensions reported; current vertical datum and Jindai dimensions estimated",
+  "estimatedParameters": [
+    "current road endpoints/absolute terrain and lake water level; UNESCO0.4m is historical relative water offset, not DEM sea-level height",
+    "exact per-bridge arch position/spring/crest/ramp vertical profiles; Jindai net width/span/body length remain estimated",
+    "Bai source road/old shore offset; banks and travel ribbons retain independent source positions until runtime/water seam inspection",
+    "full current carved rail motifs/bridge inscriptions/lamps/stele pavilion, junction gates, benches and stair geometry",
+    "exact willow/peach tree counts/locations and pruning/canopy avoidance; base vegetation must be reconciled by main integrator",
+    "water/green duplicate visual exclusion, pedestrian surface heights, source branch tie-ins, collision and arrival validation",
+    "actual GLB export and daytime/nighttime game top/street/distant screenshots; browser/performance acceptance"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/west-lake-causeways-round2/task-bundles/west-lake-causeways/job.json --spec docs/hangzhou/research/core/west-lake-causeways-round2/spec.json --module scripts/landmarks/west_lake_causeways.py --output artifacts/cities/hangzhou/landmarks/west-lake-causeways-v1",
+  "candidateCPUReport": "docs/hangzhou/research/core/west-lake-causeways-round2/cpu-geometry-validation.json",
+  "sourceSpec": "docs/hangzhou/research/core/west-lake-causeways-round2/spec.json",
+  "sourceSpecSha256": "0b072b9dae54a28f658df400793927127d49f02f7dd474a4b644598b3dc2bd8e",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "docs/hangzhou/audit/city-config-hangzhou-7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9.json",
+      "sha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/west-lake-causeways-build-v1.log",
+    "sha256": "9199463b775fc8cbf0fa17e8406f7e160f808d94b9402a1faa91502f1650da9e"
+  },
+  "modelDeliverySha256": "af067658f1eae6c6fcf5ae6de54886f262db489e650a4e585a17ea6ef514c8c0",
+  "glbStats": {
+    "triangles": 36926,
+    "materials": 5,
+    "bytes": 2997724,
+    "selectedMeshes": 5,
+    "meshNamePrefix": "detail_west-lake-causeways_",
+    "wholeFileTriangles": 36926,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

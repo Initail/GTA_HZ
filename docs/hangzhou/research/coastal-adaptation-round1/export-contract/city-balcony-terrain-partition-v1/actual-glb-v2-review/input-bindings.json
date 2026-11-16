@@ -1,0 +1,11 @@
+{
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check.py": "c2e2bb8af9f4be7d71645073db080e8c960f927adaa571662926ecdc7fece005",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/candidate-contract.json": "34eb1e40f7c45381d4de067164c045d9c1889fa74130b19680062e64edee6a5a",
+  "artifacts/cities/hangzhou/city-balcony-terrain-glb-v2/asset-manifest.json": "d9346576855bcacd0bd45257b5cb619cce63f1340aff00b84f8b51b1adf22e9c",
+  "artifacts/cities/hangzhou/city-balcony-terrain-glb-v2/city-balcony-terrain.glb": "49fee2ba93052f67e732c647d2edacc72c45718901d9ff692f4669ca252782a1",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/local-terrain.npz": "b53962b53b145e6c87b17cdbbf5113eaf213dddd9db905ef77b6f0587fb42a91",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/top-provenance.json": "9f50747409eeb415cefdb45a69fae40e8756c5c7f76ec9d48cf071fb8aac5c99",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/vertical-boundaries.json": "0603a7252d7947cbf415679c7ed20e06f1ad384fa420292c76da5c02376ef6d6",
+  "artifacts/cities/hangzhou/city-balcony-terrain-glb-v1/city-balcony-terrain.glb": "359c528b67724c3bdf703d877df17bac758eebd4c4250a8efcedc7c2c26dfc75",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/local-domains.geojson": "72ddec268f391ca2691365df60265601133ac1e53ea1b8d17d117ccde38c27b6"
+}

@@ -1,0 +1,1658 @@
+{
+  "seams": [
+    {
+      "id": "city-balcony:upper:west-shore-entry",
+      "fromSupport": "external-ground",
+      "toSupport": "city-balcony:upper",
+      "sourceRelation": "relation/8718551",
+      "sourceTerminalEdges": [
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "segments": [
+        {
+          "sourceVertexIndices": [
+            13,
+            14
+          ],
+          "verticesGameXYZ": [
+            [
+              3268.3915164813534,
+              5.606533345757239,
+              -1961.4584916785955
+            ],
+            [
+              3267.8911718650024,
+              5.628146286607838,
+              -1962.2987882927603
+            ],
+            [
+              3267.390827248652,
+              5.649889989428071,
+              -1963.1390849069253
+            ],
+            [
+              3266.8904826323014,
+              5.6712251128458995,
+              -1963.9793815210903
+            ]
+          ]
+        },
+        {
+          "sourceVertexIndices": [
+            14,
+            15
+          ],
+          "verticesGameXYZ": [
+            [
+              3266.8904826323014,
+              5.6712251128458995,
+              -1963.9793815210903
+            ],
+            [
+              3266.3882136134202,
+              5.691821109705304,
+              -1964.8241124182316
+            ],
+            [
+              3265.885944594539,
+              5.711215613458166,
+              -1965.6688433153731
+            ],
+            [
+              3265.383675575658,
+              5.729128635567066,
+              -1966.5135742125144
+            ]
+          ]
+        },
+        {
+          "sourceVertexIndices": [
+            15,
+            16
+          ],
+          "verticesGameXYZ": [
+            [
+              3265.383675575658,
+              5.729128635567066,
+              -1966.5135742125144
+            ],
+            [
+              3264.873009164563,
+              5.745590753128259,
+              -1967.3716079583985
+            ],
+            [
+              3264.362342753468,
+              5.760148203208156,
+              -1968.2296417042826
+            ],
+            [
+              3263.851676342373,
+              5.7727362894264385,
+              -1969.0876754501664
+            ],
+            [
+              3263.341009931278,
+              5.78350464096852,
+              -1969.9457091960505
+            ],
+            [
+              3262.8303435201833,
+              5.792912765145809,
+              -1970.8037429419346
+            ],
+            [
+              3262.319677109089,
+              5.80080861777094,
+              -1971.6617766878187
+            ],
+            [
+              3261.809010697994,
+              5.806513551723189,
+              -1972.5198104337028
+            ],
+            [
+              3261.298344286899,
+              5.810527622838922,
+              -1973.3778441795869
+            ],
+            [
+              3260.787677875804,
+              5.813388712040418,
+              -1974.235877925471
+            ],
+            [
+              3260.277011464709,
+              5.817244765044592,
+              -1975.093911671355
+            ],
+            [
+              3259.7663450536143,
+              5.8232968640017,
+              -1975.9519454172391
+            ]
+          ]
+        }
+      ],
+      "wholeSeamLengthGame": 16.865758029123153,
+      "previewSafeCenterStationsGame": [
+        0.2565,
+        16.609258029123154
+      ],
+      "previewTrimBasis": "walk radius.23 + modeled steel halfwidth.0255 + .001 float allowance; still requires current CityWalk.clear and all props/agents checks",
+      "crossingSamples": [
+        {
+          "sourceEdge": [
+            13,
+            14
+          ],
+          "seamMidpointGameXYZ": [
+            3268.141344173178,
+            5.617339816182538,
+            -1961.8786399856779
+          ],
+          "outwardNormalXZ": [
+            -0.8592173469155369,
+            0.5116107414425796
+          ],
+          "insidePointGameXYZ": [
+            3268.3991093772524,
+            5.616890308492532,
+            -1962.0321232081105
+          ],
+          "outsidePointGameXYZ": [
+            3267.8835789691034,
+            5.615146010839894,
+            -1961.7251567632452
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0021938053426442394,
+          "currentInsideToOutsideHeightDeltaGame": 0.0017442976526380605,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            13,
+            14
+          ],
+          "seamMidpointGameXYZ": [
+            3267.6409995568274,
+            5.6390181380179545,
+            -1962.718936599843
+          ],
+          "outwardNormalXZ": [
+            -0.8592173469158021,
+            0.5116107414421341
+          ],
+          "insidePointGameXYZ": [
+            3267.898764760902,
+            5.638601312782127,
+            -1962.8724198222756
+          ],
+          "outsidePointGameXYZ": [
+            3267.383234352753,
+            5.63710484863652,
+            -1962.5654533774102
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0019132893814344243,
+          "currentInsideToOutsideHeightDeltaGame": 0.0014964641456067795,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            13,
+            14
+          ],
+          "seamMidpointGameXYZ": [
+            3267.1406549404765,
+            5.660557551136986,
+            -1963.5592332140077
+          ],
+          "outwardNormalXZ": [
+            -0.8592173469158021,
+            0.5116107414421341
+          ],
+          "insidePointGameXYZ": [
+            3267.398420144551,
+            5.66000401247949,
+            -1963.7127164364404
+          ],
+          "outsidePointGameXYZ": [
+            3266.882889736402,
+            5.658918271531456,
+            -1963.405749991575
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0016392796055297865,
+          "currentInsideToOutsideHeightDeltaGame": 0.001085740948034264,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            14,
+            15
+          ],
+          "seamMidpointGameXYZ": [
+            3266.6393481228606,
+            5.681523111275602,
+            -1964.401746969661
+          ],
+          "outwardNormalXZ": [
+            -0.8595374106557021,
+            0.5110728320731704
+          ],
+          "insidePointGameXYZ": [
+            3266.8972093460575,
+            5.680746320172905,
+            -1964.555068819283
+          ],
+          "outsidePointGameXYZ": [
+            3266.3814868996637,
+            5.68015419025423,
+            -1964.248425120039
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0013689210213723157,
+          "currentInsideToOutsideHeightDeltaGame": 0.0005921299186750772,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            14,
+            15
+          ],
+          "seamMidpointGameXYZ": [
+            3266.13707910398,
+            5.701518361581735,
+            -1965.2464778668023
+          ],
+          "outwardNormalXZ": [
+            -0.8595374106557625,
+            0.5110728320730688
+          ],
+          "insidePointGameXYZ": [
+            3266.3949403271768,
+            5.700459963528482,
+            -1965.3997997164242
+          ],
+          "outsidePointGameXYZ": [
+            3265.879217880783,
+            5.700401255850089,
+            -1965.0931560171803
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0011171057316463617,
+          "currentInsideToOutsideHeightDeltaGame": 5.8707678393332685e-05,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            14,
+            15
+          ],
+          "seamMidpointGameXYZ": [
+            3265.6348100850983,
+            5.720172124512616,
+            -1966.0912087639438
+          ],
+          "outwardNormalXZ": [
+            -0.8595374106557021,
+            0.5110728320731704
+          ],
+          "insidePointGameXYZ": [
+            3265.892671308295,
+            5.718787503462418,
+            -1966.2445306135658
+          ],
+          "outsidePointGameXYZ": [
+            3265.3769488619014,
+            5.719287961918622,
+            -1965.9378869143218
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0008841625939943754,
+          "currentInsideToOutsideHeightDeltaGame": 0.0005004584562033898,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3265.1283423701107,
+            5.737359694347663,
+            -1966.9425910854566
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3265.3861392094673,
+            5.7356151335918515,
+            -1967.096021166007
+          ],
+          "outsidePointGameXYZ": [
+            3264.870545530754,
+            5.736691441908039,
+            -1966.7891610049062
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0006682524396239842,
+          "currentInsideToOutsideHeightDeltaGame": 0.0010763083161871023,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3264.6176759590153,
+            5.752869478168208,
+            -1967.8006248313404
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3264.875472798372,
+            5.750741637102235,
+            -1967.9540549118908
+          ],
+          "outsidePointGameXYZ": [
+            3264.3598791196587,
+            5.752385393427007,
+            -1967.64719475079
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0004840847412008742,
+          "currentInsideToOutsideHeightDeltaGame": 0.0016437563247722053,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3264.107009547921,
+            5.766442246317297,
+            -1968.6586585772245
+          ],
+          "outwardNormalXZ": [
+            -0.8593227978556753,
+            0.5114336018345823
+          ],
+          "insidePointGameXYZ": [
+            3264.3648063872774,
+            5.763935501704033,
+            -1968.812088657775
+          ],
+          "outsidePointGameXYZ": [
+            3263.849212708564,
+            5.766095794018706,
+            -1968.5052284966741
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.00034645229859098237,
+          "currentInsideToOutsideHeightDeltaGame": 0.0021602923146728514,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3263.5963431368255,
+            5.778120465197479,
+            -1969.5166923231086
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3263.854139976182,
+            5.773534498658508,
+            -1969.670122403659
+          ],
+          "outsidePointGameXYZ": [
+            3263.338546297469,
+            5.7778115434105795,
+            -1969.3632622425582
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0003089217868996741,
+          "currentInsideToOutsideHeightDeltaGame": 0.004277044752071468,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3263.085676725731,
+            5.7882087030571645,
+            -1970.3747260689925
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3263.3434735650876,
+            5.783913005123297,
+            -1970.5281561495428
+          ],
+          "outsidePointGameXYZ": [
+            3262.8278798863744,
+            5.787691133267699,
+            -1970.221295988442
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0005175697894657105,
+          "currentInsideToOutsideHeightDeltaGame": 0.0037781281444013715,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3262.575010314636,
+            5.796860691458375,
+            -1971.2327598148768
+          ],
+          "outwardNormalXZ": [
+            -0.8593227978559351,
+            0.511433601834146
+          ],
+          "insidePointGameXYZ": [
+            3262.8328071539927,
+            5.7929253011370765,
+            -1971.386189895427
+          ],
+          "outsidePointGameXYZ": [
+            3262.3172134752795,
+            5.7966271257978725,
+            -1971.0793297343266
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0002335656605021441,
+          "currentInsideToOutsideHeightDeltaGame": 0.003701824660796049,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3262.064343903541,
+            5.803661084747064,
+            -1972.0907935607606
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3262.322140742898,
+            5.800405475738527,
+            -1972.244223641311
+          ],
+          "outsidePointGameXYZ": [
+            3261.8065470641845,
+            5.803223387794562,
+            -1971.9373634802103
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.00043769695250261975,
+          "currentInsideToOutsideHeightDeltaGame": 0.002817912056034544,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3261.5536774924467,
+            5.8085205872810555,
+            -1972.948827306645
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3261.8114743318033,
+            5.805878889383043,
+            -1973.1022573871953
+          ],
+          "outsidePointGameXYZ": [
+            3261.29588065309,
+            5.807860510011163,
+            -1972.7953972260946
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0006600772698925894,
+          "currentInsideToOutsideHeightDeltaGame": 0.0019816206281202398,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3261.0430110813513,
+            5.81195816743967,
+            -1973.8068610525288
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3261.300807920708,
+            5.8099287844476635,
+            -1973.9602911330792
+          ],
+          "outsidePointGameXYZ": [
+            3260.7852142419947,
+            5.811081849627423,
+            -1973.6534309719784
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0008763178122466186,
+          "currentInsideToOutsideHeightDeltaGame": 0.0011530651797597713,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3260.532344670257,
+            5.815316738542505,
+            -1974.6648947984131
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3260.7901415096135,
+            5.813105220960118,
+            -1974.8183248789635
+          ],
+          "outsidePointGameXYZ": [
+            3260.2745478309002,
+            5.813433867728616,
+            -1974.5114647178627
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0018828708138887151,
+          "currentInsideToOutsideHeightDeltaGame": 0.00032864676849797547,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            15,
+            16
+          ],
+          "seamMidpointGameXYZ": [
+            3260.0216782591615,
+            5.8202708145231465,
+            -1975.522928544297
+          ],
+          "outwardNormalXZ": [
+            -0.859322797855735,
+            0.5114336018344823
+          ],
+          "insidePointGameXYZ": [
+            3260.279475098518,
+            5.817457586597213,
+            -1975.6763586248474
+          ],
+          "outsidePointGameXYZ": [
+            3259.763881419805,
+            5.818749437142447,
+            -1975.3694984637466
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0015213773806994624,
+          "currentInsideToOutsideHeightDeltaGame": 0.0012918505452343965,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        }
+      ],
+      "nearbySourcePaths": [],
+      "transitionRules": [
+        "must physically cross one of these finite source terminal edges from its outside to inside or reverse",
+        "retain previous support and reference feet height throughout this move; body footprint must remain supported and clear",
+        "source/destination floor height difference must satisfy unchanged <.48 step rule; no picking highest/lowest layer by XY",
+        "allow no direct upper-to-lower transition; no stairs/lift verified",
+        "source path proximity is not a connected public-route/operational-door acceptance"
+      ],
+      "runtimeOrPublicEntryAccepted": false
+    },
+    {
+      "id": "city-balcony:upper:east-shore-entry",
+      "fromSupport": "external-ground",
+      "toSupport": "city-balcony:upper",
+      "sourceRelation": "relation/8718551",
+      "sourceTerminalEdges": [
+        [
+          9,
+          10
+        ]
+      ],
+      "segments": [
+        {
+          "sourceVertexIndices": [
+            9,
+            10
+          ],
+          "verticesGameXYZ": [
+            [
+              3298.931782112799,
+              5.378127028050199,
+              -1918.935935574205
+            ],
+            [
+              3298.3699253490677,
+              5.377008733384848,
+              -1919.7552485281242
+            ],
+            [
+              3297.8080685853365,
+              5.3757175787458795,
+              -1920.5745614820435
+            ],
+            [
+              3297.2462118216054,
+              5.374238760268703,
+              -1921.393874435963
+            ],
+            [
+              3296.684355057874,
+              5.372751748758953,
+              -1922.2131873898823
+            ],
+            [
+              3296.122498294143,
+              5.371067191377456,
+              -1923.0325003438015
+            ],
+            [
+              3295.560641530412,
+              5.36916762500482,
+              -1923.8518132977208
+            ],
+            [
+              3294.9987847666807,
+              5.367043145313026,
+              -1924.6711262516403
+            ],
+            [
+              3294.4369280029496,
+              5.36479412550686,
+              -1925.4904392055596
+            ],
+            [
+              3293.8750712392184,
+              5.362644073485153,
+              -1926.3097521594789
+            ],
+            [
+              3293.3132144754873,
+              5.360220593621856,
+              -1927.1290651133984
+            ],
+            [
+              3292.751357711756,
+              5.357545082455751,
+              -1927.9483780673177
+            ],
+            [
+              3292.189500948025,
+              5.354652938238904,
+              -1928.767691021237
+            ],
+            [
+              3291.627644184294,
+              5.351596019160794,
+              -1929.5870039751564
+            ],
+            [
+              3291.0657874205626,
+              5.348441219271454,
+              -1930.4063169290757
+            ],
+            [
+              3290.5039306568315,
+              5.345267369259399,
+              -1931.225629882995
+            ],
+            [
+              3289.9420738931003,
+              5.342106682285527,
+              -1932.0449428369145
+            ],
+            [
+              3289.380217129369,
+              5.338955772177439,
+              -1932.8642557908338
+            ],
+            [
+              3288.818360365638,
+              5.33591041041239,
+              -1933.683568744753
+            ],
+            [
+              3288.256503601907,
+              5.333086995988184,
+              -1934.5028816986724
+            ],
+            [
+              3287.6946468381757,
+              5.331217340565483,
+              -1935.3221946525919
+            ],
+            [
+              3287.1327900744445,
+              5.3361439559790025,
+              -1936.1415076065111
+            ],
+            [
+              3286.5709333107134,
+              5.341329738854832,
+              -1936.9608205604304
+            ],
+            [
+              3286.009076546982,
+              5.34651552173067,
+              -1937.78013351435
+            ],
+            [
+              3285.447219783251,
+              5.351701304606493,
+              -1938.5994464682692
+            ],
+            [
+              3284.88536301952,
+              5.356887087482346,
+              -1939.4187594221885
+            ],
+            [
+              3284.3235062557887,
+              5.362072870358176,
+              -1940.238072376108
+            ],
+            [
+              3283.7616494920576,
+              5.367258653234,
+              -1941.0573853300273
+            ],
+            [
+              3283.1997927283264,
+              5.372444436109836,
+              -1941.8766982839466
+            ]
+          ]
+        }
+      ],
+      "wholeSeamLengthGame": 27.816794993273863,
+      "previewSafeCenterStationsGame": [
+        0.2565,
+        27.560294993273864
+      ],
+      "previewTrimBasis": "walk radius.23 + modeled steel halfwidth.0255 + .001 float allowance; still requires current CityWalk.clear and all props/agents checks",
+      "crossingSamples": [
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3298.6508537309332,
+            5.377567880717523,
+            -1919.3455920511647
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3298.8982664474083,
+            5.3795817616763415,
+            -1919.5152592186612
+          ],
+          "outsidePointGameXYZ": [
+            3298.403441014458,
+            5.37715613167605,
+            -1919.1759248836681
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0004117490414730085,
+          "currentInsideToOutsideHeightDeltaGame": 0.002425630000291612,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3298.088996967202,
+            5.376363156065364,
+            -1920.1649050050837
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3298.336409683677,
+            5.378360866061099,
+            -1920.3345721725802
+          ],
+          "outsidePointGameXYZ": [
+            3297.841584250727,
+            5.375883766947522,
+            -1919.9952378375872
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.00047938911784140004,
+          "currentInsideToOutsideHeightDeltaGame": 0.0024770991135767417,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3297.527140203471,
+            5.374978169507291,
+            -1920.9842179590032
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3297.7745529199465,
+            5.37695753920743,
+            -1921.1538851264997
+          ],
+          "outsidePointGameXYZ": [
+            3297.2797274869954,
+            5.37440844565788,
+            -1920.8145507915067
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.000569723849411119,
+          "currentInsideToOutsideHeightDeltaGame": 0.002549093549549575,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3296.96528343974,
+            5.373495254513828,
+            -1921.8035309129227
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3297.212696156215,
+            5.375487730444705,
+            -1921.9731980804193
+          ],
+          "outsidePointGameXYZ": [
+            3296.7178707232647,
+            5.3727195567978985,
+            -1921.6338637454262
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0007756977159294465,
+          "currentInsideToOutsideHeightDeltaGame": 0.002768173646806815,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3296.4034266760086,
+            5.371909470068204,
+            -1922.6228438668418
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3296.6508393924837,
+            5.373873728862632,
+            -1922.7925110343383
+          ],
+          "outsidePointGameXYZ": [
+            3296.1560139595335,
+            5.3708138215198105,
+            -1922.4531766993452
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.001095648548393946,
+          "currentInsideToOutsideHeightDeltaGame": 0.0030599073428216883,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3295.8415699122775,
+            5.370117408191138,
+            -1923.4421568207613
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3296.0889826287525,
+            5.372053211091631,
+            -1923.6118239882578
+          ],
+          "outsidePointGameXYZ": [
+            3295.5941571958024,
+            5.36887967931456,
+            -1923.2724896532648
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.001237728876578359,
+          "currentInsideToOutsideHeightDeltaGame": 0.0031735317770706928,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3295.2797131485463,
+            5.368105385158923,
+            -1924.2614697746806
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3295.527125865022,
+            5.370013064413721,
+            -1924.431136942177
+          ],
+          "outsidePointGameXYZ": [
+            3295.0323004320708,
+            5.366710948383254,
+            -1924.091802607184
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0013944367756693055,
+          "currentInsideToOutsideHeightDeltaGame": 0.0033021160304667063,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3294.717856384815,
+            5.365918635409943,
+            -1925.0807827285998
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3294.9652691012902,
+            5.367821318628144,
+            -1925.2504498960964
+          ],
+          "outsidePointGameXYZ": [
+            3294.47044366834,
+            5.364450701114054,
+            -1924.9111155611033
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0014679342958894281,
+          "currentInsideToOutsideHeightDeltaGame": 0.0033706175140899575,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3294.155999621084,
+            5.363719099496006,
+            -1925.9000956825193
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3294.403412337559,
+            5.365663851538857,
+            -1926.0697628500159
+          ],
+          "outsidePointGameXYZ": [
+            3293.908586904609,
+            5.3622479672398216,
+            -1925.7304285150228
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0014711322561842266,
+          "currentInsideToOutsideHeightDeltaGame": 0.0034158842990352767,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3293.594142857353,
+            5.361432333553504,
+            -1926.7194086364386
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3293.8415555738284,
+            5.363330396230138,
+            -1926.8890758039352
+          ],
+          "outsidePointGameXYZ": [
+            3293.3467301408773,
+            5.359760865589177,
+            -1926.549741468942
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0016714679643268227,
+          "currentInsideToOutsideHeightDeltaGame": 0.003569530640961105,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3293.0322860936217,
+            5.358882838038803,
+            -1927.538721590358
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3293.2796988100968,
+            5.360742834131443,
+            -1927.7083887578544
+          ],
+          "outsidePointGameXYZ": [
+            3292.7848733771466,
+            5.3570082854117205,
+            -1927.3690544228614
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0018745526270826929,
+          "currentInsideToOutsideHeightDeltaGame": 0.0037345487197226745,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3292.4704293298905,
+            5.356099010347327,
+            -1928.3580345442774
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3292.7178420463656,
+            5.357931355482393,
+            -1928.527701711774
+          ],
+          "outsidePointGameXYZ": [
+            3292.2230166134154,
+            5.354022395417982,
+            -1928.188367376781
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0020766149293445224,
+          "currentInsideToOutsideHeightDeltaGame": 0.003908960064410216,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3291.9085725661594,
+            5.353124478699849,
+            -1929.1773474981967
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3292.155985282635,
+            5.354942135787363,
+            -1929.3470146656932
+          ],
+          "outsidePointGameXYZ": [
+            3291.661159849684,
+            5.350850480970967,
+            -1929.0076803307002
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0022739977288814828,
+          "currentInsideToOutsideHeightDeltaGame": 0.004091654816395618,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3291.346715802428,
+            5.350018619216124,
+            -1929.996660452116
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3291.5941285189033,
+            5.351836857137222,
+            -1930.1663276196125
+          ],
+          "outsidePointGameXYZ": [
+            3291.099303085953,
+            5.347555742632013,
+            -1929.8269932846194
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.002462876584111484,
+          "currentInsideToOutsideHeightDeltaGame": 0.004281114505209516,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3290.784859038697,
+            5.346854294265427,
+            -1930.8159734060355
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3291.032271755172,
+            5.348690049819068,
+            -1930.985640573532
+          ],
+          "outsidePointGameXYZ": [
+            3290.537446322222,
+            5.344209600772693,
+            -1930.646306238539
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.002644693492733552,
+          "currentInsideToOutsideHeightDeltaGame": 0.0044804490463752344,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3290.223002274966,
+            5.3436870257724625,
+            -1931.6352863599548
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3290.4704149914414,
+            5.345545380719152,
+            -1931.8049535274513
+          ],
+          "outsidePointGameXYZ": [
+            3289.9755895584904,
+            5.340897464990273,
+            -1931.4656191924582
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.002789560782189504,
+          "currentInsideToOutsideHeightDeltaGame": 0.004647915728878793,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3289.6611455112347,
+            5.340531227231483,
+            -1932.454599313874
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3289.90855822771,
+            5.3442139499421035,
+            -1932.6242664813706
+          ],
+          "outsidePointGameXYZ": [
+            3289.4137327947597,
+            5.337602917973178,
+            -1932.2849321463775
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0029283092583050063,
+          "currentInsideToOutsideHeightDeltaGame": 0.006611031968925651,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3289.0992887475036,
+            5.337433091294914,
+            -1933.2739122677935
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3289.3467014639787,
+            5.341265145693729,
+            -1933.44357943529
+          ],
+          "outsidePointGameXYZ": [
+            3288.8518760310285,
+            5.334390237207972,
+            -1933.104245100297
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0030428540869413823,
+          "currentInsideToOutsideHeightDeltaGame": 0.00687490848575667,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3288.5374319837724,
+            5.334498703200287,
+            -1934.0932252217126
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3288.7848447002475,
+            5.338475775891917,
+            -1934.2628923892091
+          ],
+          "outsidePointGameXYZ": [
+            3288.2900192672973,
+            5.331371573982492,
+            -1933.923558054216
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0031271292177956767,
+          "currentInsideToOutsideHeightDeltaGame": 0.0071042019094251785,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3287.9755752200413,
+            5.332152168276833,
+            -1934.912538175632
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3288.222987936517,
+            5.3360557967660665,
+            -1935.0822053431286
+          ],
+          "outsidePointGameXYZ": [
+            3287.7281625035657,
+            5.328637377324417,
+            -1934.7428710081356
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.003514790952416469,
+          "currentInsideToOutsideHeightDeltaGame": 0.007418419441649782,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3287.41371845631,
+            5.333680648272242,
+            -1935.7318511295516
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3287.661131172785,
+            5.335395377952667,
+            -1935.9015182970481
+          ],
+          "outsidePointGameXYZ": [
+            3287.166305739835,
+            5.330911922091472,
+            -1935.562183962055
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0027687261807702868,
+          "currentInsideToOutsideHeightDeltaGame": 0.004483455861194585,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3286.851861692579,
+            5.338736847416918,
+            -1936.5511640834707
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3287.099274409054,
+            5.340367733918616,
+            -1936.7208312509672
+          ],
+          "outsidePointGameXYZ": [
+            3286.604448976104,
+            5.3360600570025065,
+            -1936.3814969159741
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0026767904144113785,
+          "currentInsideToOutsideHeightDeltaGame": 0.004307676916109671,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3286.290004928848,
+            5.343922630292751,
+            -1937.3704770373902
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3286.5374176453233,
+            5.34555351679445,
+            -1937.5401442048867
+          ],
+          "outsidePointGameXYZ": [
+            3286.0425922123723,
+            5.3412458398783365,
+            -1937.2008098698936
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0026767904144149313,
+          "currentInsideToOutsideHeightDeltaGame": 0.004307676916113223,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3285.7281481651166,
+            5.349108413168581,
+            -1938.1897899913097
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3285.9755608815917,
+            5.350739299670286,
+            -1938.3594571588062
+          ],
+          "outsidePointGameXYZ": [
+            3285.4807354486416,
+            5.346431622754175,
+            -1938.0201228238132
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0026767904144060495,
+          "currentInsideToOutsideHeightDeltaGame": 0.004307676916110559,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3285.1662914013855,
+            5.354294196044419,
+            -1939.0091029452287
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3285.4137041178606,
+            5.3559250825461096,
+            -1939.1787701127253
+          ],
+          "outsidePointGameXYZ": [
+            3284.9188786849104,
+            5.351617405630005,
+            -1938.8394357777322
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.002676790414414043,
+          "currentInsideToOutsideHeightDeltaGame": 0.0043076769161043416,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3284.6044346376543,
+            5.359479978920261,
+            -1939.8284158991482
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549177293,
+            0.5655572249885115
+          ],
+          "insidePointGameXYZ": [
+            3284.85184735413,
+            5.361110865421961,
+            -1939.9980830666448
+          ],
+          "outsidePointGameXYZ": [
+            3284.357021921179,
+            5.356803188505835,
+            -1939.6587487316517
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0026767904144255894,
+          "currentInsideToOutsideHeightDeltaGame": 0.004307676916125658,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3284.042577873923,
+            5.364665761796088,
+            -1940.6477288530677
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3284.2899905903982,
+            5.366296648297791,
+            -1940.8173960205643
+          ],
+          "outsidePointGameXYZ": [
+            3283.795165157448,
+            5.361988971381673,
+            -1940.4780616855712
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0026767904144149313,
+          "currentInsideToOutsideHeightDeltaGame": 0.004307676916117664,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        },
+        {
+          "sourceEdge": [
+            9,
+            10
+          ],
+          "seamMidpointGameXYZ": [
+            3283.480721110192,
+            5.369851544671918,
+            -1941.4670418069868
+          ],
+          "outwardNormalXZ": [
+            -0.8247090549176561,
+            0.5655572249886182
+          ],
+          "insidePointGameXYZ": [
+            3283.728133826667,
+            5.371482431173616,
+            -1941.6367089744833
+          ],
+          "outsidePointGameXYZ": [
+            3283.233308393717,
+            5.367174754257511,
+            -1941.2973746394903
+          ],
+          "currentOutsideGroundMinusSeamGame": -0.0026767904144069377,
+          "currentInsideToOutsideHeightDeltaGame": 0.00430767691610523,
+          "lessThanUnchangedStep048": true,
+          "outsideWet": false
+        }
+      ],
+      "nearbySourcePaths": [],
+      "transitionRules": [
+        "must physically cross one of these finite source terminal edges from its outside to inside or reverse",
+        "retain previous support and reference feet height throughout this move; body footprint must remain supported and clear",
+        "source/destination floor height difference must satisfy unchanged <.48 step rule; no picking highest/lowest layer by XY",
+        "allow no direct upper-to-lower transition; no stairs/lift verified",
+        "source path proximity is not a connected public-route/operational-door acceptance"
+      ],
+      "runtimeOrPublicEntryAccepted": false
+    }
+  ],
+  "groundSource": "render-input-v6 independent road/DSM current game sampler; proposed local terrain cuts not assumed active",
+  "bodyOrRuntimeTested": false
+}

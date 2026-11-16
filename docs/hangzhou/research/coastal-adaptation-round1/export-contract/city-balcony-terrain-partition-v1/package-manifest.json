@@ -1,0 +1,369 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/README.md",
+      "sha256": "77bb2dc59e39ca2d58a9ca4dc2d49226a8d4661b7a938b972d2c3267a03f6b7c",
+      "bytes": 7338
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/boundary-check-normalized.log",
+      "sha256": "81bc27df7ab9b118b0f4be3c7e03a0181b3bb2802afda722655c1acf5552f8e2",
+      "bytes": 4457
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/boundary-check.log",
+      "sha256": "89c7fc8bb74b43b157e13962327facdb5771c8540695d260332ea660f2e11a00",
+      "bytes": 3340
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/boundary-validation.json",
+      "sha256": "81bc27df7ab9b118b0f4be3c7e03a0181b3bb2802afda722655c1acf5552f8e2",
+      "bytes": 4457
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-report-run2-failed.json",
+      "sha256": "06cd58bbfd9501dbaa7e659b0fd5946f4df32ca87be2a4e35414ddaa59b20c1a",
+      "bytes": 6516
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-report.json",
+      "sha256": "2075c80d87e03215a88c17e95a6a3933a6300321ad7a2e3f8e58839b0bed608a",
+      "bytes": 1885
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run10.log",
+      "sha256": "af6fbe3edab8b44f6affd87ff169c7a4b5827aba7d1869b050643b1477b9d19e",
+      "bytes": 2341
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run2.log",
+      "sha256": "a52a24e776c810146f13397541cf50f004c1c7b96afc0771b935e74252a1bda8",
+      "bytes": 10444
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run3.log",
+      "sha256": "37114bc64b32ede8edbd50744745d2888b1a538bfb76ab561d00258a3824c186",
+      "bytes": 9043
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run4.log",
+      "sha256": "ae67bbe561656190462ccba83ad1704cfdf47d04434ded864c22de63cd9bbb3a",
+      "bytes": 2211
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run5.log",
+      "sha256": "b20188586bc7419d799176c3092f6bfd85ee9d75e4c27d704d4331b01374e424",
+      "bytes": 909
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run6.log",
+      "sha256": "33ec2f7cd353a32d5441776db78684138dda5a2c06a230759b6873be530cb597",
+      "bytes": 899
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run7.log",
+      "sha256": "1a3ad7176d5737dd65ef7f10a25bf7ee696685572a6712c68add5cfe6b7eb130",
+      "bytes": 1034
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run8.log",
+      "sha256": "d72a6bae24483520e044cd0ff6dada0b5a7555babe757941b8d0fa2e47bd88ee",
+      "bytes": 537
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build-run9.log",
+      "sha256": "4d79c5f9c26a3cb2888b7c3b8332056a6e655c61b4f776429c0c12f534a94dfa",
+      "bytes": 2244
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build.log",
+      "sha256": "784394bffff1db59a3c19b8fe125197972b5dfa28fdab6932242fb7428107e5e",
+      "bytes": 10444
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/build.py",
+      "sha256": "fa9522637c6a6ddd3b05e93cb706c3005f525ebd17305dbdfd544344edcf8fcc",
+      "bytes": 13427
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/candidate-contract.json",
+      "sha256": "34eb1e40f7c45381d4de067164c045d9c1889fa74130b19680062e64edee6a5a",
+      "bytes": 2202
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/check-boundaries.py",
+      "sha256": "dd491d9db31ee34b4e08c306171485bca89872c2e32f410412f838fab7c12e3e",
+      "bytes": 6956
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/closed-cpu-float-risk/build-report.json",
+      "sha256": "efd66b893909abd625eb879a598358c35e40520708f66f53d2831dd810fa62a6",
+      "bytes": 1796
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/closed-cpu-float-risk/build.py",
+      "sha256": "a2390115178ca014c739dafc384b617a8b91526337d1c929e1adb1873ee30c71",
+      "bytes": 12004
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/closed-cpu-float-risk/local-terrain.npz",
+      "sha256": "614e2ea083973ae1d0929dd4e01ad2bf35bd7fd075e51392165e631dcea7fbe8",
+      "bytes": 468745
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/closed-cpu-float-risk/top-provenance.json",
+      "sha256": "301953e3129ada4daf0f492edf4c27d31f23c2f49eb3eef70c272697ff4da0b9",
+      "bytes": 2446039
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/closed-cpu-float-risk/validation-failures.json",
+      "sha256": "40f4cbfa12bc72c7a3e2c5cfb972194f4a4b58549377cbafc9d4a0b5350efe90",
+      "bytes": 130
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/closed-cpu-float-risk/validation.json",
+      "sha256": "3f0caec840cfa17d1e3c74bafc41b58fd61f2ee6007a6de76736d4d736559506",
+      "bytes": 1943
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/closed-cpu-float-risk/vertical-boundaries.json",
+      "sha256": "7c6c84f1c34c025ca1b7577710f4173b16314a673bbb7d35da9959d87bae0b1f",
+      "bytes": 440195
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/discontinuity-segments.json",
+      "sha256": "67f8d265788f09276ddfaa93f8ff2e5227eb5cd85eb7fc49379b8063f1977761",
+      "bytes": 304706
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/float32-preflight.json",
+      "sha256": "ed4ca0feb5253dd641866b2bd4fac6f7bac4e9032f910969bd1c17a9a975e279",
+      "bytes": 257
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/build-report.json",
+      "sha256": "0b98f5d1c1c16c0acdc31aa5bbc1da8e5e8cfd31d8ee546873d0dafc560ec055",
+      "bytes": 6516
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/build.log",
+      "sha256": "784394bffff1db59a3c19b8fe125197972b5dfa28fdab6932242fb7428107e5e",
+      "bytes": 10444
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/build.py",
+      "sha256": "30fa0d3cb061e7381886657600b5be5f089aa0cb192afa3dfc038ce5b0dd4f96",
+      "bytes": 9603
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/input-bindings.json",
+      "sha256": "a2628acea920f0e5a98e03f8ed0f94f1bbad70026da54f3d96660ea1d87b52b5",
+      "bytes": 1155
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/local-domains.geojson",
+      "sha256": "72ddec268f391ca2691365df60265601133ac1e53ea1b8d17d117ccde38c27b6",
+      "bytes": 22671
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/local-terrain.npz",
+      "sha256": "a36687210290cdb133d533dcab89441036fb093eba315b21877db0dc9849b48a",
+      "bytes": 186776
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/partition-cells.geojson",
+      "sha256": "10eee3f8f6c283abc61f025e8869f7b7f64f3074c8d74598d6cc2fdefb2b021d",
+      "bytes": 2632733
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/top-provenance.json",
+      "sha256": "b439245183d4978988fc8cb5f28e7b2825cf705bcb44476af7546fa31d90b125",
+      "bytes": 833447
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/initial-failed/vertical-boundaries.json",
+      "sha256": "d9df94ff810a962853515a69d0c4132f00c7667ea91532648d464272b5797e14",
+      "bytes": 298493
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/input-bindings.json",
+      "sha256": "2f3d4a9ff7c9b9baf7141862d8fa5de19c8e023c0245bb179fdfa9a49e310430",
+      "bytes": 1155
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/local-domains.geojson",
+      "sha256": "72ddec268f391ca2691365df60265601133ac1e53ea1b8d17d117ccde38c27b6",
+      "bytes": 22671
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/local-terrain.npz",
+      "sha256": "b53962b53b145e6c87b17cdbbf5113eaf213dddd9db905ef77b6f0587fb42a91",
+      "bytes": 468711
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/narrow-boundary-height-queries.json",
+      "sha256": "d2b14b3e5b3af46652d36007ce3167c67dbae071cc848e14c804cf90ea5ee8fa",
+      "bytes": 3302638
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/ownership-boundary-differences.json",
+      "sha256": "5c281fb5195d4ffe7de9b411109586ead959c88e258161d7b2dc5677b097de0f",
+      "bytes": 2053
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/partition-cells.geojson",
+      "sha256": "ff678e40b55bd8d54b9301b2f1f75db5aa72bdeb8737740a837bedf1e51aa5e0",
+      "bytes": 6786576
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/build-report.json",
+      "sha256": "cea51f60ee4a7a4b93acdbd328357e983a33a5896d4e9ffea4e5c2f2bbfd1861",
+      "bytes": 5674
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/build.py",
+      "sha256": "efdbae3f044a8cd3820d315e9ccc503ae84d771d84e367e24fbdadb0f8b0464e",
+      "bytes": 9750
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/input-bindings.json",
+      "sha256": "01732c55da8b233935e463e30762fdd9585b8b79c894c5b3e339eac90a2b7e8f",
+      "bytes": 1155
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/local-terrain.npz",
+      "sha256": "224e8ea2e16a3bbc9c6699f9e7c7d50e899f173607d1ab0a239706cf0d157860",
+      "bytes": 187959
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/partition-cells.geojson",
+      "sha256": "3b2f0b3a6b0c1ebba27c186a9a6f96ed110ba11e1f0aca65a80622cbd8c51f94",
+      "bytes": 2636896
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/top-provenance.json",
+      "sha256": "07051b0585a4b9dcdb39424596e9d744594b1d4d52ee836b706af06f4a287566",
+      "bytes": 839522
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/validation-failures.json",
+      "sha256": "09d2886cdbd81846f314f0a17047a91cd2844877e786a1cbf53c92f9935b9225",
+      "bytes": 80378
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/validation.json",
+      "sha256": "e3b1a14a709255b2d7b11155edb6884c4666924d71ef6a7d7119c8b1c3c9ced5",
+      "bytes": 1948
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-closed-domain-failed/vertical-boundaries.json",
+      "sha256": "819c382bcd3d61a13e528194aa4f40e57b31e44c9986f67010b6f2b1abeb371b",
+      "bytes": 307326
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-metric-boundary-validation.json",
+      "sha256": "89c7fc8bb74b43b157e13962327facdb5771c8540695d260332ea660f2e11a00",
+      "bytes": 3340
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-metric-check-boundaries.py",
+      "sha256": "5647df6971b7742482cffab7b04dfc3b13b8d6320353c46f6037a4a0633c742c",
+      "bytes": 6175
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/raw-metric-ownership-boundary-differences.json",
+      "sha256": "c1875d37f0761f5d3edde5b2f64d0ca564458720906baef6aec0b110262b9477",
+      "bytes": 1487
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/snapped-network-exact-clip-failed/build-report.json",
+      "sha256": "12d1a9050070d30ff682e4b72e23398a59087bb63f3ab3e990f7259e72cee50d",
+      "bytes": 1767
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/snapped-network-exact-clip-failed/build.py",
+      "sha256": "af94b21623821a964a1e853d8510d4d924057d8a13038735b140794d320773b4",
+      "bytes": 9982
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/snapped-network-exact-clip-failed/local-terrain.npz",
+      "sha256": "e45013021377ec9e64ecf2d7b02090d6ebad4c20c47b163bec8449b641724606",
+      "bytes": 476725
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/snapped-network-exact-clip-failed/top-provenance.json",
+      "sha256": "9604e61d84c095301807060c7d018dc9f2597fa9aadc167de9579a293363c983",
+      "bytes": 2466153
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/snapped-network-exact-clip-failed/validation-failures.json",
+      "sha256": "981c28046cf1b9ea014dc83758a3f558476169361fd3a53ddaa95993a7890444",
+      "bytes": 156827
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/snapped-network-exact-clip-failed/validation.json",
+      "sha256": "72686fb1917b02a8a9564d030556b18910f9876b112c9052a3d6fed247d6a3d1",
+      "bytes": 1993
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/snapped-network-exact-clip-failed/vertical-boundaries.json",
+      "sha256": "77f970f5eacdf19951086e8a4267065f5f0cab7ef955a715d15f23e5d8e192e2",
+      "bytes": 455514
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/top-provenance.json",
+      "sha256": "9f50747409eeb415cefdb45a69fae40e8756c5c7f76ec9d48cf071fb8aac5c99",
+      "bytes": 2445883
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validate-final.log",
+      "sha256": "81ed4a68f9526916d494a4046c466996f4dab8938c7b5cc6909896a2f403b222",
+      "bytes": 2042
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validate-run2.log",
+      "sha256": "80e90d4949fddac60a7af97de03e0122d61e3f924aae92114714b8985174d315",
+      "bytes": 1949
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validate-run3.log",
+      "sha256": "6211f57b54d18de204913b5018ce80c68f2c90108efa707c19f2d9d55022d634",
+      "bytes": 1994
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validate-run4.log",
+      "sha256": "679bce7daea95f9c0f1b2284db20d7fb0e6964929b2512343f5c64de2fa8bda6",
+      "bytes": 1944
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validate-run5.log",
+      "sha256": "ea7a1788ca9834d0a18d66d09fc152cbe797f1db8b687bb8c08830599d0e3338",
+      "bytes": 1945
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validate.log",
+      "sha256": "3ab469125867fc7b104d5c07efce03492bf64a90fbb1d581b473863390e752f8",
+      "bytes": 3114
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validate.py",
+      "sha256": "fc4d8966367788833559af0807e53fbddebb42bdd94723e9a08273aaa6581118",
+      "bytes": 6696
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validation-failures.json",
+      "sha256": "40f4cbfa12bc72c7a3e2c5cfb972194f4a4b58549377cbafc9d4a0b5350efe90",
+      "bytes": 130
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/validation.json",
+      "sha256": "0db6f6f11eaa978cec577f5d6f77229b697726ee8ad40e8053901a5a1e926331",
+      "bytes": 2041
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-partition-v1/vertical-boundaries.json",
+      "sha256": "0603a7252d7947cbf415679c7ed20e06f1ad384fa420292c76da5c02376ef6d6",
+      "bytes": 439761
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "placeId": "hangzhou-gate",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/hangzhou-gate-v1/hangzhou-gate.glb",
+  "sourceModule": "scripts/landmarks/hangzhou_gate.py",
+  "sha256": "c10adac2ca17328ac2820fa184e06f43c296b71d0d962993d090563ce3af0ed1",
+  "sourceModuleSha256": "a53fc34f885dd8a55c32e09ff38392d8772df4072973dd5e4b8f0db740d7357a",
+  "artifactMeshPrefix": "detail_hangzhou-gate_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": {
+    "bodySections": {
+      "value": [
+        [
+          0,
+          1.0,
+          1.0
+        ],
+        [
+          34.6,
+          1.02,
+          1.0
+        ],
+        [
+          103.6,
+          0.89,
+          0.94
+        ],
+        [
+          160,
+          0.91,
+          0.94
+        ],
+        [
+          235,
+          0.94,
+          0.92
+        ],
+        [
+          280,
+          0.9,
+          0.87
+        ]
+      ],
+      "unit": "[z_m, footprint_axis_u_factor, footprint_axis_v_factor]",
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "OSM base fixed; photographed smooth outline sampled at broad height fractions of reported 310m. Factors are coarse proportional visual estimates, not photogrammetry.",
+      "uncertainty": "height breakpoints ±15m, width/depth factors ±0.08; independent back-side facade pending"
+    },
+    "crownDropM": {
+      "value": 24,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "outer/inner sloped rim difference visually proportioned from full frontal photo using 310m total; no exact crown survey",
+      "uncertainty": "±10m; exact roof/helipad level and underside unknown"
+    },
+    "curtainDepthM": {
+      "value": 42,
+      "basis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "ecadi-primary"
+      ],
+      "method": "bounded by mapped middle feature front-axis extent 45.037m and reviewed saddle photograph; rectangular candidate support depth",
+      "uncertainty": "±6m, not actual curved curtain plan"
+    },
+    "curtainCrossCamberM": {
+      "value": 10,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "SOM bridge section image 689 and actual oblique photo 698 show convex cross-direction roof; representative rise selected relative to 60m reported span",
+      "uncertainty": "±5m; engineering catenary/rationalised panel coordinates not obtained"
+    },
+    "curtainPanelThicknessM": {
+      "value": 0.1,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "thin closed volume represents reviewed panel and makes both sides visible with existing material culling; no measured construction thickness",
+      "uncertainty": "rendering allowance, physical panel/frame thickness unknown"
+    },
+    "archUndersideRiseM": {
+      "value": 20,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "frontal arch void fitted below reported banquet floor at22m, leaving central passage and side abutments",
+      "uncertainty": "±4m; engineering soffit profile not obtained"
+    },
+    "facadeHorizontalBandM": {
+      "value": 0.2,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "thin repeated structural/floor rhythm observed in official photos; thickness is game-visible representation",
+      "uncertainty": "±.10m"
+    },
+    "facadeVerticalRibM": {
+      "value": 0.12,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "reviewed narrow mullion rhythm; width chosen for low-poly candidate, not measured",
+      "uncertainty": "±.08m"
+    },
+    "facadePerimeterDivisions": {
+      "value": 96,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "approx2m bay spacing from196m mapped tower perimeter and photograph rhythm; actual mullion count not claimed",
+      "uncertainty": "±24 divisions"
+    },
+    "bridgeGlazingInsetM": {
+      "value": 0.25,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary"
+      ],
+      "method": "avoid coplanar surfaces in candidate; exact rebate not obtained",
+      "uncertainty": "rendering allowance"
+    }
+  },
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/job.json --spec docs/hangzhou/research/core/gate-round2/spec.json --module scripts/landmarks/hangzhou_gate.py --output artifacts/cities/hangzhou/landmarks/hangzhou-gate-v1",
+  "sourceSpec": "docs/hangzhou/research/core/gate-round2/spec.json",
+  "sourceSpecSha256": "6bd2ceb5f50628fa1200b003490161aa739925842837476cc2669481bcd095ad",
+  "notes": "本轮后台 Blender 已导出；仍待完整城市集成、地坪、入口、碰撞、昼夜和性能验收。"
+}

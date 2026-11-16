@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="660" viewBox="0 0 920 660">
+<rect width="920" height="660" fill="#f7fafc"/>
+<style>text{font-family:Arial,sans-serif;fill:#182b3a;font-size:14px}</style>
+<text x="25" y="30" font-size="21">Xianfu road underpass — fixed OSM centre-line evidence</text>
+<text x="25" y="55">Snapshot 2026-10-11 | WGS84 → project local metres | North up | Widths/heights unknown</text>
+<defs><clipPath id="frame"><rect x="25" y="80" width="870" height="470"/></clipPath></defs>
+<g clip-path="url(#frame)">
+<polyline points="428.58,-616.54 429.16,283.17 412.85,728.71 406.65,898.98 390.10,1268.91 354.30,1749.42" fill="none" stroke="#e58a18" stroke-width="3"/>
+<polyline points="502.24,1738.28 509.55,1545.67 509.55,1291.31 494.93,1080.51 493.58,137.78 490.98,-416.67 490.02,-621.98 489.97,-636.72 489.59,-675.85" fill="none" stroke="#c16704" stroke-width="3"/>
+<polyline points="-63.10,482.99 244.03,415.59 309.90,396.30 390.10,362.05" fill="none" stroke="#228452" stroke-width="3"/>
+<polyline points="529.90,257.95 620.40,178.47 692.13,109.96 749.38,55.86 854.26,-92.02 970.69,-328.81 1042.32,-474.59 1240.39,-842.69" fill="none" stroke="#228452" stroke-width="3"/>
+<polyline points="390.10,362.05 529.90,257.95" fill="none" stroke="#405bc8" stroke-width="3" stroke-dasharray="7 4"/>
+<circle cx="390.10" cy="362.05" r="5" fill="#405bc8"/>
+<text x="245.10" y="390.05">node 6547053710</text>
+<circle cx="529.90" cy="257.95" r="5" fill="#405bc8"/>
+<text x="541.90" y="245.95">node 6547053711</text>
+<circle cx="427.29" cy="334.36" r="7" fill="none" stroke="#b32424" stroke-width="2"/>
+<circle cx="493.79" cy="284.84" r="7" fill="none" stroke="#b32424" stroke-width="2"/>
+</g>
+<text x="25" y="100">N ↑</text>
+<text x="25" y="575">Blue dashed: way697096305, layer=-1 / tunnel=yes; green: connected residential approaches.</text>
+<text x="25" y="598">Orange: two Xianfu carriageways. Red circles: centre-line crossings WITHOUT shared source nodes.</text>
+<text x="25" y="622">OSM contributors / ODbL-1.0. Source topology only; NOT a portal outline, survey or visual acceptance.</text>
+<path d="M 730 520 h 100.0" stroke="#182b3a" stroke-width="3"/><text x="750" y="510">20 local m</text>
+</svg>

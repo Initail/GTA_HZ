@@ -1,0 +1,90 @@
+[
+  {
+    "id": "yunlian-title-page2",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=2&pg=15&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:07:42.163822+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=2&pg=15&pos=title",
+    "filename": "references/yunlian-title-page2.json",
+    "bytes": 223679,
+    "sha256": "65f72ae103eb9f26493c067d685ece1b66cdb797b962862cfca1bd30699673bd",
+    "totalHits": 74,
+    "links": 15
+  },
+  {
+    "id": "yunlian-title-page3",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=3&pg=15&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:07:42.164320+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=3&pg=15&pos=title",
+    "filename": "references/yunlian-title-page3.json",
+    "bytes": 221200,
+    "sha256": "bc7e8c9f2a2b60cd12a91b43e1a832690465ead5fe4378f43986d92856b86ac5",
+    "totalHits": 74,
+    "links": 15
+  },
+  {
+    "id": "yunlian-title-page4",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=4&pg=15&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:07:42.164402+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=4&pg=15&pos=title",
+    "filename": "references/yunlian-title-page4.json",
+    "bytes": 219563,
+    "sha256": "5c078a0d95940bfa4c925b0255dbba3a17a29952f852bec3fd804f3b0dccb91e",
+    "totalHits": 74,
+    "links": 15
+  },
+  {
+    "id": "yunlian-title-page5",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=5&pg=15&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:07:42.663669+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=5&pg=15&pos=title",
+    "filename": "references/yunlian-title-page5.json",
+    "bytes": 236802,
+    "sha256": "f0775277ed086573e8c5cfaaf4dd1281869f35de1cb55a1535f905747daa423f",
+    "totalHits": 74,
+    "links": 14
+  },
+  {
+    "id": "cainiao-title",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=15&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:07:42.731139+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=15&pos=title",
+    "filename": "references/cainiao-title.json",
+    "bytes": 73048,
+    "sha256": "7fa4aee6615837a30dea06b8f3406bebd7fbd8dc806c3885fcc2ee639fd24ecc",
+    "totalHits": 21,
+    "links": 15
+  },
+  {
+    "id": "yunlian-notice-title",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF+%E9%80%9A%E5%91%8A%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=15&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:07:42.756428+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF+%E9%80%9A%E5%91%8A%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=15&pos=title",
+    "filename": "references/yunlian-notice-title.json",
+    "bytes": 4363,
+    "sha256": "44633feed8721bf0f2f9ff496406308fc48b6bc21c4098c05f60e092d97ee3c6",
+    "totalHits": 1,
+    "links": 1
+  },
+  {
+    "id": "zjol-2026-opening-http",
+    "url": "http://zjnews.zjol.com.cn/zjnews/90zxw/202606/t20260603_31702006.shtml",
+    "retrievedAtUTC": "2026-10-16T04:07:43.036532+00:00",
+    "error": "URLError(OSError(9, 'Bad file descriptor'))"
+  },
+  {
+    "id": "hangzhouwang-2024-progress-http",
+    "url": "http://hznews.hangzhou.com.cn/chengshi/content/2024-03/29/content_8708606.htm",
+    "retrievedAtUTC": "2026-10-16T04:07:43.075834+00:00",
+    "status": 200,
+    "finalUrl": "https://hznews.hangzhou.com.cn/chengshi/content/2024-03/29/content_8708606.htm",
+    "filename": "references/hangzhouwang-2024-progress-http.html",
+    "bytes": 19628,
+    "sha256": "cbb56a5b71b0923d05651549bb04862f36454eaeddc7f9f2dca4b84602f7434a"
+  }
+]

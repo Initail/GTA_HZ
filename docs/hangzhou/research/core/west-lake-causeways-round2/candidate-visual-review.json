@@ -1,0 +1,26 @@
+{
+  "reviewedBy": "ali_evidence",
+  "reviewedAt": "2026-10-14",
+  "sourceModuleSha256": "16c89d4c4a60955489f8089f17cf81a85f68f43c837080ed66f16f37377d6c3b",
+  "specSha256": "0b072b9dae54a28f658df400793927127d49f02f7dd474a4b644598b3dc2bd8e",
+  "scope": "CPU geometry review only, not runtime silhouette acceptance",
+  "views": [
+    {
+      "candidate": "cpu-preview-map-top.png",
+      "reference": "references/unesco-causeway-aerial-p59.png",
+      "finding": "Separate Bai/Su axes and mapped banks retained; northern Bai break intentionally externally owned Broken Bridge. No lake/canopy loaded. Source lake/path offset remainspending."
+    },
+    {
+      "candidate": "cpu-preview-jindai-side.png",
+      "reference": "references/little_7westlakecausewaywalk_brg_09588.jpg",
+      "finding": "One small arch onlongcontinuousramps andplainlowparapet, rectilinearstonecourse markings. Metricspan andexactcrest/archposition estimated; lamps/trees/sculpture motifs absent."
+    },
+    {
+      "candidate": "cpu-preview-wangshan-side.png",
+      "reference": "references/hangzhou-release-892.jpg + references/unesco-six-elevations-p78.png",
+      "finding": "Single4.7m reportedspan, unsealedbarrel, continuoussurface, openstonerail/centralpanel, archjointsnowoutward. Currentvertical datum, detailedcarving andsource registration pending."
+    }
+  ],
+  "conclusions": "recognizable finite stone bridge/shore geometry available for parent export; fullsceniclandscape/game collision/visualperformance remainunknown",
+  "finalValidationPass": false
+}

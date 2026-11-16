@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-10-13",
+  "scope": "CPU candidate geometry/source integrity only; no GLB/GPU/browser validation",
+  "sourceModule": "scripts/landmarks/cainiao_headquarters.py",
+  "sourceModuleSha256": "748bfd3fd82d9a8960b41e206d89d812fe14534bef655d5b98e9c1c2f1a00fef",
+  "specSha256": "075e0dad653e40889472d115598465765f27e434605ba15eac3ae1c2bd1a7ce5",
+  "evidenceSha256": "f4252629e2bdd402ffda418b2e82709f01fbfb89db89a741b1497d55b2b86c33",
+  "checks": {
+    "sourceFootprintCycle": true,
+    "currentGeofabrikHash": true,
+    "finiteGeometry": true,
+    "singleScalingAndGameHeight": true,
+    "offsetProjection": true,
+    "frameRestorationIncludingError": true,
+    "sourceOuterVerticesRetained": true,
+    "fourRoofAndCollisionVoids": true,
+    "estimatedPortalOpen": true,
+    "solidTipsWithinMappedExterior": true,
+    "triangleMaterialBudget": true,
+    "noSceneExportOrBpyImport": true
+  },
+  "report": {
+    "id": "cainiao-headquarters",
+    "scope": "frozen-limited-exterior-candidate",
+    "courtyardCount": 4,
+    "diagonalConnectionCount": 4,
+    "canopyLayerCount": 5,
+    "heightEstimateM": 26,
+    "heightEstimateErrorM": 6,
+    "generatedFaces": 7298,
+    "triangleCountBeforeExport": 14556,
+    "materials": [
+      "concrete",
+      "darkglass",
+      "gold",
+      "landmarkglass",
+      "roof",
+      "silver"
+    ],
+    "partTriangles": {
+      "peripheral-ring": 11182,
+      "diagonal-connection-1": 208,
+      "diagonal-connection-2": 208,
+      "diagonal-connection-3": 208,
+      "diagonal-connection-4": 208,
+      "central-atrium": 186,
+      "courtyard-meeting-bays": 96,
+      "layered-east-canopy": 1620,
+      "folded-east-approach-glass": 640
+    },
+    "newLights": 0,
+    "photoTextures": 0,
+    "geographyCityId": "hangzhou",
+    "projectionOriginWGS84": [
+      120.155,
+      30.274
+    ],
+    "sourceFootprintId": "way/1355173307",
+    "source_spec": "docs/hangzhou/research/ali/cainiao-round2/spec.json",
+    "pendingSubscopes": [
+      "surveyed height and courtyard footprint",
+      "gate/entry precise WGS84 registration and navigable landing",
+      "roof-equipment inventory, exact panel pattern/logo schedule",
+      "auditorium footprint and adjacent industry park",
+      "interior stairs/elevators and floors",
+      "night illumination, material GPU response and browser/collision/performance acceptance"
+    ]
+  },
+  "collisionPolygonCount": 277,
+  "courtProbePositionsGame": [
+    [
+      168.2,
+      -75.0
+    ],
+    [
+      125.0,
+      -31.800000000000004
+    ],
+    [
+      81.80000000000001,
+      -75.0
+    ],
+    [
+      125.0,
+      -118.19999999999999
+    ]
+  ],
+  "limitations": [
+    "void probes are finite data checks, not a full collision/navigation or visual review",
+    "entry position and interior dimensions remain estimates",
+    "material GPU response, all-side shape and actual GLB resource size not tested"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "placeId": "xixing-bridge",
+  "name": "西兴大桥（钱江三桥）旧桥形体与施工状态",
+  "type": "bridge",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "xixing-2026",
+      "xixing-closure",
+      "xixing-firstday"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "xixing-2026",
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-10/12/content_9334487.htm",
+      "publisher": "上城史志 / 杭州市政协网站",
+      "title": "寻梦上城 | 西兴大桥",
+      "sourceDate": "2026-10-12",
+      "accessedAt": "2026-10-12",
+      "provenance": "government-local-history",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "81m双塔、1280m主桥为旧桥；改建2024启动/2027计划。本轮日历日期与文章日期相同，不将计划作为完工。"
+    },
+    {
+      "id": "xixing-closure",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2025-11/10/content_9120865_0.htm",
+      "publisher": "杭州市政协网站，交通组织发布会报道",
+      "title": "时间定了！钱江三桥将全封闭断流施工！禁行范围确定，14条绕行路径公布",
+      "sourceDate": "2025-11-10",
+      "accessedAt": "2026-10-12",
+      "provenance": "government-hosted-traffic-announcement-report",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "2025-11-22零时起旧桥全封闭断流，禁止车辆行人；本条针对历史发布的施工状态。"
+    },
+    {
+      "id": "xixing-firstday",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2025-11/23/content_9129621_0.htm",
+      "publisher": "杭州网现场报道",
+      "title": "钱江三桥封闭施工首日周边交通情况如何？",
+      "sourceDate": "2025-11-23",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary-field-report",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "证实断流启动而非只有计划；新桥双层上层八车道是未来工程，不放进旧桥模型。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": {
+        "oldMainBridgeLength": 1280
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "xixing-2026"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "oldTowers": 81
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "xixing-2026"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "等跨双独塔单索面斜拉旧桥、两座塔",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "xixing-2026"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "layout",
+      "value": {
+        "oldLanes": 6,
+        "closureStart": "2025-11-22T00:00:00+08:00",
+        "newBridgePlannedCompletion": "2027年底"
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "xixing-2026",
+        "xixing-closure",
+        "xixing-firstday"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "ramp_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "先决定统一呈现年代。旧桥模型可做历史参考，但当前数据快照需从车行导航中排除全封闭桥段；未来双层八车道不替旧桥。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "当前施工年与完备旧桥外观存在时间冲突；主集成必须记录历史/游戏呈现或当前施工状态，不可宣称旧桥现可通。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

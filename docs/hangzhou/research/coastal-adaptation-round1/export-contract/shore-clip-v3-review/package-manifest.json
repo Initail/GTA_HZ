@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/README.md",
+      "sha256": "1066eaf3a53eec9c2ab95864e88c7991643ada4de30e1024b905a904cd943440",
+      "bytes": 4673
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/check-initial.py",
+      "sha256": "40b9286f8c80c32e7f48c3c5a49a130052cb5ecb6fe94a43412dddba66aa84a4",
+      "bytes": 11864
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/check-run2.log",
+      "sha256": "f4217633fc5a4d32d824860ba40c3a3663de76528e68855301931b84e1cb02ea",
+      "bytes": 2583
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/check.log",
+      "sha256": "0a21789f2393b77a5a917ecf24adbacad89d74030d408f7b7b0082f29aea36ed",
+      "bytes": 2422
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/check.py",
+      "sha256": "7f939d96898a15674043f7026a089e3ebc31934c87d5ca34c48feec1650a1bf4",
+      "bytes": 12939
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/components.py",
+      "sha256": "a4a2bb70e4bd824d5b5aca3058dfced9af8589146d0285694d5d1875fcd45695",
+      "bytes": 842
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/connected-components.json",
+      "sha256": "5b64e13289ca4581130408eb1a23ac5841961122d186bc5c9e1f9cd39ac6b19a",
+      "bytes": 1305
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/csg-geometry-initial.json",
+      "sha256": "ca46ea57508aac42e446b6ed302575eef7e66eb59bc77908ebb9679650f73273",
+      "bytes": 713
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/csg-geometry.json",
+      "sha256": "12305a130d6e065bd90a925c3794b216bd8f81329166f20d80fe185394467d68",
+      "bytes": 838
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/diagnose.log",
+      "sha256": "87437cd3415766e6033bb5b1a8e5136f899a252631c872b02f56d2f58c547931",
+      "bytes": 4386
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/diagnose.py",
+      "sha256": "e4dc924ac90609ce2976d7d139b4e3130fc0f7eaa3af05725cb1df1242ffb46d",
+      "bytes": 2456
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/input-bindings.json",
+      "sha256": "b52175d1d2d2a782a6ab14ce40244c1f981921e7345ab3faf96a17579f244187",
+      "bytes": 7133
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/producer-manifest-checks.json",
+      "sha256": "71b41dfb620d4d84920d0e3ea51707b256f3870c047583aa581a717cadb070e9",
+      "bytes": 188
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/projection-diagnostic.json",
+      "sha256": "829178087ac077f396fa4e4dc3ad50ffa543cc070ade5daa1f303761c3b2b5b1",
+      "bytes": 4482
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/ray-intervals.json",
+      "sha256": "77712440f074618655363941c60dd31f4a6fc12c37879bc088164e2e16125416",
+      "bytes": 1299348
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/three-way-actual-intersections.json",
+      "sha256": "24b08ab595880191fda04a074a12b4732303f7d8d39fe988256f52eacc9da384",
+      "bytes": 8168
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/topology-and-preservation.json",
+      "sha256": "7ec2b3ff50e0ca6c63ab80859aa29ec1983b3b055a9a3327582d2185a7cfa948",
+      "bytes": 1570
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/validation-initial.json",
+      "sha256": "82f6e972c9884fbebb139f9ee78d5e999bf8345230d02d2b0ab29bb8931e7458",
+      "bytes": 982
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-clip-v3-review/validation.json",
+      "sha256": "2669c5970e18c8a1d3d88bd098b9770407915b5b4a90aa0d4326e3cf2990d5ea",
+      "bytes": 1115
+    }
+  ]
+}

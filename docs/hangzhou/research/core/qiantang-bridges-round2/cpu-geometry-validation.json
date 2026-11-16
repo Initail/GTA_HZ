@@ -1,0 +1,111 @@
+{
+  "id": "qiantang-bridges",
+  "bridgeCount": 3,
+  "bridges": [
+    {
+      "trussSpans": 16,
+      "riverPiers": 15,
+      "railTracks": 1,
+      "mainLengthM": 1072,
+      "detailedSleepersAndCatenary": "pending",
+      "id": "qiantang-bridge",
+      "triangles": 7698
+    },
+    {
+      "largeArches": 2,
+      "smallArches": 9,
+      "archCalculationLengthM": 1145,
+      "mainLengthM": 1376,
+      "currentRailwayTracksDrawn": 0,
+      "id": "fuxing-bridge",
+      "triangles": 14592
+    },
+    {
+      "archPylons": 2,
+      "staticRepresentativeStayCables": 112,
+      "mainSpanM": 246,
+      "sideSpansM": [
+        116,
+        116
+      ],
+      "pylonDatumConventionPending": true,
+      "id": "zhijiang-bridge",
+      "triangles": 1858
+    }
+  ],
+  "triangleCountBeforeExport": 24148,
+  "faceCountBeforeExport": 11962,
+  "materials": [
+    "carpaint",
+    "civicred",
+    "concrete",
+    "silver",
+    "steel"
+  ],
+  "lightCount": 0,
+  "candidateWaterPlanes": 0,
+  "candidateRoadTopPlanes": 0,
+  "baseBuildingIdsToExclude": [],
+  "railModeSeparate": true,
+  "xixingAndBoaoRendered": false,
+  "roadProfileAPI": "source_road_profiles / road_height_at; explicitly estimated opt-in",
+  "verticalDatum": "lm.y is supplied game river-display surface, not measured deck/ground/EGM2008 datum",
+  "accuracyClaim": "finite reference-informed structural exterior + exact source way/node plan contract; absolute deck/ramps/navigation still blocked",
+  "checks": {
+    "nondegenerateTriangleFans": true,
+    "finiteVertices": true,
+    "scaleOnceAndGameDatum": true,
+    "sourceShiftCompensation": true,
+    "frameRestoredSuccessAndFailure": true,
+    "cpuBudget": true,
+    "sourceWaysAndNodeOrder": true,
+    "sampleSpacingAndHeightLookup": true,
+    "estimatedProfileOptIn": true,
+    "railRoadSourceNodeSeparated": true,
+    "sourceEndpointGameHeightNotRescaled": true,
+    "sharedSameDeckNodeAgreement": true,
+    "fixedOuterBoundaryContinuation": true,
+    "noWaterRoadTopXixingBoaoGeometry": true,
+    "noSceneImports": true
+  },
+  "profileCount": 11,
+  "railProfileCount": 1,
+  "profileCountWithOuterContinuations": 15,
+  "sourceSharedSameDeckCases": [
+    [
+      "road",
+      "upper",
+      "1667217046"
+    ],
+    [
+      "road",
+      "upper",
+      "1667217050"
+    ],
+    [
+      "road",
+      "single",
+      "3112466951"
+    ]
+  ],
+  "railRoadSameNode": {
+    "node": "3351280499",
+    "separationGame": 6.42,
+    "observedDatum": false
+  },
+  "sourceModuleSha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+  "specSha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+  "boundsGameENU": {
+    "min": [
+      -2135.0667471418956,
+      -7593.278117016025,
+      1.85
+    ],
+    "max": [
+      1353.5688129691341,
+      -3907.935527201159,
+      59.0
+    ]
+  },
+  "validationScope": "CPU FakeB/projection/source-chain/budget/interpolation only; not triangulated GLB, GPU, named visual/PBR, measured deck/water/terrain, collision, real driving/night or FPS."
+}

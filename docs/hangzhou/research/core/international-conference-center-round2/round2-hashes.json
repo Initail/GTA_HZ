@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-14T03:31:27+00:00",
+  "stage": "evidence-ready",
+  "files": {
+    "README.md": {
+      "sha256": "26ccf5072125843fa825cc9c409a1c004847931daf895baab6b48878e79df874",
+      "bytes": 7684
+    },
+    "attempts.json": {
+      "sha256": "119903f9401e8a29901a5eb75f7895597df07abb2d9dbc99c0ef18f511f718d1",
+      "bytes": 2850
+    },
+    "cpu-distant.png": {
+      "sha256": "a0e3ce4ce4262f27dc65e752da102788a4cc043c7ebaae68c224620fe40eee51",
+      "bytes": 83477
+    },
+    "cpu-geometry-validation.json": {
+      "sha256": "23e8a2fdfe7d1c0f013cbc717fe36e6e38f523c40ff0e1049844d5a659332297",
+      "bytes": 2492
+    },
+    "cpu-preview-manifest.json": {
+      "sha256": "b21e0d977689df5918036b1b4e56f0b45c20f8bcc7e53fb843898dc1b74ea9a6",
+      "bytes": 1676
+    },
+    "cpu-street.png": {
+      "sha256": "ec9839d2be1b08b3703d1da744afd42599362f43cb08784345432e11cb716e35",
+      "bytes": 57924
+    },
+    "cpu-top.png": {
+      "sha256": "417f1fdc1a23be1d329bdbcaa7977da2854809e170647a21440cd6f70c14191a",
+      "bytes": 79318
+    },
+    "evidence.json": {
+      "sha256": "c47b4f6f5ebdfd50842130421cd517dd537093b78f7b8c4de6301193a4197978",
+      "bytes": 9052
+    },
+    "freeze_delivery.py": {
+      "sha256": "a157b5faa8c2ccd440cb6de045c41a71679786174b034006547e86a8ec27097b",
+      "bytes": 5278
+    },
+    "freeze_icc.py": {
+      "sha256": "9e646a692ec82b54ac5d8fcf17204a627e474fb2c2b20879a32b20236ecd4212",
+      "bytes": 20023
+    },
+    "geofabrik-icc-features.geojson": {
+      "sha256": "c18bbe3a72d93dd40fbd6c88b8aecd23a60ce86d03bb24e4425ff6ec3672eeea",
+      "bytes": 91951
+    },
+    "osm-measurements.json": {
+      "sha256": "fca135ef75fd950245c0b07502ae8380de674568791e8213d4eb44d5c3c6b2c1",
+      "bytes": 20054
+    },
+    "photo-review.json": {
+      "sha256": "8f4768c3b42f429019c070d9f20132ab9abefc10079779a53556e7dd0cf78421",
+      "bytes": 10538
+    },
+    "preview_cpu.py": {
+      "sha256": "8900322f4ea83f92562afbd8684febdfe833177e76f6d61e8c25495033bd4598",
+      "bytes": 3391
+    },
+    "record_review.py": {
+      "sha256": "3168750d579ad51ca6ef14a580dff6826f91e145a63161683840bae809aa0a96",
+      "bytes": 7475
+    },
+    "source-claims.json": {
+      "sha256": "17f7398758359b5c90d41a910cdff58d4e74c34ecc1ad010b2b8e898d42d68c4",
+      "bytes": 5663
+    },
+    "spec.json": {
+      "sha256": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20",
+      "bytes": 25911
+    },
+    "task-bundles/international-conference-center/evidence.json": {
+      "sha256": "c47b4f6f5ebdfd50842130421cd517dd537093b78f7b8c4de6301193a4197978",
+      "bytes": 9052
+    },
+    "task-bundles/international-conference-center/job.json": {
+      "sha256": "ad10802c5c2b1702b9f787a031e2b22ea2ee655e5a06ba0486239a1a9079757a",
+      "bytes": 8104
+    },
+    "task-bundles/international-conference-center/model.json": {
+      "sha256": "a47100f7eefec676f8e5e36ccf7fd15b450a1be11c6a3686d85a0cf6c1e74e67",
+      "bytes": 5095
+    },
+    "task-bundles/international-conference-center/prompt.md": {
+      "sha256": "a828e107aa39048fb7c42848d84a759c35325cea7938df67e68e7411babd291c",
+      "bytes": 3920
+    },
+    "task-bundles/international-conference-center/validation.json": {
+      "sha256": "a3f2653dff813cd97bd0f7afdbb9434d2b5bfc4e08262381aee94c4e0b722a1c",
+      "bytes": 1341
+    },
+    "task-catalog.json": {
+      "sha256": "0d2a1c10cdb837a4b7136b38aeb3c2d5a7808e12d0882a155f8a37beee8a2b76",
+      "bytes": 5319
+    },
+    "validate_cpu.py": {
+      "sha256": "6385bbdf63e63a45720df8d76affc9b9b0fe6537d34371d65881ca6a89c4d4af",
+      "bytes": 9215
+    }
+  },
+  "sourceModule": "scripts/landmarks/international_conference_center.py",
+  "sourceModuleSha256": "9c4c00a61709997328147965beea562995619f50d35bb12d91e00a99696cb77c",
+  "sourceSpecSha256": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20",
+  "priorResearchPreserved": {
+    "files": 23,
+    "sourceManifestSha256": "866986711482f3681ceae5b1f3fef5e8217aff17309dc71a6db9331710afb61e",
+    "priorIndependentModulesAndSpecs": {
+      "scripts/landmarks/lingyin_temple.py": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011",
+      "docs/hangzhou/research/core/lingyin-round2/spec.json": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93",
+      "scripts/landmarks/broken_bridge.py": "eab2ac0c16d54d9b7b6a2ba93a454e83ecd5cc963cafda2ff9f3494f727b78b2",
+      "docs/hangzhou/research/core/broken-bridge-round2/spec.json": "0b96b192a1011a5e217b98ace971bd04d5442228b51cad0193d2a9143a282eb4",
+      "scripts/landmarks/big_lotus.py": "faf3caf74bd5cc28dbcc632195fd052ab2f3029b62f7dec81a3960e7c8d4d368",
+      "docs/hangzhou/research/core/big-lotus-round2/spec.json": "f3b5a535875fba14addf94cd2b285148fa48c98b4f537093d5f63f4299081a73"
+    }
+  },
+  "releaseImages": "only original CPU candidate previews; no official reference photos bundled",
+  "stageLimit": "No worker GLB export, browser, collision/night/performance or full-site acceptance"
+}

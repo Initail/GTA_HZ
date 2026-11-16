@@ -1,0 +1,21 @@
+{
+  "id": "cainiao-road-access-round1",
+  "kind": "independent-road-evidence-investigation",
+  "scope": "2023 public road opening and2026 north extension report versus fixed OSM restrictions",
+  "ownedPaths": [
+    "docs/hangzhou/research/ali/cainiao-road-access-round1/"
+  ],
+  "readOnlySharedPaths": [
+    "data/raw/hangzhou/",
+    "data/processed/hangzhou/"
+  ],
+  "status": "finite-research-delivered-current-coverage-pending",
+  "candidateModelCreated": false,
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "crosswalkSha256": "4d534ff9713b076c9af65b6c872d7b29a356715bc7906497b958e25d89bee276",
+  "evidenceSha256": "c5105ad5d2c08168c66b466fa26e8a17856f136a0a154d0dcdd71beb3bd1a83a",
+  "sourcesSha256": "a638d622d339cbaadddda6d7ed4ca72081ec70145cda149c2fb1dc27c6156685",
+  "requiresParentSerialIntegration": true,
+  "noHeavyProcesses": true,
+  "acceptance": "Exact source slices and honest evidence/unknown distinctions; no final driving, appearance or performance claim."
+}

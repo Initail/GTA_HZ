@@ -1,0 +1,149 @@
+{
+  "chosenForCPUProposal": "equal-mouth-minimax",
+  "chosenBaseYGame": 1.9579020031420153,
+  "chosenUpperYGame": 5.557902003142015,
+  "anchorGroundNotUsedAsBase": 5.048410224936193,
+  "candidates": [
+    {
+      "id": "current-neutral",
+      "baseYGame": 0.0,
+      "upperYGame": 3.5999999999999996,
+      "basis": "current isolated model; rejected by source approach mismatch and 3D intersection",
+      "lowerAboveWaterGame": -0.9,
+      "mouths": [
+        {
+          "id": "west",
+          "centerGroundMinusUpperGame": 2.167362787012576,
+          "fullOuterGroundMinusUpperRangeGame": [
+            2.006533345757239,
+            2.223296864001701
+          ],
+          "centerRampGrade": 0.06730040872276409,
+          "mainDeckAboveInnerGroundRangeGame": [
+            -2.215246122643685,
+            -2.0207112334574164
+          ]
+        },
+        {
+          "id": "east",
+          "centerGroundMinusUpperGame": 1.748441219271454,
+          "fullOuterGroundMinusUpperRangeGame": [
+            1.7312173405654834,
+            1.778127028050199
+          ],
+          "centerRampGrade": 0.05804301099680315,
+          "mainDeckAboveInnerGroundRangeGame": [
+            -1.8285878510694298,
+            -1.7238096032151988
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equal-mouth-minimax",
+      "baseYGame": 1.9579020031420153,
+      "upperYGame": 5.557902003142015,
+      "basis": "estimated common main deck; minimizes maximum absolute residual of two sampled source mouth midpoints",
+      "lowerAboveWaterGame": 1.0579020031420154,
+      "mouths": [
+        {
+          "id": "west",
+          "centerGroundMinusUpperGame": 0.20946078387056044,
+          "fullOuterGroundMinusUpperRangeGame": [
+            0.048631342615223616,
+            0.26539486085968544
+          ],
+          "centerRampGrade": 0.006504124021299567,
+          "mainDeckAboveInnerGroundRangeGame": [
+            -0.2573441195016697,
+            -0.06280923031540109
+          ]
+        },
+        {
+          "id": "east",
+          "centerGroundMinusUpperGame": -0.20946078387056133,
+          "fullOuterGroundMinusUpperRangeGame": [
+            -0.22668466257653197,
+            -0.17977497509181628
+          ],
+          "centerRampGrade": -0.0069534705814496426,
+          "mainDeckAboveInnerGroundRangeGame": [
+            0.12931415207258556,
+            0.23409239992681652
+          ]
+        }
+      ]
+    },
+    {
+      "id": "higher-mouth",
+      "baseYGame": 2.167362787012576,
+      "upperYGame": 5.767362787012575,
+      "basis": "estimated upper deck anchored to higher of two source mouth midpoint grounds",
+      "lowerAboveWaterGame": 1.2673627870125759,
+      "mouths": [
+        {
+          "id": "west",
+          "centerGroundMinusUpperGame": 0.0,
+          "fullOuterGroundMinusUpperRangeGame": [
+            -0.16082944125533682,
+            0.055934076989125
+          ],
+          "centerRampGrade": 0.0,
+          "mainDeckAboveInnerGroundRangeGame": [
+            -0.04788333563110925,
+            0.14665155355515935
+          ]
+        },
+        {
+          "id": "east",
+          "centerGroundMinusUpperGame": -0.41892156774112177,
+          "fullOuterGroundMinusUpperRangeGame": [
+            -0.4361454464470924,
+            -0.3892357589623767
+          ],
+          "centerRampGrade": -0.013906941162899256,
+          "mainDeckAboveInnerGroundRangeGame": [
+            0.338774935943146,
+            0.44355318379737696
+          ]
+        }
+      ]
+    },
+    {
+      "id": "all-mouth-extrema-minimax",
+      "baseYGame": 1.977257102283592,
+      "upperYGame": 5.577257102283592,
+      "basis": "estimated common upper deck minimizing extrema of full two mouth width ground sample set",
+      "lowerAboveWaterGame": 1.0772571022835922,
+      "mouths": [
+        {
+          "id": "west",
+          "centerGroundMinusUpperGame": 0.1901056847289837,
+          "fullOuterGroundMinusUpperRangeGame": [
+            0.02927624347364688,
+            0.2460397617181087
+          ],
+          "centerRampGrade": 0.005903114309910544,
+          "mainDeckAboveInnerGroundRangeGame": [
+            -0.23798902036009295,
+            -0.04345413117382435
+          ]
+        },
+        {
+          "id": "east",
+          "centerGroundMinusUpperGame": -0.22881588301213807,
+          "fullOuterGroundMinusUpperRangeGame": [
+            -0.2460397617181087,
+            -0.19913007423339302
+          ],
+          "centerRampGrade": -0.007596001894447896,
+          "mainDeckAboveInnerGroundRangeGame": [
+            0.1486692512141623,
+            0.25344749906839326
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "estimated integration proposal, not measured building datum or accepted access"
+}

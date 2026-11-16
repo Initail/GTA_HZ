@@ -1,0 +1,994 @@
+[
+  {
+    "id": "west",
+    "points": [
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3268.3915164813534,
+          -1961.4584916785955,
+          5.606533345757239
+        ],
+        "nearestActualVertexErrorGame": 8.51958219776429e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3267.8911718650024,
+          -1962.2987882927603,
+          5.628146286607838
+        ],
+        "nearestActualVertexErrorGame": 7.084261856664616e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3267.390827248652,
+          -1963.1390849069253,
+          5.649889989428071
+        ],
+        "nearestActualVertexErrorGame": 6.282630175916717e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3266.8904826323014,
+          -1963.9793815210903,
+          5.6712251128458995
+        ],
+        "nearestActualVertexErrorGame": 0.0001024098594282164,
+        "runtimeFloorQueryErrorGame": 3.552713678800501e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3266.8904826323014,
+          -1963.9793815210903,
+          5.6712251128458995
+        ],
+        "nearestActualVertexErrorGame": 0.0001024098594282164,
+        "runtimeFloorQueryErrorGame": 3.552713678800501e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3266.3882136134202,
+          -1964.8241124182316,
+          5.691821109705304
+        ],
+        "nearestActualVertexErrorGame": 3.389516930003608e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3265.885944594539,
+          -1965.6688433153731,
+          5.711215613458166
+        ],
+        "nearestActualVertexErrorGame": 4.6310244626093046e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3265.383675575658,
+          -1966.5135742125144,
+          5.729128635567066
+        ],
+        "nearestActualVertexErrorGame": 0.00011608206647996418,
+        "runtimeFloorQueryErrorGame": 2.6645352591003757e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3265.383675575658,
+          -1966.5135742125144,
+          5.729128635567066
+        ],
+        "nearestActualVertexErrorGame": 0.00011608206647996418,
+        "runtimeFloorQueryErrorGame": 2.6645352591003757e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3264.873009164563,
+          -1967.3716079583985,
+          5.745590753128259
+        ],
+        "nearestActualVertexErrorGame": 4.576350609143247e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3264.362342753468,
+          -1968.2296417042826,
+          5.760148203208156
+        ],
+        "nearestActualVertexErrorGame": 4.6929208489582136e-05,
+        "runtimeFloorQueryErrorGame": 2.6645352591003757e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3263.851676342373,
+          -1969.0876754501664,
+          5.7727362894264385
+        ],
+        "nearestActualVertexErrorGame": 0.00011746978349980336,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3263.341009931278,
+          -1969.9457091960505,
+          5.78350464096852
+        ],
+        "nearestActualVertexErrorGame": 6.246597379134748e-05,
+        "runtimeFloorQueryErrorGame": 2.6645352591003757e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3262.8303435201833,
+          -1970.8037429419346,
+          5.792912765145809
+        ],
+        "nearestActualVertexErrorGame": 3.841976148312881e-05,
+        "runtimeFloorQueryErrorGame": 2.6645352591003757e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3262.319677109089,
+          -1971.6617766878187,
+          5.80080861777094
+        ],
+        "nearestActualVertexErrorGame": 0.00010265907430957329,
+        "runtimeFloorQueryErrorGame": 3.552713678800501e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3261.809010697994,
+          -1972.5198104337028,
+          5.806513551723189
+        ],
+        "nearestActualVertexErrorGame": 7.947644781064846e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3261.298344286899,
+          -1973.3778441795869,
+          5.810527622838922
+        ],
+        "nearestActualVertexErrorGame": 3.683181431450569e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3260.787677875804,
+          -1974.235877925471,
+          5.813388712040418
+        ],
+        "nearestActualVertexErrorGame": 8.879981401356374e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3260.277011464709,
+          -1975.093911671355,
+          5.817244765044592
+        ],
+        "nearestActualVertexErrorGame": 9.663218956223899e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3259.7663450536143,
+          -1975.9519454172391,
+          5.8232968640017
+        ],
+        "nearestActualVertexErrorGame": 4.29404674743996e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3284.308248493982,
+          -1996.425029679729,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010291260608764853,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3284.85958977335,
+          -1995.5954156562132,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 5.234297615738918e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3285.4109310527174,
+          -1994.765801632697,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 6.908842380858184e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3285.9622723320854,
+          -1993.9361876091812,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00011810395339960372,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3286.5136136114534,
+          -1993.1065735856653,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 5.8592976919070356e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3287.064954890821,
+          -1992.2769595621492,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 2.2472733721403815e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3287.616296170189,
+          -1991.4473455386333,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 9.508847224605211e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3288.1676374495564,
+          -1990.6177315151172,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010345587763820749,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3288.7189787289244,
+          -1989.7881174916013,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 3.5116983316171415e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3289.270320008292,
+          -1988.9585034680854,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 5.681719275005976e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3289.82166128766,
+          -1988.1288894445693,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00011726661604402917,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3290.3730025670275,
+          -1987.2992754210534,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 6.035729837364892e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3290.9243438463955,
+          -1986.4696613975375,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 6.317595377931484e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3291.4756851257634,
+          -1985.6400473740214,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010444757604319344,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3292.027026405131,
+          -1984.8104333505055,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 7.370151316373808e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3292.578367684499,
+          -1983.9808193269894,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 1.5702271562795603e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3293.1297089638665,
+          -1983.1512053034735,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 8.078438332044906e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3293.6810502432345,
+          -1982.3215912799576,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.0001174625661510271,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3294.232391522602,
+          -1981.4919772564415,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 4.5500548065979774e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3294.78373280197,
+          -1980.6623632329256,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 4.252119779645695e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3295.335074081338,
+          -1979.8327492094097,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00011406450664626857,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3295.8864153607055,
+          -1979.0031351858936,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 7.073646567117562e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3296.4377566400735,
+          -1978.1735211623777,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 6.05526197957311e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      }
+    ],
+    "maxActualVertexErrorGame": 0.00011810395339960372
+  },
+  {
+    "id": "east",
+    "points": [
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3298.931782112799,
+          -1918.935935574205,
+          5.378127028050199
+        ],
+        "nearestActualVertexErrorGame": 0.00010508724849663091,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3298.3699253490677,
+          -1919.7552485281242,
+          5.377008733384848
+        ],
+        "nearestActualVertexErrorGame": 5.230485310638473e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3297.8080685853365,
+          -1920.5745614820435,
+          5.3757175787458795
+        ],
+        "nearestActualVertexErrorGame": 4.3722401560227594e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3297.2462118216054,
+          -1921.393874435963,
+          5.374238760268703
+        ],
+        "nearestActualVertexErrorGame": 0.00012688462727924944,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3296.684355057874,
+          -1922.2131873898823,
+          5.372751748758953
+        ],
+        "nearestActualVertexErrorGame": 6.003094780232054e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3296.122498294143,
+          -1923.0325003438015,
+          5.371067191377456
+        ],
+        "nearestActualVertexErrorGame": 6.719101959966622e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3295.560641530412,
+          -1923.8518132977208,
+          5.36916762500482
+        ],
+        "nearestActualVertexErrorGame": 9.488938939976797e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3294.9987847666807,
+          -1924.6711262516403,
+          5.367043145313026
+        ],
+        "nearestActualVertexErrorGame": 1.721885590563992e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3294.4369280029496,
+          -1925.4904392055596,
+          5.36479412550686
+        ],
+        "nearestActualVertexErrorGame": 9.248585336099572e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3293.8750712392184,
+          -1926.3097521594789,
+          5.362644073485153
+        ],
+        "nearestActualVertexErrorGame": 9.299618801176684e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3293.3132144754873,
+          -1927.1290651133984,
+          5.360220593621856
+        ],
+        "nearestActualVertexErrorGame": 4.093690306459444e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3292.751357711756,
+          -1927.9483780673177,
+          5.357545082455751
+        ],
+        "nearestActualVertexErrorGame": 0.00010801851790640542,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3292.189500948025,
+          -1928.767691021237,
+          5.354652938238904
+        ],
+        "nearestActualVertexErrorGame": 4.869505706390749e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3291.627644184294,
+          -1929.5870039751564,
+          5.351596019160794
+        ],
+        "nearestActualVertexErrorGame": 5.239272587331866e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3291.0657874205626,
+          -1930.4063169290757,
+          5.348441219271454
+        ],
+        "nearestActualVertexErrorGame": 0.00012626878855393457,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3290.5039306568315,
+          -1931.225629882995,
+          5.345267369259399
+        ],
+        "nearestActualVertexErrorGame": 5.0268333419646446e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3289.9420738931003,
+          -1932.0449428369145,
+          5.342106682285527
+        ],
+        "nearestActualVertexErrorGame": 6.808605027892918e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3289.380217129369,
+          -1932.8642557908338,
+          5.338955772177439
+        ],
+        "nearestActualVertexErrorGame": 9.019896673918571e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3288.818360365638,
+          -1933.683568744753,
+          5.33591041041239
+        ],
+        "nearestActualVertexErrorGame": 2.5025024694150328e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3288.256503601907,
+          -1934.5028816986724,
+          5.333086995988184
+        ],
+        "nearestActualVertexErrorGame": 0.0001004055815203257,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3287.6946468381757,
+          -1935.3221946525919,
+          5.331217340565483
+        ],
+        "nearestActualVertexErrorGame": 8.407082050073733e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3287.1327900744445,
+          -1936.1415076065111,
+          5.3361439559790025
+        ],
+        "nearestActualVertexErrorGame": 3.596277161904197e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3286.5709333107134,
+          -1936.9608205604304,
+          5.341329738854832
+        ],
+        "nearestActualVertexErrorGame": 0.0001117291497664921,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3286.009076546982,
+          -1937.78013351435,
+          5.34651552173067
+        ],
+        "nearestActualVertexErrorGame": 4.687677107656936e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3285.447219783251,
+          -1938.5994464682692,
+          5.351701304606493
+        ],
+        "nearestActualVertexErrorGame": 6.139284184283466e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3284.88536301952,
+          -1939.4187594221885,
+          5.356887087482346
+        ],
+        "nearestActualVertexErrorGame": 0.0001236885393411156,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3284.3235062557887,
+          -1940.238072376108,
+          5.362072870358176
+        ],
+        "nearestActualVertexErrorGame": 4.05075271554301e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3283.7616494920576,
+          -1941.0573853300273,
+          5.367258653234
+        ],
+        "nearestActualVertexErrorGame": 7.033881813687852e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "terminal",
+        "expectedENU": [
+          3283.1997927283264,
+          -1941.8766982839466,
+          5.372444436109836
+        ],
+        "nearestActualVertexErrorGame": 8.636275552946687e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3308.151593874044,
+          -1961.8309714441157,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 4.256989534909549e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3308.5704977821865,
+          -1960.9351576077142,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 6.321338205055189e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3308.9894016903286,
+          -1960.0393437713128,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010691743084918629,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3309.408305598471,
+          -1959.1435299349114,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010542069822998844,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3309.827209506613,
+          -1958.24771609851,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 7.060493850934183e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3310.2461134147557,
+          -1957.3519022621085,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 3.2958517327849936e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3310.665017322898,
+          -1956.456088425707,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 4.0135988851745375e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3311.08392123104,
+          -1955.5602745893057,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 6.913266434702374e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3311.5028251391827,
+          -1954.6644607529042,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010934833776002748,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3311.9217290473252,
+          -1953.7686469165028,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010262260000947713,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3312.3406329554673,
+          -1952.8728330801014,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 6.438369482085654e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3312.75953686361,
+          -1951.9770192437,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 3.508787001619022e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3313.178440771752,
+          -1951.0812054072985,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 3.8705565209317916e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3313.5973446798944,
+          -1950.185391570897,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 7.517473231051211e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3314.016248588037,
+          -1949.2895777344957,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00011212181975285944,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3314.435152496179,
+          -1948.3937638980942,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00010018879132432606,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3314.8540564043215,
+          -1947.4979500616928,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 5.825791377987692e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3315.2729603124635,
+          -1946.6021362252914,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 3.826976498918431e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3315.691864220606,
+          -1945.70632238889,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 3.839095567691921e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3316.1107681287485,
+          -1944.8105085524885,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 8.131221936779977e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3316.5296720368906,
+          -1943.914694716087,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 0.00011521313989171088,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3316.948575945033,
+          -1943.0188808796856,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 9.814637748269737e-05,
+        "runtimeFloorQueryErrorGame": 0.0
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3317.3674798531756,
+          -1942.1230670432842,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 5.226117506814299e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3317.7863837613177,
+          -1941.2272532068828,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 4.226715934020407e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3318.20528766946,
+          -1940.3314393704813,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 3.9219022421813665e-05,
+        "runtimeFloorQueryErrorGame": 8.881784197001252e-16
+      },
+      {
+        "kind": "inner-seam",
+        "expectedENU": [
+          3318.6241915776022,
+          -1939.43562553408,
+          5.557902003142015
+        ],
+        "nearestActualVertexErrorGame": 8.752505510149902e-05,
+        "runtimeFloorQueryErrorGame": 1.7763568394002505e-15
+      }
+    ],
+    "maxActualVertexErrorGame": 0.00012688462727924944
+  }
+]

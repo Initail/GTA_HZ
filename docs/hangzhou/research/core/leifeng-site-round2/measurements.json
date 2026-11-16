@@ -1,0 +1,22 @@
+{
+  "sourceParkAreaM2": 229410.8635976866,
+  "dryMaskAreaM2": 213140.43266863388,
+  "sourceTerrainTriangles": 837,
+  "allSurfaceTriangles": 959,
+  "towerGroundEgm2008EstimatedM": 32.92470741027066,
+  "towerRawDsmInterpolatedM": 40.772341117780975,
+  "peakGroundEgmEstimatedM": 34.20358578213214,
+  "sourceMainLiftLengthM": 48.34707465962417,
+  "mainLiftHeightEndpointsM": [
+    29.933955421006218,
+    24.62831420359018
+  ],
+  "gapToTowerM": 14.115757308842218,
+  "sourceUpperOtherRoads": [],
+  "sourceLowerJoins": [
+    "way/340652169",
+    "way/975357010"
+  ],
+  "method": "source-node plan lengths/project config and mapmask clipping; separately interpolated estimated sourceheight; no field measurements or safe route claimed",
+  "error": "plan±5m, ground±12m; interpolating finer doesnot add native resolution"
+}

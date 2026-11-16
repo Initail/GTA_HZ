@@ -1,0 +1,1 @@
+First actual export probe failed triangle preservation: 24916 CPU versus24736 Blender-export count. Local vertex deduplication was not equivalent to original B.finish independent-face vertex semantics. Preserve this artifact; do not integrate it. Next probe removes local dedup only, keeps all source triangles and attributes unchanged. No browser acceptance.

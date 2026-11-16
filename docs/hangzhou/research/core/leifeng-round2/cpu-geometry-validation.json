@@ -1,0 +1,50 @@
+{
+  "id": "leifeng-pagoda",
+  "scope": "Source-bound finite exterior candidate: mapped octagonal protection base, five-storey body, five main roofs, four waist roofs and finial; full site, exact entrances, interior and runtime validation pending.",
+  "storeyCount": 5,
+  "majorRoofCount": 5,
+  "waistRoofCount": 4,
+  "maxHeight": 42.6,
+  "generatedFaces": 8499,
+  "triangleCountBeforeExport": 17710,
+  "materials": [
+    "concrete",
+    "darkglass",
+    "gold",
+    "roof",
+    "steel"
+  ],
+  "newLights": 0,
+  "geographyCityId": "hangzhou",
+  "projectionOriginWGS84": [
+    120.155,
+    30.274
+  ],
+  "sourceSpec": "docs/hangzhou/research/core/leifeng-round2/spec.json",
+  "collisionStatus": "pending; source outer base envelope is not a traversable entrance model",
+  "checks": {
+    "finiteVertices": true,
+    "noDegenerateTriangleFans": true,
+    "sharedHangzhouProjectionAgreement": true,
+    "frameRestoredOnSuccessAndFailure": true,
+    "geometryScaledOnceAndBaseNotScaled": true,
+    "sourceAnchoringWithShiftedLm": true,
+    "trianglesAndMaterialsWithinCpuBudget": true,
+    "importHasNoSceneModules": true
+  },
+  "sourceModuleSha256": "8539f93ea9487cbac2b97d80a8cc27de2b4d1ca3310fe6e2c5dfba2de79d01b7",
+  "specSha256": "af6d269fa06ab0f6ab4603d207fc438ad0b8d7c83e9edbd6f41a3129532d1961",
+  "validationScope": "CPU FakeB primitive geometry only; no actual GLB, Blender mesh triangulation, visual, collision, shader, browser or FPS result",
+  "boundsGameENU": {
+    "min": [
+      -594.0479603066864,
+      -2685.213419228921,
+      2.5
+    ],
+    "max": [
+      -559.0866553757337,
+      -2651.3374404661417,
+      45.1
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+[out:json][timeout:120];nwr["name"~"阿里巴巴|菜鸟",i](30.15,119.85,30.45,120.35);out tags center;

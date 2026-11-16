@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-read-only-context-contract",
+  "at": "2026-10-14T05:40:05+00:00",
+  "inputHashes": {
+    "data/processed/hangzhou/buildings.geojson": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+    "data/processed/hangzhou/roads.geojson": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+    "artifacts/cities/hangzhou/terrain-glo30-v3/manifest.json": "c9ebfdf6351e5ba1317d8dff78f5779f011b99bb0c149898e2dcd4d9d743d3c2",
+    "config/cities/hangzhou.json": "2d0acee68a131bf0075a4c71dfa5153c8d604ff4d5bd131aa4755bfb22b1181a"
+  },
+  "fiveFixedOsmHallVertexSets": "matched",
+  "terrainArrays": {
+    "dsm-egm2008-metres.bin": {
+      "sha256": "4279d9927b314e2dee39581929278910ca4704d852800e723590811df0fb48a6",
+      "bytes": 1208088,
+      "dtype": "little-endian-float32"
+    },
+    "ground-estimate-egm2008-metres.bin": {
+      "sha256": "97b162c7070318285f02fa197c8195fa5eebdaf31e32dd43823bae89813b1556",
+      "bytes": 1208088,
+      "dtype": "little-endian-float32"
+    }
+  },
+  "halls": [
+    {
+      "id": "kings",
+      "pointWGS84": [
+        120.09693385,
+        30.24235535
+      ],
+      "nearestGridGame": [
+        -3359.7160058074896,
+        -2097.7662395559455
+      ],
+      "nearestHorizontalOffsetRealM": 17.083341889187825,
+      "sampleMetresEGM2008": {
+        "dsm-egm2008-metres.bin": 62.06399154663086,
+        "ground-estimate-egm2008-metres.bin": 61.74986267089844
+      },
+      "sample3x3RangeMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          60.0019645690918,
+          63.438453674316406
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          61.24424743652344,
+          67.00288391113281
+        ]
+      },
+      "actualHallThresholdYGame": null,
+      "actualStepCount": null,
+      "use": "broad canopy/roof/mountain context only; not site platform input"
+    },
+    {
+      "id": "grand",
+      "pointWGS84": [
+        120.09667203986709,
+        30.243079869830463
+      ],
+      "nearestGridGame": [
+        -3359.7160058074896,
+        -2067.7662395559455
+      ],
+      "nearestHorizontalOffsetRealM": 22.545453221956034,
+      "sampleMetresEGM2008": {
+        "dsm-egm2008-metres.bin": 63.438453674316406,
+        "ground-estimate-egm2008-metres.bin": 63.47584533691406
+      },
+      "sample3x3RangeMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          60.55104446411133,
+          67.63607788085938
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          61.24424743652344,
+          70.84603881835938
+        ]
+      },
+      "actualHallThresholdYGame": null,
+      "actualStepCount": null,
+      "use": "broad canopy/roof/mountain context only; not site platform input"
+    },
+    {
+      "id": "medicine",
+      "pointWGS84": [
+        120.09645459924009,
+        30.24360690229454
+      ],
+      "nearestGridGame": [
+        -3389.7160058074896,
+        -2007.7662395559455
+      ],
+      "nearestHorizontalOffsetRealM": 28.18986197576956,
+      "sampleMetresEGM2008": {
+        "dsm-egm2008-metres.bin": 81.30189514160156,
+        "ground-estimate-egm2008-metres.bin": 81.35099792480469
+      },
+      "sample3x3RangeMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          65.77655792236328,
+          97.42081451416016
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          68.40359497070312,
+          101.97671508789062
+        ]
+      },
+      "actualHallThresholdYGame": null,
+      "actualStepCount": null,
+      "use": "broad canopy/roof/mountain context only; not site platform input"
+    },
+    {
+      "id": "dharma",
+      "pointWGS84": [
+        120.09632221056964,
+        30.243980280269096
+      ],
+      "nearestGridGame": [
+        -3389.7160058074896,
+        -2007.7662395559455
+      ],
+      "nearestHorizontalOffsetRealM": 18.71715521503722,
+      "sampleMetresEGM2008": {
+        "dsm-egm2008-metres.bin": 81.30189514160156,
+        "ground-estimate-egm2008-metres.bin": 81.35099792480469
+      },
+      "sample3x3RangeMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          65.77655792236328,
+          97.42081451416016
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          68.40359497070312,
+          101.97671508789062
+        ]
+      },
+      "actualHallThresholdYGame": null,
+      "actualStepCount": null,
+      "use": "broad canopy/roof/mountain context only; not site platform input"
+    },
+    {
+      "id": "huayan",
+      "pointWGS84": [
+        120.09609193639957,
+        30.24454996933628
+      ],
+      "nearestGridGame": [
+        -3389.7160058074896,
+        -1947.7662395559455
+      ],
+      "nearestHorizontalOffsetRealM": 26.22066185758892,
+      "sampleMetresEGM2008": {
+        "dsm-egm2008-metres.bin": 119.33641052246094,
+        "ground-estimate-egm2008-metres.bin": 118.87870025634766
+      },
+      "sample3x3RangeMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          93.23949432373047,
+          154.9166717529297
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          92.58023071289062,
+          144.5355224609375
+        ]
+      },
+      "actualHallThresholdYGame": null,
+      "actualStepCount": null,
+      "use": "broad canopy/roof/mountain context only; not site platform input"
+    }
+  ],
+  "nearbyWays": [
+    {
+      "id": "way/51714161",
+      "tags": {
+        "highway": "steps",
+        "name": "韬光寺路"
+      },
+      "nodeIds": [
+        "1734229122",
+        "1734229143",
+        "1734228887",
+        "1734228700",
+        "1734228846",
+        "660058620",
+        "660058619",
+        "660058618",
+        "660058617",
+        "660058616",
+        "660058615",
+        "660058614",
+        "660058613",
+        "660058612",
+        "660058611",
+        "660058610",
+        "660058609",
+        "660058608",
+        "660058607",
+        "660058606",
+        "660058605",
+        "660058604",
+        "4886673475",
+        "660058598",
+        "660058597",
+        "660058596",
+        "660058595",
+        "660058594",
+        "660058622",
+        "660058621",
+        "660058593",
+        "660058592",
+        "660058591",
+        "10106230861",
+        "1734228830",
+        "660058588"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/138564975",
+      "tags": {
+        "highway": "steps",
+        "name": "北高峰登山道"
+      },
+      "nodeIds": [
+        "1519392833",
+        "1519423648",
+        "1519423658",
+        "1519423655",
+        "1519423649",
+        "1519423652",
+        "9507842335",
+        "1519423654",
+        "1519423616",
+        "9507842334",
+        "9507842333",
+        "9507842332",
+        "1519423621",
+        "1519423629",
+        "1519423688",
+        "9507842331",
+        "1519423692",
+        "1519423683",
+        "9507842330",
+        "1519423673",
+        "1519423685",
+        "9507842329",
+        "1519423619",
+        "9507842328",
+        "1519423656",
+        "9507842327",
+        "1519423646",
+        "9507842326",
+        "1519423650",
+        "9507842325",
+        "9507842324",
+        "1519423667",
+        "9507842323",
+        "1519423651",
+        "1519423614",
+        "1519423642",
+        "1519423627",
+        "1519423653",
+        "1519423687",
+        "1519423611",
+        "1519423669",
+        "1519423684",
+        "1519423694",
+        "1519423612",
+        "1519423671",
+        "9507842322",
+        "1519423681",
+        "9507842321",
+        "1519423613",
+        "1519423635",
+        "1734228632",
+        "9507842320",
+        "9507842319",
+        "9507842318",
+        "1519423610",
+        "9507842317",
+        "1519423657",
+        "1519423690",
+        "9243597594",
+        "9243597593",
+        "1519423696",
+        "9243597592",
+        "1519423679",
+        "9243597591",
+        "9243597590",
+        "9243597589",
+        "9243597588",
+        "9507806916",
+        "1519423618",
+        "1519423659",
+        "9243597587",
+        "9507806915",
+        "9243597586",
+        "9243597585",
+        "1519423631",
+        "9243597584",
+        "1519423633",
+        "1519423637",
+        "9507806914",
+        "1519423639",
+        "9507806913",
+        "9507806912",
+        "9507806911",
+        "9507806910",
+        "1519423641",
+        "1519423644"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/195189682",
+      "tags": {
+        "highway": "footway",
+        "source": "survey"
+      },
+      "nodeIds": [
+        "660058624",
+        "2056644170"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/515705738",
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "660058588",
+        "660058589",
+        "6331231954",
+        "660058590",
+        "660058624",
+        "660058625",
+        "660058626",
+        "10106230886",
+        "660058627",
+        "660058628",
+        "1519392694",
+        "660058629"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/676045725",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "paving_stones",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "6331231949",
+        "6331231950",
+        "6331231962"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/676045726",
+      "tags": {
+        "highway": "steps",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231962",
+        "6331231951",
+        "6331231963"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/676045727",
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231963",
+        "6331231964",
+        "6331231965",
+        "6331231966",
+        "6331231967",
+        "6331231968",
+        "6331231969",
+        "6331231970",
+        "6331231971",
+        "6331231972",
+        "6331231973",
+        "6331231974",
+        "6331231975",
+        "6331231976",
+        "6331231977",
+        "6331231978",
+        "6331231862"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/676305988",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231963",
+        "6331231952"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    },
+    {
+      "id": "way/676305991",
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231952",
+        "6331231953",
+        "6331231954"
+      ],
+      "actualAxialHallStairsConfirmed": false
+    }
+  ],
+  "terrainInterpretation": {
+    "verticalDatum": "EGM2008 EPSG:3855",
+    "sourceType": "30m DSM, not surveyed DTM",
+    "sampleGridRealM": 50.0,
+    "effectiveFilterDependency": "3x3 min -> max -> mean; radius3 samples,7x7 support,300m center-to-center at50m real grid",
+    "actualFloorInference": null,
+    "verticalDatumConversionApplied": null,
+    "warning": "The effective support extent is not a hall terrace. Interpolation/filtering does not establish ground accuracy."
+  },
+  "boundary": "unknown WGS84 cadastral/monastery outer ring; Fig5/official overview are uncalibrated diagrams",
+  "runtimeAcceptance": "unknown; no terrain cuts, path/entry collision or accessible-route tests performed"
+}

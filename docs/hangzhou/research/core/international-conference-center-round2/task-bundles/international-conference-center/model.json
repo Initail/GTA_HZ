@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "placeId": "international-conference-center",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/international-conference-center-v2/international-conference-center.glb",
+  "sourceModule": "scripts/landmarks/international_conference_center.py",
+  "sha256": "7cc99dc2b0c44fbe66a2ee6c12df460939c64ff530a7678d3b6f167ed534306f",
+  "sourceModuleSha256": "446909d33e5de6c5e5c95d88c1ae3b09695a90d004a4f663cbef9b5618342c70",
+  "artifactMeshPrefix": "detail_international-conference-center_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": {
+    "sphereSection": {
+      "basis": "estimated",
+      "value": {
+        "centerHeightM": 46,
+        "lowerCutM": 20,
+        "goldSkinTopM": 81.5,
+        "skyRoofTopM": 85,
+        "skylightBaseM": 81.5
+      },
+      "sourceIds": [
+        "hunter",
+        "ihg",
+        "chinaasc"
+      ],
+      "method": "85m diameter/overall height constraints plus actual side/aerial proportions; sphere centre and lower/top cuts chosen to reproduce truncated body with shallow glass roof, not a complete85m ball stacked atop13m annex",
+      "uncertainty": "centre±5m, lower cut±4m, gold top/skylight base±3m; neutral base not surveyed; OSM max ring108m conflicting and not scaled to force fit"
+    },
+    "floorBands": {
+      "basis": "estimated",
+      "value": {
+        "bands": 15,
+        "glassFraction": 0.6666666666666666,
+        "recessM": 0.8
+      },
+      "sourceIds": [
+        "chinaasc",
+        "zjol2017",
+        "hunter",
+        "ihg"
+      ],
+      "method": "representative15 sphere-floor bands from engineering scope, terrace/gold-glass alternation observed; label18 press and19 historical whole-building counts not asserted as the same quantity",
+      "uncertainty": "actual current bands/floor datum and terrace depths unknown; recess±.6m, glass ratio reported but actual segment inventory unmeasured"
+    },
+    "glazedFace": {
+      "basis": "estimated",
+      "value": {
+        "halfAngleRadians": 0.39,
+        "recessM": 1.8
+      },
+      "sourceIds": [
+        "ihg",
+        "chinaasc",
+        "osm-geofabrik"
+      ],
+      "method": "theatre-facing glazed wedge visible in official operator view; axis follows source corridor toward theatre, width by approximate frontal proportion",
+      "uncertainty": "angular width±.12rad, depth±1.5m; precise curved glass mounting/buttress layout pending"
+    },
+    "podium": {
+      "basis": "estimated",
+      "value": {
+        "innerRoofRadiusM": 31,
+        "outerRoofBaseM": 3.5,
+        "roofMaximumM": 13,
+        "frontGapHalfRadians": 0.25,
+        "rearGapHalfRadians": 0.18,
+        "roofRadialStations": [
+          [
+            0,
+            5
+          ],
+          [
+            0.18,
+            9
+          ],
+          [
+            0.5,
+            13
+          ],
+          [
+            0.82,
+            10
+          ],
+          [
+            1,
+            3.5
+          ]
+        ]
+      },
+      "sourceIds": [
+        "hunter",
+        "ihg",
+        "osm-geofabrik"
+      ],
+      "method": "rounded gold oval wings divided by source front/rear glazed corridors; curved section fitted to actual supplier close view and operator aerial, outer plan follows source ring",
+      "uncertainty": "section/radius±4m, gap phase±5deg;13m overall annex is reported, individual roof intersections are estimated; source podium tag20 rejected"
+    },
+    "entryGlazing": {
+      "basis": "estimated",
+      "value": {
+        "frontInnerRoofM": 20,
+        "frontOuterRoofM": 5.5,
+        "rearInnerRoofM": 16,
+        "rearOuterRoofM": 7.5,
+        "canopyProjectionM": 7,
+        "doorHeightM": 3.2,
+        "rearConnectorWidthM": 22,
+        "frontConnectorMouthWidthM": 16
+      },
+      "sourceIds": [
+        "hunter",
+        "ihg",
+        "osm-geofabrik"
+      ],
+      "method": "source front/rear corridor polygons with sloping glazed roof and a shallow steel/glass projecting canopy seen in real entry photograph",
+      "uncertainty": "heights±4m, canopy projection±3m, door placement±4m; connector widths±5m fill the partial-source gap to the observed central lobby, not surveyed whole-entry geometry; current signed entry accessibility/collision unknown"
+    },
+    "panelRhythm": {
+      "basis": "estimated",
+      "value": {
+        "sphereAngularPanels": 96,
+        "podiumAngularPanels": 96,
+        "seamWidthM": 0.07
+      },
+      "sourceIds": [
+        "hunter",
+        "ihg"
+      ],
+      "method": "coarse curved vertical and floor seam grid from actual photographs; not all>10000 reported unique facade panels reproduced",
+      "uncertainty": "panel count/pitch±35%; seam width±.05m; actual each different panel shape unknown"
+    }
+  },
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/international-conference-center-round2/task-bundles/international-conference-center/job.json --spec docs/hangzhou/research/core/international-conference-center-round2/spec.json --module scripts/landmarks/international_conference_center.py --output artifacts/cities/hangzhou/landmarks/international-conference-center-v2 --palette data/hangzhou/material-palettes-v2.json",
+  "sourceSpec": "docs/hangzhou/research/core/international-conference-center-round2/spec.json",
+  "sourceSpecSha256": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20",
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "1684604856c01fbddd331989b2707a25215ff4f78857501047a117babb573eb6"
+    },
+    {
+      "path": "data/hangzhou/material-palettes-v2.json",
+      "sha256": "627c948f2261233caf1ea6b7db799794148a61e81ab5a7d4381ce706a6d426e6",
+      "basis": "Authored PBR estimate from primary/reference photographs; no image textures or calibrated material measurements. Separate revision preserves previous candidate input hashes."
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/international-conference-center-build-v2.log",
+    "sha256": "f1e1c22c24f8d4f5a16d6f4b51741ad6e8c56ef1c7246d4b92fb10ff73b18289"
+  },
+  "modelDeliverySha256": "c4dd70abd944895528eefd449ca0b1934e493cffb899c60a362d9fa9e07106de",
+  "glbStats": {
+    "triangles": 20073,
+    "materials": 4,
+    "bytes": 1411672,
+    "selectedMeshes": 4,
+    "meshNamePrefix": "detail_international-conference-center_",
+    "wholeFileTriangles": 20073,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

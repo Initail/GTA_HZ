@@ -1,0 +1,31 @@
+{
+  "status": "passed-host-contract-only",
+  "sourceModuleBeforeSha256": "9c4c00a61709997328147965beea562995619f50d35bb12d91e00a99696cb77c",
+  "sourceModuleAfterSha256": "446909d33e5de6c5e5c95d88c1ae3b09695a90d004a4f663cbef9b5618342c70",
+  "sourceSpecSha256": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20",
+  "renderingGeometryChanged": false,
+  "meshFaceStreamSha256": "6a9e13d443dedcf421e5c043de1b90afd84a90c9b5333f183f0194e908058388",
+  "faces": 10066,
+  "groundFootprints": 234,
+  "byKind": {
+    "lobby-glass-wall": 96,
+    "podium-outer-skin": 86,
+    "entry-glass-wall": 45,
+    "entry-connector-side": 4,
+    "rear-canopy-post": 3
+  },
+  "minimumAreaGameUnits2": 0.032400000000000324,
+  "checks": [
+    "all polygon rings implicitly closed/simple/finite; area>=.01 integration contract",
+    "base gameY/explicit vertical bounds/translated coordinates",
+    "reject repeated .60 scale",
+    "no whole globe ground disk or filled roof annulus",
+    "front/rear podium outer gaps retained",
+    "prior spec/scope untouched",
+    "B rendering face stream exactly unchanged"
+  ],
+  "limitations": [
+    "Real doors/entrance and site datum not verified. Current candidate lobby/entry glass walls have no actual door cutouts.",
+    "Thin collision skins estimate. Sloping entry walls use conservative maximum endpoint bounds; not exact height-aware roof intersection."
+  ]
+}

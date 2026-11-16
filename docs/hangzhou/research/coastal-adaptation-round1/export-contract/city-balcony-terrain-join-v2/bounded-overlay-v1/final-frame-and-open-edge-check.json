@@ -1,0 +1,47 @@
+{
+  "frames": [
+    {
+      "originENU": [
+        2560.0,
+        -2560.0,
+        0.0
+      ],
+      "angleDegrees": 0,
+      "degenerate": 0,
+      "nonpositiveTop": 1,
+      "maximumVertexErrorGame": 4.282002799505948e-05
+    },
+    {
+      "originENU": [
+        2560.0,
+        -2560.0,
+        0.0
+      ],
+      "angleDegrees": 1,
+      "degenerate": 0,
+      "nonpositiveTop": 0,
+      "maximumVertexErrorGame": 4.300852555768839e-05
+    }
+  ],
+  "unclassifiedSourceEdges": [
+    {
+      "edge": [
+        [
+          3309.3012126250987,
+          -2009.8408088574422
+        ],
+        [
+          3309.3250122070312,
+          -2009.806884765625
+        ]
+      ],
+      "topFace": 1490,
+      "kind": "unexpected-open",
+      "length": 0.041439885446075304,
+      "maximumDistanceToActualClosedBank": 0.041439885446075304,
+      "maximumDistanceToActualBankBoundary": 0.041439885446075304,
+      "maximumDistanceToSourceDryBoundary": 5.58308588712303e-07
+    }
+  ],
+  "interpretation": "Edges lying at actual bank solid or inside its <=.001g positional band belong to bank handoff, not an unowned internal soil hole. The full-body projection is not an upward-top removal mask."
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-14",
+  "networkFailures": [
+    {
+      "source": "zhejiang-design-tides",
+      "result": "curl403/webunavailable; indexedtableonly"
+    },
+    {
+      "source": "qiantang-forecast2025",
+      "result": "directwebtimeout; indexedforecastonly"
+    },
+    {
+      "source": "gongshu-riverplan",
+      "result": "curl403/web403;indexedtableonly"
+    },
+    {
+      "source": "qiantang EIA72a355...",
+      "result": "curl403/webunavailable;not adopted as measured daily/localdatum"
+    },
+    {
+      "source": "oldprovincialwetdryEIAffd6a3...",
+      "result": "direct404;not adopted as a verified current gauge series"
+    }
+  ],
+  "pdfAttempts": [
+    {
+      "source": "westlake-plan2017",
+      "result": "downloaded/scannedtextempty;actual page6 printed6 visually read;page8blank,page7otherchapter not height evidence"
+    },
+    {
+      "source": "westlake-performance2022",
+      "result": "actualPDFpage1 text/table visually read;2022assessmentnot2026weather"
+    }
+  ],
+  "cpuChecks": "existing OSM/DSMhashes,sampled values,sourcepolygon inclusion and localPROJdatumoperations checked; ICC API contract checked separately",
+  "BlenderBrowser": "notrun",
+  "sharedWrites": "onlyICCmodule API added at root explicitrequest; existingBfaces/spec unchanged, no totalassets/config/runtime writes"
+}

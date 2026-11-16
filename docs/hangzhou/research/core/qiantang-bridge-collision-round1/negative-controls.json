@@ -1,0 +1,86 @@
+{
+  "explicitSourceNodeHeightGame": 13.7,
+  "mismatchedFrozenDeckQueries": [
+    {
+      "sourceWayId": "way/29169666",
+      "bridgeId": "fuxing-bridge",
+      "mode": "road",
+      "deck": "upper",
+      "sourceProfileHeightGame": 13.7,
+      "sourceSegmentIndex": 7,
+      "sourceSegmentFraction": 1,
+      "distanceFromSourceCenterlineGame": 0.0,
+      "actualDeckHeightGame": 14.1,
+      "actualDeckRegionIds": [
+        "fuxing-bridge:deck:46"
+      ],
+      "heightGame": null,
+      "navigationAccepted": false,
+      "heightBasis": "estimated frozen model water-relative profile; absolute datum unknown",
+      "blockers": [
+        "source profile proposal differs from rigid exported structural deck"
+      ],
+      "heightDifferenceGame": -0.40000000000000036
+    },
+    {
+      "sourceWayId": "way/154135283",
+      "bridgeId": "fuxing-bridge",
+      "mode": "road",
+      "deck": "upper",
+      "sourceProfileHeightGame": 13.7,
+      "sourceSegmentIndex": 0,
+      "sourceSegmentFraction": 0,
+      "distanceFromSourceCenterlineGame": 0.0,
+      "actualDeckHeightGame": 14.1,
+      "actualDeckRegionIds": [
+        "fuxing-bridge:deck:46"
+      ],
+      "heightGame": null,
+      "navigationAccepted": false,
+      "heightBasis": "estimated frozen model water-relative profile; absolute datum unknown",
+      "blockers": [
+        "source profile proposal differs from rigid exported structural deck"
+      ],
+      "heightDifferenceGame": -0.40000000000000036
+    }
+  ],
+  "portalOpeningProbes": [
+    {
+      "stationM": -123,
+      "centerPointGame": [
+        -2066.8540949850562,
+        -7552.182892915949
+      ],
+      "probeYGame": [
+        11.7,
+        13.5
+      ],
+      "blockingPylonSections": [],
+      "sideLegContactDetected": true,
+      "trafficClearanceAccepted": false
+    },
+    {
+      "stationM": 123,
+      "centerPointGame": [
+        -1933.5310112518353,
+        -7488.8526841379535
+      ],
+      "probeYGame": [
+        11.7,
+        13.5
+      ],
+      "blockingPylonSections": [],
+      "sideLegContactDetected": true,
+      "trafficClearanceAccepted": false
+    }
+  ],
+  "roadRailSameSourceNodeSeparate": {
+    "node": "3351280499",
+    "roadHeightGame": 12.3,
+    "railHeightGame": 5.88,
+    "separationGame": 6.42
+  },
+  "upperGuardrailsAboveLowerProbe": true,
+  "probeActorHeightGame": 1.8,
+  "actorDimensionsMeasured": false
+}

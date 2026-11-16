@@ -1,0 +1,187 @@
+{
+  "rawExpected": {
+    "type": "MultiPolygon",
+    "area": 71.90771296900971,
+    "polygons": 2,
+    "holes": 0,
+    "holeAreas": [],
+    "smallestPolygonAreas": [
+      31.807971034302682,
+      40.099741934707026
+    ]
+  },
+  "rawActual": {
+    "type": "MultiPolygon",
+    "area": 71.90895851701498,
+    "polygons": 2,
+    "holes": 12,
+    "holeAreas": [
+      5.169878828456423e-26,
+      5.169878828456423e-26,
+      5.169878828456423e-26,
+      5.169878828456423e-26,
+      5.169878828456423e-26,
+      5.169878828456423e-26,
+      5.169878828456423e-26,
+      1.0339757656912846e-25,
+      1.0339757656912846e-25,
+      2.0679515313825692e-25,
+      2.0679515313825692e-25,
+      3.101927297073854e-25
+    ],
+    "smallestPolygonAreas": [
+      31.808298751711845,
+      40.100659765303135
+    ]
+  },
+  "largestExpectedBoundaryPointDistanceToActual": [
+    3.4700472882444895e-05,
+    [
+      3309.2323411756242,
+      -2009.7300702769917
+    ]
+  ],
+  "largestActualBoundaryPointDistanceToExpected": [
+    0.0598736968614351,
+    [
+      3346.2875188452604,
+      -1949.7482907006427
+    ]
+  ],
+  "precisionDiagnostics": [
+    {
+      "gridGame": 1e-10,
+      "expected": {
+        "type": "MultiPolygon",
+        "area": 71.90771296810937,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.80797103351269,
+          40.09974193459667
+        ]
+      },
+      "actual": {
+        "type": "MultiPolygon",
+        "area": 71.90895851613645,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.808298751099386,
+          40.100659765037065
+        ]
+      },
+      "boundaryHausdorffGame": 3.899810972373114e-05,
+      "expectedSymDiffFromRawGame2": 0.0,
+      "actualSymDiffFromRawGame2": 0.0
+    },
+    {
+      "gridGame": 1e-09,
+      "expected": {
+        "type": "MultiPolygon",
+        "area": 71.90771297352822,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.807971038934138,
+          40.09974193459408
+        ]
+      },
+      "actual": {
+        "type": "MultiPolygon",
+        "area": 71.90895852252363,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.80829875691063,
+          40.100659765613
+        ]
+      },
+      "boundaryHausdorffGame": 3.8998425388594915e-05,
+      "expectedSymDiffFromRawGame2": 0.0,
+      "actualSymDiffFromRawGame2": 0.0
+    },
+    {
+      "gridGame": 1e-08,
+      "expected": {
+        "type": "MultiPolygon",
+        "area": 71.907713090132,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.80797117573001,
+          40.099741914401996
+        ]
+      },
+      "actual": {
+        "type": "MultiPolygon",
+        "area": 71.90895869853222,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.80829890639169,
+          40.100659792140526
+        ]
+      },
+      "boundaryHausdorffGame": 3.899816646867169e-05,
+      "expectedSymDiffFromRawGame2": 0.0,
+      "actualSymDiffFromRawGame2": 0.0
+    },
+    {
+      "gridGame": 1e-07,
+      "expected": {
+        "type": "MultiPolygon",
+        "area": 71.90771327934725,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.807970816615924,
+          40.09974246273133
+        ]
+      },
+      "actual": {
+        "type": "MultiPolygon",
+        "area": 71.90895825603263,
+        "polygons": 2,
+        "holes": 0,
+        "holeAreas": [],
+        "smallestPolygonAreas": [
+          31.808298273040386,
+          40.10065998299224
+        ]
+      },
+      "boundaryHausdorffGame": 3.89281390716764e-05,
+      "expectedSymDiffFromRawGame2": 0.0,
+      "actualSymDiffFromRawGame2": 0.0
+    }
+  ],
+  "uvAreas": [
+    {
+      "name": "coastal_shore_0_-8_seawall",
+      "zeroUvAreaFaces": 0,
+      "minUvDoubleArea": 0.0015916659031063318
+    },
+    {
+      "name": "coastal_shore_4_-7_land",
+      "zeroUvAreaFaces": 0,
+      "minUvDoubleArea": 0.00013956241309642792
+    },
+    {
+      "name": "coastal_shore_5_-4_land",
+      "zeroUvAreaFaces": 0,
+      "minUvDoubleArea": 4.748161882162094e-05
+    },
+    {
+      "name": "coastal_shore_5_-5_land",
+      "zeroUvAreaFaces": 0,
+      "minUvDoubleArea": 0.0010630153119564056
+    }
+  ]
+}

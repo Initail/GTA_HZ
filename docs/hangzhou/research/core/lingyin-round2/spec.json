@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 1,
+  "id": "lingyin-temple",
+  "cityId": "hangzhou",
+  "scope": "Five axial hall exterior candidates only; no claim of the full monastery or surveyed mountain terrain.",
+  "anchor": {
+    "lon": 120.09667203986709,
+    "lat": 30.243079869830463,
+    "basis": "measured-on-OSM",
+    "method": "area centroid of Grand Hall way434365024"
+  },
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceFeatureIds": [
+    "way/434365023",
+    "way/434365024",
+    "way/434365025",
+    "way/434366739",
+    "way/434366741"
+  ],
+  "baseBuildingIdsToExclude": [
+    434365023,
+    434365024,
+    434365025,
+    434366739,
+    434366741
+  ],
+  "excludedFromObject": {
+    "ticketBuildingWay": 195189679,
+    "reason": "shop=ticket and multilingual ticket-office names; not monastery extent"
+  },
+  "halls": [
+    {
+      "id": "kings",
+      "name": "天王殿",
+      "axisOrder": 1,
+      "sourceFeatureIds": [
+        "way/434365023"
+      ],
+      "sourceOsmName": "天王殿",
+      "centroidWGS84": [
+        120.09693385,
+        30.24235535
+      ],
+      "offsetEastNorthM": [
+        25.191402029398567,
+        -80.3181478169619
+      ],
+      "footprintWGS84": [
+        [
+          120.096723,
+          30.2423951
+        ],
+        [
+          120.0967928,
+          30.2422142
+        ],
+        [
+          120.0971447,
+          30.2423156
+        ],
+        [
+          120.0970749,
+          30.2424965
+        ]
+      ],
+      "footprintLocalMetres": [
+        [
+          4.903390030507157,
+          -75.91157916084549
+        ],
+        [
+          11.61955430664826,
+          -95.96562368687886
+        ],
+        [
+          45.47941402828994,
+          -84.72471647307826
+        ],
+        [
+          38.76324975214884,
+          -64.67067194704488
+        ]
+      ],
+      "footprintAreaM2": 754.5229139637902,
+      "widthM": 35.732571091748255,
+      "depthM": 21.1487227965679,
+      "widthAxisRadiansEastCCW": 0.3205350126355735,
+      "frontBearingNorthClockwise": 161.63469658980912,
+      "frontBearingBasis": "estimated",
+      "frontBearingMethod": "polygon width axis plus official downhill/front to uphill/back hall sequence; not a measured entrance bearing",
+      "heightM": 20.0,
+      "heightBasis": "estimated",
+      "heightAllowanceM": 6.0,
+      "eaveTiers": 2,
+      "bayCount": 7,
+      "bayCountBasis": "estimated",
+      "baseElevationRelativeM": 0,
+      "roofType": "xieshan-reference-informed",
+      "roofTypeBasis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "temple-2014",
+        "kings-official"
+      ],
+      "pending": [
+        "exact rear facade",
+        "surveyed ground/terrace datum",
+        "precise roof profiles and decorative carving"
+      ]
+    },
+    {
+      "id": "grand",
+      "name": "大雄宝殿",
+      "axisOrder": 2,
+      "sourceFeatureIds": [
+        "way/434365024"
+      ],
+      "sourceOsmName": "大雄宝殿",
+      "centroidWGS84": [
+        120.09667203986709,
+        30.243079869830463
+      ],
+      "offsetEastNorthM": [
+        -2.426637008624191e-10,
+        1.9024291303725927e-10
+      ],
+      "footprintWGS84": [
+        [
+          120.0964059,
+          30.243163
+        ],
+        [
+          120.0965181,
+          30.2428747
+        ],
+        [
+          120.0969382,
+          30.2429968
+        ],
+        [
+          120.096826,
+          30.243285
+        ]
+      ],
+      "footprintLocalMetres": [
+        [
+          -25.608009565716255,
+          9.21556728205221
+        ],
+        [
+          -14.812112262747679,
+          -22.744526895957833
+        ],
+        [
+          25.60995954490491,
+          -9.208878269091056
+        ],
+        [
+          14.814062241936334,
+          22.74013020187205
+        ]
+      ],
+      "footprintAreaM2": 1437.7388006470328,
+      "widthM": 42.71708613663997,
+      "depthM": 33.73412375738353,
+      "widthAxisRadiansEastCCW": 0.3231220039559089,
+      "frontBearingNorthClockwise": 161.48647290551693,
+      "frontBearingBasis": "estimated",
+      "frontBearingMethod": "polygon width axis plus official downhill/front to uphill/back hall sequence; not a measured entrance bearing",
+      "heightM": 33.6,
+      "heightBasis": "reported",
+      "heightAllowanceM": null,
+      "eaveTiers": 3,
+      "bayCount": 7,
+      "bayCountBasis": "reported",
+      "baseElevationRelativeM": 0,
+      "roofType": "xieshan-reference-informed",
+      "roofTypeBasis": "reported",
+      "sourceIds": [
+        "osm-geofabrik",
+        "temple-2014",
+        "grand-official"
+      ],
+      "pending": [
+        "exact rear facade",
+        "surveyed ground/terrace datum",
+        "precise roof profiles and decorative carving"
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "药师殿",
+      "axisOrder": 3,
+      "sourceFeatureIds": [
+        "way/434365025"
+      ],
+      "sourceOsmName": "药师殿",
+      "centroidWGS84": [
+        120.09645459924009,
+        30.24360690229454
+      ],
+      "offsetEastNorthM": [
+        -20.922162909522193,
+        58.425276402779595
+      ],
+      "footprintWGS84": [
+        [
+          120.096187,
+          30.2436668
+        ],
+        [
+          120.0962164,
+          30.2435913
+        ],
+        [
+          120.0962549,
+          30.2434922
+        ],
+        [
+          120.0962831,
+          30.2434196
+        ],
+        [
+          120.0967222,
+          30.243547
+        ],
+        [
+          120.0967012,
+          30.2436008
+        ],
+        [
+          120.0966635,
+          30.243698
+        ],
+        [
+          120.0966261,
+          30.2437942
+        ]
+      ],
+      "footprintLocalMetres": [
+        [
+          -46.67059351816633,
+          65.06536071610104
+        ],
+        [
+          -43.841722032215486,
+          56.695651695985646
+        ],
+        [
+          -40.13724746737753,
+          45.70971575056607
+        ],
+        [
+          -37.42384012504986,
+          37.66149224268869
+        ],
+        [
+          4.826413936125745,
+          51.784683357221446
+        ],
+        [
+          2.805791445965519,
+          57.74879389065056
+        ],
+        [
+          -0.821707023123658,
+          68.52410139705839
+        ],
+        [
+          -4.420339458358097,
+          79.1885518306338
+        ]
+      ],
+      "footprintAreaM2": 1288.2802570953463,
+      "widthM": 44.63015142850274,
+      "depthM": 28.921752217439817,
+      "widthAxisRadiansEastCCW": 0.3225975474174736,
+      "frontBearingNorthClockwise": 161.5165220517073,
+      "frontBearingBasis": "estimated",
+      "frontBearingMethod": "polygon width axis plus official downhill/front to uphill/back hall sequence; not a measured entrance bearing",
+      "heightM": 24.0,
+      "heightBasis": "estimated",
+      "heightAllowanceM": 7.0,
+      "eaveTiers": 2,
+      "bayCount": 7,
+      "bayCountBasis": "reported",
+      "baseElevationRelativeM": 0,
+      "roofType": "xieshan-reference-informed",
+      "roofTypeBasis": "reported",
+      "sourceIds": [
+        "osm-geofabrik",
+        "temple-2014",
+        "medicine-official"
+      ],
+      "pending": [
+        "exact rear facade",
+        "surveyed ground/terrace datum",
+        "precise roof profiles and decorative carving"
+      ]
+    },
+    {
+      "id": "dharma",
+      "name": "法堂/直指堂/藏经楼",
+      "axisOrder": 4,
+      "sourceFeatureIds": [
+        "way/434366739"
+      ],
+      "sourceOsmName": "灵隐寺文物展厅",
+      "centroidWGS84": [
+        120.09632221056964,
+        30.243980280269096
+      ],
+      "offsetEastNorthM": [
+        -33.66061647671075,
+        99.81686582635942
+      ],
+      "footprintWGS84": [
+        [
+          120.096123,
+          30.244038
+        ],
+        [
+          120.0962051,
+          30.2438296
+        ],
+        [
+          120.0965214,
+          30.2439225
+        ],
+        [
+          120.0964393,
+          30.244131
+        ]
+      ],
+      "footprintLocalMetres": [
+        [
+          -52.82868110559824,
+          106.21550625539192
+        ],
+        [
+          -44.92900937167701,
+          83.11289221898392
+        ],
+        [
+          -14.49458587120238,
+          93.41151431095204
+        ],
+        [
+          -22.394257605123613,
+          116.52521405480081
+        ]
+      ],
+      "footprintAreaM2": 784.6829536726959,
+      "widthM": 32.19940243436416,
+      "depthM": 24.42628809342254,
+      "widthAxisRadiansEastCCW": 0.326618987520229,
+      "frontBearingNorthClockwise": 161.28611050625477,
+      "frontBearingBasis": "estimated",
+      "frontBearingMethod": "polygon width axis plus official downhill/front to uphill/back hall sequence; not a measured entrance bearing",
+      "heightM": 23.0,
+      "heightBasis": "estimated",
+      "heightAllowanceM": 6.0,
+      "eaveTiers": 2,
+      "bayCount": 7,
+      "bayCountBasis": "estimated",
+      "baseElevationRelativeM": 0,
+      "roofType": "xieshan-reference-informed",
+      "roofTypeBasis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "temple-2014",
+        "dharma-official"
+      ],
+      "pending": [
+        "exact rear facade",
+        "surveyed ground/terrace datum",
+        "precise roof profiles and decorative carving"
+      ]
+    },
+    {
+      "id": "huayan",
+      "name": "华严殿",
+      "axisOrder": 5,
+      "sourceFeatureIds": [
+        "way/434366741"
+      ],
+      "sourceOsmName": "华严殿",
+      "centroidWGS84": [
+        120.09609193639957,
+        30.24454996933628
+      ],
+      "offsetEastNorthM": [
+        -55.817624422514214,
+        162.97092839863237
+      ],
+      "footprintWGS84": [
+        [
+          120.0958683,
+          30.2445939
+        ],
+        [
+          120.0959445,
+          30.2443982
+        ],
+        [
+          120.0963156,
+          30.2445061
+        ],
+        [
+          120.0962394,
+          30.2447017
+        ]
+      ],
+      "footprintLocalMetres": [
+        [
+          -77.33594530315256,
+          167.84095319873967
+        ],
+        [
+          -70.00397226922543,
+          146.1462239903754
+        ],
+        [
+          -34.29668627149091,
+          158.10770217916215
+        ],
+        [
+          -41.62865930541805,
+          179.7913456800856
+        ]
+      ],
+      "footprintAreaM2": 862.1225756955132,
+      "widthM": 37.71867749821169,
+      "depthM": 22.900117056261404,
+      "widthAxisRadiansEastCCW": 0.32323815495967145,
+      "frontBearingNorthClockwise": 161.47981794321512,
+      "frontBearingBasis": "estimated",
+      "frontBearingMethod": "polygon width axis plus official downhill/front to uphill/back hall sequence; not a measured entrance bearing",
+      "heightM": 23.0,
+      "heightBasis": "estimated",
+      "heightAllowanceM": 7.0,
+      "eaveTiers": 2,
+      "bayCount": 7,
+      "bayCountBasis": "estimated",
+      "baseElevationRelativeM": 0,
+      "roofType": "xieshan-reference-informed",
+      "roofTypeBasis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "temple-2014",
+        "huayan-official"
+      ],
+      "pending": [
+        "exact rear facade",
+        "surveyed ground/terrace datum",
+        "precise roof profiles and decorative carving"
+      ]
+    }
+  ],
+  "estimates": {
+    "secondaryHeights": {
+      "basis": "estimated",
+      "value": {
+        "kings": [
+          20.0,
+          6.0
+        ],
+        "medicine": [
+          24.0,
+          7.0
+        ],
+        "dharma": [
+          23.0,
+          6.0
+        ],
+        "huayan": [
+          23.0,
+          7.0
+        ]
+      },
+      "unit": "[metres, allowance metres]",
+      "sourceIds": [
+        "kings-official",
+        "medicine-official",
+        "dharma-official",
+        "huayan-official",
+        "axis-photo-2020",
+        "hall-photo-2020"
+      ],
+      "method": "Coarse width-to-height proportions and number of visible eaves/levels in official street photos, using OSM width as contextual bound. Cropping/occlusion and perspective prevent calibrated photogrammetry. Broad candidate values, not pixel-derived survey.",
+      "uncertainty": "±6–7m planning allowance; not a statistical confidence interval; exact roof finial and ground datum unknown"
+    },
+    "roofProfiles": {
+      "basis": "estimated",
+      "sourceIds": [
+        "axis-photo-2020",
+        "hall-photo-2020",
+        "roof-photo-2021"
+      ],
+      "value": {
+        "twoTierEaveHeightFractions": [
+          0.4,
+          0.72
+        ],
+        "twoTierTopHeightFractions": [
+          0.58,
+          1
+        ],
+        "threeTierEaveHeightFractions": [
+          0.36,
+          0.62,
+          0.83
+        ],
+        "threeTierTopHeightFractions": [
+          0.5,
+          0.73,
+          1
+        ],
+        "threeTierUpperPlanFactors": [
+          0.86,
+          0.72
+        ],
+        "twoTierUpperPlanFactors": [
+          0.82,
+          0.76
+        ],
+        "cornerLiftFraction": 0.045,
+        "roofThicknessM": 0.16,
+        "topRidgeDecorationAllowanceM": 0.72
+      },
+      "method": "Visible stacked eaves, upturned corners and hipped-gabled roof rhythm simplified into curved surfaces. Ratios reproduce silhouette without asserting joinery survey.",
+      "uncertainty": "height fractions ±.06; plan factors ±.10; corner lift ±.8m; rear roof evidence incomplete"
+    },
+    "facade": {
+      "basis": "estimated",
+      "sourceIds": [
+        "grand-official",
+        "axis-photo-2020",
+        "hall-photo-2020"
+      ],
+      "value": {
+        "bodyPlanFactor": 0.88,
+        "doorHeightFraction": 0.26,
+        "pillarRadiusM": 0.22,
+        "plinthHeightM": 0.5,
+        "latticePitchM": 0.6
+      },
+      "method": "Visible yellow end walls, red pillars/doors, pale stone bases, green windows, gold plaque frames. Simplified repeated mesh detail; exact traditional components unknown.",
+      "uncertainty": "body inset ±.05, door fraction ±.06, pillar radius ±.10m, plinth ±.5m; plaque lettering pending"
+    }
+  },
+  "pendingSubscopes": [
+    "whole monastery cadastral boundary",
+    "all auxiliary halls/grounds",
+    "actual mountain DEM and terrace elevations",
+    "stairs and accessible entry/arrival",
+    "full rear/side facade survey",
+    "plaque lettering and accurate painted decoration",
+    "night appearance",
+    "runtime collision/browser/performance verification"
+  ],
+  "groundPolicy": {
+    "status": "pending",
+    "candidate": "all five halls at lm.y with zero relative ground offset",
+    "warning": "A neutral isolated candidate base, not a factual terrain/terrace reconstruction; integration must bind actual elevations and paths before acceptance."
+  },
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "dimensions": "unscaled real metres; lm x/z/y already game units",
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "scaleOnce": 0.6
+  },
+  "materialAliases": {
+    "walls": "gold",
+    "wood": "civicred",
+    "tiles": "roof",
+    "window": "darkglass",
+    "stone": "concrete",
+    "paint": "landmarkglass"
+  },
+  "materialLimit": "Uses existing B materials; gold wall alias is only a provisional color and must become matte ochre before visual acceptance.",
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 8,
+    "lights": 0
+  }
+}

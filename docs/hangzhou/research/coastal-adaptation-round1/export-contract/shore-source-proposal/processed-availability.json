@@ -1,0 +1,990 @@
+[
+  {
+    "file": "data/processed/hangzhou-261011-extended/roads.geojson",
+    "sha256": "c5cdedeb89a1fd1d9b10522305678a9fba46411de412fa3860b80bc20bad1f54",
+    "matches": [
+      {
+        "id": "way/18366041",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "文一路隧道;火车东站",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "name:en": "Desheng Expressway",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/18366050",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "空港高架路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "2",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/229709701",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "空港高架路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/229725876",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/329244642",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/329244645",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/329244647",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "文一路隧道;火车东站",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/329244662",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "东湖高架路;客运中心;江东大桥;下沙;红普路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/329244663",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "东湖高架路;客运中心;江东大桥;下沙;红普路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/329244765",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "空港高架路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/329244766",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "空港高架路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/330205893",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/358938579",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "tertiary",
+          "name": "零磁谷街"
+        }
+      },
+      {
+        "id": "way/479413161",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "东湖高架路;客运中心;江东大桥;下沙;红普路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/479413162",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "东湖高架路;客运中心;江东大桥;下沙;红普路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/479413163",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/479413164",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/479413165",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/479413166",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/479413167",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "空港高架路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/479413168",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "空港高架路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/527914070",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "unclassified",
+          "source": "digitalglobe"
+        }
+      },
+      {
+        "id": "way/571336749",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/571336751",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "德胜快速路",
+          "name:zh-Hant": "德勝快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/595770606",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "留石高架路",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/798434276",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "tertiary",
+          "name": "之江绿道",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/831717324",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "path"
+        }
+      },
+      {
+        "id": "way/838898084",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "service"
+        }
+      },
+      {
+        "id": "way/975577961",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "service"
+        }
+      },
+      {
+        "id": "way/975584462",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "留石高架路",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/975584463",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "留石高架路",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/975584465",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "motorroad": "yes",
+          "name": "留石高架路",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1071173638",
+        "geometryType": "LineString",
+        "tags": {
+          "bicycle": "designated",
+          "embankment": "right",
+          "foot": "designated",
+          "highway": "cycleway",
+          "name": "西险大塘"
+        }
+      },
+      {
+        "id": "way/1078522250",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1078525728",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "oneway": "yes",
+          "source": "bing",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1079387418",
+        "geometryType": "LineString",
+        "tags": {
+          "destination": "婺江路",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083241101",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "primary_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/1083241108",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "primary_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/1083241109",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "primary_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/1083964507",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "service"
+        }
+      },
+      {
+        "id": "way/1083984196",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984197",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984204",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984205",
+        "geometryType": "LineString",
+        "tags": {
+          "access": "no",
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "maxspeed": "40",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984211",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "留石高架路",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984212",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "留石高架路",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984215",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984218",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "trunk_link",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/1083984224",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "construction",
+          "lanes": "1",
+          "maxspeed": "40",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "trunk_link": "yes"
+        }
+      },
+      {
+        "id": "way/1083984225",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "construction",
+          "lanes": "1",
+          "layer": "-1",
+          "maxspeed": "40",
+          "oneway": "yes",
+          "surface": "asphalt",
+          "trunk_link": "yes",
+          "tunnel": "yes"
+        }
+      },
+      {
+        "id": "way/1095314578",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "tertiary",
+          "name": "西险大塘"
+        }
+      },
+      {
+        "id": "way/1103296758",
+        "geometryType": "LineString",
+        "tags": {
+          "highway": "service",
+          "man_made": "embankment"
+        }
+      },
+      {
+        "id": "way/1414255048",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "footway"
+        }
+      },
+      {
+        "id": "way/1530980603",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "primary",
+          "name": "博奥隧道",
+          "name:en": "Bo'ao Tunnel",
+          "name:zh-Hans": "博奥隧道",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/1530980605",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "primary",
+          "name": "博奥隧道",
+          "name:en": "Bo'ao Tunnel",
+          "name:zh-Hans": "博奥隧道",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/1549237926",
+        "geometryType": "LineString",
+        "tags": {
+          "embankment": "yes",
+          "highway": "service",
+          "name": "环山路",
+          "service": "alley"
+        }
+      }
+    ]
+  },
+  {
+    "file": "data/processed/hangzhou-261011-extended/green.geojson",
+    "sha256": "b722301e58c488a1b78026e5c747b856cd2105052e695b9796310154d4d40f4e",
+    "matches": []
+  },
+  {
+    "file": "data/processed/hangzhou-261011-extended/elevation.geojson",
+    "sha256": "a33d39172410615c7fae846a983ea69645167314babed0c2c8d08abde8294e99",
+    "matches": []
+  },
+  {
+    "file": "data/processed/hangzhou-261011-extended/pois.geojson",
+    "sha256": "a18ff2c6f9ae0ae63d341fd68b0d0f66cbcb7fa385dceb03e0debc93425c5995",
+    "matches": []
+  },
+  {
+    "file": "data/processed/hangzhou-261011-extended/buildings.geojson",
+    "sha256": "7f335a5af27095b5e1fbd539c54d6ee4ff20a27d5a552cb24b1d3791a4941194",
+    "matches": [
+      {
+        "id": "way/519606391",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "barrier": "city_wall",
+          "building": "yes",
+          "name": "凤山门"
+        }
+      }
+    ]
+  },
+  {
+    "file": "data/processed/hangzhou-261011-extended/places.geojson",
+    "sha256": "f3aee452e0b37aef6502f54d73673b6dbdce8c48573eeb4186beb0b57a898e59",
+    "matches": [
+      {
+        "id": "way/519606391",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "barrier": "city_wall",
+          "building": "yes",
+          "name": "凤山门"
+        }
+      },
+      {
+        "id": "way/627119016",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "height": "180",
+          "name": "新建设河西兴闸",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/635228139",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "barrier": "wall",
+          "landuse": "military",
+          "name": "杭州军分区干休所"
+        }
+      },
+      {
+        "id": "way/644318488",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "area": "yes",
+          "name": "古翠路古荡湾闸",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/904453976",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "area": "yes",
+          "man_made": "quay",
+          "name": "观音庵码头"
+        }
+      },
+      {
+        "id": "way/922860343",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "area": "yes",
+          "man_made": "quay",
+          "name": "周家村大码头"
+        }
+      },
+      {
+        "id": "way/922860347",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "area": "yes",
+          "man_made": "quay",
+          "name": "周家村摇橹船码头"
+        }
+      },
+      {
+        "id": "way/1219466118",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "area": "yes",
+          "man_made": "quay",
+          "name": "余杭塘河码头"
+        }
+      },
+      {
+        "id": "way/1395445931",
+        "geometryType": "MultiPolygon",
+        "tags": {
+          "area": "yes",
+          "man_made": "quay",
+          "name": "武林门码头"
+        }
+      }
+    ]
+  },
+  {
+    "file": "data/processed/hangzhou-261011-extended/water.geojson",
+    "sha256": "e820b199c45012d9ba441ffccb135c5f1aaf6f29e2599f0a6262a0ddb231c4f1",
+    "matches": [
+      {
+        "id": "way/356904139",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "weir"
+        }
+      },
+      {
+        "id": "way/536682377",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/611867838",
+        "geometryType": "LineString",
+        "tags": {
+          "area": "yes",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/627119016",
+        "geometryType": "LineString",
+        "tags": {
+          "height": "180",
+          "name": "新建设河西兴闸",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/644318488",
+        "geometryType": "LineString",
+        "tags": {
+          "area": "yes",
+          "name": "古翠路古荡湾闸",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1058040117",
+        "geometryType": "LineString",
+        "tags": {
+          "area": "yes",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1097609147",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1108873904",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1219302436",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1374154021",
+        "geometryType": "LineString",
+        "tags": {
+          "material": "stone",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1374154022",
+        "geometryType": "LineString",
+        "tags": {
+          "material": "stone",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1374154023",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1374154025",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1374154036",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1417750764",
+        "geometryType": "LineString",
+        "tags": {
+          "area": "yes",
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1508656595",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1508656596",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1508656597",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1508656598",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1508656599",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423954",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423957",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423965",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423967",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423968",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423969",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423970",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423972",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1510423973",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1546528818",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      },
+      {
+        "id": "way/1564451558",
+        "geometryType": "LineString",
+        "tags": {
+          "waterway": "dam"
+        }
+      }
+    ]
+  }
+]

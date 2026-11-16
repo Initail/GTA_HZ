@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "recordedStage": "planned",
+  "currentStage": "planned",
+  "evidenceReady": false,
+  "blockers": [
+    {
+      "id": "rawcoverage",
+      "reason": "FullfixedPBF9building/partwayrecords areHQplusmetroonly;all9exactlyinextract. No annexe/towerpart hiddenbytagfilter. Cannot useparcelredline asindividualbuildingfootprint."
+    },
+    {
+      "id": "originalplans-and-coordinateframe",
+      "reason": "2024/2025reproducednoticeplans haveindividualoutlines/localXYgrid, but originalgovsheet/completeannotations/coordinateCRSnot recovered. X≈82300/Y≈60600 cannotbe blindlyconverted toWGS84."
+    },
+    {
+      "id": "asbuilt-body-crosswalk",
+      "reason": "Sixmain+aux vs7count andhistorical10plan figures use differentphysical/perioddefinitions;percurrentA/Bnumbers/floorplans/rooftops remainunregistered. Six/7/10 notautomaticallysameasphotoassetnodecount."
+    },
+    {
+      "id": "entrance-platform-andlevels",
+      "reason": "Localdrawinggatesandwaveplatforms visiblebutactualWGS84gatepoints,deckbase/roadcrossing clearance and currentpublicaccessunknown. No centerpointgoal or guessedbridge connections."
+    }
+  ],
+  "nextEvidence": "originalplanandcoordinateframe/controlpoints; individualcurrentbuilding crosswalk/entrance",
+  "CPUsourceChecks": 9
+}

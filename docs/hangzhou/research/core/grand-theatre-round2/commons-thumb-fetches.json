@@ -1,0 +1,28 @@
+[
+  {
+    "id": "commons-high-thumb",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/20190717%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2.jpg/1920px-20190717%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "temporaryPath": "<TEMP>/grand-theatre-research/commons-high-thumb.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 696252,
+    "sha256": "fef25b2c025be30d707694b046f8c6282895b593c14463c8ac0cf0c5eb12e556",
+    "captureDate": "2019-07-17 12:58:16",
+    "license": "CC BY-SA 4.0",
+    "description": "​从市民中心观看杭州大剧院",
+    "bundled": false
+  },
+  {
+    "id": "commons-18-thumb",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hangzhou_Grand_Theatre_18.jpg/1920px-Hangzhou_Grand_Theatre_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "temporaryPath": "<TEMP>/grand-theatre-research/commons-18-thumb.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 367495,
+    "sha256": "68a7c16cb7d707a6cf2c1fc380b18994a807b1890fce9c76f6faad6701130ea4",
+    "captureDate": "2019-11-08 14:34:26",
+    "license": "CC BY-SA 4.0",
+    "description": "Hangzhou Grand Theatre, Zhejiang",
+    "bundled": false
+  }
+]

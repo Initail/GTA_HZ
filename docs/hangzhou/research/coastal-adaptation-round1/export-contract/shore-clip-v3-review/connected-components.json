@@ -1,0 +1,67 @@
+[
+  {
+    "name": "coastal_shore_0_-8_seawall",
+    "components": [
+      {
+        "vertices": 4484,
+        "edges": 13446,
+        "triangles": 8964,
+        "euler": 2,
+        "zeroArea": 0,
+        "badEdges": 0,
+        "signedVolume": 404.83435291128745
+      }
+    ]
+  },
+  {
+    "name": "coastal_shore_4_-7_land",
+    "components": [
+      {
+        "vertices": 1576,
+        "edges": 4722,
+        "triangles": 3148,
+        "euler": 2,
+        "zeroArea": 0,
+        "badEdges": 0,
+        "signedVolume": 110.49390868280939
+      }
+    ]
+  },
+  {
+    "name": "coastal_shore_5_-4_land",
+    "components": [
+      {
+        "vertices": 810,
+        "edges": 2424,
+        "triangles": 1616,
+        "euler": 2,
+        "zeroArea": 0,
+        "badEdges": 0,
+        "signedVolume": 63.28245555510109
+      },
+      {
+        "vertices": 1270,
+        "edges": 3804,
+        "triangles": 2536,
+        "euler": 2,
+        "zeroArea": 0,
+        "badEdges": 0,
+        "signedVolume": 76.11764187273499
+      }
+    ]
+  },
+  {
+    "name": "coastal_shore_5_-5_land",
+    "components": [
+      {
+        "vertices": 1908,
+        "edges": 5718,
+        "triangles": 3812,
+        "euler": 2,
+        "zeroArea": 0,
+        "badEdges": 0,
+        "signedVolume": 60.76896434497551
+      }
+    ]
+  }
+]

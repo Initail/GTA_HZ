@@ -1,0 +1,125 @@
+[
+  {
+    "id": "yunlian-title",
+    "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:00:30.262530+00:00",
+    "filename": "references/yunlian-title.json",
+    "error": "URLError(OSError(9, 'Bad file descriptor'))"
+  },
+  {
+    "id": "cainiao-north-title",
+    "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%E5%8C%97%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:00:30.262873+00:00",
+    "filename": "references/cainiao-north-title.json",
+    "error": "URLError(OSError(9, 'Bad file descriptor'))"
+  },
+  {
+    "id": "yunlian-full",
+    "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title%2Ccontent%2Cbu11etincontent_701803%2Ccontent_556463%2Cvc_content%2Cbu11etincontent_701089%2Cbu11etincontent_701282%2Cbu11etincontent_701938%2Cbu11etincontent_701271%2Ccontent_555003%2Czhw_556786%2Cpubliccontent_564427%2Ccontent_555670%2Chfnrc_566913%2Cvc_content_564483%2Cbu11etincontent_701515%2Ccontent_564363%2Cdafuyijian_564367%2Ccontent_555735%2Czjdcjg_686587%2Cbu11etincontent_701958%2Ccontent_564298%2Ccontent_564180%2Cytnr_702526%2Cvc_content_564538%2Cfield_content%2Ccontenet_563187%2Cfield_415751_415751%2Cplaintext_702622",
+    "retrievedAtUTC": "2026-10-16T04:00:30.262951+00:00",
+    "filename": "references/yunlian-full.json",
+    "error": "URLError(OSError(9, 'Bad file descriptor'))"
+  },
+  {
+    "id": "cainiao-north-full",
+    "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%E5%8C%97%E8%B7%AF%23&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title%2Ccontent%2Cbu11etincontent_701803%2Ccontent_556463%2Cvc_content%2Cbu11etincontent_701089%2Cbu11etincontent_701282%2Cbu11etincontent_701938%2Cbu11etincontent_701271%2Ccontent_555003%2Czhw_556786%2Cpubliccontent_564427%2Ccontent_555670%2Chfnrc_566913%2Cvc_content_564483%2Cbu11etincontent_701515%2Ccontent_564363%2Cdafuyijian_564367%2Ccontent_555735%2Czjdcjg_686587%2Cbu11etincontent_701958%2Ccontent_564298%2Ccontent_564180%2Cytnr_702526%2Cvc_content_564538%2Cfield_content%2Ccontenet_563187%2Cfield_415751_415751%2Cplaintext_702622",
+    "retrievedAtUTC": "2026-10-16T04:00:30.263040+00:00",
+    "filename": "references/cainiao-north-full.json",
+    "error": "URLError(OSError(9, 'Bad file descriptor'))"
+  },
+  {
+    "id": "gov-2023-opening",
+    "url": "https://www.yuhang.gov.cn/art/2023/5/11/art_1229175530_4164198.html",
+    "retrievedAtUTC": "2026-10-16T04:00:30.315302+00:00",
+    "filename": "references/gov-2023-opening.html",
+    "error": "URLError(OSError(9, 'Bad file descriptor'))"
+  },
+  {
+    "id": "osm-way-779247995-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/779247995/history",
+    "retrievedAtUTC": "2026-10-16T04:00:30.315437+00:00",
+    "filename": "references/osm-way-779247995-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/779247995/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 2239,
+    "sha256": "c89b5840cd9b4ad0ccd11228213a8013f122f27acf920e6ab5dfd04089358e04"
+  },
+  {
+    "id": "osm-way-779247992-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/779247992/history",
+    "retrievedAtUTC": "2026-10-16T04:00:30.315530+00:00",
+    "filename": "references/osm-way-779247992-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/779247992/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 3023,
+    "sha256": "82d02b0b6f6d0dfd204991606c974a1a26403a7620424fd83fa1e03b45924818"
+  },
+  {
+    "id": "osm-way-1350297693-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/1350297693/history",
+    "retrievedAtUTC": "2026-10-16T04:00:30.315600+00:00",
+    "filename": "references/osm-way-1350297693-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/1350297693/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 3139,
+    "sha256": "08cb5f9921b0c3d236f609ee21ec8ce9316a51066293ad1268d4d7efddcf274e"
+  },
+  {
+    "id": "osm-way-1466397036-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/1466397036/history",
+    "retrievedAtUTC": "2026-10-16T04:00:30.318503+00:00",
+    "filename": "references/osm-way-1466397036-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/1466397036/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 663,
+    "sha256": "162494efd1d1be52c49ef258538ae3102cf9af016eb403c53e76d19f64f29d76"
+  },
+  {
+    "id": "osm-way-1466397037-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/1466397037/history",
+    "retrievedAtUTC": "2026-10-16T04:00:31.601519+00:00",
+    "filename": "references/osm-way-1466397037-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/1466397037/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 664,
+    "sha256": "e547b7f6d7d78fbe9b8639e4d77b7d0a9a6a80a7a6420cf3a1d37c57eb1e777e"
+  },
+  {
+    "id": "osm-way-1466397038-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/1466397038/history",
+    "retrievedAtUTC": "2026-10-16T04:00:31.617427+00:00",
+    "filename": "references/osm-way-1466397038-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/1466397038/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 1055,
+    "sha256": "3675a928cf0ecf86e5017bcc7bd426c98cd304debab1c55e8905c5d33be0ab56"
+  },
+  {
+    "id": "osm-way-1466397039-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/1466397039/history",
+    "retrievedAtUTC": "2026-10-16T04:00:31.806776+00:00",
+    "filename": "references/osm-way-1466397039-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/1466397039/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 664,
+    "sha256": "386180c0712f96fb0670f770ba3474e5e39f3ee4aa023675d6d0520addfeeca1"
+  },
+  {
+    "id": "osm-way-1228913715-history",
+    "url": "https://api.openstreetmap.org/api/0.6/way/1228913715/history",
+    "retrievedAtUTC": "2026-10-16T04:00:32.794550+00:00",
+    "filename": "references/osm-way-1228913715-history.xml",
+    "status": 200,
+    "finalUrl": "https://api.openstreetmap.org/api/0.6/way/1228913715/history",
+    "contentType": "application/xml; charset=utf-8",
+    "bytes": 1165,
+    "sha256": "ae2efb580e5f1aeb801d02263a0324e32c67780b29f2e8916810f154cbcc4f93"
+  }
+]

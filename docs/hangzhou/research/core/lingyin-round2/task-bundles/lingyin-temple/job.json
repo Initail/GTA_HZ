@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-13T11:04:27+00:00",
+  "stage": "modelled",
+  "agent": "landmark_evidence",
+  "place": {
+    "id": "lingyin-temple",
+    "name": "灵隐寺五重殿外壳候选",
+    "kind": "building-group"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/lingyin-round2/task-catalog.json",
+  "sourceManifestSha256": "90fb7dfa2061087dcca96f668528a0999894fea3472bac87c30ecb94104a849c",
+  "sourceRecord": {
+    "id": "lingyin-temple",
+    "name": "灵隐寺五重殿外壳候选",
+    "kind": "building-group",
+    "location": {
+      "center": [
+        120.09667203986709,
+        30.243079869830463
+      ]
+    },
+    "sources": [
+      {
+        "id": "osm-geofabrik",
+        "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+        "publisher": "OpenStreetMap contributors / Geofabrik",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2026-10-11T20:21:06Z",
+        "status": "available",
+        "license": "ODbL-1.0",
+        "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+        "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf"
+      },
+      {
+        "id": "temple-2014",
+        "url": "https://www.lingyinsi.org/detail_44_7946.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2014-08-08",
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "grand-official",
+        "url": "https://en.lingyinsi.org/detail_1141.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2013-01-18",
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "kings-official",
+        "url": "https://en.lingyinsi.org/list_82.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": null,
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "medicine-official",
+        "url": "https://en.lingyinsi.org/list_144.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": null,
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "dharma-official",
+        "url": "https://en.lingyinsi.org/list_145.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": null,
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "huayan-official",
+        "url": "https://en.lingyinsi.org/list_146.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": null,
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "exhibition-official",
+        "url": "https://en.lingyinsi.org/list_271.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": null,
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "axis-photo-2020",
+        "url": "https://www.lingyinsi.org/detail_55_14277.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2020-09-24",
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "hall-photo-2020",
+        "url": "https://www.lingyinsi.org/detail_128_14533.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2020-10-13",
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "roof-photo-2021",
+        "url": "https://lingyinsi.org/detail_1050_15763.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2021-10-06",
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      },
+      {
+        "id": "intro-official",
+        "url": "https://lingyinsi.org/detail_747.html",
+        "publisher": "杭州灵隐寺（运营方官网）",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2013-10-15",
+        "status": "available",
+        "license": "Copyright retained by publisher; reference only; photographs not bundled"
+      }
+    ],
+    "modeling": {
+      "blockers": []
+    },
+    "scope": "Five axial hall exterior candidates; whole monastery and mountain pending."
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/lingyin_temple.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/lingyin-round2"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-13T11:04:27+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-13T11:04:42+00:00",
+      "evidenceSha256": "5d580f658672f9ce9e6dbd32dfc522abdc1900ee678a22775cdb1084d8461ae2",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-13T11:17:35+00:00",
+      "evidenceSha256": "9b37b150966e81a600294fea3fbc0c1a2f15c2ea6a69dff2ee171667235e678a",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-13T11:19:41+00:00",
+      "evidenceSha256": "6a0af421e6cffce8d725714922a38b5fcc6de2eac6af8f015d560d19a3e195f5",
+      "modelSha256": null
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-13T11:25:58+00:00",
+      "evidenceSha256": "6a0af421e6cffce8d725714922a38b5fcc6de2eac6af8f015d560d19a3e195f5",
+      "modelSha256": "6dd9f39ff0bb2597a4c45e6a88df0f583bbbd8eed190d4845fcaa63b9accd479"
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-14T03:23:09+00:00",
+      "evidenceSha256": "6a0af421e6cffce8d725714922a38b5fcc6de2eac6af8f015d560d19a3e195f5",
+      "modelSha256": "6245574cd406ead02350c98e0760d89f6a05dd7ce93a2039233cc73d99e9e56e"
+    }
+  ]
+}

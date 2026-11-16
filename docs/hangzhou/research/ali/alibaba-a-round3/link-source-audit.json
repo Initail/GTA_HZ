@@ -1,0 +1,1822 @@
+{
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "mappedUnnamedElevatedBuildings": [
+    {
+      "sourceId": "relation/6750408",
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:min_level": "2"
+      },
+      "bboxCenterWGS84": [
+        120.02426439999999,
+        30.281339600000003
+      ],
+      "boundsWGS84": [
+        120.0239034,
+        30.2809895,
+        120.0246254,
+        30.2816897
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 2110.65,
+      "minimumEnvelope": {
+        "lengthM": 78.83,
+        "widthM": 48.21,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 162.71
+      }
+    },
+    {
+      "sourceId": "relation/6752573",
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:min_level": "2"
+      },
+      "bboxCenterWGS84": [
+        120.02284309999999,
+        30.28261935
+      ],
+      "boundsWGS84": [
+        120.0224633,
+        30.2821095,
+        120.0232229,
+        30.2831292
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 3247.98,
+      "minimumEnvelope": {
+        "lengthM": 99.65,
+        "widthM": 63.83,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 162.92
+      }
+    },
+    {
+      "sourceId": "relation/6752593",
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:min_level": "2"
+      },
+      "bboxCenterWGS84": [
+        120.02120245,
+        30.28252865
+      ],
+      "boundsWGS84": [
+        120.020686,
+        30.2819941,
+        120.0217189,
+        30.2830632
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 4464.32,
+      "minimumEnvelope": {
+        "lengthM": 101.45,
+        "widthM": 73.36,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 162.83
+      }
+    },
+    {
+      "sourceId": "way/642355050",
+      "tags": {
+        "building": "yes",
+        "layer": "1"
+      },
+      "bboxCenterWGS84": [
+        120.01763955,
+        30.28027105
+      ],
+      "boundsWGS84": [
+        120.0173666,
+        30.2796746,
+        120.0179125,
+        30.2808675
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 1876.17,
+      "minimumEnvelope": {
+        "lengthM": 122.74,
+        "widthM": 52.98,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 164.19
+      }
+    }
+  ],
+  "alreadyInRound2": [
+    "relation/6750408",
+    "relation/6752573",
+    "relation/6752593",
+    "way/642355050"
+  ],
+  "newProposedSourceIds": [],
+  "mappedGradeBridgeTunnelRoads": [
+    {
+      "type": "Feature",
+      "id": "way/456728583",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728583,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680487",
+          "4529680488",
+          "4529680689"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0244105,
+            30.2816108
+          ],
+          [
+            120.0239982,
+            30.2815019
+          ],
+          [
+            120.0239315,
+            30.2814834
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728588",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728588,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680703",
+          "4529680488",
+          "4529680698"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0240317,
+            30.2814036
+          ],
+          [
+            120.0239982,
+            30.2815019
+          ],
+          [
+            120.0237588,
+            30.2817428
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728589",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728589,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680700",
+          "4529680703",
+          "4529680699"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0240943,
+            30.2814189
+          ],
+          [
+            120.0240317,
+            30.2814036
+          ],
+          [
+            120.0239662,
+            30.2813865
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728590",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728590,
+        "tags": {
+          "highway": "service",
+          "layer": "-1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680706",
+          "4529680711"
+        ],
+        "grade": "-1",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0241912,
+            30.281917
+          ],
+          [
+            120.0243534,
+            30.2819706
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728591",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728591,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680707",
+          "4529680706"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0240186,
+            30.2818623
+          ],
+          [
+            120.0241912,
+            30.281917
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728592",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728592,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680710",
+          "4529680709"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0230633,
+            30.2815982
+          ],
+          [
+            120.023237,
+            30.281649
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728596",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728596,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680715",
+          "4529680716"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0232222,
+            30.2819105
+          ],
+          [
+            120.0232992,
+            30.2817314
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728598",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728598,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680714",
+          "4529680713"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0233351,
+            30.2816281
+          ],
+          [
+            120.0233382,
+            30.2814104
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456728612",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456728612,
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529680772",
+          "4529680771"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0232151,
+            30.2799454
+          ],
+          [
+            120.0232238,
+            30.280228
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456731148",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456731148,
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4529696116",
+          "4529696115"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0187706,
+            30.2805709
+          ],
+          [
+            120.0189252,
+            30.2801621
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456882099",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456882099,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531149453",
+          "4531149452"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0229799,
+            30.2829244
+          ],
+          [
+            120.0228624,
+            30.2829369
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456882101",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456882101,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531149451",
+          "4531149450"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0228159,
+            30.2828846
+          ],
+          [
+            120.0230528,
+            30.2822322
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456882113",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456882113,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531149600",
+          "4531149601"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0234018,
+            30.2826955
+          ],
+          [
+            120.0233343,
+            30.2828883
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456882115",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456882115,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531149598",
+          "4531149599"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0235009,
+            30.2824123
+          ],
+          [
+            120.0234308,
+            30.2826127
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456882477",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456882477,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531151844",
+          "4531151845"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0197662,
+            30.2822795
+          ],
+          [
+            120.0198568,
+            30.2820573
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456916053",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456916053,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531456887",
+          "4531456888"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0181377,
+            30.2795812
+          ],
+          [
+            120.0180815,
+            30.2797385
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456916056",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456916056,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531456885",
+          "4531456886"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0182567,
+            30.2792486
+          ],
+          [
+            120.0181692,
+            30.2794934
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456916064",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456916064,
+        "tags": {
+          "bridge": "yes",
+          "highway": "service",
+          "layer": "1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531459717",
+          "4531459718"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0188301,
+            30.2801349
+          ],
+          [
+            120.0186823,
+            30.2805502
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456955972",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456955972,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531771773",
+          "4531771772"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.017508,
+            30.2803754
+          ],
+          [
+            120.0173652,
+            30.2803368
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456955980",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456955980,
+        "tags": {
+          "highway": "footway",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531771903",
+          "4531771902",
+          "4531771901",
+          "4531771900"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0175724,
+            30.2801988
+          ],
+          [
+            120.0175221,
+            30.2801851
+          ],
+          [
+            120.0174644,
+            30.2801746
+          ],
+          [
+            120.017422,
+            30.280181
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456956017",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456956017,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531772182",
+          "5936966611",
+          "4531772181",
+          "4531772180",
+          "4531772179",
+          "4531772178",
+          "5936966609",
+          "4531772175"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0221158,
+            30.2808714
+          ],
+          [
+            120.0221814,
+            30.2808853
+          ],
+          [
+            120.0221332,
+            30.2810397
+          ],
+          [
+            120.0220669,
+            30.2811564
+          ],
+          [
+            120.0220082,
+            30.2813455
+          ],
+          [
+            120.0219372,
+            30.2815254
+          ],
+          [
+            120.0220118,
+            30.2816572
+          ],
+          [
+            120.0220315,
+            30.2817421
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456956018",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456956018,
+        "tags": {
+          "bridge": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531772186",
+          "5936966666",
+          "4531772184"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.022727,
+            30.2812567
+          ],
+          [
+            120.0227775,
+            30.281315
+          ],
+          [
+            120.0227675,
+            30.2813968
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456956019",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456956019,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531772249",
+          "4531772190",
+          "4531772189",
+          "4531772188",
+          "4531772187",
+          "5936966658",
+          "4531772186"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0227042,
+            30.2808917
+          ],
+          [
+            120.0227337,
+            30.2809185
+          ],
+          [
+            120.0227603,
+            30.2809455
+          ],
+          [
+            120.022733,
+            30.2810343
+          ],
+          [
+            120.0227862,
+            30.2810969
+          ],
+          [
+            120.0227226,
+            30.2811916
+          ],
+          [
+            120.022727,
+            30.2812567
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456958074",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456958074,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531796685",
+          "4531459722"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0183474,
+            30.2812451
+          ],
+          [
+            120.0185159,
+            30.2812897
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456958076",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456958076,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531796687",
+          "4531796686"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.018407,
+            30.2810811
+          ],
+          [
+            120.0184413,
+            30.2809866
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456958089",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 456958089,
+        "tags": {
+          "bridge": "yes",
+          "highway": "unclassified",
+          "layer": "1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531796799",
+          "4529474952"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0252862,
+            30.2807149
+          ],
+          [
+            120.0249731,
+            30.2807037
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628807515",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628807515,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936863439",
+          "5936863438",
+          "5936863437",
+          "5936863436"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0196746,
+            30.2801705
+          ],
+          [
+            120.0196487,
+            30.2801861
+          ],
+          [
+            120.0196494,
+            30.2802037
+          ],
+          [
+            120.0196119,
+            30.2802185
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628807519",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628807519,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936872431",
+          "5936872430"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0200699,
+            30.2799547
+          ],
+          [
+            120.0200963,
+            30.2799718
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628807533",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628807533,
+        "tags": {
+          "highway": "footway",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936872463",
+          "5936872462",
+          "5936872475"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0201462,
+            30.2795929
+          ],
+          [
+            120.0201234,
+            30.2795864
+          ],
+          [
+            120.0200986,
+            30.2795793
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628807534",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628807534,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936872467",
+          "5936872466",
+          "5936872465",
+          "5936872464"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0202972,
+            30.279649
+          ],
+          [
+            120.020265,
+            30.2796415
+          ],
+          [
+            120.0202475,
+            30.2796206
+          ],
+          [
+            120.0201684,
+            30.2795995
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628807536",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628807536,
+        "tags": {
+          "highway": "footway",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936966760",
+          "5936966763",
+          "5936966762",
+          "5936966761",
+          "5936872441"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0199131,
+            30.2797692
+          ],
+          [
+            120.0199093,
+            30.2797816
+          ],
+          [
+            120.0200152,
+            30.2798132
+          ],
+          [
+            120.0200058,
+            30.2798456
+          ],
+          [
+            120.019996,
+            30.2798623
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628807542",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628807542,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936872492",
+          "5936966759",
+          "5936872491",
+          "5936872493"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.019352,
+            30.2801349
+          ],
+          [
+            120.0193457,
+            30.2801513
+          ],
+          [
+            120.019344,
+            30.2801557
+          ],
+          [
+            120.0193361,
+            30.2801764
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628807546",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628807546,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531771969",
+          "4531771681",
+          "4531772008"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0201211,
+            30.2806168
+          ],
+          [
+            120.0201789,
+            30.2808013
+          ],
+          [
+            120.0202186,
+            30.2809258
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628818574",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628818574,
+        "tags": {
+          "highway": "footway",
+          "layer": "-1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531772201",
+          "4531771963",
+          "4531771962",
+          "4531771961",
+          "4531771960"
+        ],
+        "grade": "-1",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0188918,
+            30.2806144
+          ],
+          [
+            120.0188867,
+            30.2805623
+          ],
+          [
+            120.0188853,
+            30.2805091
+          ],
+          [
+            120.0188552,
+            30.2804801
+          ],
+          [
+            120.018658,
+            30.2803863
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628818583",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628818583,
+        "tags": {
+          "highway": "service",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936966531",
+          "5936966524",
+          "5936966523"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0177062,
+            30.279856
+          ],
+          [
+            120.017698,
+            30.2798539
+          ],
+          [
+            120.0175546,
+            30.279817
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628818596",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628818596,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4531772241",
+          "4531772240",
+          "4531772239"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0220532,
+            30.2807293
+          ],
+          [
+            120.0219794,
+            30.2806709
+          ],
+          [
+            120.0219466,
+            30.2805842
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/628818615",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 628818615,
+        "tags": {
+          "highway": "footway",
+          "tunnel": "building_passage"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936966759",
+          "5936966758",
+          "5936966757",
+          "5936863425"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0193457,
+            30.2801513
+          ],
+          [
+            120.0194736,
+            30.2801867
+          ],
+          [
+            120.0194843,
+            30.2801579
+          ],
+          [
+            120.0195,
+            30.2801631
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/840423101",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 840423101,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway",
+          "layer": "1"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "5936872449",
+          "7842163217"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0201004,
+            30.2797224
+          ],
+          [
+            120.0200829,
+            30.2796992
+          ]
+        ]
+      },
+      "sourceSelection": {
+        "method": "anysourcevertexinside",
+        "vertexFractionInside": 1.0
+      }
+    }
+  ],
+  "historicalArchitectNetworkReportedM": ">1000",
+  "historicalCenterlineLengthMeasuredM": null,
+  "limitation": "Polygon perimeters/OSM highway segments are not complete architect linkcenterlines. Some ground wetland bridges andunderground metrofootpaths are different structures. no topology/bodygeometry inferred from XY intersections."
+}

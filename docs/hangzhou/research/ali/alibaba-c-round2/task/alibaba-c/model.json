@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-c",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/alibaba-c-v1/alibaba-c.glb",
+  "sourceModule": "scripts/landmarks/alibaba_c.py",
+  "sha256": "ac3457ec5e14cdbb348cab02be99d48ba744d506a60649541b0997337c4c55e7",
+  "sourceModuleSha256": "b2262ce67a979fb8005f3666462d9b427443110dd2f4f3fb0a8e253930b8d1cc",
+  "artifactMeshPrefix": "detail_alibaba-c_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "all individual heights/courses, roof recesses, facade bay/panel placement, link deck and width, Media Roof height/supports, visitor entrance accent"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/ali/alibaba-c-round2/task/alibaba-c/job.json --spec docs/hangzhou/research/ali/alibaba-c-round2/spec.json --module scripts/landmarks/alibaba_c.py --output artifacts/cities/hangzhou/landmarks/alibaba-c-v1",
+  "status": "model-exported-not-verified",
+  "cpuBuildCommand": "python3 -B docs/hangzhou/research/ali/alibaba-c-round2/check_candidate.py",
+  "cpuValidationPath": "docs/hangzhou/research/ali/alibaba-c-round2/cpu-validation.json",
+  "cpuValidationSha256": "6b9f80d2eed043a1dd66be3f7dd39fc46b28d08eb74fdf8eca0f450abed37011",
+  "sourceSpec": "docs/hangzhou/research/ali/alibaba-c-round2/spec.json",
+  "sourceSpecSha256": "21ea6d00a07552a87fb24c9762c47984a9b8470ae0a43d0c3d61c3b01c23c0dd",
+  "cpuTriangleCount": 16179,
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "sourceInputs": [
+    {
+      "path": "docs/hangzhou/audit/city-config-hangzhou-7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6.json",
+      "sha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/alibaba-c-build-v1.log",
+    "sha256": "e12efe408ef12d405648a743dd82cd2e15fbf4335fe18a0ea568ae9114e7f03d"
+  },
+  "modelDeliverySha256": "232628edc8292a67612d939f4a0860b10d619dd881c885878fcc8358038e768b",
+  "glbStats": {
+    "triangles": 16179,
+    "materials": 6,
+    "bytes": 1140372,
+    "selectedMeshes": 6,
+    "meshNamePrefix": "detail_alibaba-c_",
+    "wholeFileTriangles": 16179,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

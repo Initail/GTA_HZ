@@ -1,0 +1,20 @@
+{
+  "id": "binjiang-gazette",
+  "url": "https://www.hhtz.gov.cn/attach/0/5434a3787bf34770b76fed0fbbcbb2af.pdf",
+  "resolvedUrl": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web2945/site/attach/0/5434a3787bf34770b76fed0fbbcbb2af.pdf",
+  "path": "<TEMP>/qiantang-bridges-research/zgazette-new.pdf",
+  "httpStatus": "200",
+  "bytes": 40085033,
+  "sha256": "cbc1f07e5b2595d0dc24e3716bf52b673aceb30eeae27d97f356463195349c7a",
+  "bundled": false,
+  "pagesRead": [
+    23,
+    326
+  ],
+  "photoAuthors": {
+    "xixing": "吕飞鸿",
+    "fuxing": "杜剑挥",
+    "zhijiang": "孙国尧"
+  },
+  "dates": "caption identifies bridge completion year, image capture dates unknown"
+}

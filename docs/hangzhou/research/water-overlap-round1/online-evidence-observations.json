@@ -1,0 +1,68 @@
+{
+  "asOfDate": "2026-10-16",
+  "scope": "Auxiliary source interpretation, no photos/textures used",
+  "observations": [
+    {
+      "id": "government-duanqiao-lotus",
+      "url": "https://www.hangzhou.gov.cn/art/2022/2/15/art_812268_59049995.html",
+      "publisher": "杭州市政府网站转载杭州日报，采访西湖景区水域管理处",
+      "publishedAt": "2022-02-15T11:28:00+08:00",
+      "observedOn": "2026-10-16",
+      "accessMethod": "web tool parsed article; directHTTP archive returned404",
+      "paraphrase": "报道将断桥区域称为北里湖断桥荷区，说明水域管理处清割残荷以保护西湖水质。",
+      "classification": "reported",
+      "notProven": [
+        "No surveyed binding to way975870009 polygon",
+        "No separate/current lotus water level or gate inventory",
+        "No datum conversion"
+      ]
+    },
+    {
+      "id": "government-lotus-net",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2024-04/16/content_8716273.htm",
+      "publisher": "杭州政协网转载都市快报，对西湖水域管理处清塘作业的报道",
+      "publishedAt": "2024-04-16",
+      "observedOn": "2026-10-16",
+      "filename": "references/government-lotus-net.html",
+      "paraphrase": "断桥荷区为该轮西湖荷区清塘第一站；工作人员抬高拦网底端让鱼游出，其他季节亦制作围网。",
+      "classification": "reported",
+      "notProven": [
+        "Nets are not surveyed hydraulic barriers",
+        "No independent level differential documented",
+        "No exact OSM shoreline survey"
+      ]
+    },
+    {
+      "id": "operator-lock-drainage-report",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2024-06/25/content_8749247_2.htm",
+      "publisher": "杭州网报道城市河道闸泵站排涝运作",
+      "publishedAt": "2024-06-25T07:44:00+08:00",
+      "filename": "references/operator-lock-drainage-report.html",
+      "paraphrase": "报道列举杭州不同河段闸泵调度，东河、长运路及余杭塘河等闸门在该次汛情下开启排涝。",
+      "classification": "reported",
+      "notProven": [
+        "No surveyed mapping to this unnamed lock polygon",
+        "No present water stage or gate opening on2026-10-16",
+        "No common height prescribed for all city canals"
+      ]
+    },
+    {
+      "id": "osm-layer-semantics",
+      "url": "https://wiki.openstreetmap.org/wiki/Key:layer",
+      "publisher": "OpenStreetMap Wiki mapping documentation",
+      "observedOn": "2026-10-16",
+      "accessMethod": "web tool directly parsed",
+      "paraphrase": "Layer表示局部交叠/跨越对象之间的相对层序，不是高程数值；负值本身也不保证地下状态。",
+      "classification": "reported-documentation"
+    },
+    {
+      "id": "osm-lock-semantics",
+      "url": "https://wiki.openstreetmap.org/wiki/Tag:water=lock",
+      "publisher": "OpenStreetMap Wiki mapping documentation",
+      "observedOn": "2026-10-16",
+      "accessMethod": "web tool directly parsed",
+      "paraphrase": "water=lock用于表示船闸闸室水面，应结合lock及闸门等要素核对。此标签不提供具体水位。",
+      "classification": "reported-documentation"
+    }
+  ]
+}

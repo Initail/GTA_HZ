@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-b",
+  "artifactSha256": null,
+  "evidenceSha256": "eecda58d306fc810fcb7b587820a3b45b0d5967d9ea162bb353d2304c5a49a5a",
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: CPU geometric/source checks and labelled painter previews do not replace actual GLB/ground-context/collision/named GPU visual/browser/performance acceptance."
+    }
+  }
+}

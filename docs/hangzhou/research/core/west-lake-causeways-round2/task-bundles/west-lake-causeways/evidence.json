@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "placeId": "west-lake-causeways",
+  "scope": "Fixed Bai/Su centerline travel ribbons, seven distinct single-arch bridges and seven source land strips/shore coping; external Broken Bridge, water, exact planted tree inventory and pavilion excluded.",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "geofabrik-fixed",
+      "unesco-nomination",
+      "hangzhou-release-six-bridges"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.138,
+      30.246
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "geofabrik-fixed"
+    ]
+  },
+  "sources": [
+    {
+      "id": "geofabrik-fixed",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "license": "ODbL-1.0; © OpenStreetMap contributors",
+      "localPath": "data/processed/hangzhou/roads.geojson",
+      "sha256": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+      "pbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "use": "EPSG:4326 node IDs/geometry; not commercial map coordinates or field survey"
+    },
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "China State Party nomination, published by UNESCO World Heritage Centre",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2011 PDF metadata; aerial photographs 2006; elevation survey date unknown",
+      "status": "read-local-original-and-rendered",
+      "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+      "bytes": 79121258,
+      "pages": 1342,
+      "localPath": null,
+      "license": "unknown; reference only; page images excluded from runtime/release texture assets",
+      "reviewedPages": [
+        {
+          "pdfPage": 59,
+          "printedPage": 64,
+          "figures": [
+            "2a-7",
+            "2a-8"
+          ],
+          "use": "reported dimensions, two causeways and aerial layouts"
+        },
+        {
+          "pdfPage": 70,
+          "printedPage": 75,
+          "use": "six named stone arches, willow/peach and relative water height"
+        },
+        {
+          "pdfPage": 78,
+          "printedPage": 83,
+          "figure": "2a-22",
+          "use": "six separate arch elevations, gradual bridge approaches; survey epoch unknown"
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-release-six-bridges",
+      "url": "https://m.thepaper.cn/newsDetail_forward_19443734",
+      "publisher": "杭州发布 · 杭州市人民政府新闻办公室官方账号；资料/杭州西湖风景名胜区管委会",
+      "title": "苏堤上的六座桥你能认全吗？谁取的名？一起探寻西湖里的小秘密",
+      "sourceDate": "2022-08-13",
+      "accessedAt": "2026-10-14",
+      "status": "downloaded-and-photos-reviewed",
+      "license": "unknown; reference only; not runtime textures",
+      "localPath": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-six-bridges.html",
+      "sha256": "f9808066ed469fb0278a6f27c23a9a0071ea31cdc70b757a9be2988c3c362a06",
+      "use": "individual bridge reported core length/net width/clear span; photographed stone arches and railings"
+    },
+    {
+      "id": "jindai-original-photographer",
+      "url": "https://historicbridges.org/bridges/browser/photos.php?bridgebrowser=china/jindaibridge/&gallerynum=2&gallerysize=2",
+      "publisher": "Nathan Holth / HistoricBridges.org original photographic documentation",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2017-10-05 gallery documentation date",
+      "status": "downloaded-and-original-photos-reviewed",
+      "localPath": "docs/hangzhou/research/core/west-lake-causeways-round2/references/jindai-photographer-gallery.html",
+      "sha256": "4e943cbe396224a512b82c41676cf68c751ebb929525b25e5ad24740c6871bda",
+      "license": "© Nathan Holth / HistoricBridges.org. All rights reserved; reference only. No runtime photo textures.",
+      "use": "explicitly captioned western Jindai views: single arch amid long ramps; plain low stone parapet, courses; no metric claim"
+    }
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/west-lake-causeways-round2/source-geometry.geojson": "449f846c56a2ad4fbed8fb403efafd22977ba46f85f3f4fa6a9c33f6fbcd882a",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/source-water-boundary.geojson": "1762d178f6a4d1eeb2c1ac7ea25e975fe8370d2dc66b52c9a41c25a5923701d9",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/shoreline-correspondence.json": "bcca8cddadecb27fd2a8212932b106135431b824767b2b359a570c33b446c494",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/path-connectivity.json": "19a647c00e03274faf3da948002b18115636539ebf3be9c10d020d8974e706fd",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/spec.json": "0b072b9dae54a28f658df400793927127d49f02f7dd474a4b644598b3dc2bd8e",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/photo-review.json": "5408abd4c189d4f615f73d6b468bc46f538d76b8532edafcbfbd05f02ffb2db8",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/reference-manifest.json": "93eaee6f5cd976aba0143a9a0fb61b4568b939920c074ac84b6934cf0e5527e0",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/jindai-photographer-gallery.html": "4e943cbe396224a512b82c41676cf68c751ebb929525b25e5ad24740c6871bda",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/unesco-causeway-aerial-p59.png": "0952a0e5491893bb2fb809ab1d97e6610e45fab6e6ddb5a49bace0c3f57500ff",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/reference-contact-sheet.png": "c7c5b954e968e8b7456ee06485e78df3f072e708961057620bd2246f0b04ead4",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09588.jpg": "2e78796efa2ff0bdef6a44554d3209f8fb864b217ea76c93f6396794fc94dc51",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/unesco-six-elevations-p78.png": "ba51aa9e6fee6ad65ff574106fd4be3279d35730b30522863832daa6c2575bb7",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-six-bridges.html": "f9808066ed469fb0278a6f27c23a9a0071ea31cdc70b757a9be2988c3c362a06",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-895.jpg": "c652f3aa48cf85a1fd8136f05f4921d5e2ac97330c3f4ae89a40d61b76f98fca",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09582.jpg": "68edab4b06e632fa80587e24cdfd9df1bfa2315beab478c8735c13685b8696d1",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-882.jpg": "141b3e6a865c90bb0c30d64c6facd8894dac5ae63545d68be0f207859e8adb5b",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-897.jpg": "2a45a22fd05ab69bf2af0d004fa4fbfb1c4886e65aa4b760a100e063f1241bbf",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-893.jpg": "04b6d102ad3c8c125b052dc92115fdfb73d5740a7f0b014a6485f357d88ea6af",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-887.jpg": "b863bdd09e8c5ba4994aa8aacb51d8eaf6eb9990f81fb620172961a3a4a0b0ce",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-879.jpg": "280465992f5d456e8fa0f05540cc711140bd6cc1b2ea6595284a4e7e18e4d2ed",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-892.jpg": "258892545df0fa57b8d02e01a1afb9a85249220d7640fa9df79ce69d4b40d03d",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-891.jpg": "2c9b7f21ca89f6cd0e362b2bbe25d6234bcfb4160e4eb69f696fc111c3d0c35d",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09585.jpg": "96fe60c00204f19193bfdef9d6c3805ef13d4b0a6b5175cf38f1355ed1f7b8b3",
+    "docs/hangzhou/research/core/west-lake-causeways-round2/references/little_7westlakecausewaywalk_brg_09519.jpg": "303b13950e2a01247520c8dbe462ec02a18fb6ee58f0f5270f26b43043756475"
+  },
+  "blockers": [],
+  "pendingSubscopes": [
+    "current road endpoints/absolute terrain and lake water level; UNESCO0.4m is historical relative water offset, not DEM sea-level height",
+    "exact per-bridge arch position/spring/crest/ramp vertical profiles; Jindai net width/span/body length remain estimated",
+    "Bai source road/old shore offset; banks and travel ribbons retain independent source positions until runtime/water seam inspection",
+    "full current carved rail motifs/bridge inscriptions/lamps/stele pavilion, junction gates, benches and stair geometry",
+    "exact willow/peach tree counts/locations and pruning/canopy avoidance; base vegetation must be reconciled by main integrator",
+    "water/green duplicate visual exclusion, pedestrian surface heights, source branch tie-ins, collision and arrival validation",
+    "actual GLB export and daytime/nighttime game top/street/distant screenshots; browser/performance acceptance"
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "basis": "measured",
+      "unit": "m / EPSG:4326",
+      "value": {
+        "bai": 1147.4656214419338,
+        "su": 2699.9142214059316
+      },
+      "sourceIds": [
+        "geofabrik-fixed"
+      ],
+      "uncertainty": "canonical unscaled WGS84 local projection of exact source-node polylines; includes source-defined approaches. OSM positional error unknown; not a field survey."
+    },
+    {
+      "kind": "extent",
+      "basis": "reported",
+      "unit": "m",
+      "value": {
+        "baiLength": 987,
+        "baiLandWidth": 33,
+        "suLength": 2797,
+        "suLandWidthRange": [
+          30,
+          40
+        ]
+      },
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "nomination2011 reportedland dimensions and different endpoints; not travel strip width or current survey. Model keeps fixed2026 mapped shape."
+    },
+    {
+      "kind": "layout",
+      "basis": "measured",
+      "unit": "source graph",
+      "value": {
+        "sourceWays": 20,
+        "candidatePaths": 19,
+        "externalBridge": 28538289,
+        "suStoneBridgesNorthToSouth": [
+          "跨虹桥",
+          "东浦桥",
+          "压堤桥",
+          "望山桥",
+          "锁澜桥",
+          "映波桥"
+        ],
+        "landStrips": [
+          30072122,
+          30072129,
+          30072136,
+          30072142,
+          975357027,
+          28538305,
+          20083745
+        ],
+        "exactLakeHoleCrosswalks": {
+          "way/30072122": 17,
+          "way/30072129": 18,
+          "way/30072136": 19,
+          "way/30072142": 23,
+          "way/28538305": 28
+        }
+      },
+      "sourceIds": [
+        "geofabrik-fixed",
+        "hangzhou-release-six-bridges"
+      ],
+      "uncertainty": "all chain endpointnode IDs and coordinates exact; no geometry-only junction. Sourcegreen tags broad, not measured planting inventory; main coast/path registration remains pending."
+    },
+    {
+      "kind": "silhouette",
+      "basis": "reported",
+      "unit": "bridge construction",
+      "value": "six distinct Su single semicircular stone arches, gently sloped asphalt bridges with carved stone railings; interplanted willow/peach causeway banks",
+      "sourceIds": [
+        "unesco-nomination",
+        "hangzhou-release-six-bridges"
+      ],
+      "uncertainty": "official2006–2022 views/elevations, no claim of precise modern carving/tree/lighting reconstruction; see finite excluded subscopes."
+    },
+    {
+      "kind": "silhouette",
+      "basis": "estimated",
+      "unit": "m",
+      "value": {
+        "jindaiSingleArchSpan": 6.5,
+        "netWidth": 8.6,
+        "archBodyLength": 10,
+        "archCenterFraction": 0.5
+      },
+      "sourceIds": [
+        "geofabrik-fixed",
+        "jindai-original-photographer"
+      ],
+      "uncertainty": "mapped area plus photo proportions; span±2m,width±1.5m,body±3m,arch position±12m. Source photos confirm single arch/long ramps and low parapet; metric bounds not surveyed."
+    },
+    {
+      "kind": "bridge-dimensions",
+      "basis": "reported",
+      "unit": "m",
+      "value": {
+        "跨虹桥": {
+          "coreLength": 21.1,
+          "netWidth": 4.3,
+          "clearSpan": 8.1
+        },
+        "东浦桥": {
+          "coreLength": 16.8,
+          "netWidth": 4.3,
+          "clearSpan": 5.9
+        },
+        "压堤桥": {
+          "coreLength": 16.9,
+          "netWidth": 4.0,
+          "clearSpan": 6.3
+        },
+        "望山桥": {
+          "coreLength": 16.9,
+          "netWidth": 7.0,
+          "clearSpan": 4.7
+        },
+        "锁澜桥": {
+          "coreLength": 16.9,
+          "netWidth": 6.4,
+          "clearSpan": 6.2
+        },
+        "映波桥": {
+          "coreLength": 17.0,
+          "netWidth": 7.0,
+          "clearSpan": 7.4
+        }
+      },
+      "sourceIds": [
+        "hangzhou-release-six-bridges"
+      ],
+      "uncertainty": "individual2022government-page reported values, not all bridges6–8m; current source corridor lengths differ by approach extent."
+    },
+    {
+      "kind": "height",
+      "basis": "estimated",
+      "unit": "m above source endpoint neutral datum",
+      "value": {
+        "suArchSpring": -1.15,
+        "suRing": 0.55,
+        "jindaiSpring": -1.5,
+        "jindaiRing": 0.6,
+        "pavement": 0.2,
+        "grassTop": -0.03,
+        "stoneRailHeightRange": [
+          0.85,
+          1.0
+        ]
+      },
+      "sourceIds": [
+        "unesco-nomination",
+        "hangzhou-release-six-bridges",
+        "jindai-original-photographer"
+      ],
+      "uncertainty": "semicircle radius follows per-bridge span; spring/cover inferred from elevation and adult/rail proportions: crest±.9m(Su),±1.2m(Jindai), rails±.25m; absolute terrain/lake datum unknown."
+    }
+  ],
+  "photosBundled": false,
+  "researchReferencesArchived": true,
+  "runtimePhotoTextures": false,
+  "stageLimit": "evidence-ready finite candidate; no exported GLB, real game screenshot, collision or performance pass"
+}

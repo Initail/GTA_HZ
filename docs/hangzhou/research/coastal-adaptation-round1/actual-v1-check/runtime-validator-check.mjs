@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+import {createHash} from 'node:crypto';
+const root=process.cwd(),out=path.dirname(new URL(import.meta.url).pathname);
+const {validateCoastalManifest}=await import(pathToFileURL(path.join(root,'src/city-coastal-infrastructure.ts')).href);
+const city=JSON.parse(fs.readFileSync('artifacts/cities/hangzhou/render-input-v5/city.json'));
+const candidate=JSON.parse(fs.readFileSync('artifacts/cities/hangzhou/coastal-data-v1/infrastructure.json'));
+const tests=[];
+function run(name,change,expected){const m=structuredClone(candidate);change?.(m);try{validateCoastalManifest(city,m,'hangzhou');tests.push({name,result:'accepted',expected});}catch(e){tests.push({name,result:'rejected',error:String(e),expected});}}
+run('actual serialized candidate',null,'accepted');
+run('nonzero radial ramp',m=>m.crossings[0].ramp=70,'rejected');
+run('point moved away from source',m=>m.crossings[0].points[0][0]+=1,'rejected');
+run('wrong point height',m=>m.crossings[0].pointHeightsGame[0]+=1,'rejected');
+run('wrong distance scale',m=>m.shoreDistance.maxDistance=100,'rejected');
+run('wrong fixture height',m=>m.parkLights[0].height=8,'rejected');
+run('wrong crossing scalar height',m=>m.crossings[0].height+=100,'rejected by full source-profile contract');
+run('wrong crossing scalar length',m=>m.crossings[0].length+=100,'rejected by full source-profile contract');
+run('invented source node provenance',m=>m.crossings[0].nodeIds=['invented-test-node'],'rejected by full source-lineage contract');
+run('wrong sourceId provenance',m=>m.crossings[0].sourceId='way/0','rejected by full source-lineage contract');
+const result={kind:'actual exported runtime validator invocation plus cloned negative controls',sourceSha256:createHash('sha256').update(fs.readFileSync('src/city-coastal-infrastructure.ts')).digest('hex'),tests,scope:'CPU Node execution; no asset writes, no browser',limitations:'Full geometry/provenance checks are separately performed by independent GEOS audit.'};
+const outputName=process.argv[2]??'runtime-validator-result.json';
+if(fs.existsSync(path.join(out,outputName)))throw new Error('Preserve earlier evidence; choose a fresh result filename');
+fs.writeFileSync(path.join(out,outputName),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));

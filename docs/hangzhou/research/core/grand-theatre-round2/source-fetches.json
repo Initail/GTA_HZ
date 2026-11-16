@@ -1,0 +1,90 @@
+[
+  {
+    "id": "petroff-1",
+    "url": "https://images.squarespace-cdn.com/content/v1/6230e195602a313448ee5b29/1693924206482-6HDL321IPMEQ2JHZ448P/Hangzhou%2BTheatre%2B1%2B-%2BAW-%2BInternational%2BDesign%2BCompetition%2BWinner.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/petroff-1.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 417738,
+    "sha256": "d948f84b1cc83411aca494dd749753b0c35617bc171ffdbf23719166a488d937",
+    "error": "",
+    "bundled": false
+  },
+  {
+    "id": "petroff-3",
+    "url": "https://images.squarespace-cdn.com/content/v1/6230e195602a313448ee5b29/1693924207782-Q4GF4QBFSM75H9Q4R995/Hangzhou%2BTheatre%2B3.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/petroff-3.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 596319,
+    "sha256": "db5ce5876feea34e6f86953adc44e7ca30fc03f5f5cfef91733e14fa8845d08f",
+    "error": "",
+    "bundled": false
+  },
+  {
+    "id": "petroff-2",
+    "url": "https://images.squarespace-cdn.com/content/v1/6230e195602a313448ee5b29/1693924206748-03EVXQCJ23FG9Q8JZGVQ/Hangzhou%2BTheatre%2B2.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/petroff-2.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 542511,
+    "sha256": "e54a4978b8cd2b6be46e5ead834e832b369c49d43ee2899b4c883920697cc57a",
+    "error": "",
+    "bundled": false
+  },
+  {
+    "id": "petroff-3out",
+    "url": "https://images.squarespace-cdn.com/content/v1/6230e195602a313448ee5b29/1693924208131-GYNAZ6KT2EJPVOEX9Y8J/Hangzhou%2BTheatre%2B3out.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/petroff-3out.jpg",
+    "httpStatus": "000",
+    "returncode": 35,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "curl: (35) Recv failure: Connection reset by peer\n",
+    "bundled": false
+  },
+  {
+    "id": "petroff-4",
+    "url": "https://images.squarespace-cdn.com/content/v1/6230e195602a313448ee5b29/1693924208992-5P065LD2BHFBRSQCO7Q3/Hangzhou%2BTheatre%2B4.jpg",
+    "temporaryPath": "<TEMP>/grand-theatre-research/petroff-4.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 325495,
+    "sha256": "7f3a1f531f216d804e16188dff1d877dc001f22315414a6a4d8c6357285be439",
+    "error": "",
+    "bundled": false
+  },
+  {
+    "id": "pfeifer-report",
+    "url": "https://www.pfeifer.info/out/assets/HANGZHOU_GRAND_THEATER_166180_EN.PDF",
+    "temporaryPath": "<TEMP>/grand-theatre-research/pfeifer-report.pdf",
+    "httpStatus": "000",
+    "returncode": 6,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "curl: (6) Could not resolve host: www.pfeifer.info\n",
+    "bundled": false
+  },
+  {
+    "id": "ott",
+    "url": "https://carlosott.com/?project=hangzhou-grand-theatre",
+    "temporaryPath": "<TEMP>/grand-theatre-research/ott.html",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 131471,
+    "sha256": "5a2203f03fc77a8da5b542421f659b1bae3976636cecc74e970c5039eed8ce4b",
+    "error": "",
+    "bundled": false
+  },
+  {
+    "id": "petroff",
+    "url": "https://www.petroff.com/projects/hangzhou-grand-theatre",
+    "temporaryPath": "<TEMP>/grand-theatre-research/petroff.html",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 121464,
+    "sha256": "7e9fa1b454d1c624d02068bd3d64fee2bcf7022772b201c47149f02a942d9f38",
+    "error": "",
+    "bundled": false
+  }
+]

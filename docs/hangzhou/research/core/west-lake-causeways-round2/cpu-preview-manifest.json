@@ -1,0 +1,32 @@
+{
+  "sourceModuleSha256": "16c89d4c4a60955489f8089f17cf81a85f68f43c837080ed66f16f37377d6c3b",
+  "specSha256": "0b072b9dae54a28f658df400793927127d49f02f7dd474a4b644598b3dc2bd8e",
+  "command": "bundled python3 -B docs/hangzhou/research/core/west-lake-causeways-round2/render_cpu_preview.py",
+  "images": [
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/cpu-preview-map-top.png",
+      "sha256": "7a161a69217279487842d47e6b71272c2dc45e96ece39165122ba8e379c13151",
+      "kind": "CPU geometry preview",
+      "actualInGameScreenshot": false
+    },
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/cpu-preview-distant-southeast.png",
+      "sha256": "1c9be69275403f21c44c58fa231434c4d5988104cdeacd5d5fd251e8e5c37d99",
+      "kind": "CPU geometry preview",
+      "actualInGameScreenshot": false
+    },
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/cpu-preview-jindai-side.png",
+      "sha256": "af48209357d2a12b2a440fed7104daaa6d18ba7b27d1208ccf45d4701a2b19ed",
+      "kind": "CPU geometry preview",
+      "actualInGameScreenshot": false
+    },
+    {
+      "path": "docs/hangzhou/research/core/west-lake-causeways-round2/cpu-preview-wangshan-side.png",
+      "sha256": "2551ef0f7821e478f0811b81dd0382ebe5394c0635552df17e7b5c7935662023",
+      "kind": "CPU geometry preview",
+      "actualInGameScreenshot": false
+    }
+  ],
+  "limits": "painter sorting/material palette are approximate; no base city, water or canopy meshes are loaded"
+}

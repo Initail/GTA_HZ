@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "createdDate": "2026-11-11",
+  "kind": "frozen-semantic-research-contract-not-runtime-integration",
+  "sourceSnapshot": "2026-10-11",
+  "sourceCrs": "WGS84",
+  "license": "OSM ODbL 1.0; retain source attribution",
+  "bindings": [
+    {
+      "path": "artifacts/cities/hangzhou/water-data-v2/city.json",
+      "sha256": "15904a2c40f323546262e7ead44bd4794f354dd45f8125cf7c827313c09814fb"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/water-data-v2/report.json",
+      "sha256": "54b55894e553b72637187d575cac1c821b436a4f2de6b6e9bd0431e9056e0554"
+    },
+    {
+      "path": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round1/raw-osm-evidence.json",
+      "sha256": "dc3990cd73573e8ea3a719c853e69b80534b1195e185cd8ca0a3d8c06db1a435"
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round1/pair-review.json",
+      "sha256": "4acb48d73c2d7ba8f94950cb565bdf8101c9aeef7cbcebded79b1433d9b1213d"
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round1/references/government-lotus-net.html",
+      "sha256": "e162e89ca89dfd3d2ada776f6f7f509f993ce1bf98ddf1e0360e0a0cdcfa43be"
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/layer-context.json",
+      "sha256": "61405e50a587a2a6ccd38eab05c567cb8e77857f31b06b988252e4bd955e1b2f"
+    },
+    {
+      "path": "docs/hangzhou/research/water-overlap-round2/all-pair-waterway-context.json",
+      "sha256": "d3954488597eac364b4909766ad8feaf8cb711a939eea69653a5211179c1bed6"
+    }
+  ],
+  "decisions": [
+    {
+      "decisionId": "HZ-WATER-R2-001",
+      "pair": 1,
+      "status": "ready-for-isolated-candidate",
+      "classification": "reported-semantic-region-with-estimated-parent-height",
+      "subject": {
+        "id": "way/975870009",
+        "sourcePartIndex": 0,
+        "inputIndex": 1699,
+        "inputHeightGame": 5.399101892292312
+      },
+      "parent": {
+        "id": "relation/2308774",
+        "sourcePartIndex": 0,
+        "inputIndex": 2066,
+        "inputHeightGame": 4.5
+      },
+      "operation": "retain-source-polygon-as-semantic-region-disable-separate-water-surface",
+      "surfaceOwner": "relation/2308774",
+      "surfaceHeightGame": 4.5,
+      "heightStatus": "estimated-not-surveyed",
+      "preserve": [
+        "source polygon and part identity",
+        "name 断桥荷塘",
+        "original OSM tags",
+        "original estimated height provenance",
+        "lotus vegetation/material region"
+      ],
+      "evidence": [
+        "lotus-net-report",
+        "fixed-osm-nesting"
+      ],
+      "scope": "Only the nested part 0 of way/975870009; parent West Lake geometry and height unchanged.",
+      "pending": [
+        "water and lotus visual review",
+        "night reflection and collision review",
+        "absolute hydraulic level remains unmeasured"
+      ]
+    },
+    {
+      "decisionId": "HZ-WATER-R2-002",
+      "pair": 2,
+      "status": "ready-for-isolated-candidate",
+      "classification": "source-mapped-lock-partition-with-estimated-heights",
+      "subject": {
+        "id": "way/662789923",
+        "sourcePartIndex": 0,
+        "inputIndex": 581,
+        "inputHeightGame": 5.594986665755657
+      },
+      "broadRiver": {
+        "id": "way/520199008",
+        "sourcePartIndex": 0,
+        "inputIndex": 260,
+        "inputHeightGame": 6.383285063645915
+      },
+      "operation": "subtract-lock-source-polygon-from-broad-river-render-footprint",
+      "surfaceOwnerInOverlap": "way/662789923",
+      "surfaceHeightGame": 5.594986665755657,
+      "heightStatus": "estimated-not-surveyed",
+      "outsideOverlapHeightPolicy": "retain each existing input height; do not average",
+      "preserve": [
+        "both original source polygons and part identities",
+        "lock chamber render footprint",
+        "original estimated height provenance",
+        "lock gate source objects"
+      ],
+      "gateSourceIds": [
+        "way/662789912",
+        "way/662789916",
+        "way/662789921",
+        "way/662618623"
+      ],
+      "lockCenterlineSourceId": "way/662789918",
+      "evidence": [
+        "fixed-osm-lock",
+        "osm-water-lock"
+      ],
+      "scope": "Only part 0 of way/520199008 minus part 0 of way/662789923; preserve all resulting holes and polygon parts.",
+      "pending": [
+        "gate physical model and operating state",
+        "upstream/downstream/chamber measured levels",
+        "dynamic level behavior",
+        "collision/navigation and visual acceptance"
+      ]
+    },
+    {
+      "decisionId": "HZ-WATER-R2-003",
+      "pair": 3,
+      "status": "ready-for-isolated-estimated-candidate",
+      "classification": "explicit-bounded-game-adaptation-not-measured-hydraulics",
+      "subject": {
+        "id": "way/552611233",
+        "sourcePartIndex": 0,
+        "inputIndex": 351,
+        "inputHeightGame": 3.732346459680332
+      },
+      "referenceRiver": {
+        "id": "way/642559807",
+        "sourcePartIndex": 0,
+        "inputIndex": 473,
+        "inputHeightGame": 1.7648872085156757
+      },
+      "operation": "alias-whole-subject-part-height-to-reference-and-subtract-reference-from-subject-render-footprint",
+      "surfaceOwnerInOverlap": "way/642559807",
+      "surfaceHeightGame": 1.7648872085156757,
+      "heightStatus": "estimated-game-adaptation-not-surveyed",
+      "rawLayer": "-1",
+      "layerIsNotMetres": true,
+      "preserve": [
+        "both original source polygons and part identities",
+        "original layer=-1 metadata",
+        "original estimated height provenance",
+        "mapped centerline node connections"
+      ],
+      "evidence": [
+        "fixed-osm-layer-connection",
+        "osm-layer"
+      ],
+      "scope": "Only all of part 0 of way/552611233 uses the existing height of part 0 of way/642559807. No upstream/downstream recursive height propagation, no other water object height edits, no inferred tunnel.",
+      "reasonForWholePart": "A mouth-only flat patch would add an artificial step at its boundary. Whole bounded source part is the explicit candidate modeling choice, not a claim of surveyed longitudinal level.",
+      "pending": [
+        "north-end junction height and profile",
+        "bridge underside clearance",
+        "physical water levels and possible unrecorded controls",
+        "visual/collision review; source connectivity alone is insufficient"
+      ]
+    }
+  ],
+  "remaining24": [
+    {
+      "pair": 4,
+      "a": "way/1058472319",
+      "b": "way/1058472323",
+      "areaGameSquared": 54.0368918588566,
+      "heightDifferenceGame": 1.1336684579775256,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 5,
+      "a": "way/1058472319",
+      "b": "way/1058472326",
+      "areaGameSquared": 14.32566746498838,
+      "heightDifferenceGame": 0.6924651131720803,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 6,
+      "a": "way/538148437",
+      "b": "way/541014093",
+      "areaGameSquared": 4.264076013449568,
+      "heightDifferenceGame": 2.3122947490788124,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/833501276",
+          "b": "way/833501276",
+          "tagsA": {
+            "waterway": "stream"
+          },
+          "tagsB": {
+            "waterway": "stream"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 7,
+      "a": "way/578276721",
+      "b": "way/1479955347",
+      "areaGameSquared": 4.127646086192266,
+      "heightDifferenceGame": 1.224408767626839,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 8,
+      "a": "way/518534703",
+      "b": "relation/8932833",
+      "areaGameSquared": 3.191274602861612,
+      "heightDifferenceGame": 0.8337508534648084,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/27751963",
+          "b": "way/27751963",
+          "tagsA": {
+            "name": "西溪河",
+            "name:zh": "西溪河",
+            "name:zh-Latn-pinyin": "Xīxī Hé",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "西溪河",
+            "name:zh": "西溪河",
+            "name:zh-Latn-pinyin": "Xīxī Hé",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 9,
+      "a": "relation/9602999",
+      "b": "relation/10872319",
+      "areaGameSquared": 2.787862872800234,
+      "heightDifferenceGame": 0.4575318050300399,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 10,
+      "a": "relation/9599999",
+      "b": "way/1461484039",
+      "areaGameSquared": 2.6401954780172616,
+      "heightDifferenceGame": 0.6156162349661827,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 11,
+      "a": "relation/9436423",
+      "b": "way/1122311097",
+      "areaGameSquared": 2.266908587797346,
+      "heightDifferenceGame": 0.6451491505993268,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/376251531",
+          "b": "way/376251531",
+          "tagsA": {
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 12,
+      "a": "way/516302975",
+      "b": "relation/8924449",
+      "areaGameSquared": 1.6440405646602287,
+      "heightDifferenceGame": 0.6711904671078246,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/891432271",
+          "b": "way/891432271",
+          "tagsA": {
+            "name": "官河",
+            "waterway": "ditch"
+          },
+          "tagsB": {
+            "name": "官河",
+            "waterway": "ditch"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 13,
+      "a": "way/641124890",
+      "b": "relation/8227206",
+      "areaGameSquared": 1.3043729161924773,
+      "heightDifferenceGame": 4.783338353362803,
+      "status": "not-passed",
+      "recommendation": "Retain separate identities and levels; map control-side domains before any surface merge.",
+      "blocker": "Mapped weir nearby: control geometry and level domains unresolved.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": [
+        {
+          "id": "way/356904139",
+          "version": 1,
+          "timestamp": "2015-06-28 09:04:00+00:00",
+          "tags": {
+            "waterway": "weir"
+          },
+          "nodeIds": [
+            "3623020298",
+            "3623020299"
+          ]
+        }
+      ]
+    },
+    {
+      "pair": 14,
+      "a": "way/538148437",
+      "b": "way/845633888",
+      "areaGameSquared": 0.6320456335434919,
+      "heightDifferenceGame": 2.450464018886837,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/389643300",
+          "b": "way/389643300",
+          "tagsA": {
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          }
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/55640938",
+          "b": "way/389643300",
+          "tagsA": {
+            "name": "十字港河",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "332675239",
+              "pointGame": [
+                -1849.4353524574242,
+                2891.567072222299
+              ]
+            }
+          ]
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 15,
+      "a": "way/641855998",
+      "b": "way/642559807",
+      "areaGameSquared": 0.6056455978982029,
+      "heightDifferenceGame": 0.49783811298120817,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/1065384369",
+          "b": "way/1065384369",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "name": "香樟港",
+            "waterway": "river"
+          }
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1065384369",
+          "b": "way/643214737",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "intermittent": "no",
+            "name": "余杭塘河",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "5100595896",
+              "pointGame": [
+                -7444.8045942191775,
+                1875.475528630958
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1065384369",
+          "b": "way/1065171673",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "name": "九曲港",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "5100595896",
+              "pointGame": [
+                -7444.8045942191775,
+                1875.475528630958
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1065384369",
+          "b": "way/586743457",
+          "tagsA": {
+            "name": "香樟港",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "intermittent": "no",
+            "name": "余杭塘河",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "5100595896",
+              "pointGame": [
+                -7444.8045942191775,
+                1875.475528630958
+              ]
+            }
+          ]
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 16,
+      "a": "way/922860415",
+      "b": "way/922860420",
+      "areaGameSquared": 0.3551904405109312,
+      "heightDifferenceGame": 0.7668805316062497,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 17,
+      "a": "way/979543008",
+      "b": "relation/2308774",
+      "areaGameSquared": 0.15629103734687913,
+      "heightDifferenceGame": 2.244430149559572,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 18,
+      "a": "way/544319798",
+      "b": "way/1546020480",
+      "areaGameSquared": 0.10767374220493679,
+      "heightDifferenceGame": 0.3421391595472336,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 19,
+      "a": "relation/9599999",
+      "b": "way/1479533509",
+      "areaGameSquared": 0.04475525794817159,
+      "heightDifferenceGame": 1.6783274941272035,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 20,
+      "a": "way/86096970",
+      "b": "way/641838036",
+      "areaGameSquared": 0.016684820467590455,
+      "heightDifferenceGame": 1.1578043071552657,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/113467368",
+          "b": "way/113467368",
+          "tagsA": {
+            "name": "北塘河",
+            "source": "bing",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "北塘河",
+            "source": "bing",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 21,
+      "a": "way/519276932",
+      "b": "way/1479533509",
+      "areaGameSquared": 0.010828813016088512,
+      "heightDifferenceGame": 1.2249860591325756,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 22,
+      "a": "way/922868868",
+      "b": "way/922868869",
+      "areaGameSquared": 0.009762565711240494,
+      "heightDifferenceGame": 0.6484628645353296,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 23,
+      "a": "way/641923487",
+      "b": "way/642325265",
+      "areaGameSquared": 0.007795208180076507,
+      "heightDifferenceGame": 0.037737958475854594,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/586743455",
+          "b": "way/586743455",
+          "tagsA": {
+            "waterway": "river"
+          },
+          "tagsB": {
+            "waterway": "river"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 24,
+      "a": "way/544075672",
+      "b": "way/1479533509",
+      "areaGameSquared": 0.006393608561117592,
+      "heightDifferenceGame": 0.12483492297517973,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1119515786",
+          "b": "way/1119515764",
+          "tagsA": {
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "10239545208",
+              "pointGame": [
+                1163.1915424738575,
+                -7207.962368025727
+              ]
+            }
+          ]
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 25,
+      "a": "way/345071228",
+      "b": "way/1479533509",
+      "areaGameSquared": 0.005625605313438697,
+      "heightDifferenceGame": 1.1445444272829959,
+      "status": "not-passed",
+      "recommendation": "Retain identities; determine duplicate boundary, nested semantic zone, or independent basin before selecting footprint ownership.",
+      "blocker": "No direct centerline graph proof found in local source subset; boundary contact alone does not establish hydraulic continuity.",
+      "candidateConnections": [],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 26,
+      "a": "way/1485378647",
+      "b": "way/1485378664",
+      "areaGameSquared": 0.004876807535537653,
+      "heightDifferenceGame": 1.1198502443362859,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "same-source-centerline",
+          "a": "way/1273358137",
+          "b": "way/1273358137",
+          "tagsA": {
+            "name": "槐河",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "槐河",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    },
+    {
+      "pair": 27,
+      "a": "way/285191776",
+      "b": "way/642786334",
+      "areaGameSquared": 0.0017280010785221123,
+      "heightDifferenceGame": 2.5384975372432153,
+      "status": "not-passed",
+      "recommendation": "Source supports connected junction; next bounded candidate may partition shared footprint using named channel ownership. Freeze an explicit reference and scope before height changes.",
+      "blocker": "Hydraulic profile and per-object surface ownership not frozen; connectivity is not equal-level measurement.",
+      "candidateConnections": [
+        {
+          "kind": "local-shared-source-node",
+          "a": "way/1411752621",
+          "b": "way/353613953",
+          "tagsA": {
+            "name": "炮台湾",
+            "waterway": "river"
+          },
+          "tagsB": {
+            "name": "解放河",
+            "waterway": "canal"
+          },
+          "shared": [
+            {
+              "node": "12972839413",
+              "pointGame": [
+                8138.4034700653965,
+                -4293.328156030043
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "same-source-centerline",
+          "a": "way/353613953",
+          "b": "way/353613953",
+          "tagsA": {
+            "name": "解放河",
+            "waterway": "canal"
+          },
+          "tagsB": {
+            "name": "解放河",
+            "waterway": "canal"
+          }
+        }
+      ],
+      "mappedControlsWithin30Game": []
+    }
+  ],
+  "integrationRequirements": [
+    "Keep original source geometries distinct from render partitions, without deleting source objects.",
+    "Do not infer measured heights from DSM samples, layer tags, centerline continuity or this contract.",
+    "Apply only the three identified source parts; report all other 24 overlaps as not passed.",
+    "Validate source identity/footprint retention, wet union, resulting holes, no positive-area overlap and unchanged unrelated heights.",
+    "Model and browser visual/collision/performance gates remain pending."
+  ]
+}

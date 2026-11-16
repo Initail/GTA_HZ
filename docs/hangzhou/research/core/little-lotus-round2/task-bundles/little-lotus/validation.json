@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "placeId": "little-lotus",
+  "artifactSha256": null,
+  "evidenceSha256": null,
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB bound by artifact hash and named integration review. Pure CPU candidate checks are recorded separately and do not grant this check a pass."
+    }
+  },
+  "cpuCandidateReport": "docs/hangzhou/research/core/little-lotus-round2/cpu-geometry-validation.json"
+}

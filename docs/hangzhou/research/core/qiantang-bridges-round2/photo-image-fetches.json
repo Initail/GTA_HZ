@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q2024",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/20240128_Qiantang_River_Bridge_01.jpg/960px-20240128_Qiantang_River_Bridge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20240128151958",
+    "path": "<TEMP>/qiantang-bridges-research/q2024.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 172630,
+    "sha256": "232d0ff5c1b80670ee29ef434b94418a4ac077bcdb8d2f8abc1800ab4605cafc",
+    "bundled": false
+  },
+  {
+    "id": "qside",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hangzhou_Qiantangjiang_Daqiao_20120518-06.jpg/960px-Hangzhou_Qiantangjiang_Daqiao_20120518-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20120608134515",
+    "path": "<TEMP>/qiantang-bridges-research/qside.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 105017,
+    "sha256": "aed84e40a01a7acab493a7eadd333af5fd0e60054ada8549da965b3de9de99c4",
+    "bundled": false
+  },
+  {
+    "id": "qair",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Qiantang_River_Bridge_DJI_0579.jpg/960px-Qiantang_River_Bridge_DJI_0579.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20200829074634",
+    "path": "<TEMP>/qiantang-bridges-research/qair.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 131226,
+    "sha256": "4b0ed16900a30e203264fd7b59ecbc82cc77918896c446ecfa1f7d80c8dbae55",
+    "bundled": false
+  },
+  {
+    "id": "f1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Fourth_Qiantang_River_Bridge_1.JPG/960px-Fourth_Qiantang_River_Bridge_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20120925174807",
+    "path": "<TEMP>/qiantang-bridges-research/f1.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 143049,
+    "sha256": "5f6deca1e90e36328c5a0858016f57084d2898c46e63b41a941375abd065f54a",
+    "bundled": false
+  },
+  {
+    "id": "f7",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Fourth_Qiantang_River_Bridge_7.JPG/960px-Fourth_Qiantang_River_Bridge_7.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20120925174813",
+    "path": "<TEMP>/qiantang-bridges-research/f7.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 218276,
+    "sha256": "12480018d213de3e5792a0eab6e8265dc938486e055576a2174f34b7290e2bb2",
+    "bundled": false
+  },
+  {
+    "id": "zair",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Zhijiang_Bridge.jpg/960px-Zhijiang_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20201218082903",
+    "path": "<TEMP>/qiantang-bridges-research/zair.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 98776,
+    "sha256": "a925723adf10fe6a8eee0a0411fdee2b82cf4dbf158001500cef8660b6f8e755",
+    "bundled": false
+  }
+]

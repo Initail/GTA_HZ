@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "placeId": "leifeng-pagoda",
+  "name": "雷峰塔（现雷峰新塔）",
+  "cityId": "hangzhou",
+  "scope": "Source-bound finite exterior candidate: mapped octagonal protection base, five-storey body, five main roofs, four waist roofs and finial; full site, exact entrances, interior and runtime validation pending.",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "tsinghua-leifeng",
+      "thupdi-design",
+      "osm-geofabrik"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.14501471758403,
+      30.23388616474085
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik"
+    ]
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "use": "Mapped octagonal exterior base and south access line; height/alias tags not adopted"
+    },
+    {
+      "id": "wgly-leifeng",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+      "publisher": "杭州市文化广电旅游局",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2022-12-01",
+      "status": "available-indexed",
+      "license": "unknown; reference only",
+      "use": "identity and approximate 71m height; erroneous five-faces/eight-storeys wording retained as conflict",
+      "accessMethod": "web search-index text; direct fetch 403"
+    },
+    {
+      "id": "tsinghua-leifeng",
+      "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+      "publisher": "人文清华讲坛，黄薏橦 / 澎湃号平台",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2020-10-17",
+      "status": "available",
+      "license": "unknown; reference only; no photo textures bundled",
+      "use": "designer account: octagonal five-storey form, 9.7m heritage cover, 48m max column-grid span, copper over modern steel; 381/390 images actually reviewed"
+    },
+    {
+      "id": "thupdi-design",
+      "url": "https://www.thupdi.com/project/view?id=1782",
+      "publisher": "清华同衡 / 建筑与城市遗产研究所清华大学建筑设计研究院有限公司",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "status": "available",
+      "license": "unknown; reference only; no photo textures bundled",
+      "use": "designer project identity, south-front real exterior and lake-side real exterior, section drawing; source images in 2013/07 path, capture date not known",
+      "accessMethod": "direct public HTML and linked image reads; web page tool timed out"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "osmFeatureId": "way/229726934",
+        "footprintWGS84": [
+          [
+            120.1447113,
+            30.2337857
+          ],
+          [
+            120.1448883,
+            30.2336304
+          ],
+          [
+            120.1451356,
+            30.2336363
+          ],
+          [
+            120.1453127,
+            30.2337916
+          ],
+          [
+            120.1453148,
+            30.2340059
+          ],
+          [
+            120.1451405,
+            30.2341379
+          ],
+          [
+            120.1448936,
+            30.2341356
+          ],
+          [
+            120.1447113,
+            30.2339757
+          ],
+          [
+            120.1447113,
+            30.2337857
+          ]
+        ],
+        "bboxEastM": 58.068841551587894,
+        "bboxNorthM": 56.259964604631556,
+        "areaM2": 2663.049001459417
+      },
+      "unit": "m and EPSG:4326",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik"
+      ],
+      "uncertainty": "Vector computations only. OSM mapping accuracy unverified: use ±5m plan-position/outline allowance and ±2° face direction. Ring likely covers broad protection base/terrace, not upper tower diameter; no survey claim."
+    },
+    {
+      "kind": "height",
+      "value": {
+        "totalApproxM": 71,
+        "heritageCoverM": 9.7
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "wgly-leifeng",
+        "tsinghua-leifeng"
+      ],
+      "uncertainty": "71m is rounded source statement, use ±1m; cover9.7m reported by designer. No as-built measurement; OSM height71.7 is unverified. Local ground/sea-level datum pending separately."
+    },
+    {
+      "kind": "orientation",
+      "value": {
+        "nearCardinalOctagonalFaces": "east/north faces approximately cardinal, mapped edges .487°/269.385° bearing",
+        "upperVertexAngleDegreesFromEast": 22.8,
+        "southApproachBearingTowardTowerDegrees": 3.0574491713051923
+      },
+      "unit": "degree",
+      "basis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "thupdi-design"
+      ],
+      "uncertainty": "Mapped face bearings measured using city config; regular upper-profile22.8° is an approximation ±2°. South-front photo aligned to mapped south access; camera bearing ±15°, no EXIF."
+    },
+    {
+      "kind": "silhouette",
+      "value": "One modern octagonal five-storey pagoda; broad lower protection base and first roof, four upper galleries with waist eaves, major roofs reduce upward and gold finial; exactly five main storeys, not a five-sided/eight-storey tower.",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "tsinghua-leifeng",
+        "thupdi-design",
+        "osm-geofabrik"
+      ],
+      "uncertainty": "Designer text and actually viewed section/south-front/lake real photos establish limited exterior form. Layer heights/eave radii/ornament estimates recorded in spec, not as-built survey. Base edges/entrances hidden by trees; all-side survey pending."
+    },
+    {
+      "kind": "material",
+      "value": "modern steel structure, copper exterior members; source-visible dark roof/columns, pale base/rails and gold-colored finial",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "tsinghua-leifeng",
+        "thupdi-design"
+      ],
+      "uncertainty": "Source material description; shared PBR colors are a candidate approximation, no calibrated color sample or final finish/lighting acceptance."
+    },
+    {
+      "kind": "entrances",
+      "value": "South axial access visible in designer front photo; OSM way/340652169 south access and east stairs way/1448327495 are retained as access evidence.",
+      "unit": null,
+      "basis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "thupdi-design"
+      ],
+      "uncertainty": "Direction/relationship only; clearances, mechanical escalator state and traversable collision geometry pending; dark base inset is a visual marker only."
+    }
+  ],
+  "referenceImages": [
+    {
+      "id": "thupdi-south-front",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+      "sha256": "dbe56617ff2595da3539498b8b0ec1269ea9be79226940ccdd5c0ded3ce1f558",
+      "downloadBytes": 743493,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "south approach looking north, estimated",
+        "bearingTowardDegrees": 3,
+        "allowanceDegrees": 15
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "thupdi-lake-day",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+      "sha256": "c9f4d9f265d6ddc5c5b13d84d5d62e222974f70c61575f2d259e9891bbd4060c",
+      "downloadBytes": 332705,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "lake north/northeast sector looking southwest to south, estimated",
+        "bearingTowardDegrees": 210,
+        "allowanceDegrees": 35
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "thupdi-section",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+      "sha256": "06b99ff5498c6075dfd1df1e60c5e9e6bb3db15b534484957df1a413e9298519",
+      "downloadBytes": 149033,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "design-drawing",
+      "viewDirection": {
+        "description": "section drawing, direction unlabelled",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "tsinghua-section",
+      "sourceId": "tsinghua-leifeng",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/381.jpg",
+      "sha256": "7c31fddf6f1f1525c8f6866b8f8e408093fb60795cf50dfb29c98cf7f09c7717",
+      "downloadBytes": 21772,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "design-drawing",
+      "viewDirection": {
+        "description": "paired section/elevation drawing, direction unlabelled",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    },
+    {
+      "id": "tsinghua-lake-day",
+      "sourceId": "tsinghua-leifeng",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/390.jpg",
+      "sha256": "27b67aff51ac323814da08650fd7a9b00cbce4e997714feeb7b7d9e0568ce1a2",
+      "downloadBytes": 43400,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "lake northern sector toward south, estimated",
+        "bearingTowardDegrees": 180,
+        "allowanceDegrees": 45
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "face/storey wording",
+      "sourceId": "wgly-leifeng",
+      "reportedWording": "五面八层",
+      "resolution": "Not adopted. Designer source explicitly octagonal and five-storey, corroborated by source photos/drawings and OSM building:levels=5."
+    },
+    {
+      "topic": "OSM English alias",
+      "sourceId": "osm-geofabrik",
+      "reportedWording": "Six Harmonies Pagoda",
+      "resolution": "Not adopted: Chinese name, feature location and designer source identify Leifeng new pagoda."
+    },
+    {
+      "topic": "height precision",
+      "sourceIds": [
+        "osm-geofabrik",
+        "wgly-leifeng"
+      ],
+      "reportedValues": [
+        71.7,
+        71
+      ],
+      "resolution": "Use rounded authoritative 71m with ±1m allowance; secondary71.679 and different body/finial breakdowns not independently verified; no survey claim."
+    }
+  ],
+  "estimatedParameters": {
+    "levels": {
+      "value": [
+        [
+          9.7,
+          12.8,
+          17.2,
+          15.8,
+          21.7,
+          21.0
+        ],
+        [
+          22.4,
+          10.8,
+          12.9,
+          26.7,
+          29.3,
+          14.8
+        ],
+        [
+          29.8,
+          10.2,
+          12.3,
+          34.2,
+          36.8,
+          14.0
+        ],
+        [
+          37.2,
+          9.7,
+          11.7,
+          41.6,
+          44.2,
+          13.4
+        ],
+        [
+          44.7,
+          9.2,
+          11.1,
+          49.0,
+          55.5,
+          12.8
+        ]
+      ],
+      "unit": "m",
+      "basis": "estimated",
+      "method": "five rows [gallery floor, core circumradius, column circumradius, major eave height, roof inner/top height, eave circumradius]; ratios traced from THUPDI section and checked against south-front real photo, scaled by reported approx 71m; first floor uses reported cover 9.7m",
+      "uncertainty": "gallery/main-eave levels ±2m; core/column/eave radii ±15%; no measured floor plan or construction drawing"
+    },
+    "octagonVertexAngleDegrees": {
+      "value": 22.8,
+      "unit": "degrees counterclockwise from east",
+      "basis": "estimated",
+      "method": "regular upper octagon aligned to mapped near-cardinal north/east base faces; vertex angle22.5° + estimated .3° face twist",
+      "uncertainty": "±2° from map-edge irregularity; applies to regular upper profiles, source base is preserved exactly"
+    },
+    "eaveCornerLiftM": {
+      "value": 0.65,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "small convex corner upsweep seen in south-front photo; ratio to approx71m",
+      "uncertainty": "±.3m; curved tiles/ornaments simplified"
+    },
+    "waistCornerLiftM": {
+      "value": 0.26,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "smaller gallery waist-eave upsweep in section/photo",
+      "uncertainty": "±.15m; no tile schedule"
+    },
+    "finialBaseM": {
+      "value": 55.5,
+      "unit": "m above candidate base",
+      "basis": "estimated",
+      "method": "gold finial base relative to total section height and source south-front photo",
+      "uncertainty": "±2m; ring counts/diameters are representative decorative expression"
+    },
+    "coverTopPlanFactor": {
+      "value": 0.94,
+      "unit": "ratio",
+      "basis": "estimated",
+      "method": "limited slope representation of broad cover base, preserving real mapped outer ring at ground and terrace",
+      "uncertainty": "±.06 factor; photos obscure sides; not a structural/survey reconstruction"
+    },
+    "decorativeMembers": {
+      "value": {
+        "columnRadiusM": 0.2,
+        "balustradeHeightM": 1.18,
+        "balustradeBaysPerOctagonSide": 4,
+        "roofSideSubdivisions": 4,
+        "mainColumnsPerSideIncludingSharedCorner": 3
+      },
+      "basis": "estimated",
+      "method": "bounded representative rhythm from front photo and section; no independently confirmed schedule",
+      "uncertainty": "widths ±40%; bay count and bracket shapes are abstraction, not quantity survey"
+    }
+  },
+  "measuredParameters": {
+    "mappedVectorMeasurement": "docs/hangzhou/research/core/leifeng-round2/measurements.json"
+  },
+  "pendingSubscopes": [
+    "exact footprint semantics and as-built tower floor plan",
+    "terrace/cover side surfaces and full entrances/stairs/escalators",
+    "precise roof curve, tile ornament and copper finish",
+    "ground/terrain elevation datum and connected arrival",
+    "heritage interior and archaeological remains",
+    "full all-side facade observations and signage",
+    "GLB build, visual/collision/game-browser/performance review"
+  ],
+  "blockers": [],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/leifeng-round2/geofabrik-leifeng-features.geojson": "72870481fc79eadbac29f7e749e3e45fed8cd45182d09db6e19b382b463500c9",
+    "docs/hangzhou/research/core/leifeng-round2/measurements.json": "94905ae484967e28a7d94c8236c0126f1f7f2da85bb11f864a37b34620685257",
+    "docs/hangzhou/research/core/leifeng-round2/photo-review.md": "eac25b3d9a6b68684f6c11b6ff676f3858e08f8e0ffb12a092cf0a4bf7f0d052",
+    "data/raw/hangzhou/zhejiang-261011.osm.pbf": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+  },
+  "photosBundled": false,
+  "statusBoundary": "Evidence-ready only permits this limited exterior candidate; absent GLB and runtime review keep modelled/verified pending."
+}

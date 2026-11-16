@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "placeId": "qiantang-bridge-passage",
+  "artifactPath": "artifacts/landmarks/qiantang-bridge-passage/model.glb",
+  "sourceModule": "scripts/landmarks/qiantang_bridge_collision.py",
+  "sha256": null,
+  "sourceModuleSha256": "f7c661b027b1551604259f6d72a57fe9da1522541c718459dd17b8ee40377fa3",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "actual frozen rendered mesh envelope CPU adapter; associated original GLB does not prove runtime collision",
+  "estimatedParameters": [
+    "bridge source road core/approach curve mismatch",
+    "absolute deck/terrain/water datum",
+    "parent surface/slab contacts and source-way actor selection",
+    "fine height-aware collision narrow phase",
+    "precise bank abutments",
+    "actor radii/height and lane permissions",
+    "real driving/walking no walls/falls",
+    "in-game views/browser/night/performance"
+  ],
+  "buildCommand": ".venv/bin/python -B docs/hangzhou/research/core/qiantang-bridge-collision-round1/validate_candidate.py"
+}

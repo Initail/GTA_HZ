@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-14T02:36:07+00:00",
+  "stage": "modelled",
+  "agent": "codex-little-lotus-round2",
+  "place": {
+    "id": "little-lotus",
+    "name": "小莲花网球决赛馆",
+    "kind": "building"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/little-lotus-round2/catalog.json",
+  "sourceManifestSha256": "59b7be52475f3425a559ce57a2fa6f370d94fccabe9f42871db6b84620af9686",
+  "sourceRecord": {
+    "id": "little-lotus",
+    "name": "小莲花网球决赛馆",
+    "kind": "building",
+    "scope": "Source-bound finite Little Lotus exterior/bowl candidate:24 fixed wall-roof petals from mapped plan phase,8 upper static open-reference petals with center opening, low glazed concourse, red/grey bowl and regulation-form tennis court. Full podium/site/entrances and gameplay/runtime verification pending.",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": [
+        120.22899373961485,
+        30.229821337017597
+      ],
+      "status": "confirmed",
+      "sourceIds": [
+        "osm-geofabrik"
+      ]
+    },
+    "sources": [
+      {
+        "id": "osm-geofabrik",
+        "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+        "publisher": "OpenStreetMap contributors / Geofabrik",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2026-10-11T20:21:06Z",
+        "status": "available",
+        "license": "ODbL-1.0",
+        "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+        "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+        "use": "fixed48-point mapped little-lotus outline relation9874418; sourceheight5 not adopted"
+      },
+      {
+        "id": "little-lotus-ag2021",
+        "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/t20210513_11887.shtml",
+        "publisher": "杭州亚运会组委会官网，钱江新城建设管理委员会供图",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2021-03-06",
+        "status": "available",
+        "license": "unknown; reference only",
+        "use": "24 lower/8 rotatable upper petals, bowl layout; page dateMarch6 differs URLMay; imageCDN denied, no direct-image visual claim"
+      },
+      {
+        "id": "little-lotus-motion",
+        "url": "https://www.hangzhou2022.cn/xwzx/jdxw/ttxw/202206/t20220627_50173.shtml",
+        "publisher": "杭州亚运会组委会官网，杭州滨江奥体运营有限公司工作人员采访",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2022-06-27",
+        "status": "available",
+        "license": "unknown; reference only",
+        "use": "24 fixed and8 upper, each real axis, counterclockwise45° maximum; actual architecture capability, game animation NOT implemented"
+      },
+      {
+        "id": "little-lotus-primary-photos",
+        "url": "https://www.thepaper.cn/newsDetail_forward_11510897",
+        "publisher": "杭州拥江发布资料 / 澎湃号政务",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2021-03-01",
+        "status": "available",
+        "license": "unknown; reference only; no photo textures",
+        "use": "actual public multi-direction shell/closed/open roof/bowl images; shape count and reference material"
+      },
+      {
+        "id": "little-lotus-operator-height",
+        "url": "https://z.hangzhou.com.cn/2022/jgxsd/content/content_8224839.htm",
+        "publisher": "浙江日报，记者李娇俨 / 杭州网，运营项目经理姜瑱瑜采访",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2022-04-13",
+        "status": "available",
+        "license": "unknown; reference only",
+        "use": "roof operating atapprox40m,24+8/45°/counterclockwise, red seating andblue court; finals27448m² distinct from whole52300m²; no surveyed total-height claim"
+      },
+      {
+        "id": "little-lotus-tournament",
+        "url": "https://www.hangzhouopen.com/en/tournament/venue",
+        "publisher": "Hangzhou Open / ATP赛事官方",
+        "accessedAt": "2026-10-14",
+        "status": "available",
+        "sourceDate": null,
+        "license": "unknown; reference only; no photo textures",
+        "use": "2026 venue identity,24+8, recent official real exterior photo; wholecenter52300m² not footprint"
+      },
+      {
+        "id": "nbbj-olympic",
+        "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+        "publisher": "NBBJ设计方 / CCDI collaboration",
+        "accessedAt": "2026-10-14",
+        "status": "available",
+        "license": "unknown; reference only",
+        "use": "three-level site circulation and bowl context; actual gallery Tennis_Swimming photo is temporary2018 pool scene, not current court"
+      },
+      {
+        "id": "scenic-operator",
+        "url": "https://www.bjatzxjq.com/",
+        "publisher": "杭州滨江奥体博览城开发建设运营管理有限公司",
+        "accessedAt": "2026-10-14",
+        "status": "available",
+        "license": "unknown; reference only",
+        "use": "operator confirms little-lotus identity24+8 and2021 completion, site betweenriverroads; images not relied upon"
+      },
+      {
+        "id": "itf-court",
+        "url": "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "publisher": "International Tennis Federation",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2026",
+        "status": "available",
+        "license": "unknown; dimensional standard reference only",
+        "use": "regulation23.77×10.97m court/8.23m singles and6.40m service lines for game depiction; does not measure as-built court or its absolute orientation"
+      }
+    ],
+    "researchEvidence": "docs/hangzhou/research/core/little-lotus-round2/evidence.json"
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "f62a5574b6fea33d0ad16ba8ca6c747a43c9b42775cb79a111912b3015cb752b"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/little_lotus.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/little-lotus-round2"
+    ],
+    "integrationOwner": "root / 主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-14T02:36:07+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T02:40:31+00:00",
+      "evidenceSha256": "83230af4ac4c0011617a6f9447c864c27f9328c277031d301cfc42f261cac1cd",
+      "modelSha256": null
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-14T02:46:44+00:00",
+      "evidenceSha256": "83230af4ac4c0011617a6f9447c864c27f9328c277031d301cfc42f261cac1cd",
+      "modelSha256": "7f1fe787d613f319ba2297f5b9b8125a9b0fa895cfea3fecab791a4da8a64eef"
+    }
+  ]
+}

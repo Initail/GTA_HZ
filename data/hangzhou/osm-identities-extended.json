@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "sourceSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceTimestamp": "2026-10-11T20:21:06Z",
+  "extractionSha256": {
+    "roads": "c5cdedeb89a1fd1d9b10522305678a9fba46411de412fa3860b80bc20bad1f54",
+    "buildings": "7f335a5af27095b5e1fbd539c54d6ee4ff20a27d5a552cb24b1d3791a4941194",
+    "green": "b722301e58c488a1b78026e5c747b856cd2105052e695b9796310154d4d40f4e",
+    "water": "e820b199c45012d9ba441ffccb135c5f1aaf6f29e2599f0a6262a0ddb231c4f1",
+    "pois": "a18ff2c6f9ae0ae63d341fd68b0d0f66cbcb7fa385dceb03e0debc93425c5995",
+    "places": "f3aee452e0b37aef6502f54d73673b6dbdce8c48573eeb4186beb0b57a898e59",
+    "elevation": "a33d39172410615c7fae846a983ea69645167314babed0c2c8d08abde8294e99"
+  },
+  "status": "geographic-identity-only-not-model-or-access-acceptance",
+  "objects": {
+    "cainiao-headquarters": {
+      "sourceFeatureIds": [
+        "way/1228913717"
+      ],
+      "sourceNames": {
+        "way/1228913717": "菜鸟总部园区"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/ali/README.md"
+    },
+    "alibaba-a": {
+      "sourceFeatureIds": [
+        "way/645135612"
+      ],
+      "sourceNames": {
+        "way/645135612": "阿里巴巴西溪园区"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/ali/README.md"
+    },
+    "alibaba-b": {
+      "sourceFeatureIds": [
+        "way/544285896"
+      ],
+      "sourceNames": {
+        "way/544285896": "阿里巴巴西溪B区"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/ali/README.md"
+    },
+    "alibaba-c": {
+      "sourceFeatureIds": [
+        "way/645093961"
+      ],
+      "sourceNames": {
+        "way/645093961": "阿里巴巴西溪C区"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/ali/README.md"
+    },
+    "west-lake": {
+      "sourceFeatureIds": [
+        "relation/2308774"
+      ],
+      "sourceNames": {
+        "relation/2308774": "西湖"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/west-lake.evidence.json"
+    },
+    "wulin-square": {
+      "sourceFeatureIds": [
+        "way/589390765"
+      ],
+      "sourceNames": {
+        "way/589390765": "武林广场"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/wulin-square.evidence.json"
+    },
+    "lingyin-temple": {
+      "sourceFeatureIds": [
+        "way/434365023",
+        "way/434365024",
+        "way/434365025",
+        "way/434366739",
+        "way/434366741"
+      ],
+      "sourceNames": {
+        "way/434365023": "天王殿",
+        "way/434365024": "大雄宝殿",
+        "way/434365025": "药师殿",
+        "way/434366739": "灵隐寺文物展厅",
+        "way/434366741": "华严殿"
+      },
+      "anchorMethod": "Daxiong main hall centroid; not entrance or temple boundary",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/lingyin-temple.evidence.json",
+      "anchorFeatureId": "way/434365024",
+      "rejectedFeatureIds": {
+        "way/195189679": "ticket shop; not temple boundary/main hall"
+      },
+      "pendingSubscopes": [
+        "temple boundary",
+        "ground and steps",
+        "entry interaction"
+      ]
+    },
+    "leifeng-pagoda": {
+      "sourceFeatureIds": [
+        "way/229726934"
+      ],
+      "sourceNames": {
+        "way/229726934": "雷峰塔"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/leifeng-pagoda.evidence.json"
+    },
+    "civic-center": {
+      "sourceFeatureIds": [
+        "relation/4762996"
+      ],
+      "sourceNames": {
+        "relation/4762996": "市民中心"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/civic-center.evidence.json"
+    },
+    "city-balcony": {
+      "sourceFeatureIds": [
+        "relation/8718551"
+      ],
+      "sourceNames": {
+        "relation/8718551": "城市阳台"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/city-balcony.evidence.json"
+    },
+    "grand-theatre": {
+      "sourceFeatureIds": [
+        "way/626838819"
+      ],
+      "sourceNames": {
+        "way/626838819": "杭州大剧院"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/grand-theatre.evidence.json"
+    },
+    "international-conference-center": {
+      "sourceFeatureIds": [
+        "way/626838544"
+      ],
+      "sourceNames": {
+        "way/626838544": "杭州市国际会议中心"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/international-conference-center.evidence.json"
+    },
+    "hangzhou-gate": {
+      "sourceFeatureIds": [
+        "way/1015040645",
+        "way/1015040647"
+      ],
+      "sourceNames": {
+        "way/1015040645": "杭州世纪中心",
+        "way/1015040647": "杭州世纪中心"
+      },
+      "anchorMethod": "mean of the two source tower centroids; gate-round2 spec",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/gate-round2/spec.json",
+      "anchorWGS84": [
+        120.23255672887714,
+        30.229744850587956
+      ]
+    },
+    "big-lotus": {
+      "sourceFeatureIds": [
+        "relation/8718531"
+      ],
+      "sourceNames": {
+        "relation/8718531": "杭州奥林匹克体育博览中心体育场"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/big-lotus.evidence.json",
+      "heightWarning": "OSM low height tag does not describe full stadium roof; architectural evidence required"
+    },
+    "little-lotus": {
+      "sourceFeatureIds": [
+        "relation/9874418"
+      ],
+      "sourceNames": {
+        "relation/9874418": "网球中心总决赛大厅"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/little-lotus.evidence.json",
+      "heightWarning": "OSM low height tag does not describe full stadium roof; architectural evidence required"
+    },
+    "broken-bridge": {
+      "sourceFeatureIds": [
+        "way/28538289",
+        "way/1466925249"
+      ],
+      "sourceNames": {
+        "way/28538289": "断桥",
+        "way/1466925249": "断桥"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/broken-bridge.evidence.json"
+    },
+    "bai-causeway": {
+      "sourceFeatureIds": [
+        "way/4326974",
+        "way/28538286",
+        "way/28538290",
+        "way/29416781"
+      ],
+      "sourceNames": {
+        "way/4326974": "白堤",
+        "way/28538286": "白堤",
+        "way/28538290": "白堤",
+        "way/29416781": "白堤"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/bai-causeway.evidence.json"
+    },
+    "su-causeway": {
+      "sourceFeatureIds": [
+        "way/4335991",
+        "way/30072127",
+        "way/30072131",
+        "way/30072138",
+        "way/30072145",
+        "way/30072148",
+        "way/30075393",
+        "way/975869980"
+      ],
+      "sourceNames": {
+        "way/4335991": "苏堤",
+        "way/30072127": "苏堤",
+        "way/30072131": "苏堤",
+        "way/30072138": "苏堤",
+        "way/30072145": "苏堤",
+        "way/30072148": "苏堤",
+        "way/30075393": "苏堤",
+        "way/975869980": "苏堤"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/su-causeway.evidence.json"
+    },
+    "qiantang-bridge": {
+      "sourceFeatureIds": [
+        "way/4348186",
+        "way/826790145"
+      ],
+      "sourceNames": {
+        "way/4348186": "钱塘江大桥",
+        "way/826790145": "钱塘江大桥"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/qiantang-bridge.evidence.json"
+    },
+    "fuxing-bridge": {
+      "sourceFeatureIds": [
+        "way/29169666",
+        "way/29170042",
+        "way/154135283",
+        "way/154135290",
+        "way/336983476",
+        "way/340648409",
+        "way/589429905"
+      ],
+      "sourceNames": {
+        "way/29169666": "复兴大桥",
+        "way/29170042": "复兴大桥",
+        "way/154135283": "复兴大桥",
+        "way/154135290": "复兴大桥",
+        "way/336983476": "复兴大桥",
+        "way/340648409": "复兴大桥",
+        "way/589429905": "复兴大桥"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/fuxing-bridge.evidence.json"
+    },
+    "zhijiang-bridge": {
+      "sourceFeatureIds": [
+        "way/306360721",
+        "way/306360739",
+        "way/589558021"
+      ],
+      "sourceNames": {
+        "way/306360721": "之江大桥",
+        "way/306360739": "之江大桥",
+        "way/589558021": "之江大桥"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/zhijiang-bridge.evidence.json"
+    },
+    "xixing-bridge": {
+      "sourceFeatureIds": [
+        "way/5041735",
+        "way/28596734",
+        "way/28596757",
+        "way/331859982",
+        "way/331860328",
+        "way/331860329",
+        "way/340388832",
+        "way/346585778",
+        "way/388018764",
+        "way/420013388",
+        "way/420013389"
+      ],
+      "sourceNames": {
+        "way/5041735": "西兴大桥",
+        "way/28596734": "西兴大桥",
+        "way/28596757": "西兴大桥",
+        "way/331859982": "西兴大桥",
+        "way/331860328": "西兴大桥",
+        "way/331860329": "西兴大桥",
+        "way/340388832": "西兴大桥",
+        "way/346585778": "西兴大桥",
+        "way/388018764": "西兴大桥",
+        "way/420013388": "西兴大桥",
+        "way/420013389": "西兴大桥"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/xixing-bridge.evidence.json",
+      "roadAccessStatus": "construction-closed-in-source",
+      "sourceTags": {
+        "highway": "construction"
+      },
+      "pendingSubscopes": [
+        "rebuilding state and visible construction details"
+      ]
+    },
+    "boao-tunnel": {
+      "sourceFeatureIds": [
+        "way/546241781",
+        "way/607103735"
+      ],
+      "sourceNames": {
+        "way/546241781": "博奥隧道",
+        "way/607103735": "博奥隧道"
+      },
+      "anchorMethod": "union-centroid-not-entrance",
+      "identityStatus": "source-objects-reviewed",
+      "modelStatus": "pending",
+      "arrivalStatus": "pending-road-collision-and-browser",
+      "sourceEvidence": "docs/hangzhou/research/core/boao-tunnel.evidence.json"
+    }
+  },
+  "extractionManifestPath": "data/processed/hangzhou-261011-extended/extraction-manifest.json",
+  "bboxWGS84": [
+    119.93,
+    30.15,
+    120.3,
+    30.34
+  ]
+}

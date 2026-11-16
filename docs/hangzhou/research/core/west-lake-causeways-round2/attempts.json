@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-10-14",
+  "attempts": [
+    {
+      "action": "web fetch UNESCO nomination",
+      "result": "web tool rejected79MB file; already downloaded local original read andpages59/78rendered",
+      "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442"
+    },
+    {
+      "action": "direct reference curl in sandbox",
+      "result": "DNS unavailable; allowed escalation retrieved public official/photographer references"
+    },
+    {
+      "action": "source scan initial read",
+      "result": "Python syntax typo in read-only script corrected; no files changed"
+    },
+    {
+      "action": "landmark_tasks evidence-ready initial",
+      "result": "failed because layout observation included boolean field not accepted byknown() validator; source correspondence stayed recorded in separateJSON; numeric observation crosswalk subsequently passed"
+    },
+    {
+      "action": "original Jindai gallery photo09601",
+      "result": "HTTP404 recorded; not used as evidence"
+    },
+    {
+      "action": "CPU originalcandidate",
+      "result": "17checks passed,36926tris/5materials"
+    },
+    {
+      "action": "width-transition correction",
+      "result": "kept reportedcore length at netwidth before estimatedapproach flare; same17checks passed;CPUpreviews regenerated"
+    },
+    {
+      "action": "Blender/browser",
+      "result": "not launched; delegated to parent serial integrator"
+    },
+    {
+      "action": "arc ring side-face normals",
+      "result": "CPU preview identified inward arc ring/joint face order; corrected outward normals and regenerated17passingchecks/fourCPUpreviews"
+    }
+  ]
+}

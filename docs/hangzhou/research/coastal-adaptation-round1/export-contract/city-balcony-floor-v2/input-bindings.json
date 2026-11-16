@@ -1,0 +1,16 @@
+{
+  "artifacts/cities/hangzhou/shore-meshes-v2/manifest.json": "64ce9a904cd4105af1987ec5648921653f0491c66c73b1449643d1b95c85b5f5",
+  "artifacts/cities/hangzhou/shore-glb-v2/asset-manifest.json": "6f63935571b2a4af146e30b10b1b25d87dd0cd111abde8db72ab5091817f9e7e",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/proposals.json": "68f6e1cdffdcf013802a89a6bad2110e56d1888a2d7226855eba9ef2e5ce2066",
+  "artifacts/cities/hangzhou/render-input-v6/city.json": "2ec7148ae03338f0ef89bdb8e02d6a3ec892c67868eada8c713624d28a90c244",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/package-manifest.json": "f5306feae27cf841efa8b0e702f7d1964125c7951e2bfd5baa17887f2b220c23",
+  "artifacts/cities/hangzhou/render-input-v6/geography/manifest.json": "86405ade07b6c8a07476209c22c33cebb7ae7a52bf02515db765290f8041b4bb",
+  "artifacts/cities/hangzhou/render-input-v6/geography/terrain-game.bin": "dd1ae9e4707979cfaf4bf7b793bae1c590f18e71803f241c0c3d5d4a265792ac",
+  "artifacts/cities/hangzhou/render-input-v6/geography/road-levels.json": "0db3134e9a24b53ab0361a3f2fdc1738f818ceddafc56d94c5500b8ba75a25c1",
+  "scripts/prepare_hangzhou_shores.py": "e313d3e3a309346328f9693fc4a6539595d12114583ddc60276f97fc466a5212",
+  "scripts/hangzhou_surface.py": "debdc759d513563c2a6ea8e261d71b025a3fad009e03c464c8dedecd1710948b",
+  "docs/hangzhou/research/core/city-balcony-round2/spec.json": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+  "artifacts/cities/hangzhou/landmarks/city-balcony-v1/model-delivery.json": "8875985694792fbeb91f02dbab64b9ec14d9b3c51eb6ad9276e91858a263e9fe",
+  "scripts/landmarks/city_balcony.py": "797c5450c927a330fe89815d98c20aa17e55432095b8bba861ddb0591be74c95",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-datum-proposal/package-manifest.json": "281c04f8facb4b4e0ec79f28bbf9180b8acc2f2701fe182ba718caba90ec615e"
+}

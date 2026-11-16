@@ -1,0 +1,12 @@
+{
+  "id": "city-balcony-floor-v2",
+  "stage": "candidate-module-cpu-checked",
+  "upstreamEvidenceJob": "docs/hangzhou/research/core/city-balcony-round2/task-bundles/city-balcony/job.json",
+  "newModule": "scripts/landmarks/city_balcony_floor_v2.py",
+  "newModuleSha256": "9b69526095965d6e9980967a1f242f5ce23f0130fcaa4eb982de373c76d45d48",
+  "sourceOldModuleUnchanged": true,
+  "scope": "exact two source upper-minus-lower fingers with full terminal edge samples; no world mutation",
+  "actualBlenderExported": false,
+  "runtimeVerified": false,
+  "localTerrainAndShoreOwnership": "blocked/pending; candidate kept independent"
+}

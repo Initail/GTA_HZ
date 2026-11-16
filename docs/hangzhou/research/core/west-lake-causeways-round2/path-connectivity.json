@@ -1,0 +1,308 @@
+{
+  "chains": [
+    {
+      "causeway": "bai",
+      "sequence": [
+        {
+          "wayId": 4326974,
+          "startNode": "26315529",
+          "endNode": "775020013",
+          "startWGS84": [
+            120.1402059,
+            30.2535121
+          ],
+          "endWGS84": [
+            120.1412816,
+            30.2545657
+          ],
+          "lengthM": 156.07150519111872
+        },
+        {
+          "wayId": 29416781,
+          "startNode": "775020013",
+          "endNode": "313487815",
+          "startWGS84": [
+            120.1412816,
+            30.2545657
+          ],
+          "endWGS84": [
+            120.1432862,
+            30.256574
+          ],
+          "lengthM": 295.33707630567744
+        },
+        {
+          "wayId": 28538285,
+          "startNode": "313487815",
+          "endNode": "313487816",
+          "startWGS84": [
+            120.1432862,
+            30.256574
+          ],
+          "endWGS84": [
+            120.1440341,
+            30.257454
+          ],
+          "lengthM": 121.22501348339335
+        },
+        {
+          "wayId": 28538286,
+          "startNode": "313487816",
+          "endNode": "26315533",
+          "startWGS84": [
+            120.1440341,
+            30.257454
+          ],
+          "endWGS84": [
+            120.1466496,
+            30.2604573
+          ],
+          "lengthM": 417.4158930900628
+        },
+        {
+          "wayId": 28538289,
+          "startNode": "26315533",
+          "endNode": "13454786643",
+          "startWGS84": [
+            120.1466496,
+            30.2604573
+          ],
+          "endWGS84": [
+            120.1474111,
+            30.2613444
+          ],
+          "lengthM": 122.63663198506705
+        },
+        {
+          "wayId": 28538290,
+          "startNode": "13454786643",
+          "endNode": "26202730",
+          "startWGS84": [
+            120.1474111,
+            30.2613444
+          ],
+          "endWGS84": [
+            120.1475972,
+            30.2616127
+          ],
+          "lengthM": 34.77950138661428
+        }
+      ],
+      "lengthM": 1147.4656214419338,
+      "continuity": "exact node IDs AND coordinates match; no invented geometric junction",
+      "externalBridgeOwner": "scripts/landmarks/broken_bridge.py"
+    },
+    {
+      "causeway": "su",
+      "sequence": [
+        {
+          "wayId": 4335991,
+          "startNode": "26391524",
+          "endNode": "660060722",
+          "startWGS84": [
+            120.1308621,
+            30.2539615
+          ],
+          "endWGS84": [
+            120.1310747,
+            30.2533656
+          ],
+          "lengthM": 69.1545524961515
+        },
+        {
+          "wayId": 975869980,
+          "startNode": "660060722",
+          "endNode": "26391523",
+          "startWGS84": [
+            120.1310747,
+            30.2533656
+          ],
+          "endWGS84": [
+            120.1312361,
+            30.2528974
+          ],
+          "lengthM": 54.176833433870925
+        },
+        {
+          "wayId": 30072125,
+          "startNode": "26391523",
+          "endNode": "26391511",
+          "startWGS84": [
+            120.1312361,
+            30.2528974
+          ],
+          "endWGS84": [
+            120.1313074,
+            30.2526652
+          ],
+          "lengthM": 26.63955897382856
+        },
+        {
+          "wayId": 30072127,
+          "startNode": "26391511",
+          "endNode": "331228778",
+          "startWGS84": [
+            120.1313074,
+            30.2526652
+          ],
+          "endWGS84": [
+            120.1318732,
+            30.2507598
+          ],
+          "lengthM": 218.13008438928165
+        },
+        {
+          "wayId": 30075392,
+          "startNode": "331228778",
+          "endNode": "331228777",
+          "startWGS84": [
+            120.1318732,
+            30.2507598
+          ],
+          "endWGS84": [
+            120.1319633,
+            30.2504644
+          ],
+          "lengthM": 33.875312862410375
+        },
+        {
+          "wayId": 30075393,
+          "startNode": "331228777",
+          "endNode": "331229278",
+          "startWGS84": [
+            120.1319633,
+            30.2504644
+          ],
+          "endWGS84": [
+            120.1333265,
+            30.2464797
+          ],
+          "lengthM": 460.8300905566384
+        },
+        {
+          "wayId": 30072130,
+          "startNode": "331229278",
+          "endNode": "26391513",
+          "startWGS84": [
+            120.1333265,
+            30.2464797
+          ],
+          "endWGS84": [
+            120.1333897,
+            30.2462731
+          ],
+          "lengthM": 23.696636727294436
+        },
+        {
+          "wayId": 30072131,
+          "startNode": "26391513",
+          "endNode": "331229457",
+          "startWGS84": [
+            120.1333897,
+            30.2462731
+          ],
+          "endWGS84": [
+            120.1347547,
+            30.2415626
+          ],
+          "lengthM": 538.4570740442858
+        },
+        {
+          "wayId": 30072139,
+          "startNode": "331229457",
+          "endNode": "331229458",
+          "startWGS84": [
+            120.1347547,
+            30.2415626
+          ],
+          "endWGS84": [
+            120.1348552,
+            30.2412334
+          ],
+          "lengthM": 37.75359758134155
+        },
+        {
+          "wayId": 30072138,
+          "startNode": "331229458",
+          "endNode": "26391516",
+          "startWGS84": [
+            120.1348552,
+            30.2412334
+          ],
+          "endWGS84": [
+            120.1362799,
+            30.2370809
+          ],
+          "lengthM": 480.4948582944227
+        },
+        {
+          "wayId": 30072144,
+          "startNode": "26391516",
+          "endNode": "331229518",
+          "startWGS84": [
+            120.1362799,
+            30.2370809
+          ],
+          "endWGS84": [
+            120.1364342,
+            30.2367575
+          ],
+          "lengthM": 38.803779894878254
+        },
+        {
+          "wayId": 30072145,
+          "startNode": "331229518",
+          "endNode": "331229532",
+          "startWGS84": [
+            120.1364342,
+            30.2367575
+          ],
+          "endWGS84": [
+            120.1386288,
+            30.2330775
+          ],
+          "lengthM": 459.597313088845
+        },
+        {
+          "wayId": 30072147,
+          "startNode": "331229532",
+          "endNode": "6329084780",
+          "startWGS84": [
+            120.1386288,
+            30.2330775
+          ],
+          "endWGS84": [
+            120.1387376,
+            30.2328327
+          ],
+          "lengthM": 29.08703347551361
+        },
+        {
+          "wayId": 30072148,
+          "startNode": "6329084780",
+          "endNode": "26391522",
+          "startWGS84": [
+            120.1387376,
+            30.2328327
+          ],
+          "endWGS84": [
+            120.1397001,
+            30.2309416
+          ],
+          "lengthM": 229.21749558716812
+        }
+      ],
+      "lengthM": 2699.9142214059316,
+      "continuity": "exact node IDs AND coordinates match; no invented geometric junction",
+      "externalBridgeOwner": null
+    }
+  ],
+  "externalWayNotBuilt": 28538289,
+  "sourceExtractsSha256": {
+    "roads": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+    "green": "ad8f96d03bdf7e4219571e0b9cb91437af3ed2d8ba8e553fd2474f7f6adaf468",
+    "water": "b13eda144ba78a978a4a0ba50b513c545ec2f792b683fb2d28a8cbfd4139e1d1",
+    "places": "6d7e3714bfc34ae86bf5a2487bae1433ce14801dcbf494b315689567eb0e0ef7"
+  },
+  "method": "canonical Hangzhou WGS84 local e/n unscaled metric, original source node chain; lengths include stated source endpoints, not survey endpoints"
+}

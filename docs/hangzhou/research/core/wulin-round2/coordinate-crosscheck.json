@@ -1,0 +1,17 @@
+{
+  "fixedGeofabrikIdsCorrect": true,
+  "originalApiWayVersion": 3,
+  "originalApiFountainVersion": 3,
+  "apiRingsExactlyAgree": true,
+  "commonsCameraWGS84": [
+    120.158539,
+    30.273672
+  ],
+  "commonsExifDatum": "WGS-84",
+  "commonsExifCaptureDate": "2026-04-30",
+  "commonsExifHeadingTrueDegrees": 174.9240493629,
+  "cameraToMappedFountainDistanceM": 25.42581805779308,
+  "cameraToMappedFountainBearingDegrees": 166.58630151149936,
+  "independentCameraSupportsMappedLocation": true,
+  "uncertainty": "Camera geotag, not measured fountain center/diameter; phone accuracy not published. OSM plan-position allowance ±5m. Do not adopt commercial GCJ coords or rounded/conflicting Wikidata DMS."
+}

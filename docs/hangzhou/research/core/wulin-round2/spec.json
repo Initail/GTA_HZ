@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "id": "wulin-square",
+  "cityId": "hangzhou",
+  "scope": "Source-bound finite square exterior candidate: fixed mapped southern plaza extent, five-petal raised basin and shallow moat, 3 central original dance figures +5 outer original musician figures, ring/axis paving and flower-pot samples. Surrounding buildings, full gardens/sunken courtyard and runtime acceptance pending.",
+  "anchor": {
+    "lon": 120.15865041655836,
+    "lat": 30.27335428045256
+  },
+  "coordinateContract": "city_config load_city(hangzhou)+project; WGS84 source metres scaled once; lm.x/z/y game units; preserve Blender east/north/up and existing GLB root direction",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "baseBuildingIdsToExclude": [],
+  "footprintWGS84": [
+    [
+      120.1576449,
+      30.2738637
+    ],
+    [
+      120.1577944,
+      30.2738331
+    ],
+    [
+      120.1578455,
+      30.2737889
+    ],
+    [
+      120.1578573,
+      30.2737108
+    ],
+    [
+      120.1578966,
+      30.2732929
+    ],
+    [
+      120.1577039,
+      30.2732759
+    ],
+    [
+      120.1577275,
+      30.2729294
+    ],
+    [
+      120.1577786,
+      30.2728445
+    ],
+    [
+      120.1578455,
+      30.2728139
+    ],
+    [
+      120.1579832,
+      30.2728207
+    ],
+    [
+      120.1593285,
+      30.2727663
+    ],
+    [
+      120.1594269,
+      30.2727867
+    ],
+    [
+      120.159482,
+      30.2728275
+    ],
+    [
+      120.1594977,
+      30.2728954
+    ],
+    [
+      120.1594938,
+      30.2733643
+    ],
+    [
+      120.1594584,
+      30.2736089
+    ],
+    [
+      120.1594308,
+      30.273969
+    ],
+    [
+      120.1576527,
+      30.2738892
+    ],
+    [
+      120.1576449,
+      30.2738637
+    ]
+  ],
+  "fountain": {
+    "sourceFeatureId": "node/4228526321",
+    "centerWGS84": [
+      120.1586003,
+      30.2734489
+    ],
+    "materialReported": "2016 stainless steel with white fluorocarbon paint;1984 white cement is historical",
+    "outerInstrumentsClockwiseEstimated": [
+      "pipa",
+      "sheng",
+      "guzheng",
+      "konghou",
+      "flute"
+    ],
+    "instrumentOrderStatus": "estimated; set/source roles confirmed, precise clockwise placement pending"
+  },
+  "estimates": {
+    "poolMeanRadiusM": {
+      "value": 14.3,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "upper basin radius ratio traced from 2026 aerial; source plaza width178.3m used as coarse scale",
+      "uncertainty": "±20%; no basin survey/plan"
+    },
+    "poolLobeAmplitudeM": {
+      "value": 2.7,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "five sinusoidal plan lobes express observed plum-flower outline; peak raised bowl radius17m",
+      "uncertainty": "±.7m; curve is a bounded approximation, not measured rim"
+    },
+    "raisedPoolHeightM": {
+      "value": 1.45,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "2026 ground photo wall-height ratio to nearby people, cross-check2025 maintenance photo",
+      "uncertainty": "±.35m; distance/ultrawide perspective not calibrated"
+    },
+    "poolTopRadiusFactor": {
+      "value": 0.94,
+      "unit": "ratio",
+      "basis": "estimated",
+      "method": "source-visible inward taper on black/grey tiled pool walls",
+      "uncertainty": "±.03; tile masonry geometry simplified"
+    },
+    "moatWidthM": {
+      "value": 1.5,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "2026 photo lower shallow ring ratio to rim/paving/person widths",
+      "uncertainty": "±.5m; entire hydraulic layout pending"
+    },
+    "apronRadiusM": {
+      "value": 28.5,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "2026 aerial pool-to-concentric-apron ratio, mapped square scale",
+      "uncertainty": "±15%; exact stone schedule/grade unknown"
+    },
+    "centralGroupHeightM": {
+      "value": 7.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "2025 original report approximately7m group used as proportional starting point; current2016 remake form corroborated by 2025/2026 photos",
+      "uncertainty": "±1m; source includes historic narrative, not current as-built measurement; height includes candidate pedestal"
+    },
+    "outerGroupHeightM": {
+      "value": 3.2,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "approximately3m+ outer group report and real-photo relation to central group",
+      "uncertainty": "±.5m; no current survey"
+    },
+    "centralPedestalHeightM": {
+      "value": 0.75,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "photo-relative cylindrical white plinth",
+      "uncertainty": "±.25m"
+    },
+    "outerPedestalHeightM": {
+      "value": 0.35,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "real-photo short white plinths",
+      "uncertainty": "±.15m"
+    },
+    "outerStatueRadiusM": {
+      "value": 12.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "five musicians placed near five pool petals in aerial/current photos",
+      "uncertainty": "±2m; exact clockwise instrument locations unknown"
+    },
+    "petalAxisAngleDegrees": {
+      "value": 90,
+      "unit": "degrees counterclockwise from east",
+      "basis": "estimated",
+      "method": "north-facing petal under aerial centerline; cardinal layout from OSM/official locality",
+      "uncertainty": "±10°"
+    },
+    "sculpturePosesAndDecor": {
+      "value": "Original parametric adult figures: three long-skirt dancers under an open double silk loop; five seated/crouching musicians with distinct pipa/sheng/guzheng/konghou/flute geometry",
+      "basis": "estimated",
+      "method": "source-observed characteristic gestures translated into original low-poly volumes and ribbons; no imported sculpture/photo mesh",
+      "uncertainty": "symbolic anatomy, faces, drapery, fingers and exact artwork geometry pending visual review"
+    },
+    "landscapeSamples": {
+      "value": "20 sparse near-field terracotta flower pots with foliage/flower masses beside central apron; concentric/radial paving and north/south approach bands",
+      "basis": "estimated",
+      "method": "reported100+ pots and source aerial garden edges reduced to bounded visible samples inside actual map extent",
+      "uncertainty": "not exact positions/count/species color or full100+ reconstruction; gardens/sunken court/seasonal changes pending"
+    }
+  },
+  "referenceImages": [
+    {
+      "id": "2025-maintenance-north",
+      "sourceId": "wulin-current-original",
+      "url": "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstiAC0xsAAFKqME6M-U162.jpg",
+      "sha256": "45e7fede5ab928031b3b036fc6f92eb7ce0d7fe54bb520d884b7cba64fcdc582",
+      "downloadBytes": 84648,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual view_image of original reference bytes",
+      "captureDate": "2025-05-13",
+      "viewDirection": {
+        "bearingTowardDegrees": 0,
+        "allowanceDegrees": 15,
+        "basis": "estimated from named background buildings and source map"
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "2025-maintenance-south",
+      "sourceId": "wulin-current-original",
+      "url": "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstiAHvBDAAEfmJ75bqI316.jpg",
+      "sha256": "945e05b655d7efcda50d414bbfe51823890b3b1e96b7f00c880ff7f8455059a4",
+      "downloadBytes": 73624,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual view_image of original reference bytes",
+      "captureDate": "2025-05-13",
+      "viewDirection": {
+        "bearingTowardDegrees": 180,
+        "allowanceDegrees": 20,
+        "basis": "estimated from named background buildings and source map"
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "2026-aerial-north",
+      "sourceId": "wulin-aerial2026",
+      "url": "https://nginx-hzwcm.hangzhou.com.cn/photolibrary/hzwcm/202609/02/0cfa9e2f-712a-47cc-840b-c8ec574df32a_m.jpg?fmt=jpg",
+      "sha256": "0e5b74bf58af5ebc15edd71e5ba1e531552558d83aa12225b2f82e86e773e48d",
+      "downloadBytes": 100002,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual view_image of original reference bytes",
+      "captureDate": null,
+      "viewDirection": {
+        "bearingTowardDegrees": 0,
+        "allowanceDegrees": 15,
+        "basis": "estimated from named background buildings and source map"
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "2025-sculpture-front",
+      "sourceId": "wulin-sculpture2025",
+      "url": "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJmADPd7AAEkqrmsXWE210.jpg",
+      "sha256": "91ac75de40c3bce64469fbc7cdba09508ba4b8efb3cf82ccab98bd9afdeb91a1",
+      "downloadBytes": 74922,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual view_image of original reference bytes",
+      "captureDate": null,
+      "viewDirection": {
+        "bearingTowardDegrees": 0,
+        "allowanceDegrees": 15,
+        "basis": "estimated from named background buildings and source map"
+      },
+      "license": "unknown",
+      "bundled": false
+    },
+    {
+      "id": "2026-geotag-south",
+      "sourceId": "wulin-gps2026",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Wuling_Square_Fountain.jpg",
+      "sha256": "6e3f594e1c8648fc80dcae4b31374b1650026075eebe93de592d608fe7e4c422",
+      "downloadBytes": 2271609,
+      "reviewedAt": "2026-10-13",
+      "reviewMethod": "actual view_image of original photo; Commons source metadata inspected",
+      "captureDate": "2026-04-30T18:15:24",
+      "cameraWGS84": [
+        120.158539,
+        30.273672
+      ],
+      "viewDirection": {
+        "bearingTowardDegrees": 174.9240493629,
+        "basis": "reported true-direction EXIF, phone accuracy not published"
+      },
+      "license": "CC BY 4.0",
+      "creditedTo": "Takashishin",
+      "bundled": false
+    }
+  ],
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  },
+  "pendingSubscopes": [
+    "current surveyed basin outline/dimensions and statue/instrument mapping",
+    "exact anatomy/drapery/finish of artwork; current candidate is original approximation",
+    "full landscaping, seasonal pots, garden beds and structures",
+    "northern exhibition forecourt beyond mapped area",
+    "east sunken courtyard, grade/steps/underground circulation",
+    "Zhejiang Exhibition Hall, Hangzhou Theatre and all surrounding buildings as separate objects",
+    "terrain datum, connected arrival and collision",
+    "actual GLB, named visual/browser/night/jets/performance acceptance"
+  ]
+}

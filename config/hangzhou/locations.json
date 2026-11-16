@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "scope": "Fictional gameplay services beside source-mapped roads; no claim of real operators or surveyed entrances",
+  "sites": [
+    {"id": "hub", "name": "钱江生活驿站", "landmark": "civic-center", "offsetGame": [120, 120]},
+    {"id": "office", "name": "钱江下班驿站", "landmark": "civic-center", "offsetGame": [0, 0]},
+    {"id": "workshop", "name": "钱江城市养护站", "landmark": "grand-theatre", "offsetGame": [-320, 140]}
+  ],
+  "missionPoints": {
+    "park": {"sourceFeatureId": "way/318323546", "sourceLayer": "green", "name": "世纪花园服务点"},
+    "bay": {"landmark": "city-balcony", "name": "城市阳台交接点"}
+  },
+  "searchRadiusGame": 320,
+  "prefabClearanceGame": {"width": 14.2, "depth": 10.2},
+  "status": "seed-configuration-not-physical-arrival-acceptance"
+}

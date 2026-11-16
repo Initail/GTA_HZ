@@ -1,0 +1,62 @@
+[
+  {
+    "id": "designer",
+    "url": "https://world-architects.com/zh/atelier-land-yangpu-district-shanghai/project/hangzhou-citizen-center",
+    "localTemporaryPath": "<TEMP>/civic-center-research/designer.html",
+    "httpStatus": "403",
+    "returncode": 0,
+    "bytes": 5552,
+    "sha256": "89fca5c6a3459aafc1e4a8ef64dcd990afad341ef4c03b6072408388fe82b32e",
+    "error": ""
+  },
+  {
+    "id": "landscape",
+    "url": "https://www.ldgpartner.com/project/detail.aspx?id=46",
+    "localTemporaryPath": "<TEMP>/civic-center-research/landscape.html",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 11263,
+    "sha256": "670e6c5afa62801e805ebc7b4e745ccf9cfd6dd5f822aa80119f10b78ccfcb23",
+    "error": ""
+  },
+  {
+    "id": "government",
+    "url": "https://www.zjdj.com.cn/zx/xw/jrzj/201610/t20161001_1951228_ext.shtml",
+    "localTemporaryPath": "<TEMP>/civic-center-research/government.html",
+    "httpStatus": "403",
+    "returncode": 0,
+    "bytes": 311,
+    "sha256": "af44dd72baae50cc234236ec6538a95b66d04b769011230356d0825e9f5d25be",
+    "error": ""
+  },
+  {
+    "id": "council6",
+    "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-6/15397",
+    "localTemporaryPath": "<TEMP>/civic-center-research/council6.html",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 91441,
+    "sha256": "d6ffa3e22258d63059cd63fd6366417f731612839a97d89cd14d5088cc74651c",
+    "error": ""
+  },
+  {
+    "id": "complex",
+    "url": "https://www.skyscrapercenter.com/complex/940",
+    "localTemporaryPath": "<TEMP>/civic-center-research/complex.html",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 78845,
+    "sha256": "5f9f80b32962b8f0a2ca14d881ff69091d99dda48f54d82b59e691fcaef3e9af",
+    "error": ""
+  },
+  {
+    "id": "paper",
+    "url": "https://global.ctbuh.org/resources/papers/download/1908-urban-mega-structure-vertical-landscape-of-hangzhou-civic-center.pdf",
+    "localTemporaryPath": "<TEMP>/civic-center-research/paper.pdf",
+    "httpStatus": "404",
+    "returncode": 0,
+    "bytes": 12454,
+    "sha256": "5a1b9fccf1c5179cb3c2376d6d6bb79d0f4f1b822357f347a3ed2eb89a2342f9",
+    "error": ""
+  }
+]

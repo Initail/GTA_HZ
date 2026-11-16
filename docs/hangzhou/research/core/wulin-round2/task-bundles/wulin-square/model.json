@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "placeId": "wulin-square",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/wulin-square-v1/wulin-square.glb",
+  "sourceModule": "scripts/landmarks/wulin_square.py",
+  "sha256": "7f4d89ae6ac99c6b2cba05ae7600745e29f3597b34ca2309cf303bd12e955ab7",
+  "sourceModuleSha256": "42a02bd770a6810c1079b5958f668d4accf80005ed7e9cf6b5da07327bffa801",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "poolMeanRadiusM",
+    "poolLobeAmplitudeM",
+    "raisedPoolHeightM",
+    "poolTopRadiusFactor",
+    "moatWidthM",
+    "apronRadiusM",
+    "centralGroupHeightM",
+    "outerGroupHeightM",
+    "centralPedestalHeightM",
+    "outerPedestalHeightM",
+    "outerStatueRadiusM",
+    "petalAxisAngleDegrees",
+    "sculpturePosesAndDecor",
+    "landscapeSamples"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/wulin-round2/task-bundles/wulin-square/job.json --spec docs/hangzhou/research/core/wulin-round2/spec.json --module scripts/landmarks/wulin_square.py --output artifacts/cities/hangzhou/landmarks/wulin-square-v1",
+  "candidateCommand": "python3 docs/hangzhou/research/core/wulin-round2/validate_candidate.py",
+  "candidateReport": "docs/hangzhou/research/core/wulin-round2/cpu-geometry-validation.json",
+  "status": "model-exported-not-verified",
+  "sourceSpec": "docs/hangzhou/research/core/wulin-round2/spec.json",
+  "sourceSpecSha256": "79ddcbbaafc783f7e179a5cdc8a69e3a70bbf65d5d7be87bf1569abb31af2eff",
+  "sourceInputs": [
+    {
+      "path": "docs/hangzhou/audit/city-config-hangzhou-7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6.json",
+      "sha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/wulin-square-build-v1.log",
+    "sha256": "c143219ea449cf8905fb7a6aa632bc4ba9fae59024bb38ee78695ead52cb1b75"
+  },
+  "modelDeliverySha256": "eb8fb5fadbdbb25a98216edfa52ba938fffc6671cc24c6983750a210f2e0b149",
+  "glbStats": {
+    "triangles": 18798,
+    "materials": 9,
+    "bytes": 1310564,
+    "selectedMeshes": 9,
+    "meshNamePrefix": "detail_wulin-square_",
+    "wholeFileTriangles": 18798,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

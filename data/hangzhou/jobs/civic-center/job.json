@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T09:57:09+00:00",
+  "stage": "planned",
+  "agent": "main-integration",
+  "place": {
+    "id": "civic-center",
+    "name": "杭州市民中心",
+    "kind": "building-group"
+  },
+  "sourceManifest": "data/hangzhou/landmarks.json",
+  "sourceManifestSha256": "b1079f1880ea058cb866540fea9d0252fd7cff53296f1fa1f13183686ec83e8a",
+  "sourceRecord": {
+    "id": "civic-center",
+    "name": "杭州市民中心",
+    "kind": "building-group",
+    "researchEvidence": "docs/hangzhou/research/core/civic-center.evidence.json",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": null,
+      "status": "unknown",
+      "sourceIds": []
+    },
+    "sources": [
+      {
+        "id": "civic-paper",
+        "url": "https://global.ctbuh.org/resources/papers/download/1908-urban-mega-structure-vertical-landscape-of-hangzhou-civic-center.pdf",
+        "publisher": "Linxue Li / CTBUH 2014 Shanghai Conference",
+        "title": "Urban Mega-structure: Vertical Landscape of Hangzhou Civic Center",
+        "sourceDate": "2014",
+        "accessedAt": "2026-10-12",
+        "provenance": "primary-designer-conference-paper",
+        "accessMethod": "search-index-extract; direct relocated PDF fetch failed",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "旧地址https://global.ctbuh.org/resources/papers/1908-Li_2014_UrbanMegaStructure.pdf返回404。论文p224英文字段连桥85m、中文90m；100m为概括，不等同于精确建筑高。"
+      },
+      {
+        "id": "civic-cvu6",
+        "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-6/15397",
+        "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+        "title": "Hangzhou Civic Center 6",
+        "sourceDate": null,
+        "accessedAt": "2026-10-12",
+        "provenance": "primary-building-council-database",
+        "accessMethod": "web-page-text-read",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "建筑高109.6m、使用楼层高99.4m、26层，只直接支持本记录tower6，不把tower6映射A-F标签或其他五塔高度当已核验。"
+      }
+    ]
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/civic-center.py"
+    ],
+    "workerDirectories": [
+      "data/hangzhou/jobs/civic-center",
+      "artifacts/landmarks/civic-center"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-12T09:57:09+00:00",
+      "reason": "task generated; inputs require review"
+    }
+  ]
+}

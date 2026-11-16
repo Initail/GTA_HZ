@@ -1,0 +1,118 @@
+{
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "method": "raw tag-preservingways vsGeoJSON source outerring, onlycyclicstart/reversedwinding allowed",
+  "records": [
+    {
+      "sourceId": "way/783010760",
+      "rawTags": {
+        "building": "train_station",
+        "layer": "-1",
+        "name": "凤新路",
+        "name:en": "Fengxing Road",
+        "name:zh": "凤新路",
+        "operator": "杭州地铁运营有限公司",
+        "ref": "16",
+        "start_date": "2020-04-23"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/971913606",
+      "rawTags": {
+        "building": "train_station",
+        "layer": "-1",
+        "name": "金星",
+        "name:en": "Jinxing",
+        "name:zh": "金星",
+        "opening_hours": "06:09-23:49",
+        "operator": "杭州杭港地铁五号线有限公司",
+        "ref": "5",
+        "start_date": "-",
+        "wikidata": "Q62168473"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/1073899576",
+      "rawTags": {
+        "building": "transportation",
+        "name": "垂梯"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/1073899577",
+      "rawTags": {
+        "building": "transportation",
+        "name": "E"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/1073899579",
+      "rawTags": {
+        "building": "transportation",
+        "name": "F"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/1073899582",
+      "rawTags": {
+        "building": "transportation",
+        "name": "D"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/1073899595",
+      "rawTags": {
+        "building": "transportation",
+        "name": "A"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/1355173307",
+      "rawTags": {
+        "building": "yes",
+        "name": "菜鸟总部园区"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    },
+    {
+      "sourceId": "way/1537965106",
+      "rawTags": {
+        "building": "transportation",
+        "name": "D"
+      },
+      "presentInFixedBuildingsExtract": true,
+      "allSourceCornersExact": true
+    }
+  ],
+  "partFootprintsMissedByExtractor": 0,
+  "buildingPartWaysFound": 0,
+  "buildingPartRelationsFound": 0,
+  "rawBuildingRowsAreNotAllCampusBuildings": true,
+  "nonbuildingClosedWayIds": [
+    577616920,
+    887470363,
+    971913605,
+    972190813,
+    1077940367,
+    1228913717,
+    1293416973,
+    1293548829,
+    1315717922,
+    1466397040,
+    1537965104
+  ]
+}

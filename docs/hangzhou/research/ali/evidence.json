@@ -1,0 +1,1592 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-12",
+  "preparedBy": "Codex independent research agent",
+  "sourceRegistry": "docs/hangzhou/research/ali/sources.json",
+  "coordinateRules": "All saved source positions WGS84 EPSG:4326; geographic/model metric values unscaled. Apply main city adapter once. No commercial coordinate source was adopted.",
+  "places": [
+    {
+      "id": "cainiao-headquarters",
+      "name": "菜鸟总部",
+      "recordedStage": "planned",
+      "currentStage": "planned",
+      "stageReason": "Research only; unresolved parameter/crosswalk and entrance blockers; no GLB or validation supplied.",
+      "scope": "HQ main office, auditorium and public exterior landscape; adjacent Smart Valley phase 1/2 are separate objects.",
+      "identity": {
+        "status": "confirmed",
+        "sourceIds": [
+          "cainiao-contact",
+          "aedas-cainiao",
+          "cscec-cainiao"
+        ],
+        "qualification": "nominal campus identity confirmed; scope and per-building crosswalk limitations remain below"
+      },
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          119.9606604,
+          30.26480725
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "footprintPath": "docs/hangzhou/research/ali/site-footprints.json",
+      "osmParcel": {
+        "type": "way",
+        "id": 1228913717,
+        "version": 2,
+        "timestamp": "2024-06-19T03:24:42Z"
+      },
+      "observations": [
+        {
+          "kind": "extent",
+          "value": {
+            "areaM2": 108199.67,
+            "outerRingsWgs84": [
+              [
+                [
+                  119.9582489,
+                  30.2660187
+                ],
+                [
+                  119.9582487,
+                  30.2648505
+                ],
+                [
+                  119.9585725,
+                  30.264661
+                ],
+                [
+                  119.958621,
+                  30.2635185
+                ],
+                [
+                  119.9617612,
+                  30.2635148
+                ],
+                [
+                  119.9630721,
+                  30.2660997
+                ],
+                [
+                  119.9582489,
+                  30.2660187
+                ]
+              ]
+            ],
+            "metricEnvelope": {
+              "lengthM": 466.74,
+              "widthM": 284.06,
+              "longAxisBearingDegreesClockwiseFromNorthModulo180": 88.89
+            }
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-site-geometries"
+          ],
+          "uncertainty": "WGS84 OSM volunteered outline measured by measure_osm.py; unknown source positional accuracy; not a surveyed legal plot boundary."
+        },
+        {
+          "kind": "building_count",
+          "value": {
+            "mainOffice": 1,
+            "auditorium": 1
+          },
+          "basis": "reported",
+          "sourceIds": [
+            "cscec-cainiao"
+          ],
+          "uncertainty": "Construction Phase 1 scope; does not include neighboring Smart Valley phases."
+        },
+        {
+          "kind": "floors",
+          "value": {
+            "mainOffice": 5,
+            "auditorium": 4,
+            "basement": 1
+          },
+          "basis": "reported",
+          "sourceIds": [
+            "cscec-cainiao"
+          ],
+          "uncertainty": "Published floor counts, not height measurements."
+        },
+        {
+          "kind": "footprint",
+          "value": {
+            "osmType": "way",
+            "osmId": 1355173307,
+            "envelopeM": {
+              "lengthM": 234.87,
+              "widthM": 234.37,
+              "longAxisBearingDegreesClockwiseFromNorthModulo180": 89.85
+            },
+            "outerRingsWgs84": [
+              [
+                [
+                  119.9587836,
+                  30.2654977
+                ],
+                [
+                  119.9587809,
+                  30.2654083
+                ],
+                [
+                  119.9587793,
+                  30.2641584
+                ],
+                [
+                  119.9587958,
+                  30.2640228
+                ],
+                [
+                  119.9588045,
+                  30.2640259
+                ],
+                [
+                  119.9588248,
+                  30.2639602
+                ],
+                [
+                  119.9588529,
+                  30.263909
+                ],
+                [
+                  119.9589093,
+                  30.2638478
+                ],
+                [
+                  119.9589684,
+                  30.2638075
+                ],
+                [
+                  119.9590313,
+                  30.2637776
+                ],
+                [
+                  119.9590847,
+                  30.263763
+                ],
+                [
+                  119.9591129,
+                  30.2637632
+                ],
+                [
+                  119.9591229,
+                  30.2637474
+                ],
+                [
+                  119.9593569,
+                  30.2637437
+                ],
+                [
+                  119.9608524,
+                  30.2637472
+                ],
+                [
+                  119.960891,
+                  30.2637515
+                ],
+                [
+                  119.960891,
+                  30.2637612
+                ],
+                [
+                  119.9609513,
+                  30.2637752
+                ],
+                [
+                  119.9609992,
+                  30.2637918
+                ],
+                [
+                  119.9610478,
+                  30.2638144
+                ],
+                [
+                  119.9610845,
+                  30.2638418
+                ],
+                [
+                  119.9611249,
+                  30.2638751
+                ],
+                [
+                  119.9611486,
+                  30.2639133
+                ],
+                [
+                  119.9611803,
+                  30.2639756
+                ],
+                [
+                  119.9611921,
+                  30.2640256
+                ],
+                [
+                  119.9612108,
+                  30.264032
+                ],
+                [
+                  119.961217,
+                  30.2641116
+                ],
+                [
+                  119.9612201,
+                  30.2641519
+                ],
+                [
+                  119.9612137,
+                  30.2646416
+                ],
+                [
+                  119.9611987,
+                  30.2655658
+                ],
+                [
+                  119.9611904,
+                  30.2655672
+                ],
+                [
+                  119.9611766,
+                  30.2656309
+                ],
+                [
+                  119.9611586,
+                  30.2656707
+                ],
+                [
+                  119.9611323,
+                  30.2657111
+                ],
+                [
+                  119.9611047,
+                  30.2657484
+                ],
+                [
+                  119.9610646,
+                  30.2657763
+                ],
+                [
+                  119.9610016,
+                  30.2658079
+                ],
+                [
+                  119.9609273,
+                  30.2658348
+                ],
+                [
+                  119.9608866,
+                  30.2658384
+                ],
+                [
+                  119.9608812,
+                  30.2658504
+                ],
+                [
+                  119.9607895,
+                  30.2658612
+                ],
+                [
+                  119.9604796,
+                  30.2658597
+                ],
+                [
+                  119.9593487,
+                  30.2658555
+                ],
+                [
+                  119.9591137,
+                  30.2658441
+                ],
+                [
+                  119.9591077,
+                  30.2658328
+                ],
+                [
+                  119.9590886,
+                  30.2658312
+                ],
+                [
+                  119.9590556,
+                  30.2658229
+                ],
+                [
+                  119.959028,
+                  30.2658167
+                ],
+                [
+                  119.9589939,
+                  30.2658007
+                ],
+                [
+                  119.9589531,
+                  30.26578
+                ],
+                [
+                  119.9589201,
+                  30.2657556
+                ],
+                [
+                  119.9588938,
+                  30.2657375
+                ],
+                [
+                  119.9588674,
+                  30.2657054
+                ],
+                [
+                  119.9588476,
+                  30.2656795
+                ],
+                [
+                  119.9588249,
+                  30.2656474
+                ],
+                [
+                  119.9588051,
+                  30.2655682
+                ],
+                [
+                  119.9587883,
+                  30.2655589
+                ],
+                [
+                  119.9587836,
+                  30.2654977
+                ]
+              ]
+            ]
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-site-geometries"
+          ],
+          "uncertainty": "OSM outer outline only; does not establish four courtyard inner boundaries."
+        },
+        {
+          "kind": "orientation",
+          "value": 89.85,
+          "basis": "measured",
+          "sourceIds": [
+            "osm-site-geometries"
+          ],
+          "uncertainty": "Near-square envelope: this axis is weakly defined and does not identify entry direction."
+        },
+        {
+          "kind": "silhouette",
+          "value": "Five-storey nest-inspired campus office with patterned curtain wall and layered bird-mouth entrance canopy.",
+          "basis": "reported",
+          "sourceIds": [
+            "aedas-cainiao"
+          ],
+          "uncertainty": "Current architect summary; per-side facade registration not done."
+        },
+        {
+          "kind": "entrance_canopy",
+          "value": "Aluminium with wood-pattern coating, layered curved canopy.",
+          "basis": "reported",
+          "sourceIds": [
+            "aedas-cainiao"
+          ],
+          "uncertainty": "No surveyed dimensions, precise placement or all-side survey."
+        },
+        {
+          "kind": "height",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Real height is not inferred from five floors or reported GFA."
+        },
+        {
+          "kind": "roof",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Exact roof plant/photovoltaic outline and setbacks not surveyed."
+        },
+        {
+          "kind": "courtyard_layout",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Four-courtyard arrangement in earlier reference package remains a supporting lead; inner WGS84 geometry not yet confirmed here."
+        },
+        {
+          "kind": "legacy_candidate_dimensions",
+          "value": {
+            "widthM": 216,
+            "depthM": 200,
+            "floorHeightM": 4.2
+          },
+          "basis": "estimated",
+          "sourceIds": [],
+          "uncertainty": "Prior 杭城记 campus prototype gameplay assumptions; not measured and not adopted automatically."
+        }
+      ],
+      "blockers": [
+        "Exact courtyard/atrium rings not present in the OSM main-way outline.",
+        "Absolute ground level, real main-office height and auditorium footprint remain unknown.",
+        "Entrance bearing/coordinate and reference photo registration need site corroboration."
+      ],
+      "pendingSubscopes": [
+        "all-side contemporary photograph registration",
+        "facade/text/logo placement proof",
+        "night light behavior",
+        "arrival point and vehicle/walk access",
+        "source geometry to final model comparison"
+      ],
+      "validation": {
+        "scale": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "orientation": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "silhouette": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "context": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "collision": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "browser": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "performance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "provenance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        }
+      },
+      "modelSuggestions": [
+        "Use independent main ring, atrium/courtyard voids, auditorium and entrance module.",
+        "Match 234.9m mapped square outer outline before importing earlier campus gameplay-scale geometry.",
+        "Do not reproduce unknown roof or night lights as facts."
+      ]
+    },
+    {
+      "id": "alibaba-a",
+      "name": "阿里巴巴西溪 A 区",
+      "recordedStage": "planned",
+      "currentStage": "planned",
+      "stageReason": "Research only; unresolved parameter/crosswalk and entrance blockers; no GLB or validation supplied.",
+      "scope": "Current OSM named A zone includes early blocks and later ancillary/campus extensions; phase boundaries need crosswalk.",
+      "identity": {
+        "status": "confirmed",
+        "sourceIds": [
+          "alibaba-esg-campus",
+          "people-xixi-zones",
+          "osm-site-geometries"
+        ],
+        "qualification": "nominal campus identity confirmed; scope and per-building crosswalk limitations remain below"
+      },
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          120.021274,
+          30.2815813
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "footprintPath": "docs/hangzhou/research/ali/site-footprints.json",
+      "osmParcel": {
+        "type": "way",
+        "id": 645135612,
+        "version": 5,
+        "timestamp": "2025-06-30T15:00:47Z"
+      },
+      "observations": [
+        {
+          "kind": "extent",
+          "value": {
+            "areaM2": 393608.29,
+            "outerRingsWgs84": [
+              [
+                [
+                  120.0213278,
+                  30.279792
+                ],
+                [
+                  120.0218762,
+                  30.2798442
+                ],
+                [
+                  120.0234922,
+                  30.2795297
+                ],
+                [
+                  120.0237446,
+                  30.2795289
+                ],
+                [
+                  120.024128,
+                  30.2795404
+                ],
+                [
+                  120.024988,
+                  30.2797143
+                ],
+                [
+                  120.0263563,
+                  30.2800804
+                ],
+                [
+                  120.0261866,
+                  30.2811727
+                ],
+                [
+                  120.0255458,
+                  30.283649
+                ],
+                [
+                  120.0253611,
+                  30.2843627
+                ],
+                [
+                  120.0253449,
+                  30.2844252
+                ],
+                [
+                  120.0252314,
+                  30.2845158
+                ],
+                [
+                  120.0227747,
+                  30.2838988
+                ],
+                [
+                  120.0219209,
+                  30.2836483
+                ],
+                [
+                  120.0216508,
+                  30.2835857
+                ],
+                [
+                  120.0201676,
+                  30.2831844
+                ],
+                [
+                  120.0194558,
+                  30.2829373
+                ],
+                [
+                  120.0188397,
+                  30.2827756
+                ],
+                [
+                  120.0184254,
+                  30.2826325
+                ],
+                [
+                  120.0174889,
+                  30.2824023
+                ],
+                [
+                  120.0170166,
+                  30.2821999
+                ],
+                [
+                  120.0162921,
+                  30.2820285
+                ],
+                [
+                  120.0161917,
+                  30.2819099
+                ],
+                [
+                  120.0162225,
+                  30.2818277
+                ],
+                [
+                  120.0165247,
+                  30.2810213
+                ],
+                [
+                  120.0174487,
+                  30.2786468
+                ],
+                [
+                  120.0198171,
+                  30.2793004
+                ],
+                [
+                  120.0213278,
+                  30.279792
+                ]
+              ]
+            ],
+            "metricEnvelope": {
+              "lengthM": 923.44,
+              "widthM": 504.79,
+              "longAxisBearingDegreesClockwiseFromNorthModulo180": 73.86
+            }
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-site-geometries"
+          ],
+          "uncertainty": "WGS84 OSM volunteered outline measured by measure_osm.py; unknown source positional accuracy; not a surveyed legal plot boundary."
+        },
+        {
+          "kind": "mapped_building_labels",
+          "value": [
+            {
+              "osmType": "way",
+              "osmId": 456731145,
+              "name": "A9楼",
+              "envelope": {
+                "lengthM": 135.03,
+                "widthM": 44.48,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 75.18
+              },
+              "levelsTag": "3"
+            },
+            {
+              "osmType": "way",
+              "osmId": 642355049,
+              "name": "A2楼",
+              "envelope": {
+                "lengthM": 149.48,
+                "widthM": 86.48,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 48.53
+              },
+              "levelsTag": null
+            },
+            {
+              "osmType": "way",
+              "osmId": 642355051,
+              "name": "A1楼",
+              "envelope": {
+                "lengthM": 146.34,
+                "widthM": 53.82,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 73.6
+              },
+              "levelsTag": null
+            },
+            {
+              "osmType": "way",
+              "osmId": 642355052,
+              "name": "A3楼",
+              "envelope": {
+                "lengthM": 181.78,
+                "widthM": 55.71,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.29
+              },
+              "levelsTag": null
+            },
+            {
+              "osmType": "relation",
+              "osmId": 6750407,
+              "name": "A8楼",
+              "envelope": {
+                "lengthM": 146.9,
+                "widthM": 85.78,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 53.27
+              },
+              "levelsTag": "6"
+            },
+            {
+              "osmType": "relation",
+              "osmId": 6750409,
+              "name": "A7楼",
+              "envelope": {
+                "lengthM": 165.08,
+                "widthM": 56.28,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.87
+              },
+              "levelsTag": "6"
+            },
+            {
+              "osmType": "relation",
+              "osmId": 6752574,
+              "name": "A5楼",
+              "envelope": {
+                "lengthM": 137.26,
+                "widthM": 58.52,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.83
+              },
+              "levelsTag": "6"
+            },
+            {
+              "osmType": "relation",
+              "osmId": 6752575,
+              "name": "A6楼",
+              "envelope": {
+                "lengthM": 138.43,
+                "widthM": 55.15,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 73.08
+              },
+              "levelsTag": "6"
+            },
+            {
+              "osmType": "relation",
+              "osmId": 6752592,
+              "name": "A4楼",
+              "envelope": {
+                "lengthM": 118.12,
+                "widthM": 53.58,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.21
+              },
+              "levelsTag": "6"
+            }
+          ],
+          "basis": "reported",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "Nine map labels are not a proof of nine first-phase main offices; complete geometry kept separately."
+        },
+        {
+          "kind": "building_count",
+          "value": {
+            "architecturalOfficeUnits": 6
+          },
+          "basis": "reported",
+          "sourceIds": [
+            "kkaa-taobao-city"
+          ],
+          "uncertainty": "Architectural scope is Taobao City, not all current A zone."
+        },
+        {
+          "kind": "floors",
+          "value": 7,
+          "basis": "reported",
+          "sourceIds": [
+            "kkaa-taobao-city"
+          ],
+          "uncertainty": "Project maximum/general descriptor, not verified each building."
+        },
+        {
+          "kind": "silhouette",
+          "value": "Dispersed low-rise courtyard plates with elevated connecting spaces.",
+          "basis": "reported",
+          "sourceIds": [
+            "kkaa-taobao-city"
+          ],
+          "uncertainty": "Current A phase/labeled-block correspondence still pending."
+        },
+        {
+          "kind": "orientation",
+          "value": {
+            "typicalPlanAxesBearing": 73,
+            "unit": "degrees clockwise from north modulo 180"
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "Typical long straight mapped edges; not every convex-envelope long axis."
+        },
+        {
+          "kind": "bridges",
+          "value": {
+            "osmRelations": [
+              6750408,
+              6752573,
+              6752593
+            ],
+            "minimumLevelTag": 2
+          },
+          "basis": "reported",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "OSM bridge-like linked buildings must remain elevated; tags are not measured bridge deck heights."
+        },
+        {
+          "kind": "height",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "No real height metre values verified for A1–A9."
+        },
+        {
+          "kind": "roof",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Full roof setbacks/plant and contemporary current evidence missing."
+        },
+        {
+          "kind": "entrances",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "All named gates and accessible approach coordinates unresolved."
+        }
+      ],
+      "blockers": [
+        "Kengo Taobao City six office units have not been crosswalked one-to-one to current A1–A9 map labels and later phases.",
+        "Current parcel outline exceeds first-phase area; current phase boundary scope not fully fixed.",
+        "Per-building height, floor-count discrepancy (7F architect vs six levels on some OSM entities), roofs and entrances remain unresolved."
+      ],
+      "pendingSubscopes": [
+        "all-side contemporary photograph registration",
+        "facade/text/logo placement proof",
+        "night light behavior",
+        "arrival point and vehicle/walk access",
+        "source geometry to final model comparison"
+      ],
+      "validation": {
+        "scale": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "orientation": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "silhouette": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "context": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "collision": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "browser": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "performance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "provenance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        }
+      },
+      "modelSuggestions": [
+        "Separate A1–A9 and elevated links; retain voids in multipolygon footprints.",
+        "Resolve architectural unit crosswalk before freezing tower/floor proportions.",
+        "Keep water/wetland within base water pipeline; exclude replaced base buildings and close facade chunks after integration."
+      ]
+    },
+    {
+      "id": "alibaba-b",
+      "name": "阿里巴巴西溪 B 区 / 数字生态创新园",
+      "recordedStage": "planned",
+      "currentStage": "planned",
+      "stageReason": "Research only; unresolved parameter/crosswalk and entrance blockers; no GLB or validation supplied.",
+      "scope": "Current named B-zone polygon and associated mapped buildings/roofs; NBBJ Phase 4 relation is a research lead.",
+      "identity": {
+        "status": "confirmed",
+        "sourceIds": [
+          "alibaba-esg-campus",
+          "people-xixi-zones",
+          "osm-site-geometries"
+        ],
+        "qualification": "nominal campus identity confirmed; scope and per-building crosswalk limitations remain below"
+      },
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          120.02267895,
+          30.278282949999998
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "footprintPath": "docs/hangzhou/research/ali/site-footprints.json",
+      "osmParcel": {
+        "type": "way",
+        "id": 544285896,
+        "version": 6,
+        "timestamp": "2025-02-26T05:58:46Z"
+      },
+      "observations": [
+        {
+          "kind": "extent",
+          "value": {
+            "areaM2": 130767.29,
+            "outerRingsWgs84": [
+              [
+                [
+                  120.0195247,
+                  30.2788597
+                ],
+                [
+                  120.0195354,
+                  30.2789338
+                ],
+                [
+                  120.0196695,
+                  30.2789987
+                ],
+                [
+                  120.0203937,
+                  30.2792118
+                ],
+                [
+                  120.02056,
+                  30.2792906
+                ],
+                [
+                  120.0212628,
+                  30.2795315
+                ],
+                [
+                  120.021826,
+                  30.2796195
+                ],
+                [
+                  120.0223517,
+                  30.2795407
+                ],
+                [
+                  120.0228184,
+                  30.2794249
+                ],
+                [
+                  120.0232959,
+                  30.2793137
+                ],
+                [
+                  120.0239879,
+                  30.2792952
+                ],
+                [
+                  120.0247228,
+                  30.2794203
+                ],
+                [
+                  120.0250397,
+                  30.2794782
+                ],
+                [
+                  120.0252807,
+                  30.2795222
+                ],
+                [
+                  120.0258332,
+                  30.2777294
+                ],
+                [
+                  120.0219977,
+                  30.2771734
+                ],
+                [
+                  120.0209248,
+                  30.2770391
+                ],
+                [
+                  120.0204742,
+                  30.2770113
+                ],
+                [
+                  120.020147,
+                  30.2769464
+                ],
+                [
+                  120.0200826,
+                  30.2769742
+                ],
+                [
+                  120.0200182,
+                  30.2770484
+                ],
+                [
+                  120.0195247,
+                  30.2788597
+                ]
+              ]
+            ],
+            "metricEnvelope": {
+              "lengthM": 578.04,
+              "widthM": 270.18,
+              "longAxisBearingDegreesClockwiseFromNorthModulo180": 80.52
+            }
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-site-geometries"
+          ],
+          "uncertainty": "WGS84 OSM volunteered outline measured by measure_osm.py; unknown source positional accuracy; not a surveyed legal plot boundary."
+        },
+        {
+          "kind": "footprint",
+          "value": {
+            "mappedEntityCount": 23,
+            "entityIds": [
+              1363020721,
+              1363020722,
+              1363020723,
+              1363020724,
+              1363020725,
+              1363020726,
+              1363020727,
+              1363020728,
+              1363020729,
+              1363020730,
+              1363020731,
+              1363020732,
+              1363020733,
+              1363020734,
+              1363020735,
+              1363020736,
+              1363020737,
+              1363020738,
+              1363020739,
+              1363020740,
+              1363020741,
+              1363020742,
+              1363020743
+            ]
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "23 OSM ways include roofs and linking parts; not a claim of 23 main buildings."
+        },
+        {
+          "kind": "orientation",
+          "value": "Retain the original mapped multi-axis polygon arrangement rather than one rotated box.",
+          "basis": "measured",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "Bearings for each mapped outline are in site-footprints.json; unknown entrance/facade cardinal assignment."
+        },
+        {
+          "kind": "silhouette_reference",
+          "value": "NBBJ interview describes Phase 4 hexagonal nodes, rooftop gardens and terraces.",
+          "basis": "reported",
+          "sourceIds": [
+            "nbbj-partner-interview"
+          ],
+          "uncertainty": "Supporting lead only: exact Phase 4 to present B scope remains blocker."
+        },
+        {
+          "kind": "building_count",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Do not infer real building count from OSM partitioning."
+        },
+        {
+          "kind": "height",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "No B height/floor labels in these OSM entities; no verified metre heights."
+        },
+        {
+          "kind": "roof_levels",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Separate roof ways show horizontal footprint, not roof elevation/terrace step heights."
+        },
+        {
+          "kind": "entrances",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Accessible public roadside target not selected by research."
+        }
+      ],
+      "blockers": [
+        "Current B parcel to NBBJ Phase 4 numbered blocks/phase scope crosswalk has not been confirmed by a primary cadastral/site-plan source.",
+        "True primary-building count and each building height/floor count unknown.",
+        "Current roof/terrace step levels, entrance location and facade photo registration unknown."
+      ],
+      "pendingSubscopes": [
+        "all-side contemporary photograph registration",
+        "facade/text/logo placement proof",
+        "night light behavior",
+        "arrival point and vehicle/walk access",
+        "source geometry to final model comparison"
+      ],
+      "validation": {
+        "scale": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "orientation": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "silhouette": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "context": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "collision": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "browser": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "performance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "provenance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        }
+      },
+      "modelSuggestions": [
+        "Use mapped footprint as independent intermediate candidate, label all unknown verticals explicitly.",
+        "Do not transplant C1–C6 cube/long Media Roof form here.",
+        "Do not include neighboring relation 7777930 outside B parcel."
+      ]
+    },
+    {
+      "id": "alibaba-c",
+      "name": "阿里巴巴西溪 C 区 / 杭州全球总部",
+      "recordedStage": "planned",
+      "currentStage": "planned",
+      "stageReason": "Research only; unresolved parameter/crosswalk and entrance blockers; no GLB or validation supplied.",
+      "scope": "Six office cubes, visitor center, elevated interaction ring, Ali/Media Roof and podium-based courtyard landscape.",
+      "identity": {
+        "status": "confirmed",
+        "sourceIds": [
+          "nihonsekkei-phase5",
+          "aspect-park-c",
+          "credaward-park-c",
+          "people-xixi-zones",
+          "osm-site-geometries"
+        ],
+        "qualification": "nominal campus identity confirmed; scope and per-building crosswalk limitations remain below"
+      },
+      "location": {
+        "status": "confirmed",
+        "crs": "EPSG:4326",
+        "center": [
+          120.01851450000001,
+          30.28575155
+        ],
+        "sourceIds": [
+          "osm-site-geometries"
+        ],
+        "centerUse": "measurement-only bbox center, not an arrival target",
+        "qualification": "Named OSM polygon, not cadastral survey; true entrances and accessible navigation targets unverified"
+      },
+      "footprintPath": "docs/hangzhou/research/ali/site-footprints.json",
+      "osmParcel": {
+        "type": "way",
+        "id": 645093961,
+        "version": 12,
+        "timestamp": "2025-11-20T05:05:55Z"
+      },
+      "observations": [
+        {
+          "kind": "extent",
+          "value": {
+            "areaM2": 268904.23,
+            "outerRingsWgs84": [
+              [
+                [
+                  120.022431,
+                  30.2849077
+                ],
+                [
+                  120.0194637,
+                  30.2841248
+                ],
+                [
+                  120.015829,
+                  30.2831536
+                ],
+                [
+                  120.0153701,
+                  30.2844599
+                ],
+                [
+                  120.0151989,
+                  30.2846642
+                ],
+                [
+                  120.0149371,
+                  30.2852712
+                ],
+                [
+                  120.0147413,
+                  30.2858363
+                ],
+                [
+                  120.014598,
+                  30.2863338
+                ],
+                [
+                  120.0170034,
+                  30.2872714
+                ],
+                [
+                  120.0176531,
+                  30.2874841
+                ],
+                [
+                  120.0188249,
+                  30.2879595
+                ],
+                [
+                  120.0193093,
+                  30.2880625
+                ],
+                [
+                  120.0201014,
+                  30.2881617
+                ],
+                [
+                  120.0211211,
+                  30.2883495
+                ],
+                [
+                  120.0221539,
+                  30.2856621
+                ],
+                [
+                  120.022431,
+                  30.2849077
+                ]
+              ]
+            ],
+            "metricEnvelope": {
+              "lengthM": 677.6,
+              "widthM": 425.05,
+              "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.98
+            }
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-site-geometries"
+          ],
+          "uncertainty": "WGS84 OSM volunteered outline measured by measure_osm.py; unknown source positional accuracy; not a surveyed legal plot boundary."
+        },
+        {
+          "kind": "building_count",
+          "value": {
+            "offices": 6,
+            "visitorCenter": 1
+          },
+          "basis": "reported",
+          "sourceIds": [
+            "nihonsekkei-phase5",
+            "credaward-park-c"
+          ],
+          "uncertainty": "Do not count ring/roof/support ways as independent office buildings."
+        },
+        {
+          "kind": "footprint",
+          "value": [
+            {
+              "name": "C6",
+              "osmId": 18754982,
+              "envelopeM": {
+                "lengthM": 104.03,
+                "widthM": 78.78,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.89
+              },
+              "centerWgs84": [
+                120.01644715,
+                30.2839151
+              ]
+            },
+            {
+              "name": "C5",
+              "osmId": 18754983,
+              "envelopeM": {
+                "lengthM": 104.04,
+                "widthM": 78.78,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.89
+              },
+              "centerWgs84": [
+                120.0161255,
+                30.2848756
+              ]
+            },
+            {
+              "name": "C4",
+              "osmId": 18754984,
+              "envelopeM": {
+                "lengthM": 104.02,
+                "widthM": 72.87,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.76
+              },
+              "centerWgs84": [
+                120.01578695,
+                30.28577985
+              ]
+            },
+            {
+              "name": "C3",
+              "osmId": 18754985,
+              "envelopeM": {
+                "lengthM": 104.01,
+                "widthM": 70.99,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.72
+              },
+              "centerWgs84": [
+                120.01732605000001,
+                30.2866896
+              ]
+            },
+            {
+              "name": "C2",
+              "osmId": 18754986,
+              "envelopeM": {
+                "lengthM": 104.04,
+                "widthM": 74.94,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.69
+              },
+              "centerWgs84": [
+                120.01893749999999,
+                30.287106700000002
+              ]
+            },
+            {
+              "name": "C1",
+              "osmId": 18754987,
+              "envelopeM": {
+                "lengthM": 104.04,
+                "widthM": 78.78,
+                "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.9
+              },
+              "centerWgs84": [
+                120.019267,
+                30.28617855
+              ]
+            }
+          ],
+          "basis": "measured",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "C1–C6 relation holes preserved separately; mapped dimensions not surveyed."
+        },
+        {
+          "kind": "height",
+          "value": {
+            "projectReportedHeightM": 80,
+            "individualBuildingHeightM": null
+          },
+          "basis": "reported",
+          "sourceIds": [
+            "nihonsekkei-report-2026"
+          ],
+          "uncertainty": "Visual check of printed pages49–50, PDF page28. Awards appendix conflicting 140m not adopted; per-office high/low assignment unverified."
+        },
+        {
+          "kind": "floors",
+          "value": {
+            "project": 15,
+            "basement": 2
+          },
+          "basis": "reported",
+          "sourceIds": [
+            "nihonsekkei-phase5",
+            "nihonsekkei-report-2026"
+          ],
+          "uncertainty": "Reported project floor count, not verified each individual block."
+        },
+        {
+          "kind": "orientation",
+          "value": {
+            "officeLongAxisBearingDegreesClockwiseFromNorthModulo180": [
+              72.89,
+              72.89,
+              72.76,
+              72.72,
+              72.69,
+              72.9
+            ]
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "Mapped long axes of minimum rotated envelopes; true facade/entrance direction is separately unresolved."
+        },
+        {
+          "kind": "silhouette",
+          "value": "Six courtyard office cubes and visitor center connected by second-floor interaction ring; broad south Ali/Media Roof.",
+          "basis": "reported",
+          "sourceIds": [
+            "nihonsekkei-phase5"
+          ],
+          "uncertainty": "Phase5/C correspondence corroborated by architect, landscape designer and named OSM polygon."
+        },
+        {
+          "kind": "south_roof_footprint",
+          "value": {
+            "osmWayId": 1363020718,
+            "envelopeM": {
+              "lengthM": 486.4,
+              "widthM": 16.09,
+              "longAxisBearingDegreesClockwiseFromNorthModulo180": 73.24
+            }
+          },
+          "basis": "measured",
+          "sourceIds": [
+            "osm-alibaba-buildings"
+          ],
+          "uncertainty": "Mapped long narrow envelope does not establish constructed roof thickness/elevation."
+        },
+        {
+          "kind": "podium",
+          "value": "Landscape built on multi-storey podium.",
+          "basis": "reported",
+          "sourceIds": [
+            "aspect-park-c"
+          ],
+          "uncertainty": "Need vertical approach/ramp continuity; not assumed natural ground."
+        },
+        {
+          "kind": "entrances",
+          "value": null,
+          "basis": "unknown",
+          "sourceIds": [],
+          "uncertainty": "Directions suggested by southern street frontage; actual gates and approach heights not yet verified."
+        },
+        {
+          "kind": "courtyard_opening",
+          "value": "south",
+          "basis": "reported",
+          "sourceIds": [
+            "nihonsekkei-phase5"
+          ],
+          "uncertainty": "Architect plan text; actual accessible entrance and ramp not inferred."
+        }
+      ],
+      "blockers": [
+        "Individual office/visitor height, steps and ground/podium elevations not fixed.",
+        "2022 south Media Roof length 480m vs later published approximate 400m wording requires completed outline scope comparison.",
+        "Actual gate/ramp and traversable arrival positions not verified.",
+        "All-side facade, signage placement and night light details not fully reviewed."
+      ],
+      "pendingSubscopes": [
+        "all-side contemporary photograph registration",
+        "facade/text/logo placement proof",
+        "night light behavior",
+        "arrival point and vehicle/walk access",
+        "source geometry to final model comparison"
+      ],
+      "validation": {
+        "scale": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "orientation": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "silhouette": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "context": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "collision": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "browser": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "performance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        },
+        "provenance": {
+          "status": "unknown",
+          "evidencePaths": [],
+          "notes": "Not performed in this research task."
+        }
+      },
+      "photoReview": {
+        "sourceId": "nihonsekkei-report-2026",
+        "evidencePath": "docs/hangzhou/research/ali/snapshots/nihonsekkei-project-pages-49-50-reference-only.png",
+        "pdfPageOneBased": 28,
+        "viewsInspected": [
+          "courtyard pedestrian-level panoramic photo",
+          "campus aerial overview"
+        ],
+        "viewAzimuth": "unknown",
+        "finding": "Completed glass cube-like office facades, regular grid, open landscaped courtyard and broad linking roof visible; no all-side or measured photo registration claim."
+      },
+      "modelSuggestions": [
+        "Model six named office multipolygons with atrium voids and separate visitor/ring/Ali Roof pieces.",
+        "Use 80m as reported project envelope pending individual height evidence; do not make all seven blocks identical heights.",
+        "Put podium/ramps/water and accessible road arrival into shared base pipeline after serial integration."
+      ]
+    }
+  ],
+  "status": "research-partial-no-model-no-browser-validation",
+  "sourceSnapshots": {
+    "docs/hangzhou/research/ali/site-footprints.json": "db14c734a57f146168bedfee48d83aa1ab0206cea60f53dd7df6a1ae14d9276c",
+    "docs/hangzhou/research/ali/sources.json": "2614bb0ef02221ca4f4fbbae6e193c7a6808794d9fc1b5d64298c8abb1c97a50"
+  }
+}

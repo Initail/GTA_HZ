@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "place": {
+    "id": "hangzhou-tree-palette",
+    "kind": "local-procedural-asset-family"
+  },
+  "stage": "evidence-ready",
+  "history": [
+    {
+      "stage": "planned",
+      "date": "2026-10-14",
+      "reason": "parentauthorizedlocal treearchetype research/module"
+    },
+    {
+      "stage": "evidence-ready",
+      "date": "2026-10-14",
+      "reason": "sourcefilesactuallyread, categories/sizesandunknownscopefrozenbeforemodule"
+    }
+  ],
+  "coordinatePolicy": {
+    "dimensions": "realmetres untilbuild",
+    "scaleOnce": 0.6,
+    "prototypeSpace": "local east/north/up, root at0",
+    "lm": "gameunittranslation andheight, not scaledagain",
+    "runtime": "variation scale only; downloadedGLB height/crown metadata alreadygameunits",
+    "rootTransform": "keepexistingBlender→GLB→Babylon directionhandling"
+  },
+  "sourceSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/hangzhou_tree_palette.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/vegetation"
+    ],
+    "sharedOwner": "root serialintegrator"
+  },
+  "budget": {
+    "0": {
+      "maxTriangles": 4800,
+      "maxMaterials": 5
+    },
+    "1": {
+      "maxTriangles": 1700,
+      "maxMaterials": 4
+    },
+    "2": {
+      "maxTriangles": 220,
+      "maxMaterials": 3
+    }
+  },
+  "contract": "localasset evidence gate, notWGS84landmarktask CLI; no standalone georeferencedtreeinventories asserted"
+}

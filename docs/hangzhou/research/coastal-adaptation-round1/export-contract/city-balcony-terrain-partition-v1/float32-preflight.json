@@ -1,0 +1,11 @@
+{
+  "status": "simulated one local origin, not actual GLB",
+  "originENU": [
+    3316.369973047019,
+    -1976.441936745393,
+    3.767477681446
+  ],
+  "maximumVertexErrorGame": 4.932634062143558e-06,
+  "zeroAreaTriangleCount": 0,
+  "zeroAreaTriangles": []
+}

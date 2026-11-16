@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "id": "alibaba-c",
+  "cityId": "hangzhou",
+  "status": "source-bound-exterior-candidate",
+  "scope": "Finite source-bound exterior candidate: C1–C6, visitor, inter-unit bridges and south Media/Ali Roof; no full campus completion claim",
+  "anchor": {
+    "lon": 120.0185145,
+    "lat": 30.28575155
+  },
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceFootprintsPath": "docs/hangzhou/research/ali/alibaba-c-round2/geofabrik-footprints.json",
+  "sourceFootprintsSha256": "c103b7268c5caa0d281b3fe3f22260aa542f40e428d18d72791cd75d94758d2c",
+  "evidencePath": "docs/hangzhou/research/ali/alibaba-c-round2/task/alibaba-c/evidence.json",
+  "evidenceSha256": "a8cda475e4c0628a07bb790fe3d0617cb03ebd3a7d13fab67b89cebe43481dd6",
+  "coordinateConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6",
+  "baseBuildingIdsToExclude": [
+    "relation/18754982",
+    "relation/18754983",
+    "relation/18754984",
+    "relation/18754985",
+    "relation/18754986",
+    "relation/18754987",
+    "way/1363020716",
+    "way/1363020718"
+  ],
+  "buildings": [
+    {
+      "label": "C6",
+      "sourceId": "relation/18754982",
+      "ringsWGS84": [
+        [
+          [
+            120.01581,
+            30.2841166
+          ],
+          [
+            120.0160529,
+            30.2834381
+          ],
+          [
+            120.0170843,
+            30.2837135
+          ],
+          [
+            120.0170557,
+            30.2837934
+          ],
+          [
+            120.0170061,
+            30.283932
+          ],
+          [
+            120.0168413,
+            30.2843921
+          ],
+          [
+            120.01581,
+            30.2841166
+          ]
+        ],
+        [
+          [
+            120.0160784,
+            30.2839289
+          ],
+          [
+            120.0168157,
+            30.2841301
+          ],
+          [
+            120.0168738,
+            30.2839711
+          ],
+          [
+            120.0161365,
+            30.28377
+          ],
+          [
+            120.0160784,
+            30.2839289
+          ]
+        ]
+      ],
+      "height": {
+        "value": 54,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 12,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 10 candidate courses, not verified storeys"
+      },
+      "facadeCourses": 10,
+      "roofSetbackM": {
+        "value": 3,
+        "basis": "estimated",
+        "errorPlusMinusM": 2,
+        "method": "Scheme roof garden/frame recess visually compared to~104m mapped long edge; not surveyed"
+      }
+    },
+    {
+      "label": "C5",
+      "sourceId": "relation/18754983",
+      "ringsWGS84": [
+        [
+          [
+            120.0154883,
+            30.2850771
+          ],
+          [
+            120.0157312,
+            30.2843986
+          ],
+          [
+            120.0167627,
+            30.284674
+          ],
+          [
+            120.0165196,
+            30.2853526
+          ],
+          [
+            120.0154883,
+            30.2850771
+          ]
+        ],
+        [
+          [
+            120.0157567,
+            30.2848894
+          ],
+          [
+            120.016494,
+            30.2850905
+          ],
+          [
+            120.0165521,
+            30.2849316
+          ],
+          [
+            120.0158148,
+            30.2847305
+          ],
+          [
+            120.0157567,
+            30.2848894
+          ]
+        ]
+      ],
+      "height": {
+        "value": 59.2,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 12,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 11 candidate courses, not verified storeys"
+      },
+      "facadeCourses": 11,
+      "roofSetbackM": {
+        "value": 3,
+        "basis": "estimated",
+        "errorPlusMinusM": 2,
+        "method": "Scheme roof garden/frame recess visually compared to~104m mapped long edge; not surveyed"
+      }
+    },
+    {
+      "label": "C4",
+      "sourceId": "relation/18754984",
+      "ringsWGS84": [
+        [
+          [
+            120.0151584,
+            30.2859548
+          ],
+          [
+            120.0153849,
+            30.2853275
+          ],
+          [
+            120.0164155,
+            30.285605
+          ],
+          [
+            120.0162535,
+            30.2860537
+          ],
+          [
+            120.0162235,
+            30.2861366
+          ],
+          [
+            120.016189,
+            30.2862322
+          ],
+          [
+            120.0151584,
+            30.2859548
+          ]
+        ],
+        [
+          [
+            120.0154112,
+            30.2858197
+          ],
+          [
+            120.0161484,
+            30.2860209
+          ],
+          [
+            120.0162066,
+            30.2858619
+          ],
+          [
+            120.0154693,
+            30.2856609
+          ],
+          [
+            120.0154112,
+            30.2858197
+          ]
+        ]
+      ],
+      "height": {
+        "value": 64.4,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 11,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 12 candidate courses, not verified storeys"
+      },
+      "facadeCourses": 12,
+      "roofSetbackM": {
+        "value": 3,
+        "basis": "estimated",
+        "errorPlusMinusM": 2,
+        "method": "Scheme roof garden/frame recess visually compared to~104m mapped long edge; not surveyed"
+      }
+    },
+    {
+      "label": "C3",
+      "sourceId": "relation/18754985",
+      "ringsWGS84": [
+        [
+          [
+            120.0167003,
+            30.286856
+          ],
+          [
+            120.016891,
+            30.286329
+          ],
+          [
+            120.0169214,
+            30.2862451
+          ],
+          [
+            120.0179518,
+            30.2865232
+          ],
+          [
+            120.0177306,
+            30.2871341
+          ],
+          [
+            120.0167003,
+            30.286856
+          ]
+        ],
+        [
+          [
+            120.0169277,
+            30.2867272
+          ],
+          [
+            120.0176649,
+            30.2869283
+          ],
+          [
+            120.0177231,
+            30.2867694
+          ],
+          [
+            120.0169858,
+            30.2865683
+          ],
+          [
+            120.0169277,
+            30.2867272
+          ]
+        ]
+      ],
+      "height": {
+        "value": 80,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 8,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 15 candidate courses, not verified storeys"
+      },
+      "facadeCourses": 15,
+      "roofSetbackM": {
+        "value": 3,
+        "basis": "estimated",
+        "errorPlusMinusM": 2,
+        "method": "Scheme roof garden/frame recess visually compared to~104m mapped long edge; not surveyed"
+      }
+    },
+    {
+      "label": "C2",
+      "sourceId": "relation/18754986",
+      "ringsWGS84": [
+        [
+          [
+            120.0183054,
+            30.2872898
+          ],
+          [
+            120.0185393,
+            30.286645
+          ],
+          [
+            120.0195696,
+            30.2869236
+          ],
+          [
+            120.0193356,
+            30.2875684
+          ],
+          [
+            120.0183054,
+            30.2872898
+          ]
+        ],
+        [
+          [
+            120.0184776,
+            30.2871318
+          ],
+          [
+            120.0192148,
+            30.2873329
+          ],
+          [
+            120.019273,
+            30.287174
+          ],
+          [
+            120.0185357,
+            30.286973
+          ],
+          [
+            120.0184776,
+            30.2871318
+          ]
+        ]
+      ],
+      "height": {
+        "value": 74.8,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 11,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 14 candidate courses, not verified storeys"
+      },
+      "facadeCourses": 14,
+      "roofSetbackM": {
+        "value": 3,
+        "basis": "estimated",
+        "errorPlusMinusM": 2,
+        "method": "Scheme roof garden/frame recess visually compared to~104m mapped long edge; not surveyed"
+      }
+    },
+    {
+      "label": "C1",
+      "sourceId": "relation/18754987",
+      "ringsWGS84": [
+        [
+          [
+            120.0186298,
+            30.2863801
+          ],
+          [
+            120.0188728,
+            30.2857016
+          ],
+          [
+            120.0199042,
+            30.2859769
+          ],
+          [
+            120.0196611,
+            30.2866555
+          ],
+          [
+            120.0186298,
+            30.2863801
+          ]
+        ],
+        [
+          [
+            120.0188098,
+            30.2861863
+          ],
+          [
+            120.019547,
+            30.2863874
+          ],
+          [
+            120.0196052,
+            30.2862284
+          ],
+          [
+            120.0188679,
+            30.2860274
+          ],
+          [
+            120.0188098,
+            30.2861863
+          ]
+        ]
+      ],
+      "height": {
+        "value": 64.4,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 12,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 12 candidate courses, not verified storeys"
+      },
+      "facadeCourses": 12,
+      "roofSetbackM": {
+        "value": 3,
+        "basis": "estimated",
+        "errorPlusMinusM": 2,
+        "method": "Scheme roof garden/frame recess visually compared to~104m mapped long edge; not surveyed"
+      }
+    },
+    {
+      "label": "访客中心",
+      "sourceId": "way/1363020716",
+      "ringsWGS84": [
+        [
+          [
+            120.0188957,
+            30.2853879
+          ],
+          [
+            120.018954,
+            30.285226
+          ],
+          [
+            120.020569,
+            30.2856597
+          ],
+          [
+            120.0206454,
+            30.2854474
+          ],
+          [
+            120.0190256,
+            30.2850125
+          ],
+          [
+            120.0190884,
+            30.2848379
+          ],
+          [
+            120.0192028,
+            30.2848687
+          ],
+          [
+            120.0198307,
+            30.2850371
+          ],
+          [
+            120.0211163,
+            30.2853821
+          ],
+          [
+            120.0209188,
+            30.2859309
+          ],
+          [
+            120.0188957,
+            30.2853879
+          ]
+        ]
+      ],
+      "height": {
+        "value": 38.4,
+        "unit": "m",
+        "basis": "estimated",
+        "errorPlusMinusM": 10,
+        "method": "H=2m parapet +5.2m*estimated visible facade courses; project80m/15F only sets common reference pitch. 7 candidate courses, not verified storeys"
+      },
+      "facadeCourses": 7,
+      "roofSetbackM": {
+        "value": 3,
+        "basis": "estimated",
+        "errorPlusMinusM": 2,
+        "method": "Scheme roof garden/frame recess visually compared to~104m mapped long edge; not surveyed"
+      }
+    }
+  ],
+  "mediaRoof": {
+    "sourceId": "way/1363020718",
+    "ringsWGS84": [
+      [
+        [
+          120.0170061,
+          30.283932
+        ],
+        [
+          120.0170557,
+          30.2837934
+        ],
+        [
+          120.0218791,
+          30.2850903
+        ],
+        [
+          120.0218469,
+          30.2851974
+        ],
+        [
+          120.0199548,
+          30.2847028
+        ],
+        [
+          120.0193186,
+          30.2845365
+        ],
+        [
+          120.0170061,
+          30.283932
+        ]
+      ]
+    ],
+    "deckTopM": 12,
+    "deckThicknessM": 1.4,
+    "columnPitchM": 25,
+    "basis": "estimated",
+    "errorDeckPlusMinusM": 4,
+    "method": "Three scheme floor-equivalent heights beneath480m roof; source outline486.4m measured separately. Sparse open support columns25±8m rhythm are candidate, not measured"
+  },
+  "exchangeRing": {
+    "sequence": [
+      "C6",
+      "C5",
+      "C4",
+      "C3",
+      "C2",
+      "C1",
+      "访客中心"
+    ],
+    "deckTopM": 6.2,
+    "deckThicknessM": 0.8,
+    "widthM": 7,
+    "glassRailM": 1.2,
+    "basis": "estimated",
+    "errorDeckPlusMinusM": 2,
+    "errorWidthPlusMinusM": 2.5,
+    "method": "Architect reported second-floor ring + completed photo proportions; outside segments follow successive source footprints toward courtyard. Through-building routing and exact link position unverified"
+  },
+  "facade": {
+    "bayM": 3.4,
+    "majorEveryCourses": 3,
+    "majorFinProjectionM": 1.05,
+    "ribWidthM": 0.13,
+    "method": "Completed photos04/14; candidate bay/rib/panel distribution simplified, no photo textures"
+  },
+  "visitorEntry": {
+    "widthM": 16,
+    "heightM": 7,
+    "recessM": 1.0,
+    "basis": "estimated",
+    "method": "South-facing long visitor facade marked by recessed glazed vestibule under Media Roof; exact security entry unknown, not selected as arrival"
+  },
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  },
+  "pendingSubscopes": [
+    "逐栋竣工高度/层数与屋顶机械设备测绘；C3=80m仅为候选归属，不是逐栋reported",
+    "全侧立面及方案图到竣工状态差异；入口门洞准确落位、安检与可交互内部",
+    "多层景观基座/地下室地形标高与地面道路衔接；Exchange Ring全路径及可通行性",
+    "中央湖面必须由基础water管线接入；环形景观雨棚及树木家具另立范围",
+    "真实字牌字形、安装位置与许可；夜景照明事实",
+    "基础楼体/近景立面排除、GLB导出、当前资产碰撞/导航、昼夜实机三视角与性能"
+  ],
+  "noPhotoTextures": true,
+  "noNewLights": true,
+  "groundDatum": {
+    "status": "pending",
+    "candidateBaseMetres": 0,
+    "lmYUnit": "already-scaled game units",
+    "notes": "Do not infer podium elevation from OSM layer2; central terrain integration owner must verify ground/road connection."
+  }
+}

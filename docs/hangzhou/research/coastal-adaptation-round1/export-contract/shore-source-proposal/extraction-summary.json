@@ -1,0 +1,676 @@
+{
+  "pbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "citySha256": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47",
+  "structuresInCity": 282,
+  "structuresWithin180GameOfQiantangBoundary": 30,
+  "pathsWithin180GameOfQiantangWater": 642,
+  "riverBoundaryMembersInCity": 13,
+  "taggedStructureRelationsInProvince": 20,
+  "structureNodesInCity": 9,
+  "nearbyStructureList": [
+    {
+      "id": "way/157906999",
+      "version": 3,
+      "timestamp": "2012-04-14 08:54:12+00:00",
+      "tags": {
+        "barrier": "retaining_wall"
+      },
+      "nodeIds": [
+        "27573566",
+        "27573558",
+        "27573556",
+        "27573554",
+        "27573552",
+        "27572097",
+        "27572959",
+        "27572951",
+        "27572946",
+        "27572944",
+        "27572941",
+        "1701378984",
+        "27572940",
+        "27572938",
+        "27572937",
+        "1710977133",
+        "27572933",
+        "27572931",
+        "27572922",
+        "27572900",
+        "27572825",
+        "27572823",
+        "27572820",
+        "27572814",
+        "27572812",
+        "27572809",
+        "1710977138",
+        "27572805",
+        "27572803",
+        "1715899055",
+        "27572797",
+        "27572796",
+        "1710977152"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 3039.091716935498,
+      "withinRiverBoundary1GameLength": 2936.5328626416253,
+      "waterInteriorLengthGame": 2844.7604394683585
+    },
+    {
+      "id": "way/159184119",
+      "version": 1,
+      "timestamp": "2012-04-12 14:45:41+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "1712795980",
+        "1712795947"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 19.753859667616,
+      "withinRiverBoundary1GameLength": 1.003580128382703,
+      "waterInteriorLengthGame": 19.753859667616
+    },
+    {
+      "id": "way/159186362",
+      "version": 1,
+      "timestamp": "2012-04-12 15:02:22+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "27573502",
+        "1712818653"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 19.27236712090756,
+      "withinRiverBoundary1GameLength": 1.009911601886159,
+      "waterInteriorLengthGame": 19.27236712090756
+    },
+    {
+      "id": "way/159843400",
+      "version": 1,
+      "timestamp": "2012-04-16 15:54:04+00:00",
+      "tags": {
+        "man_made": "pier",
+        "source": "GPS + Bing"
+      },
+      "nodeIds": [
+        "27572663",
+        "1719406316"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 40.1140094661236,
+      "withinRiverBoundary1GameLength": 0.9997730313430383,
+      "waterInteriorLengthGame": 40.1140094661236
+    },
+    {
+      "id": "way/356904131",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623011582",
+        "3623011583"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 33.0308190123613,
+      "withinRiverBoundary1GameLength": 2.000445626428974,
+      "waterInteriorLengthGame": 23.746781681261982
+    },
+    {
+      "id": "way/356904132",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623011584",
+        "3623011585"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 29.049820497141187,
+      "withinRiverBoundary1GameLength": 2.0000026622319593,
+      "waterInteriorLengthGame": 20.437436729024814
+    },
+    {
+      "id": "way/356904133",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623011586",
+        "3623011587"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 34.39516229357041,
+      "withinRiverBoundary1GameLength": 2.0033031492099194,
+      "waterInteriorLengthGame": 24.88619919045805
+    },
+    {
+      "id": "way/356904134",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623011588",
+        "3623011589"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 34.76306795236643,
+      "withinRiverBoundary1GameLength": 2.0000849116622517,
+      "waterInteriorLengthGame": 22.761721310965704
+    },
+    {
+      "id": "way/1522614940",
+      "version": 1,
+      "timestamp": "2026-05-26 12:07:15+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "13882828236",
+        "13882828237"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 62.141873657779065,
+      "withinRiverBoundary1GameLength": 2.0000044905463943,
+      "waterInteriorLengthGame": 52.75655657773844
+    },
+    {
+      "id": "way/1522614941",
+      "version": 1,
+      "timestamp": "2026-05-26 12:07:15+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "13882828238",
+        "13882828239"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 0.0,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 60.39026227656581,
+      "withinRiverBoundary1GameLength": 2.0031239584139002,
+      "waterInteriorLengthGame": 51.485600440377425
+    },
+    {
+      "id": "way/1522614945",
+      "version": 1,
+      "timestamp": "2026-05-26 12:07:15+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "13882828248",
+        "13882828251"
+      ],
+      "waterDistanceGame": 1.7994027061793951,
+      "waterBoundaryDistanceGame": 1.7994027061793951,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 77.23469048716947,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/1522614944",
+      "version": 2,
+      "timestamp": "2026-08-10 07:15:59+00:00",
+      "tags": {
+        "man_made": "quay",
+        "name": "奥体中心码头"
+      },
+      "nodeIds": [
+        "13882828249",
+        "13882828248",
+        "13882828250"
+      ],
+      "waterDistanceGame": 2.127115652163349,
+      "waterBoundaryDistanceGame": 2.127115652163349,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 55.144839411124906,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/815833660",
+      "version": 1,
+      "timestamp": "2020-06-14 10:24:05+00:00",
+      "tags": {
+        "man_made": "embankment"
+      },
+      "nodeIds": [
+        "7619510198",
+        "7619510199",
+        "7619510200",
+        "7619510201",
+        "7619510202",
+        "7619510203",
+        "7619510204",
+        "7619510205",
+        "7619510206",
+        "7619510207",
+        "7619510208",
+        "7619510209",
+        "7619510210",
+        "7619510211",
+        "7619510212",
+        "7619510213",
+        "7619510214",
+        "7619510215",
+        "7619510216",
+        "7619510217",
+        "7619510218",
+        "7619510219",
+        "7619510220",
+        "7619510221",
+        "7619510222",
+        "7619510223",
+        "7619510224",
+        "7619510225"
+      ],
+      "waterDistanceGame": 2.512927852267542,
+      "waterBoundaryDistanceGame": 2.512927852267542,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 424.63416674596266,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/1103296758",
+      "version": 3,
+      "timestamp": "2024-09-19 19:59:15+00:00",
+      "tags": {
+        "highway": "service",
+        "man_made": "embankment"
+      },
+      "nodeIds": [
+        "10096302744",
+        "12186981296",
+        "12186981295",
+        "12186981294",
+        "12186981293",
+        "12186981292",
+        "10096302731",
+        "10096302729",
+        "10096302727",
+        "12186981291",
+        "12186981290",
+        "10096302726"
+      ],
+      "waterDistanceGame": 3.6353118630071264,
+      "waterBoundaryDistanceGame": 3.6353118630071264,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 649.6914150638895,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/611867838",
+      "version": 1,
+      "timestamp": "2018-07-28 17:51:32+00:00",
+      "tags": {
+        "area": "yes",
+        "waterway": "dam"
+      },
+      "nodeIds": [
+        "5792673100",
+        "5732169505",
+        "5792673101",
+        "5792673102",
+        "5792673100"
+      ],
+      "waterDistanceGame": 3.714427575675102,
+      "waterBoundaryDistanceGame": 3.714427575675102,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 60.5181904665742,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/798434276",
+      "version": 4,
+      "timestamp": "2025-09-08 08:04:25+00:00",
+      "tags": {
+        "embankment": "yes",
+        "highway": "tertiary",
+        "name": "之江绿道",
+        "surface": "asphalt"
+      },
+      "nodeIds": [
+        "3710271948",
+        "3710271779",
+        "3710271811",
+        "3710271810",
+        "7793513311",
+        "3710271761",
+        "3710271732",
+        "3710271784",
+        "3710271798",
+        "3710268218",
+        "3710271949",
+        "13127498964",
+        "3710271742"
+      ],
+      "waterDistanceGame": 4.585088618167026,
+      "waterBoundaryDistanceGame": 4.585088618167026,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 908.6033749660534,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/1108873904",
+      "version": 1,
+      "timestamp": "2022-11-01 03:51:38+00:00",
+      "tags": {
+        "waterway": "dam"
+      },
+      "nodeIds": [
+        "10145456489",
+        "10145456490",
+        "10145456491",
+        "10145456492",
+        "10145456489"
+      ],
+      "waterDistanceGame": 15.759877023548219,
+      "waterBoundaryDistanceGame": 15.759877023548219,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 100.95769415459912,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/356904138",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623020296",
+        "3623011585",
+        "3623020297"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 20.437409524469114,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 18.490743874947697,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 18.490743874947697
+    },
+    {
+      "id": "way/356904135",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623011590",
+        "3623011589",
+        "3623011591"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 22.76075498420234,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 10.954899810291922,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 10.954899810291922
+    },
+    {
+      "id": "way/356904137",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623020294",
+        "3623011583",
+        "3623020295"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 23.74149176317147,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 15.065293024892679,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 15.065293024892679
+    },
+    {
+      "id": "way/159476111",
+      "version": 1,
+      "timestamp": "2012-04-14 08:54:03+00:00",
+      "tags": {
+        "barrier": "wall"
+      },
+      "nodeIds": [
+        "1715899086",
+        "1715899084"
+      ],
+      "waterDistanceGame": 23.84258250438022,
+      "waterBoundaryDistanceGame": 23.84258250438022,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 9.433654533132339,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/356904136",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "man_made": "pier"
+      },
+      "nodeIds": [
+        "3623011592",
+        "3623011587",
+        "3623020293"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 24.845165545995194,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 15.56441221440985,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 15.56441221440985
+    },
+    {
+      "id": "way/356904139",
+      "version": 1,
+      "timestamp": "2015-06-28 09:04:00+00:00",
+      "tags": {
+        "waterway": "weir"
+      },
+      "nodeIds": [
+        "3623020298",
+        "3623020299"
+      ],
+      "waterDistanceGame": 27.767795565093074,
+      "waterBoundaryDistanceGame": 27.767795565093074,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 33.02332967075341,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/159843401",
+      "version": 1,
+      "timestamp": "2012-04-16 15:54:04+00:00",
+      "tags": {
+        "man_made": "pier",
+        "source": "GPS + Bing"
+      },
+      "nodeIds": [
+        "1719406315",
+        "1719406316",
+        "1719406317"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 40.11387165470131,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 36.99009330813624,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 36.99009330813624
+    },
+    {
+      "id": "way/1522614942",
+      "version": 2,
+      "timestamp": "2026-08-10 07:15:59+00:00",
+      "tags": {
+        "man_made": "quay",
+        "name": "城市阳台水上客运中心"
+      },
+      "nodeIds": [
+        "13882828240",
+        "13882828239",
+        "13882828242",
+        "13882828237",
+        "13882828241"
+      ],
+      "waterDistanceGame": 0.0,
+      "waterBoundaryDistanceGame": 50.861895664495265,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 133.48105438140487,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 133.48105438140487
+    },
+    {
+      "id": "way/536682377",
+      "version": 1,
+      "timestamp": "2017-10-29 14:54:52+00:00",
+      "tags": {
+        "waterway": "dam"
+      },
+      "nodeIds": [
+        "5198341014",
+        "5198341015"
+      ],
+      "waterDistanceGame": 57.219628236945944,
+      "waterBoundaryDistanceGame": 57.219628236945944,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 63.93328264452958,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/1058040117",
+      "version": 1,
+      "timestamp": "2022-05-07 04:23:06+00:00",
+      "tags": {
+        "area": "yes",
+        "waterway": "dam"
+      },
+      "nodeIds": [
+        "9721893024",
+        "9721893025",
+        "9721893026",
+        "9721893027",
+        "9721893024"
+      ],
+      "waterDistanceGame": 58.7720061979382,
+      "waterBoundaryDistanceGame": 58.7720061979382,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 60.51819046657403,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/627119016",
+      "version": 2,
+      "timestamp": "2025-07-03 06:03:43+00:00",
+      "tags": {
+        "height": "180",
+        "name": "新建设河西兴闸",
+        "waterway": "dam"
+      },
+      "nodeIds": [
+        "5920167281",
+        "5920167282",
+        "5920167283",
+        "5920167284",
+        "5920169285",
+        "5920169286",
+        "5920169287",
+        "5920169288",
+        "5920167281"
+      ],
+      "waterDistanceGame": 88.85545454931999,
+      "waterBoundaryDistanceGame": 88.85545454931999,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 52.404383776131255,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/1549162106",
+      "version": 1,
+      "timestamp": "2026-08-12 18:06:54+00:00",
+      "tags": {
+        "embankment": "yes",
+        "name": "旧杭机专用线",
+        "railway": "abandoned",
+        "service": "spur",
+        "usage": "industrial"
+      },
+      "nodeIds": [
+        "5105661915",
+        "14090296872",
+        "13590628840",
+        "13590628936",
+        "13590628903",
+        "13590628899",
+        "5108775052"
+      ],
+      "waterDistanceGame": 90.13443530204823,
+      "waterBoundaryDistanceGame": 90.13443530204823,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 705.1999741523216,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    },
+    {
+      "id": "way/784174386",
+      "version": 1,
+      "timestamp": "2020-03-24 10:40:33+00:00",
+      "tags": {
+        "barrier": "wall"
+      },
+      "nodeIds": [
+        "7325143907",
+        "7325143908"
+      ],
+      "waterDistanceGame": 91.54263759956312,
+      "waterBoundaryDistanceGame": 91.54263759956312,
+      "isRiverBoundaryMember": false,
+      "lengthGame": 3.294581173736524,
+      "withinRiverBoundary1GameLength": 0.0,
+      "waterInteriorLengthGame": 0.0
+    }
+  ]
+}

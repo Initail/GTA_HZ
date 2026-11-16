@@ -1,0 +1,16 @@
+{
+  "algorithm": "SHA256",
+  "date": "2026-10-14",
+  "scope": "postintegrationcollisionfix; originaldelivery sourcehash records arehistorical",
+  "files": {
+    "scripts/landmarks/alibaba_b.py": "6c7295850eb698cf17683dda1ef311d1f2d1fd7932006ed15ec60e245641389d",
+    "docs/hangzhou/research/ali/alibaba-b-round2/check_candidate.py": "4e2a3a10e1d956e83152c8b73775c582c44e9196733c400292d09cd26b8ac112",
+    "docs/hangzhou/research/ali/alibaba-b-round2/cpu-validation.json": "54b977b78e28d75be9139e549adf3475e8092bdb3f3b336d02ce32edbb8fc881",
+    "docs/hangzhou/research/ali/alibaba-b-round2/collision-fix-report.json": "9546dd8d17de939b7d83316da381d0c0f463f5d3c2cd9294ca5765660736ea62",
+    "docs/hangzhou/research/ali/alibaba-b-round2/cpu-preview-manifest.json": "0e9c336a9ef36f8e22f3893183ec7eedffb2291eaeaf68ea0474d5471ae02d0c",
+    "docs/hangzhou/research/ali/alibaba-b-round2/README.md": "592498b37e072f835920a5ebca07a4c64990d0be40434bda51c2d09a512e1ed2",
+    "docs/hangzhou/research/ali/alibaba-b-round2/cpu-preview-top.png": "9bf6073ed226ccd089c1e03d3c7de246d3ccbefc886fa7c34159d1ef3e4843c9",
+    "docs/hangzhou/research/ali/alibaba-b-round2/cpu-preview-southeast.png": "9c5036ba3034422c8358ccd3c21f41b7b82810ee3d2293141ab47df35b42cd9a",
+    "docs/hangzhou/research/ali/alibaba-b-round2/cpu-preview-south.png": "1899f5c5132e54588a8eb0dc0e871421558256541094c0839d23822a20e791aa"
+  }
+}

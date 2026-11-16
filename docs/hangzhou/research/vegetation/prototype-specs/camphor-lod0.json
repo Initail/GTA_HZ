@@ -1,0 +1,51 @@
+{
+  "id": "hz-tree-camphor-lod0",
+  "cityId": "hangzhou",
+  "speciesId": "camphor",
+  "lod": 0,
+  "season": "summer",
+  "anchor": {
+    "lon": 120.155,
+    "lat": 30.274,
+    "basis": "neutralcanonicaloriginforlocalassetexport, not a surveyedtree location"
+  },
+  "prototype": {
+    "id": "camphor",
+    "name": "香樟",
+    "scientificName": "Cinnamomum camphora (regional-source nomenclature)",
+    "leafHabit": "evergreen",
+    "form": "broad-rounded-forked",
+    "sourceIds": [
+      "shade-plan",
+      "city-streettrees",
+      "westlake-forest-history"
+    ],
+    "prototypeHeightM": 18,
+    "prototypeCrownRadiusM": 6.8,
+    "prototypeBranchClearanceM": 3.7,
+    "trunkRadiusM": 0.38,
+    "dimensionsBasis": "estimated",
+    "heightErrorPlusMinusM": 5,
+    "crownRadiusErrorPlusMinusM": 2.0,
+    "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+    "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+    "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+    "growthStage": "representative maintained adult, not ancient-tree replica"
+  },
+  "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "scope": "eight original procedural regional tree archetypes ×threeLODs, localprototype coordinates; no individualtree census/reconstruction",
+  "baseBuildingIdsToExclude": [],
+  "pendingSubscopes": [
+    "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+    "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+    "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+    "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+    "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+    "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+    "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+  ],
+  "budget": {
+    "maxTriangles": 4800,
+    "maxMaterials": 5
+  }
+}

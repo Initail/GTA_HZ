@@ -1,0 +1,610 @@
+{
+  "scope": "exact source node/edge continuity, finite main-span interpolation and actual support domains; not runtime or real driving",
+  "checks": [
+    {
+      "name": "way/4348186#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/4440870#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/5038211#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/29169666#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/29169668#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/29169669#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/29170042#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/154135283#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/154135290#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/154142005#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/154360977#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/187250184#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/187250185#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/306360708#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/306360712#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/306360714#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/306360716#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/306360717#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/306360719#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/306360721#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/331644330#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/332493850#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/332493854#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/336983474#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/336983475#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/336983476#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/336983477#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/340648407#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/340648408#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/340648409#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/340648410#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/356766855#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/356766856#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/356928221#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/356928222#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/356929320#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/420546421#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/420546423#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/434864902#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/517711616#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/517711619#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/517711626#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/517711627#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/518050764#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589383390#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589383391#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589429901#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589429903#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589429904#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589429905#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589558020#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/589558021#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/590095714#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/660878717#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/832440553#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/832440554#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/833806397#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/833806398#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1363549423#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1363549424#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1363549425#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1370934355#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1370934356#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1370934363#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1370934364#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1370934365#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1372952649#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1374970355#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1374971788#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1374971789#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1374971793#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1374971794#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1395935479#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1415317969#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1482755728#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1482755737#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1483198522#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1483198523#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1484014439#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1490592825#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1499552579#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "way/1535799130#0 exact source identity/points/original heights/width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "all original shared-node heights remain exactly continuous",
+      "pass": true,
+      "value": 0.0
+    },
+    {
+      "name": "no contradictory pinned decks",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "all raw source shared nodes agreed before proposal",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "no new roads/nodes or altered source width",
+      "pass": true,
+      "value": null
+    },
+    {
+      "name": "all source segment interpolation across finite main core matches rigid model ordinate",
+      "pass": true,
+      "value": 3.552713678800501e-15
+    },
+    {
+      "name": "Zhijiang original named bridge source grade below reported .0298",
+      "pass": true,
+      "value": [
+        [
+          "way/306360721#0",
+          0.011673184938609709
+        ],
+        [
+          "way/589558021#0",
+          0.00847426455439005
+        ]
+      ]
+    },
+    {
+      "name": "source-gradient vertical change at original max car dt below .7",
+      "pass": true,
+      "value": 0.28207558793037707
+    },
+    {
+      "name": "source-gradient vertical change at original max run dt below .48",
+      "pass": true,
+      "value": 0.022353159798256302
+    }
+  ],
+  "passed": 90,
+  "failed": 0,
+  "sampleCount": 5399,
+  "supportSummary": [
+    {
+      "bridgeId": "qiantang-bridge",
+      "sourceRoadId": "way/4348186#0",
+      "coreSamples": 646,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 646,
+      "minSignedClearanceGame": 0.3035061822970679,
+      "maxHeightDifference": 1.7763568394002505e-15
+    },
+    {
+      "bridgeId": "fuxing-bridge",
+      "sourceRoadId": "way/29169666#0",
+      "coreSamples": 802,
+      "outsideSupport": 2,
+      "fullSourceStripOutsideReportedSupport": 105,
+      "minSignedClearanceGame": -0.06547289622690756,
+      "maxHeightDifference": 3.552713678800501e-15
+    },
+    {
+      "bridgeId": "fuxing-bridge",
+      "sourceRoadId": "way/154135283#0",
+      "coreSamples": 31,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 3,
+      "minSignedClearanceGame": 0.9344344555718165,
+      "maxHeightDifference": 3.552713678800501e-15
+    },
+    {
+      "bridgeId": "fuxing-bridge",
+      "sourceRoadId": "way/29170042#0",
+      "coreSamples": 32,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 3,
+      "minSignedClearanceGame": 0.6592600567371119,
+      "maxHeightDifference": 0.0
+    },
+    {
+      "bridgeId": "fuxing-bridge",
+      "sourceRoadId": "way/154135290#0",
+      "coreSamples": 801,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 27,
+      "minSignedClearanceGame": 0.01144404881869836,
+      "maxHeightDifference": 3.552713678800501e-15
+    },
+    {
+      "bridgeId": "fuxing-bridge",
+      "sourceRoadId": "way/336983476#0",
+      "coreSamples": 839,
+      "outsideSupport": 267,
+      "fullSourceStripOutsideReportedSupport": 834,
+      "minSignedClearanceGame": -2.654726726572572,
+      "maxHeightDifference": 1.7763568394002505e-15
+    },
+    {
+      "bridgeId": "fuxing-bridge",
+      "sourceRoadId": "way/340648409#0",
+      "coreSamples": 833,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 30,
+      "minSignedClearanceGame": 0.12302579465564793,
+      "maxHeightDifference": 1.7763568394002505e-15
+    },
+    {
+      "bridgeId": "fuxing-bridge",
+      "sourceRoadId": "way/589429905#0",
+      "coreSamples": 840,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 840,
+      "minSignedClearanceGame": 0.060236895736755815,
+      "maxHeightDifference": 1.7763568394002505e-15
+    },
+    {
+      "bridgeId": "zhijiang-bridge",
+      "sourceRoadId": "way/306360721#0",
+      "coreSamples": 287,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 8,
+      "minSignedClearanceGame": 0.6266148705852412,
+      "maxHeightDifference": 1.7763568394002505e-15
+    },
+    {
+      "bridgeId": "zhijiang-bridge",
+      "sourceRoadId": "way/589558021#0",
+      "coreSamples": 288,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 10,
+      "minSignedClearanceGame": 0.23599277390640017,
+      "maxHeightDifference": 1.7763568394002505e-15
+    },
+    {
+      "bridgeId": "zhijiang-bridge",
+      "sourceRoadId": "way/306360739#0",
+      "coreSamples": 0,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 0,
+      "minSignedClearanceGame": null,
+      "maxHeightDifference": 0
+    },
+    {
+      "bridgeId": "zhijiang-bridge",
+      "sourceRoadId": "way/306360714#0",
+      "coreSamples": 0,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 0,
+      "minSignedClearanceGame": null,
+      "maxHeightDifference": 0
+    },
+    {
+      "bridgeId": "zhijiang-bridge",
+      "sourceRoadId": "way/306360716#0",
+      "coreSamples": 0,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 0,
+      "minSignedClearanceGame": null,
+      "maxHeightDifference": 0
+    },
+    {
+      "bridgeId": "zhijiang-bridge",
+      "sourceRoadId": "way/306360719#0",
+      "coreSamples": 0,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 0,
+      "minSignedClearanceGame": null,
+      "maxHeightDifference": 0
+    },
+    {
+      "bridgeId": "zhijiang-bridge",
+      "sourceRoadId": "way/589558020#0",
+      "coreSamples": 0,
+      "outsideSupport": 0,
+      "fullSourceStripOutsideReportedSupport": 0,
+      "minSignedClearanceGame": null,
+      "maxHeightDifference": 0
+    }
+  ],
+  "supportFailureIsNotSuppressed": true,
+  "blockers": [
+    "source strip entire width cannot be declared within reported deck when row signed clearance is too small; no source width was silently changed",
+    "Fuxing near-end lower way support gaps remain",
+    "Actor paths and retained railings/arch members require actual CPU collision and browser checks"
+  ]
+}

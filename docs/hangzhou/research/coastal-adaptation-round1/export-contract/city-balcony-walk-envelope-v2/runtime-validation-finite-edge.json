@@ -1,0 +1,15 @@
+{
+  "sourceSha256": "82f93649d9a834cef7aa4b805d4c9dd3a43797023b98a5115847fe0c50b88bb0",
+  "candidateSha256": "4710642be132ba1a83d77ea393341bb48bbf70714936931c9642a8093baa3b03",
+  "sampledPoints": 11865,
+  "twoHintSelections": 23730,
+  "stationaryQueries": 94920,
+  "maximumHeightErrorGame": 6.217248937900877e-15,
+  "queryFailures": 0,
+  "queryExamples": [],
+  "slabCases": 1308,
+  "slabFailures": 0,
+  "slabExamples": [],
+  "pass": true,
+  "browserOrBodyMovementRun": false
+}

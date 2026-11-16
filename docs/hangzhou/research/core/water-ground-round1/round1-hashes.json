@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-14T04:49:06+00:00",
+  "stage": "research-completed-ground-water-acceptance-blocked",
+  "files": {
+    "README.md": {
+      "sha256": "c6f14a46b27704c4503ca36c1e21d637889b4b82ca0a3b95cde316e2601a44d7",
+      "bytes": 9271
+    },
+    "attempts.json": {
+      "sha256": "14842083cc35e47e6d08fa9694865e8d0abbd389f110ca270ee88f4741cca50d",
+      "bytes": 1322
+    },
+    "check_fixed_data.py": {
+      "sha256": "8d8c6c92c456319cb23e59f2c2a7ced3cfe4875a7a80c871263999448402a2ca",
+      "bytes": 9070
+    },
+    "check_icc_collision_api.py": {
+      "sha256": "a045b12057c5db1010b5293eb63019ffef81045f9f05dd1b2bbddb4e9859622f",
+      "bytes": 4039
+    },
+    "datum-check.json": {
+      "sha256": "90b3ea75b474ef6e2f2901730b0b23cc4e3820a09de590f01a081ee19977c694",
+      "bytes": 980
+    },
+    "fixed-data-check.json": {
+      "sha256": "8a3fb0666713cc22512c3e5a8ebb1ac49f06209480beb0df6816fda8878c586f",
+      "bytes": 25188
+    },
+    "freeze_delivery.py": {
+      "sha256": "4cae81d3614ac01b7f9ea162aada37996059257e34a5a9eaf81b4d41d6d0708e",
+      "bytes": 2515
+    },
+    "icc-before-api.json": {
+      "sha256": "40f4d459b1d4d39ae511ccc0e5e44611b5e1b14a88d29ae613f380dfc62aa618",
+      "bytes": 4449
+    },
+    "icc-collision-api-validation.json": {
+      "sha256": "f0b09c03bcf088e4a129e5dea14301fd4e95bdaff8c05a1c652058e67ea69627",
+      "bytes": 1398
+    },
+    "integration-parameters.json": {
+      "sha256": "aa34f9bfc7f27bcc4521f9425eaaabe0eb4c936a6876f04c5f4c5214f90d5bc3",
+      "bytes": 13060
+    },
+    "photo-ground-review.json": {
+      "sha256": "bb6c128fe118ca0fdf38e371862767d6e71acb9bdaee7541d41681c6f1bb0c95",
+      "bytes": 3856
+    },
+    "record_findings.py": {
+      "sha256": "243dd9a18cdd8b9d1b6cb65910dc5ca984b9fd77371a004038f7ac90b93c9433",
+      "bytes": 19130
+    },
+    "source-claims.json": {
+      "sha256": "532fe014e9e9a6f9b0ecdf65bfa5801c7398527f8d5a712210214506872a0a1d",
+      "bytes": 12740
+    },
+    "source-context-features.geojson": {
+      "sha256": "02e3070a570374313aa0ecf92c19cd74aa224fbd91dc1807c59f486c25e3848a",
+      "bytes": 21496
+    }
+  },
+  "sourceCount": 15,
+  "blockerCount": 7,
+  "originalResearchPreservedFiles": 23,
+  "iccAuthorizedAPIAddition": {
+    "module": "scripts/landmarks/international_conference_center.py",
+    "sourceSha256": "446909d33e5de6c5e5c95d88c1ae3b09695a90d004a4f663cbef9b5618342c70",
+    "renderingGeometryChanged": false
+  },
+  "sourcePhotosPDFBundled": false,
+  "BlenderBrowserInvoked": false,
+  "runtimeGroundWaterValidated": false
+}

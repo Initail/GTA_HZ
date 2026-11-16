@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "broken-bridge",
+  "cityId": "hangzhou",
+  "scope": "Source-bound single-arch stone body with continuous sloping asphalt approaches and railings; lake water and pavilion groups excluded.",
+  "anchor": {
+    "lon": 120.14703035,
+    "lat": 30.26090085,
+    "basis": "measured-on-OSM",
+    "method": "source road endpoint midpoint"
+  },
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceFeatureIds": [
+    "way/28538289",
+    "way/1466925249"
+  ],
+  "baseBuildingIdsToExclude": [],
+  "baseRoadIdsToSuppressVisual": [
+    28538289
+  ],
+  "keepNavigationWayIds": [
+    28538289,
+    28538286,
+    28538290
+  ],
+  "sourceRoadNodeIds": [
+    "26315533",
+    "13454786643"
+  ],
+  "endpointsWGS84": [
+    [
+      120.1466496,
+      30.2604573
+    ],
+    [
+      120.1474111,
+      30.2613444
+    ]
+  ],
+  "bridgeLengthM": 122.63663198506704,
+  "bridgeWidthM": 8.6,
+  "widthBasis": "reported",
+  "coreArchBodyLengthM": 8.8,
+  "clearArchSpanM": 6.1,
+  "archCount": 1,
+  "spanBasis": "reported",
+  "axisRadiansEastCCW": 0.9304548787478092,
+  "polygonWGS84": [
+    [
+      120.1466032,
+      30.260492
+    ],
+    [
+      120.1466496,
+      30.2604573
+    ],
+    [
+      120.1466934,
+      30.2604245
+    ],
+    [
+      120.1474342,
+      30.2613186
+    ],
+    [
+      120.1473727,
+      30.2613632
+    ]
+  ],
+  "polygonUVMetres": [
+    [
+      -60.90111579602105,
+      5.878446197549199
+    ],
+    [
+      -61.31831599212504,
+      -5.482441167714569e-10
+    ],
+    [
+      -61.716085239305386,
+      -5.551991054010074
+    ],
+    [
+      60.352801095613636,
+      -3.491182016426386
+    ],
+    [
+      60.78198820137895,
+      4.208065442656665
+    ]
+  ],
+  "estimates": {
+    "archPosition": {
+      "value": 0.45,
+      "unit": "fraction from source SW road endpoint",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "visual ratio along full longitudinal elevation2a-61, registered to OSM endpoint corridor; no georeferenced arch survey",
+      "uncertainty": "±.05 of corridor (about±6.1m); old drawing/current placement tie-in pending"
+    },
+    "archSpringRelativeM": {
+      "value": -1.5,
+      "unit": "m relative to bridge road endpoint height",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018",
+        "government-rain2020"
+      ],
+      "method": "semicircular clear span fixes radius3.05m; low arch spring and shallow slopes inferred from elevation and side photographs; neutral endpoint datum",
+      "uncertainty": "±.7m; real lake water/abutment datum unknown"
+    },
+    "archRingThicknessM": {
+      "value": 0.6,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "coarse ring-to-clear-span proportion in figure2a-61; not a measured structural section",
+      "uncertainty": "±.25m; 1921 historical secondary report not used as field measurement"
+    },
+    "pavementThicknessM": {
+      "value": 0.2,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "thin asphalt deck above arch ring, for candidate geometry; material is reported, thickness is not",
+      "uncertainty": "±.15m"
+    },
+    "railHeightM": {
+      "value": 1.0,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-night2023"
+      ],
+      "method": "elevation rail-to-span and adult-height contextual proportion in street photograph; not calibrated imagery",
+      "uncertainty": "±.25m"
+    },
+    "railPostPitchM": {
+      "value": 2.7,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018"
+      ],
+      "method": "coarse repeated railing interval in full elevation; candidate repetition, actual post count unknown",
+      "uncertainty": "±.7m; precise ornamental sections pending"
+    },
+    "railPostWidthM": {
+      "value": 0.22,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "coarse line-weight/rail-width proportion; representative low-poly stone post",
+      "uncertainty": "±.10m"
+    },
+    "slopeProfile": {
+      "value": "smooth sine approaches to one crest over the arch",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018"
+      ],
+      "method": "preserves gradual asphalt slopes and exact endpoint heights; not a surveyed vertical alignment",
+      "uncertainty": "crest about2.35±.9m over neutral endpoints; road/collision height and current water datum pending"
+    }
+  },
+  "pendingSubscopes": [
+    "current surveyed arch position/ground/water elevations",
+    "runtime deck-height/collision and connected walking verification",
+    "precise railing/post ornamental survey",
+    "pavilion/stele/waterside structures and landscaping",
+    "lamps and day/night material integration",
+    "current in-game top/street/distant views",
+    "performance and whole-city acceptance"
+  ],
+  "coordinatePolicy": {
+    "dimensions": "unscaled real metres",
+    "lmAnchor": "existing game-unit x/z/y; y is shared endpoint height",
+    "scaleOnce": 0.6,
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ]
+  },
+  "waterPolicy": {
+    "createWaterMeshes": false,
+    "datum": "unknown; underlying main water pipeline owns the lake",
+    "note": "arch opening and lower abutments are geometry only, no candidate water patch or flat park slab"
+  },
+  "integrationContract": {
+    "visualRoadExclusion": "Suppress the flat road strip for this bridge if duplicate; retain its topology.",
+    "walking": "Bind runtime height to returned real-metre deck profile and ensure both source endpoints meet connected paths.",
+    "candidateFootArrival": {
+      "sourceNode": "13454786643",
+      "wgs84": [
+        120.1474111,
+        30.2613444
+      ],
+      "basis": "measured-on-OSM north endpoint; arrival/collision not verified"
+    },
+    "motorVehicleRouting": "OSM prohibits motor vehicles/cars on this pedestrian bridge; vehicle arrivals require a nearby permitted road and walking transfer.",
+    "widthConflict": "OSM corridor edges range~7.7–11.4m;8.6m core width is reported, not surveyed approach width. Candidate keeps8.6m travel strip; broad edge uncertainty pending."
+  },
+  "budget": {
+    "maxTriangles": 12000,
+    "maxMaterials": 4,
+    "lights": 0
+  }
+}

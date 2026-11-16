@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "placeId": "qiantang-bridges-integration-v2",
+  "artifactSha256": null,
+  "evidenceSha256": "4111ebacecb8825b4b1f91a32c23ae3ac34be3259d2155e43bfc593fc0305280",
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual GLB / browser gate unperformed; CPU findings do not promote this artifact gate."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual GLB / browser gate unperformed; CPU findings do not promote this artifact gate."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual GLB / browser gate unperformed; CPU findings do not promote this artifact gate."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual GLB / browser gate unperformed; CPU findings do not promote this artifact gate."
+    },
+    "collision": {
+      "status": "fail",
+      "evidencePaths": [
+        "docs/hangzhou/research/core/qiantang-bridges-integration-v2/runtime-collision.json",
+        "docs/hangzhou/research/core/qiantang-bridges-integration-v2/contact-diagnostics.json"
+      ],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual unchanged CPU actor modules identify remaining Fuxing source-centre/guardrail failures and Qiantang tank failures; source-wide strip support also unresolved."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual GLB / browser gate unperformed; CPU findings do not promote this artifact gate."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual GLB / browser gate unperformed; CPU findings do not promote this artifact gate."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": "portal_evidence CPU audit",
+      "reviewedAt": "2026-11-11",
+      "notes": "Actual GLB / browser gate unperformed; CPU findings do not promote this artifact gate."
+    }
+  },
+  "sourceModuleSha256": "187f31907f305d758f54d736f282e0eb1f6314acbc89936649cf606a3e078450",
+  "specSha256": "0cac8bde8b84ccab0d2193840974c840f0605966d2577184c089be22adfae255",
+  "cpuEvidence": {
+    "sourceModelChecks": [
+      11,
+      0
+    ],
+    "heightIdentityChecks": [
+      90,
+      0
+    ],
+    "coreSamples": 5399,
+    "limits": "CPU source geometry only; support/actor failures remain; no stage promotion"
+  }
+}

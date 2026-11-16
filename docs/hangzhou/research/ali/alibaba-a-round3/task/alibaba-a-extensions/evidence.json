@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-a-extensions",
+  "identity": {
+    "status": "unknown",
+    "sourceIds": [
+      "geofabrik-buildings",
+      "a9-osm-history",
+      "cloud-tour-2024",
+      "sentiment-hall9"
+    ],
+    "notes": "OSM name confirmed as label, but owner No.9Hall-to-way identity/currentphase notconfirmed. No No.9Hall≡A9automaticmapping."
+  },
+  "location": {
+    "status": "confirmed",
+    "crs": "EPSG:4326",
+    "center": [
+      120.02106495,
+      30.281538599999998
+    ],
+    "sourceIds": [
+      "geofabrik-buildings"
+    ],
+    "notes": "MappedA9footprint bboxcenter; not fieldsurvey/door/gate/arrivalpoint"
+  },
+  "sources": [
+    {
+      "id": "cloud-tour-2024",
+      "url": "https://resource.alibabacloud.com/event/detail?id=6370",
+      "publisher": "Alibaba Cloud",
+      "authority": "owner event itinerary",
+      "sourceDate": "2024-03-13",
+      "use": "No.9 Hall visiting; A5 gate and A visitor center are distinct place descriptions",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "finalUrl": "https://resource.alibabacloud.com/event/detail?id=6370",
+      "contentType": "text/html;charset=UTF-8",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/cloud-tour-2024.html",
+      "bytes": 21069,
+      "sha256": "58f58e26f25ce5e85e95d66eabb1aaef204e97e60b2185a06af315ae5f135085"
+    },
+    {
+      "id": "carec-tour-2023",
+      "url": "https://www.carecprogram.org/uploads/CIN-Conference-Handbook-Print.pdf",
+      "publisher": "CAREC / Asian Development Bank",
+      "authority": "official conference organizer",
+      "sourceDate": "2023-11-22/24",
+      "use": "No.9 Hall program and2016 construction/2022 contents renewal reported, noWGS84footprint",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "finalUrl": "https://www.carecprogram.org/uploads/CIN-Conference-Handbook-Print.pdf",
+      "contentType": "application/pdf",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/carec-tour-2023.pdf",
+      "bytes": 649373,
+      "sha256": "5cc084959d5f9a8ea63fa8de54540724020a4afc7a7b5fdf0eebab57c7eda480"
+    },
+    {
+      "id": "sentiment-hall9",
+      "url": "https://www.sentimenthifi.com/c_s.asp?cid=71",
+      "publisher": "Sentiment影音",
+      "authority": "project audiovisual contractor",
+      "sourceDate": "unknown",
+      "use": "Southeast-by-water ship silhouette; no A9 sourcepolygon identification",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "finalUrl": "https://www.sentimenthifi.com/c_s.asp?cid=71",
+      "contentType": "text/html",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/sentiment-hall9.html",
+      "bytes": 21874,
+      "sha256": "f85ce5fb27d2a4ac6ab8ce881cc3865c7cb0af2418abbb83e0f1fecf5ce77823"
+    },
+    {
+      "id": "ceibs-tour-2014",
+      "url": "https://cn.ceibs.edu/agri-food-business-association20141122",
+      "publisher": "CEIBS",
+      "authority": "visit organizer",
+      "sourceDate": "2014-11-22",
+      "use": "Historical6office/2parking/9Hall underconstruction report; not presentA1-A9crosswalk",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "finalUrl": "https://cn.ceibs.edu/agri-food-business-association20141122",
+      "contentType": "text/html; charset=UTF-8",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/ceibs-tour-2014.html",
+      "bytes": 34218,
+      "sha256": "6bd573165baae2b10de76d72a5e309ba9976d288af5735232dec08826a4469f6"
+    },
+    {
+      "id": "w3c-visitor-2018",
+      "url": "https://www.w3.org/wiki/AB/2018-03-Hangzhou",
+      "publisher": "W3C",
+      "authority": "meeting organizer",
+      "sourceDate": "2018-03-13/14",
+      "use": "HistoricBuilding5visitorcenter address; no currentfloorplan confirmation",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "finalUrl": "https://www.w3.org/wiki/AB/2018-03-Hangzhou",
+      "contentType": "text/html; charset=UTF-8",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/w3c-visitor-2018.html",
+      "bytes": 39845,
+      "sha256": "6d3b786570194b7c2a064fa40d23af5d55d81c004e5c8257237d7c05ba2de3b1"
+    },
+    {
+      "id": "artunit-visitor",
+      "url": "https://www.artunit.cn/pages/albb.html",
+      "publisher": "ARTUNIT",
+      "authority": "signage design supplier",
+      "sourceDate": "2019 project perpublication",
+      "use": "Exterior/interior signage project; precise modernmappedidentity unknown",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.artunit.cn'. (_ssl.c:1108)>",
+      "localPath": null
+    },
+    {
+      "id": "aedas-industry-2020",
+      "url": "https://www.archina.com/index.php?a=show&g=works&id=5118&m=index",
+      "publisher": "Aedas published on ARCHINA",
+      "authority": "architect supplied project",
+      "sourceDate": "2020-04-14",
+      "use": "HQphase1 and industryphase1/2 program; publishedrenders distinguishedfromcompletedphotos",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "finalUrl": "http://www.archina.com/index.php?a=show&g=works&id=5118&m=index",
+      "contentType": "text/html; charset=utf-8",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/aedas-industry-2020.html",
+      "bytes": 94554,
+      "sha256": "b96eab9a8bd5788dd9f3e5ea0e5d064368815aaf3d14b417516f33c8057c8323"
+    },
+    {
+      "id": "a9-osm-history",
+      "url": "https://api.openstreetmap.org/api/0.6/way/456731145/history",
+      "publisher": "OpenStreetMap contributors",
+      "authority": "volunteered map history",
+      "sourceDate": "various",
+      "use": "History ofmapped A9labels/levels, not surveyed identity orheight",
+      "accessedAt": "2026-10-14",
+      "license": "ODbL-1.0",
+      "finalUrl": "https://api.openstreetmap.org/api/0.6/way/456731145/history",
+      "contentType": "application/xml; charset=utf-8",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/a9-osm-history.osm",
+      "bytes": 3478,
+      "sha256": "fd2a43bdf966bafbe3cfca0b77be044c03621ac6e80cbf8f443f866a76078e3a"
+    },
+    {
+      "id": "sentiment-photo-201903281610317023",
+      "url": "https://www.sentimenthifi.com/uploadfile/day_190328/201903281610317023.jpeg",
+      "publisher": "Sentiment audiovisual contractor",
+      "parentPage": "https://www.sentimenthifi.com/c_s.asp?cid=71",
+      "sourceDate": "upload directory2019-03-28;capturedateunknown",
+      "license": "copyright retained, research/referenceonly;notruntime asset",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/201903281610317023.jpeg",
+      "bytes": 51470,
+      "sha256": "758e13a513f53b502511c0e4f90abc921d5ba02e70288448a748bfa3275835b9",
+      "status": "downloaded-reference-snapshot"
+    },
+    {
+      "id": "sentiment-photo-201903281611047432",
+      "url": "https://www.sentimenthifi.com/uploadfile/day_190328/201903281611047432.png",
+      "publisher": "Sentiment audiovisual contractor",
+      "parentPage": "https://www.sentimenthifi.com/c_s.asp?cid=71",
+      "sourceDate": "upload directory2019-03-28;capturedateunknown",
+      "license": "copyright retained, research/referenceonly;notruntime asset",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/201903281611047432.png",
+      "bytes": 922463,
+      "sha256": "d6353d20052bc4bc87a67a8e54fa835f349a664972c643862393a89802fd00a7",
+      "status": "downloaded-reference-snapshot"
+    },
+    {
+      "id": "kkaa-taobao-city",
+      "url": "https://kkaa.co.jp/project/alibaba-group-taobao-city/",
+      "finalUrl": "https://kkaa.co.jp/project/alibaba-group-taobao-city/",
+      "path": "docs/hangzhou/research/ali/snapshots/kkaa-taobao-city.html",
+      "bytes": 57402,
+      "sha256": "1c4f73b8dd3134369b2b2aa9787f49bb95bf3003f6b1b40ecba3a8d30424d9e1",
+      "status": "downloaded",
+      "title": "Alibaba Group Taobao City",
+      "publisher": "Kengo Kuma and Associates",
+      "sourceDate": "2013",
+      "authority": "architect",
+      "use": "Taobao City architectural layout; not complete present A zone crosswalk",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/kkaa-taobao-city.html"
+    },
+    {
+      "id": "alibaba-esg-campus",
+      "url": "https://www.alibabagroup.com/zh-HK/document-1586194337035714560",
+      "finalUrl": "https://www.alibabagroup.com/zh-HK/document-1586194337035714560",
+      "path": "docs/hangzhou/research/ali/snapshots/alibaba-esg-campus.html",
+      "bytes": 102141,
+      "sha256": "1bf9fe06cffae277ea9c01a044324b5a8aa2746ead8e7412c0e7c03534a7caf6",
+      "status": "downloaded",
+      "title": "阿里巴巴總務線總裁劉菲：冀辦公園區綠色實踐推動低碳創新",
+      "publisher": "阿里巴巴集团",
+      "sourceDate": "2023-04-21",
+      "authority": "owner",
+      "use": "A/B zone existence; A wetland landscape",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/alibaba-esg-campus.html"
+    },
+    {
+      "id": "osm-site-geometries",
+      "url": "https://overpass-api.de/api/interpreter",
+      "publisher": "OpenStreetMap contributors / Overpass API",
+      "title": "overpass-site-geometries.json",
+      "accessedAt": "2026-10-12",
+      "requestMethod": "POST",
+      "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+      "sourceDate": "2026-10-12T09:27:36Z",
+      "dataCrs": "EPSG:4326 / WGS84",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+      "bytes": 10879,
+      "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+      "status": "downloaded",
+      "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary",
+      "localPath": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json"
+    },
+    {
+      "id": "osm-alibaba-buildings",
+      "url": "https://overpass-api.de/api/interpreter",
+      "publisher": "OpenStreetMap contributors / Overpass API",
+      "title": "overpass-alibaba-buildings.json",
+      "accessedAt": "2026-10-12",
+      "requestMethod": "POST",
+      "query": "[out:json][timeout:45];(way[\"building\"](30.274,120.014,30.289,120.028);relation[\"building\"](30.274,120.014,30.289,120.028););out meta geom;",
+      "sourceDate": "2026-10-12T09:28:41Z",
+      "dataCrs": "EPSG:4326 / WGS84",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "path": "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json",
+      "bytes": 415501,
+      "sha256": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+      "status": "downloaded",
+      "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary",
+      "localPath": "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json"
+    },
+    {
+      "id": "kkaa-ref-Alibaba-plan_1F-s3000",
+      "url": "https://kkaa.co.jp/img/2013/10/Alibaba-plan_1F-s3000.jpg",
+      "publisher": "Kengo Kuma and Associates",
+      "parentPage": "https://kkaa.co.jp/project/alibaba-group-taobao-city/",
+      "sourceDate": "2013 project",
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round2/references/Alibaba-plan_1F-s3000.jpg",
+      "bytes": 333796,
+      "sha256": "6078e580142104ad2110efcd041fce33eac53eb1f3cfe2a40af3c8ff158a2037",
+      "referenceKind": "architect-published plan/section",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Source building/shape proportional comparison only, no runtimephoto assets"
+    },
+    {
+      "id": "kkaa-ref-Alibaba-plan_2F-s3000",
+      "url": "https://kkaa.co.jp/img/2013/10/Alibaba-plan_2F-s3000.jpg",
+      "publisher": "Kengo Kuma and Associates",
+      "parentPage": "https://kkaa.co.jp/project/alibaba-group-taobao-city/",
+      "sourceDate": "2013 project",
+      "photographCaptureDate": null,
+      "accessedAt": "2026-10-14",
+      "status": "reference-snapshot",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round2/references/Alibaba-plan_2F-s3000.jpg",
+      "bytes": 131646,
+      "sha256": "8f948895d66b7e6bbf8710a3fc7e294b1168f5711540bed64bde978a78c97e82",
+      "referenceKind": "architect-published plan/section",
+      "license": "Copyright retained; reference only, no published texture license verified",
+      "use": "Source building/shape proportional comparison only, no runtimephoto assets"
+    },
+    {
+      "id": "cainiao-contact",
+      "url": "https://www.cainiao.com/en/about-us-contact-us.html?from=subHeaderClick",
+      "finalUrl": "https://www.cainiao.com/en/about-us-contact-us.html?from=subHeaderClick",
+      "path": "docs/hangzhou/research/ali/snapshots/cainiao-contact.html",
+      "bytes": 37930,
+      "sha256": "8dd9df4966f336ed8de4d4e9ae2dd429b4a35a28bbc78e811638c2a571b0ebff",
+      "status": "downloaded",
+      "title": "Contact Cainiao",
+      "publisher": "菜鸟",
+      "sourceDate": null,
+      "authority": "owner",
+      "use": "address",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/cainiao-contact.html"
+    },
+    {
+      "id": "aedas-cainiao",
+      "url": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+      "finalUrl": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+      "path": "docs/hangzhou/research/ali/snapshots/aedas-cainiao.html",
+      "bytes": 63361,
+      "sha256": "37200c89e42b4fe676829ea15c161605f3e56383722f27c60b472c23741c0082",
+      "status": "downloaded",
+      "title": "Cainiao Hangzhou Headquarters & Industry Park Project",
+      "publisher": "Aedas",
+      "sourceDate": null,
+      "authority": "architect",
+      "use": "identity, floors, facade, entrance canopy",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/aedas-cainiao.html"
+    },
+    {
+      "id": "cscec-cainiao",
+      "url": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202305/3671552.html",
+      "finalUrl": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202305/3671552.html",
+      "path": "docs/hangzhou/research/ali/snapshots/cscec-cainiao.html",
+      "bytes": 79464,
+      "sha256": "29d1ba6e7061b0c5ec0098c2f5ae9f6ba2d4370665bf8c2e114c052e949b2b74",
+      "status": "downloaded",
+      "title": "中建三局承建的杭州菜鸟网络全球总部项目一期交付",
+      "publisher": "中国建筑 / 中建三局",
+      "sourceDate": "2023-05-25",
+      "authority": "contractor",
+      "use": "reported program and building counts",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/cscec-cainiao.html"
+    },
+    {
+      "id": "aedas-photo-Headquarters",
+      "url": "https://aedas-wps-cn-prd.oss-cn-shanghai.aliyuncs.com/media/2024/11/Hangzhou-Cainiao-Headquarters.jpg",
+      "publisher": "Aedas",
+      "parentPage": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "path": "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters.jpg",
+      "bytes": 1360078,
+      "sha256": "326ef8ce37f9a6e975f749f78d50647091ec2be325718839393572174e1f906b",
+      "status": "reference-snapshot",
+      "license": "Copyright retained by source; no runtime texture or public-artwork license verified",
+      "use": "Research-only visual comparison and proportional estimation; never used as published game texture",
+      "localPath": "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters.jpg"
+    },
+    {
+      "id": "aedas-photo-3",
+      "url": "https://aedas-wps-cn-prd.oss-cn-shanghai.aliyuncs.com/media/2024/11/Hangzhou-Cainiao-Headquarters-3.jpg",
+      "publisher": "Aedas",
+      "parentPage": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "path": "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters-3.jpg",
+      "bytes": 1080366,
+      "sha256": "1cc9e9124a4b5088f82ffddf753d6b9cef32a6661bc0a51f7a22ab3de3676c6e",
+      "status": "reference-snapshot",
+      "license": "Copyright retained by source; no runtime texture or public-artwork license verified",
+      "use": "Research-only visual comparison and proportional estimation; never used as published game texture",
+      "localPath": "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters-3.jpg"
+    },
+    {
+      "id": "aedas-photo-4",
+      "url": "https://aedas-wps-cn-prd.oss-cn-shanghai.aliyuncs.com/media/2024/11/Hangzhou-Cainiao-Headquarters-4.jpg",
+      "publisher": "Aedas",
+      "parentPage": "https://www.aedas.com/en/project/hangzhou-yuhang-headquarters-industry-park-project/",
+      "accessedAt": "2026-10-13",
+      "sourceDate": null,
+      "path": "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters-4.jpg",
+      "bytes": 844966,
+      "sha256": "7e9a15454010461a0d7b1fbf5e794627317d6926c2ee65b6755129bd997b8bc5",
+      "status": "reference-snapshot",
+      "license": "Copyright retained by source; no runtime texture or public-artwork license verified",
+      "use": "Research-only visual comparison and proportional estimation; never used as published game texture",
+      "localPath": "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters-4.jpg"
+    },
+    {
+      "id": "aedas-gooood-photo-001",
+      "url": "https://oss.gooood.cn/uploads/2023/10/001-hangzhou-yuhang-cainiao-headquarters-industry-park-by-aedas-960x551.jpg",
+      "publisher": "Aedas via gooood",
+      "parentPage": "https://www.gooood.cn/hangzhou-yuhang-cainiao-headquarters-industry-park-by-aedas.htm",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2023-10-11",
+      "path": "docs/hangzhou/research/ali/cainiao-round2/references/001-hangzhou-yuhang-cainiao-headquarters-industry-park-by-aedas-960x551.jpg",
+      "sha256": "2043b5fcf92ad549d4b9362400b8a926456825b7814cea18b4f9e2dce4f4c620",
+      "bytes": 307986,
+      "status": "reference-snapshot",
+      "license": "Copyright source; reference only, no game-texture license verified",
+      "use": "Candidate proportions/observations, never runtime texture",
+      "localPath": "docs/hangzhou/research/ali/cainiao-round2/references/001-hangzhou-yuhang-cainiao-headquarters-industry-park-by-aedas-960x551.jpg"
+    },
+    {
+      "id": "geofabrik-buildings",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "dataCrs": "EPSG:4326",
+      "license": "ODbL-1.0;©OpenStreetMapcontributors",
+      "originalPbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/processed/hangzhou/buildings.geojson",
+      "sha256": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+      "use": "volunteered mappedgeometries/IDs/tags, no surveyoractualheight claim"
+    },
+    {
+      "id": "geofabrik-places",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "dataCrs": "EPSG:4326",
+      "license": "ODbL-1.0;©OpenStreetMapcontributors",
+      "originalPbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/processed/hangzhou/places.geojson",
+      "sha256": "6d7e3714bfc34ae86bf5a2487bae1433ce14801dcbf494b315689567eb0e0ef7",
+      "use": "volunteered mappedgeometries/IDs/tags, no surveyoractualheight claim"
+    },
+    {
+      "id": "geofabrik-roads",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "dataCrs": "EPSG:4326",
+      "license": "ODbL-1.0;©OpenStreetMapcontributors",
+      "originalPbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/processed/hangzhou/roads.geojson",
+      "sha256": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+      "use": "volunteered mappedgeometries/IDs/tags, no surveyoractualheight claim"
+    },
+    {
+      "id": "geofabrik-water",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "dataCrs": "EPSG:4326",
+      "license": "ODbL-1.0;©OpenStreetMapcontributors",
+      "originalPbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/processed/hangzhou/water.geojson",
+      "sha256": "b13eda144ba78a978a4a0ba50b513c545ec2f792b683fb2d28a8cbfd4139e1d1",
+      "use": "volunteered mappedgeometries/IDs/tags, no surveyoractualheight claim"
+    },
+    {
+      "id": "geofabrik-green",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "dataCrs": "EPSG:4326",
+      "license": "ODbL-1.0;©OpenStreetMapcontributors",
+      "originalPbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/processed/hangzhou/green.geojson",
+      "sha256": "ad8f96d03bdf7e4219571e0b9cb91437af3ed2d8ba8e553fd2474f7f6adaf468",
+      "use": "volunteered mappedgeometries/IDs/tags, no surveyoractualheight claim"
+    },
+    {
+      "id": "geofabrik-pois",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "accessedAt": "2026-10-14",
+      "status": "fixed-source-verified",
+      "dataCrs": "EPSG:4326",
+      "license": "ODbL-1.0;©OpenStreetMapcontributors",
+      "originalPbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/processed/hangzhou/pois.geojson",
+      "sha256": "6df4ea148979857fe2dba52eb49e2f2ea28001b6eda149c5e685d84ec683255b",
+      "use": "volunteered mappedgeometries/IDs/tags, no surveyoractualheight claim"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "sourceId": "way/456731145",
+        "sourceVertices": 32,
+        "mappedAreaM2": 4369.98,
+        "minimumEnvelopeM": [
+          135.03,
+          44.48
+        ]
+      },
+      "unit": "unscaled metres / WGS84",
+      "basis": "measured",
+      "sourceIds": [
+        "geofabrik-buildings",
+        "a9-osm-history"
+      ],
+      "uncertainty": "WGS84 ECEF→ENU polygon area andhull minimumrectangle; numericalmeasurementof volunteered map, planaccuracyunknown. Envelopeisnottruebuilding rectangle. Priorfrozengeometryexactmatch; no buffering."
+    },
+    {
+      "kind": "orientation",
+      "value": 75.18,
+      "unit": "degrees clockwise fromnorth modulo180",
+      "basis": "measured",
+      "sourceIds": [
+        "geofabrik-buildings"
+      ],
+      "uncertainty": "Minimumenvelope longaxis fromfixedpolygon; notentry/facade compassverification. Actualcurvedfootprintwouldbe preservedifcoreevidencebecomesready."
+    },
+    {
+      "kind": "height",
+      "value": null,
+      "unit": "metres",
+      "basis": "unknown",
+      "sourceIds": [
+        "geofabrik-buildings"
+      ],
+      "uncertainty": "OSM3levels retainedaslabel only, no reportedmetricheight orsecondregisteredphoto; do not multiply3 by guessedofficefloorpitch toclaimcurrentheight."
+    },
+    {
+      "kind": "silhouette",
+      "value": null,
+      "unit": "current exterior androof",
+      "basis": "unknown",
+      "sourceIds": [
+        "sentiment-hall9",
+        "sentiment-photo-201903281610317023"
+      ],
+      "uncertainty": "Onefrontbywater image showslowgreycurved roof,glass and3slantedwhitepanels withBuilding4behind, but no secondregisterednon-collinearview/ownerplan proving precise A9roof/entrance."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "A9-owner-identity-crosswalk",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "CurrentOSM A9/2016Building9 label andofficialNo.9Hall visitprogram lackauthoritativeWGS84identifiercrosswalk. Singlevendorfrontphoto supportslowcurvedhallwithBuilding4behind, butnot enoughcurrentplan/multiviewregistration tofreeze a trueA9body."
+    },
+    {
+      "id": "A9-shape-height-entry",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "3levelOSMlabelnotmetricheight; roofcoursebreaks,actualentryandsecondnon-collinearimage notconfirmed. Noheight/facade invented."
+    },
+    {
+      "id": "A-remaining-complete-link-network",
+      "reason": "All4mappedanonymous elevatedsourcepolygons alreadyround2; no newtaggedbuildinglink in fixedAparcel. Historic>1km network centerlines/functions/changes needregistration, not newbridgeinferred from38mixedgrade roadrecords."
+    }
+  ],
+  "scope": "ResearchA9physicalidentity/currentexteriorandunmappedremaininglinknetwork only. No geometrycandidatecreated, previousA1-A8/fourlinks unchanged.",
+  "sourceSnapshots": {
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/cloud-tour-2024.html": "58f58e26f25ce5e85e95d66eabb1aaef204e97e60b2185a06af315ae5f135085",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/carec-tour-2023.pdf": "5cc084959d5f9a8ea63fa8de54540724020a4afc7a7b5fdf0eebab57c7eda480",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/sentiment-hall9.html": "f85ce5fb27d2a4ac6ab8ce881cc3865c7cb0af2418abbb83e0f1fecf5ce77823",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/ceibs-tour-2014.html": "6bd573165baae2b10de76d72a5e309ba9976d288af5735232dec08826a4469f6",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/w3c-visitor-2018.html": "6d3b786570194b7c2a064fa40d23af5d55d81c004e5c8257237d7c05ba2de3b1",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/aedas-industry-2020.html": "b96eab9a8bd5788dd9f3e5ea0e5d064368815aaf3d14b417516f33c8057c8323",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/a9-osm-history.osm": "fd2a43bdf966bafbe3cfca0b77be044c03621ac6e80cbf8f443f866a76078e3a",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/201903281610317023.jpeg": "758e13a513f53b502511c0e4f90abc921d5ba02e70288448a748bfa3275835b9",
+    "docs/hangzhou/research/ali/alibaba-a-round3/references/201903281611047432.png": "d6353d20052bc4bc87a67a8e54fa835f349a664972c643862393a89802fd00a7",
+    "docs/hangzhou/research/ali/snapshots/kkaa-taobao-city.html": "1c4f73b8dd3134369b2b2aa9787f49bb95bf3003f6b1b40ecba3a8d30424d9e1",
+    "docs/hangzhou/research/ali/snapshots/alibaba-esg-campus.html": "1bf9fe06cffae277ea9c01a044324b5a8aa2746ead8e7412c0e7c03534a7caf6",
+    "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+    "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+    "docs/hangzhou/research/ali/alibaba-a-round2/references/Alibaba-plan_1F-s3000.jpg": "6078e580142104ad2110efcd041fce33eac53eb1f3cfe2a40af3c8ff158a2037",
+    "docs/hangzhou/research/ali/alibaba-a-round2/references/Alibaba-plan_2F-s3000.jpg": "8f948895d66b7e6bbf8710a3fc7e294b1168f5711540bed64bde978a78c97e82",
+    "docs/hangzhou/research/ali/snapshots/cainiao-contact.html": "8dd9df4966f336ed8de4d4e9ae2dd429b4a35a28bbc78e811638c2a571b0ebff",
+    "docs/hangzhou/research/ali/snapshots/aedas-cainiao.html": "37200c89e42b4fe676829ea15c161605f3e56383722f27c60b472c23741c0082",
+    "docs/hangzhou/research/ali/snapshots/cscec-cainiao.html": "29d1ba6e7061b0c5ec0098c2f5ae9f6ba2d4370665bf8c2e114c052e949b2b74",
+    "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters.jpg": "326ef8ce37f9a6e975f749f78d50647091ec2be325718839393572174e1f906b",
+    "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters-3.jpg": "1cc9e9124a4b5088f82ffddf753d6b9cef32a6661bc0a51f7a22ab3de3676c6e",
+    "docs/hangzhou/research/ali/cainiao-round2/references/Hangzhou-Cainiao-Headquarters-4.jpg": "7e9a15454010461a0d7b1fbf5e794627317d6926c2ee65b6755129bd997b8bc5",
+    "docs/hangzhou/research/ali/cainiao-round2/references/001-hangzhou-yuhang-cainiao-headquarters-industry-park-by-aedas-960x551.jpg": "2043b5fcf92ad549d4b9362400b8a926456825b7814cea18b4f9e2dce4f4c620",
+    "data/processed/hangzhou/buildings.geojson": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+    "data/processed/hangzhou/places.geojson": "6d7e3714bfc34ae86bf5a2487bae1433ce14801dcbf494b315689567eb0e0ef7",
+    "data/processed/hangzhou/roads.geojson": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+    "data/processed/hangzhou/water.geojson": "b13eda144ba78a978a4a0ba50b513c545ec2f792b683fb2d28a8cbfd4139e1d1",
+    "data/processed/hangzhou/green.geojson": "ad8f96d03bdf7e4219571e0b9cb91437af3ed2d8ba8e553fd2474f7f6adaf468",
+    "data/processed/hangzhou/pois.geojson": "6df4ea148979857fe2dba52eb49e2f2ea28001b6eda149c5e685d84ec683255b",
+    "docs/hangzhou/research/ali/alibaba-a-round3/a9-source-audit.json": "8c278c17b125808347f85b78914b23ad27126ab20d9ab11362c4c6e00cb5ff8b",
+    "docs/hangzhou/research/ali/alibaba-a-round3/link-source-audit.json": "e3b9c3a125e802c1e1d13cafb36bea4be29c54a76bb607c032a8634f29df4c50",
+    "docs/hangzhou/research/ali/alibaba-a-round3/cainiao-source-audit.json": "23165ec8be05ec0bd92c3975ef018c1da0888608d5347742cecce5d24054e73d",
+    "docs/hangzhou/research/ali/alibaba-a-round3/fixed-source-objects.json": "268c52196722b012d26abc74bd8fd144eae9f98f5844740d4071804e498a74f2"
+  },
+  "referencePhotoObservations": [
+    {
+      "sourceId": "sentiment-photo-201903281610317023",
+      "status": "actually-viewed",
+      "visible": "Lowbywaterfront,greycurvedroof, glazing, threewhite slantedpanels, backgroundbuilding4label",
+      "notProved": "exactcurrentbuildingidentity,roofheight/slopes/rearsides/entryWGS84 orphotosurveydate"
+    },
+    {
+      "sourceId": "sentiment-photo-201903281611047432",
+      "status": "actually-viewed",
+      "visible": "temporary orangeAlibaba installation andstandardoffice facade besidewater",
+      "notProved": "A9secondview; not counted assecondA9exterior reference"
+    }
+  ],
+  "conflictingOrDifferentEpochRecords": [
+    {
+      "subject": "Hall9schedule",
+      "sourceIds": [
+        "ceibs-tour-2014",
+        "carec-tour-2023"
+      ],
+      "records": [
+        "2014visitpage saysHall9underconstruction with2014planneduse",
+        "2023tourprogram reportsbuilt2016/contentrenewal2022"
+      ],
+      "resolution": "Keepplannedandactualreportedyears separate; no phaseorheightinference."
+    },
+    {
+      "subject": "visitorcenter≠gate≠hall",
+      "sourceIds": [
+        "w3c-visitor-2018",
+        "cloud-tour-2024"
+      ],
+      "records": [
+        "2018meeting organizerlocatesvisitorcenter atBuilding5",
+        "2024owneritineraryusesA5Gate,visitorcenter205 andNo.9Hall asdifferentdescriptions"
+      ],
+      "resolution": "A5Gate isnot A5building proof; visitorcenter isnot automatically A9"
+    }
+  ],
+  "secondaryResearch": {
+    "cainiao": "cainiao-source-audit.json",
+    "pending": "Reporter4Fhall/visitorbuilding andpartnerofficefootprintsmissingfromfixedOSM; reportedthreeparcelplanneddevelopment/upperjoggingloop needscurrentasbuiltcrosswalk; no new Cainiaomodule inthisscope"
+  }
+}

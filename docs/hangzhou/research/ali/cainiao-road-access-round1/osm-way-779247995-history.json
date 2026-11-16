@@ -1,0 +1,98 @@
+{
+  "sourceFile": "references/osm-way-779247995-history.xml",
+  "sourceSha256": "c89b5840cd9b4ad0ccd11228213a8013f122f27acf920e6ab5dfd04089358e04",
+  "versions": [
+    {
+      "version": 1,
+      "timestamp": "2020-03-08T06:47:26Z",
+      "changeset": "81915933",
+      "tags": {
+        "access": "no",
+        "highway": "construction",
+        "name": "规划道路"
+      },
+      "nodeIds": [
+        7276172384,
+        7276175685
+      ]
+    },
+    {
+      "version": 2,
+      "timestamp": "2023-12-05T18:56:20Z",
+      "changeset": "144803658",
+      "tags": {
+        "access": "no",
+        "highway": "tertiary",
+        "name": "规划道路"
+      },
+      "nodeIds": [
+        7276172384,
+        7276175685
+      ]
+    },
+    {
+      "version": 3,
+      "timestamp": "2024-04-27T11:04:39Z",
+      "changeset": "150574601",
+      "tags": {
+        "access": "no",
+        "highway": "tertiary",
+        "name": "菜鸟北路"
+      },
+      "nodeIds": [
+        7276172384,
+        7276175685
+      ]
+    },
+    {
+      "version": 4,
+      "timestamp": "2025-07-30T13:26:43Z",
+      "changeset": "169721297",
+      "tags": {
+        "access": "no",
+        "highway": "tertiary",
+        "name": "菜鸟北路"
+      },
+      "nodeIds": [
+        7276172384,
+        13037359844,
+        7276175685
+      ]
+    },
+    {
+      "version": 5,
+      "timestamp": "2026-01-04T04:57:18Z",
+      "changeset": "176805873",
+      "tags": {
+        "access": "no",
+        "highway": "tertiary",
+        "name": "菜鸟北路"
+      },
+      "nodeIds": [
+        13037359844,
+        13429837945,
+        13429837948,
+        7276175685,
+        13429837942
+      ]
+    },
+    {
+      "version": 6,
+      "timestamp": "2026-07-13T11:46:38Z",
+      "changeset": "185648586",
+      "tags": {
+        "access": "no",
+        "highway": "tertiary",
+        "name": "菜鸟北路"
+      },
+      "nodeIds": [
+        13037359844,
+        13429837945,
+        14008463188,
+        13429837948,
+        7276175685,
+        13429837942
+      ]
+    }
+  ]
+}

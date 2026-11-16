@@ -1,0 +1,32 @@
+[
+  {
+    "id": "xixing-current",
+    "url": "https://www.hzzx.gov.cn/zxyw/content/2026-10/12/content_9334487.htm",
+    "path": "<TEMP>/qiantang-bridges-research/xixing-current.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 23587,
+    "sha256": "0a5cda5717a792605c402475b84d31673712f4ad008dd386d11a19b62e6d58e3",
+    "bundled": false
+  },
+  {
+    "id": "xixing-closure",
+    "url": "https://www.hzzx.gov.cn/cshz/content/2025-11/10/content_9120865_0.htm",
+    "path": "<TEMP>/qiantang-bridges-research/xixing-closure.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 47331,
+    "sha256": "06787a19907461f25e22ec14bdaf98cea237ad9a6b59e51067a435a2ac6f0e96",
+    "bundled": false
+  },
+  {
+    "id": "boao-naming",
+    "url": "https://www.hangzhou.gov.cn/art/2021/11/12/art_1229063387_1804264.html",
+    "path": "<TEMP>/qiantang-bridges-research/boao-naming.html",
+    "returncode": 0,
+    "httpStatus": "403",
+    "bytes": 150,
+    "sha256": "32cbc376cd769a26d108ae31678f975b863b7066e110c59d9a212c7281bd8c81",
+    "bundled": false
+  }
+]

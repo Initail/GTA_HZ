@@ -1,0 +1,19 @@
+{
+  "artifacts/cities/hangzhou/shore-meshes-v2/manifest.json": "64ce9a904cd4105af1987ec5648921653f0491c66c73b1449643d1b95c85b5f5",
+  "artifacts/cities/hangzhou/shore-glb-v2/asset-manifest.json": "6f63935571b2a4af146e30b10b1b25d87dd0cd111abde8db72ab5091817f9e7e",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/proposals.json": "68f6e1cdffdcf013802a89a6bad2110e56d1888a2d7226855eba9ef2e5ce2066",
+  "artifacts/cities/hangzhou/render-input-v6/city.json": "2ec7148ae03338f0ef89bdb8e02d6a3ec892c67868eada8c713624d28a90c244",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/package-manifest.json": "f5306feae27cf841efa8b0e702f7d1964125c7951e2bfd5baa17887f2b220c23",
+  "artifacts/cities/hangzhou/render-input-v6/geography/manifest.json": "86405ade07b6c8a07476209c22c33cebb7ae7a52bf02515db765290f8041b4bb",
+  "artifacts/cities/hangzhou/render-input-v6/geography/terrain-game.bin": "dd1ae9e4707979cfaf4bf7b793bae1c590f18e71803f241c0c3d5d4a265792ac",
+  "artifacts/cities/hangzhou/render-input-v6/geography/road-levels.json": "0db3134e9a24b53ab0361a3f2fdc1738f818ceddafc56d94c5500b8ba75a25c1",
+  "scripts/prepare_hangzhou_shores.py": "e313d3e3a309346328f9693fc4a6539595d12114583ddc60276f97fc466a5212",
+  "scripts/hangzhou_surface.py": "2cc1fb5b3d25dd0668027d0de08b763b3e7fdd9db01bb6bafce2697b44e56b6e",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2/candidate-spec.json": "bab55dc39b18be3ed2445515c08831a29a03842b36e2373dafa16134fd6551a3",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2/collision-candidate.json": "b02022f4b11160558d77081bf799d80923fa8bff0a46ccb5d84efcafad6fcff2",
+  "scripts/landmarks/city_balcony_floor_v2.py": "9b69526095965d6e9980967a1f242f5ce23f0130fcaa4eb982de373c76d45d48",
+  "src/city-walk.ts": "457398ad1a91d781e16f1cace4e6c497a7719c4e35259a5c0e969ea98a471c53",
+  "src/driving.ts": "c1ad7e01243c7218b919cdc9709085427c1b449257c340a003eaba6ef544ac2d",
+  "artifacts/cities/hangzhou/landmarks/city-balcony-floor-v2/city-balcony.glb": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/riverside-paths.geojson": "4b4e6bc09688c186aa3731ca2da028779a6215c90b886d88227e176f2d3be487"
+}

@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-read-only-source-and-sample-contract",
+  "inputSha256": {
+    "config/cities/hangzhou.json": "6a065edc4c99a00e6bed374e3290aa50ca1457fddbd0bb24d6550c3bbda8dda5",
+    "data/hangzhou/dsm-source-manifest.json": "9bab4424331188276c9bdbda3082efd0e811f1ec18a1dbefa72eed08530c7ee7",
+    "artifacts/cities/hangzhou/terrain-glo30-v2/manifest.json": "2ebb050e8f114d8ea5276918927652050cf490093fd61483e5f0932385b1d6c4",
+    "docs/hangzhou/research/core/lingyin-round2/spec.json": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93",
+    "docs/hangzhou/research/core/city-balcony-round2/spec.json": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+    "docs/hangzhou/research/core/grand-theatre-round2/spec.json": "fb44df429aaa82e6793c964f84d391cb4b08e20d815a9044fca14335efefdf1f",
+    "data/processed/hangzhou/roads.geojson": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+    "data/processed/hangzhou/water.geojson": "b13eda144ba78a978a4a0ba50b513c545ec2f792b683fb2d28a8cbfd4139e1d1"
+  },
+  "coordinateProjection": {
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "scale": 0.6
+  },
+  "sourceArraySha256": {
+    "dsm-egm2008-metres.bin": "8d98dd44ab37b4d7f3492479a0053f38f6df97afb12d309002f80d52a2ea8516",
+    "ground-estimate-egm2008-metres.bin": "6aa6942601d56462615c84eecab7b8d2a375fe4174b01ef74f239f3e08473a95"
+  },
+  "nativeDSMResolutionM": 30,
+  "sampleGridSpacingGame": 30,
+  "sampleGridSpacingRealM": 50.0,
+  "nearestGridMaximumHorizontalOffsetRealM": 35.35533905932737,
+  "filterStages": "3x3min then3x3max then3x3mean",
+  "effectiveSupportRadiusGridCells": 3,
+  "effectiveSupportWidthGridCells": 7,
+  "effectiveSupportCenterToCenterSpanRealM": 300.0,
+  "filterSupportInterpretation": "Three radius1stages depend on raw samples up to radius3. This is a dependency bound, not increased native resolution or actual feature precision.",
+  "halls": [
+    {
+      "id": "kings",
+      "name": "天王殿",
+      "sourceFeatureIds": [
+        "way/434365023"
+      ],
+      "frozenModuleRelativeBaseM": 0,
+      "sample": {
+        "pointWGS84": [
+          120.09693385,
+          30.24235535
+        ],
+        "nearestGridIndices": [
+          321,
+          183
+        ],
+        "nearestGridGame": [
+          -3359.7160058074896,
+          -2092.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 23.807912106735248,
+        "dsmMetresEGM2008": 61.96693801879883,
+        "filteredEstimateMetresEGM2008": 61.76942825317383,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            59.75018310546875,
+            64.12718963623047
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            60.86396026611328,
+            65.55428314208984
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "groundFloorAbsoluteMetres": null,
+      "stepCount": null,
+      "stepHeightM": null,
+      "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+    },
+    {
+      "id": "grand",
+      "name": "大雄宝殿",
+      "sourceFeatureIds": [
+        "way/434365024"
+      ],
+      "frozenModuleRelativeBaseM": 0,
+      "sample": {
+        "pointWGS84": [
+          120.09667203986709,
+          30.243079869830463
+        ],
+        "nearestGridIndices": [
+          321,
+          184
+        ],
+        "nearestGridGame": [
+          -3359.7160058074896,
+          -2062.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 16.23502952179228,
+        "dsmMetresEGM2008": 64.12718963623047,
+        "filteredEstimateMetresEGM2008": 63.88618469238281,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            60.89879608154297,
+            69.05015563964844
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            60.86396026611328,
+            72.0673828125
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "groundFloorAbsoluteMetres": null,
+      "stepCount": null,
+      "stepHeightM": null,
+      "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+    },
+    {
+      "id": "medicine",
+      "name": "药师殿",
+      "sourceFeatureIds": [
+        "way/434365025"
+      ],
+      "frozenModuleRelativeBaseM": 0,
+      "sample": {
+        "pointWGS84": [
+          120.09645459924009,
+          30.24360690229454
+        ],
+        "nearestGridIndices": [
+          320,
+          185
+        ],
+        "nearestGridGame": [
+          -3389.7160058074896,
+          -2032.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 24.581428593839124,
+        "dsmMetresEGM2008": 69.05015563964844,
+        "filteredEstimateMetresEGM2008": 72.0673828125,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            63.520503997802734,
+            85.1474380493164
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            63.88618469238281,
+            87.7249526977539
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "groundFloorAbsoluteMetres": null,
+      "stepCount": null,
+      "stepHeightM": null,
+      "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+    },
+    {
+      "id": "dharma",
+      "name": "法堂/直指堂/藏经楼",
+      "sourceFeatureIds": [
+        "way/434366739"
+      ],
+      "frozenModuleRelativeBaseM": 0,
+      "sample": {
+        "pointWGS84": [
+          120.09632221056964,
+          30.243980280269096
+        ],
+        "nearestGridIndices": [
+          320,
+          186
+        ],
+        "nearestGridGame": [
+          -3389.7160058074896,
+          -2002.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 10.428317671347665,
+        "dsmMetresEGM2008": 83.14305877685547,
+        "filteredEstimateMetresEGM2008": 84.0761947631836,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            66.35128784179688,
+            102.96814727783203
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            69.4596176147461,
+            105.36305236816406
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "groundFloorAbsoluteMetres": null,
+      "stepCount": null,
+      "stepHeightM": null,
+      "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+    },
+    {
+      "id": "huayan",
+      "name": "华严殿",
+      "sourceFeatureIds": [
+        "way/434366741"
+      ],
+      "frozenModuleRelativeBaseM": 0,
+      "sample": {
+        "pointWGS84": [
+          120.09609193639957,
+          30.24454996933628
+        ],
+        "nearestGridIndices": [
+          320,
+          187
+        ],
+        "nearestGridGame": [
+          -3389.7160058074896,
+          -1972.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 29.559220207282273,
+        "dsmMetresEGM2008": 100.10218811035156,
+        "filteredEstimateMetresEGM2008": 101.51203155517578,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            79.22896575927734,
+            129.1450653076172
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            80.23281860351562,
+            127.38844299316406
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "groundFloorAbsoluteMetres": null,
+      "stepCount": null,
+      "stepHeightM": null,
+      "blocker": "DSM/filtered canopy-roof/slope sample cannot establish surveyed platform datum or axial stair run"
+    }
+  ],
+  "waterSamples": [
+    {
+      "id": "westLake-reference",
+      "sourceWaterId": "relation/2308774",
+      "sourcePolygonCoversReference": true,
+      "sample": {
+        "pointWGS84": [
+          120.145,
+          30.25
+        ],
+        "nearestGridIndices": [
+          414,
+          200
+        ],
+        "nearestGridGame": [
+          -569.7160058074896,
+          -1582.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 26.141521654340806,
+        "dsmMetresEGM2008": 7.5,
+        "filteredEstimateMetresEGM2008": 7.5,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            7.5,
+            7.5
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            7.5,
+            7.5
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "observedActualWaterLevel": null
+    },
+    {
+      "id": "westLake-north",
+      "sourceWaterId": "relation/2308774",
+      "sourcePolygonCoversReference": false,
+      "sample": null,
+      "observedActualWaterLevel": null
+    },
+    {
+      "id": "westLake-east",
+      "sourceWaterId": "relation/2308774",
+      "sourcePolygonCoversReference": true,
+      "sample": {
+        "pointWGS84": [
+          120.15,
+          30.254
+        ],
+        "nearestGridIndices": [
+          423,
+          208
+        ],
+        "nearestGridGame": [
+          -299.71600580748964,
+          -1342.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 27.612217184841786,
+        "dsmMetresEGM2008": 7.5,
+        "filteredEstimateMetresEGM2008": 7.5,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            7.5,
+            7.5
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            7.5,
+            7.5
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "observedActualWaterLevel": null
+    },
+    {
+      "id": "westLake-south",
+      "sourceWaterId": "relation/2308774",
+      "sourcePolygonCoversReference": true,
+      "sample": {
+        "pointWGS84": [
+          120.146,
+          30.239
+        ],
+        "nearestGridIndices": [
+          416,
+          175
+        ],
+        "nearestGridGame": [
+          -509.71600580748964,
+          -2332.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 18.17064112864497,
+        "dsmMetresEGM2008": 7.5,
+        "filteredEstimateMetresEGM2008": 7.5,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            7.5,
+            7.5
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            7.5,
+            7.5
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "observedActualWaterLevel": null
+    },
+    {
+      "id": "qiantang-reference",
+      "sourceWaterId": "relation/8227206",
+      "sourcePolygonCoversReference": true,
+      "sample": {
+        "pointWGS84": [
+          120.213,
+          30.233
+        ],
+        "nearestGridIndices": [
+          545,
+          162
+        ],
+        "nearestGridGame": [
+          3360.2839941925104,
+          -2722.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 21.06189448702152,
+        "dsmMetresEGM2008": 1.5,
+        "filteredEstimateMetresEGM2008": 1.5,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            1.5,
+            1.5
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            1.5,
+            1.5
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "observedActualWaterLevel": null
+    },
+    {
+      "id": "qiantang-off-balcony",
+      "sourceWaterId": "relation/8227206",
+      "sourcePolygonCoversReference": true,
+      "sample": {
+        "pointWGS84": [
+          120.2148,
+          30.2428
+        ],
+        "nearestGridIndices": [
+          548,
+          184
+        ],
+        "nearestGridGame": [
+          3450.2839941925104,
+          -2062.6238008819873
+        ],
+        "nearestGridHorizontalOffsetRealM": 21.32187124325863,
+        "dsmMetresEGM2008": 1.5,
+        "filteredEstimateMetresEGM2008": 1.5,
+        "neighborhood3x3RangesMetresEGM2008": {
+          "dsm-egm2008-metres.bin": [
+            1.5,
+            1.5
+          ],
+          "ground-estimate-egm2008-metres.bin": [
+            1.5,
+            1.5
+          ]
+        },
+        "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+      },
+      "observedActualWaterLevel": null
+    },
+    {
+      "id": "qiantang-east",
+      "sourceWaterId": "relation/8227206",
+      "sourcePolygonCoversReference": false,
+      "sample": null,
+      "observedActualWaterLevel": null
+    }
+  ],
+  "platformSamples": {
+    "cityBalcony-footprintCentroid": {
+      "pointWGS84": [
+        120.21258014878033,
+        30.24424700302543
+      ],
+      "nearestGridIndices": [
+        544,
+        187
+      ],
+      "nearestGridGame": [
+        3330.2839941925104,
+        -1972.6238008819873
+      ],
+      "nearestGridHorizontalOffsetRealM": 14.66179535360783,
+      "dsmMetresEGM2008": 13.536136627197266,
+      "filteredEstimateMetresEGM2008": 8.915714263916016,
+      "neighborhood3x3RangesMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          3.152616500854492,
+          15.389570236206055
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          4.683806896209717,
+          9.93514633178711
+        ]
+      },
+      "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+    },
+    "grandTheatre-footprintCentroid": {
+      "pointWGS84": [
+        120.21089643393236,
+        30.24680828230344
+      ],
+      "nearestGridIndices": [
+        541,
+        192
+      ],
+      "nearestGridGame": [
+        3240.2839941925104,
+        -1822.6238008819873
+      ],
+      "nearestGridHorizontalOffsetRealM": 32.1307742736916,
+      "dsmMetresEGM2008": 10.851214408874512,
+      "filteredEstimateMetresEGM2008": 9.239898681640625,
+      "neighborhood3x3RangesMetresEGM2008": {
+        "dsm-egm2008-metres.bin": [
+          7.84346342086792,
+          12.256717681884766
+        ],
+        "ground-estimate-egm2008-metres.bin": [
+          8.191320419311523,
+          9.531432151794434
+        ]
+      },
+      "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+    },
+    "cityBalcony-sourceShoreMouths": [
+      {
+        "id": "west",
+        "sample": {
+          "pointWGS84": [
+            120.2115384,
+            30.24440175
+          ],
+          "nearestGridIndices": [
+            542,
+            187
+          ],
+          "nearestGridGame": [
+            3270.2839941925104,
+            -1972.6238008819873
+          ],
+          "nearestGridHorizontalOffsetRealM": 12.231346298481778,
+          "dsmMetresEGM2008": 13.468449592590332,
+          "filteredEstimateMetresEGM2008": 9.758434295654297,
+          "neighborhood3x3RangesMetresEGM2008": {
+            "dsm-egm2008-metres.bin": [
+              8.201506614685059,
+              15.389570236206055
+            ],
+            "ground-estimate-egm2008-metres.bin": [
+              8.576759338378906,
+              9.975518226623535
+            ]
+          },
+          "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+        },
+        "verifiedEntry": false
+      },
+      {
+        "id": "east",
+        "sample": {
+          "pointWGS84": [
+            120.21200585,
+            30.244977549999998
+          ],
+          "nearestGridIndices": [
+            543,
+            188
+          ],
+          "nearestGridGame": [
+            3300.2839941925104,
+            -1942.6238008819873
+          ],
+          "nearestGridHorizontalOffsetRealM": 25.508291148127757,
+          "dsmMetresEGM2008": 12.722824096679688,
+          "filteredEstimateMetresEGM2008": 9.538589477539062,
+          "neighborhood3x3RangesMetresEGM2008": {
+            "dsm-egm2008-metres.bin": [
+              8.758502006530762,
+              15.389570236206055
+            ],
+            "ground-estimate-egm2008-metres.bin": [
+              8.73531723022461,
+              9.93514633178711
+            ]
+          },
+          "basis": "sampled existing edited DSM/derived estimate; not measured public floor, water level or steps"
+        },
+        "verifiedEntry": false
+      }
+    ]
+  },
+  "templeNearbyRoads": [
+    {
+      "id": "way/51714161",
+      "name": "韬光寺路",
+      "tags": {
+        "highway": "steps",
+        "name": "韬光寺路"
+      },
+      "nodeIds": [
+        "1734229122",
+        "1734229143",
+        "1734228887",
+        "1734228700",
+        "1734228846",
+        "660058620",
+        "660058619",
+        "660058618",
+        "660058617",
+        "660058616",
+        "660058615",
+        "660058614",
+        "660058613",
+        "660058612",
+        "660058611",
+        "660058610",
+        "660058609",
+        "660058608",
+        "660058607",
+        "660058606",
+        "660058605",
+        "660058604",
+        "4886673475",
+        "660058598",
+        "660058597",
+        "660058596",
+        "660058595",
+        "660058594",
+        "660058622",
+        "660058621",
+        "660058593",
+        "660058592",
+        "660058591",
+        "10106230861",
+        "1734228830",
+        "660058588"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 128.80522443120535,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/138564975",
+      "name": "北高峰登山道",
+      "tags": {
+        "highway": "steps",
+        "name": "北高峰登山道"
+      },
+      "nodeIds": [
+        "1519392833",
+        "1519423648",
+        "1519423658",
+        "1519423655",
+        "1519423649",
+        "1519423652",
+        "9507842335",
+        "1519423654",
+        "1519423616",
+        "9507842334",
+        "9507842333",
+        "9507842332",
+        "1519423621",
+        "1519423629",
+        "1519423688",
+        "9507842331",
+        "1519423692",
+        "1519423683",
+        "9507842330",
+        "1519423673",
+        "1519423685",
+        "9507842329",
+        "1519423619",
+        "9507842328",
+        "1519423656",
+        "9507842327",
+        "1519423646",
+        "9507842326",
+        "1519423650",
+        "9507842325",
+        "9507842324",
+        "1519423667",
+        "9507842323",
+        "1519423651",
+        "1519423614",
+        "1519423642",
+        "1519423627",
+        "1519423653",
+        "1519423687",
+        "1519423611",
+        "1519423669",
+        "1519423684",
+        "1519423694",
+        "1519423612",
+        "1519423671",
+        "9507842322",
+        "1519423681",
+        "9507842321",
+        "1519423613",
+        "1519423635",
+        "1734228632",
+        "9507842320",
+        "9507842319",
+        "9507842318",
+        "1519423610",
+        "9507842317",
+        "1519423657",
+        "1519423690",
+        "9243597594",
+        "9243597593",
+        "1519423696",
+        "9243597592",
+        "1519423679",
+        "9243597591",
+        "9243597590",
+        "9243597589",
+        "9243597588",
+        "9507806916",
+        "1519423618",
+        "1519423659",
+        "9243597587",
+        "9507806915",
+        "9243597586",
+        "9243597585",
+        "1519423631",
+        "9243597584",
+        "1519423633",
+        "1519423637",
+        "9507806914",
+        "1519423639",
+        "9507806913",
+        "9507806912",
+        "9507806911",
+        "9507806910",
+        "1519423641",
+        "1519423644"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 89.28240152365214,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/195189682",
+      "name": "",
+      "tags": {
+        "highway": "footway",
+        "source": "survey"
+      },
+      "nodeIds": [
+        "660058624",
+        "2056644170"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 49.77596020617264,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/515705738",
+      "name": "",
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "660058588",
+        "660058589",
+        "6331231954",
+        "660058590",
+        "660058624",
+        "660058625",
+        "660058626",
+        "10106230886",
+        "660058627",
+        "660058628",
+        "1519392694",
+        "660058629"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 28.658933238344023,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/676045725",
+      "name": "",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "paving_stones",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "6331231949",
+        "6331231950",
+        "6331231962"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 56.61322194875495,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/676045726",
+      "name": "",
+      "tags": {
+        "highway": "steps",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231962",
+        "6331231951",
+        "6331231963"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 52.07974527231178,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/676045727",
+      "name": "",
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231963",
+        "6331231964",
+        "6331231965",
+        "6331231966",
+        "6331231967",
+        "6331231968",
+        "6331231969",
+        "6331231970",
+        "6331231971",
+        "6331231972",
+        "6331231973",
+        "6331231974",
+        "6331231975",
+        "6331231976",
+        "6331231977",
+        "6331231978",
+        "6331231862"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 51.85476771435286,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/676305988",
+      "name": "",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231963",
+        "6331231952"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 43.400417039333334,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    },
+    {
+      "id": "way/676305991",
+      "name": "",
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "nodeIds": [
+        "6331231952",
+        "6331231953",
+        "6331231954"
+      ],
+      "distanceToFiveHallConvexEnvelopeM": 40.424951220770744,
+      "hasNumericalEle": false,
+      "hasStepCount": false,
+      "interpretation": "nearby source way, not automatically five-hall axial stairs; source=survey is an OSM tag, no original height survey delivered"
+    }
+  ],
+  "theatreWaterLayerHits": [],
+  "scalePolicy": "array height unscaled EGM2008 metres. Apply .60 once only after selected height/relative reference/datum contract; game-unit lm.y is not rescaled.",
+  "formalGroundWaterAcceptance": "unknown; no construction survey, current tide series, base datum conversion or runtime driving test"
+}

@@ -1,0 +1,4976 @@
+{
+  "asOfDate": "2026-10-16",
+  "inputs": {
+    "city": "artifacts/cities/hangzhou/runtime-data-v4/city.json",
+    "citySha256": "4f86e589f4df927eceecd7cbadbbff26e464aad9f2b3bdfc84ee84c917ae7617",
+    "water": "data/processed/hangzhou-261011-extended/water.geojson",
+    "waterSha256": "e820b199c45012d9ba441ffccb135c5f1aaf6f29e2599f0a6262a0ddb231c4f1",
+    "parentAudit": "docs/hangzhou/audit/water-overlap-v4.json",
+    "parentAuditSha256": "a04fc865be9f91309c9c8c98833881c58342a17a9228eab7aff6ba0cd4525ed9"
+  },
+  "projection": {
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "extent": [
+      -12989.71600580749,
+      -8247.766239555946,
+      8371.150314853696,
+      4389.940095247367
+    ]
+  },
+  "pairs": [
+    {
+      "pair": 1,
+      "a": "way/975870009",
+      "b": "relation/2308774",
+      "aIndex": 1699,
+      "bIndex": 2066,
+      "areaGameSquared": 1913.5853225594499,
+      "heightDifferenceGame": 0.899101892292312,
+      "aTags": {
+        "name": "断桥荷塘",
+        "natural": "water",
+        "salt": "no",
+        "water": "pond"
+      },
+      "bTags": {
+        "addr:state": "ZJ",
+        "addr:street": "苏堤",
+        "alt_name": "West Lake",
+        "attraction": "tourism",
+        "name": "西湖",
+        "name:de": "Westsee",
+        "name:en": "West Lake",
+        "name:fr": "Lac de l'Ouest",
+        "name:nan": "Se-ô͘",
+        "name:nan-Hans": "西湖",
+        "name:nan-Latn-pehoeji": "Se-ô͘",
+        "name:nan-Latn-tailo": "Se-ôo",
+        "name:sk": "Západné jazero",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh-Latn-pinyin": "Xī Hú",
+        "natural": "water",
+        "source": "yahoo",
+        "water": "lake",
+        "wikidata": "Q502371",
+        "wikipedia": "zh:西湖",
+        "wikipedia:en": "West Lake"
+      },
+      "sourceOverlapAreaGameSquared": 1911.561468572746,
+      "sourceOverlapAreaRealMetresSquared": 5309.892968257628,
+      "runtimeOverlapAreaRecomputedGameSquared": 1913.5853225594499,
+      "runtimeOverlapAreaRealMetresSquared": 5315.514784887361,
+      "sharedSourceBoundaryLengthGame": 90.76899857031525,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -463.8426,
+              -807.8221
+            ],
+            [
+              -454.5419,
+              -813.3295
+            ],
+            [
+              -446.0264,
+              -820.8456
+            ],
+            [
+              -452.937,
+              -827.7698
+            ],
+            [
+              -447.1003,
+              -832.9313
+            ],
+            [
+              -445.0334,
+              -831.8005
+            ],
+            [
+              -440.9460590022013,
+              -835.5253755075846
+            ],
+            [
+              -457.9885,
+              -857.3353
+            ],
+            [
+              -462.1048,
+              -851.0431
+            ],
+            [
+              -479.6092,
+              -844.3052
+            ],
+            [
+              -489.3197,
+              -838.3056
+            ],
+            [
+              -496.8249,
+              -830.9891
+            ],
+            [
+              -503.1465,
+              -820.8855
+            ],
+            [
+              -506.6855,
+              -810.5825
+            ],
+            [
+              -471.977,
+              -806.6781
+            ],
+            [
+              -463.8426,
+              -807.8221
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -463.84255234247985,
+              -807.8221431938798
+            ],
+            [
+              -454.5419156823392,
+              -813.3295225859476
+            ],
+            [
+              -446.02643518981154,
+              -820.8456321431266
+            ],
+            [
+              -452.9369641048468,
+              -827.7697649295845
+            ],
+            [
+              -447.10025171320075,
+              -832.9312702537535
+            ],
+            [
+              -445.0334435661382,
+              -831.800528108027
+            ],
+            [
+              -440.94601292946237,
+              -835.5253257646486
+            ],
+            [
+              -457.98852032888004,
+              -857.3353463286641
+            ],
+            [
+              -462.1048170010514,
+              -851.0430988587688
+            ],
+            [
+              -468.72668556113086,
+              -848.2628034652315
+            ],
+            [
+              -479.6091809700393,
+              -844.3052059551893
+            ],
+            [
+              -489.31971533552985,
+              -838.305621158186
+            ],
+            [
+              -496.8248845832509,
+              -830.9890543328142
+            ],
+            [
+              -503.14654637237135,
+              -820.8855406894409
+            ],
+            [
+              -506.68552233299033,
+              -810.5824843142601
+            ],
+            [
+              -471.9770011659736,
+              -806.6780981992246
+            ],
+            [
+              -463.84255234247985,
+              -807.8221431938798
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.14683164370363,
+        30.261485899987687
+      ],
+      "measuredHeightDifferenceRealMetres": 1.49850315382052,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 2,
+      "a": "way/520199008",
+      "b": "way/662789923",
+      "aIndex": 260,
+      "bIndex": 581,
+      "areaGameSquared": 180.40605412829754,
+      "heightDifferenceGame": 0.7882983978902578,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "lock"
+      },
+      "sourceOverlapAreaGameSquared": 181.52423911943896,
+      "sourceOverlapAreaRealMetresSquared": 504.23399755399714,
+      "runtimeOverlapAreaRecomputedGameSquared": 180.40605412829754,
+      "runtimeOverlapAreaRealMetresSquared": 501.12792813415984,
+      "sharedSourceBoundaryLengthGame": 47.71892457499247,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1066.8656,
+              127.9202
+            ],
+            [
+              1068.5167,
+              119.5461
+            ],
+            [
+              1061.4076141795163,
+              117.63472838730297
+            ],
+            [
+              1055.7464,
+              140.9304
+            ],
+            [
+              1062.9687,
+              142.6198
+            ],
+            [
+              1066.8656,
+              127.9202
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1066.8655817814347,
+              127.92019380577132
+            ],
+            [
+              1068.5167190163763,
+              119.54605050283713
+            ],
+            [
+              1061.3175297455648,
+              117.61048600636242
+            ],
+            [
+              1055.7463848809705,
+              140.9303799060891
+            ],
+            [
+              1062.9686669796863,
+              142.61984170045048
+            ],
+            [
+              1066.8655817814347,
+              127.92019380577132
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.17338205595036,
+        30.276021000197613
+      ],
+      "measuredHeightDifferenceRealMetres": 1.3138306631504297,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "explicit-lock-chamber-boundary-hold",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": true
+    },
+    {
+      "pair": 3,
+      "a": "way/552611233",
+      "b": "way/642559807",
+      "aIndex": 351,
+      "bIndex": 473,
+      "areaGameSquared": 57.397308969261466,
+      "heightDifferenceGame": 1.9674592511646565,
+      "aTags": {
+        "layer": "-1",
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 57.402142816888066,
+      "sourceOverlapAreaRealMetresSquared": 159.45039671357796,
+      "runtimeOverlapAreaRecomputedGameSquared": 57.397308969261466,
+      "runtimeOverlapAreaRealMetresSquared": 159.43696935905965,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8908.1856,
+              1280.1331
+            ],
+            [
+              -8925.7246,
+              1282.2416
+            ],
+            [
+              -8925.724886782815,
+              1282.242308485376
+            ],
+            [
+              -8913.767344437783,
+              1287.3486647372422
+            ],
+            [
+              -8908.1856,
+              1280.1331
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8908.185586984026,
+              1280.1331374716322
+            ],
+            [
+              -8925.724590195281,
+              1282.2416390022925
+            ],
+            [
+              -8913.768278262982,
+              1287.3499329312185
+            ],
+            [
+              -8908.185586984026,
+              1280.1331374716322
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.00056644126151,
+        30.293316095499378
+      ],
+      "measuredHeightDifferenceRealMetres": 3.279098751941094,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "different-explicit-source-layer-hold",
+      "declaredLayerDifference": true,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 4,
+      "a": "way/1058472319",
+      "b": "way/1058472323",
+      "aIndex": 1813,
+      "bIndex": 1817,
+      "areaGameSquared": 54.03647757172557,
+      "heightDifferenceGame": 1.1336684579775256,
+      "aTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "bTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 54.0368918588566,
+      "sourceOverlapAreaRealMetresSquared": 150.10247738571277,
+      "runtimeOverlapAreaRecomputedGameSquared": 54.03647757172557,
+      "runtimeOverlapAreaRealMetresSquared": 150.1013265881266,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiPolygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -7866.6182,
+                -719.0722
+              ],
+              [
+                -7862.584230582624,
+                -719.4050435512441
+              ],
+              [
+                -7866.9877,
+                -720.2628
+              ],
+              [
+                -7873.1188,
+                -723.2426
+              ],
+              [
+                -7877.2582,
+                -723.8147
+              ],
+              [
+                -7879.179766180227,
+                -721.1158853417273
+              ],
+              [
+                -7866.6182,
+                -719.0722
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -7852.3872,
+                -715.9992
+              ],
+              [
+                -7846.2215,
+                -713.9972
+              ],
+              [
+                -7844.441046810648,
+                -717.0283341260466
+              ],
+              [
+                -7849.2986,
+                -718.274
+              ],
+              [
+                -7852.790934197013,
+                -718.4296949486327
+              ],
+              [
+                -7852.3872,
+                -715.9992
+              ]
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -7866.618198774256,
+                -719.0721876016341
+              ],
+              [
+                -7862.5843543810115,
+                -719.4050469902795
+              ],
+              [
+                -7866.987684029748,
+                -720.2627925668319
+              ],
+              [
+                -7873.118829983941,
+                -723.2426306921764
+              ],
+              [
+                -7877.258219484837,
+                -723.8146531892678
+              ],
+              [
+                -7879.179754460684,
+                -721.1158793921849
+              ],
+              [
+                -7866.618198774256,
+                -719.0721876016341
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -7852.387243238835,
+                -715.9992295349685
+              ],
+              [
+                -7846.221458041556,
+                -713.9971507945581
+              ],
+              [
+                -7844.440990432115,
+                -717.028315937109
+              ],
+              [
+                -7849.298577433424,
+                -718.274016675114
+              ],
+              [
+                -7852.790948586629,
+                -718.4296927910849
+              ],
+              [
+                -7852.387243238835,
+                -715.9992295349685
+              ]
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.01905116199573,
+        30.26322766425051
+      ],
+      "measuredHeightDifferenceRealMetres": 1.8894474299625428,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 5,
+      "a": "way/1058472319",
+      "b": "way/1058472326",
+      "aIndex": 1813,
+      "bIndex": 1820,
+      "areaGameSquared": 14.325354291379103,
+      "heightDifferenceGame": 0.6924651131720803,
+      "aTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "bTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 14.32566746498838,
+      "sourceOverlapAreaRealMetresSquared": 39.79352073607883,
+      "runtimeOverlapAreaRecomputedGameSquared": 14.325354291379103,
+      "runtimeOverlapAreaRealMetresSquared": 39.7926508093864,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7820.9579,
+              -756.0075
+            ],
+            [
+              -7812.8985,
+              -754.4711
+            ],
+            [
+              -7811.6444479960455,
+              -754.8224115043193
+            ],
+            [
+              -7821.3332,
+              -757.8832
+            ],
+            [
+              -7825.033922320689,
+              -758.0785102113907
+            ],
+            [
+              -7820.9579,
+              -756.0075
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7820.957903712157,
+              -756.0075472210923
+            ],
+            [
+              -7812.898506581609,
+              -754.4710681877596
+            ],
+            [
+              -7811.64441733182,
+              -754.8224020859865
+            ],
+            [
+              -7821.33316217442,
+              -757.8832488980959
+            ],
+            [
+              -7825.0339625428915,
+              -758.078501145923
+            ],
+            [
+              -7820.957903712157,
+              -756.0075472210923
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.01953657478337,
+        30.262619800722547
+      ],
+      "measuredHeightDifferenceRealMetres": 1.1541085219534672,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 6,
+      "a": "way/538148437",
+      "b": "way/541014093",
+      "aIndex": 308,
+      "bIndex": 317,
+      "areaGameSquared": 4.263384038506545,
+      "heightDifferenceGame": 2.3122947490788124,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 4.264076013449568,
+      "sourceOverlapAreaRealMetresSquared": 11.844655592915467,
+      "runtimeOverlapAreaRecomputedGameSquared": 4.263384038506545,
+      "runtimeOverlapAreaRealMetresSquared": 11.842733440295959,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2855.0299,
+              3714.5944
+            ],
+            [
+              -2852.4493,
+              3704.8035
+            ],
+            [
+              -2855.91257613316,
+              3714.6391282318627
+            ],
+            [
+              -2855.0299,
+              3714.5944
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2855.0298871418613,
+              3714.59437156425
+            ],
+            [
+              -2852.449263561829,
+              3704.8034748669256
+            ],
+            [
+              -2855.913187829503,
+              3714.6409315350284
+            ],
+            [
+              -2855.0298871418613,
+              3714.59437156425
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.10556549547842,
+        30.329773000402685
+      ],
+      "measuredHeightDifferenceRealMetres": 3.853824581798021,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 7,
+      "a": "way/578276721",
+      "b": "way/1479955347",
+      "aIndex": 366,
+      "bIndex": 2104,
+      "areaGameSquared": 4.1276662747176776,
+      "heightDifferenceGame": 1.224408767626839,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 4.127646086192266,
+      "sourceOverlapAreaRealMetresSquared": 11.465683572756296,
+      "runtimeOverlapAreaRecomputedGameSquared": 4.1276662747176776,
+      "runtimeOverlapAreaRealMetresSquared": 11.46573965199355,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6027.132975421873,
+              1757.6021614326073
+            ],
+            [
+              -6027.413,
+              1757.027
+            ],
+            [
+              -6034.9008,
+              1761.3836
+            ],
+            [
+              -6034.76226962219,
+              1761.667442607632
+            ],
+            [
+              -6027.132975421873,
+              1757.6021614326073
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6027.1329336198205,
+              1757.6021494436516
+            ],
+            [
+              -6027.412969322883,
+              1757.0269631519977
+            ],
+            [
+              -6034.900818948651,
+              1761.3836461254182
+            ],
+            [
+              -6034.762306325921,
+              1761.667452054269
+            ],
+            [
+              -6027.1329336198205,
+              1757.6021494436516
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.05053178836069,
+        30.300452873526226
+      ],
+      "measuredHeightDifferenceRealMetres": 2.040681279378065,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 8,
+      "a": "way/544675674",
+      "b": "way/544675675",
+      "aIndex": 329,
+      "bIndex": 330,
+      "areaGameSquared": 4.108781896094939,
+      "heightDifferenceGame": 0.42825289125881616,
+      "aTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 4.108781896094939,
+      "runtimeOverlapAreaRealMetresSquared": 11.413283044708164,
+      "sharedSourceBoundaryLengthGame": 30.544164778364276,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8295.7984,
+              -3321.2757
+            ],
+            [
+              8290.4062,
+              -3351.3401
+            ],
+            [
+              8290.16252643879,
+              -3351.1747381108735
+            ],
+            [
+              8295.7984,
+              -3321.2757
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8290.406240161497,
+            -3351.340131531512
+          ],
+          [
+            8295.798415606348,
+            -3321.2756933032692
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.29864717275707,
+        30.22384194324291
+      ],
+      "measuredHeightDifferenceRealMetres": 0.7137548187646936,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 9,
+      "a": "way/578276721",
+      "b": "relation/9436343",
+      "aIndex": 366,
+      "bIndex": 598,
+      "areaGameSquared": 3.714788742900577,
+      "heightDifferenceGame": 1.338582070309554,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 3.714788742900577,
+      "runtimeOverlapAreaRealMetresSquared": 10.31885761916827,
+      "sharedSourceBoundaryLengthGame": 36.92884995768768,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4974.1779,
+              1584.642
+            ],
+            [
+              -4979.030974053848,
+              1587.3819868990122
+            ],
+            [
+              -4950.4962,
+              1572.8025
+            ],
+            [
+              -4974.1779,
+              1584.642
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -4945.8661218508205,
+              1571.3125428498288
+            ],
+            [
+              -4950.496233955962,
+              1572.8024619126195
+            ]
+          ],
+          [
+            [
+              -4950.496233955962,
+              1572.8024619126195
+            ],
+            [
+              -4974.177929535772,
+              1584.6419973208965
+            ]
+          ],
+          [
+            [
+              -4974.177929535772,
+              1584.6419973208965
+            ],
+            [
+              -4979.04474313329,
+              1587.3890355925842
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.06904760725726,
+        30.29773510030645
+      ],
+      "measuredHeightDifferenceRealMetres": 2.23097011718259,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 10,
+      "a": "way/579762335",
+      "b": "way/590758360",
+      "aIndex": 369,
+      "bIndex": 404,
+      "areaGameSquared": 3.500578342636,
+      "heightDifferenceGame": 0.7654134669193464,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 3.500578342636,
+      "runtimeOverlapAreaRealMetresSquared": 9.723828729544445,
+      "sharedSourceBoundaryLengthGame": 34.58858980304082,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5445.5487,
+              1779.3824
+            ],
+            [
+              -5460.1088,
+              1810.7572
+            ],
+            [
+              -5445.598839530786,
+              1779.9712884304204
+            ],
+            [
+              -5445.5487,
+              1779.3824
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5445.548743954697,
+            1779.3824005159554
+          ],
+          [
+            -5460.108772295752,
+            1810.757169348103
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.06054799959806,
+        30.300992177010908
+      ],
+      "measuredHeightDifferenceRealMetres": 1.2756891115322442,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 11,
+      "a": "way/518534703",
+      "b": "relation/8932833",
+      "aIndex": 228,
+      "bIndex": 1317,
+      "areaGameSquared": 3.1915081050000866,
+      "heightDifferenceGame": 0.8337508534648084,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 3.191274602861612,
+      "sourceOverlapAreaRealMetresSquared": 8.86465167461559,
+      "runtimeOverlapAreaRecomputedGameSquared": 3.1915081050000866,
+      "runtimeOverlapAreaRealMetresSquared": 8.865300291666907,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -801.9851,
+              1070.7197
+            ],
+            [
+              -802.2968,
+              1073.2007
+            ],
+            [
+              -798.5558,
+              1063.902
+            ],
+            [
+              -801.9851,
+              1070.7197
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -801.9850661985587,
+              1070.7196920795157
+            ],
+            [
+              -802.2968193830596,
+              1073.2006733759326
+            ],
+            [
+              -798.5557811731512,
+              1063.9019820830713
+            ],
+            [
+              -801.9850661985587,
+              1070.7196920795157
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.1411411720765,
+        30.290046350194224
+      ],
+      "measuredHeightDifferenceRealMetres": 1.3895847557746808,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 12,
+      "a": "relation/9602999",
+      "b": "relation/10872319",
+      "aIndex": 1214,
+      "bIndex": 1215,
+      "areaGameSquared": 2.7879015244365384,
+      "heightDifferenceGame": 0.4575318050300399,
+      "aTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 2.787862872800234,
+      "sourceOverlapAreaRealMetresSquared": 7.744063535556205,
+      "runtimeOverlapAreaRecomputedGameSquared": 2.7879015244365384,
+      "runtimeOverlapAreaRealMetresSquared": 7.744170901212607,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4308.2269,
+              -192.1064
+            ],
+            [
+              -4309.808817871362,
+              -191.0091201383397
+            ],
+            [
+              -4309.8088,
+              -191.009
+            ],
+            [
+              -4305.7733,
+              -190.2839
+            ],
+            [
+              -4308.2269,
+              -192.1064
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4308.226942557286,
+              -192.10643913784952
+            ],
+            [
+              -4309.808801306874,
+              -191.00895411397286
+            ],
+            [
+              -4305.773329534419,
+              -190.2839488558529
+            ],
+            [
+              -4308.226942557286,
+              -192.10643913784952
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.08037504748341,
+        30.27112004904617
+      ],
+      "measuredHeightDifferenceRealMetres": 0.7625530083833998,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 13,
+      "a": "relation/9599999",
+      "b": "way/1461484039",
+      "aIndex": 603,
+      "bIndex": 2053,
+      "areaGameSquared": 2.6401387599986883,
+      "heightDifferenceGame": 0.6156162349661827,
+      "aTags": {
+        "name": "白马湖",
+        "natural": "water",
+        "water": "lake",
+        "wikidata": "Q16935960"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 2.6401954780172616,
+      "sourceOverlapAreaRealMetresSquared": 7.333876327825727,
+      "runtimeOverlapAreaRecomputedGameSquared": 2.6401387599986883,
+      "runtimeOverlapAreaRealMetresSquared": 7.333718777774134,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3096.2749,
+              -7097.3492
+            ],
+            [
+              3091.8873,
+              -7107.3928
+            ],
+            [
+              3089.6646,
+              -7111.2773
+            ],
+            [
+              3096.2749,
+              -7097.3492
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3096.2748928015562,
+              -7097.349180474223
+            ],
+            [
+              3091.8872553947417,
+              -7107.392831298363
+            ],
+            [
+              3089.6645706558393,
+              -7111.27726314024
+            ],
+            [
+              3096.2748928015562,
+              -7097.349180474223
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.20859215877155,
+        30.1672203000885
+      ],
+      "measuredHeightDifferenceRealMetres": 1.0260270582769713,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 14,
+      "a": "relation/9436423",
+      "b": "way/1122311097",
+      "aIndex": 1831,
+      "bIndex": 1906,
+      "areaGameSquared": 2.2410689444894185,
+      "heightDifferenceGame": 0.6451491505993268,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 2.266908587797346,
+      "sourceOverlapAreaRealMetresSquared": 6.296968299437072,
+      "runtimeOverlapAreaRecomputedGameSquared": 2.2410689444894185,
+      "runtimeOverlapAreaRealMetresSquared": 6.225191512470607,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6365.8961,
+              1121.5964
+            ],
+            [
+              -6370.1495243857225,
+              1109.6155123196595
+            ],
+            [
+              -6366.204152098234,
+              1121.7824619182513
+            ],
+            [
+              -6365.8961,
+              1121.5964
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6365.896102398138,
+              1121.5964372136832
+            ],
+            [
+              -6368.973221790008,
+              1112.9429340865497
+            ],
+            [
+              -6370.381884325802,
+              1108.8988680594146
+            ],
+            [
+              -6366.167443132782,
+              1121.8957513110397
+            ],
+            [
+              -6365.896102398138,
+              1121.5964372136832
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.04469536717865,
+        30.290772436869073
+      ],
+      "measuredHeightDifferenceRealMetres": 1.0752485843322113,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 15,
+      "a": "way/516302975",
+      "b": "relation/8924449",
+      "aIndex": 195,
+      "bIndex": 495,
+      "areaGameSquared": 1.6439813500000557,
+      "heightDifferenceGame": 0.6711904671078246,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 1.6440405646602287,
+      "sourceOverlapAreaRealMetresSquared": 4.566779346278413,
+      "runtimeOverlapAreaRecomputedGameSquared": 1.6439813500000557,
+      "runtimeOverlapAreaRealMetresSquared": 4.566614861111266,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3599.5831,
+              805.1084
+            ],
+            [
+              3593.4231,
+              803.7382
+            ],
+            [
+              3602.9546,
+              806.3921
+            ],
+            [
+              3599.5831,
+              805.1084
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3599.5830889725385,
+              805.1083620440421
+            ],
+            [
+              3593.42307698285,
+              803.7381686201942
+            ],
+            [
+              3602.954641926955,
+              806.3920869505608
+            ],
+            [
+              3599.5830889725385,
+              805.1083620440421
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.21729108535078,
+        30.28609400052121
+      ],
+      "measuredHeightDifferenceRealMetres": 1.118650778513041,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 16,
+      "a": "relation/9010615",
+      "b": "way/691262887",
+      "aIndex": 525,
+      "bIndex": 609,
+      "areaGameSquared": 1.5545709029473045,
+      "heightDifferenceGame": 0.3446445011897521,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 1.5545709029473045,
+      "runtimeOverlapAreaRealMetresSquared": 4.318252508186957,
+      "sharedSourceBoundaryLengthGame": 40.76985450791727,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              438.3748394141934,
+              3402.106531395848
+            ],
+            [
+              425.6355,
+              3386.5195
+            ],
+            [
+              425.6616039723689,
+              3386.795497453906
+            ],
+            [
+              438.3748394141934,
+              3402.106531395848
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            425.6354676638817,
+            3386.519515112673
+          ],
+          [
+            451.4359302549745,
+            3418.0871752521634
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.16248402197654,
+        30.325033445124816
+      ],
+      "measuredHeightDifferenceRealMetres": 0.5744075019829202,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 17,
+      "a": "way/641124890",
+      "b": "relation/8227206",
+      "aIndex": 433,
+      "bIndex": 2138,
+      "areaGameSquared": 1.2913551085940895,
+      "heightDifferenceGame": 4.783338353362803,
+      "aTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "bTags": {
+        "fishing": "no",
+        "natural": "water",
+        "source": "PGS",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 1.3043729161924773,
+      "sourceOverlapAreaRealMetresSquared": 3.623258100534659,
+      "runtimeOverlapAreaRecomputedGameSquared": 1.2913551085940895,
+      "runtimeOverlapAreaRealMetresSquared": 3.587097523872471,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1224.6231613321686,
+              -4743.311137462838
+            ],
+            [
+              1215.9298,
+              -4749.1503
+            ],
+            [
+              1209.6715087400976,
+              -4753.056783160733
+            ],
+            [
+              1224.6231613321686,
+              -4743.311137462838
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1224.7570231342231,
+              -4743.223850124839
+            ],
+            [
+              1215.9297894571944,
+              -4749.150269253207
+            ],
+            [
+              1209.6543133247028,
+              -4753.067958217171
+            ],
+            [
+              1224.7570231342231,
+              -4743.223850124839
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.17613574316164,
+        30.20264339361364
+      ],
+      "measuredHeightDifferenceRealMetres": 7.972230588938005,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 18,
+      "a": "way/578276721",
+      "b": "way/1479169466",
+      "aIndex": 366,
+      "bIndex": 2086,
+      "areaGameSquared": 1.0834032255100023,
+      "heightDifferenceGame": 3.398124153659151,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 1.0834032255100023,
+      "runtimeOverlapAreaRealMetresSquared": 3.009453404194451,
+      "sharedSourceBoundaryLengthGame": 17.897948179361563,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2421.4171587787096,
+              1379.311345680161
+            ],
+            [
+              -2421.5255,
+              1379.4123
+            ],
+            [
+              -2404.0096,
+              1383.0905
+            ],
+            [
+              -2421.4171587787096,
+              1379.311345680161
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2404.009627798187,
+            1383.0905355538578
+          ],
+          [
+            -2421.5255381815373,
+            1379.412297868015
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.11320998340932,
+        30.29476624974876
+      ],
+      "measuredHeightDifferenceRealMetres": 5.663540256098585,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 19,
+      "a": "way/1183619299",
+      "b": "way/1302813122",
+      "aIndex": 1939,
+      "bIndex": 1980,
+      "areaGameSquared": 0.9726166210321496,
+      "heightDifferenceGame": 0.36232918962609206,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.9726166210321496,
+      "runtimeOverlapAreaRealMetresSquared": 2.7017128362004157,
+      "sharedSourceBoundaryLengthGame": 13.587432239035039,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5160.052698793612,
+              1932.7692442460282
+            ],
+            [
+              -5160.6179,
+              1941.012
+            ],
+            [
+              -5160.3818241557365,
+              1941.0107928518082
+            ],
+            [
+              -5160.052698793612,
+              1932.7692442460282
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5160.617880065887,
+            1941.0120131134906
+          ],
+          [
+            -5159.688393719976,
+            1927.4564102134668
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.06561681734051,
+        30.303119928393244
+      ],
+      "measuredHeightDifferenceRealMetres": 0.6038819827101535,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 20,
+      "a": "relation/10866057",
+      "b": "way/922850953",
+      "aIndex": 1580,
+      "bIndex": 1591,
+      "areaGameSquared": 0.9042238176729791,
+      "heightDifferenceGame": 0.28213194832591393,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.9042238176729791,
+      "runtimeOverlapAreaRealMetresSquared": 2.5117328268693866,
+      "sharedSourceBoundaryLengthGame": 10.927182429410232,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5825.801,
+              -551.2834
+            ],
+            [
+              -5826.049905556779,
+              -548.8132569068363
+            ],
+            [
+              -5824.2423,
+              -559.5511
+            ],
+            [
+              -5824.244737201258,
+              -559.5485093917769
+            ],
+            [
+              -5825.801,
+              -551.2834
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -5824.242264577851,
+              -559.5510765345231
+            ],
+            [
+              -5825.801030497893,
+              -551.2833560218388
+            ]
+          ],
+          [
+            [
+              -5825.801030497893,
+              -551.2833560218388
+            ],
+            [
+              -5826.055051611404,
+              -548.7824204522647
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.05410321032659,
+        30.265649668967097
+      ],
+      "measuredHeightDifferenceRealMetres": 0.47021991387652323,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 21,
+      "a": "relation/9772882",
+      "b": "way/1022945807",
+      "aIndex": 613,
+      "bIndex": 1748,
+      "areaGameSquared": 0.7950727305138798,
+      "heightDifferenceGame": 0.3731630470226235,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.7950727305138798,
+      "runtimeOverlapAreaRealMetresSquared": 2.208535362538555,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiPoint",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4694.798855296474,
+              2760.3145356943464
+            ],
+            [
+              -4694.8298,
+              2760.2081
+            ],
+            [
+              -4699.8871,
+              2773.7703
+            ],
+            [
+              -4699.821642765857,
+              2773.7214448125314
+            ],
+            [
+              -4694.798855296474,
+              2760.3145356943464
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -4694.829756925919,
+            2760.208092008806
+          ],
+          [
+            -4699.887086357544,
+            2773.770346333295
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.07363552398336,
+        30.315600382555207
+      ],
+      "measuredHeightDifferenceRealMetres": 0.6219384117043725,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-near-or-point-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 22,
+      "a": "way/975346721",
+      "b": "relation/2308774",
+      "aIndex": 1694,
+      "bIndex": 2066,
+      "areaGameSquared": 0.6928383417830297,
+      "heightDifferenceGame": 2.4074006739740526,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "addr:state": "ZJ",
+        "addr:street": "苏堤",
+        "alt_name": "West Lake",
+        "attraction": "tourism",
+        "name": "西湖",
+        "name:de": "Westsee",
+        "name:en": "West Lake",
+        "name:fr": "Lac de l'Ouest",
+        "name:nan": "Se-ô͘",
+        "name:nan-Hans": "西湖",
+        "name:nan-Latn-pehoeji": "Se-ô͘",
+        "name:nan-Latn-tailo": "Se-ôo",
+        "name:sk": "Západné jazero",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh-Latn-pinyin": "Xī Hú",
+        "natural": "water",
+        "source": "yahoo",
+        "water": "lake",
+        "wikidata": "Q502371",
+        "wikipedia": "zh:西湖",
+        "wikipedia:en": "West Lake"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.6928383417830297,
+      "runtimeOverlapAreaRealMetresSquared": 1.9245509493973048,
+      "sharedSourceBoundaryLengthGame": 12.837797046516647,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "GeometryCollection",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -1565.9997,
+                  -1902.7397
+                ],
+                [
+                  -1565.0587,
+                  -1908.0609
+                ],
+                [
+                  -1566.0839592857049,
+                  -1902.8186425462886
+                ],
+                [
+                  -1565.9997,
+                  -1902.7397
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -1567.2352,
+                  -1914.3398
+                ],
+                [
+                  -1567.235320150218,
+                  -1914.3398300037672
+                ],
+                [
+                  -1567.9626,
+                  -1911.493
+                ],
+                [
+                  -1567.2352,
+                  -1914.3398
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -1628.0444,
+                  -1929.525
+                ],
+                [
+                  -1631.6584,
+                  -1916.1091
+                ],
+                [
+                  -1631.6274102180935,
+                  -1916.1314724893818
+                ],
+                [
+                  -1628.0074630134097,
+                  -1929.5157761403084
+                ],
+                [
+                  -1628.0444,
+                  -1929.525
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1565.0587,
+                -1908.0609
+              ],
+              [
+                -1567.9626,
+                -1911.493
+              ]
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1565.9997492100752,
+                -1902.7397171925072
+              ],
+              [
+                -1565.0587164506221,
+                -1908.0608567016964
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1565.0587164506221,
+                -1908.0608567016964
+              ],
+              [
+                -1567.9626396295178,
+                -1911.492991685426
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1567.9626396295178,
+                -1911.492991685426
+              ],
+              [
+                -1567.235215532896,
+                -1914.3398013228991
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              -1628.0444060611442,
+              -1929.525003197813
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              -1631.6584337147078,
+              -1916.1090802096526
+            ]
+          }
+        ]
+      },
+      "representativePointWGS84": [
+        120.12788254614905,
+        30.245352906377885
+      ],
+      "measuredHeightDifferenceRealMetres": 4.012334456623421,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 23,
+      "a": "way/538148437",
+      "b": "way/845633888",
+      "aIndex": 308,
+      "bIndex": 1326,
+      "areaGameSquared": 0.6340100528467392,
+      "heightDifferenceGame": 2.450464018886837,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "sourceOverlapAreaGameSquared": 0.6320456335434919,
+      "sourceOverlapAreaRealMetresSquared": 1.7556823153985885,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.6340100528467392,
+      "runtimeOverlapAreaRealMetresSquared": 1.7611390356853867,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1843.6968,
+              2894.1611
+            ],
+            [
+              -1844.3434,
+              2885.9732
+            ],
+            [
+              -1843.7487,
+              2895.4582
+            ],
+            [
+              -1843.7452558030623,
+              2895.4561916732932
+            ],
+            [
+              -1843.6968,
+              2894.1611
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1843.6967845858067,
+              2894.1611277331945
+            ],
+            [
+              -1844.3433837827126,
+              2885.973224313139
+            ],
+            [
+              -1843.7487434500267,
+              2895.458155488642
+            ],
+            [
+              -1843.6967845858067,
+              2894.1611277331945
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.12305842280725,
+        30.31745034960876
+      ],
+      "measuredHeightDifferenceRealMetres": 4.084106698144729,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 24,
+      "a": "way/642473478",
+      "b": "way/643003081",
+      "aIndex": 468,
+      "bIndex": 485,
+      "areaGameSquared": 0.5223731667044101,
+      "heightDifferenceGame": 0.7263480361708936,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.5223731667044101,
+      "runtimeOverlapAreaRealMetresSquared": 1.451036574178917,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiPoint",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7801.840330187306,
+              -199.75590391338517
+            ],
+            [
+              -7801.8197,
+              -199.862
+            ],
+            [
+              -7811.4263,
+              -201.0992
+            ],
+            [
+              -7801.840330187306,
+              -199.75590391338517
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -7801.819722130182,
+            -199.86199997267735
+          ],
+          [
+            -7811.426338767232,
+            -201.0991649086537
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.01977503260579,
+        30.270985899736008
+      ],
+      "measuredHeightDifferenceRealMetres": 1.2105800602848227,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-near-or-point-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 25,
+      "a": "relation/8924449",
+      "b": "way/840053144",
+      "aIndex": 495,
+      "bIndex": 1313,
+      "areaGameSquared": 0.4790039529259876,
+      "heightDifferenceGame": 2.2965960856921788,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.4790039529259876,
+      "runtimeOverlapAreaRealMetresSquared": 1.330566535905521,
+      "sharedSourceBoundaryLengthGame": 44.344653770025104,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  4259.0508,
+                  157.4924
+                ],
+                [
+                  4259.044951748363,
+                  157.55775862948053
+                ],
+                [
+                  4272.3926,
+                  172.1987
+                ],
+                [
+                  4259.0508,
+                  157.4924
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4276.838,
+                181.4708
+              ],
+              [
+                4275.8797,
+                177.5199
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4275.8797,
+                177.5199
+              ],
+              [
+                4272.3926,
+                172.1987
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4224.7464,
+                101.6737
+              ],
+              [
+                4229.9134,
+                88.597
+              ]
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              4276.838015480465,
+              181.47081154322626
+            ],
+            [
+              4275.879663099059,
+              177.51986545764842
+            ]
+          ],
+          [
+            [
+              4275.879663099059,
+              177.51986545764842
+            ],
+            [
+              4272.3926460026605,
+              172.19872594822272
+            ]
+          ],
+          [
+            [
+              4272.3926460026605,
+              172.19872594822272
+            ],
+            [
+              4262.064378476579,
+              160.75827600308747
+            ]
+          ],
+          [
+            [
+              4262.064378476579,
+              160.75827600308747
+            ],
+            [
+              4259.050764362472,
+              157.49242662907906
+            ]
+          ],
+          [
+            [
+              4224.746367693215,
+              101.6736731757069
+            ],
+            [
+              4229.91338806005,
+              88.59697283121706
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.22888848135085,
+        30.276478840917797
+      ],
+      "measuredHeightDifferenceRealMetres": 3.827660142820298,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 26,
+      "a": "way/518983410",
+      "b": "way/548930723",
+      "aIndex": 233,
+      "bIndex": 344,
+      "areaGameSquared": 0.45948205980492896,
+      "heightDifferenceGame": 0.3230716720321847,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.45948205980492896,
+      "runtimeOverlapAreaRealMetresSquared": 1.2763390550136915,
+      "sharedSourceBoundaryLengthGame": 9.125559137328517,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -651.4079843594822,
+              4278.9765593666225
+            ],
+            [
+              -651.5064,
+              4278.9544
+            ],
+            [
+              -652.9786,
+              4287.9605
+            ],
+            [
+              -651.4079843594822,
+              4278.9765593666225
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -652.9785905946108,
+            4287.960456549839
+          ],
+          [
+            -651.5064227802338,
+            4278.954427930343
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.14370266060395,
+        30.338399266692765
+      ],
+      "measuredHeightDifferenceRealMetres": 0.5384527867203078,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 27,
+      "a": "relation/7338285",
+      "b": "way/834956692",
+      "aIndex": 407,
+      "bIndex": 1307,
+      "areaGameSquared": 0.42016430027778906,
+      "heightDifferenceGame": 2.2579366944516845,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.42016430027778906,
+      "runtimeOverlapAreaRealMetresSquared": 1.167123056327192,
+      "sharedSourceBoundaryLengthGame": 6.787877044989552,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -1234.5715,
+                  2822.645
+                ],
+                [
+                  -1235.3797,
+                  2818.8005
+                ],
+                [
+                  -1235.584741879781,
+                  2818.864896305045
+                ],
+                [
+                  -1234.5715,
+                  2822.645
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1234.5715,
+                2822.645
+              ],
+              [
+                -1233.0935,
+                2825.0927
+              ]
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -1235.3797242236712,
+              2818.8004894314877
+            ],
+            [
+              -1234.5714752273336,
+              2822.645012727052
+            ]
+          ],
+          [
+            [
+              -1234.5714752273336,
+              2822.645012727052
+            ],
+            [
+              -1233.0935342061857,
+              2825.092736901383
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.1336076707147,
+        30.31640828406283
+      ],
+      "measuredHeightDifferenceRealMetres": 3.763227824086141,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 28,
+      "a": "way/642325265",
+      "b": "way/642325270",
+      "aIndex": 464,
+      "bIndex": 465,
+      "areaGameSquared": 0.39894736459532065,
+      "heightDifferenceGame": 1.1767908404078984,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.39894736459532065,
+      "runtimeOverlapAreaRealMetresSquared": 1.1081871238758907,
+      "sharedSourceBoundaryLengthGame": 11.31124493378496,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9253.90749660027,
+              490.6305997789943
+            ],
+            [
+              -9253.891,
+              490.7022
+            ],
+            [
+              -9242.5986,
+              491.3474
+            ],
+            [
+              -9253.90749660027,
+              490.6305997789943
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -9242.598609044559,
+              491.34737087269497
+            ],
+            [
+              -9248.481507093655,
+              490.9615882582456
+            ]
+          ],
+          [
+            [
+              -9248.481507093655,
+              490.9615882582456
+            ],
+            [
+              -9253.891002158816,
+              490.7021827072034
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        119.9948123203556,
+        30.281382250348948
+      ],
+      "measuredHeightDifferenceRealMetres": 1.9613180673464974,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 29,
+      "a": "relation/10872317",
+      "b": "relation/10872319",
+      "aIndex": 1212,
+      "bIndex": 1215,
+      "areaGameSquared": 0.39012285825327475,
+      "heightDifferenceGame": 0.46028573419292584,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.39012285825327475,
+      "runtimeOverlapAreaRealMetresSquared": 1.0836746062590965,
+      "sharedSourceBoundaryLengthGame": 3.8909840957586126,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4237.814797910251,
+              -204.2672217995986
+            ],
+            [
+              -4237.6148,
+              -204.2519
+            ],
+            [
+              -4237.2223,
+              -208.1231
+            ],
+            [
+              -4237.814797910251,
+              -204.2672217995986
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4237.222268266073,
+            -208.1230690611334
+          ],
+          [
+            -4237.614846349469,
+            -204.25194006794763
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.08160114079297,
+        30.270899984891795
+      ],
+      "measuredHeightDifferenceRealMetres": 0.7671428903215431,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 30,
+      "a": "way/642559807",
+      "b": "way/1479955347",
+      "aIndex": 473,
+      "bIndex": 2104,
+      "areaGameSquared": 0.3671041175762388,
+      "heightDifferenceGame": 1.6824099409110471,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.3671041175762388,
+      "runtimeOverlapAreaRealMetresSquared": 1.0197336599339966,
+      "sharedSourceBoundaryLengthGame": 5.982829772164055,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6729.258032173549,
+              2162.7638447278964
+            ],
+            [
+              -6729.2906,
+              2162.6375
+            ],
+            [
+              -6734.2325,
+              2166.0097
+            ],
+            [
+              -6729.258032173549,
+              2162.7638447278964
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6734.2324894588955,
+            2166.0097458438995
+          ],
+          [
+            -6729.290624170074,
+            2162.637473679641
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.0383958393581,
+        30.306540199610165
+      ],
+      "measuredHeightDifferenceRealMetres": 2.804016568185079,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 31,
+      "a": "relation/10872318",
+      "b": "relation/10872317",
+      "aIndex": 1211,
+      "bIndex": 1212,
+      "areaGameSquared": 0.3662901717458372,
+      "heightDifferenceGame": 0.6512842961219101,
+      "aTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.3662901717458372,
+      "runtimeOverlapAreaRealMetresSquared": 1.0174726992939924,
+      "sharedSourceBoundaryLengthGame": 3.6835470697260564,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4237.6148,
+              -204.2519
+            ],
+            [
+              -4237.814797910251,
+              -204.2672217995986
+            ],
+            [
+              -4238.3711,
+              -200.6469
+            ],
+            [
+              -4237.6148,
+              -204.2519
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4238.371136481587,
+            -200.64686805050493
+          ],
+          [
+            -4237.614846349469,
+            -204.25194006794763
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.08159117446148,
+        30.270956300061027
+      ],
+      "measuredHeightDifferenceRealMetres": 1.0854738268698503,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 32,
+      "a": "way/1479533509",
+      "b": "way/1485378647",
+      "aIndex": 2099,
+      "bIndex": 2109,
+      "areaGameSquared": 0.35994248852830735,
+      "heightDifferenceGame": 2.740535656094308,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.35994248852830735,
+      "runtimeOverlapAreaRealMetresSquared": 0.9998402459119649,
+      "sharedSourceBoundaryLengthGame": 5.687356339273725,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1634.2795,
+              -6437.4281
+            ],
+            [
+              1633.9966,
+              -6431.7478
+            ],
+            [
+              1634.123529056536,
+              -6431.751724152651
+            ],
+            [
+              1634.2795,
+              -6437.4281
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              1633.996582595593,
+              -6431.747793517889
+            ],
+            [
+              1634.1351395663,
+              -6434.514786062733
+            ]
+          ],
+          [
+            [
+              1634.1351395663,
+              -6434.514786062733
+            ],
+            [
+              1634.2794697437778,
+              -6437.428109944142
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.18330610090617,
+        30.177259970527434
+      ],
+      "measuredHeightDifferenceRealMetres": 4.5675594268238475,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 33,
+      "a": "way/922860415",
+      "b": "way/922860420",
+      "aIndex": 1620,
+      "bIndex": 1625,
+      "areaGameSquared": 0.355181297665134,
+      "heightDifferenceGame": 0.7668805316062497,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.3551904405109312,
+      "sourceOverlapAreaRealMetresSquared": 0.9866401125303644,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.355181297665134,
+      "runtimeOverlapAreaRealMetresSquared": 0.9866147157364834,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5990.033696186835,
+              -556.3975638082771
+            ],
+            [
+              -5990.0372,
+              -556.671
+            ],
+            [
+              -5992.6294,
+              -556.2254
+            ],
+            [
+              -5990.033696186835,
+              -556.3975638082771
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5990.033721420512,
+              -556.3975636375923
+            ],
+            [
+              -5990.0372264685275,
+              -556.671009774964
+            ],
+            [
+              -5992.629396462922,
+              -556.2253643410434
+            ],
+            [
+              -5990.033721420512,
+              -556.3975636375923
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.05123732748761,
+        30.26563285561791
+      ],
+      "measuredHeightDifferenceRealMetres": 1.2781342193437495,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 34,
+      "a": "way/641843741",
+      "b": "way/832501692",
+      "aIndex": 438,
+      "bIndex": 1303,
+      "areaGameSquared": 0.32161787182188917,
+      "heightDifferenceGame": 1.637483485238858,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.32161787182188917,
+      "runtimeOverlapAreaRealMetresSquared": 0.8933829772830255,
+      "sharedSourceBoundaryLengthGame": 7.748712315326891,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3570.4858384355166,
+              -4050.637457891222
+            ],
+            [
+              3570.5034,
+              -4050.6509
+            ],
+            [
+              3563.5929,
+              -4054.1562
+            ],
+            [
+              3563.5941539492833,
+              -4054.0846488280713
+            ],
+            [
+              3570.4858384355166,
+              -4050.637457891222
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3563.592915826073,
+            -4054.156237931741
+          ],
+          [
+            3570.5034447411076,
+            -4050.6509372798473
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.21678667332027,
+        30.21307518842891
+      ],
+      "measuredHeightDifferenceRealMetres": 2.7291391420647635,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 35,
+      "a": "relation/13654033",
+      "b": "way/1063696120",
+      "aIndex": 1745,
+      "bIndex": 1829,
+      "areaGameSquared": 0.2184809353387833,
+      "heightDifferenceGame": 0.9121245550520993,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.2184809353387833,
+      "runtimeOverlapAreaRealMetresSquared": 0.6068914870521759,
+      "sharedSourceBoundaryLengthGame": 8.91490526146146,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8033.9719,
+              4388.2772
+            ],
+            [
+              8034.021142489281,
+              4388.281279438014
+            ],
+            [
+              8033.5793,
+              4379.371
+            ],
+            [
+              8033.9719,
+              4388.2772
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8033.5793485024005,
+            4379.370981896916
+          ],
+          [
+            8033.971926585797,
+            4388.277239150627
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.29415641171084,
+        30.33990804984178
+      ],
+      "measuredHeightDifferenceRealMetres": 1.520207591753499,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 36,
+      "a": "relation/2162647",
+      "b": "relation/2308774",
+      "aIndex": 57,
+      "bIndex": 2066,
+      "areaGameSquared": 0.20125750333314024,
+      "heightDifferenceGame": 3.330286910965949,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "addr:state": "ZJ",
+        "addr:street": "苏堤",
+        "alt_name": "West Lake",
+        "attraction": "tourism",
+        "name": "西湖",
+        "name:de": "Westsee",
+        "name:en": "West Lake",
+        "name:fr": "Lac de l'Ouest",
+        "name:nan": "Se-ô͘",
+        "name:nan-Hans": "西湖",
+        "name:nan-Latn-pehoeji": "Se-ô͘",
+        "name:nan-Latn-tailo": "Se-ôo",
+        "name:sk": "Západné jazero",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh-Latn-pinyin": "Xī Hú",
+        "natural": "water",
+        "source": "yahoo",
+        "water": "lake",
+        "wikidata": "Q502371",
+        "wikipedia": "zh:西湖",
+        "wikipedia:en": "West Lake"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.20125750333314024,
+      "runtimeOverlapAreaRealMetresSquared": 0.559048620369834,
+      "sharedSourceBoundaryLengthGame": 10.455059517513435,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1371.7891,
+              -2542.6999
+            ],
+            [
+              -1366.5932,
+              -2551.7724
+            ],
+            [
+              -1371.7881744380923,
+              -2542.7789839252246
+            ],
+            [
+              -1371.7891,
+              -2542.6999
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1371.789061906007,
+            -2542.6998631381916
+          ],
+          [
+            -1366.5931755036756,
+            -2551.772406001624
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.13128389959631,
+        30.235703305279372
+      ],
+      "measuredHeightDifferenceRealMetres": 5.550478184943248,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 37,
+      "a": "relation/10866057",
+      "b": "way/922850951",
+      "aIndex": 1580,
+      "bIndex": 1589,
+      "areaGameSquared": 0.19434894992671659,
+      "heightDifferenceGame": 0.9515191021695812,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.19434894992671659,
+      "runtimeOverlapAreaRealMetresSquared": 0.5398581942408794,
+      "sharedSourceBoundaryLengthGame": 7.419281104414468,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5816.5466,
+              -438.0562
+            ],
+            [
+              -5812.9787,
+              -444.5613
+            ],
+            [
+              -5813.044019816057,
+              -444.55115004187905
+            ],
+            [
+              -5816.5466,
+              -438.0562
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5812.978737498268,
+            -444.56125173644114
+          ],
+          [
+            -5816.546579495203,
+            -438.05615868628223
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.05427989318245,
+        30.267365275625764
+      ],
+      "measuredHeightDifferenceRealMetres": 1.5858651702826354,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 38,
+      "a": "way/899224550",
+      "b": "way/899224553",
+      "aIndex": 1402,
+      "bIndex": 1404,
+      "areaGameSquared": 0.17741741506420694,
+      "heightDifferenceGame": 0.22396503227925013,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.17741741506420694,
+      "runtimeOverlapAreaRealMetresSquared": 0.4928261529561304,
+      "sharedSourceBoundaryLengthGame": 2.193713314252749,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6432.23986237617,
+              -1552.8100364544148
+            ],
+            [
+              -6432.2072,
+              -1552.9347
+            ],
+            [
+              -6434.0142,
+              -1554.1785
+            ],
+            [
+              -6434.054567426766,
+              -1554.1595064401702
+            ],
+            [
+              -6432.23986237617,
+              -1552.8100364544148
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6434.014173132409,
+            -1554.1784736297477
+          ],
+          [
+            -6432.2071593064475,
+            -1552.934657269543
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.0435686267144,
+        30.250643392258695
+      ],
+      "measuredHeightDifferenceRealMetres": 0.37327505379875026,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 39,
+      "a": "way/899196589",
+      "b": "way/904453963",
+      "aIndex": 1350,
+      "bIndex": 1453,
+      "areaGameSquared": 0.17130692218288807,
+      "heightDifferenceGame": 0.527268648445999,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.17130692218288807,
+      "runtimeOverlapAreaRealMetresSquared": 0.47585256161913353,
+      "sharedSourceBoundaryLengthGame": 3.119094446225422,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6091.370312597827,
+              -1039.6178524897523
+            ],
+            [
+              -6091.4725,
+              -1039.5711
+            ],
+            [
+              -6090.8028,
+              -1036.5247
+            ],
+            [
+              -6091.370312597827,
+              -1039.6178524897523
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6090.802783431164,
+            -1036.524719307517
+          ],
+          [
+            -6091.472475455975,
+            -1039.571071676561
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.04949347929615,
+        30.258393599932226
+      ],
+      "measuredHeightDifferenceRealMetres": 0.8787810807433316,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 40,
+      "a": "way/904494647",
+      "b": "relation/12283343",
+      "aIndex": 1508,
+      "bIndex": 1660,
+      "areaGameSquared": 0.16154867407968587,
+      "heightDifferenceGame": 0.4364553711797603,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.16154867407968587,
+      "runtimeOverlapAreaRealMetresSquared": 0.4487463168880163,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiPoint",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6200.7016,
+              -432.0167
+            ],
+            [
+              -6199.0042,
+              -430.9325
+            ],
+            [
+              -6198.880300118348,
+              -431.0005210638347
+            ],
+            [
+              -6200.695214549539,
+              -432.05338664514557
+            ],
+            [
+              -6200.7016,
+              -432.0167
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -6199.004231155349,
+            -430.9324831680171
+          ],
+          [
+            -6200.701554046919,
+            -432.01666534320105
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.04761027675481,
+        30.267512538285903
+      ],
+      "measuredHeightDifferenceRealMetres": 0.7274256186329339,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-near-or-point-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 41,
+      "a": "way/979543008",
+      "b": "relation/2308774",
+      "aIndex": 1713,
+      "bIndex": 2066,
+      "areaGameSquared": 0.15705814594560658,
+      "heightDifferenceGame": 2.244430149559572,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "addr:state": "ZJ",
+        "addr:street": "苏堤",
+        "alt_name": "West Lake",
+        "attraction": "tourism",
+        "name": "西湖",
+        "name:de": "Westsee",
+        "name:en": "West Lake",
+        "name:fr": "Lac de l'Ouest",
+        "name:nan": "Se-ô͘",
+        "name:nan-Hans": "西湖",
+        "name:nan-Latn-pehoeji": "Se-ô͘",
+        "name:nan-Latn-tailo": "Se-ôo",
+        "name:sk": "Západné jazero",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh-Latn-pinyin": "Xī Hú",
+        "natural": "water",
+        "source": "yahoo",
+        "water": "lake",
+        "wikidata": "Q502371",
+        "wikipedia": "zh:西湖",
+        "wikipedia:en": "West Lake"
+      },
+      "sourceOverlapAreaGameSquared": 0.15629103734687913,
+      "sourceOverlapAreaRealMetresSquared": 0.4341417704079976,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.15705814594560658,
+      "runtimeOverlapAreaRealMetresSquared": 0.43627262762668495,
+      "sharedSourceBoundaryLengthGame": 11.78108030974776,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "GeometryCollection",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -1652.7653,
+                  -1890.7738
+                ],
+                [
+                  -1651.5540215548879,
+                  -1893.900879950561
+                ],
+                [
+                  -1652.842750700368,
+                  -1890.820492515213
+                ],
+                [
+                  -1652.7653,
+                  -1890.7738
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -1641.6576,
+                  -1920.652
+                ],
+                [
+                  -1639.5215,
+                  -1928.9995
+                ],
+                [
+                  -1641.6592769135684,
+                  -1920.6526395236065
+                ],
+                [
+                  -1641.6576,
+                  -1920.652
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1639.0597,
+                -1976.2313
+              ],
+              [
+                -1640.451,
+                -1975.6194
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1640.451,
+                -1975.6194
+              ],
+              [
+                -1642.0791,
+                -1975.8522
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              -1702.8248,
+              -1942.8212
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -1652.7652789220767,
+                  -1890.7738047205864
+                ],
+                [
+                  -1651.518266185714,
+                  -1893.993094123816
+                ],
+                [
+                  -1652.8439937718656,
+                  -1890.82125908185
+                ],
+                [
+                  -1652.7652789220767,
+                  -1890.7738047205864
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1641.6576284351543,
+                -1920.6520030659517
+              ],
+              [
+                -1639.5215418035586,
+                -1928.9995406712642
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1639.0596852339884,
+                -1976.2313052414386
+              ],
+              [
+                -1640.4510281486494,
+                -1975.619374198033
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -1640.4510281486494,
+                -1975.619374198033
+              ],
+              [
+                -1642.0790725548663,
+                -1975.8521740514536
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              -1702.8247578053524,
+              -1942.8212005467947
+            ]
+          }
+        ]
+      },
+      "representativePointWGS84": [
+        120.12638203308292,
+        30.245549542230297
+      ],
+      "measuredHeightDifferenceRealMetres": 3.7407169159326203,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 42,
+      "a": "way/783008837",
+      "b": "way/783008840",
+      "aIndex": 934,
+      "bIndex": 937,
+      "areaGameSquared": 0.09337927856910215,
+      "heightDifferenceGame": 0.21175014944895176,
+      "aTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.09337927856910215,
+      "runtimeOverlapAreaRealMetresSquared": 0.25938688491417267,
+      "sharedSourceBoundaryLengthGame": 2.0044716196699244,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5681.380668589781,
+              -373.7067421871256
+            ],
+            [
+              -5681.3034,
+              -373.7834
+            ],
+            [
+              -5682.885169547988,
+              -374.6311385610873
+            ],
+            [
+              -5681.380668589781,
+              -373.7067421871256
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5683.064257818846,
+            -374.7412499488882
+          ],
+          [
+            -5681.303429649513,
+            -373.78344483711123
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.05657732641285,
+        30.268374028064926
+      ],
+      "measuredHeightDifferenceRealMetres": 0.35291691574825296,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 43,
+      "a": "way/1188404008",
+      "b": "way/1427960780",
+      "aIndex": 1941,
+      "bIndex": 2038,
+      "areaGameSquared": 0.07415992070442146,
+      "heightDifferenceGame": 0.38046402650953226,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.07415992070442146,
+      "runtimeOverlapAreaRealMetresSquared": 0.20599977973450406,
+      "sharedSourceBoundaryLengthGame": 4.184432864414262,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8439.146958544212,
+              1429.3277820546734
+            ],
+            [
+              -8439.1529,
+              1429.3246
+            ],
+            [
+              -8441.0465,
+              1433.056
+            ],
+            [
+              -8441.019302675673,
+              1433.065858590807
+            ],
+            [
+              -8439.146958544212,
+              1429.3277820546734
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8441.046533379254,
+            1433.056035547027
+          ],
+          [
+            -8439.152921445986,
+            1429.3245864661774
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.0088058583679,
+        30.29551707375462
+      ],
+      "measuredHeightDifferenceRealMetres": 0.6341067108492204,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 44,
+      "a": "way/544319798",
+      "b": "way/1546020480",
+      "aIndex": 326,
+      "bIndex": 2144,
+      "areaGameSquared": 0.06153694606298876,
+      "heightDifferenceGame": 0.3421391595472336,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.10767374220493679,
+      "sourceOverlapAreaRealMetresSquared": 0.2990937283470467,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.06153694606298876,
+      "runtimeOverlapAreaRealMetresSquared": 0.1709359612860799,
+      "sharedSourceBoundaryLengthGame": 0.0,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "Polygon",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6273.9174,
+              -6410.1107
+            ],
+            [
+              6274.217976044201,
+              -6408.782927244203
+            ],
+            [
+              6273.53944406504,
+              -6412.189752863708
+            ],
+            [
+              6273.9174,
+              -6410.1107
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6273.917366662672,
+              -6410.110709987824
+            ],
+            [
+              6274.615924723799,
+              -6406.784997794343
+            ],
+            [
+              6274.038604012247,
+              -6409.698321675752
+            ],
+            [
+              6273.519015371684,
+              -6412.292377186647
+            ],
+            [
+              6273.917366662672,
+              -6410.110709987824
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.26366988365224,
+        30.177612371521292
+      ],
+      "measuredHeightDifferenceRealMetres": 0.5702319325787227,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "source-area-overlap-needs-identity-decision",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 45,
+      "a": "way/904474746",
+      "b": "way/904474752",
+      "aIndex": 1504,
+      "bIndex": 1505,
+      "areaGameSquared": 0.03247693470496096,
+      "heightDifferenceGame": 0.4029873769793273,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.03247693470496096,
+      "runtimeOverlapAreaRealMetresSquared": 0.09021370751378044,
+      "sharedSourceBoundaryLengthGame": 10.497813704486054,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -6476.161209388589,
+                  -415.90049928361566
+                ],
+                [
+                  -6476.1124,
+                  -415.9003
+                ],
+                [
+                  -6475.9738,
+                  -417.2305
+                ],
+                [
+                  -6476.161209388589,
+                  -415.90049928361566
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -6466.8637,
+                -416.2727
+              ],
+              [
+                -6475.9738,
+                -417.2305
+              ]
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -6466.863721610065,
+              -416.272743819652
+            ],
+            [
+              -6475.973842435279,
+              -417.23054893142904
+            ]
+          ],
+          [
+            [
+              -6475.973842435279,
+              -417.23054893142904
+            ],
+            [
+              -6476.112399405985,
+              -415.9002640541317
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.04282568909062,
+        30.267737198599562
+      ],
+      "measuredHeightDifferenceRealMetres": 0.6716456282988789,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 46,
+      "a": "relation/9059080",
+      "b": "relation/10866057",
+      "aIndex": 566,
+      "bIndex": 1580,
+      "areaGameSquared": 0.03149371103814147,
+      "heightDifferenceGame": 0.5122696399145681,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.03149371103814147,
+      "runtimeOverlapAreaRealMetresSquared": 0.08748253066150409,
+      "sharedSourceBoundaryLengthGame": 76.42061485068959,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -5629.4543,
+                  -1084.2487
+                ],
+                [
+                  -5643.7487,
+                  -1095.5894
+                ],
+                [
+                  -5643.749548370013,
+                  -1095.587054170741
+                ],
+                [
+                  -5629.4543,
+                  -1084.2487
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -5614.1495,
+                  -1074.531
+                ],
+                [
+                  -5620.1363,
+                  -1078.3356
+                ],
+                [
+                  -5620.1349575350805,
+                  -1078.3314338958137
+                ],
+                [
+                  -5614.1495,
+                  -1074.531
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              -5560.9898,
+              -1056.8182
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -5643.748717374592,
+              -1095.5893678617404
+            ],
+            [
+              -5629.45425656141,
+              -1084.2486892823906
+            ]
+          ],
+          [
+            [
+              -5620.136300280135,
+              -1078.33557300248
+            ],
+            [
+              -5614.14948450342,
+              -1074.5309582532302
+            ]
+          ],
+          [
+            [
+              -5614.14948450342,
+              -1074.5309582532302
+            ],
+            [
+              -5588.56840378193,
+              -1066.0038321895036
+            ]
+          ],
+          [
+            [
+              -5583.8690131914345,
+              -1064.4407474585494
+            ],
+            [
+              -5560.989793400371,
+              -1056.8182151113567
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.05770328406982,
+        30.25781653080062
+      ],
+      "measuredHeightDifferenceRealMetres": 0.8537827331909469,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 47,
+      "a": "relation/10868926",
+      "b": "way/817891308",
+      "aIndex": 1135,
+      "bIndex": 1272,
+      "areaGameSquared": 0.030724357677367836,
+      "heightDifferenceGame": 0.07036529534049407,
+      "aTags": {
+        "natural": "water"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.030724357677367836,
+      "runtimeOverlapAreaRealMetresSquared": 0.08534543799268844,
+      "sharedSourceBoundaryLengthGame": 3.8494260266503977,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5633.975518688105,
+              523.2686956371316
+            ],
+            [
+              -5632.4275,
+              523.4738
+            ],
+            [
+              -5632.409836544102,
+              523.4364452419915
+            ],
+            [
+              -5633.975518688105,
+              523.2686956371316
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5632.427458224838,
+            523.4737506605837
+          ],
+          [
+            -5636.243548126872,
+            522.9682424071918
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.05742394797196,
+        30.28186827813127
+      ],
+      "measuredHeightDifferenceRealMetres": 0.11727549223415679,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 48,
+      "a": "relation/9059080",
+      "b": "relation/10865793",
+      "aIndex": 566,
+      "bIndex": 929,
+      "areaGameSquared": 0.02874588652655921,
+      "heightDifferenceGame": 0.15587630999853097,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.02874588652655921,
+      "runtimeOverlapAreaRealMetresSquared": 0.07984968479599781,
+      "sharedSourceBoundaryLengthGame": 73.86820333781662,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -5102.667573597209,
+                  -803.41631526474
+                ],
+                [
+                  -5102.6664,
+                  -803.4189
+                ],
+                [
+                  -5106.9963,
+                  -802.9466
+                ],
+                [
+                  -5102.667573597209,
+                  -803.41631526474
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -5048.139287448161,
+                  -793.8525802303126
+                ],
+                [
+                  -5048.1385,
+                  -793.8542
+                ],
+                [
+                  -5062.508,
+                  -796.2753
+                ],
+                [
+                  -5048.139287448161,
+                  -793.8525802303126
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -5035.47464754931,
+                  -789.3424275099438
+                ],
+                [
+                  -5035.4721,
+                  -789.3445
+                ],
+                [
+                  -5041.7187,
+                  -792.77
+                ],
+                [
+                  -5035.47464754931,
+                  -789.3424275099438
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -5030.3166,
+                -786.511
+              ],
+              [
+                -5013.326,
+                -779.4073
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -4985.9322,
+                -764.8074
+              ],
+              [
+                -4968.7684,
+                -746.1435
+              ]
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -5110.517988732755,
+              -804.9354250100927
+            ],
+            [
+              -5106.996332393268,
+              -802.9466491183748
+            ]
+          ],
+          [
+            [
+              -5106.996332393268,
+              -802.9466491183748
+            ],
+            [
+              -5102.666427058266,
+              -803.418900249917
+            ]
+          ],
+          [
+            [
+              -5062.507998375408,
+              -796.2752704584947
+            ],
+            [
+              -5048.13848586928,
+              -793.8541519817851
+            ]
+          ],
+          [
+            [
+              -5041.718679559311,
+              -792.7699698066011
+            ],
+            [
+              -5035.472069462315,
+              -789.3444862475723
+            ]
+          ],
+          [
+            [
+              -5030.316595509841,
+              -786.5109794587919
+            ],
+            [
+              -5013.326046973823,
+              -779.4072582136838
+            ]
+          ],
+          [
+            [
+              -4985.9321792196,
+              -764.80738168479
+            ],
+            [
+              -4968.768434470609,
+              -746.143484855604
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.06657709282065,
+        30.261924669801047
+      ],
+      "measuredHeightDifferenceRealMetres": 0.2597938499975516,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 49,
+      "a": "way/550977999",
+      "b": "relation/9010615",
+      "aIndex": 346,
+      "bIndex": 525,
+      "areaGameSquared": 0.019281101022136805,
+      "heightDifferenceGame": 1.5738486219159462,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.019281101022136805,
+      "runtimeOverlapAreaRealMetresSquared": 0.053558613950380016,
+      "sharedSourceBoundaryLengthGame": 20.150388573870686,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              132.5471,
+              2138.6458
+            ],
+            [
+              124.80739901453673,
+              2146.0014382677136
+            ],
+            [
+              132.54499594410194,
+              2138.6527820366737
+            ],
+            [
+              132.5471,
+              2138.6458
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            132.54706212285376,
+            2138.6457859168013
+          ],
+          [
+            117.94084812517023,
+            2152.527308611803
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.15722882852306,
+        30.30620854640434
+      ],
+      "measuredHeightDifferenceRealMetres": 2.6230810365265773,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 50,
+      "a": "way/524909399",
+      "b": "relation/9010615",
+      "aIndex": 274,
+      "bIndex": 525,
+      "areaGameSquared": 0.017990473513979217,
+      "heightDifferenceGame": 1.2177623271617746,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.017990473513979217,
+      "runtimeOverlapAreaRealMetresSquared": 0.04997353753883116,
+      "sharedSourceBoundaryLengthGame": 46.66575889495375,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.0656,
+              2791.0774
+            ],
+            [
+              10.801987783668478,
+              2760.280229649499
+            ],
+            [
+              31.063609511940278,
+              2791.0761504472275
+            ],
+            [
+              31.0656,
+              2791.0774
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.065627478777785,
+            2791.0773525875616
+          ],
+          [
+            5.41526827275429,
+            2752.093354256914
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.15536259033004,
+        30.31573058323541
+      ],
+      "measuredHeightDifferenceRealMetres": 2.0296038786029578,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 51,
+      "a": "way/154259185",
+      "b": "relation/9406220",
+      "aIndex": 32,
+      "bIndex": 595,
+      "areaGameSquared": 0.014752481082016192,
+      "heightDifferenceGame": 1.143297691932018,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.014752481082016192,
+      "runtimeOverlapAreaRealMetresSquared": 0.040979114116711644,
+      "sharedSourceBoundaryLengthGame": 19.668541575546868,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7437.677963711618,
+              -7980.851298453449
+            ],
+            [
+              7437.6805,
+              -7980.8512
+            ],
+            [
+              7440.160504646798,
+              -7992.388057304691
+            ],
+            [
+              7437.677963711618,
+              -7980.851298453449
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7441.814072934616,
+            -8000.080498242372
+          ],
+          [
+            7437.680456641312,
+            -7980.851230340324
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.28385246842954,
+        30.15392617500392
+      ],
+      "measuredHeightDifferenceRealMetres": 1.9054961532200299,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 52,
+      "a": "way/265720548",
+      "b": "relation/8924449",
+      "aIndex": 76,
+      "bIndex": 495,
+      "areaGameSquared": 0.014615165254760143,
+      "heightDifferenceGame": 2.86261382437194,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.014615165254760143,
+      "runtimeOverlapAreaRealMetresSquared": 0.04059768126322262,
+      "sharedSourceBoundaryLengthGame": 23.511304259485456,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3116.226350698249,
+              516.9982964366774
+            ],
+            [
+              3108.872,
+              526.9524
+            ],
+            [
+              3108.8757302977397,
+              526.9513256101811
+            ],
+            [
+              3116.226350698249,
+              516.9982964366774
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3108.8720307231683,
+            526.9524456148558
+          ],
+          [
+            3122.843191938308,
+            508.04244608332016
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.20891371286487,
+        30.28184756438131
+      ],
+      "measuredHeightDifferenceRealMetres": 4.771023040619901,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 53,
+      "a": "relation/9357800",
+      "b": "relation/9358045",
+      "aIndex": 584,
+      "bIndex": 585,
+      "areaGameSquared": 0.012766590525529864,
+      "heightDifferenceGame": 1.0048916169004007,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.012766590525529864,
+      "runtimeOverlapAreaRealMetresSquared": 0.03546275145980518,
+      "sharedSourceBoundaryLengthGame": 25.596790536042697,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2397.2261,
+              2220.7377
+            ],
+            [
+              -2379.8949,
+              2201.9008
+            ],
+            [
+              -2379.896874535706,
+              2201.9014728299594
+            ],
+            [
+              -2397.2261,
+              2220.7377
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2379.8949416843025,
+            2201.900831834724
+          ],
+          [
+            -2397.2261094394967,
+            2220.7376656978595
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.11362678921165,
+        30.307245805076338
+      ],
+      "measuredHeightDifferenceRealMetres": 1.674819361500668,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 54,
+      "a": "way/265720548",
+      "b": "way/1479169477",
+      "aIndex": 76,
+      "bIndex": 2097,
+      "areaGameSquared": 0.0119907361706152,
+      "heightDifferenceGame": 4.290384422343673,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.0119907361706152,
+      "runtimeOverlapAreaRealMetresSquared": 0.03330760047393111,
+      "sharedSourceBoundaryLengthGame": 14.398907729030734,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "LineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2776.525199264787,
+              729.2775384165477
+            ],
+            [
+              2776.5258,
+              729.2755
+            ],
+            [
+              2764.338383452298,
+              730.7096746665412
+            ],
+            [
+              2776.525199264787,
+              729.2775384165477
+            ]
+          ]
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2762.225582788924,
+            730.9582829804539
+          ],
+          [
+            2776.525816809698,
+            729.2754726107931
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.20298767056921,
+        30.284974996693897
+      ],
+      "measuredHeightDifferenceRealMetres": 7.150640703906123,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    },
+    {
+      "pair": 55,
+      "a": "relation/13693402",
+      "b": "way/1022945807",
+      "aIndex": 1747,
+      "bIndex": 1748,
+      "areaGameSquared": 0.010294623805131369,
+      "heightDifferenceGame": 1.154326925531703,
+      "aTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "bTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "sourceOverlapAreaGameSquared": 0.0,
+      "sourceOverlapAreaRealMetresSquared": 0.0,
+      "runtimeOverlapAreaRecomputedGameSquared": 0.010294623805131369,
+      "runtimeOverlapAreaRealMetresSquared": 0.028596177236476027,
+      "sharedSourceBoundaryLengthGame": 25.921437292551296,
+      "sourceDistanceGame": 0.0,
+      "sourceIntersectionType": "MultiLineString",
+      "runtimeIntersectionGeometryGame": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -4414.078040749649,
+                  3118.2775693914627
+                ],
+                [
+                  -4414.0787,
+                  3118.2809
+                ],
+                [
+                  -4408.0746,
+                  3119.1788
+                ],
+                [
+                  -4414.078040749649,
+                  3118.2775693914627
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -4034.6404,
+                3212.6446
+              ],
+              [
+                -4054.3444,
+                3210.2368
+              ]
+            ]
+          }
+        ]
+      },
+      "sourceIntersectionGeometryGame": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -4034.6404306469553,
+              3212.644630219018
+            ],
+            [
+              -4054.3443865253007,
+              3210.236814591001
+            ]
+          ],
+          [
+            [
+              -4408.0745595883745,
+              3119.178814736524
+            ],
+            [
+              -4414.0786949870435,
+              3118.2808724444544
+            ]
+          ]
+        ]
+      },
+      "representativePointWGS84": [
+        120.07859409853646,
+        30.320888150096362
+      ],
+      "measuredHeightDifferenceRealMetres": 1.923878209219505,
+      "heightStatus": "difference of provisional estimated DSM planes, not measured water levels",
+      "classification": "independent-simplification-overlap-source-shared-boundary",
+      "declaredLayerDifference": false,
+      "hasExplicitLockTag": false
+    }
+  ],
+  "counts": {
+    "source-area-overlap-needs-identity-decision": 15,
+    "explicit-lock-chamber-boundary-hold": 1,
+    "different-explicit-source-layer-hold": 1,
+    "independent-simplification-overlap-source-shared-boundary": 35,
+    "independent-simplification-overlap-source-near-or-point-boundary": 3
+  }
+}

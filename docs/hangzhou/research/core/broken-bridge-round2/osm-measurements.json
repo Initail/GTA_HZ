@@ -1,0 +1,47 @@
+{
+  "anchorWGS84": [
+    120.14703035,
+    30.26090085
+  ],
+  "anchorMethod": "road endpoint midpoint, not a surveyed arch center",
+  "roadWayId": 28538289,
+  "areaWayId": 1466925249,
+  "roadNodeIds": [
+    "26315533",
+    "13454786643"
+  ],
+  "roadLengthM": 122.63663198506704,
+  "bearingNorthClockwise": 36.68886242039378,
+  "bridgeAxisRadiansEastCCW": 0.9304548787478092,
+  "polygonUVMetres": [
+    [
+      -60.90111579602105,
+      5.878446197549199
+    ],
+    [
+      -61.31831599212504,
+      -5.482441167714569e-10
+    ],
+    [
+      -61.716085239305386,
+      -5.551991054010074
+    ],
+    [
+      60.352801095613636,
+      -3.491182016426386
+    ],
+    [
+      60.78198820137895,
+      4.208065442656665
+    ]
+  ],
+  "lineAreaIdentityChecks": [
+    "same Chinese/English name",
+    "both explicitly tagged bridge",
+    "identical SW source point",
+    "NE line point within about1m of area end",
+    "UNESCO plan matches long narrow corridor to north-side pavilion cluster"
+  ],
+  "footprintInterpretation": "OSM122.6m corridor includes sloping approaches; 8.8m reported describes the short arch body, not the entire approaches.",
+  "uncertainty": "measured on source geometry, not a field survey; OSM accuracy unknown; planning±5m/±3deg; edge spread includes uncertain approach boundaries"
+}

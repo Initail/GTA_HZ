@@ -1,0 +1,86 @@
+{
+  "scope": "Source-bound single-arch stone body with continuous sloping asphalt approaches and railings; lake water and pavilion groups excluded.",
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "China State Party nomination / UNESCO World Heritage Centre publication",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2011 (PDF creation/modification metadata; underlying surveys undated)",
+      "status": "available-read-and-rendered",
+      "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+      "bytes": 79121258,
+      "pages": 1342,
+      "license": "unknown; reference only; PDF/page images not bundled",
+      "reviewedPages": [
+        {
+          "pdfPage": 100,
+          "printedPage": 105,
+          "use": "stone semicircular arch, asphalt slopes,8.8m length/8.6m width/6.1m clear span"
+        },
+        {
+          "pdfPage": 107,
+          "printedPage": 112,
+          "figure": "2a-59",
+          "use": "plan and north arrow/corridor/pavilion layout"
+        },
+        {
+          "pdfPage": 108,
+          "printedPage": 113,
+          "figure": "2a-61",
+          "use": "single small central arch and long gradual slopes with ruler"
+        }
+      ]
+    },
+    {
+      "id": "government-2018",
+      "url": "https://www.ehangzhou.gov.cn/2018-06/14/c_242889.htm",
+      "publisher": "Information Office of Hangzhou Municipal People’s Government",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2018-06-14",
+      "status": "available-read-and-photo-reviewed",
+      "license": "unknown; reference only; no image texture"
+    },
+    {
+      "id": "government-rain2020",
+      "url": "https://www.ehangzhou.gov.cn/2020-06/05/c_271613_2.htm",
+      "publisher": "Hangzhou government English portal / China Daily photographer Xiao Da",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2020-06-05",
+      "status": "available-photo-reviewed",
+      "license": "unknown; reference only; no image texture"
+    },
+    {
+      "id": "government-night2023",
+      "url": "https://www.ehangzhou.gov.cn/2023-08/17/c_286564.htm",
+      "publisher": "Hangzhou government English portal; photo credited IC",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2023-08-17",
+      "status": "available-photo-reviewed",
+      "license": "unknown; reference only; no image texture"
+    }
+  ],
+  "reported": {
+    "stoneArch": "one semicircular arch built with rectangular stone blocks",
+    "pavement": "asphalt with gradual slopes",
+    "coreBodyLengthM": 8.8,
+    "widthM": 8.6,
+    "clearSpanM": 6.1
+  },
+  "sourceDifferences": [
+    "122.6m OSM line/area is the bridge-and-approach corridor;8.8m arch body does not describe its full length.",
+    "Wikimedia/English Wikipedia three-span claim is not adopted; original UNESCO elevation and actual side photo show one central opening.",
+    "2011 nomination geometry is not a current2026 field survey; current vertical datum and exact ornament pending."
+  ]
+}

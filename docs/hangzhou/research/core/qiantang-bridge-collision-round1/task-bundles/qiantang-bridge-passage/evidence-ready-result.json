@@ -1,0 +1,53 @@
+{
+  "reviewedAtUtc": "2026-10-16T03:48:54+00:00",
+  "command": [
+    ".venv/bin/python",
+    "scripts/landmark_tasks.py",
+    "check",
+    "--job",
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/task-bundles/qiantang-bridge-passage/job.json",
+    "--stage",
+    "evidence-ready",
+    "--record"
+  ],
+  "exitCode": 2,
+  "result": {
+    "id": "qiantang-bridge-passage",
+    "recordedStage": "planned",
+    "currentStage": "planned",
+    "errors": {
+      "evidence-ready": [
+        "缺少 height 的有来源观察及不确定度（不能为 unknown）",
+        "evidence.blockers 尚未清空：[\"actual frozen structure leaves 118 source road way/node occurrences (113 unique nodes) and 578 interpolation samples uncovered; not a traffic-closure claim\", \"bank-abutments and complete sloped approach structural decks absent from original build\", \"absolute node/deck/water/terrain datum still estimated and unmeasured\", \"fine runtime contact, slab underside, actor clearance/lane permissions and genuine no-wall/no-fall physical traversal not tested\"]"
+      ],
+      "modelled": [
+        "模型缺失或无效：[Errno 2] No such file or directory: 'artifacts/landmarks/qiantang-bridge-passage/model.glb'"
+      ],
+      "verified": [
+        "验收未绑定当前 GLB SHA256",
+        "验收未绑定当前 evidence.json SHA256",
+        "scale 尚未完成具名验收",
+        "scale 缺少可读取的验收证据文件",
+        "orientation 尚未完成具名验收",
+        "orientation 缺少可读取的验收证据文件",
+        "silhouette 尚未完成具名验收",
+        "silhouette 缺少可读取的验收证据文件",
+        "context 尚未完成具名验收",
+        "context 缺少可读取的验收证据文件",
+        "collision 尚未完成具名验收",
+        "collision 缺少可读取的验收证据文件",
+        "browser 尚未完成具名验收",
+        "browser 缺少可读取的验收证据文件",
+        "performance 尚未完成具名验收",
+        "performance 缺少可读取的验收证据文件",
+        "provenance 尚未完成具名验收",
+        "provenance 缺少可读取的验收证据文件"
+      ]
+    },
+    "modelStats": null,
+    "note": "检查结构与证据文件；照片/形体判断须由具名评审实际核对",
+    "requestedStage": "evidence-ready",
+    "passed": false
+  },
+  "stderr": ""
+}

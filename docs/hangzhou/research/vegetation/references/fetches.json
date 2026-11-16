@@ -1,0 +1,41 @@
+[
+  {
+    "file": "docs/hangzhou/research/vegetation/references/hangzhou-shade-plan.pdf",
+    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web149/site/attach/0/b10433c8ee784870b09b90f4e9825604.pdf",
+    "bytes": 58262625,
+    "sha256": "626088a6305520c6aa69fd984b5f86cd8db85d0a71cef65a38f446d20a94d252",
+    "status": "downloaded"
+  },
+  {
+    "file": "docs/hangzhou/research/vegetation/references/zhejiang-greening-standard.pdf",
+    "url": "https://zjamr.zj.gov.cn/module/download/downfile.jsp?classid=-1&filename=2210101724405474736.pdf",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "docs/hangzhou/research/vegetation/references/westlake-tree-adoption.html",
+    "url": "https://www.hangzhou.gov.cn/art/2025/3/10/art_812262_59110191.html",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "docs/hangzhou/research/vegetation/references/westlake-gushan-autumn.html",
+    "url": "https://westlake.hangzhou.gov.cn/art/2020/10/23/art_1639430_59013705.html",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "docs/hangzhou/research/vegetation/references/hangzhou-osmanthus.html",
+    "url": "https://www.zafu.edu.cn/info/1012/109766.htm",
+    "bytes": 21674,
+    "sha256": "1eb749666d06dc2d3f56f217809d9563459e3cac3c8caa69f8f52d05fbcb1397",
+    "status": "downloaded"
+  },
+  {
+    "file": "docs/hangzhou/research/vegetation/references/hangzhou-streettrees.html",
+    "url": "https://www.hzzx.gov.cn/content/2022-08/25/content_8337762.htm",
+    "bytes": 24057,
+    "sha256": "06c1f9cf1731715408165b90feaba549ef32411e83605bd99601eccc32485ca0",
+    "status": "downloaded"
+  }
+]

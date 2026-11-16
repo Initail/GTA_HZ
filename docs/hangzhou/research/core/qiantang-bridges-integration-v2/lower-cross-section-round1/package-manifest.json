@@ -1,0 +1,14 @@
+{
+  "kind": "independent fixed-source lower cross-section proof; no edits to frozen proposal",
+  "frozenProposalManifestSha256": "a8a23e664563bfd8147731c4faa7cd86ace8cc75b6277517809b8a35be1502b1",
+  "date": "2026-11-11",
+  "files": {
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/lower-cross-section-round1/README.md": "aefccac2b99a7ffb8658223bbfea7fa564f17f138cfbec165bfc382a7c93687f",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/lower-cross-section-round1/analyze.py": "692e9960e4704c475d91d6b9968899d1d97da01033d9a64d371941df2fb31d0c",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/lower-cross-section-round1/cross-section-proof.json": "d9cf17ec5389c33296b97ed9b65704518ccc1625f17d983f754e6a2ccb928851",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/lower-cross-section-round1/freeze.py": "8b34aaf87ceba426924bb552a16cfaa7c49e58cc032d17f887b4134d3ba698cb",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/lower-cross-section-round1/source-cross-section.svg": "9e3ce21833bf0ff57b4d628c2cb864e70a99552a27cb233f7625906f87472747",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/lower-cross-section-round1/sources.json": "26961148863f82346732ef092caf006a22a7ace0f6532001de2fc92ebe90f51a",
+    "docs/hangzhou/research/core/qiantang-bridges-integration-v2/lower-cross-section-round1/width-source-excerpt.txt": "8028d91da306acab22925455430ab2384ef02beeb2fbc1a3549f82589762c6a7"
+  }
+}

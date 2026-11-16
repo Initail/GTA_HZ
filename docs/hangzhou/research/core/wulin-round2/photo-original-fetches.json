@@ -1,0 +1,76 @@
+[
+  {
+    "sourceKey": "current-original",
+    "url": "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstiAC0xsAAFKqME6M-U162.jpg",
+    "path": "<TEMP>/wulin-research/rB4AiWgjstiAC0xsAAFKqME6M-U162.jpg",
+    "bytes": 84648,
+    "sha256": "45e7fede5ab928031b3b036fc6f92eb7ce0d7fe54bb520d884b7cba64fcdc582",
+    "status": "temporary-reference-only"
+  },
+  {
+    "sourceKey": "current-original",
+    "url": "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstiAHvBDAAEfmJ75bqI316.jpg",
+    "path": "<TEMP>/wulin-research/rB4AiWgjstiAHvBDAAEfmJ75bqI316.jpg",
+    "bytes": 73624,
+    "sha256": "945e05b655d7efcda50d414bbfe51823890b3b1e96b7f00c880ff7f8455059a4",
+    "status": "temporary-reference-only"
+  },
+  {
+    "sourceKey": "current-original",
+    "url": "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstmAUtMTAADxCng9rQY319.jpg",
+    "path": "<TEMP>/wulin-research/rB4AiWgjstmAUtMTAADxCng9rQY319.jpg",
+    "bytes": 61706,
+    "sha256": "49df05f92340bd171765ecc015d494a251d3425650bdafbcd67fdf1c041a4c3c",
+    "status": "temporary-reference-only"
+  },
+  {
+    "sourceKey": "current-original",
+    "url": "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstmAdXImAAE_0cQE6gQ166.jpg",
+    "path": "<TEMP>/wulin-research/rB4AiWgjstmAdXImAAE_0cQE6gQ166.jpg",
+    "bytes": 81873,
+    "sha256": "a71220c00e23e6658c4ab49b506a93edf69a3e01b323010703e516f42a9a72c5",
+    "status": "temporary-reference-only"
+  },
+  {
+    "sourceKey": "current-original",
+    "url": "https://fsnews.hangzhou.com.cn/group1/M00/73/F3/rB4AiWgjstmAYBnKAAHAjJJ6Gg4806.jpg",
+    "path": "<TEMP>/wulin-research/rB4AiWgjstmAYBnKAAHAjJJ6Gg4806.jpg",
+    "bytes": 114828,
+    "sha256": "cd0911ce231c699707f502e114e215073c76d74b20a633b6707f3541a7fe2ea4",
+    "status": "temporary-reference-only"
+  },
+  {
+    "sourceKey": "upgrade-original",
+    "url": "https://www.hangzhou2022.cn/sqzc/hzsq/202308/W020230815433380834125.png",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "upgrade-original",
+    "url": "https://www.hangzhou2022.cn/sqzc/hzsq/202308/W020230815433381097828.png",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "upgrade-original",
+    "url": "https://www.hangzhou2022.cn/sqzc/hzsq/202308/W020230815433381318937.png",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "panorama2026-source",
+    "url": "https://nginx-hzwcm.hangzhou.com.cn/photolibrary/hzwcm/202609/02/0cfa9e2f-712a-47cc-840b-c8ec574df32a_m.jpg?fmt=jpg",
+    "path": "<TEMP>/wulin-research/0cfa9e2f-712a-47cc-840b-c8ec574df32a_m.jpg",
+    "bytes": 100002,
+    "sha256": "0e5b74bf58af5ebc15edd71e5ba1e531552558d83aa12225b2f82e86e773e48d",
+    "status": "temporary-reference-only"
+  },
+  {
+    "sourceKey": "sculpture2025",
+    "url": "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJmADPd7AAEkqrmsXWE210.jpg",
+    "path": "<TEMP>/wulin-research/rB4AiWlNcJmADPd7AAEkqrmsXWE210.jpg",
+    "bytes": 74922,
+    "sha256": "91ac75de40c3bce64469fbc7cdba09508ba4b8efb3cf82ccab98bd9afdeb91a1",
+    "status": "temporary-reference-only"
+  }
+]

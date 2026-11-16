@@ -1,0 +1,112 @@
+{
+  "sources": [
+    {
+      "id": "shade-plan",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web149/site/attach/0/b10433c8ee784870b09b90f4e9825604.pdf",
+      "title": "杭州市林荫道系统专项规划（说明书）",
+      "publisher": "杭州政府公开规划资料",
+      "sourceDate": "2021-09-07 PDF creation metadata; underlying inventory epoch not verified",
+      "accessedAt": "2026-10-14",
+      "status": "downloaded-and-read",
+      "localPath": "docs/hangzhou/research/vegetation/references/hangzhou-shade-plan.pdf",
+      "sha256": "626088a6305520c6aa69fd984b5f86cd8db85d0a71cef65a38f446d20a94d252",
+      "license": "unknown; source documents/reference pages not runtime textures",
+      "use": "species/scene/season descriptions, not exact present tree positions or prototype measurements"
+    },
+    {
+      "id": "city-streettrees",
+      "url": "https://www.hzzx.gov.cn/content/2022-08/25/content_8337762.htm",
+      "title": "绿树成荫夏日凉",
+      "publisher": "杭州市政协 / 杭州日报",
+      "sourceDate": "2022-08-25",
+      "accessedAt": "2026-10-14",
+      "status": "downloaded-and-read",
+      "localPath": "docs/hangzhou/research/vegetation/references/hangzhou-streettrees.html",
+      "sha256": "06c1f9cf1731715408165b90feaba549ef32411e83605bd99601eccc32485ca0",
+      "license": "unknown; source documents/reference pages not runtime textures",
+      "use": "species/scene/season descriptions, not exact present tree positions or prototype measurements"
+    },
+    {
+      "id": "fall-color-study",
+      "url": "https://zlxb.zafu.edu.cn/article/zjnldxxb/2014/4/597",
+      "title": "秋色叶树种在杭州行道树中的应用",
+      "publisher": "浙江农林大学学报；杨莉莉、刘盈盈原始杭州道路调查",
+      "sourceDate": "2014; DOI10.11833/j.issn.2095-0756.2014.04.016",
+      "accessedAt": "2026-10-14",
+      "status": "downloaded-and-read",
+      "localPath": "docs/hangzhou/research/vegetation/references/hangzhou-fall-color-study.html",
+      "sha256": "6c977abc8d7838318ce5e0dbd0febdbc48be1b82dedc92680d1906f51cf1a2ac",
+      "license": "unknown; source documents/reference pages not runtime textures",
+      "use": "species/scene/season descriptions, not exact present tree positions or prototype measurements"
+    },
+    {
+      "id": "osmanthus-experts",
+      "url": "https://www.zafu.edu.cn/info/1012/109766.htm",
+      "title": "浙农林大科技团队用科技“预约”杭州桂花按期开放",
+      "publisher": "浙江农林大学/园林专家访谈",
+      "sourceDate": "2023-10-05 university publication; article2023-10-02",
+      "accessedAt": "2026-10-14",
+      "status": "downloaded-and-read",
+      "localPath": "docs/hangzhou/research/vegetation/references/hangzhou-osmanthus.html",
+      "sha256": "1eb749666d06dc2d3f56f217809d9563459e3cac3c8caa69f8f52d05fbcb1397",
+      "license": "unknown; source documents/reference pages not runtime textures",
+      "use": "species/scene/season descriptions, not exact present tree positions or prototype measurements"
+    },
+    {
+      "id": "westlake-forest-history",
+      "url": "https://www.hzzx.gov.cn/hzzx/content/2010-10/26/content_5139964.htm",
+      "title": "建国初期西湖整治和建设纪事",
+      "publisher": "杭州市政协；冷晓历史记录",
+      "sourceDate": "2010-10-26 web publication; retrospective1950s, journal2006section",
+      "accessedAt": "2026-10-14",
+      "status": "downloaded-and-read",
+      "localPath": "docs/hangzhou/research/vegetation/references/westlake-forest-history.html",
+      "sha256": "c347fefaf870afd76ca2bf86e6ec24cbcd3824bc904236a6af9e001550fe76de",
+      "license": "unknown; source documents/reference pages not runtime textures",
+      "use": "species/scene/season descriptions, not exact present tree positions or prototype measurements"
+    },
+    {
+      "id": "unesco-westlake",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "China State Party/UNESCO",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2011nomination; photos2006",
+      "status": "original-read-and-pages-rendered",
+      "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+      "license": "unknown; reference only",
+      "localPath": "docs/hangzhou/research/core/west-lake-causeways-round2/references/unesco-causeway-aerial-p59.png",
+      "localSnapshotSha256": "0952a0e5491893bb2fb809ab1d97e6610e45fab6e6ddb5a49bace0c3f57500ff",
+      "use": "traditional intercropped peaches/willows; source page64/75 andprevious source hash, no new lake/plant positions"
+    },
+    {
+      "id": "willow-botanical",
+      "url": "https://wysgjgy.fujian.gov.cn/zwgk/zwkp/202305/t20230512_6168312.htm",
+      "publisher": "武夷山国家公园科研监测中心",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2023-05-12",
+      "status": "web-read",
+      "license": "unknown; no photo assets",
+      "use": "Salix babylonica deciduous, narrow leaves and pendent small branches; not Hangzhou inventory"
+    },
+    {
+      "id": "plane-flora",
+      "url": "https://www.iplant.cn/z/frps/1091",
+      "publisher": "中国科学院《中国植物志》在线资料",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "1979FRPS35(2)",
+      "status": "web-read",
+      "license": "unknown; no photo assets",
+      "use": "Platanaceae pale flaking bark/palmatelylobed leaves/deciduous; explicitly cultivated inChina, not native"
+    },
+    {
+      "id": "westlake-adoption",
+      "url": "https://www.hangzhou.gov.cn/art/2025/3/10/art_812262_59110191.html",
+      "publisher": "杭州市政府 / 西湖景区认养活动资料",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2025-03-10",
+      "status": "search-extract-only; directfetch403",
+      "license": "unknown; no photo assets",
+      "use": "district examples: camphor/sweetgum, willow柳浪闻莺, osmanthus满陇桂雨; no precise distribution claim"
+    }
+  ]
+}

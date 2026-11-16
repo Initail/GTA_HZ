@@ -1,0 +1,112 @@
+{
+  "files": [
+    {
+      "path": "artifacts/cities/hangzhou/cafe-v3/report.json",
+      "sha256": "81fa3ca4181ce9ad20b851d3874c630b0bb28f21cb097a1f2386e5974c9d130b"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/coastal-data-v1/infrastructure.json",
+      "sha256": "4d55666a9a2b4e9cb1e89b038935218c0583c64a2e1789bbd7a6741aebc91d1a"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/coastal-data-v1/manifest.json",
+      "sha256": "59468098d3e03e4eb19aa6f8a95f5779840902d2602a0542e34b5d3d5ef80826"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/coastal-data-v1/shore-distance.png",
+      "sha256": "f87e3e5ae9e479d086ad363f9fc30a5ddc0621ceeff9824245c1845677b67327"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/detail-collision-v4/detail-collision-manifest.json",
+      "sha256": "0d0121653fd65ba8d3e5fb832f0a54c8e6719bc989dc9a969c3d5187df5a5d4b"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/ebikes-v4/parked.json",
+      "sha256": "61624c646a9f8614fc7416db5db9b7552af1dcfa92b6d8af045a51c5231c454e"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/life-sites-v3/life-sites.json",
+      "sha256": "3e0e7f735f800cfc50b8d04dc7c2275ce9876233153dc6577baeae828e708e87"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/city.json",
+      "sha256": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/geography/manifest.json",
+      "sha256": "86405ade07b6c8a07476209c22c33cebb7ae7a52bf02515db765290f8041b4bb"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/geography/road-levels.json",
+      "sha256": "0db3134e9a24b53ab0361a3f2fdc1738f818ceddafc56d94c5500b8ba75a25c1"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/geography/terrain-game.bin",
+      "sha256": "dd1ae9e4707979cfaf4bf7b793bae1c590f18e71803f241c0c3d5d4a265792ac"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/render-input-v5/lamps.json",
+      "sha256": "43f96afd1df7307f6130605259b92d67e1bc71ee303f2480cef47a17f2a3e3d1"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/canopy-trees.json",
+      "sha256": "b581f38f250a773d76a0476c56208fdabb26a2298e78051b99475600b8216cd8"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/canopy/camphor.glb",
+      "sha256": "86140fe2f198596ce2d7f82a1ebfd73e4e81d8903cd1dc3eebb5bd06e486b36c"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/canopy/ginkgo.glb",
+      "sha256": "c154d87802c3119ac77131dfd5f44d6c784bdb72775b602c0316a167d3af14ca"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/canopy/osmanthus.glb",
+      "sha256": "4b6fbb85014ca42dd9581559f5bf7ebed6ef648f6097cc5608827dec22db0c8e"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/drain-grate.glb",
+      "sha256": "e037f3cb73b900d1c5b92800037665ad71f49546ea3735e8b2214eead930ece9"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/flower-shrub.glb",
+      "sha256": "389ff59f575d952e4e999dfccc75383ebe707750c3b9d02121682768e8530bd0"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/fountain-grass.glb",
+      "sha256": "63c75ff1a8594cc88855f108f892e07540909e450494fb9f4feea9b7a88eebaa"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/lawn-tuft.glb",
+      "sha256": "5d20bfc352120224af76d27040b95bbaf340636b11bf51f5b16b50db473d2f75"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/manhole.glb",
+      "sha256": "12eeeabb5e17b73bbe3ec2c0415eb3441a640f3ac15013c3efece54bd2aaa397"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/landscape/planting.json",
+      "sha256": "f4ed557a3a2a3eae4833bc1f6b9ed88906a694241ec27af37fd9c19650a72c1a"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/open-vegetation/manifest.json",
+      "sha256": "2363aab8edc974b7f5e05920a804aaad5f8c38ba301b329bd9f108f90256fda8"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/signals/traffic-signals.json",
+      "sha256": "7d23c810e54dca7660a9d8c46b6fec05fa9269c2f5f8708765bc56687eb710ff"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/street/manifest.json",
+      "sha256": "85f7ddc81d5edda72534e271bd9e0f51f57dd5ec466f9beb0864df62a7f6b2f6"
+    },
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24"
+    },
+    {
+      "path": "data/processed/hangzhou-261011-extended/roads.geojson",
+      "sha256": "c5cdedeb89a1fd1d9b10522305678a9fba46411de412fa3860b80bc20bad1f54"
+    }
+  ]
+}

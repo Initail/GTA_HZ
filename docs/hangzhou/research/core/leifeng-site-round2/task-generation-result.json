@@ -1,0 +1,17 @@
+{
+  "jobs": [
+    {
+      "id": "leifeng-site",
+      "result": "created",
+      "stage": "planned",
+      "job": "docs/hangzhou/research/core/leifeng-site-round2/task-bundles/leifeng-site/job.json"
+    },
+    {
+      "id": "leifeng-site-entry",
+      "result": "created",
+      "stage": "planned",
+      "job": "docs/hangzhou/research/core/leifeng-site-round2/task-bundles/leifeng-site-entry/job.json"
+    }
+  ],
+  "externalAgentsLaunched": false
+}

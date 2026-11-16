@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "id": "gov-phase1-project-report",
+      "url": "https://www.yuhang.gov.cn/cms_files/jcms1/web3095/site/attach/0/48385d4f53f941308ae78b3812bb7041.pdf",
+      "publisher": "杭州市余杭区人民政府",
+      "accessedAt": "2026-10-14",
+      "use": "Projectbuilding/count/address descriptions only; personalcasefacts excludedfrommodelresearch",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-phase1-project-report.pdf",
+      "bytes": 1087415,
+      "sha256": "19991ef7656b6e026fd1ccdcbaf749d5bde73cc7e0c5dcbaa251dca1f38e8232"
+    },
+    {
+      "id": "gov-roads-opening",
+      "url": "https://www.yuhang.gov.cn/art/2023/5/11/art_1229175530_4164198.html",
+      "publisher": "杭州市余杭区人民政府",
+      "accessedAt": "2026-10-14",
+      "use": "Projectbuilding/count/address descriptions only; personalcasefacts excludedfrommodelresearch",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-roads-opening.html",
+      "bytes": 22919,
+      "sha256": "8b36bec24884029224c795c3a7f4d7b84287f615dba92d76d0ed3576501b44b1"
+    },
+    {
+      "id": "gov-phase1-a4-interior",
+      "url": "https://www.yuhang.gov.cn/col/col1229374010/zbgg/art/2024/art_d3acb85b9981452ebbb8f7d19bad29dd.html",
+      "publisher": "杭州市余杭区人民政府",
+      "accessedAt": "2026-10-14",
+      "use": "Projectbuilding/count/address descriptions only; personalcasefacts excludedfrommodelresearch",
+      "status": "downloaded",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-phase1-a4-interior.html",
+      "bytes": 13477,
+      "sha256": "b25a4dbd0242581f8630d2721c31b7611f59b394434e005ee696b6e49f937b72"
+    }
+  ]
+}

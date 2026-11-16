@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "placeId": "civic-center",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/civic-center-v1/civic-center.glb",
+  "sourceModule": "scripts/landmarks/civic_center.py",
+  "sha256": "e943ffff4937d223c015a58dc9aed119a1534d37499312473d06fe871f2f4e3a",
+  "sourceModuleSha256": "280ba9ab5d0bf112ea6bee9ebb3a3fb37e7fc3a1e428f3f08f7e732d0057d102",
+  "artifactMeshPrefix": "detail_civic-center_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "bodyHeightM",
+    "spandrelBandM",
+    "mullionPitchM",
+    "mullionWidthM",
+    "bridgeBottomM",
+    "bridgeTopM",
+    "podiumHeightM",
+    "podiumFloorSamples",
+    "centralDeckM",
+    "centralRadiusM",
+    "canopyInnerMeanRadiusM",
+    "canopyInnerWavesM",
+    "canopyOuterHeightAboveDeckM",
+    "canopyInnerHeightAboveDeckM",
+    "canopyThicknessM",
+    "domeBaseAboveDeckM",
+    "domeRiseM",
+    "ovalHeightAboveDeckM",
+    "gardenSamples"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/civic-center-round2/task-bundles/civic-center/job.json --spec docs/hangzhou/research/core/civic-center-round2/spec.json --module scripts/landmarks/civic_center.py --output artifacts/cities/hangzhou/landmarks/civic-center-v1",
+  "candidateCommand": "python3 docs/hangzhou/research/core/civic-center-round2/validate_candidate.py",
+  "candidateReport": "docs/hangzhou/research/core/civic-center-round2/cpu-geometry-validation.json",
+  "status": "model-exported-not-verified",
+  "sourceSpec": "docs/hangzhou/research/core/civic-center-round2/spec.json",
+  "sourceSpecSha256": "d38e37d5c9abffda2e0660cdbb24ed16eb2c730e784050741bb527d512047948",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/civic-center-build-v1.log",
+    "sha256": "5e278ac4dde7200ace328d0efba33aea88c6fe8de26c046c87e759ab49c94e10"
+  },
+  "modelDeliverySha256": "5ba6453cf2944338cf98b146509f3ac949aa5a5026a61e74ecf7c3ac0c1b5be4",
+  "glbStats": {
+    "triangles": 22021,
+    "materials": 10,
+    "bytes": 1608792,
+    "selectedMeshes": 10,
+    "meshNamePrefix": "detail_civic-center_",
+    "wholeFileTriangles": 22021,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

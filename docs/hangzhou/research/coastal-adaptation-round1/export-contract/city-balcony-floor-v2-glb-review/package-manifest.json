@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/README.md",
+      "sha256": "d68869b731dfa2802d46193af07e6daecbde27beca559854483a012991613a6c",
+      "bytes": 6679
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/actual-four-shore-intersections.json",
+      "sha256": "e828c4d684bba10aaabcc8f8723fdccef07231697495f576f7ca8ad10f416a75",
+      "bytes": 353488
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/actual-glb-validation.json",
+      "sha256": "1ca47bb97bcb89d0eb991ec46cd8d1a150ea1ebd8e5e1bea4ff170c285eeaaf9",
+      "bytes": 1066
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/actual-terminal-contacts.json",
+      "sha256": "0fbbc92dea2e7ab0b056f90710d4f94852e0c03e4e07ab9d6880dfdb00dbe2fe",
+      "bytes": 28382
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/check.log",
+      "sha256": "11214e187b0f407bc1cb0bbcf09e1d7ee4bf5e17586b1d6b0a82496adfd6a6d7",
+      "bytes": 1227
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/check.py",
+      "sha256": "0e28def1a07e1e9796062ea77a860f5226ae79108fa8df2ef5b05e217b77c686",
+      "bytes": 11029
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/dry-main-terrain-cut.geojson",
+      "sha256": "63ab3e2922e4aa7b625e57a2e0aee4e7df8fb4dcef33c44060a563dc439aeecd",
+      "bytes": 2147
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/dry-main-terrain-samples.json",
+      "sha256": "276f7d3f0f8e3e1c8b7eddbbe7c4ed3dcbc69d99226632a4b09935f60146747c",
+      "bytes": 1215599
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/east-finger-terrain-cut.geojson",
+      "sha256": "1223bb56417a35c3318e92eaa1a2046c2909f753303be91f6efab483f526417b",
+      "bytes": 120223
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/existing-witness-coverage.json",
+      "sha256": "c43f669ba334dc553314fc169fec3fc32daef40a3a2d3d0a38f4c47a77e474da",
+      "bytes": 234
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/freeze-masks.log",
+      "sha256": "63ec4cfd481459cf06a08248b1e760e3fd273f9fc2d28e052b2a7deca2087a28",
+      "bytes": 162
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/freeze_masks.py",
+      "sha256": "555f78682b1db379b63ec05c3bae30ec5342bc367245616cd27f9d4af6e83281",
+      "bytes": 6509
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/hardware-allowance.geojson",
+      "sha256": "ab83c403a7ec4578bbe4120c8ee483c2027d0d9715afe59a02d638688317950c",
+      "bytes": 4540
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/input-bindings.json",
+      "sha256": "aea72baeccffc189dce0532b0346d418b2ddaa0f338ee52db967de07858993fc",
+      "bytes": 5660
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership-contract-v1.json",
+      "sha256": "1b5f6497eeea41290ea7b83eece5acac32d08bd6d8a71fc0454d7b3cc1f0659d",
+      "bytes": 56192
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership-contract.json",
+      "sha256": "9f460c5efeeb837ead9238eee2aa08700650d774cc8475980df27734447b39bd",
+      "bytes": 60059
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership-input-bindings.json",
+      "sha256": "02e6bf511384f0e820e24a2f02faa1ee422ad14d847e685bb8e55d6c3d49f9af",
+      "bytes": 2578
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership-run2.log",
+      "sha256": "3bfc0af09d236c5d7934d7e77854d4d26b1e672f8bd3d1605611aa293630026b",
+      "bytes": 2759
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership-run3.log",
+      "sha256": "3bfc0af09d236c5d7934d7e77854d4d26b1e672f8bd3d1605611aa293630026b",
+      "bytes": 2759
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership.log",
+      "sha256": "235b3521b7744c155467d353b723671029fc4f00d0e5e11e079aae354c6faca8",
+      "bytes": 2759
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/ownership.py",
+      "sha256": "14dc7616fc6caef910f8ba6951e3643c0df2730efd9babe920f77eb04c4651af",
+      "bytes": 8966
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/pillar34-subtraction.geojson",
+      "sha256": "9b0bb8ea376a11598f3f184d3264fb3d48c63c164945dad5fd10a883d0f8cdd2",
+      "bytes": 2873
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/shore-owned-mask.geojson",
+      "sha256": "f134ee470f0ab88e0b4f6690d325be830b3168d2b42f5e0406bd4c3658400801",
+      "bytes": 55325
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/source-floor-support.geojson",
+      "sha256": "48deef01c02236f8adf550c7d8b96212b94bec8cefb3a40c7d61940d21a01d2d",
+      "bytes": 5024
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/source-shore-stations.geojson",
+      "sha256": "5f956bb0ff90d4a75a18b20295c374914623606d70b27787d04532168f064583",
+      "bytes": 1267
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/validation.json",
+      "sha256": "af39f0e06b561404afe7b4d48c84418f4d5831981de75c608e142d89ec0c79ef",
+      "bytes": 389
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2-glb-review/west-finger-terrain-cut.geojson",
+      "sha256": "171c012199dc39ef344accd426344ff1dd0270b5d84bf9e43d332822588a5f28",
+      "bytes": 108721
+    }
+  ]
+}

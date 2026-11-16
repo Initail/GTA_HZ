@@ -1,0 +1,215 @@
+{
+  "shoreId": "qianjiang-city-balcony",
+  "shoreLineSourceWaterId": "relation/8227206",
+  "basis": "source plan intersection only; not preapproved deletion or hidden-geometry mask",
+  "regions": [
+    {
+      "region": "upperPublic",
+      "intervals": [
+        {
+          "fromStationGame": 198.46788072923505,
+          "toStationGame": 211.17908572693761,
+          "lengthGame": 12.711204997702575,
+          "geometryGame": [
+            [
+              3272.6724520153034,
+              -2066.236983022058
+            ],
+            [
+              3279.018978072107,
+              -2055.223521281809
+            ]
+          ]
+        },
+        {
+          "fromStationGame": 259.6636859243247,
+          "toStationGame": 273.16050015825107,
+          "lengthGame": 13.496814233926404,
+          "geometryGame": [
+            [
+              3305.7888949929174,
+              -2014.8471477009143
+            ],
+            [
+              3313.540477832147,
+              -2003.798303510155
+            ]
+          ]
+        },
+        {
+          "fromStationGame": 290.90779731923084,
+          "toStationGame": 322.6275309023728,
+          "lengthGame": 31.719733583142,
+          "geometryGame": [
+            [
+              3323.3565117160556,
+              -1989.02803724385
+            ],
+            [
+              3339.384631670233,
+              -1961.6557726440765
+            ]
+          ]
+        },
+        {
+          "fromStationGame": 377.0031276871712,
+          "toStationGame": 393.40732792558975,
+          "lengthGame": 16.404200238418593,
+          "geometryGame": [
+            [
+              3367.032274656206,
+              -1914.8357741560349
+            ],
+            [
+              3375.6332211269764,
+              -1900.8671842032488
+            ]
+          ]
+        }
+      ],
+      "totalLengthGame": 74.33195305318957
+    },
+    {
+      "region": "lowerPublic",
+      "intervals": [
+        {
+          "fromStationGame": 198.46788072923505,
+          "toStationGame": 211.17908572693761,
+          "lengthGame": 12.711204997702575,
+          "geometryGame": [
+            [
+              3272.6724520153034,
+              -2066.236983022058
+            ],
+            [
+              3279.018978072107,
+              -2055.223521281809
+            ]
+          ]
+        },
+        {
+          "fromStationGame": 259.6636859243247,
+          "toStationGame": 273.16050015825107,
+          "lengthGame": 13.496814233926404,
+          "geometryGame": [
+            [
+              3305.7888949929174,
+              -2014.8471477009143
+            ],
+            [
+              3313.540477832147,
+              -2003.798303510155
+            ]
+          ]
+        },
+        {
+          "fromStationGame": 290.90779731923084,
+          "toStationGame": 322.6275309023728,
+          "lengthGame": 31.719733583142,
+          "geometryGame": [
+            [
+              3323.3565117160556,
+              -1989.02803724385
+            ],
+            [
+              3339.384631670233,
+              -1961.6557726440765
+            ]
+          ]
+        },
+        {
+          "fromStationGame": 377.0031276871712,
+          "toStationGame": 393.40732792558975,
+          "lengthGame": 16.404200238418593,
+          "geometryGame": [
+            [
+              3367.032274656206,
+              -1914.8357741560349
+            ],
+            [
+              3375.6332211269764,
+              -1900.8671842032488
+            ]
+          ]
+        }
+      ],
+      "totalLengthGame": 74.33195305318957
+    },
+    {
+      "region": "glazedSourcePart0",
+      "intervals": [
+        {
+          "fromStationGame": 211.17908572693761,
+          "toStationGame": 259.6636859243247,
+          "lengthGame": 48.48460019738707,
+          "geometryGame": [
+            [
+              3279.018978072107,
+              -2055.223521281809
+            ],
+            [
+              3286.178767599346,
+              -2042.798760503912
+            ],
+            [
+              3305.7888949929174,
+              -2014.8471477009143
+            ]
+          ]
+        }
+      ],
+      "totalLengthGame": 48.48460019738707
+    },
+    {
+      "region": "glazedSourcePart1",
+      "intervals": [
+        {
+          "fromStationGame": 273.16050015825107,
+          "toStationGame": 290.90779731923084,
+          "lengthGame": 17.74729716097972,
+          "geometryGame": [
+            [
+              3313.540477832147,
+              -2003.798303510155
+            ],
+            [
+              3320.598628410587,
+              -1993.7378542272766
+            ],
+            [
+              3323.3565117160556,
+              -1989.02803724385
+            ]
+          ]
+        }
+      ],
+      "totalLengthGame": 17.74729716097972
+    },
+    {
+      "region": "glazedSourcePart2",
+      "intervals": [
+        {
+          "fromStationGame": 322.6275309023728,
+          "toStationGame": 377.0031276871712,
+          "lengthGame": 54.37559678479835,
+          "geometryGame": [
+            [
+              3339.384631670233,
+              -1961.6557726440765
+            ],
+            [
+              3362.3042765999458,
+              -1922.5144018942624
+            ],
+            [
+              3367.032274656206,
+              -1914.8357741560349
+            ]
+          ]
+        }
+      ],
+      "totalLengthGame": 54.37559678479835
+    }
+  ],
+  "forIntegration": "Resolve only these exact source-owned intervals plus corresponding actual wall/pier contacts after datum/profile frozen; preserve rest of 600g shore. Public lower volume remains open. No blanket fill and no deletion of all shoreline."
+}

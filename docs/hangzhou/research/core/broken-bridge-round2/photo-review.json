@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "photos": [
+    {
+      "id": "government-2018",
+      "sourceId": "government-2018",
+      "url": "https://www.ehangzhou.gov.cn/att/20180612/1528770914755017832.jpg",
+      "sha256": "99e3bb049554953da4fce576c1e8872a68a5f6444e26a462ca94346f39470f5c",
+      "downloadBytes": 293561,
+      "reviewedAt": "2026-10-13",
+      "reviewedBy": "landmark_evidence",
+      "reviewMethod": "actual view_image of temporary source cache",
+      "view": "near NE bank, oblique along SW direction, estimated from the shoreline context",
+      "cameraAzimuth": "unknown; no EXIF/calibration",
+      "observations": "Night snow shows long gentle asphalt approaches, stone sides and rails; bridge is intact. Arch not clearly visible in this angle; no span measurement.",
+      "license": "unknown; source/credited author retains copyright",
+      "bundled": false,
+      "releaseTexture": false
+    },
+    {
+      "id": "government-rain2020",
+      "sourceId": "government-rain2020",
+      "url": "https://www.ehangzhou.gov.cn/att/20200605/1591348034371043436.jpg",
+      "sha256": "fb714b58621c87d06b2956f67e5d04ba5c228c56ddcd1df049560c61754dc0f2",
+      "downloadBytes": 48803,
+      "reviewedAt": "2026-10-13",
+      "reviewedBy": "landmark_evidence",
+      "reviewMethod": "actual view_image of temporary source cache",
+      "view": "lake-side distant view towards north shore/bridge; rough NW view, not calibrated",
+      "cameraAzimuth": "unknown; no EXIF/calibration",
+      "observations": "Single small opening amid long stone approaches; gradual deck hump; Baochu Pagoda/hill backdrop. Image low resolution and boats partly obscure the opening.",
+      "license": "unknown; source/credited author retains copyright",
+      "bundled": false,
+      "releaseTexture": false
+    },
+    {
+      "id": "government-night2023",
+      "sourceId": "government-night2023",
+      "url": "https://www.ehangzhou.gov.cn/att/20230907/1694076372717098140.jpg",
+      "sha256": "21f3563e6fba8a14427e98eb94ef8362794e3615a062ebf290ca89360f353c3f",
+      "downloadBytes": 334045,
+      "reviewedAt": "2026-10-13",
+      "reviewedBy": "landmark_evidence",
+      "reviewMethod": "actual view_image of temporary source cache",
+      "view": "near NE entrance looking along bridge, uncalibrated",
+      "cameraAzimuth": "unknown; no EXIF/calibration",
+      "observations": "Street view confirms a continuous rising walkway and existing lamps; crowd/foreground obscures precise rail/arch structure. Photo caption dates scene to Aug12,2023.",
+      "license": "unknown; source/credited author retains copyright",
+      "bundled": false,
+      "releaseTexture": false
+    }
+  ],
+  "pdfReview": {
+    "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+    "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+    "bytes": 79121258,
+    "pages": [
+      {
+        "sourceId": "unesco-nomination",
+        "pdfPageOneBased": 100,
+        "printedPage": 105,
+        "renderSha256": "1777a4e65793d337cf13d6297cd24b4ef32637b56204fc4587d7173c152686c3",
+        "reviewMethod": "pdftoppm page rendering + actual view_image",
+        "reviewedBy": "landmark_evidence",
+        "reviewedAt": "2026-10-14",
+        "use": "reported dimensions, single semicircular stone arch and asphalt slopes",
+        "bundled": false,
+        "readAt": "2026-10-13",
+        "notes": "Text read/rendered on13; visual image view completed on14."
+      },
+      {
+        "sourceId": "unesco-nomination",
+        "pdfPageOneBased": 107,
+        "printedPage": 112,
+        "renderSha256": "5a67f08f1fe656d63212b9e4c7cdb5286cf0b9f235ab7111c57a95e2f2184d1f",
+        "reviewMethod": "pdftoppm page rendering + actual view_image",
+        "reviewedBy": "landmark_evidence",
+        "reviewedAt": "2026-10-13",
+        "use": "figure2a-59 plan: long narrow approach corridor, north arrow and pavilion cluster",
+        "bundled": false
+      },
+      {
+        "sourceId": "unesco-nomination",
+        "pdfPageOneBased": 108,
+        "printedPage": 113,
+        "renderSha256": "b55c7b3410cc81bad5385172be335dde30c9a8d8ef5572ceeba164abbd8446ff",
+        "reviewMethod": "pdftoppm page rendering + actual view_image",
+        "reviewedBy": "landmark_evidence",
+        "reviewedAt": "2026-10-13",
+        "use": "figure2a-61 elevation: small central arch, long gradual slopes and ruler",
+        "bundled": false
+      },
+      {
+        "sourceId": "unesco-nomination",
+        "pdfPageOneBased": 108,
+        "printedPage": 113,
+        "renderSha256": "8b5cb5d04977d175810ab6bcdfbe1c5cec25ce7b6be625d72d5bda8ec2b6621c",
+        "reviewMethod": "pdftoppm page rendering + actual view_image",
+        "reviewedBy": "landmark_evidence",
+        "reviewedAt": "2026-10-13",
+        "use": "higher-resolution recheck of the same elevation, not an independent survey",
+        "bundled": false
+      }
+    ],
+    "interpretation": "same original dossier actually downloaded/read/rendered; no substitute schematic invented",
+    "limitations": "Dossier2011 metadata and undated survey basis; not2026 field evidence. Images/PDF retained only as temporary reference, not bundled."
+  }
+}

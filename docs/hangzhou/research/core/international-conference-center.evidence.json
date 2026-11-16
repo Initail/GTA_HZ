@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "placeId": "international-conference-center",
+  "name": "杭州国际会议中心（杭州洲际酒店ICC）",
+  "type": "building",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "hunter-conference",
+      "icc-operator"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "hunter-conference",
+      "url": "https://apvn.hunterdouglas.asia/project/hangzhou-international-conference-center",
+      "publisher": "Hunter Douglas 幕墙产品供应商",
+      "title": "HANGZHOU INTERNATIONAL CONFERENCE CENTER",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "报总高85m、球直径85m、椭圆附楼13m、金玻璃/蜂窝面板；二手百科裙房12m不能静默合并。"
+    },
+    {
+      "id": "icc-operator",
+      "url": "https://www.intercontinental.com/hotels/gb/en/hangzhou/hghha/hoteldetail?cid=145698&newRedirect=true&qDest=No.+2+Jiefang+East+Road%2C+Hangzhou%2C+ZJ%2C+CN&qSlH=hghha&setPMCookies=true",
+      "publisher": "InterContinental Hangzhou ICC 运营方",
+      "title": "InterContinental Hangzhou ICC",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "确认金球与对面月形大剧院的组合；当前客房384和会议面积不用于建模尺寸。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "sphereDiameterReported": 85,
+        "ovalAnnexPlan": null
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "hunter-conference"
+      ],
+      "uncertainty": "85m是球体直径；完整建筑足印包含裙房，尚未知。"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "overall": 85,
+        "annex": 13
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "hunter-conference"
+      ],
+      "uncertainty": "供应商项目页口径，未实测；二手12m裙房数字不静默合并。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "building_count",
+      "value": {
+        "sphere": 1,
+        "ovalAnnex": 1
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "hunter-conference"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "金色球体与椭圆附楼，金玻璃及金色蜂窝复合板幕墙；与对面月形大剧院呼应",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "hunter-conference",
+        "icc-operator"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "球体需按现状底部截切和窗带而非纯整球落地；建立椭圆裙房、入口/挑檐与临水空间，再做金色材质。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "未确定球心标高、底部截球与裙楼衔接；与杭州国际博览中心是不同对象，不得用博览中心屋顶60m球混入。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "placeId": "boao-tunnel-profile",
+  "artifactPath": null,
+  "sourceModule": "scripts/landmarks/qiantang_bridges.py",
+  "sha256": null,
+  "sourceModuleSha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "blocked scope; no physical model accepted",
+  "estimatedParameters": [],
+  "buildCommand": null,
+  "sourceSpec": "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json",
+  "sourceSpecSha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58"
+}

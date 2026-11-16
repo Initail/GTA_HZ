@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "actualAttempts": [
+    {
+      "action": "official source/reference review",
+      "result": "completed",
+      "notes": "Actual PETROFF, engineer report, supplier, hotel and2017 interview;12 images actually viewed, not bundled"
+    },
+    {
+      "action": "initial urllib public source fetch",
+      "result": "partially failed",
+      "reason": "bad file descriptor for several hosts; native curl fetched same valid public TLS sources successfully, no dependencies modified"
+    },
+    {
+      "action": "CarlosOtt official direct page",
+      "result": "failed",
+      "reason": "web timeout and curl untrusted certificate chain; no TLS bypass; PETROFF primary project and engineer report supply attributable role evidence"
+    },
+    {
+      "action": "government CUC page direct access",
+      "result": "failed",
+      "reason": "web cache miss for bothwww and bare domains; only search-index corroboration recorded, not dimension evidence"
+    },
+    {
+      "action": "prior helper first call for area moments",
+      "result": "failed",
+      "reason": "temporary exec globals/locals separated, math not bound; read-only import helper then succeeded with no source changes"
+    },
+    {
+      "action": "date verification for Tsinghua lighting source",
+      "result": "corrected",
+      "notes": "Actual page states2016-09-08, replacing preliminary unverified date before evidence-ready"
+    },
+    {
+      "action": "limited exterior evidence-ready check",
+      "result": "passed",
+      "scope": "gold globe/podium exterior candidate, not current site/interiors"
+    },
+    {
+      "action": "first CPU front ray",
+      "result": "failed",
+      "reason": "exact centre ray crossed a legitimate steel mullion; off-centre3m glass-area ray retained to check the actual facade, not a uniform gold wall"
+    },
+    {
+      "action": "CPU geometry and draft review",
+      "result": "iterated",
+      "notes": "Source entry outer pieces left a gap toward central lobby. Added explicitly estimated connectors with exact source edge contacts and corrected roof normal/winding; estimates/pending retained."
+    },
+    {
+      "action": "current CPU geometry",
+      "result": "passed-host-contract-only",
+      "triangles": 20073,
+      "materials": 4,
+      "notes": "Source projection/scale/base/frame, sphere85m envelope, glazed wedge/cap, terraces, rounded podium, connector normal/rays and32specific exclusions; fixed26000 ceiling unchanged"
+    },
+    {
+      "action": "CPU three-view preview",
+      "result": "generated and actually viewed",
+      "notes": "Pillow orthographic sketches, not real game screenshots or physical material acceptance"
+    },
+    {
+      "action": "Blender/browser",
+      "result": "not-run",
+      "reason": "Serial main integration owns export and runtime checks"
+    }
+  ]
+}

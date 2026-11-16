@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "scope": "SourceauditCPU only; coreobjectevidence gate failed, no model/GPU verification",
+  "checks": {
+    "sixFixedExtractHashes": true,
+    "all32FrozenSourceSnapshots": true,
+    "previous13AFootprintGeometriesExactlyMatch": true,
+    "OSMHistoryVersionsAndNodesExactAuxiliaryMatch": true,
+    "allFourMappedUnnamedLinksAlreadyRound2": true,
+    "cainiaoMissingBuildingFootprintCoveragePreserved": true,
+    "noNewModelOrExclusions": true,
+    "actualFailedEvidenceGateAnd8FinalUnknown": true
+  },
+  "job": "docs/hangzhou/research/ali/alibaba-a-round3/task/alibaba-a-extensions/job.json",
+  "measuredBasis": "WGS84ECEF→ENU mapped geometry, not cadastral/fieldsurvey",
+  "newModelCreated": false,
+  "sourcePhotosActuallyViewed": [
+    "sentimentfrontwithbackground4",
+    "temporaryAlibabaofficeinstallationNotSecondA9",
+    "cainiaoofficialaerial",
+    "cainiaopublishedaerial"
+  ],
+  "CPUsourceDiagramsActuallyViewed": [
+    "source-coverage-alibaba-a.png",
+    "source-coverage-cainiao.png"
+  ],
+  "PDFactuallyViewed": "references/carec-p29.png",
+  "pending": [
+    {
+      "id": "A9-owner-identity-crosswalk",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "CurrentOSM A9/2016Building9 label andofficialNo.9Hall visitprogram lackauthoritativeWGS84identifiercrosswalk. Singlevendorfrontphoto supportslowcurvedhallwithBuilding4behind, butnot enoughcurrentplan/multiviewregistration tofreeze a trueA9body."
+    },
+    {
+      "id": "A9-shape-height-entry",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "3levelOSMlabelnotmetricheight; roofcoursebreaks,actualentryandsecondnon-collinearimage notconfirmed. Noheight/facade invented."
+    },
+    {
+      "id": "A-remaining-complete-link-network",
+      "reason": "All4mappedanonymous elevatedsourcepolygons alreadyround2; no newtaggedbuildinglink in fixedAparcel. Historic>1km network centerlines/functions/changes needregistration, not newbridgeinferred from38mixedgrade roadrecords."
+    }
+  ]
+}

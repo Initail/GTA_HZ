@@ -1,0 +1,1107 @@
+{
+  "fixedPbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "ways": [
+    {
+      "id": "way/4348186",
+      "version": 17,
+      "timestamp": "2020-10-08 07:42:23+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "2",
+        "name": "钱塘江大桥",
+        "name:en": "Qiantang River Bridge",
+        "oneway": "no",
+        "source": "survey"
+      },
+      "nodeIds": [
+        "1667167465",
+        "1667167497",
+        "1667261611",
+        "1701378810",
+        "1667261583",
+        "1701921823",
+        "26304793",
+        "5628081670",
+        "3351280499",
+        "5100594272",
+        "7987169547",
+        "1667261526",
+        "1667261586",
+        "26466659"
+      ]
+    },
+    {
+      "id": "way/5041735",
+      "version": 20,
+      "timestamp": "2025-11-25 04:30:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "construction": "trunk",
+        "highway": "construction",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "motorroad": "yes",
+        "name": "西兴大桥",
+        "name:en": "Qian River Number 3 Bridge",
+        "name:zh": "西兴大桥",
+        "oneway": "yes",
+        "wikidata": "Q15929622"
+      },
+      "nodeIds": [
+        "3730557604",
+        "1668794878",
+        "33720438"
+      ]
+    },
+    {
+      "id": "way/24672485",
+      "version": 16,
+      "timestamp": "2025-12-12 01:38:33+00:00",
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "foot": "no",
+        "highway": "primary",
+        "horse": "no",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "60",
+        "name": "彭埠大桥",
+        "oneway": "yes",
+        "toll": "no"
+      },
+      "nodeIds": [
+        "268162827",
+        "3471332403",
+        "3471332404",
+        "3911858047",
+        "268162826",
+        "9019863035"
+      ]
+    },
+    {
+      "id": "way/28596734",
+      "version": 17,
+      "timestamp": "2025-11-25 04:30:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "construction": "trunk",
+        "highway": "construction",
+        "layer": "1",
+        "motorroad": "yes",
+        "name": "西兴大桥",
+        "name:zh": "西兴大桥",
+        "oneway": "yes",
+        "source": "Yahoo"
+      },
+      "nodeIds": [
+        "33720438",
+        "3389503820"
+      ]
+    },
+    {
+      "id": "way/28596757",
+      "version": 23,
+      "timestamp": "2025-11-25 04:30:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "construction": "trunk",
+        "highway": "construction",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "motorroad": "yes",
+        "name": "西兴大桥",
+        "name:en": "Qian River Number 3 Bridge",
+        "name:zh": "西兴大桥",
+        "oneway": "yes",
+        "source": "Yahoo",
+        "wikidata": "Q15929622"
+      },
+      "nodeIds": [
+        "136997642",
+        "5181378766",
+        "3365385095"
+      ]
+    },
+    {
+      "id": "way/29169666",
+      "version": 15,
+      "timestamp": "2026-01-23 03:23:30+00:00",
+      "tags": {
+        "alt_name": "钱江四桥",
+        "bridge": "viaduct",
+        "highway": "trunk",
+        "layer": "3",
+        "motorroad": "yes",
+        "name": "复兴大桥",
+        "name:en": "Fuxing Bridge",
+        "name:fr": "Quatrieme Pont de la rivière Qiantang",
+        "name:zh": "复兴大桥",
+        "name:zh-Hant": "復興大橋",
+        "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+        "note": "top level",
+        "oneway": "yes"
+      },
+      "nodeIds": [
+        "320807735",
+        "320807715",
+        "1979829221",
+        "320807701",
+        "1979829212",
+        "1979829204",
+        "1979829195",
+        "320807687",
+        "1667217046"
+      ]
+    },
+    {
+      "id": "way/154135290",
+      "version": 14,
+      "timestamp": "2026-01-23 03:23:30+00:00",
+      "tags": {
+        "alt_name": "钱江四桥",
+        "bridge": "viaduct",
+        "highway": "trunk",
+        "layer": "3",
+        "motorroad": "yes",
+        "name": "复兴大桥",
+        "name:en": "Fuxing Bridge",
+        "name:fr": "Quatrieme Pont de la rivière Qiantang",
+        "name:zh": "复兴大桥",
+        "name:zh-Hant": "復興大橋",
+        "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+        "note": "top level",
+        "oneway": "yes"
+      },
+      "nodeIds": [
+        "1667217050",
+        "320807753",
+        "1979829208",
+        "1979829216",
+        "320807794",
+        "3387501754",
+        "320807765",
+        "3396372685",
+        "770741690",
+        "320807780"
+      ]
+    },
+    {
+      "id": "way/154142001",
+      "version": 16,
+      "timestamp": "2025-12-09 15:03:37+00:00",
+      "tags": {
+        "bridge": "yes",
+        "bridge:name": "钱塘江大桥",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1435",
+        "layer": "1",
+        "loc_name": "浙赣线",
+        "maxspeed": "120",
+        "name": "沪昆绕行线",
+        "railway": "rail",
+        "railway:ctcs": "0",
+        "railway:traffic_mode": "mixed",
+        "ref": "1643",
+        "usage": "branch",
+        "voltage": "25000"
+      },
+      "nodeIds": [
+        "1712796019",
+        "3351280499",
+        "5628081672",
+        "1667261545"
+      ]
+    },
+    {
+      "id": "way/154262322",
+      "version": 10,
+      "timestamp": "2024-02-13 12:09:06+00:00",
+      "tags": {
+        "highway": "primary",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "庆春隧道",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "1286462502",
+        "5741613949",
+        "5741613947",
+        "5198341001",
+        "9494588574",
+        "5741613951",
+        "9494588573",
+        "3327054723",
+        "5344093411",
+        "9494588572",
+        "5344093416",
+        "3365365087",
+        "3365365084",
+        "3365365089"
+      ]
+    },
+    {
+      "id": "way/154302890",
+      "version": 9,
+      "timestamp": "2021-08-22 04:42:39+00:00",
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "construction": "primary",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "60",
+        "name": "彭埠大桥",
+        "oneway": "yes",
+        "toll": "no"
+      },
+      "nodeIds": [
+        "321410104",
+        "3471332405",
+        "1668545072",
+        "1668545099",
+        "1668544986",
+        "1668545135",
+        "3471332402",
+        "1668545061"
+      ]
+    },
+    {
+      "id": "way/158984612",
+      "version": 11,
+      "timestamp": "2026-03-01 13:42:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "cycleway:left": "separate",
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxweight": "40",
+        "name": "闻涛路",
+        "name:en": "Wentao Road",
+        "oneway": "no",
+        "source": "bing",
+        "surface": "asphalt"
+      },
+      "nodeIds": [
+        "28894437",
+        "1710977140",
+        "28894439"
+      ]
+    },
+    {
+      "id": "way/186584900",
+      "version": 14,
+      "timestamp": "2023-08-10 03:28:47+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "motorroad": "yes",
+        "name": "九堡大桥",
+        "name:en": "Jiubu Bridge",
+        "name:zh": "九堡大桥",
+        "oneway": "yes",
+        "wikidata": "Q15951971"
+      },
+      "nodeIds": [
+        "7517241872",
+        "5043925812",
+        "5043925811",
+        "3371519473"
+      ]
+    },
+    {
+      "id": "way/306360714",
+      "version": 9,
+      "timestamp": "2025-02-06 13:49:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "name": "之江大桥连接线",
+        "oneway": "yes",
+        "ref": "S30"
+      },
+      "nodeIds": [
+        "3112466923",
+        "4886956115",
+        "3112466924",
+        "3112466958"
+      ]
+    },
+    {
+      "id": "way/306360716",
+      "version": 6,
+      "timestamp": "2023-08-11 14:17:33+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "layer": "1",
+        "motorroad": "yes",
+        "name": "彩虹快速路",
+        "oneway": "yes"
+      },
+      "nodeIds": [
+        "3112466952",
+        "3112466956",
+        "3112466957",
+        "3112466958"
+      ]
+    },
+    {
+      "id": "way/306360719",
+      "version": 9,
+      "timestamp": "2026-03-02 08:06:44+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lane_markings": "yes",
+        "lanes": "3",
+        "layer": "1",
+        "motorroad": "yes",
+        "name": "彩虹快速路",
+        "oneway": "yes"
+      },
+      "nodeIds": [
+        "3112466937",
+        "3112466961",
+        "3112466960",
+        "3112466959",
+        "5629822590"
+      ]
+    },
+    {
+      "id": "way/306360721",
+      "version": 13,
+      "timestamp": "2025-02-06 13:49:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "motorroad": "yes",
+        "name": "之江大桥",
+        "oneway": "yes",
+        "ref": "S30"
+      },
+      "nodeIds": [
+        "3112466951",
+        "5061448745",
+        "5061448747",
+        "3112466950",
+        "9897739947",
+        "5061448748",
+        "9897739948",
+        "3112466949",
+        "9897739949",
+        "5061448750",
+        "3112466948",
+        "7987169577",
+        "3112466947",
+        "3112466946",
+        "3112466945",
+        "3112466937"
+      ]
+    },
+    {
+      "id": "way/329618112",
+      "version": 8,
+      "timestamp": "2024-02-13 12:09:06+00:00",
+      "tags": {
+        "highway": "primary",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "庆春隧道",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "3365365077",
+        "5344093418",
+        "3327054722",
+        "3365365082",
+        "5344093415",
+        "5344093414",
+        "5344093412",
+        "3327054724",
+        "5741613952",
+        "5198341002",
+        "5741613948",
+        "9435361690",
+        "5741613950",
+        "1286462820"
+      ]
+    },
+    {
+      "id": "way/331805128",
+      "version": 3,
+      "timestamp": "2017-10-15 13:49:36+00:00",
+      "tags": {
+        "highway": "primary",
+        "layer": "-1",
+        "name": "运河之江隧道",
+        "oneway": "yes",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "3389060568",
+        "5169099891",
+        "5169099893",
+        "5169099894",
+        "5169099895",
+        "5169099896",
+        "5169099897",
+        "5169099886"
+      ]
+    },
+    {
+      "id": "way/331859982",
+      "version": 7,
+      "timestamp": "2025-11-25 04:30:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "construction": "trunk",
+        "highway": "construction",
+        "layer": "1",
+        "motorroad": "yes",
+        "name": "西兴大桥",
+        "name:zh": "西兴大桥",
+        "oneway": "yes",
+        "source": "Yahoo"
+      },
+      "nodeIds": [
+        "3389503820",
+        "314160952",
+        "314160953",
+        "314161408",
+        "3389484768",
+        "314161410"
+      ]
+    },
+    {
+      "id": "way/336983476",
+      "version": 8,
+      "timestamp": "2026-01-23 03:23:30+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "复兴大桥",
+        "name:en": "Fuxing Bridge",
+        "name:zh": "复兴大桥",
+        "name:zh-Hant": "復興大橋",
+        "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+        "oneway": "yes"
+      },
+      "nodeIds": [
+        "3440750977",
+        "3623284223",
+        "3623284229",
+        "3440750971",
+        "3440750972",
+        "3623288030",
+        "3623288024",
+        "3440750973",
+        "3623288010",
+        "3623288018",
+        "3440750974",
+        "3623288038",
+        "3440750975"
+      ]
+    },
+    {
+      "id": "way/340648409",
+      "version": 4,
+      "timestamp": "2026-01-23 03:23:30+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "复兴大桥",
+        "name:en": "Fuxing Bridge",
+        "name:zh": "复兴大桥",
+        "name:zh-Hant": "復興大橋",
+        "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+        "oneway": "no"
+      },
+      "nodeIds": [
+        "3478961079",
+        "3478961080",
+        "3478961081",
+        "3478961082",
+        "3478961083",
+        "3478961084",
+        "3478961085",
+        "3478961086",
+        "3478961087"
+      ]
+    },
+    {
+      "id": "way/399038928",
+      "version": 11,
+      "timestamp": "2023-08-10 03:28:47+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "2",
+        "motorroad": "yes",
+        "name": "九堡大桥",
+        "name:en": "Jiubu Bridge",
+        "name:zh": "九堡大桥",
+        "oneway": "yes",
+        "wikidata": "Q15951971"
+      },
+      "nodeIds": [
+        "3371519468",
+        "5043925814",
+        "5043925813",
+        "7517241871",
+        "9890978616"
+      ]
+    },
+    {
+      "id": "way/489838879",
+      "version": 9,
+      "timestamp": "2026-01-23 03:23:30+00:00",
+      "tags": {
+        "highway": "trunk",
+        "layer": "-1",
+        "name": "望江隧道",
+        "name:en": "Wangjiang Tunnel",
+        "name:zh": "望江隧道",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "4820472352",
+        "9897707912",
+        "9897707871",
+        "9897707911",
+        "9897707872",
+        "9897707854",
+        "9897707855",
+        "9897707856",
+        "9897707857",
+        "9897707858",
+        "5541665275",
+        "9897707859",
+        "9897707860",
+        "4820472353",
+        "9897707861",
+        "5541665276",
+        "9897707862",
+        "9897707873",
+        "9897707878",
+        "9897707879",
+        "9897707877",
+        "9897707880",
+        "9897707881",
+        "4820472354",
+        "9897707876",
+        "9897707875",
+        "9897707874",
+        "9897739923",
+        "7081613610",
+        "9897739937",
+        "4820472356",
+        "7081613593"
+      ]
+    },
+    {
+      "id": "way/532719558",
+      "version": 1,
+      "timestamp": "2017-10-15 13:49:31+00:00",
+      "tags": {
+        "highway": "primary",
+        "layer": "-1",
+        "name": "运河之江隧道",
+        "oneway": "yes",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "5169099879",
+        "5169099878",
+        "5169099877",
+        "5169099876",
+        "5169099875",
+        "5169099873",
+        "3389060572"
+      ]
+    },
+    {
+      "id": "way/546241781",
+      "version": 9,
+      "timestamp": "2026-06-20 08:47:17+00:00",
+      "tags": {
+        "construction": "primary",
+        "highway": "primary",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "博奥隧道",
+        "name:en": "Bo'ao Tunnel",
+        "name:zh-Hans": "博奥隧道",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "9166998500",
+        "5754323617",
+        "9544816927",
+        "9544816925",
+        "13953519376"
+      ]
+    },
+    {
+      "id": "way/589429905",
+      "version": 3,
+      "timestamp": "2026-01-23 03:23:30+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "复兴大桥",
+        "name:en": "Fuxing Bridge",
+        "name:zh": "复兴大桥",
+        "name:zh-Hant": "復興大橋",
+        "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+        "oneway": "yes"
+      },
+      "nodeIds": [
+        "3440750966",
+        "3623288036",
+        "3478961078",
+        "3440750967",
+        "3623288021",
+        "3623288014",
+        "3440750968",
+        "3440750969",
+        "3623288027",
+        "3623288033",
+        "3440750970",
+        "3623284231",
+        "3440750978",
+        "3440750964"
+      ]
+    },
+    {
+      "id": "way/589558020",
+      "version": 6,
+      "timestamp": "2025-02-06 13:49:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "name": "之江大桥连接线",
+        "oneway": "yes",
+        "ref": "S30"
+      },
+      "nodeIds": [
+        "3112466937",
+        "5061448753",
+        "3112466935"
+      ]
+    },
+    {
+      "id": "way/589558021",
+      "version": 8,
+      "timestamp": "2025-02-06 13:49:17+00:00",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "motorroad": "yes",
+        "name": "之江大桥",
+        "oneway": "yes",
+        "ref": "S30"
+      },
+      "nodeIds": [
+        "3112466958",
+        "3112466938",
+        "3112466939",
+        "3112466940",
+        "7987169580",
+        "3112466941",
+        "5061448751",
+        "9897739950",
+        "3112466942",
+        "9897739951",
+        "5061448749",
+        "9897739952",
+        "3112466943",
+        "9897739953",
+        "5061448746",
+        "9897739954",
+        "5061448744",
+        "9897739955",
+        "3112467027",
+        "3112467029",
+        "3112466944"
+      ]
+    },
+    {
+      "id": "way/607103735",
+      "version": 7,
+      "timestamp": "2026-06-20 08:47:17+00:00",
+      "tags": {
+        "construction": "primary",
+        "highway": "primary",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "博奥隧道",
+        "name:en": "Bo'ao Tunnel",
+        "name:zh-Hans": "博奥隧道",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "5754327372",
+        "5278882738",
+        "9544816926",
+        "5754323616",
+        "9166998501"
+      ]
+    },
+    {
+      "id": "way/758276719",
+      "version": 6,
+      "timestamp": "2026-01-23 03:23:30+00:00",
+      "tags": {
+        "highway": "trunk",
+        "layer": "-1",
+        "name": "望江隧道",
+        "name:en": "Wangjiang Tunnel",
+        "name:zh": "望江隧道",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "nodeIds": [
+        "7081613592",
+        "9897739938",
+        "4820472346",
+        "9897739939",
+        "7081613604",
+        "9897707882",
+        "9897707883",
+        "9897707884",
+        "9897707885",
+        "4820472347",
+        "9897707886",
+        "9897707887",
+        "9897707888",
+        "9897707863",
+        "5541665278",
+        "9897707864",
+        "4820472348",
+        "9897707865",
+        "5541665277",
+        "9897707867",
+        "9897707866",
+        "9897707868",
+        "9897707869",
+        "9897707870",
+        "4820472349"
+      ]
+    },
+    {
+      "id": "way/826790145",
+      "version": 3,
+      "timestamp": "2022-05-12 06:38:41+00:00",
+      "tags": {
+        "layer": "1",
+        "man_made": "bridge",
+        "name": "钱塘江大桥",
+        "wikidata": "Q53272"
+      },
+      "nodeIds": [
+        "7718874585",
+        "7718851884",
+        "7718851883",
+        "7718851882",
+        "7718874585"
+      ]
+    },
+    {
+      "id": "way/974632390",
+      "version": 6,
+      "timestamp": "2023-08-11 14:17:43+00:00",
+      "tags": {
+        "bridge": "viaduct",
+        "bridge:name": "彭埠大桥",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "3",
+        "motorroad": "yes",
+        "name": "空港高架路",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "toll": "yes"
+      },
+      "nodeIds": [
+        "9019863090",
+        "9019863082",
+        "9019863088"
+      ]
+    },
+    {
+      "id": "way/974632391",
+      "version": 6,
+      "timestamp": "2023-08-11 14:17:43+00:00",
+      "tags": {
+        "bridge": "viaduct",
+        "bridge:name": "彭埠大桥",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "3",
+        "motorroad": "yes",
+        "name": "空港高架路",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "toll": "yes"
+      },
+      "nodeIds": [
+        "9019863089",
+        "9019863087",
+        "9019863091"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation/8227206",
+      "version": 25,
+      "timestamp": "2026-05-21 03:36:58+00:00",
+      "tags": {
+        "fishing": "no",
+        "natural": "water",
+        "source": "PGS",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 638705820,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 581882951,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 154155099,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 582116019,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 582116018,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 154155102,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1075394023,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593263689,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923486,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923485,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923487,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923484,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593263690,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1447848761,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1447848762,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 582931239,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593401439,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593401484,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517878766,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 581882942,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517878767,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653556315,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653556316,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653556314,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517879997,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555361,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517879996,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555362,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555363,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1313875493,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593401427,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 593263688,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555365,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555366,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555364,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555367,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555368,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4531332,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 815833662,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653556317,
+          "role": "inner"
+        }
+      ]
+    }
+  ],
+  "status": "source topology only; no live road-state verification"
+}

@@ -1,0 +1,108 @@
+{
+  "sourceInputs": [
+    {
+      "path": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/water-data-v3/city.json",
+      "sha256": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47"
+    },
+    {
+      "path": "data/processed/hangzhou-261011-extended/extraction-manifest.json",
+      "sha256": "4a44d8accd14f40f088150df5d14d7dbbf25191a80b9310f8e6a24ba89cf6420"
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/README.md",
+      "sha256": "706ada70c34002b687d873c1d9eba990b60f0d20df9e05a82c24117c09af138b",
+      "bytes": 7835
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/extract-optimized.log",
+      "sha256": "65e01bd98897cbd1125f0b65475a3465332bc21610d6f240c87ab6f3c8f3e402",
+      "bytes": 16740
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/extract.log",
+      "sha256": "e7a7906bca36ab8576b130c518c5f496e1b03e42b9d51547899dbfe1875fb3c3",
+      "bytes": 893
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/extract.py",
+      "sha256": "3612a94ee0a96b65199fe56ab4661aeae4703aa8e5cf25864de5e88ff8fce251",
+      "bytes": 4765
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/extraction-summary.json",
+      "sha256": "92b87b1aefdb25d966c2374230a74da4ddb39b65cfc999edef3a4e6ad259fe70",
+      "bytes": 18114
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/processed-availability.json",
+      "sha256": "85b0311846bf0e77ecfed397f4fdfcbf55bb06f54b9f463a245f757c0d6aa93c",
+      "bytes": 24072
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/proposals.json",
+      "sha256": "68f6e1cdffdcf013802a89a6bad2110e56d1888a2d7226855eba9ef2e5ce2066",
+      "bytes": 501580
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/propose-v2.log",
+      "sha256": "0b07c9decbf8d1c775c3f53500670db7f2e9670ba31ef1cbcfb216f2b72b2fee",
+      "bytes": 6086
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/propose.log",
+      "sha256": "6f505a1ab3af17fa0db104a1adbe66b7a1d934d42ef30ed111be8185662d4b1d",
+      "bytes": 2707
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/propose.py",
+      "sha256": "233098bad02a46c6bfc4276e371a04e2ea66436eb5151e8b9735f604d0d5feb4",
+      "bytes": 7571
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/relation-context.log",
+      "sha256": "ff225d78726621e5b089d6207fc7ffa5aa282d2b8b7eea2d0cca949a617f2882",
+      "bytes": 4548
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/relation_context.py",
+      "sha256": "b09e2ad9ebb0eea306842136c1bd69fc97e0320c162e2d95842ae641c8eefa42",
+      "bytes": 2458
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/relations-and-nodes.json",
+      "sha256": "f6fb3b0d8a8a3d437be5e82d4a51a2ed9558fa6a6a30488936fc0065707dd458",
+      "bytes": 12979
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/river-boundary-members.geojson",
+      "sha256": "d9f1ec511fdd33bd0978cb4a4fd37225027ba0946be962a57438cdee857d585e",
+      "bytes": 259505
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/riverside-paths.geojson",
+      "sha256": "4b4e6bc09688c186aa3731ca2da028779a6215c90b886d88227e176f2d3be487",
+      "bytes": 1429631
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/structures.geojson",
+      "sha256": "c91835474356faa710a80f4b24fc2c7c91c6dcbc5153f06d0fbabf8669698273",
+      "bytes": 604330
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/tagged-relation-geometry.json",
+      "sha256": "59d3e24716384014754cf59d2856bdc2991e5b216ad6f327a3634b115a6c4f1d",
+      "bytes": 242030
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-source-proposal/validation.json",
+      "sha256": "313871af50e1ebaa70fbfd3096081b429ec8f6e05a38b27369f12d236e870481",
+      "bytes": 651
+    }
+  ]
+}

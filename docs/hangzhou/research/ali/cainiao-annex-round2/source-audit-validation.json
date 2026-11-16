@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-14",
+  "scope": "Research/source/spec CPU audit, notmodel/geographicfootprint/visualacceptance",
+  "checks": {
+    "39SourceSnapshotsFrozen": true,
+    "all9RawBuildingWaysMatchExtractExact": true,
+    "noBuildingPartsHiddenByExtractor": true,
+    "18UniqueReferenceAliasesNotCurrentBuildingCount": true,
+    "noInventedWGS84BodyPolygons": true,
+    "noModuleGLBOrBaseExclusions": true,
+    "scalePolicyOnce06AndUnchangedCompactBudget": true,
+    "actualFailedEvidenceGatePreserves4BlockersAnd8FinalUnknown": true,
+    "allPackageJSONParsed": true
+  },
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "actualPbfScanSeconds": 41.935,
+  "currentStage": "planned",
+  "evidenceReady": false,
+  "modelCreated": false,
+  "GLBs": [],
+  "realGameScreenshots": [],
+  "specSha256": "ce05343ff5d649fe7563bef5595391c62ba53df5e253c09d8f40fc15e0d6762b",
+  "sourceSpecNotBuildable": true
+}

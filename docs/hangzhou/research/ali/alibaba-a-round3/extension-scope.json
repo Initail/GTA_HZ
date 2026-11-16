@@ -1,0 +1,32 @@
+{
+  "cityId": "hangzhou",
+  "status": "blocked-before-model",
+  "sourceId": "way/456731145",
+  "physicalIdentityConfirmed": false,
+  "newSourceLinkIds": [],
+  "proposedModule": "scripts/landmarks/alibaba_a_extensions.py",
+  "moduleCreated": false,
+  "baseBuildingIdsToExclude": [],
+  "geographyScale": 0.6,
+  "existingA2SpecUntouchedSHA": "8ee92298de649f1ddb246ea6701b986076b883a1346b2f922f2198ea2cffccf1",
+  "requirementsBeforeBuild": [
+    {
+      "id": "A9-owner-identity-crosswalk",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "CurrentOSM A9/2016Building9 label andofficialNo.9Hall visitprogram lackauthoritativeWGS84identifiercrosswalk. Singlevendorfrontphoto supportslowcurvedhallwithBuilding4behind, butnot enoughcurrentplan/multiviewregistration tofreeze a trueA9body."
+    },
+    {
+      "id": "A9-shape-height-entry",
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "reason": "3levelOSMlabelnotmetricheight; roofcoursebreaks,actualentryandsecondnon-collinearimage notconfirmed. Noheight/facade invented."
+    },
+    {
+      "id": "A-remaining-complete-link-network",
+      "reason": "All4mappedanonymous elevatedsourcepolygons alreadyround2; no newtaggedbuildinglink in fixedAparcel. Historic>1km network centerlines/functions/changes needregistration, not newbridgeinferred from38mixedgrade roadrecords."
+    }
+  ]
+}

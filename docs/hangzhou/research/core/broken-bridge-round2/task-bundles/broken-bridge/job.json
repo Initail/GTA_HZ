@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-13T11:35:47+00:00",
+  "stage": "modelled",
+  "agent": "landmark_evidence",
+  "place": {
+    "id": "broken-bridge",
+    "name": "断桥单拱与引道候选",
+    "kind": "bridge"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/broken-bridge-round2/task-catalog.json",
+  "sourceManifestSha256": "cd829e7a3e2bbe5895adf5b64b773f325c8e5fa5482266c6c2b5a5b2776ae3d2",
+  "sourceRecord": {
+    "id": "broken-bridge",
+    "name": "断桥单拱与引道候选",
+    "kind": "bridge",
+    "location": {
+      "center": [
+        120.14703035,
+        30.26090085
+      ]
+    },
+    "sources": [
+      {
+        "id": "osm-geofabrik",
+        "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+        "publisher": "OpenStreetMap contributors / Geofabrik",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2026-10-11T20:21:06Z",
+        "status": "available",
+        "license": "ODbL-1.0",
+        "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+        "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+      },
+      {
+        "id": "unesco-nomination",
+        "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+        "publisher": "China State Party nomination / UNESCO World Heritage Centre publication",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2011 (PDF creation/modification metadata; underlying surveys undated)",
+        "status": "available-read-and-rendered",
+        "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+        "bytes": 79121258,
+        "pages": 1342,
+        "license": "unknown; reference only; PDF/page images not bundled",
+        "reviewedPages": [
+          {
+            "pdfPage": 100,
+            "printedPage": 105,
+            "use": "stone semicircular arch, asphalt slopes,8.8m length/8.6m width/6.1m clear span"
+          },
+          {
+            "pdfPage": 107,
+            "printedPage": 112,
+            "figure": "2a-59",
+            "use": "plan and north arrow/corridor/pavilion layout"
+          },
+          {
+            "pdfPage": 108,
+            "printedPage": 113,
+            "figure": "2a-61",
+            "use": "single small central arch and long gradual slopes with ruler"
+          }
+        ]
+      },
+      {
+        "id": "government-2018",
+        "url": "https://www.ehangzhou.gov.cn/2018-06/14/c_242889.htm",
+        "publisher": "Information Office of Hangzhou Municipal People’s Government",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2018-06-14",
+        "status": "available-read-and-photo-reviewed",
+        "license": "unknown; reference only; no image texture"
+      },
+      {
+        "id": "government-rain2020",
+        "url": "https://www.ehangzhou.gov.cn/2020-06/05/c_271613_2.htm",
+        "publisher": "Hangzhou government English portal / China Daily photographer Xiao Da",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2020-06-05",
+        "status": "available-photo-reviewed",
+        "license": "unknown; reference only; no image texture"
+      },
+      {
+        "id": "government-night2023",
+        "url": "https://www.ehangzhou.gov.cn/2023-08/17/c_286564.htm",
+        "publisher": "Hangzhou government English portal; photo credited IC",
+        "accessedAt": "2026-10-13",
+        "sourceDate": "2023-08-17",
+        "status": "available-photo-reviewed",
+        "license": "unknown; reference only; no image texture"
+      }
+    ],
+    "scope": "Source-bound single-arch stone body with continuous sloping asphalt approaches and railings; lake water and pavilion groups excluded.",
+    "modeling": {
+      "blockers": []
+    }
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 12000,
+    "maxMaterials": 4,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/broken_bridge.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/broken-bridge-round2"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-13T11:35:47+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-13T11:36:03+00:00",
+      "evidenceSha256": "7d8e2dd0259fcf050f23ac10eadb8e4b52800b7c204168ac55c40a1f9150034d",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T02:03:03+00:00",
+      "evidenceSha256": "ef27ff3b4a0eb75d8326dc5859020cc4bf40a0cfedf2b3c832d406d499b66975",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T02:04:37+00:00",
+      "evidenceSha256": "6bd7309438d68bbc0f8829c4f40c91071545dbe19243f455a5008ec5cdd2cec4",
+      "modelSha256": null
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-14T02:48:07+00:00",
+      "evidenceSha256": "6bd7309438d68bbc0f8829c4f40c91071545dbe19243f455a5008ec5cdd2cec4",
+      "modelSha256": "7c915a982b9fe67fad0398545f3f9b6d99fe5dffadd92ef47e070ffc30b25cad"
+    }
+  ]
+}

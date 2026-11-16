@@ -1,0 +1,1 @@
+[out:json][timeout:45];(way["building"](30.274,120.014,30.289,120.028);relation["building"](30.274,120.014,30.289,120.028););out meta geom;

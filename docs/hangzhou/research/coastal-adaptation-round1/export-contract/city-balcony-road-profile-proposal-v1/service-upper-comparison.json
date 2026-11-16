@@ -1,0 +1,110 @@
+{
+  "id": "way/336828925#0",
+  "rawSourceRole": "highway=service only; no entrance/access/layer/tunnel tag",
+  "sourceNodeCount": 6,
+  "sourceLengthGame": 86.40524906574782,
+  "actualUpperMainYGame": 5.557902003142015,
+  "partInsideUpperCenterlineLengthGame": 28.027367849223133,
+  "corridorInsideUpperAreaGame2": 126.11411631756667,
+  "corridorAreaGame2": 388.7512670803135,
+  "firstPartialUpperCrossSectionStation": 57.75,
+  "firstFullWidthUpperCrossSectionStation": 59.25,
+  "sourceBoundaryCrossings": [
+    {
+      "sourceOuterEdge": 0,
+      "modelHasUpperRail": true,
+      "sourceOpenMouth": false,
+      "intersectLengthGame": 2.3865730596201242,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3259.201697407148,
+            -2052.6294760700557
+          ],
+          [
+            3260.8805740268613,
+            -2054.32567896614
+          ]
+        ]
+      },
+      "endpointStations": [
+        60.1565405959243,
+        58.377881216524486
+      ]
+    },
+    {
+      "sourceOuterEdge": 1,
+      "modelHasUpperRail": true,
+      "sourceOpenMouth": false,
+      "intersectLengthGame": 2.3765762103025403,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3260.8805740268613,
+            -2054.32567896614
+          ],
+          [
+            3262.552574700808,
+            -2056.014621898775
+          ]
+        ]
+      },
+      "endpointStations": [
+        58.377881216524486,
+        56.126618446806134
+      ]
+    },
+    {
+      "sourceOuterEdge": 17,
+      "modelHasUpperRail": true,
+      "sourceOpenMouth": false,
+      "intersectLengthGame": 0.2664255715106602,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3268.7450857455124,
+            -2027.4075313961418
+          ],
+          [
+            3268.6254947424636,
+            -2027.6456082264815
+          ]
+        ]
+      },
+      "endpointStations": [
+        86.40524906574782,
+        60.1565405959243
+      ]
+    }
+  ],
+  "rawMinusUpperHeightRange": [
+    -0.6112124561596026,
+    0.09740673863769445
+  ],
+  "actualObstacleProbeVerticalBand": [
+    5.577902003142015,
+    8.557902003142015
+  ],
+  "actualObstacleHitCount": 103,
+  "actualObstacleMaterials": {
+    "landmarkglass": 20,
+    "steel": 83
+  },
+  "actualObstacleStationRange": [
+    57.58574279932,
+    86.4052490657478
+  ],
+  "upperOption": "An estimated road/supported ramp from unchanged source shared junction to upper height is geometrically plausible in longitudinal slope, but existing boundary railing and actual above-deck obstacles must be resolved explicitly. Do not fill lower floor or label the source service a verified upper entrance.",
+  "inputSha256": {
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check.py": "c2e2bb8af9f4be7d71645073db080e8c960f927adaa571662926ecdc7fece005",
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-road-profile-proposal-v1/source-graph-and-clearance.json": "f253d14cfa28b60d9e2ea7b527acad3849019ba49fdeb6ef8ce996652effb98e",
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/site-surfaces-repair.json": "db0fd4739fd81574f44fc581569d9322cb4aefaf0eb66d87c5490cf9e7919658",
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2/candidate-spec.json": "bab55dc39b18be3ed2445515c08831a29a03842b36e2373dafa16134fd6551a3",
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-floor-v2/placement.json": "4b0acd3e7747ccc6066d1c0c5682b050b115698cc1b4d57b78d512fae45dfa7e",
+    "scripts/landmarks/city_balcony_floor_v2.py": "9b69526095965d6e9980967a1f242f5ce23f0130fcaa4eb982de373c76d45d48",
+    "artifacts/cities/hangzhou/landmarks/city-balcony-floor-v2/city-balcony.glb": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757"
+  }
+}

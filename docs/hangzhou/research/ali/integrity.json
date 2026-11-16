@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-12",
+  "scope": "research file integrity only, not model/runtime/visual validation",
+  "checks": {
+    "allJsonParsed": 7,
+    "sourceSnapshotHashesVerified": true,
+    "fourObjectsRemainPlannedWithBlockers": true,
+    "noRuntimeValidationPassClaim": true,
+    "fourDataPlanSvgXmlParsed": true
+  },
+  "files": {
+    "docs/hangzhou/research/ali/README.md": "e36ef9d52e80197bed704a45541c1c924b010e3e4f06cc24a963bcda3b6078f0",
+    "docs/hangzhou/research/ali/alibaba-a-osm-plan.svg": "b2a7ac239bcf38d02923faa7eb956c3d374ca9b5e2d307ec4c35a51c49947b8f",
+    "docs/hangzhou/research/ali/alibaba-b-osm-plan.svg": "be15e89182a9d7db8773042ea5ca6e4bf27a8fe1289530a48d3cd94204289b0c",
+    "docs/hangzhou/research/ali/alibaba-c-osm-plan.svg": "ff7041e59108c5987d290674a057877f278d5dfa9e4e8363559288493133a49a",
+    "docs/hangzhou/research/ali/cainiao-headquarters-osm-plan.svg": "39ea786d05b24f09a6eb482857f89f9be25af0fec1684852a43aa75ebc0a5c70",
+    "docs/hangzhou/research/ali/evidence.json": "28a685ca34ff190dd3e18ea723331b29c0399ec83a78b01872f82f133521ff90",
+    "docs/hangzhou/research/ali/measure_osm.py": "7cd5e17385c7ce73926c9b8895e70f67a2285b1f06fdc92c7677a81d8b922061",
+    "docs/hangzhou/research/ali/site-footprints.json": "db14c734a57f146168bedfee48d83aa1ab0206cea60f53dd7df6a1ae14d9276c",
+    "docs/hangzhou/research/ali/snapshots/aedas-cainiao.html": "37200c89e42b4fe676829ea15c161605f3e56383722f27c60b472c23741c0082",
+    "docs/hangzhou/research/ali/snapshots/alibaba-esg-campus.html": "1bf9fe06cffae277ea9c01a044324b5a8aa2746ead8e7412c0e7c03534a7caf6",
+    "docs/hangzhou/research/ali/snapshots/aspect-park-c.html": "ae835a09046ffd16969ef17d4056c71f31f9ced296fcf8fd8665f1a2cc61be90",
+    "docs/hangzhou/research/ali/snapshots/cainiao-contact.html": "8dd9df4966f336ed8de4d4e9ae2dd429b4a35a28bbc78e811638c2a571b0ebff",
+    "docs/hangzhou/research/ali/snapshots/credaward-park-c.html": "16b144d33014f9b814302e5db4ed6c4a4634ec5607329395b66cd73309da8d00",
+    "docs/hangzhou/research/ali/snapshots/cscec-cainiao.html": "29d1ba6e7061b0c5ec0098c2f5ae9f6ba2d4370665bf8c2e114c052e949b2b74",
+    "docs/hangzhou/research/ali/snapshots/hzyly-global-hq.html": "d771ac811b373f4e172cff70d977871c17280b9c36c195cf7d098d5bb2a85dc0",
+    "docs/hangzhou/research/ali/snapshots/kkaa-taobao-city.html": "1c4f73b8dd3134369b2b2aa9787f49bb95bf3003f6b1b40ecba3a8d30424d9e1",
+    "docs/hangzhou/research/ali/snapshots/nihonsekkei-global-report-2026-rev1.pdf": "29cc6b1abfaa31b99a3bb1810d99cfaabd194fe9d8c52d18b59e41d8c4ac307f",
+    "docs/hangzhou/research/ali/snapshots/nihonsekkei-phase5.html": "8dcd355af0ae4ab0645ebe3f73c52ceca052d7966f712a0479cf26172b6b4e30",
+    "docs/hangzhou/research/ali/snapshots/nihonsekkei-project-pages-49-50-reference-only.png": "0aa4b7bb5a8d5c14188b103dd8b0e00a4004c69a2b0086770dbc905f7b403b2b",
+    "docs/hangzhou/research/ali/snapshots/nihonsekkei-report-alibaba-project-extract.txt": "49ad38612448a0c5b07d864503f5a1f739fa1d01af267a1b59eb2f2cc94bd7c2",
+    "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+    "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.query.txt": "62bf4d558522e1b9beaff970ccd2ec808406ab1ca79545ade4791eecda8f7d1c",
+    "docs/hangzhou/research/ali/snapshots/overpass-named-sites.json": "30e3272ee0852a164f12ecd4e0405a8f90a74e8f82ce599ea86729a9ea803b7c",
+    "docs/hangzhou/research/ali/snapshots/overpass-named-sites.query.txt": "d7088dc50318eeb713fb9da6bbf7dfe4635f13072ba0bef8aad1b234d0d0d0a7",
+    "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+    "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.query.txt": "db3b292dee9d6491eff22a5e6ed05100f21a7555cd88b77b4c95cbdee4286ef2",
+    "docs/hangzhou/research/ali/snapshots/people-xixi-zones.html": "d46be27bdf2c67c19ef5aa4b1299fa9798f71c76ca563fb591cfaf5610cf6d83",
+    "docs/hangzhou/research/ali/snapshots/web-snapshot-manifest.json": "3cd315fd10a746ca8832ee7cde0875c1a25787256589879f25842673f1a5dbca",
+    "docs/hangzhou/research/ali/sources.json": "2614bb0ef02221ca4f4fbbae6e193c7a6808794d9fc1b5d64298c8abb1c97a50"
+  }
+}

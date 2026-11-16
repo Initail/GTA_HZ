@@ -1,0 +1,11 @@
+{
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check.py": "c2e2bb8af9f4be7d71645073db080e8c960f927adaa571662926ecdc7fece005",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/site-surfaces-repair.json": "db0fd4739fd81574f44fc581569d9322cb4aefaf0eb66d87c5490cf9e7919658",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/bounded-overlay-v1/local-terrain.npz": "c6599772754f0317bc2de310a9f6ef1ceb123e079f1747e7b7db1e764d022c6f",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/bounded-overlay-v1/top-provenance.json": "64e8cf13773f4bdbcb3a5d21657f3b0a0a32cb371f1e352815f34a96864f9b03",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/bounded-overlay-v1/local-domains.geojson": "80c615dbd9f4f36d49443306070aef09959477ddf1cfbc5bec943dfe0f213a1d",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/bank-top-render-owner-mask.geojson": "ea5404e4690efc86d41b2631995c194313f910c573716f31ad7822ec78c6df06",
+  "artifacts/cities/hangzhou/shore-glb-v3/coastal-shoreline.glb": "0c683dd694ac4a3b5b19fbd46cabb330fb81775c474cb0a6536cdc86bb66d65c",
+  "artifacts/cities/hangzhou/landmarks/city-balcony-floor-v2/city-balcony.glb": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-envelope-v2/slab-glb-correspondence.json": "18c4856addc9963f22028bedaa8ed70ed936a436f1b74279378a0f878d390f04"
+}

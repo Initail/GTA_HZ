@@ -1,0 +1,63 @@
+{
+  "kind": "actual exported runtime validator invocation plus cloned negative controls",
+  "sourceSha256": "2eeeef3d9609fd48c62395bd340a72f264d5335e6e0c1b03c4bb428d2e3485a8",
+  "tests": [
+    {
+      "name": "actual serialized candidate",
+      "result": "accepted",
+      "expected": "accepted"
+    },
+    {
+      "name": "nonzero radial ramp",
+      "result": "rejected",
+      "error": "Error: 跨水道路源剖面无效",
+      "expected": "rejected"
+    },
+    {
+      "name": "point moved away from source",
+      "result": "rejected",
+      "error": "Error: 跨水道路偏离源节点剖面",
+      "expected": "rejected"
+    },
+    {
+      "name": "wrong point height",
+      "result": "rejected",
+      "error": "Error: 跨水道路偏离源节点剖面",
+      "expected": "rejected"
+    },
+    {
+      "name": "wrong distance scale",
+      "result": "rejected",
+      "error": "Error: 杭州岸距图编码无效",
+      "expected": "rejected"
+    },
+    {
+      "name": "wrong fixture height",
+      "result": "rejected",
+      "error": "Error: 杭州公园灯具数据无效",
+      "expected": "rejected"
+    },
+    {
+      "name": "wrong crossing scalar height",
+      "result": "accepted",
+      "expected": "rejected by full source-profile contract"
+    },
+    {
+      "name": "wrong crossing scalar length",
+      "result": "accepted",
+      "expected": "rejected by full source-profile contract"
+    },
+    {
+      "name": "invented source node provenance",
+      "result": "accepted",
+      "expected": "rejected by full source-lineage contract"
+    },
+    {
+      "name": "wrong sourceId provenance",
+      "result": "accepted",
+      "expected": "rejected by full source-lineage contract"
+    }
+  ],
+  "scope": "CPU Node execution; no asset writes, no browser",
+  "limitations": "Full geometry/provenance checks are separately performed by independent GEOS audit."
+}

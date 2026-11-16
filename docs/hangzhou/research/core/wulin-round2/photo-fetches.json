@@ -1,0 +1,38 @@
+[
+  {
+    "sourceKey": "current2025",
+    "url": "https://www.hzzx.gov.cn/cshz/images/2025-05/14/d7780d8b-6985-4797-9f78-6ccbeb8e8cac.jpg",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "aerial2024",
+    "url": "https://www.hzzx.gov.cn/images/2024-07/17/72399d3b-d614-4317-908f-2e4c0108a569.png",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "upgrade2023",
+    "url": "https://www.hzzx.gov.cn/cshz/images/2023-08/15/887c2edb-dafc-4411-b5fc-147fd473e6d9.jpg",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "panorama2026",
+    "url": "https://www.hzzx.gov.cn/cshz/images/2026-09/02/09e34cf8-d575-4972-b58c-8a5f0088f5f0.jpg",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "panorama2026",
+    "url": "https://www.hzzx.gov.cn/cshz/images/2026-09/02/49cf89df-2a8e-4e52-8c10-95dcadc3d7bf.jpg",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  },
+  {
+    "sourceKey": "panorama2026",
+    "url": "https://www.hzzx.gov.cn/cshz/images/2026-09/02/53e071e4-b811-4c90-8ffa-780b52f3dbcb.jpg",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
+    "status": "failed"
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "checkedAtUTC": "2026-10-16T04:17:12.766205+00:00",
+  "checks": [
+    {
+      "name": "PBF unchanged and fixed hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Processed roads unchanged since crosswalk freeze",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Raw road archive bound to crosswalk",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every source slice and raw tags retained exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All source coordinates are finite regional WGS84",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2023 override eligible exact seven source slices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Long southern ways never blanket eligible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2026 construction way is held with geometry blocker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Campus services and unrelated access=no not opened",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Relevant raw and processed road features agree exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every fact source ID resolves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Archived reference files match recorded hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Public history contains exact frozen version of each candidate way",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source-node public-road loop reaches and returns from north frontage",
+      "passed": true,
+      "detail": {
+        "FengxinToNorthPublicRoadNode": true,
+        "NorthPublicRoadNodeToFengxin": true,
+        "note": "Topology only; no physical driving/turn legality/parking or campus-entry validation. No edge invented from geometric crossing."
+      }
+    },
+    {
+      "name": "No false final traffic or browser verification status",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 15,
+  "total": 15,
+  "allPassed": true,
+  "claim": "CPU source/provenance/finite-scope checks only",
+  "finalRoadAccessAcceptance": "pending",
+  "browserDriving": "not-run",
+  "sharedWrites": false,
+  "hashes": {
+    "crosswalk.json": "4d534ff9713b076c9af65b6c872d7b29a356715bc7906497b958e25d89bee276",
+    "evidence.json": "c5105ad5d2c08168c66b466fa26e8a17856f136a0a154d0dcdd71beb3bd1a83a",
+    "sources.json": "a638d622d339cbaadddda6d7ed4ca72081ec70145cda149c2fb1dc27c6156685",
+    "task.json": "6758ceb345d66664b07e4b247dcb2454df43fe7bca5b92fa419c40c92c755cd2",
+    "fixed-osm-roads.json": "ff730163be77fe37897bbf019dd02bfe327e21b35d11dd28c4e0fd56a5054b81",
+    "road-scope.geojson": "e7915315b576efb234fb8fa60aaaa59a503a80bb48efbb98e85a31b830443892",
+    "road-scope.svg": "95951d224b7b4c1d7ae42c6d5a07135c0c54b2f1565db1c48f29b73ed70e3606"
+  }
+}

@@ -1,0 +1,1576 @@
+{
+  "dimensions": [
+    8192,
+    4847
+  ],
+  "decodedWetPixels": 3410730,
+  "greenOtherValues": [
+    0,
+    255
+  ],
+  "blueMaximum": 0,
+  "sampleCount": 11569,
+  "maskErrors": [],
+  "distanceEncodingErrorsBeyondOneRedLevel": [],
+  "physicalBoundaryLengthGame": 1092388.5052380792,
+  "omittedCropLengthGame": 4745.291878207591,
+  "edgeWetSamples": [
+    {
+      "row": 0,
+      "col": 4163,
+      "r": 85,
+      "actualDistanceGame": 40.0,
+      "expectedDistanceGame": 40.193129989921474,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4186,
+      "r": 213,
+      "actualDistanceGame": 100.23529411764706,
+      "expectedDistanceGame": 100.15360273097993,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4209,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4232,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4255,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4278,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4301,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4324,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4347,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4370,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4393,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4416,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4439,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4462,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4485,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4508,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4531,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4554,
+      "r": 245,
+      "actualDistanceGame": 115.29411764705883,
+      "expectedDistanceGame": 115.29056573126115,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4577,
+      "r": 141,
+      "actualDistanceGame": 66.3529411764706,
+      "expectedDistanceGame": 66.40860715096629,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 4600,
+      "r": 37,
+      "actualDistanceGame": 17.41176470588235,
+      "expectedDistanceGame": 17.52664857066995,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 5566,
+      "r": 20,
+      "actualDistanceGame": 9.411764705882353,
+      "expectedDistanceGame": 9.203703566602893,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 5612,
+      "r": 5,
+      "actualDistanceGame": 2.3529411764705883,
+      "expectedDistanceGame": 2.16726159534315,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6187,
+      "r": 8,
+      "actualDistanceGame": 3.764705882352941,
+      "expectedDistanceGame": 3.5547711141921368,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6210,
+      "r": 14,
+      "actualDistanceGame": 6.588235294117647,
+      "expectedDistanceGame": 6.715981866148859,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6509,
+      "r": 19,
+      "actualDistanceGame": 8.941176470588236,
+      "expectedDistanceGame": 9.06875152131853,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6532,
+      "r": 52,
+      "actualDistanceGame": 24.470588235294116,
+      "expectedDistanceGame": 24.646657048386782,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6555,
+      "r": 149,
+      "actualDistanceGame": 70.11764705882354,
+      "expectedDistanceGame": 70.19342522234345,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6578,
+      "r": 206,
+      "actualDistanceGame": 96.94117647058823,
+      "expectedDistanceGame": 97.06453615510273,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6601,
+      "r": 128,
+      "actualDistanceGame": 60.23529411764706,
+      "expectedDistanceGame": 60.041798985941554,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 6624,
+      "r": 1,
+      "actualDistanceGame": 0.47058823529411764,
+      "expectedDistanceGame": 0.5965671208574027,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 7291,
+      "r": 9,
+      "actualDistanceGame": 4.235294117647059,
+      "expectedDistanceGame": 4.25915352178056,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 7636,
+      "r": 11,
+      "actualDistanceGame": 5.176470588235294,
+      "expectedDistanceGame": 5.244395088006469,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 8027,
+      "r": 16,
+      "actualDistanceGame": 7.529411764705882,
+      "expectedDistanceGame": 7.349845170002482,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 0,
+      "col": 8165,
+      "r": 29,
+      "actualDistanceGame": 13.647058823529411,
+      "expectedDistanceGame": 13.636145653255987,
+      "cropEdgeDistanceGame": 1.303662712482037
+    },
+    {
+      "row": 1,
+      "col": 4163,
+      "r": 86,
+      "actualDistanceGame": 40.470588235294116,
+      "expectedDistanceGame": 40.36191261734326,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4186,
+      "r": 213,
+      "actualDistanceGame": 100.23529411764706,
+      "expectedDistanceGame": 100.22145694280381,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4209,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4232,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4255,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4278,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4301,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4324,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4347,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4370,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4393,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4416,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4439,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4462,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4470,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4485,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4508,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4531,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4554,
+      "r": 242,
+      "actualDistanceGame": 113.88235294117646,
+      "expectedDistanceGame": 113.77995808507899,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4577,
+      "r": 138,
+      "actualDistanceGame": 64.94117647058823,
+      "expectedDistanceGame": 64.89799950478412,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 4600,
+      "r": 34,
+      "actualDistanceGame": 16.0,
+      "expectedDistanceGame": 16.01604092448778,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 5566,
+      "r": 17,
+      "actualDistanceGame": 8.0,
+      "expectedDistanceGame": 8.184244768281008,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 5727,
+      "r": 2,
+      "actualDistanceGame": 0.9411764705882353,
+      "expectedDistanceGame": 1.1611125693192823,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6187,
+      "r": 3,
+      "actualDistanceGame": 1.411764705882353,
+      "expectedDistanceGame": 1.5445844180753967,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6210,
+      "r": 10,
+      "actualDistanceGame": 4.705882352941177,
+      "expectedDistanceGame": 4.55200912059813,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6509,
+      "r": 21,
+      "actualDistanceGame": 9.882352941176471,
+      "expectedDistanceGame": 9.789716333926398,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6532,
+      "r": 49,
+      "actualDistanceGame": 23.058823529411764,
+      "expectedDistanceGame": 22.989565449381026,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6555,
+      "r": 146,
+      "actualDistanceGame": 68.70588235294117,
+      "expectedDistanceGame": 68.81905623354727,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6578,
+      "r": 201,
+      "actualDistanceGame": 94.58823529411765,
+      "expectedDistanceGame": 94.68900567450255,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6601,
+      "r": 127,
+      "actualDistanceGame": 59.76470588235294,
+      "expectedDistanceGame": 59.99874507193242,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 6624,
+      "r": 0,
+      "actualDistanceGame": 0.0,
+      "expectedDistanceGame": 0.05844219459356623,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 7291,
+      "r": 8,
+      "actualDistanceGame": 3.764705882352941,
+      "expectedDistanceGame": 3.8731056517382116,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 7636,
+      "r": 11,
+      "actualDistanceGame": 5.176470588235294,
+      "expectedDistanceGame": 5.145285792098159,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 8027,
+      "r": 16,
+      "actualDistanceGame": 7.529411764705882,
+      "expectedDistanceGame": 7.349845170002482,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 1,
+      "col": 8165,
+      "r": 30,
+      "actualDistanceGame": 14.117647058823529,
+      "expectedDistanceGame": 14.125889707205713,
+      "cropEdgeDistanceGame": 3.910988137446111
+    },
+    {
+      "row": 52,
+      "col": 8191,
+      "r": 3,
+      "actualDistanceGame": 1.411764705882353,
+      "expectedDistanceGame": 1.4402003727668309,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 102,
+      "col": 8190,
+      "r": 2,
+      "actualDistanceGame": 0.9411764705882353,
+      "expectedDistanceGame": 1.0640792639584715,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 102,
+      "col": 8191,
+      "r": 2,
+      "actualDistanceGame": 0.9411764705882353,
+      "expectedDistanceGame": 1.1166132511278377,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 204,
+      "col": 8190,
+      "r": 9,
+      "actualDistanceGame": 4.235294117647059,
+      "expectedDistanceGame": 4.272523054375862,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 204,
+      "col": 8191,
+      "r": 8,
+      "actualDistanceGame": 3.764705882352941,
+      "expectedDistanceGame": 3.9122333559716487,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 306,
+      "col": 8190,
+      "r": 4,
+      "actualDistanceGame": 1.8823529411764706,
+      "expectedDistanceGame": 1.732769990556572,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 306,
+      "col": 8191,
+      "r": 4,
+      "actualDistanceGame": 1.8823529411764706,
+      "expectedDistanceGame": 1.994640935198122,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 2839,
+      "col": 0,
+      "r": 11,
+      "actualDistanceGame": 5.176470588235294,
+      "expectedDistanceGame": 4.9867152011736735,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 2839,
+      "col": 1,
+      "r": 6,
+      "actualDistanceGame": 2.823529411764706,
+      "expectedDistanceGame": 2.7293803684545135,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 2856,
+      "col": 0,
+      "r": 58,
+      "actualDistanceGame": 27.294117647058822,
+      "expectedDistanceGame": 27.19694930456688,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 2856,
+      "col": 1,
+      "r": 53,
+      "actualDistanceGame": 24.941176470588236,
+      "expectedDistanceGame": 24.94042324529074,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 2873,
+      "col": 0,
+      "r": 96,
+      "actualDistanceGame": 45.1764705882353,
+      "expectedDistanceGame": 45.1817340600794,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 2873,
+      "col": 1,
+      "r": 91,
+      "actualDistanceGame": 42.8235294117647,
+      "expectedDistanceGame": 42.62374455270537,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 2890,
+      "col": 0,
+      "r": 78,
+      "actualDistanceGame": 36.705882352941174,
+      "expectedDistanceGame": 36.909604470057864,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 2890,
+      "col": 1,
+      "r": 74,
+      "actualDistanceGame": 34.8235294117647,
+      "expectedDistanceGame": 34.881346666013926,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 2907,
+      "col": 0,
+      "r": 40,
+      "actualDistanceGame": 18.823529411764707,
+      "expectedDistanceGame": 18.688479960474254,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 2907,
+      "col": 1,
+      "r": 34,
+      "actualDistanceGame": 16.0,
+      "expectedDistanceGame": 16.184776719675583,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 2924,
+      "col": 0,
+      "r": 4,
+      "actualDistanceGame": 1.8823529411764706,
+      "expectedDistanceGame": 2.062899422299839,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 2924,
+      "col": 1,
+      "r": 1,
+      "actualDistanceGame": 0.47058823529411764,
+      "expectedDistanceGame": 0.5184832745349135,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 3060,
+      "col": 8190,
+      "r": 22,
+      "actualDistanceGame": 10.352941176470589,
+      "expectedDistanceGame": 10.196806075351644,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3060,
+      "col": 8191,
+      "r": 20,
+      "actualDistanceGame": 9.411764705882353,
+      "expectedDistanceGame": 9.506653116992752,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3077,
+      "col": 0,
+      "r": 9,
+      "actualDistanceGame": 4.235294117647059,
+      "expectedDistanceGame": 4.318104084324951,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3077,
+      "col": 1,
+      "r": 8,
+      "actualDistanceGame": 3.764705882352941,
+      "expectedDistanceGame": 3.7558737567301588,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 3247,
+      "col": 0,
+      "r": 14,
+      "actualDistanceGame": 6.588235294117647,
+      "expectedDistanceGame": 6.4115069755683605,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3247,
+      "col": 1,
+      "r": 11,
+      "actualDistanceGame": 5.176470588235294,
+      "expectedDistanceGame": 5.371098375856485,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 3247,
+      "col": 8190,
+      "r": 32,
+      "actualDistanceGame": 15.058823529411764,
+      "expectedDistanceGame": 15.093976341327616,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3247,
+      "col": 8191,
+      "r": 35,
+      "actualDistanceGame": 16.470588235294116,
+      "expectedDistanceGame": 16.504279436386483,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3250,
+      "col": 8190,
+      "r": 30,
+      "actualDistanceGame": 14.117647058823529,
+      "expectedDistanceGame": 14.121493024561229,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3264,
+      "col": 0,
+      "r": 13,
+      "actualDistanceGame": 6.117647058823529,
+      "expectedDistanceGame": 6.084899908039704,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3264,
+      "col": 1,
+      "r": 14,
+      "actualDistanceGame": 6.588235294117647,
+      "expectedDistanceGame": 6.807499126216026,
+      "cropEdgeDistanceGame": 3.911291440550485
+    },
+    {
+      "row": 3281,
+      "col": 8190,
+      "r": 9,
+      "actualDistanceGame": 4.235294117647059,
+      "expectedDistanceGame": 4.066375323993748,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3281,
+      "col": 8191,
+      "r": 12,
+      "actualDistanceGame": 5.647058823529412,
+      "expectedDistanceGame": 5.685715527199551,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3298,
+      "col": 8190,
+      "r": 82,
+      "actualDistanceGame": 38.588235294117645,
+      "expectedDistanceGame": 38.80752912048591,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3298,
+      "col": 8191,
+      "r": 86,
+      "actualDistanceGame": 40.470588235294116,
+      "expectedDistanceGame": 40.42686932369172,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3315,
+      "col": 8190,
+      "r": 155,
+      "actualDistanceGame": 72.94117647058823,
+      "expectedDistanceGame": 72.75930919226438,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3315,
+      "col": 8191,
+      "r": 158,
+      "actualDistanceGame": 74.3529411764706,
+      "expectedDistanceGame": 74.43176066236708,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3332,
+      "col": 8190,
+      "r": 228,
+      "actualDistanceGame": 107.29411764705883,
+      "expectedDistanceGame": 107.40189740430755,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3332,
+      "col": 8191,
+      "r": 232,
+      "actualDistanceGame": 109.17647058823529,
+      "expectedDistanceGame": 109.02830540112195,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3349,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3349,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3366,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3366,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3383,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3383,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3400,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3400,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3417,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3417,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3434,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3434,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3451,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3451,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3468,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3468,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3485,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3485,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3502,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3502,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3512,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3519,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3519,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3536,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3536,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3553,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3553,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3570,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3570,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3587,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3587,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3604,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3604,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3621,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3621,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3638,
+      "col": 8190,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3638,
+      "col": 8191,
+      "r": 255,
+      "actualDistanceGame": 120.0,
+      "expectedDistanceGame": 120,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3655,
+      "col": 8190,
+      "r": 232,
+      "actualDistanceGame": 109.17647058823529,
+      "expectedDistanceGame": 109.01348139896385,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3655,
+      "col": 8191,
+      "r": 232,
+      "actualDistanceGame": 109.17647058823529,
+      "expectedDistanceGame": 108.95109327616102,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3672,
+      "col": 8190,
+      "r": 138,
+      "actualDistanceGame": 64.94117647058823,
+      "expectedDistanceGame": 64.73702455174615,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3672,
+      "col": 8191,
+      "r": 137,
+      "actualDistanceGame": 64.47058823529412,
+      "expectedDistanceGame": 64.63191121390332,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 3689,
+      "col": 8190,
+      "r": 44,
+      "actualDistanceGame": 20.705882352941178,
+      "expectedDistanceGame": 20.667701437945578,
+      "cropEdgeDistanceGame": 3.911291440552304
+    },
+    {
+      "row": 3689,
+      "col": 8191,
+      "r": 43,
+      "actualDistanceGame": 20.235294117647058,
+      "expectedDistanceGame": 20.336063583608247,
+      "cropEdgeDistanceGame": 1.3037638135174348
+    },
+    {
+      "row": 4845,
+      "col": 1104,
+      "r": 16,
+      "actualDistanceGame": 7.529411764705882,
+      "expectedDistanceGame": 7.67863575442874,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 1127,
+      "r": 88,
+      "actualDistanceGame": 41.411764705882355,
+      "expectedDistanceGame": 41.38357340511208,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 1564,
+      "r": 42,
+      "actualDistanceGame": 19.764705882352942,
+      "expectedDistanceGame": 19.949646781175844,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 2047,
+      "r": 62,
+      "actualDistanceGame": 29.176470588235293,
+      "expectedDistanceGame": 29.10276025632601,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 2093,
+      "r": 1,
+      "actualDistanceGame": 0.47058823529411764,
+      "expectedDistanceGame": 0.3796153986693569,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 2116,
+      "r": 5,
+      "actualDistanceGame": 2.3529411764705883,
+      "expectedDistanceGame": 2.3128109046830367,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 2139,
+      "r": 0,
+      "actualDistanceGame": 0.0,
+      "expectedDistanceGame": 0.07623705530908596,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 2162,
+      "r": 7,
+      "actualDistanceGame": 3.2941176470588234,
+      "expectedDistanceGame": 3.132409525660832,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 4485,
+      "r": 66,
+      "actualDistanceGame": 31.058823529411764,
+      "expectedDistanceGame": 31.112257810248032,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 4600,
+      "r": 30,
+      "actualDistanceGame": 14.117647058823529,
+      "expectedDistanceGame": 14.083782928388597,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 5405,
+      "r": 3,
+      "actualDistanceGame": 1.411764705882353,
+      "expectedDistanceGame": 1.610013435638004,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 5474,
+      "r": 1,
+      "actualDistanceGame": 0.47058823529411764,
+      "expectedDistanceGame": 0.5524533593400334,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 7268,
+      "r": 13,
+      "actualDistanceGame": 6.117647058823529,
+      "expectedDistanceGame": 6.152465948900834,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 8050,
+      "r": 20,
+      "actualDistanceGame": 9.411764705882353,
+      "expectedDistanceGame": 9.196904125169546,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 8073,
+      "r": 11,
+      "actualDistanceGame": 5.176470588235294,
+      "expectedDistanceGame": 5.335559474673307,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 8096,
+      "r": 7,
+      "actualDistanceGame": 3.2941176470588234,
+      "expectedDistanceGame": 3.0891649481554855,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4845,
+      "col": 8119,
+      "r": 1,
+      "actualDistanceGame": 0.47058823529411764,
+      "expectedDistanceGame": 0.43565230202465144,
+      "cropEdgeDistanceGame": 3.9109881374470206
+    },
+    {
+      "row": 4846,
+      "col": 1104,
+      "r": 17,
+      "actualDistanceGame": 8.0,
+      "expectedDistanceGame": 7.806758788212104,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 1127,
+      "r": 88,
+      "actualDistanceGame": 41.411764705882355,
+      "expectedDistanceGame": 41.21897446605104,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 1564,
+      "r": 42,
+      "actualDistanceGame": 19.764705882352942,
+      "expectedDistanceGame": 19.60592040559042,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 2047,
+      "r": 64,
+      "actualDistanceGame": 30.11764705882353,
+      "expectedDistanceGame": 30.16662898902876,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 2093,
+      "r": 6,
+      "actualDistanceGame": 2.823529411764706,
+      "expectedDistanceGame": 2.831477490633677,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 2162,
+      "r": 1,
+      "actualDistanceGame": 0.47058823529411764,
+      "expectedDistanceGame": 0.5254867730179958,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 4485,
+      "r": 67,
+      "actualDistanceGame": 31.529411764705884,
+      "expectedDistanceGame": 31.446603564458627,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 4600,
+      "r": 32,
+      "actualDistanceGame": 15.058823529411764,
+      "expectedDistanceGame": 14.88208968306259,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 5405,
+      "r": 0,
+      "actualDistanceGame": 0.0,
+      "expectedDistanceGame": 0.04951264635118763,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 7268,
+      "r": 12,
+      "actualDistanceGame": 5.647058823529412,
+      "expectedDistanceGame": 5.8022843304764455,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 8050,
+      "r": 19,
+      "actualDistanceGame": 8.941176470588236,
+      "expectedDistanceGame": 8.90267781969887,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 8073,
+      "r": 17,
+      "actualDistanceGame": 8.0,
+      "expectedDistanceGame": 7.940121203128513,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 8096,
+      "r": 12,
+      "actualDistanceGame": 5.647058823529412,
+      "expectedDistanceGame": 5.693937044220711,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 8119,
+      "r": 6,
+      "actualDistanceGame": 2.823529411764706,
+      "expectedDistanceGame": 3.040424398089877,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    },
+    {
+      "row": 4846,
+      "col": 8142,
+      "r": 1,
+      "actualDistanceGame": 0.47058823529411764,
+      "expectedDistanceGame": 0.3855862084154885,
+      "cropEdgeDistanceGame": 1.3036627124829465
+    }
+  ],
+  "knownAxisSamples": [
+    {
+      "name": "WestLake-center",
+      "wgs84": [
+        120.143,
+        30.244
+      ],
+      "game": [
+        -692.7848536431098,
+        -1995.4273160216378
+      ],
+      "row": 2397,
+      "col": 4715,
+      "RGB": [
+        255,
+        255,
+        0
+      ],
+      "centerWet": true,
+      "verticallyFlippedRGB": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "name": "Qiantang-center",
+      "wgs84": [
+        120.204,
+        30.227
+      ],
+      "game": [
+        2828.8714857088185,
+        -3126.169461767154
+      ],
+      "row": 1964,
+      "col": 6066,
+      "RGB": [
+        255,
+        255,
+        0
+      ],
+      "centerWet": true,
+      "verticallyFlippedRGB": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Wulin-dry",
+      "wgs84": [
+        120.164,
+        30.273
+      ],
+      "game": [
+        519.5886402323324,
+        -66.5142438674667
+      ],
+      "row": 3137,
+      "col": 5180,
+      "RGB": [
+        0,
+        0,
+        0
+      ],
+      "centerWet": false,
+      "verticallyFlippedRGB": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "WestLake-Xiaoyingzhou-island",
+      "wgs84": [
+        120.14065,
+        30.2411
+      ],
+      "game": [
+        -828.4552208152821,
+        -2188.3186232370786
+      ],
+      "row": 2324,
+      "col": 4663,
+      "RGB": [
+        0,
+        0,
+        0
+      ],
+      "centerWet": false,
+      "verticallyFlippedRGB": [
+        73,
+        255,
+        0
+      ]
+    }
+  ],
+  "distanceQuantizationGame": 0.47058823529411764,
+  "acceptedToleranceRedLevels": 1,
+  "scope": "CPU decoding and pixel-center samples only; GPU orientation/filter/readiness still needs browser"
+}

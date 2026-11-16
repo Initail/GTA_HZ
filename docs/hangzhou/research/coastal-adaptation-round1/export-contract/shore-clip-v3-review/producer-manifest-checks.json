@@ -1,0 +1,8 @@
+{
+  "sourceManifestSha256": true,
+  "ownershipContractSha256": true,
+  "exporterSha256": true,
+  "triangleHasherSha256": true,
+  "actualAssetSha256": true,
+  "actualTriangleCount": true
+}

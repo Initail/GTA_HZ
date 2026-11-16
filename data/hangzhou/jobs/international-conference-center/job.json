@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T09:57:09+00:00",
+  "stage": "planned",
+  "agent": "main-integration",
+  "place": {
+    "id": "international-conference-center",
+    "name": "杭州国际会议中心（杭州洲际酒店ICC）",
+    "kind": "building"
+  },
+  "sourceManifest": "data/hangzhou/landmarks.json",
+  "sourceManifestSha256": "b1079f1880ea058cb866540fea9d0252fd7cff53296f1fa1f13183686ec83e8a",
+  "sourceRecord": {
+    "id": "international-conference-center",
+    "name": "杭州国际会议中心（杭州洲际酒店ICC）",
+    "kind": "building",
+    "researchEvidence": "docs/hangzhou/research/core/international-conference-center.evidence.json",
+    "location": {
+      "crs": "EPSG:4326",
+      "center": null,
+      "status": "unknown",
+      "sourceIds": []
+    },
+    "sources": [
+      {
+        "id": "hunter-conference",
+        "url": "https://apvn.hunterdouglas.asia/project/hangzhou-international-conference-center",
+        "publisher": "Hunter Douglas 幕墙产品供应商",
+        "title": "HANGZHOU INTERNATIONAL CONFERENCE CENTER",
+        "sourceDate": null,
+        "accessedAt": "2026-10-12",
+        "provenance": "primary",
+        "accessMethod": "web-page-text-read",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "报总高85m、球直径85m、椭圆附楼13m、金玻璃/蜂窝面板；二手百科裙房12m不能静默合并。"
+      },
+      {
+        "id": "icc-operator",
+        "url": "https://www.intercontinental.com/hotels/gb/en/hangzhou/hghha/hoteldetail?cid=145698&newRedirect=true&qDest=No.+2+Jiefang+East+Road%2C+Hangzhou%2C+ZJ%2C+CN&qSlH=hghha&setPMCookies=true",
+        "publisher": "InterContinental Hangzhou ICC 运营方",
+        "title": "InterContinental Hangzhou ICC",
+        "sourceDate": null,
+        "accessedAt": "2026-10-12",
+        "provenance": "primary",
+        "accessMethod": "search-index-page-text",
+        "license": {
+          "status": "unknown",
+          "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+        },
+        "use": "reference-only; no photo texture generated or bundled",
+        "localPath": null,
+        "sha256": null,
+        "notes": "确认金球与对面月形大剧院的组合；当前客房384和会议面积不用于建模尺寸。"
+      }
+    ]
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/international-conference-center.py"
+    ],
+    "workerDirectories": [
+      "data/hangzhou/jobs/international-conference-center",
+      "artifacts/landmarks/international-conference-center"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-12T09:57:09+00:00",
+      "reason": "task generated; inputs require review"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "yunlian-phrase",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:05:11.720860+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E4%BA%91%E8%81%94%E8%B7%AF&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "filename": "references/yunlian-phrase.json",
+    "bytes": 158311,
+    "sha256": "b8a7e34b817df3c7aaf55d79ed7181ffc32bdd3ad6ebadd7030da13c1a617701",
+    "totalHits": 74
+  },
+  {
+    "id": "cainiao-north-phrase",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%E5%8C%97%E8%B7%AF&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:05:12.192578+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%E8%8F%9C%E9%B8%9F%E5%8C%97%E8%B7%AF&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "filename": "references/cainiao-north-phrase.json",
+    "bytes": 284222,
+    "sha256": "ef319bda518042e1357da5a0242933b4f79a1dda2a21b2e56858d613b06c773d",
+    "totalHits": 161
+  },
+  {
+    "id": "yunlian-quoted",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%22%E4%BA%91%E8%81%94%E8%B7%AF%22&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:05:12.724697+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%22%E4%BA%91%E8%81%94%E8%B7%AF%22&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "filename": "references/yunlian-quoted.json",
+    "bytes": 173,
+    "sha256": "653fb7b3f11cdfaa31783d263db7a2022595ffece28d514ed1d465b12199347c",
+    "error": "IndexError('list index out of range')"
+  },
+  {
+    "id": "cainiao-north-quoted",
+    "url": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%22%E8%8F%9C%E9%B8%9F%E5%8C%97%E8%B7%AF%22&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "retrievedAtUTC": "2026-10-16T04:05:13.149600+00:00",
+    "status": 200,
+    "finalUrl": "http://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/interface/search/app/info?q=%22%E8%8F%9C%E9%B8%9F%E5%8C%97%E8%B7%AF%22&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000&cateid=6N89tbnrVTYIQK5jt7q3T&p=1&pg=50&pos=title",
+    "filename": "references/cainiao-north-quoted.json",
+    "bytes": 173,
+    "sha256": "850190ecbbd58e9d2c45049ecd608cb84f34b347d1eb4050b46cda97829a3657",
+    "error": "IndexError('list index out of range')"
+  }
+]

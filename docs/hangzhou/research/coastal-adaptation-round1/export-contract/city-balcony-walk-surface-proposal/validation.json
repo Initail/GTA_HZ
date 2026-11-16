@@ -1,0 +1,45 @@
+{
+  "floorGeometry": [
+    {
+      "id": "city-balcony:lower",
+      "triangleCount": 27,
+      "sourcePublicAreaGame2": 8814.282657745394,
+      "triangleUnionSymDifferenceGame2": 0.0,
+      "triangleAreaSumErrorGame2": 1.8189894035458565e-12,
+      "actualGlbAllTrianglesMatched": true,
+      "maxFloat32VertexErrorGame": 0.00014468788812418984
+    },
+    {
+      "id": "city-balcony:upper",
+      "triangleCount": 300,
+      "sourcePublicAreaGame2": 10205.559536917239,
+      "triangleUnionSymDifferenceGame2": 0.0,
+      "triangleAreaSumErrorGame2": 2.3646862246096134e-11,
+      "actualGlbAllTrianglesMatched": true,
+      "maxFloat32VertexErrorGame": 0.00014468795151544332
+    }
+  ],
+  "finiteHeightSolids": 136,
+  "guardPanels": 818,
+  "guardPanelVerticesAllPresentInActualGlbWithin1mm": true,
+  "maxGuardVertexErrorGame": 0.00015460300980428408,
+  "skylightCount": 6,
+  "sameUpperOverlayTriangles": 348,
+  "recommendedUpperTriangles": 648,
+  "allPublicGeometryTriangles": 675,
+  "lowerEntryEnabledInRecommendation": false,
+  "seamCurrentGroundProbeChecks": {
+    "city-balcony:upper:west-shore-entry": {
+      "samples": 17,
+      "maxInsideToOutsideDeltaGame": 0.004277044752071468,
+      "sourcePathWithin10GameCount": 0
+    },
+    "city-balcony:upper:east-shore-entry": {
+      "samples": 28,
+      "maxInsideToOutsideDeltaGame": 0.007418419441649782,
+      "sourcePathWithin10GameCount": 0
+    }
+  },
+  "terrainCutsIncludedInAdapter": false,
+  "runtimeBodyOrBrowserAccepted": false
+}

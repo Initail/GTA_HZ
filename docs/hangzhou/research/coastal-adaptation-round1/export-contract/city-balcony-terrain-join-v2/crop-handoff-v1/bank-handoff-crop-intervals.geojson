@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "role": "original terrain edge transferred to actual bank; linear ENU height comes from adjacent terrain segments or actual bank triangles"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              3269.0613566954626,
+              -2072.263134140863
+            ],
+            [
+              3269.1998721852974,
+              -2072.263134140863
+            ]
+          ],
+          [
+            [
+              3381.647878908849,
+              -1891.09892340232
+            ],
+            [
+              3381.647878908849,
+              -1890.8700919308474
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

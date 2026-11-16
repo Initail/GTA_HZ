@@ -1,0 +1,51 @@
+{
+  "id": "hz-tree-plane-lod1",
+  "cityId": "hangzhou",
+  "speciesId": "plane",
+  "lod": 1,
+  "season": "summer",
+  "anchor": {
+    "lon": 120.155,
+    "lat": 30.274,
+    "basis": "neutralcanonicaloriginforlocalassetexport, not a surveyedtree location"
+  },
+  "prototype": {
+    "id": "plane",
+    "name": "二球悬铃木",
+    "scientificName": "Platanus × acerifolia (hybrid; reported local use)",
+    "leafHabit": "deciduous",
+    "form": "broad-forked-pale-bark",
+    "sourceIds": [
+      "shade-plan",
+      "city-streettrees",
+      "plane-flora"
+    ],
+    "prototypeHeightM": 20,
+    "prototypeCrownRadiusM": 7.0,
+    "prototypeBranchClearanceM": 4.8,
+    "trunkRadiusM": 0.38,
+    "dimensionsBasis": "estimated",
+    "heightErrorPlusMinusM": 6,
+    "crownRadiusErrorPlusMinusM": 2.5,
+    "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+    "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+    "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+    "growthStage": "representative maintained adult, not ancient-tree replica"
+  },
+  "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "scope": "eight original procedural regional tree archetypes ×threeLODs, localprototype coordinates; no individualtree census/reconstruction",
+  "baseBuildingIdsToExclude": [],
+  "pendingSubscopes": [
+    "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+    "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+    "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+    "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+    "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+    "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+    "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+  ],
+  "budget": {
+    "maxTriangles": 1700,
+    "maxMaterials": 4
+  }
+}

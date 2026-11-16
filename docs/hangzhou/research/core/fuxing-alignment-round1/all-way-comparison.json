@@ -1,0 +1,637 @@
+{
+  "sourceRoadCount": 7,
+  "rows": [
+    {
+      "sourceWayId": "way/29169666",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/154135283",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 2,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/29170042",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 2,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/154135290",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 2,
+      "oldMainMismatchSamples": 36,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 6,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/336983476",
+      "deck": "lower",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 3,
+      "newMainMismatchSamples": 23,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/340648409",
+      "deck": "lower",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/589429905",
+      "deck": "lower",
+      "oldMainMismatchSourceNodes": 10,
+      "oldMainMismatchSamples": 72,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    }
+  ],
+  "remainingMismatchNodes": [
+    {
+      "kind": "source-node",
+      "nodeId": "3623284229",
+      "point": [
+        944.9874064046583,
+        -3924.1940568392447
+      ],
+      "height": 8.1,
+      "stationM": -669.1964479507911,
+      "transverseM": -17.02308923719295,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 2.2938535423156483,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "source-node",
+      "nodeId": "3440750971",
+      "point": [
+        950.9742221813733,
+        -3934.137936297361
+      ],
+      "height": 8.1,
+      "stationM": -649.8621211502649,
+      "transverseM": -16.380022791607644,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.9080136749645615,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "source-node",
+      "nodeId": "3440750974",
+      "point": [
+        1341.7279724644443,
+        -4634.1803987285175
+      ],
+      "height": 8.1,
+      "stationM": 686.3304678568206,
+      "transverseM": -15.817299560222637,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.5703797361334608,
+      "surfaceAvailable": false
+    }
+  ],
+  "remainingMismatchSamples": [
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 2,
+      "fraction": 0.0,
+      "coordinateWGS84": [
+        120.1713685,
+        30.2150022
+      ],
+      "point": [
+        944.9874064046583,
+        -3924.1940568392447
+      ],
+      "height": 8.1,
+      "stationM": -669.1964479507911,
+      "transverseM": -17.02308923719295,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 2.2938535423156483,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.0,
+      "coordinateWGS84": [
+        120.1714722,
+        30.2148527
+      ],
+      "point": [
+        950.9742221813733,
+        -3934.137936297361
+      ],
+      "height": 8.1,
+      "stationM": -649.8621211502649,
+      "transverseM": -16.380022791607644,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.9080136749645615,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.1111111111111111,
+      "coordinateWGS84": [
+        120.17157073333333,
+        30.21470766666667
+      ],
+      "point": [
+        956.6627555904809,
+        -3943.784718799531
+      ],
+      "height": 8.1,
+      "stationM": -631.2023817642753,
+      "transverseM": -15.929990793953493,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.6379944763721248,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.2222222222222222,
+      "coordinateWGS84": [
+        120.17166926666667,
+        30.214562633333333
+      ],
+      "point": [
+        962.3512890004083,
+        -3953.4315013019373
+      ],
+      "height": 8.1,
+      "stationM": -612.5426423772767,
+      "transverseM": -15.479958795297364,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.3679752771785352,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.3333333333333333,
+      "coordinateWGS84": [
+        120.1717678,
+        30.2144176
+      ],
+      "point": [
+        968.0398224095159,
+        -3963.078283804107
+      ],
+      "height": 8.1,
+      "stationM": -593.8829029912878,
+      "transverseM": -15.029926797642759,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.0979560785858655,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.4444444444444444,
+      "coordinateWGS84": [
+        120.17186633333333,
+        30.21427256666667
+      ],
+      "point": [
+        973.728355818623,
+        -3972.725066306276
+      ],
+      "height": 8.1,
+      "stationM": -575.2231636053,
+      "transverseM": -14.579894799988494,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.8279368799933083,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.5555555555555556,
+      "coordinateWGS84": [
+        120.17196486666667,
+        30.214127533333333
+      ],
+      "point": [
+        979.4168892285509,
+        -3982.3718488086824
+      ],
+      "height": 8.1,
+      "stationM": -556.5634242183003,
+      "transverseM": -14.12986280133211,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.5579176807994684,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.6666666666666666,
+      "coordinateWGS84": [
+        120.1720634,
+        30.2139825
+      ],
+      "point": [
+        985.105422637658,
+        -3992.018631310852
+      ],
+      "height": 8.1,
+      "stationM": -537.9036848323117,
+      "transverseM": -13.679830803678215,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.2878984822071315,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 3,
+      "fraction": 0.7777777777777778,
+      "coordinateWGS84": [
+        120.17216193333333,
+        30.213837466666668
+      ],
+      "point": [
+        990.7939560467655,
+        -4001.6654138130216
+      ],
+      "height": 8.1,
+      "stationM": -519.2439454463229,
+      "transverseM": -13.229798806023581,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.017879283614398687,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.13333333333333333,
+      "coordinateWGS84": [
+        120.17698566666667,
+        30.206324453333334
+      ],
+      "point": [
+        1269.2780719926402,
+        -4501.38781484531
+      ],
+      "height": 8.1,
+      "stationM": 434.22320249853533,
+      "transverseM": -13.488706734487664,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.17322404069225475,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.2,
+      "coordinateWGS84": [
+        120.1770822,
+        30.206170880000002
+      ],
+      "point": [
+        1274.8511412597652,
+        -4511.60262899008
+      ],
+      "height": 8.1,
+      "stationM": 453.6160690644752,
+      "transverseM": -13.667829259377953,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.28069755562653087,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.26666666666666666,
+      "coordinateWGS84": [
+        120.17717873333334,
+        30.206017306666666
+      ],
+      "point": [
+        1280.4242105268902,
+        -4521.817443135088
+      ],
+      "height": 8.1,
+      "stationM": 473.0089356307606,
+      "transverseM": -13.846951784460913,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.3881710706764147,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.3333333333333333,
+      "coordinateWGS84": [
+        120.17727526666667,
+        30.205863733333334
+      ],
+      "point": [
+        1285.9972797940152,
+        -4532.03225727986
+      ],
+      "height": 8.1,
+      "stationM": 492.40180219670185,
+      "transverseM": -14.02607430935197,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.4956445856111321,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.4,
+      "coordinateWGS84": [
+        120.1773718,
+        30.205710160000002
+      ],
+      "point": [
+        1291.5703490611402,
+        -4542.247071424631
+      ],
+      "height": 8.1,
+      "stationM": 511.7946687626431,
+      "transverseM": -14.205196834242969,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.6031181005459624,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.4666666666666667,
+      "coordinateWGS84": [
+        120.17746833333334,
+        30.205556586666667
+      ],
+      "point": [
+        1297.1434183282652,
+        -4552.461885569638
+      ],
+      "height": 8.1,
+      "stationM": 531.1875353289272,
+      "transverseM": -14.384319359325218,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.7105916155952229,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.5333333333333333,
+      "coordinateWGS84": [
+        120.17756486666666,
+        30.205403013333335
+      ],
+      "point": [
+        1302.7164875945698,
+        -4562.67669971441
+      ],
+      "height": 8.1,
+      "stationM": 550.5804018942025,
+      "transverseM": -14.563441885410384,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.8180651312462536,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.6,
+      "coordinateWGS84": [
+        120.17766139999999,
+        30.20524944
+      ],
+      "point": [
+        1308.2895568616948,
+        -4572.8915138594175
+      ],
+      "height": 8.1,
+      "stationM": 569.9732684604879,
+      "transverseM": -14.7425644104934,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 0.9255386462959576,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.6666666666666666,
+      "coordinateWGS84": [
+        120.17775793333333,
+        30.205095866666667
+      ],
+      "point": [
+        1313.8626261288193,
+        -4583.106328004188
+      ],
+      "height": 8.1,
+      "stationM": 589.3661350264274,
+      "transverseM": -14.921686935384344,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.0330121612304506,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.7333333333333333,
+      "coordinateWGS84": [
+        120.17785446666666,
+        30.204942293333335
+      ],
+      "point": [
+        1319.4356953959448,
+        -4593.32114214896
+      ],
+      "height": 8.1,
+      "stationM": 608.759001592369,
+      "transverseM": -15.100809460274718,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.1404856761646476,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.8,
+      "coordinateWGS84": [
+        120.177951,
+        30.20478872
+      ],
+      "point": [
+        1325.0087646630698,
+        -4603.5359562939675
+      ],
+      "height": 8.1,
+      "stationM": 628.1518681586545,
+      "transverseM": -15.27993198535765,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.2479591912144463,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.8666666666666667,
+      "coordinateWGS84": [
+        120.17804753333333,
+        30.204635146666668
+      ],
+      "point": [
+        1330.5818339301943,
+        -4613.750770438739
+      ],
+      "height": 8.1,
+      "stationM": 647.5447347245953,
+      "transverseM": -15.459054510249416,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.3554327061494755,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 9,
+      "fraction": 0.9333333333333333,
+      "coordinateWGS84": [
+        120.17814406666666,
+        30.204481573333332
+      ],
+      "point": [
+        1336.1549031973198,
+        -4623.965584583746
+      ],
+      "height": 8.1,
+      "stationM": 666.9376012908799,
+      "transverseM": -15.638177035330955,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.4629062211984323,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "interpolation-sample",
+      "sourceSegmentIndex": 10,
+      "fraction": 0.0,
+      "coordinateWGS84": [
+        120.1782406,
+        30.204328
+      ],
+      "point": [
+        1341.7279724644443,
+        -4634.1803987285175
+      ],
+      "height": 8.1,
+      "stationM": 686.3304678568206,
+      "transverseM": -15.817299560222637,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.5703797361334608,
+      "surfaceAvailable": false
+    }
+  ],
+  "fullBridgeAccepted": false
+}

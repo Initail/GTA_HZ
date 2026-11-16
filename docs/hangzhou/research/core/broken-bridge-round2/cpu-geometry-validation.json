@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-host-contract-only",
+  "reviewedBy": "landmark_evidence CPU recorder",
+  "at": "2026-10-14T02:03:10+00:00",
+  "sourceModuleSha256": "eab2ac0c16d54d9b7b6a2ba93a454e83ecd5cc963cafda2ff9f3494f727b78b2",
+  "sourceSpecSha256": "0b96b192a1011a5e217b98ace971bd04d5442228b51cad0193d2a9143a282eb4",
+  "faces": 3613,
+  "trianglesBeforeBlenderExport": 7226,
+  "materials": [
+    "asphalt",
+    "concrete",
+    "roof"
+  ],
+  "lights": 0,
+  "waterMeshes": 0,
+  "minimumFanTriangleAreaGameUnits2": 3.724297112612829e-05,
+  "sourceEndpointNodes": [
+    "26315533",
+    "13454786643"
+  ],
+  "archCount": 1,
+  "clearArchSpanM": 6.1,
+  "candidateCrestM": 2.35,
+  "openingRayHits": 0,
+  "deckDownRayHeightGameAboveEndpoints": 1.41,
+  "checks": [
+    "finite/nondegenerate triangle fans",
+    "exact source endpoint WGS84 placement",
+    "0.60 dimensions once",
+    "game-unit endpoint/baseY translation",
+    "B frame restored",
+    "reject repeated scale",
+    "single clear semicircular opening",
+    "solid adjacent abutment",
+    "continuous deck above arch",
+    "non-flat gradual deck profile",
+    "no water/park material geometry",
+    "provisional budgets"
+  ],
+  "limitations": [
+    "No Blender or browser was started.",
+    "Triangle fan count is not an actual exported GLB stat.",
+    "Ray checks are geometry checks, not runtime collision/walking acceptance.",
+    "Arch position and all vertical ground/water parameters are estimated, not surveyed.",
+    "Lamps, pavilions, full ornament and current visual/night/performance checks pending."
+  ]
+}

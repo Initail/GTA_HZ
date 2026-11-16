@@ -1,0 +1,1 @@
+All24916 directed source triangles and UVs preserved, NullEngine20/20 and73ray hits. Independent NORMAL dot-winding checks fail in4 thin-member material meshes; geometry/UV checks remain valid. Preserve old output and investigate explicit split flat normals for next candidate. Not accepted visual asset.

@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://weibo.com/yuhangfabu",
+  "observedOn": "2026-10-16",
+  "method": "web search tool result for exact road opening phrase; not direct HTML or post permalink",
+  "query": "site:weibo.com/yuhangfabu \"云联路\" \"2026年6月4日\"",
+  "sourceType": "official-account-indexed-excerpt",
+  "paraphrase": "余杭区政府新闻办公室官方微博的搜索缓存列出：云联路文二西路—文一西路段约350米，城市主干路、双向4车道，2026-06-04开放，禁止停车，行人车辆遵照交通信号等通行。",
+  "importantLimitation": "Direct open returned an older 2025 profile snapshot without this notice; post ID, exact publication time and full notice not recovered. Relative '12分钟前' and crawler age are not publication dates. Use as a lead/corroboration, not a fully archived primary notice.",
+  "secondaryCorroboration": "https://zjnews.zjol.com.cn/zjnews/90zxw/202606/t20260603_31702006.shtml",
+  "rawResponseArchived": false
+}

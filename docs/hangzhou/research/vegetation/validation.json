@@ -1,0 +1,38 @@
+{
+  "artifactSha256": null,
+  "evidenceSha256": "0acdd94113230b7dae56eafd5daa84e02ecc088c4e25d4c2fe3a57990bdf5d85",
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": []
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": []
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": []
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": []
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": []
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": []
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": []
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": []
+    }
+  }
+}

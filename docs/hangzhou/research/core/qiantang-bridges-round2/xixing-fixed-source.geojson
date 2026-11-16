@@ -1,0 +1,652 @@
+{
+  "type": "FeatureCollection",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/5041735",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 5041735,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:en": "Qian River Number 3 Bridge",
+          "name:zh": "西兴大桥",
+          "oneway": "yes",
+          "wikidata": "Q15929622"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "3730557604",
+          "1668794878",
+          "33720438"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2156662,
+            30.2279917
+          ],
+          [
+            120.2154408,
+            30.2281416
+          ],
+          [
+            120.2045548,
+            30.2359973
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28596734",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28596734,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes",
+          "source": "Yahoo"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "33720438",
+          "3389503820"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2045548,
+            30.2359973
+          ],
+          [
+            120.2033042,
+            30.2368918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28596757",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28596757,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "lanes": "3",
+          "layer": "1",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:en": "Qian River Number 3 Bridge",
+          "name:zh": "西兴大桥",
+          "oneway": "yes",
+          "source": "Yahoo",
+          "wikidata": "Q15929622"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "136997642",
+          "5181378766",
+          "3365385095"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2034744,
+            30.236609
+          ],
+          [
+            120.2049231,
+            30.2355349
+          ],
+          [
+            120.2156131,
+            30.2279193
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/331859982",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 331859982,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes",
+          "source": "Yahoo"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "3389503820",
+          "314160952",
+          "314160953",
+          "314161408",
+          "3389484768",
+          "314161410"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2033042,
+            30.2368918
+          ],
+          [
+            120.202491,
+            30.2374575
+          ],
+          [
+            120.2009228,
+            30.2385898
+          ],
+          [
+            120.1993612,
+            30.2397295
+          ],
+          [
+            120.1990045,
+            30.2400036
+          ],
+          [
+            120.1980056,
+            30.240726
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/331860328",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 331860328,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "314163285",
+          "3389484769",
+          "3389484755",
+          "314163286",
+          "314163287",
+          "136997642"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1984548,
+            30.2402416
+          ],
+          [
+            120.1989431,
+            30.2398782
+          ],
+          [
+            120.1992968,
+            30.2396229
+          ],
+          [
+            120.2008415,
+            30.2385114
+          ],
+          [
+            120.2024481,
+            30.2373314
+          ],
+          [
+            120.2034744,
+            30.236609
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/331860329",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 331860329,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes",
+          "source": "Yahoo"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "314161410",
+          "314161411",
+          "314161412",
+          "314161413",
+          "314161414",
+          "314161415",
+          "314161416",
+          "314161417",
+          "314161418",
+          "314161419",
+          "13329675011",
+          "13329675013"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1980056,
+            30.240726
+          ],
+          [
+            120.1958563,
+            30.2422921
+          ],
+          [
+            120.195513,
+            30.2425887
+          ],
+          [
+            120.1950581,
+            30.2430855
+          ],
+          [
+            120.1947491,
+            30.2434414
+          ],
+          [
+            120.1943715,
+            30.2439234
+          ],
+          [
+            120.1940196,
+            30.2443164
+          ],
+          [
+            120.1935132,
+            30.244739
+          ],
+          [
+            120.1929381,
+            30.2450949
+          ],
+          [
+            120.1923359,
+            30.2454524
+          ],
+          [
+            120.1916916,
+            30.2457864
+          ],
+          [
+            120.1906443,
+            30.2462401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/340388832",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 340388832,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "3365385095",
+          "5561235248",
+          "3530963308"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2156131,
+            30.2279193
+          ],
+          [
+            120.2209548,
+            30.2240256
+          ],
+          [
+            120.2230467,
+            30.222524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/346585778",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 346585778,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "3530963309",
+          "3730557604"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2210317,
+            30.2241443
+          ],
+          [
+            120.2156662,
+            30.2279917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/388018764",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 388018764,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "2",
+          "maxspeed": "80",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "3476114508",
+          "5158768805",
+          "3530963309"
+        ],
+        "grade": "2",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2240343,
+            30.2220631
+          ],
+          [
+            120.223146,
+            30.2226419
+          ],
+          [
+            120.2210317,
+            30.2241443
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/420013388",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 420013388,
+        "tags": {
+          "bridge": "yes",
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "4200007679",
+          "314163272",
+          "314163273",
+          "314163274",
+          "314163276",
+          "314163278",
+          "314163280",
+          "5568045129",
+          "5568045126",
+          "314163281",
+          "314163282",
+          "5561235272",
+          "314163284",
+          "314163285"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1922645,
+            30.2453889
+          ],
+          [
+            120.1928694,
+            30.2450208
+          ],
+          [
+            120.1934445,
+            30.24465
+          ],
+          [
+            120.1939166,
+            30.2442422
+          ],
+          [
+            120.1942354,
+            30.2438712
+          ],
+          [
+            120.1944735,
+            30.2434614
+          ],
+          [
+            120.1947967,
+            30.2429815
+          ],
+          [
+            120.1949618,
+            30.2427737
+          ],
+          [
+            120.1951615,
+            30.2425858
+          ],
+          [
+            120.195555,
+            30.2422795
+          ],
+          [
+            120.195774,
+            30.2421349
+          ],
+          [
+            120.197193,
+            30.2410716
+          ],
+          [
+            120.1979408,
+            30.2405881
+          ],
+          [
+            120.1984548,
+            30.2402416
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/420013389",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 420013389,
+        "tags": {
+          "construction": "trunk",
+          "highway": "construction",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "西兴大桥",
+          "name:zh": "西兴大桥",
+          "oneway": "yes"
+        },
+        "name": "西兴大桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "3928441539",
+          "4200007679"
+        ],
+        "grade": "1",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1919069,
+            30.2455899
+          ],
+          [
+            120.1922645,
+            30.2453889
+          ]
+        ]
+      }
+    }
+  ]
+}

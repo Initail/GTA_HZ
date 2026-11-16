@@ -1,0 +1,42 @@
+{
+  "exitCode": 2,
+  "result": {
+    "id": "qiantang-bridges-decks",
+    "recordedStage": "planned",
+    "currentStage": "planned",
+    "errors": {
+      "evidence-ready": [
+        "缺少 height 的有来源观察及不确定度（不能为 unknown）",
+        "evidence.blockers 尚未清空：[\"真实绝对桥面/水位/地面标高尚未取得；不能把照片估计或layer×6m写成实测。\", \"复兴上下层复杂引桥及各lowerway许可未冻结，当前通用source-node tierclearance不能完成实桥剖面。\", \"之江西侧源接续已从固定PBF提取且root v5已连主分量；完整互通曲线/入口坡道/实际桥面仍未验证。\"]"
+      ],
+      "modelled": [
+        "模型缺失或无效：[Errno 2] No such file or directory: '__missing__'",
+        "model.buildCommand 未填写"
+      ],
+      "verified": [
+        "验收未绑定当前 GLB SHA256",
+        "验收未绑定当前 evidence.json SHA256",
+        "scale 尚未完成具名验收",
+        "scale 缺少可读取的验收证据文件",
+        "orientation 尚未完成具名验收",
+        "orientation 缺少可读取的验收证据文件",
+        "silhouette 尚未完成具名验收",
+        "silhouette 缺少可读取的验收证据文件",
+        "context 尚未完成具名验收",
+        "context 缺少可读取的验收证据文件",
+        "collision 尚未完成具名验收",
+        "collision 缺少可读取的验收证据文件",
+        "browser 尚未完成具名验收",
+        "browser 缺少可读取的验收证据文件",
+        "performance 尚未完成具名验收",
+        "performance 缺少可读取的验收证据文件",
+        "provenance 尚未完成具名验收",
+        "provenance 缺少可读取的验收证据文件"
+      ]
+    },
+    "modelStats": null,
+    "note": "检查结构与证据文件；照片/形体判断须由具名评审实际核对",
+    "requestedStage": "evidence-ready",
+    "passed": false
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "crs": "EPSG:4326",
+  "license": "ODbL-1.0",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/28538289",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538289,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "motorcar": "no",
+          "name": "断桥",
+          "name:en": "Broken Bridge",
+          "name:zh": "断桥",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey"
+        },
+        "name": "断桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26315533",
+          "13454786643"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1466496,
+            30.2604573
+          ],
+          [
+            120.1474111,
+            30.2613444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1466925249",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 1466925249,
+        "tags": {
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "断桥",
+          "name:en": "Broken Bridge",
+          "name:zh": "断桥"
+        },
+        "name": "断桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1466032,
+                30.260492
+              ],
+              [
+                120.1466496,
+                30.2604573
+              ],
+              [
+                120.1466934,
+                30.2604245
+              ],
+              [
+                120.1474342,
+                30.2613186
+              ],
+              [
+                120.1473727,
+                30.2613632
+              ],
+              [
+                120.1466032,
+                30.260492
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28538286",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538286,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "motorcar": "no",
+          "name": "白堤",
+          "name:en": "Bai causeway",
+          "name:zh": "白堤",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey",
+          "surface": "asphalt"
+        },
+        "name": "白堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "313487816",
+          "313487995",
+          "13481819542",
+          "26315533"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1440341,
+            30.257454
+          ],
+          [
+            120.1458221,
+            30.2595579
+          ],
+          [
+            120.1464299,
+            30.2602185
+          ],
+          [
+            120.1466496,
+            30.2604573
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28538290",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538290,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motorcar": "no",
+          "name": "白堤",
+          "name:en": "Baidi",
+          "name:zh": "白堤",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey",
+          "surface": "asphalt"
+        },
+        "name": "白堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "13454786643",
+          "27271890",
+          "11323222305",
+          "26202730"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1474111,
+            30.2613444
+          ],
+          [
+            120.1474858,
+            30.2614347
+          ],
+          [
+            120.1474922,
+            30.2614449
+          ],
+          [
+            120.1475972,
+            30.2616127
+          ]
+        ]
+      }
+    }
+  ]
+}

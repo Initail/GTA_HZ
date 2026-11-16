@@ -1,0 +1,42 @@
+{
+  "sourceCoordinatesModified": false,
+  "classifications": [
+    {
+      "issue": "original structural axis offset relative to fixed source road system",
+      "status": "supported relative model-parameter mismatch",
+      "evidence": "upper paired-carriageway midpoint offset7.8893m; lower outer-pair midpoint offset7.8841m overcentral±500m; old axis lies near one upper carriageway",
+      "action": "rigidly transform structural vertices; preserve every road WGS/node/point/height"
+    },
+    {
+      "issue": "need to widen entire deck to contain a line envelope",
+      "status": "unsupported",
+      "evidence": "primary2008 source reports26.4m small/32m large, both levels equal; OSM centreline mapping does not define deck edge",
+      "action": "reported widths retained, no blanket widening"
+    },
+    {
+      "issue": "wrong CRS or duplicate scaling in frozen road input",
+      "status": "not observed in CPU contract",
+      "evidence": "exact fixed source coordinates/node order, canonical city projection and once.60 tests pass; this does not verify source map absolute accuracy",
+      "action": "input fixed WGS preserved"
+    },
+    {
+      "issue": "absolute geodetic bridge centre/edge accuracy",
+      "status": "unknown",
+      "evidence": "source imagery/mapping history and on-site independent control unavailable; upper/lower maps may share provenance",
+      "action": "estimated hypothesis, assumed±5physical m reconstruction allowance, no measured-accuracy claim"
+    },
+    {
+      "issue": "remaining near-end lower336983476 offsets",
+      "status": "unknown cause; exact geometry gaps retained",
+      "evidence": "3source nodes/23samples near ends; no independent deck-edge/ramp/curve survey",
+      "alternatives": [
+        "generalized or inaccurate source carriageway placement",
+        "local horizontal curve absent from straight finite body",
+        "unmodelled widening/cantilever/bank ramp",
+        "original longitudinal main-boundary/station estimate"
+      ],
+      "action": "no road relocation or automatic traffic closure; full all-way passage remains blocked"
+    }
+  ],
+  "completeMatchAccepted": false
+}

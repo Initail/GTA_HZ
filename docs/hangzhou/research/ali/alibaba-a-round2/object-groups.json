@@ -1,0 +1,174 @@
+{
+  "mappedResearchObjects": 13,
+  "modeledObjects": 12,
+  "officeMappedNames": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8"
+  ],
+  "modelScope": "Eightcurrentnamedoffice sourcegeometries andfourmappedlinks; not a claimthattheseeightare the2013sixunits",
+  "groups": [
+    {
+      "sourceId": "relation/6750407",
+      "mappedName": "A8楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "relation/6750408",
+      "mappedName": "anonymous elevated-link polygon",
+      "role": "link",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "relation/6750409",
+      "mappedName": "A7楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "way/456731145",
+      "mappedName": "A9楼",
+      "status": "blocker-outside-finite-scope",
+      "modeled": false,
+      "excludeBase": false,
+      "notes": "Distinct curved public/visitor building is not proved one of KKAA sixoffices; identity, current exterior and height unresolved."
+    },
+    {
+      "sourceId": "relation/6752573",
+      "mappedName": "anonymous elevated-link polygon",
+      "role": "link",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "relation/6752574",
+      "mappedName": "A5楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "relation/6752575",
+      "mappedName": "A6楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "relation/6752593",
+      "mappedName": "anonymous elevated-link polygon",
+      "role": "link",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "relation/6752592",
+      "mappedName": "A4楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "way/642355049",
+      "mappedName": "A2楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "way/642355050",
+      "mappedName": "anonymous elevated-link polygon",
+      "role": "link",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "way/642355051",
+      "mappedName": "A1楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    },
+    {
+      "sourceId": "way/642355052",
+      "mappedName": "A3楼",
+      "role": "office",
+      "status": "source-bound-reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "historicalArchitectUnit": null,
+      "phase": null,
+      "confidence": "mapped identity/plan; facade family byarchitect site and plan comparison, allside/modern phase crosswalk unresolved"
+    }
+  ],
+  "unresolved": [
+    {
+      "subject": "historical6offices vs currentA1–A9",
+      "blocker": "Architect2013 sixunit/7F project includes multiple connectedplates, while currentA has expansions and namedA1–A9. Officialplan legend numbers are functions, not A buildingnumbers. No automatic1..6 mapping; phase/year/officialname crosswalk pending."
+    },
+    {
+      "sourceIds": [
+        "way/456731145"
+      ],
+      "subject": "A9 currentcurvedbuilding",
+      "blocker": "Public/visitor building identity, architect, modern exterior/height/entrance not confirmed; base object retained."
+    },
+    {
+      "subject": "complete>1km linknetwork",
+      "blocker": "Four fixed mappedlinks are finite subset; architect reported>1km entire network and exact sourcefunction/hall/cafe/library mappings not established."
+    }
+  ]
+}

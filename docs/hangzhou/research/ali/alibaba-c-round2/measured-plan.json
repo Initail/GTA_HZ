@@ -1,0 +1,676 @@
+{
+  "method": "WGS84 ellipsoid ECEF to footprint-centred east/north; actual game uses centralized local projection",
+  "basis": "measured-from-mapped-OSM, not survey",
+  "units": "unscaled metres",
+  "features": {
+    "relation/18754982": {
+      "osmType": "relation",
+      "osmId": 18754982,
+      "osmVersion": 3,
+      "osmTimestamp": "2025-02-27T03:10:56Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "C6",
+        "type": "multipolygon"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.01644715,
+        30.2839151
+      ],
+      "boundsWgs84": [
+        120.01581,
+        30.2834381,
+        120.0170843,
+        30.2843921
+      ],
+      "areaM2": 6803.35,
+      "minimumRotatedEnvelope": {
+        "lengthM": 104.03,
+        "widthM": 78.78,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.89
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.01581,
+            30.2841166
+          ],
+          [
+            120.0160529,
+            30.2834381
+          ],
+          [
+            120.0170843,
+            30.2837135
+          ],
+          [
+            120.0170557,
+            30.2837934
+          ],
+          [
+            120.0170061,
+            30.283932
+          ],
+          [
+            120.0168413,
+            30.2843921
+          ],
+          [
+            120.01581,
+            30.2841166
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [
+        [
+          [
+            120.0160784,
+            30.2839289
+          ],
+          [
+            120.0161365,
+            30.28377
+          ],
+          [
+            120.0168738,
+            30.2839711
+          ],
+          [
+            120.0168157,
+            30.2841301
+          ],
+          [
+            120.0160784,
+            30.2839289
+          ]
+        ]
+      ],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [
+        1363020705,
+        1363020704
+      ],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    },
+    "relation/18754983": {
+      "osmType": "relation",
+      "osmId": 18754983,
+      "osmVersion": 3,
+      "osmTimestamp": "2025-02-27T03:10:56Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "C5",
+        "type": "multipolygon"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.0161255,
+        30.2848756
+      ],
+      "boundsWgs84": [
+        120.0154883,
+        30.2843986,
+        120.0167627,
+        30.2853526
+      ],
+      "areaM2": 6804.07,
+      "minimumRotatedEnvelope": {
+        "lengthM": 104.04,
+        "widthM": 78.78,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.89
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.0154883,
+            30.2850771
+          ],
+          [
+            120.0157312,
+            30.2843986
+          ],
+          [
+            120.0167627,
+            30.284674
+          ],
+          [
+            120.0165196,
+            30.2853526
+          ],
+          [
+            120.0154883,
+            30.2850771
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [
+        [
+          [
+            120.0157567,
+            30.2848894
+          ],
+          [
+            120.0158148,
+            30.2847305
+          ],
+          [
+            120.0165521,
+            30.2849316
+          ],
+          [
+            120.016494,
+            30.2850905
+          ],
+          [
+            120.0157567,
+            30.2848894
+          ]
+        ]
+      ],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [
+        1363020706,
+        1363020707
+      ],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    },
+    "relation/18754984": {
+      "osmType": "relation",
+      "osmId": 18754984,
+      "osmVersion": 3,
+      "osmTimestamp": "2025-02-27T03:10:56Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "C4",
+        "type": "multipolygon"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.01578695,
+        30.28577985
+      ],
+      "boundsWgs84": [
+        120.0151584,
+        30.2853275,
+        120.0164155,
+        30.2862322
+      ],
+      "areaM2": 6190.76,
+      "minimumRotatedEnvelope": {
+        "lengthM": 104.02,
+        "widthM": 72.87,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.76
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.0151584,
+            30.2859548
+          ],
+          [
+            120.0153849,
+            30.2853275
+          ],
+          [
+            120.0164155,
+            30.285605
+          ],
+          [
+            120.0162535,
+            30.2860537
+          ],
+          [
+            120.0162235,
+            30.2861366
+          ],
+          [
+            120.016189,
+            30.2862322
+          ],
+          [
+            120.0151584,
+            30.2859548
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [
+        [
+          [
+            120.0154112,
+            30.2858197
+          ],
+          [
+            120.0154693,
+            30.2856609
+          ],
+          [
+            120.0162066,
+            30.2858619
+          ],
+          [
+            120.0161484,
+            30.2860209
+          ],
+          [
+            120.0154112,
+            30.2858197
+          ]
+        ]
+      ],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [
+        1363020708,
+        1363020709
+      ],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    },
+    "relation/18754985": {
+      "osmType": "relation",
+      "osmId": 18754985,
+      "osmVersion": 3,
+      "osmTimestamp": "2025-02-27T03:10:56Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "C3",
+        "type": "multipolygon"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.01732605000001,
+        30.2866896
+      ],
+      "boundsWgs84": [
+        120.0167003,
+        30.2862451,
+        120.0179518,
+        30.2871341
+      ],
+      "areaM2": 5995.09,
+      "minimumRotatedEnvelope": {
+        "lengthM": 104.01,
+        "widthM": 70.99,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.72
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.0167003,
+            30.286856
+          ],
+          [
+            120.016891,
+            30.286329
+          ],
+          [
+            120.0169214,
+            30.2862451
+          ],
+          [
+            120.0179518,
+            30.2865232
+          ],
+          [
+            120.0177306,
+            30.2871341
+          ],
+          [
+            120.0167003,
+            30.286856
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [
+        [
+          [
+            120.0169277,
+            30.2867272
+          ],
+          [
+            120.0169858,
+            30.2865683
+          ],
+          [
+            120.0177231,
+            30.2867694
+          ],
+          [
+            120.0176649,
+            30.2869283
+          ],
+          [
+            120.0169277,
+            30.2867272
+          ]
+        ]
+      ],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [
+        1363020710,
+        1363020711
+      ],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    },
+    "relation/18754986": {
+      "osmType": "relation",
+      "osmId": 18754986,
+      "osmVersion": 3,
+      "osmTimestamp": "2025-02-27T03:10:56Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "C2",
+        "type": "multipolygon"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.01893749999999,
+        30.287106700000002
+      ],
+      "boundsWgs84": [
+        120.0183054,
+        30.286645,
+        120.0195696,
+        30.2875684
+      ],
+      "areaM2": 6406.43,
+      "minimumRotatedEnvelope": {
+        "lengthM": 104.04,
+        "widthM": 74.94,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.69
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.0183054,
+            30.2872898
+          ],
+          [
+            120.0185393,
+            30.286645
+          ],
+          [
+            120.0195696,
+            30.2869236
+          ],
+          [
+            120.0193356,
+            30.2875684
+          ],
+          [
+            120.0183054,
+            30.2872898
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [
+        [
+          [
+            120.0184776,
+            30.2871318
+          ],
+          [
+            120.0185357,
+            30.286973
+          ],
+          [
+            120.019273,
+            30.287174
+          ],
+          [
+            120.0192148,
+            30.2873329
+          ],
+          [
+            120.0184776,
+            30.2871318
+          ]
+        ]
+      ],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [
+        1363020712,
+        1363020713
+      ],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    },
+    "relation/18754987": {
+      "osmType": "relation",
+      "osmId": 18754987,
+      "osmVersion": 3,
+      "osmTimestamp": "2025-02-27T03:10:56Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "C1",
+        "type": "multipolygon"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.019267,
+        30.28617855
+      ],
+      "boundsWgs84": [
+        120.0186298,
+        30.2857016,
+        120.0199042,
+        30.2866555
+      ],
+      "areaM2": 6803.12,
+      "minimumRotatedEnvelope": {
+        "lengthM": 104.04,
+        "widthM": 78.78,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.9
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.0186298,
+            30.2863801
+          ],
+          [
+            120.0188728,
+            30.2857016
+          ],
+          [
+            120.0199042,
+            30.2859769
+          ],
+          [
+            120.0196611,
+            30.2866555
+          ],
+          [
+            120.0186298,
+            30.2863801
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [
+        [
+          [
+            120.0188098,
+            30.2861863
+          ],
+          [
+            120.0188679,
+            30.2860274
+          ],
+          [
+            120.0196052,
+            30.2862284
+          ],
+          [
+            120.019547,
+            30.2863874
+          ],
+          [
+            120.0188098,
+            30.2861863
+          ]
+        ]
+      ],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [
+        1363020714,
+        1363020715
+      ],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    },
+    "way/1363020716": {
+      "osmType": "way",
+      "osmId": 1363020716,
+      "osmVersion": 3,
+      "osmTimestamp": "2025-02-27T03:10:56Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "访客中心"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.020006,
+        30.285384399999998
+      ],
+      "boundsWgs84": [
+        120.0188957,
+        30.2848379,
+        120.0211163,
+        30.2859309
+      ],
+      "areaM2": 8984.29,
+      "minimumRotatedEnvelope": {
+        "lengthM": 204.27,
+        "widthM": 63.74,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 72.81
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.0188957,
+            30.2853879
+          ],
+          [
+            120.018954,
+            30.285226
+          ],
+          [
+            120.020569,
+            30.2856597
+          ],
+          [
+            120.0206454,
+            30.2854474
+          ],
+          [
+            120.0190256,
+            30.2850125
+          ],
+          [
+            120.0190884,
+            30.2848379
+          ],
+          [
+            120.0192028,
+            30.2848687
+          ],
+          [
+            120.0198307,
+            30.2850371
+          ],
+          [
+            120.0211163,
+            30.2853821
+          ],
+          [
+            120.0209188,
+            30.2859309
+          ],
+          [
+            120.0188957,
+            30.2853879
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    },
+    "way/1363020718": {
+      "osmType": "way",
+      "osmId": 1363020718,
+      "osmVersion": 2,
+      "osmTimestamp": "2026-01-07T02:46:47Z",
+      "tags": {
+        "building": "yes",
+        "layer": "2"
+      },
+      "crs": "EPSG:4326",
+      "bboxCenterWgs84": [
+        120.0194426,
+        30.2844954
+      ],
+      "boundsWgs84": [
+        120.0170061,
+        30.2837934,
+        120.0218791,
+        30.2851974
+      ],
+      "areaM2": 6889.54,
+      "minimumRotatedEnvelope": {
+        "lengthM": 486.4,
+        "widthM": 16.09,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 73.24
+      },
+      "outerRingsWgs84": [
+        [
+          [
+            120.0170061,
+            30.283932
+          ],
+          [
+            120.0193186,
+            30.2845365
+          ],
+          [
+            120.0199548,
+            30.2847028
+          ],
+          [
+            120.0218469,
+            30.2851974
+          ],
+          [
+            120.0218791,
+            30.2850903
+          ],
+          [
+            120.0170557,
+            30.2837934
+          ],
+          [
+            120.0170061,
+            30.283932
+          ]
+        ]
+      ],
+      "innerRingsWgs84": [],
+      "unjoinedRings": [],
+      "relationMemberWayIds": [],
+      "measurementBasis": "measured-from-osm-geometry",
+      "uncertainty": "OSM source plan accuracy unknown; ENU projection numerical error is negligible at these parcel extents. Envelope dimensions describe mapped outlines, not surveyed building dimensions; bearing modulo 180 does not identify an entrance or facade direction."
+    }
+  }
+}

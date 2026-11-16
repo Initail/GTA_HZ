@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "placeId": "qiantang-bridges",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/qiantang-bridges-v1/qiantang-bridges.glb",
+  "sourceModule": "scripts/landmarks/qiantang_bridges.py",
+  "sha256": "cb88432457045d60fe51f424ec4b3d766f4465eedd3779895c8422ae506676fd",
+  "sourceModuleSha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+  "artifactMeshPrefix": "detail_qiantang-bridges_",
+  "accuracyClaim": "finite sourcebound structuralexterior candidate; blocked deck/datum/navigation, GLB pending",
+  "estimatedParameters": [
+    {
+      "qiantang-bridge": {
+        "deckWaterRelativeM": {
+          "value": {
+            "upper": 19,
+            "lower": 8.3
+          },
+          "basis": "estimated",
+          "error": "±5m; water/tide epoch unknown",
+          "method": "2024 side photo lower chord-to-water pixel ratio≈0.7–0.9 of reported10.7m truss; upper=lower+10.7, envelope rounding",
+          "sourceIds": [
+            "qiantang-school",
+            "q2024"
+          ]
+        },
+        "mainPosition": {
+          "value": "1072m main centered on mapped bridge area long axis",
+          "basis": "estimated",
+          "error": "±45m longitudinal; ±5m plan",
+          "method": "source area centroid/axis + reported16×67; north/ south spans visually checked; no mapped pier survey",
+          "sourceIds": [
+            "osm-geofabrik",
+            "qside",
+            "qair"
+          ]
+        },
+        "members": {
+          "value": {
+            "diagonalRadiusM": 0.15,
+            "chordRadiusM": 0.24,
+            "verticalRadiusM": 0.14,
+            "railHeightM": 1.1,
+            "pierRadiusM": 2.7
+          },
+          "basis": "estimated",
+          "error": "members±35%; piers±1m",
+          "method": "original low-poly interpretation from truss and river-pier photos; not structural design",
+          "sourceIds": [
+            "q2024",
+            "qside"
+          ]
+        }
+      }
+    },
+    {
+      "fuxing-bridge": {
+        "deckWaterRelativeM": {
+          "value": {
+            "upper": 22,
+            "lower": 12
+          },
+          "basis": "estimated",
+          "error": "upper±6m, lower±4m, separation±2m",
+          "method": "figure8 and side photo show lower deck near arch springs and upper ≈10m above; pier-to-water ratio estimated, tide unknown",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1",
+            "fgovphoto"
+          ]
+        },
+        "archRiseM": {
+          "value": {
+            "large": 47.5,
+            "small": 12.15
+          },
+          "basis": "estimated",
+          "error": "large±4m, small±2m",
+          "method": "figure8 pixel rise/span proportions≈1/4 and1/7; author figure + side photo, values not source text measurements",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1"
+          ]
+        },
+        "archStations": {
+          "value": {
+            "endApproachEachM": 91.5,
+            "gapBetweenCalculationSpansM": 4.8
+          },
+          "basis": "estimated",
+          "error": "station±35m, gap±3m",
+          "method": "figure8 91.5m unarched end + 11 calculation spans1145m; distribute remaining48m over ten hinge gaps to close1376m; NOT as-built pier chain",
+          "sourceIds": [
+            "fuxing-paper",
+            "osm-geofabrik",
+            "fgovphoto"
+          ]
+        },
+        "members": {
+          "value": {
+            "largeRibCentersM": 29.4,
+            "smallRibCentersM": 10.4,
+            "largeRibSectionM": [
+              2.6,
+              4.5
+            ],
+            "smallTubeDiameterM": 1.7,
+            "hangerRadiusM": 0.07,
+            "railHeightM": 1.15
+          },
+          "basis": "estimated",
+          "error": "rib dimensions±20%, hanger radius±40%",
+          "method": "bounded original lattice from fig8 + two real directions; construction specification not obtained",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1",
+            "fgovphoto"
+          ]
+        }
+      }
+    },
+    {
+      "zhijiang-bridge": {
+        "deckWaterRelativeM": {
+          "value": 18,
+          "basis": "estimated",
+          "error": "±5m, tide/datum unknown",
+          "method": "airphoto tower base/deck/water relationship + figure1; 73.95m curved tower portion above deck gives steel base≈deck-16.55; datum not surveyed",
+          "sourceIds": [
+            "zhijiang-paper",
+            "zair"
+          ]
+        },
+        "mainPosition": {
+          "value": "main center from midpoints of opposite-road source points3112466945/3112466938 and3112466946/3112466939",
+          "basis": "estimated",
+          "error": "±70m longitudinal, ±5m transverse",
+          "method": "fixed shape-break interval≈480m near reported478m + photo western-position constraint; those nodes NOT measured pylon feet",
+          "sourceIds": [
+            "osm-geofabrik",
+            "zair",
+            "binjiang-gazette"
+          ]
+        },
+        "cableLayout": {
+          "value": {
+            "stationsPerFan": 14,
+            "radiusM": 0.055,
+            "anchorsByTowerHeight": "0.35..0.92 of73.95m"
+          },
+          "basis": "estimated",
+          "error": "anchor stations±3m, radius±40%; cablecount not certified",
+          "method": "figure1 fan and real tower silhouette; 14 original representative cables each of4 longitudinal fans×2 planes, not as-built cable inventory",
+          "sourceIds": [
+            "zhijiang-paper",
+            "zair"
+          ]
+        }
+      }
+    }
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python-exit-code 1 --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges/job.json --spec docs/hangzhou/research/core/qiantang-bridges-round2/spec.json --module scripts/landmarks/qiantang_bridges.py --output artifacts/cities/hangzhou/landmarks/qiantang-bridges-v1 --base-y 0.9",
+  "sourceSpec": "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json",
+  "sourceSpecSha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "6a065edc4c99a00e6bed374e3290aa50ca1457fddbd0bb24d6550c3bbda8dda5"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/qiantang-bridges-build-v1.log",
+    "sha256": "0b7c9f63b353ae0158ff9af76f2f2ed458c86ee9b7c8d1eb6da30a864f218bfc"
+  },
+  "modelDeliverySha256": "10eec799433d3395dd2e6e45656e22aa3664dcba5c5040a6fa9587aea7bbfd77",
+  "glbStats": {
+    "triangles": 24148,
+    "materials": 5,
+    "bytes": 1688748,
+    "selectedMeshes": 5,
+    "meshNamePrefix": "detail_qiantang-bridges_",
+    "wholeFileTriangles": 24148,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

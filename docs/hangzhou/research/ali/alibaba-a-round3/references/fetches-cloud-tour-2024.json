@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "id": "cloud-tour-2024",
+      "url": "https://resource.alibabacloud.com/event/detail?id=6370",
+      "publisher": "Alibaba Cloud",
+      "authority": "owner event itinerary",
+      "sourceDate": "2024-03-13",
+      "use": "No.9 Hall visiting; A5 gate and A visitor center are distinct place descriptions",
+      "accessedAt": "2026-10-14",
+      "license": "Copyright retained; reference only, no redistribution or runtime texture license verified",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "localPath": null
+    }
+  ]
+}

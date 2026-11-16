@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "placeId": "broken-bridge",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/broken-bridge-v1/broken-bridge.glb",
+  "sourceModule": "scripts/landmarks/broken_bridge.py",
+  "sha256": "7c915a982b9fe67fad0398545f3f9b6d99fe5dffadd92ef47e070ffc30b25cad",
+  "sourceModuleSha256": "eab2ac0c16d54d9b7b6a2ba93a454e83ecd5cc963cafda2ff9f3494f727b78b2",
+  "artifactMeshPrefix": "detail_broken-bridge_",
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": {
+    "archPosition": {
+      "value": 0.45,
+      "unit": "fraction from source SW road endpoint",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "visual ratio along full longitudinal elevation2a-61, registered to OSM endpoint corridor; no georeferenced arch survey",
+      "uncertainty": "±.05 of corridor (about±6.1m); old drawing/current placement tie-in pending"
+    },
+    "archSpringRelativeM": {
+      "value": -1.5,
+      "unit": "m relative to bridge road endpoint height",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018",
+        "government-rain2020"
+      ],
+      "method": "semicircular clear span fixes radius3.05m; low arch spring and shallow slopes inferred from elevation and side photographs; neutral endpoint datum",
+      "uncertainty": "±.7m; real lake water/abutment datum unknown"
+    },
+    "archRingThicknessM": {
+      "value": 0.6,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "coarse ring-to-clear-span proportion in figure2a-61; not a measured structural section",
+      "uncertainty": "±.25m; 1921 historical secondary report not used as field measurement"
+    },
+    "pavementThicknessM": {
+      "value": 0.2,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "thin asphalt deck above arch ring, for candidate geometry; material is reported, thickness is not",
+      "uncertainty": "±.15m"
+    },
+    "railHeightM": {
+      "value": 1.0,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-night2023"
+      ],
+      "method": "elevation rail-to-span and adult-height contextual proportion in street photograph; not calibrated imagery",
+      "uncertainty": "±.25m"
+    },
+    "railPostPitchM": {
+      "value": 2.7,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018"
+      ],
+      "method": "coarse repeated railing interval in full elevation; candidate repetition, actual post count unknown",
+      "uncertainty": "±.7m; precise ornamental sections pending"
+    },
+    "railPostWidthM": {
+      "value": 0.22,
+      "unit": "m",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "method": "coarse line-weight/rail-width proportion; representative low-poly stone post",
+      "uncertainty": "±.10m"
+    },
+    "slopeProfile": {
+      "value": "smooth sine approaches to one crest over the arch",
+      "basis": "estimated",
+      "sourceIds": [
+        "unesco-nomination",
+        "government-2018"
+      ],
+      "method": "preserves gradual asphalt slopes and exact endpoint heights; not a surveyed vertical alignment",
+      "uncertainty": "crest about2.35±.9m over neutral endpoints; road/collision height and current water datum pending"
+    }
+  },
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/broken-bridge-round2/task-bundles/broken-bridge/job.json --spec docs/hangzhou/research/core/broken-bridge-round2/spec.json --module scripts/landmarks/broken_bridge.py --output artifacts/cities/hangzhou/landmarks/broken-bridge-v1",
+  "sourceSpec": "docs/hangzhou/research/core/broken-bridge-round2/spec.json",
+  "sourceSpecSha256": "0b96b192a1011a5e217b98ace971bd04d5442228b51cad0193d2a9143a282eb4",
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "docs/hangzhou/audit/city-config-hangzhou-7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6.json",
+      "sha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/broken-bridge-build-v1.log",
+    "sha256": "4644c0c0a417f3d6f7a862a1b92b427f218eaa08d2c5b95d92d5ef26b77ed32c"
+  },
+  "modelDeliverySha256": "1ece37745501839058d7d0ae9a208b970a3608563c27d7078ca0fe05f8709cad",
+  "glbStats": {
+    "triangles": 7226,
+    "materials": 3,
+    "bytes": 794532,
+    "selectedMeshes": 3,
+    "meshNamePrefix": "detail_broken-bridge_",
+    "wholeFileTriangles": 7226,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

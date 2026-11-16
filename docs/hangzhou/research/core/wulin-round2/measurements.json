@@ -1,0 +1,118 @@
+{
+  "cityId": "hangzhou",
+  "crs": "EPSG:4326",
+  "sourceFeatureId": "way/589390765",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceSnapshot": "2026-10-11T20:21:06Z",
+  "osmIdentitiesSha256": "5b750c2f90090398c4cb51d2ec6b129c4779bec305f1fe22fe262431674e608e",
+  "processedSourceSha256": {
+    "places": "6d7e3714bfc34ae86bf5a2487bae1433ce14801dcbf494b315689567eb0e0ef7",
+    "pois": "6df4ea148979857fe2dba52eb49e2f2ea28001b6eda149c5e685d84ec683255b"
+  },
+  "footprintWGS84": [
+    [
+      120.1576449,
+      30.2738637
+    ],
+    [
+      120.1577944,
+      30.2738331
+    ],
+    [
+      120.1578455,
+      30.2737889
+    ],
+    [
+      120.1578573,
+      30.2737108
+    ],
+    [
+      120.1578966,
+      30.2732929
+    ],
+    [
+      120.1577039,
+      30.2732759
+    ],
+    [
+      120.1577275,
+      30.2729294
+    ],
+    [
+      120.1577786,
+      30.2728445
+    ],
+    [
+      120.1578455,
+      30.2728139
+    ],
+    [
+      120.1579832,
+      30.2728207
+    ],
+    [
+      120.1593285,
+      30.2727663
+    ],
+    [
+      120.1594269,
+      30.2727867
+    ],
+    [
+      120.159482,
+      30.2728275
+    ],
+    [
+      120.1594977,
+      30.2728954
+    ],
+    [
+      120.1594938,
+      30.2733643
+    ],
+    [
+      120.1594584,
+      30.2736089
+    ],
+    [
+      120.1594308,
+      30.273969
+    ],
+    [
+      120.1576527,
+      30.2738892
+    ],
+    [
+      120.1576449,
+      30.2738637
+    ]
+  ],
+  "centerWGS84": [
+    120.15865041655836,
+    30.27335428045256
+  ],
+  "centerGameEN": [
+    210.74610842652575,
+    -42.949547448529835
+  ],
+  "mappedAreaM2": 20361.31364937279,
+  "bboxEastM": 178.2766356716736,
+  "bboxNorthM": 133.3278018322111,
+  "fountainSourceFeatureId": "node/4228526321",
+  "fountainWGS84": [
+    120.1586003,
+    30.2734489
+  ],
+  "fountainGameEN": [
+    207.85277571439437,
+    -36.655999795258786
+  ],
+  "fountainOffsetRealEN": [
+    -4.822221186278284,
+    10.489246088788626
+  ],
+  "axisBearingTowardExhibitionHallDegrees": 0,
+  "axisBasis": "estimated map/photo cardinal relationship, ±3°",
+  "method": "area centroid of fixed WGS84 mapped ring using city_config Hangzhou coefficients; fountain is mapped POI, not measured basin center",
+  "uncertainty": "OSM vector accuracy unverified, plan allowance ±5m. Mapped area excludes northern exhibition forecourt beyond polygon; not a cadastral survey. Fountain point center ±3m; no mapped basin outline/diameter."
+}

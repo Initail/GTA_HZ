@@ -1,0 +1,4461 @@
+{
+  "type": "FeatureCollection",
+  "coordinateSystem": "Hangzhou game ENU metres; XY east/north and optional third coordinate up; WGS84-derived local projection scale0.60 already applied",
+  "sourceArtifactSha256": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "east-exact-source-footprint",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3318.6241915776022,
+              -1939.43562553408
+            ],
+            [
+              3316.159032140373,
+              -1937.1940955157843
+            ],
+            [
+              3298.931782112799,
+              -1918.935935574205
+            ],
+            [
+              3283.1997927283264,
+              -1941.8766982839466
+            ],
+            [
+              3308.151593874044,
+              -1961.8309714441157
+            ],
+            [
+              3318.6241915776022,
+              -1939.43562553408
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "sourceId": "relation/8718551",
+        "sourceUpperIndices": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "role": "bounded exact source upper-only finger; no new lower floor",
+        "noGroundRaiseOrFill": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-0",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3317.7863837613177,
+              -1941.2272532068828,
+              5.1579020031420155
+            ],
+            [
+              3318.20528766946,
+              -1940.3314393704813,
+              5.1579020031420155
+            ],
+            [
+              3317.3916118589877,
+              -1938.314860524932,
+              5.14736918328276
+            ],
+            [
+              3317.7863837613177,
+              -1941.2272532068828,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 0,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3314.8540564043215,
+              -1947.4979500616928,
+              5.1579020031420155
+            ],
+            [
+              3312.8460994427624,
+              -1933.6829109116345,
+              5.106315337390174
+            ],
+            [
+              3295.675693301185,
+              -1951.8538348640311,
+              5.065173219625926
+            ],
+            [
+              3314.8540564043215,
+              -1947.4979500616928,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 1,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3314.016248588037,
+              -1949.2895777344957,
+              5.1579020031420155
+            ],
+            [
+              3298.014924658596,
+              -1953.7245479727972,
+              5.082559866535193
+            ],
+            [
+              3313.5973446798944,
+              -1950.185391570897,
+              5.1579020031420155
+            ],
+            [
+              3314.016248588037,
+              -1949.2895777344957,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 2,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3311.9217290473252,
+              -1953.7686469165028,
+              5.1579020031420155
+            ],
+            [
+              3301.9136435876144,
+              -1956.8424031540735,
+              5.111537611383971
+            ],
+            [
+              3311.5028251391827,
+              -1954.6644607529042,
+              5.1579020031420155
+            ],
+            [
+              3311.9217290473252,
+              -1953.7686469165028,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 3,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3311.08392123104,
+              -1955.5602745893057,
+              5.1579020031420155
+            ],
+            [
+              3303.473131159222,
+              -1958.089545226584,
+              5.123128709323482
+            ],
+            [
+              3310.665017322898,
+              -1956.456088425707,
+              5.1579020031420155
+            ],
+            [
+              3311.08392123104,
+              -1955.5602745893057,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 4,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3305.032618730829,
+              -1959.3366872990946,
+              5.134719807262994
+            ],
+            [
+              3310.2461134147557,
+              -1957.3519022621085,
+              5.1579020031420155
+            ],
+            [
+              3304.2528749450257,
+              -1958.7131162628393,
+              5.128924258293238
+            ],
+            [
+              3305.032618730829,
+              -1959.3366872990946,
+              5.134719807262994
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 5,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3309.827209506613,
+              -1958.24771609851,
+              5.1579020031420155
+            ],
+            [
+              3305.812362516633,
+              -1959.9602583353499,
+              5.14051535623275
+            ],
+            [
+              3309.408305598471,
+              -1959.1435299349114,
+              5.1579020031420155
+            ],
+            [
+              3309.827209506613,
+              -1958.24771609851,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 6,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3308.5704977821865,
+              -1960.9351576077142,
+              5.1579020031420155
+            ],
+            [
+              3308.9894016903286,
+              -1960.0393437713128,
+              5.1579020031420155
+            ],
+            [
+              3307.3718500882405,
+              -1961.2074004078604,
+              5.15210645417226
+            ],
+            [
+              3308.5704977821865,
+              -1960.9351576077142,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 7,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3307.3718500882405,
+              -1961.2074004078604,
+              5.15210645417226
+            ],
+            [
+              3308.151593874044,
+              -1961.8309714441157,
+              5.1579020031420155
+            ],
+            [
+              3308.5704977821865,
+              -1960.9351576077142,
+              5.1579020031420155
+            ],
+            [
+              3307.3718500882405,
+              -1961.2074004078604,
+              5.15210645417226
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 8,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3312.3406329554673,
+              -1952.8728330801014,
+              5.1579020031420155
+            ],
+            [
+              3301.133899801811,
+              -1956.2188321178182,
+              5.105742062414216
+            ],
+            [
+              3311.9217290473252,
+              -1953.7686469165028,
+              5.1579020031420155
+            ],
+            [
+              3312.3406329554673,
+              -1952.8728330801014,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 9,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3313.5973446798944,
+              -1950.185391570897,
+              5.1579020031420155
+            ],
+            [
+              3298.7946684444,
+              -1954.3481190090524,
+              5.088355415504949
+            ],
+            [
+              3313.178440771752,
+              -1951.0812054072985,
+              5.1579020031420155
+            ],
+            [
+              3313.5973446798944,
+              -1950.185391570897,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 10,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3294.8959495153813,
+              -1951.2302638277758,
+              5.059377670656171
+            ],
+            [
+              3311.520926363718,
+              -1932.2784370699744,
+              5.094106926976845
+            ],
+            [
+              3294.116205729578,
+              -1950.6066927915206,
+              5.053582121686415
+            ],
+            [
+              3294.8959495153813,
+              -1951.2302638277758,
+              5.059377670656171
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 11,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-12",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3290.2174868005595,
+              -1947.4888376102442,
+              5.024604376837637
+            ],
+            [
+              3288.256503601907,
+              -1934.5028816986724,
+              4.933086995988185
+            ],
+            [
+              3289.4377430147556,
+              -1946.865266573989,
+              5.018808827867882
+            ],
+            [
+              3290.2174868005595,
+              -1947.4888376102442,
+              5.024604376837637
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 12,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-13",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3287.1327900744445,
+              -1936.1415076065111,
+              4.936143955979003
+            ],
+            [
+              3288.657999228952,
+              -1946.2416955377337,
+              5.013013278898126
+            ],
+            [
+              3287.6946468381757,
+              -1935.3221946525919,
+              4.9312173405654836
+            ],
+            [
+              3287.1327900744445,
+              -1936.1415076065111,
+              4.936143955979003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 13,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-14",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3286.5709333107134,
+              -1936.9608205604304,
+              4.941329738854833
+            ],
+            [
+              3287.878255443148,
+              -1945.6181245014784,
+              5.00721772992837
+            ],
+            [
+              3287.1327900744445,
+              -1936.1415076065111,
+              4.936143955979003
+            ],
+            [
+              3286.5709333107134,
+              -1936.9608205604304,
+              4.941329738854833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 14,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-15",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3287.0985116573447,
+              -1944.9945534652231,
+              5.001422180958614
+            ],
+            [
+              3286.009076546982,
+              -1937.78013351435,
+              4.946515521730671
+            ],
+            [
+              3286.318767871541,
+              -1944.3709824289679,
+              4.995626631988859
+            ],
+            [
+              3287.0985116573447,
+              -1944.9945534652231,
+              5.001422180958614
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 15,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-16",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3286.318767871541,
+              -1944.3709824289679,
+              4.995626631988859
+            ],
+            [
+              3285.447219783251,
+              -1938.5994464682692,
+              4.951701304606494
+            ],
+            [
+              3285.5390240857373,
+              -1943.7474113927124,
+              4.989831083019103
+            ],
+            [
+              3286.318767871541,
+              -1944.3709824289679,
+              4.995626631988859
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 16,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-17",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3284.3235062557887,
+              -1940.238072376108,
+              4.962072870358177
+            ],
+            [
+              3284.759280299934,
+              -1943.123840356457,
+              4.984035534049348
+            ],
+            [
+              3284.88536301952,
+              -1939.4187594221885,
+              4.956887087482347
+            ],
+            [
+              3284.3235062557887,
+              -1940.238072376108,
+              4.962072870358177
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 17,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-18",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3283.7616494920576,
+              -1941.0573853300273,
+              4.967258653234
+            ],
+            [
+              3283.97953651413,
+              -1942.5002693202018,
+              4.978239985079592
+            ],
+            [
+              3284.3235062557887,
+              -1940.238072376108,
+              4.962072870358177
+            ],
+            [
+              3283.7616494920576,
+              -1941.0573853300273,
+              4.967258653234
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 18,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-19",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3283.7616494920576,
+              -1941.0573853300273,
+              4.967258653234
+            ],
+            [
+              3283.1997927283264,
+              -1941.8766982839466,
+              4.9724444361098366
+            ],
+            [
+              3283.97953651413,
+              -1942.5002693202018,
+              4.978239985079592
+            ],
+            [
+              3283.7616494920576,
+              -1941.0573853300273,
+              4.967258653234
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 19,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-20",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3288.818360365638,
+              -1933.683568744753,
+              4.93591041041239
+            ],
+            [
+              3290.997230586363,
+              -1948.1124086464995,
+              5.0303999258073935
+            ],
+            [
+              3289.380217129369,
+              -1932.8642557908338,
+              4.938955772177439
+            ],
+            [
+              3288.818360365638,
+              -1933.683568744753,
+              4.93591041041239
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 20,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-21",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3292.189500948025,
+              -1928.767691021237,
+              4.954652938238905
+            ],
+            [
+              3306.8828205870636,
+              -1927.3627786241645,
+              5.051377490530185
+            ],
+            [
+              3292.751357711756,
+              -1927.9483780673177,
+              4.957545082455751
+            ],
+            [
+              3292.189500948025,
+              -1928.767691021237,
+              4.954652938238905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 21,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-22",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3293.3132144754873,
+              -1927.1290651133984,
+              4.960220593621856
+            ],
+            [
+              3305.5576475080197,
+              -1925.9583047825047,
+              5.039169080116854
+            ],
+            [
+              3293.8750712392184,
+              -1926.3097521594789,
+              4.962644073485153
+            ],
+            [
+              3293.3132144754873,
+              -1927.1290651133984,
+              4.960220593621856
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 22,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-23",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3304.8950609684975,
+              -1925.2560678616746,
+              5.033064874910189
+            ],
+            [
+              3293.8750712392184,
+              -1926.3097521594789,
+              4.962644073485153
+            ],
+            [
+              3305.5576475080197,
+              -1925.9583047825047,
+              5.039169080116854
+            ],
+            [
+              3304.8950609684975,
+              -1925.2560678616746,
+              5.033064874910189
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 23,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-24",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3294.4369280029496,
+              -1925.4904392055596,
+              4.96479412550686
+            ],
+            [
+              3304.2324744289754,
+              -1924.5538309408446,
+              5.026960669703523
+            ],
+            [
+              3294.9987847666807,
+              -1924.6711262516403,
+              4.967043145313027
+            ],
+            [
+              3294.4369280029496,
+              -1925.4904392055596,
+              4.96479412550686
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 24,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3302.907301349931,
+              -1923.1493570991847,
+              5.0147522592901925
+            ],
+            [
+              3295.560641530412,
+              -1923.8518132977208,
+              4.969167625004821
+            ],
+            [
+              3303.569887889453,
+              -1923.8515940200148,
+              5.020856464496858
+            ],
+            [
+              3302.907301349931,
+              -1923.1493570991847,
+              5.0147522592901925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 25,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3295.560641530412,
+              -1923.8518132977208,
+              4.969167625004821
+            ],
+            [
+              3302.907301349931,
+              -1923.1493570991847,
+              5.0147522592901925
+            ],
+            [
+              3296.122498294143,
+              -1923.0325003438015,
+              4.971067191377457
+            ],
+            [
+              3295.560641530412,
+              -1923.8518132977208,
+              4.969167625004821
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 26,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-27",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3296.684355057874,
+              -1922.2131873898823,
+              4.972751748758953
+            ],
+            [
+              3301.582128270887,
+              -1921.7448832575246,
+              5.002543848876861
+            ],
+            [
+              3297.2462118216054,
+              -1921.393874435963,
+              4.974238760268704
+            ],
+            [
+              3296.684355057874,
+              -1922.2131873898823,
+              4.972751748758953
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 27,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-28",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3297.8080685853365,
+              -1920.5745614820435,
+              4.97571757874588
+            ],
+            [
+              3300.2569551918427,
+              -1920.3404094158648,
+              4.99033543846353
+            ],
+            [
+              3298.3699253490677,
+              -1919.7552485281242,
+              4.9770087333848485
+            ],
+            [
+              3297.8080685853365,
+              -1920.5745614820435,
+              4.97571757874588
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 28,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-29",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3299.594368652321,
+              -1919.6381724950347,
+              4.984231233256865
+            ],
+            [
+              3298.931782112799,
+              -1918.935935574205,
+              4.978127028050199
+            ],
+            [
+              3298.3699253490677,
+              -1919.7552485281242,
+              4.9770087333848485
+            ],
+            [
+              3299.594368652321,
+              -1919.6381724950347,
+              4.984231233256865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 29,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-30",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3289.380217129369,
+              -1932.8642557908338,
+              4.938955772177439
+            ],
+            [
+              3291.776974372167,
+              -1948.7359796827548,
+              5.0361954747771485
+            ],
+            [
+              3289.9420738931003,
+              -1932.0449428369145,
+              4.9421066822855275
+            ],
+            [
+              3289.380217129369,
+              -1932.8642557908338,
+              4.938955772177439
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 30,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-31",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3309.533166745152,
+              -1930.1717263074845,
+              5.075794311356847
+            ],
+            [
+              3292.5567181579704,
+              -1949.35955071901,
+              5.0419910237469034
+            ],
+            [
+              3310.195753284674,
+              -1930.8739632283146,
+              5.0818985165635135
+            ],
+            [
+              3309.533166745152,
+              -1930.1717263074845,
+              5.075794311356847
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 31,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-32",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3290.5039306568315,
+              -1931.225629882995,
+              4.945267369259399
+            ],
+            [
+              3308.8705802056297,
+              -1929.4694893866545,
+              5.0696901061501825
+            ],
+            [
+              3291.0657874205626,
+              -1930.4063169290757,
+              4.948441219271454
+            ],
+            [
+              3290.5039306568315,
+              -1931.225629882995,
+              4.945267369259399
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 32,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-33",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3295.675693301185,
+              -1951.8538348640311,
+              5.065173219625926
+            ],
+            [
+              3312.18351290324,
+              -1932.9806739908045,
+              5.100211132183509
+            ],
+            [
+              3294.8959495153813,
+              -1951.2302638277758,
+              5.059377670656171
+            ],
+            [
+              3295.675693301185,
+              -1951.8538348640311,
+              5.065173219625926
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 33,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-34",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3316.5296720368906,
+              -1943.914694716087,
+              5.1579020031420155
+            ],
+            [
+              3314.8338590613284,
+              -1935.7896216741244,
+              5.1246279530101715
+            ],
+            [
+              3316.1107681287485,
+              -1944.8105085524885,
+              5.1579020031420155
+            ],
+            [
+              3316.5296720368906,
+              -1943.914694716087,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 34,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-35",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3315.4964456008506,
+              -1936.4918585949545,
+              5.130732158216836
+            ],
+            [
+              3316.948575945033,
+              -1943.0188808796856,
+              5.1579020031420155
+            ],
+            [
+              3316.159032140373,
+              -1937.1940955157843,
+              5.136836363423503
+            ],
+            [
+              3315.4964456008506,
+              -1936.4918585949545,
+              5.130732158216836
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 35,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-36",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3318.007901718295,
+              -1938.875243029506,
+              5.152635593212387
+            ],
+            [
+              3317.3916118589877,
+              -1938.314860524932,
+              5.14736918328276
+            ],
+            [
+              3318.20528766946,
+              -1940.3314393704813,
+              5.1579020031420155
+            ],
+            [
+              3318.007901718295,
+              -1938.875243029506,
+              5.152635593212387
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 36,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-37",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3318.6241915776022,
+              -1939.43562553408,
+              5.1579020031420155
+            ],
+            [
+              3318.007901718295,
+              -1938.875243029506,
+              5.152635593212387
+            ],
+            [
+              3318.20528766946,
+              -1940.3314393704813,
+              5.1579020031420155
+            ],
+            [
+              3318.6241915776022,
+              -1939.43562553408,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 37,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-38",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3312.18351290324,
+              -1932.9806739908045,
+              5.100211132183509
+            ],
+            [
+              3295.675693301185,
+              -1951.8538348640311,
+              5.065173219625926
+            ],
+            [
+              3312.8460994427624,
+              -1933.6829109116345,
+              5.106315337390174
+            ],
+            [
+              3312.18351290324,
+              -1932.9806739908045,
+              5.100211132183509
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 38,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3298.014924658596,
+              -1953.7245479727972,
+              5.082559866535193
+            ],
+            [
+              3314.016248588037,
+              -1949.2895777344957,
+              5.1579020031420155
+            ],
+            [
+              3297.2351808727926,
+              -1953.1009769365417,
+              5.076764317565437
+            ],
+            [
+              3298.014924658596,
+              -1953.7245479727972,
+              5.082559866535193
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 39,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-40",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3303.473131159222,
+              -1958.089545226584,
+              5.123128709323482
+            ],
+            [
+              3311.08392123104,
+              -1955.5602745893057,
+              5.1579020031420155
+            ],
+            [
+              3302.6933873734183,
+              -1957.4659741903288,
+              5.117333160353726
+            ],
+            [
+              3303.473131159222,
+              -1958.089545226584,
+              5.123128709323482
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 40,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-41",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3310.665017322898,
+              -1956.456088425707,
+              5.1579020031420155
+            ],
+            [
+              3304.2528749450257,
+              -1958.7131162628393,
+              5.128924258293238
+            ],
+            [
+              3310.2461134147557,
+              -1957.3519022621085,
+              5.1579020031420155
+            ],
+            [
+              3310.665017322898,
+              -1956.456088425707,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 41,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-42",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3305.812362516633,
+              -1959.9602583353499,
+              5.14051535623275
+            ],
+            [
+              3309.827209506613,
+              -1958.24771609851,
+              5.1579020031420155
+            ],
+            [
+              3305.032618730829,
+              -1959.3366872990946,
+              5.134719807262994
+            ],
+            [
+              3305.812362516633,
+              -1959.9602583353499,
+              5.14051535623275
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 42,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-43",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3309.408305598471,
+              -1959.1435299349114,
+              5.1579020031420155
+            ],
+            [
+              3306.5921063024366,
+              -1960.5838293716051,
+              5.146310905202505
+            ],
+            [
+              3308.9894016903286,
+              -1960.0393437713128,
+              5.1579020031420155
+            ],
+            [
+              3309.408305598471,
+              -1959.1435299349114,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 43,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-44",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3306.5921063024366,
+              -1960.5838293716051,
+              5.146310905202505
+            ],
+            [
+              3307.3718500882405,
+              -1961.2074004078604,
+              5.15210645417226
+            ],
+            [
+              3308.9894016903286,
+              -1960.0393437713128,
+              5.1579020031420155
+            ],
+            [
+              3306.5921063024366,
+              -1960.5838293716051,
+              5.146310905202505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 44,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-45",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3312.75953686361,
+              -1951.9770192437,
+              5.1579020031420155
+            ],
+            [
+              3300.354156016007,
+              -1955.595261081563,
+              5.0999465134444595
+            ],
+            [
+              3312.3406329554673,
+              -1952.8728330801014,
+              5.1579020031420155
+            ],
+            [
+              3312.75953686361,
+              -1951.9770192437,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 45,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-46",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3298.7946684444,
+              -1954.3481190090524,
+              5.088355415504949
+            ],
+            [
+              3313.5973446798944,
+              -1950.185391570897,
+              5.1579020031420155
+            ],
+            [
+              3298.014924658596,
+              -1953.7245479727972,
+              5.082559866535193
+            ],
+            [
+              3298.7946684444,
+              -1954.3481190090524,
+              5.088355415504949
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 46,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-47",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3289.4377430147556,
+              -1946.865266573989,
+              5.018808827867882
+            ],
+            [
+              3287.6946468381757,
+              -1935.3221946525919,
+              4.9312173405654836
+            ],
+            [
+              3288.657999228952,
+              -1946.2416955377337,
+              5.013013278898126
+            ],
+            [
+              3289.4377430147556,
+              -1946.865266573989,
+              5.018808827867882
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 47,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-48",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3286.009076546982,
+              -1937.78013351435,
+              4.946515521730671
+            ],
+            [
+              3287.0985116573447,
+              -1944.9945534652231,
+              5.001422180958614
+            ],
+            [
+              3286.5709333107134,
+              -1936.9608205604304,
+              4.941329738854833
+            ],
+            [
+              3286.009076546982,
+              -1937.78013351435,
+              4.946515521730671
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 48,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-49",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3285.5390240857373,
+              -1943.7474113927124,
+              4.989831083019103
+            ],
+            [
+              3284.88536301952,
+              -1939.4187594221885,
+              4.956887087482347
+            ],
+            [
+              3284.759280299934,
+              -1943.123840356457,
+              4.984035534049348
+            ],
+            [
+              3285.5390240857373,
+              -1943.7474113927124,
+              4.989831083019103
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 49,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-50",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3284.759280299934,
+              -1943.123840356457,
+              4.984035534049348
+            ],
+            [
+              3284.3235062557887,
+              -1940.238072376108,
+              4.962072870358177
+            ],
+            [
+              3283.97953651413,
+              -1942.5002693202018,
+              4.978239985079592
+            ],
+            [
+              3284.759280299934,
+              -1943.123840356457,
+              4.984035534049348
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 50,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-51",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3306.8828205870636,
+              -1927.3627786241645,
+              5.051377490530185
+            ],
+            [
+              3292.189500948025,
+              -1928.767691021237,
+              4.954652938238905
+            ],
+            [
+              3307.545407126586,
+              -1928.0650155449946,
+              5.057481695736851
+            ],
+            [
+              3306.8828205870636,
+              -1927.3627786241645,
+              5.051377490530185
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 51,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-52",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3305.5576475080197,
+              -1925.9583047825047,
+              5.039169080116854
+            ],
+            [
+              3293.3132144754873,
+              -1927.1290651133984,
+              4.960220593621856
+            ],
+            [
+              3306.2202340475415,
+              -1926.6605417033345,
+              5.04527328532352
+            ],
+            [
+              3305.5576475080197,
+              -1925.9583047825047,
+              5.039169080116854
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 52,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-53",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3304.2324744289754,
+              -1924.5538309408446,
+              5.026960669703523
+            ],
+            [
+              3294.4369280029496,
+              -1925.4904392055596,
+              4.96479412550686
+            ],
+            [
+              3304.8950609684975,
+              -1925.2560678616746,
+              5.033064874910189
+            ],
+            [
+              3304.2324744289754,
+              -1924.5538309408446,
+              5.026960669703523
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 53,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-54",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3302.2447148104093,
+              -1922.4471201783547,
+              5.008648054083527
+            ],
+            [
+              3296.122498294143,
+              -1923.0325003438015,
+              4.971067191377457
+            ],
+            [
+              3302.907301349931,
+              -1923.1493570991847,
+              5.0147522592901925
+            ],
+            [
+              3302.2447148104093,
+              -1922.4471201783547,
+              5.008648054083527
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 54,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-55",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3301.582128270887,
+              -1921.7448832575246,
+              5.002543848876861
+            ],
+            [
+              3296.684355057874,
+              -1922.2131873898823,
+              4.972751748758953
+            ],
+            [
+              3302.2447148104093,
+              -1922.4471201783547,
+              5.008648054083527
+            ],
+            [
+              3301.582128270887,
+              -1921.7448832575246,
+              5.002543848876861
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 55,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-56",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3300.2569551918427,
+              -1920.3404094158648,
+              4.99033543846353
+            ],
+            [
+              3297.8080685853365,
+              -1920.5745614820435,
+              4.97571757874588
+            ],
+            [
+              3300.919541731365,
+              -1921.0426463366948,
+              4.996439643670196
+            ],
+            [
+              3300.2569551918427,
+              -1920.3404094158648,
+              4.99033543846353
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 56,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-57",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3299.594368652321,
+              -1919.6381724950347,
+              4.984231233256865
+            ],
+            [
+              3298.3699253490677,
+              -1919.7552485281242,
+              4.9770087333848485
+            ],
+            [
+              3300.2569551918427,
+              -1920.3404094158648,
+              4.99033543846353
+            ],
+            [
+              3299.594368652321,
+              -1919.6381724950347,
+              4.984231233256865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 57,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-58",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3291.0657874205626,
+              -1930.4063169290757,
+              4.948441219271454
+            ],
+            [
+              3308.207993666108,
+              -1928.7672524658246,
+              5.063585900943516
+            ],
+            [
+              3291.627644184294,
+              -1929.5870039751564,
+              4.951596019160794
+            ],
+            [
+              3291.0657874205626,
+              -1930.4063169290757,
+              4.948441219271454
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 58,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-59",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3308.8705802056297,
+              -1929.4694893866545,
+              5.0696901061501825
+            ],
+            [
+              3290.5039306568315,
+              -1931.225629882995,
+              4.945267369259399
+            ],
+            [
+              3309.533166745152,
+              -1930.1717263074845,
+              5.075794311356847
+            ],
+            [
+              3308.8705802056297,
+              -1929.4694893866545,
+              5.0696901061501825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 59,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-60",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3311.520926363718,
+              -1932.2784370699744,
+              5.094106926976845
+            ],
+            [
+              3294.8959495153813,
+              -1951.2302638277758,
+              5.059377670656171
+            ],
+            [
+              3312.18351290324,
+              -1932.9806739908045,
+              5.100211132183509
+            ],
+            [
+              3311.520926363718,
+              -1932.2784370699744,
+              5.094106926976845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 60,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-61",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3314.8338590613284,
+              -1935.7896216741244,
+              5.1246279530101715
+            ],
+            [
+              3316.5296720368906,
+              -1943.914694716087,
+              5.1579020031420155
+            ],
+            [
+              3315.4964456008506,
+              -1936.4918585949545,
+              5.130732158216836
+            ],
+            [
+              3314.8338590613284,
+              -1935.7896216741244,
+              5.1246279530101715
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 61,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-62",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3316.7753219996803,
+              -1937.7544780203582,
+              5.142102773353131
+            ],
+            [
+              3317.7863837613177,
+              -1941.2272532068828,
+              5.1579020031420155
+            ],
+            [
+              3317.3916118589877,
+              -1938.314860524932,
+              5.14736918328276
+            ],
+            [
+              3316.7753219996803,
+              -1937.7544780203582,
+              5.142102773353131
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 62,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-63",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3314.435152496179,
+              -1948.3937638980942,
+              5.1579020031420155
+            ],
+            [
+              3297.2351808727926,
+              -1953.1009769365417,
+              5.076764317565437
+            ],
+            [
+              3314.016248588037,
+              -1949.2895777344957,
+              5.1579020031420155
+            ],
+            [
+              3314.435152496179,
+              -1948.3937638980942,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 63,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-64",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3311.5028251391827,
+              -1954.6644607529042,
+              5.1579020031420155
+            ],
+            [
+              3302.6933873734183,
+              -1957.4659741903288,
+              5.117333160353726
+            ],
+            [
+              3311.08392123104,
+              -1955.5602745893057,
+              5.1579020031420155
+            ],
+            [
+              3311.5028251391827,
+              -1954.6644607529042,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 64,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-65",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3306.5921063024366,
+              -1960.5838293716051,
+              5.146310905202505
+            ],
+            [
+              3309.408305598471,
+              -1959.1435299349114,
+              5.1579020031420155
+            ],
+            [
+              3305.812362516633,
+              -1959.9602583353499,
+              5.14051535623275
+            ],
+            [
+              3306.5921063024366,
+              -1960.5838293716051,
+              5.146310905202505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 65,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-66",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3300.354156016007,
+              -1955.595261081563,
+              5.0999465134444595
+            ],
+            [
+              3312.75953686361,
+              -1951.9770192437,
+              5.1579020031420155
+            ],
+            [
+              3299.5744122302035,
+              -1954.9716900453077,
+              5.0941509644747045
+            ],
+            [
+              3300.354156016007,
+              -1955.595261081563,
+              5.0999465134444595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 66,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-67",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3314.8540564043215,
+              -1947.4979500616928,
+              5.1579020031420155
+            ],
+            [
+              3296.4554370869887,
+              -1952.4774059002864,
+              5.070968768595682
+            ],
+            [
+              3314.435152496179,
+              -1948.3937638980942,
+              5.1579020031420155
+            ],
+            [
+              3314.8540564043215,
+              -1947.4979500616928,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 67,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-68",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3288.657999228952,
+              -1946.2416955377337,
+              5.013013278898126
+            ],
+            [
+              3287.1327900744445,
+              -1936.1415076065111,
+              4.936143955979003
+            ],
+            [
+              3287.878255443148,
+              -1945.6181245014784,
+              5.00721772992837
+            ],
+            [
+              3288.657999228952,
+              -1946.2416955377337,
+              5.013013278898126
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 68,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-69",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3285.447219783251,
+              -1938.5994464682692,
+              4.951701304606494
+            ],
+            [
+              3286.318767871541,
+              -1944.3709824289679,
+              4.995626631988859
+            ],
+            [
+              3286.009076546982,
+              -1937.78013351435,
+              4.946515521730671
+            ],
+            [
+              3285.447219783251,
+              -1938.5994464682692,
+              4.951701304606494
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 69,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-70",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3284.88536301952,
+              -1939.4187594221885,
+              4.956887087482347
+            ],
+            [
+              3285.5390240857373,
+              -1943.7474113927124,
+              4.989831083019103
+            ],
+            [
+              3285.447219783251,
+              -1938.5994464682692,
+              4.951701304606494
+            ],
+            [
+              3284.88536301952,
+              -1939.4187594221885,
+              4.956887087482347
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 70,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-71",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3292.751357711756,
+              -1927.9483780673177,
+              4.957545082455751
+            ],
+            [
+              3306.2202340475415,
+              -1926.6605417033345,
+              5.04527328532352
+            ],
+            [
+              3293.3132144754873,
+              -1927.1290651133984,
+              4.960220593621856
+            ],
+            [
+              3292.751357711756,
+              -1927.9483780673177,
+              4.957545082455751
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 71,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-72",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3294.9987847666807,
+              -1924.6711262516403,
+              4.967043145313027
+            ],
+            [
+              3303.569887889453,
+              -1923.8515940200148,
+              5.020856464496858
+            ],
+            [
+              3295.560641530412,
+              -1923.8518132977208,
+              4.969167625004821
+            ],
+            [
+              3294.9987847666807,
+              -1924.6711262516403,
+              4.967043145313027
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 72,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-73",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3297.2462118216054,
+              -1921.393874435963,
+              4.974238760268704
+            ],
+            [
+              3300.919541731365,
+              -1921.0426463366948,
+              4.996439643670196
+            ],
+            [
+              3297.8080685853365,
+              -1920.5745614820435,
+              4.97571757874588
+            ],
+            [
+              3297.2462118216054,
+              -1921.393874435963,
+              4.974238760268704
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 73,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-74",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3289.9420738931003,
+              -1932.0449428369145,
+              4.9421066822855275
+            ],
+            [
+              3309.533166745152,
+              -1930.1717263074845,
+              5.075794311356847
+            ],
+            [
+              3290.5039306568315,
+              -1931.225629882995,
+              4.945267369259399
+            ],
+            [
+              3289.9420738931003,
+              -1932.0449428369145,
+              4.9421066822855275
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 74,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-75",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3310.195753284674,
+              -1930.8739632283146,
+              5.0818985165635135
+            ],
+            [
+              3293.336461943774,
+              -1949.9831217552653,
+              5.047786572716659
+            ],
+            [
+              3310.8583398241963,
+              -1931.5762001491444,
+              5.088002721770178
+            ],
+            [
+              3310.195753284674,
+              -1930.8739632283146,
+              5.0818985165635135
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 75,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-76",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3316.948575945033,
+              -1943.0188808796856,
+              5.1579020031420155
+            ],
+            [
+              3315.4964456008506,
+              -1936.4918585949545,
+              5.130732158216836
+            ],
+            [
+              3316.5296720368906,
+              -1943.914694716087,
+              5.1579020031420155
+            ],
+            [
+              3316.948575945033,
+              -1943.0188808796856,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 76,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-77",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3317.7863837613177,
+              -1941.2272532068828,
+              5.1579020031420155
+            ],
+            [
+              3316.7753219996803,
+              -1937.7544780203582,
+              5.142102773353131
+            ],
+            [
+              3317.3674798531756,
+              -1942.1230670432842,
+              5.1579020031420155
+            ],
+            [
+              3317.7863837613177,
+              -1941.2272532068828,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 77,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-78",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3301.9136435876144,
+              -1956.8424031540735,
+              5.111537611383971
+            ],
+            [
+              3311.9217290473252,
+              -1953.7686469165028,
+              5.1579020031420155
+            ],
+            [
+              3301.133899801811,
+              -1956.2188321178182,
+              5.105742062414216
+            ],
+            [
+              3301.9136435876144,
+              -1956.8424031540735,
+              5.111537611383971
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 78,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-79",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3304.2528749450257,
+              -1958.7131162628393,
+              5.128924258293238
+            ],
+            [
+              3310.665017322898,
+              -1956.456088425707,
+              5.1579020031420155
+            ],
+            [
+              3303.473131159222,
+              -1958.089545226584,
+              5.123128709323482
+            ],
+            [
+              3304.2528749450257,
+              -1958.7131162628393,
+              5.128924258293238
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 79,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-80",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3310.2461134147557,
+              -1957.3519022621085,
+              5.1579020031420155
+            ],
+            [
+              3305.032618730829,
+              -1959.3366872990946,
+              5.134719807262994
+            ],
+            [
+              3309.827209506613,
+              -1958.24771609851,
+              5.1579020031420155
+            ],
+            [
+              3310.2461134147557,
+              -1957.3519022621085,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 80,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-81",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3299.5744122302035,
+              -1954.9716900453077,
+              5.0941509644747045
+            ],
+            [
+              3313.178440771752,
+              -1951.0812054072985,
+              5.1579020031420155
+            ],
+            [
+              3298.7946684444,
+              -1954.3481190090524,
+              5.088355415504949
+            ],
+            [
+              3299.5744122302035,
+              -1954.9716900453077,
+              5.0941509644747045
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 81,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-82",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3296.4554370869887,
+              -1952.4774059002864,
+              5.070968768595682
+            ],
+            [
+              3314.8540564043215,
+              -1947.4979500616928,
+              5.1579020031420155
+            ],
+            [
+              3295.675693301185,
+              -1951.8538348640311,
+              5.065173219625926
+            ],
+            [
+              3296.4554370869887,
+              -1952.4774059002864,
+              5.070968768595682
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 82,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-83",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3287.878255443148,
+              -1945.6181245014784,
+              5.00721772992837
+            ],
+            [
+              3286.5709333107134,
+              -1936.9608205604304,
+              4.941329738854833
+            ],
+            [
+              3287.0985116573447,
+              -1944.9945534652231,
+              5.001422180958614
+            ],
+            [
+              3287.878255443148,
+              -1945.6181245014784,
+              5.00721772992837
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 83,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-84",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3293.8750712392184,
+              -1926.3097521594789,
+              4.962644073485153
+            ],
+            [
+              3304.8950609684975,
+              -1925.2560678616746,
+              5.033064874910189
+            ],
+            [
+              3294.4369280029496,
+              -1925.4904392055596,
+              4.96479412550686
+            ],
+            [
+              3293.8750712392184,
+              -1926.3097521594789,
+              4.962644073485153
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 84,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-85",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3296.122498294143,
+              -1923.0325003438015,
+              4.971067191377457
+            ],
+            [
+              3302.2447148104093,
+              -1922.4471201783547,
+              5.008648054083527
+            ],
+            [
+              3296.684355057874,
+              -1922.2131873898823,
+              4.972751748758953
+            ],
+            [
+              3296.122498294143,
+              -1923.0325003438015,
+              4.971067191377457
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 85,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-86",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3300.919541731365,
+              -1921.0426463366948,
+              4.996439643670196
+            ],
+            [
+              3297.2462118216054,
+              -1921.393874435963,
+              4.974238760268704
+            ],
+            [
+              3301.582128270887,
+              -1921.7448832575246,
+              5.002543848876861
+            ],
+            [
+              3300.919541731365,
+              -1921.0426463366948,
+              4.996439643670196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 86,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-87",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3292.5567181579704,
+              -1949.35955071901,
+              5.0419910237469034
+            ],
+            [
+              3289.9420738931003,
+              -1932.0449428369145,
+              4.9421066822855275
+            ],
+            [
+              3291.776974372167,
+              -1948.7359796827548,
+              5.0361954747771485
+            ],
+            [
+              3292.5567181579704,
+              -1949.35955071901,
+              5.0419910237469034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 87,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-88",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3317.3674798531756,
+              -1942.1230670432842,
+              5.1579020031420155
+            ],
+            [
+              3316.159032140373,
+              -1937.1940955157843,
+              5.136836363423503
+            ],
+            [
+              3316.948575945033,
+              -1943.0188808796856,
+              5.1579020031420155
+            ],
+            [
+              3317.3674798531756,
+              -1942.1230670432842,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 88,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-89",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3316.159032140373,
+              -1937.1940955157843,
+              5.136836363423503
+            ],
+            [
+              3317.3674798531756,
+              -1942.1230670432842,
+              5.1579020031420155
+            ],
+            [
+              3316.7753219996803,
+              -1937.7544780203582,
+              5.142102773353131
+            ],
+            [
+              3316.159032140373,
+              -1937.1940955157843,
+              5.136836363423503
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 89,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-90",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3301.133899801811,
+              -1956.2188321178182,
+              5.105742062414216
+            ],
+            [
+              3312.3406329554673,
+              -1952.8728330801014,
+              5.1579020031420155
+            ],
+            [
+              3300.354156016007,
+              -1955.595261081563,
+              5.0999465134444595
+            ],
+            [
+              3301.133899801811,
+              -1956.2188321178182,
+              5.105742062414216
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 90,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-91",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3302.6933873734183,
+              -1957.4659741903288,
+              5.117333160353726
+            ],
+            [
+              3311.5028251391827,
+              -1954.6644607529042,
+              5.1579020031420155
+            ],
+            [
+              3301.9136435876144,
+              -1956.8424031540735,
+              5.111537611383971
+            ],
+            [
+              3302.6933873734183,
+              -1957.4659741903288,
+              5.117333160353726
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 91,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-92",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3310.8583398241963,
+              -1931.5762001491444,
+              5.088002721770178
+            ],
+            [
+              3294.116205729578,
+              -1950.6066927915206,
+              5.053582121686415
+            ],
+            [
+              3311.520926363718,
+              -1932.2784370699744,
+              5.094106926976845
+            ],
+            [
+              3310.8583398241963,
+              -1931.5762001491444,
+              5.088002721770178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 92,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-93",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3287.6946468381757,
+              -1935.3221946525919,
+              4.9312173405654836
+            ],
+            [
+              3289.4377430147556,
+              -1946.865266573989,
+              5.018808827867882
+            ],
+            [
+              3288.256503601907,
+              -1934.5028816986724,
+              4.933086995988185
+            ],
+            [
+              3287.6946468381757,
+              -1935.3221946525919,
+              4.9312173405654836
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 93,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-94",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3303.569887889453,
+              -1923.8515940200148,
+              5.020856464496858
+            ],
+            [
+              3294.9987847666807,
+              -1924.6711262516403,
+              4.967043145313027
+            ],
+            [
+              3304.2324744289754,
+              -1924.5538309408446,
+              5.026960669703523
+            ],
+            [
+              3303.569887889453,
+              -1923.8515940200148,
+              5.020856464496858
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 94,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-95",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3293.336461943774,
+              -1949.9831217552653,
+              5.047786572716659
+            ],
+            [
+              3310.195753284674,
+              -1930.8739632283146,
+              5.0818985165635135
+            ],
+            [
+              3292.5567181579704,
+              -1949.35955071901,
+              5.0419910237469034
+            ],
+            [
+              3293.336461943774,
+              -1949.9831217552653,
+              5.047786572716659
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 95,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-96",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3314.1712725218063,
+              -1935.0873847532944,
+              5.118523747803505
+            ],
+            [
+              3316.1107681287485,
+              -1944.8105085524885,
+              5.1579020031420155
+            ],
+            [
+              3314.8338590613284,
+              -1935.7896216741244,
+              5.1246279530101715
+            ],
+            [
+              3314.1712725218063,
+              -1935.0873847532944,
+              5.118523747803505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 96,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-97",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3313.178440771752,
+              -1951.0812054072985,
+              5.1579020031420155
+            ],
+            [
+              3299.5744122302035,
+              -1954.9716900453077,
+              5.0941509644747045
+            ],
+            [
+              3312.75953686361,
+              -1951.9770192437,
+              5.1579020031420155
+            ],
+            [
+              3313.178440771752,
+              -1951.0812054072985,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 97,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-98",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3297.2351808727926,
+              -1953.1009769365417,
+              5.076764317565437
+            ],
+            [
+              3314.435152496179,
+              -1948.3937638980942,
+              5.1579020031420155
+            ],
+            [
+              3296.4554370869887,
+              -1952.4774059002864,
+              5.070968768595682
+            ],
+            [
+              3297.2351808727926,
+              -1953.1009769365417,
+              5.076764317565437
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 98,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-99",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3288.256503601907,
+              -1934.5028816986724,
+              4.933086995988185
+            ],
+            [
+              3290.2174868005595,
+              -1947.4888376102442,
+              5.024604376837637
+            ],
+            [
+              3288.818360365638,
+              -1933.683568744753,
+              4.93591041041239
+            ],
+            [
+              3288.256503601907,
+              -1934.5028816986724,
+              4.933086995988185
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 99,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-100",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3306.2202340475415,
+              -1926.6605417033345,
+              5.04527328532352
+            ],
+            [
+              3292.751357711756,
+              -1927.9483780673177,
+              4.957545082455751
+            ],
+            [
+              3306.8828205870636,
+              -1927.3627786241645,
+              5.051377490530185
+            ],
+            [
+              3306.2202340475415,
+              -1926.6605417033345,
+              5.04527328532352
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 100,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-101",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3312.8460994427624,
+              -1933.6829109116345,
+              5.106315337390174
+            ],
+            [
+              3315.2729603124635,
+              -1946.6021362252914,
+              5.1579020031420155
+            ],
+            [
+              3313.5086859822845,
+              -1934.3851478324643,
+              5.11241954259684
+            ],
+            [
+              3312.8460994427624,
+              -1933.6829109116345,
+              5.106315337390174
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 101,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-102",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3316.1107681287485,
+              -1944.8105085524885,
+              5.1579020031420155
+            ],
+            [
+              3314.1712725218063,
+              -1935.0873847532944,
+              5.118523747803505
+            ],
+            [
+              3315.691864220606,
+              -1945.70632238889,
+              5.1579020031420155
+            ],
+            [
+              3316.1107681287485,
+              -1944.8105085524885,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 102,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-103",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3294.116205729578,
+              -1950.6066927915206,
+              5.053582121686415
+            ],
+            [
+              3310.8583398241963,
+              -1931.5762001491444,
+              5.088002721770178
+            ],
+            [
+              3293.336461943774,
+              -1949.9831217552653,
+              5.047786572716659
+            ],
+            [
+              3294.116205729578,
+              -1950.6066927915206,
+              5.053582121686415
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 103,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-104",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3290.997230586363,
+              -1948.1124086464995,
+              5.0303999258073935
+            ],
+            [
+              3288.818360365638,
+              -1933.683568744753,
+              4.93591041041239
+            ],
+            [
+              3290.2174868005595,
+              -1947.4888376102442,
+              5.024604376837637
+            ],
+            [
+              3290.997230586363,
+              -1948.1124086464995,
+              5.0303999258073935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 104,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-105",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3291.627644184294,
+              -1929.5870039751564,
+              4.951596019160794
+            ],
+            [
+              3307.545407126586,
+              -1928.0650155449946,
+              5.057481695736851
+            ],
+            [
+              3292.189500948025,
+              -1928.767691021237,
+              4.954652938238905
+            ],
+            [
+              3291.627644184294,
+              -1929.5870039751564,
+              4.951596019160794
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 105,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-106",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3315.691864220606,
+              -1945.70632238889,
+              5.1579020031420155
+            ],
+            [
+              3313.5086859822845,
+              -1934.3851478324643,
+              5.11241954259684
+            ],
+            [
+              3315.2729603124635,
+              -1946.6021362252914,
+              5.1579020031420155
+            ],
+            [
+              3315.691864220606,
+              -1945.70632238889,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 106,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-107",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3313.5086859822845,
+              -1934.3851478324643,
+              5.11241954259684
+            ],
+            [
+              3315.691864220606,
+              -1945.70632238889,
+              5.1579020031420155
+            ],
+            [
+              3314.1712725218063,
+              -1935.0873847532944,
+              5.118523747803505
+            ],
+            [
+              3313.5086859822845,
+              -1934.3851478324643,
+              5.11241954259684
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 107,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-108",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3308.207993666108,
+              -1928.7672524658246,
+              5.063585900943516
+            ],
+            [
+              3291.0657874205626,
+              -1930.4063169290757,
+              4.948441219271454
+            ],
+            [
+              3308.8705802056297,
+              -1929.4694893866545,
+              5.0696901061501825
+            ],
+            [
+              3308.207993666108,
+              -1928.7672524658246,
+              5.063585900943516
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 108,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-109",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3307.545407126586,
+              -1928.0650155449946,
+              5.057481695736851
+            ],
+            [
+              3291.627644184294,
+              -1929.5870039751564,
+              4.951596019160794
+            ],
+            [
+              3308.207993666108,
+              -1928.7672524658246,
+              5.063585900943516
+            ],
+            [
+              3307.545407126586,
+              -1928.0650155449946,
+              5.057481695736851
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 109,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-110",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3315.2729603124635,
+              -1946.6021362252914,
+              5.1579020031420155
+            ],
+            [
+              3312.8460994427624,
+              -1933.6829109116345,
+              5.106315337390174
+            ],
+            [
+              3314.8540564043215,
+              -1947.4979500616928,
+              5.1579020031420155
+            ],
+            [
+              3315.2729603124635,
+              -1946.6021362252914,
+              5.1579020031420155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 110,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-111",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3291.776974372167,
+              -1948.7359796827548,
+              5.0361954747771485
+            ],
+            [
+              3289.380217129369,
+              -1932.8642557908338,
+              4.938955772177439
+            ],
+            [
+              3290.997230586363,
+              -1948.1124086464995,
+              5.0303999258073935
+            ],
+            [
+              3291.776974372167,
+              -1948.7359796827548,
+              5.0361954747771485
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 111,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "east-terrain-profile-112",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3309.533166745152,
+              -1930.1717263074845,
+              5.075794311356847
+            ],
+            [
+              3289.9420738931003,
+              -1932.0449428369145,
+              4.9421066822855275
+            ],
+            [
+              3292.5567181579704,
+              -1949.35955071901,
+              5.0419910237469034
+            ],
+            [
+              3309.533166745152,
+              -1930.1717263074845,
+              5.075794311356847
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "heightRule": "min(oldTerrain, barycentric interpolated third coordinate on this triangle)",
+        "frozenUpperTriangleIndex": 112,
+        "slabThicknessGame": 0.39,
+        "hiddenClearanceGame": 0.01,
+        "exactSourceFootprintOnly": true,
+        "sourceFloorPlacementId": "city-balcony-floor-v2"
+      }
+    }
+  ]
+}

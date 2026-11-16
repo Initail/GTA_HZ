@@ -1,0 +1,173 @@
+{
+  "asOfDate": "2026-10-16",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceSnapshot": "2026-10-11T20:21:06Z",
+  "sourceCrs": "EPSG:4326",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "localSources": [
+    {
+      "path": "artifacts/cities/hangzhou/runtime-data-v4/city.json",
+      "sha256": "4f86e589f4df927eceecd7cbadbbff26e464aad9f2b3bdfc84ee84c917ae7617",
+      "bytes": 49277646,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/processed/hangzhou-261011-extended/water.geojson",
+      "sha256": "e820b199c45012d9ba441ffccb135c5f1aaf6f29e2599f0a6262a0ddb231c4f1",
+      "bytes": 3822171,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/processed/hangzhou-261011-extended/extraction-manifest.json",
+      "sha256": "4a44d8accd14f40f088150df5d14d7dbbf25191a80b9310f8e6a24ba89cf6420",
+      "bytes": 2091,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "bytes": 90463400,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "data/raw/hangzhou/source-manifest.json",
+      "sha256": "c8cf2008511b4839f72c2ffc81817321e44ffaf610e169bd33f5b8cd8651c768",
+      "bytes": 810,
+      "access": "read-only",
+      "kind": "frozen-data-input"
+    },
+    {
+      "path": "docs/hangzhou/audit/water-overlap-v4.json",
+      "sha256": "a04fc865be9f91309c9c8c98833881c58342a17a9228eab7aff6ba0cd4525ed9",
+      "bytes": 11889,
+      "access": "read-only",
+      "kind": "current-code-or-existing-research-reference"
+    },
+    {
+      "path": "scripts/extract_hangzhou_osm.py",
+      "sha256": "ee22c45da427f618453701eec9a8935c81d6c90ce0fae6a6b1305ecdbe0eed80",
+      "bytes": 6938,
+      "access": "read-only",
+      "kind": "current-code-or-existing-research-reference"
+    },
+    {
+      "path": "scripts/prepare_hangzhou_city.py",
+      "sha256": "7090acd62ad52a5f1a74a5bf6886b452f53182c49496e9afb15da00abd2eacc5",
+      "bytes": 13536,
+      "access": "read-only",
+      "kind": "current-code-or-existing-research-reference"
+    },
+    {
+      "path": "scripts/prepare_hangzhou_geography.py",
+      "sha256": "e4b6e69cd3d577d3541a5527f4afae058f590d0f8340a90b66686016639e8758",
+      "bytes": 7244,
+      "access": "read-only",
+      "kind": "current-code-or-existing-research-reference"
+    },
+    {
+      "path": "docs/hangzhou/research/core/water-ground-round1/integration-parameters.json",
+      "sha256": "aa34f9bfc7f27bcc4521f9425eaaabe0eb4c936a6876f04c5f4c5214f90d5bc3",
+      "bytes": 13060,
+      "access": "read-only",
+      "kind": "current-code-or-existing-research-reference"
+    }
+  ],
+  "onlineSources": [
+    {
+      "id": "government-duanqiao-lotus",
+      "url": "https://www.hangzhou.gov.cn/art/2022/2/15/art_812268_59049995.html",
+      "publisher": "杭州市政府网站转载杭州日报，采访西湖景区水域管理处",
+      "publishedAt": "2022-02-15T11:28:00+08:00",
+      "observedOn": "2026-10-16",
+      "accessMethod": "web tool parsed article; directHTTP archive returned404",
+      "paraphrase": "报道将断桥区域称为北里湖断桥荷区，说明水域管理处清割残荷以保护西湖水质。",
+      "classification": "reported",
+      "notProven": [
+        "No surveyed binding to way975870009 polygon",
+        "No separate/current lotus water level or gate inventory",
+        "No datum conversion"
+      ]
+    },
+    {
+      "id": "government-lotus-net",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2024-04/16/content_8716273.htm",
+      "publisher": "杭州政协网转载都市快报，对西湖水域管理处清塘作业的报道",
+      "publishedAt": "2024-04-16",
+      "observedOn": "2026-10-16",
+      "filename": "references/government-lotus-net.html",
+      "paraphrase": "断桥荷区为该轮西湖荷区清塘第一站；工作人员抬高拦网底端让鱼游出，其他季节亦制作围网。",
+      "classification": "reported",
+      "notProven": [
+        "Nets are not surveyed hydraulic barriers",
+        "No independent level differential documented",
+        "No exact OSM shoreline survey"
+      ]
+    },
+    {
+      "id": "operator-lock-drainage-report",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2024-06/25/content_8749247_2.htm",
+      "publisher": "杭州网报道城市河道闸泵站排涝运作",
+      "publishedAt": "2024-06-25T07:44:00+08:00",
+      "filename": "references/operator-lock-drainage-report.html",
+      "paraphrase": "报道列举杭州不同河段闸泵调度，东河、长运路及余杭塘河等闸门在该次汛情下开启排涝。",
+      "classification": "reported",
+      "notProven": [
+        "No surveyed mapping to this unnamed lock polygon",
+        "No present water stage or gate opening on2026-10-16",
+        "No common height prescribed for all city canals"
+      ]
+    },
+    {
+      "id": "osm-layer-semantics",
+      "url": "https://wiki.openstreetmap.org/wiki/Key:layer",
+      "publisher": "OpenStreetMap Wiki mapping documentation",
+      "observedOn": "2026-10-16",
+      "accessMethod": "web tool directly parsed",
+      "paraphrase": "Layer表示局部交叠/跨越对象之间的相对层序，不是高程数值；负值本身也不保证地下状态。",
+      "classification": "reported-documentation"
+    },
+    {
+      "id": "osm-lock-semantics",
+      "url": "https://wiki.openstreetmap.org/wiki/Tag:water=lock",
+      "publisher": "OpenStreetMap Wiki mapping documentation",
+      "observedOn": "2026-10-16",
+      "accessMethod": "web tool directly parsed",
+      "paraphrase": "water=lock用于表示船闸闸室水面，应结合lock及闸门等要素核对。此标签不提供具体水位。",
+      "classification": "reported-documentation"
+    }
+  ],
+  "onlineFetches": [
+    {
+      "id": "government-duanqiao-lotus",
+      "url": "http://www.hangzhou.gov.cn/art/2022/2/15/art_812268_59049995.html",
+      "retrievedAtUTC": "2026-10-16T04:43:41.335180+00:00",
+      "error": "<HTTPError 404: ''>"
+    },
+    {
+      "id": "government-lotus-net",
+      "url": "http://www.hzzx.gov.cn/cshz/content/2024-04/16/content_8716273.htm",
+      "retrievedAtUTC": "2026-10-16T04:43:41.335651+00:00",
+      "status": 200,
+      "finalUrl": "https://www.hzzx.gov.cn/cshz/content/2024-04/16/content_8716273.htm",
+      "filename": "references/government-lotus-net.html",
+      "bytes": 35446,
+      "sha256": "e162e89ca89dfd3d2ada776f6f7f509f993ce1bf98ddf1e0360e0a0cdcfa43be"
+    },
+    {
+      "id": "operator-lock-drainage-report",
+      "url": "http://hznews.hangzhou.com.cn/chengshi/content/2024-06/25/content_8749247_2.htm",
+      "retrievedAtUTC": "2026-10-16T04:43:41.335735+00:00",
+      "status": 200,
+      "finalUrl": "https://hznews.hangzhou.com.cn/chengshi/content/2024-06/25/content_8749247_2.htm",
+      "filename": "references/operator-lock-drainage-report.html",
+      "bytes": 21151,
+      "sha256": "5dc88f34e15909806f2dba1a4e894594101ecafc01b0f7c7e10bb15236dbfcbe"
+    }
+  ],
+  "heightEvidence": "All90 original problem source objects have no explicit water level/ele/height/depth tags. Runtime planes are independently estimated and not measured stages."
+}

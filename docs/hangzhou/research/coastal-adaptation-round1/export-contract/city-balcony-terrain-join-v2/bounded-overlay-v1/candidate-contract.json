@@ -1,0 +1,71 @@
+{
+  "id": "city-balcony-local-terrain-join-v2-bounded-overlay-v1",
+  "status": "frozen bounded CPU render candidate; actual export and global insertion pending",
+  "cityId": "hangzhou",
+  "units": "game east/north/up; scale applied once",
+  "inputRoot": "artifacts/cities/hangzhou/render-input-v7",
+  "inputSitesSha256": "f3b6ce4ee5fba89a79c305bb4207ed24903680dfb5f6745bd17de783e843ac81",
+  "physicsSitesFile": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/site-surfaces-repair.json",
+  "physicsSitesSha256": "db0fd4739fd81574f44fc581569d9322cb4aefaf0eb66d87c5490cf9e7919658",
+  "mesh": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-terrain-join-v2/bounded-overlay-v1/local-terrain.npz",
+  "meshSha256": "c6599772754f0317bc2de310a9f6ef1ceb123e079f1747e7b7db1e764d022c6f",
+  "npzArrays": {
+    "top": {
+      "triangles": 34980,
+      "coordinates": "ENU float64",
+      "materials": "top-provenance.json"
+    },
+    "walls": {
+      "triangles": 1524,
+      "material": "land"
+    }
+  },
+  "bboxGame": [
+    3251.0920671851886,
+    -2072.263134140863,
+    3381.647878908849,
+    -1880.6207393499228
+  ],
+  "derivedNodingGridGame": 0.0001,
+  "positionBudgetGame": 0.001,
+  "float32SimulatedLocalOrigin": [
+    2560.0,
+    -2560.0,
+    0.0
+  ],
+  "firstPassingExportAngleDegrees": 1,
+  "cpuChecksPassed": true,
+  "sourceBoundaryUnchanged": true,
+  "renderBoundaryApproximation": {
+    "sourceOSMAndPhysicsUnchanged": true,
+    "combinedExteriorHausdorffGame": 3.558447352167116e-05,
+    "remainingOuterQuantizationGapArea": 0.0009392184422748371,
+    "maximumGapProbeDistanceGame": 1.6178988830481225e-05,
+    "normalizedInternalHoles": [],
+    "upwardTopProjectedOverlapArea": 0
+  },
+  "heightRules": {
+    "outsideCuts": "Surface.uncut_ground F1; smooth 1g render tessellation",
+    "insideCuts": "new physicsSitesFile, min F1 and source-owned cut planes",
+    "boundary": "retain each discontinuous side height plus explicit walls; near-band error is separate",
+    "shore": "actual upward top is unique render owner; closed-body projection used only for coverage"
+  },
+  "sourceBandHalfWidthGame": 0.001,
+  "smoothProbeHeightBudgetGame": 0.01,
+  "shoreAssetSha256": "0c683dd694ac4a3b5b19fbd46cabb330fb81775c474cb0a6536cdc86bb66d65c",
+  "boundaryHandoff": "../crop-handoff-v1/contract.json",
+  "pending": [
+    "independent actual GLB geometry UV and topology",
+    "global crop insertion using exact ENU boundary profiles and actual bank outer mask",
+    "global rendering joins including .04g outside-crop height approximation",
+    "source road tunnel/service height blockers",
+    "body collision and browser visuals/performance",
+    "lower public floor access not enabled"
+  ],
+  "disabledClaims": [
+    "literal zero external gap area",
+    "full closed soil body",
+    "actual GLB pass",
+    "whole-world runtime pass"
+  ]
+}

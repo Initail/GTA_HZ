@@ -1,0 +1,29 @@
+{
+  "algorithm": "SHA256",
+  "scope": "local research records only; not remote source/photo hashes or model validation",
+  "files": {
+    "README.md": "9d67645cebe9993594d15fc49f85e03bd54f22818f444ed2bc42a60f69a666ba",
+    "bai-causeway.evidence.json": "0b4e6e373d44b51968bb3d050005b11a2f9c6c26f11ed13dd7c358190268a0ad",
+    "big-lotus.evidence.json": "1c5f6e473a56cfd219e9a57dec88f53c66f8a34c19a88c5b3511770791e5a044",
+    "boao-tunnel.evidence.json": "1fb4a1d9611639c4f8e1ce8f345b4252255067a1c6477c9cfd5526ac808d9af7",
+    "broken-bridge.evidence.json": "f685ef2abb37d3771924e9ef3daaa36cc12201b3993cb5499601cbdc40325f53",
+    "city-balcony.evidence.json": "44a8bea90e576d876c9a37740bc973994fc9f4aab304cfc0c51c6cfa01b6502e",
+    "civic-center.evidence.json": "78e280f7b5bbd154f126f00e9ad255f8eb4314e462f1793ac4b171939c193f33",
+    "fuxing-bridge.evidence.json": "c7d6da1f5877c421b1733caceccd67dc4d5ddb6afd0a5b57bf6c5df8f242fc01",
+    "grand-theatre.evidence.json": "f693ca2ef3a96f9698754edc4e378d5afde5f80640b1afe06cb211d87b6bc712",
+    "hangzhou-gate.evidence.json": "ad2997b154953f4fd5431e42774a959720c32b4a16a6b2c84423753cc9d493e6",
+    "international-conference-center.evidence.json": "ebbe171158aab429ec3d6421eb83e711774bfa0c3b6af785382726c20527b25b",
+    "leifeng-pagoda.evidence.json": "59eb4fac37d6e4853a1a5f85351686ccd9e576241a088758da27204bbcedac82",
+    "lingyin-temple.evidence.json": "1bfa99b2aeab584df878e2c0498cb654aabf3aa593379937a179b22a0203458c",
+    "little-lotus.evidence.json": "5bc55781124bf0ce59b776368c22c9e8b5dfb6685ae6d57c93108e46cd7c9ae3",
+    "object-index.json": "7bb1c5b62d8aa732a7f760ce6caafb9757d29d4f8299440929e8ded174bf55d1",
+    "qiantang-bridge.evidence.json": "733c1ed5cd9ddc1200713306d2a824730e9f773281e66fd74f989a752aaca339",
+    "sources.json": "ebf68428c62a01afd24026cb487fd327930ac1618f96875b8cf6184518dd94c2",
+    "su-causeway.evidence.json": "061610f7e07b3256b015e6f0889997535c34255cf0e72ad3d9fa7f3a4542ffd3",
+    "west-lake.evidence.json": "dc05ce2d393215db58d8799eeaa33255297d3b6284470aa4f83a1ca19ae3f89f",
+    "write_research.py": "7e64abf60367db7773593ab5da029abdc3a50fbce795ceb7202b58dce84774b0",
+    "wulin-square.evidence.json": "b671dc577593d5698551067c9557f6fab830842fdf53ba8133a44c60fffafb71",
+    "xixing-bridge.evidence.json": "264b318d8351edc68aec2f20144b8b0b87b8ab4a1ef7bb9a89cf70d5b46b29d8",
+    "zhijiang-bridge.evidence.json": "35e674f80216392335855502967fd9ae1627d00a8c8618b0f9ca3cbfeefee2e1"
+  }
+}

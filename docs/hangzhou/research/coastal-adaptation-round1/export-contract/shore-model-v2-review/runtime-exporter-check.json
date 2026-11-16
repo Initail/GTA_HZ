@@ -1,0 +1,48 @@
+{
+  "kind": "actual-closed-glb-exact-float32-and-directed-edge-check",
+  "manifestSha256": "6f63935571b2a4af146e30b10b1b25d87dd0cd111abde8db72ab5091817f9e7e",
+  "checkerSha256": "782bb2fbd0529c19451e1d29d6339793e9eaad6838e33f3bc3e24a5125937a6f",
+  "results": [
+    {
+      "id": "binjiang-source-retaining-wall",
+      "triangles": 8964,
+      "triangleSha256": "ec2c07b4005acd353e909b2e55f8cde12fc0fc02b28f2d2b3733a136075d739e",
+      "expectedTriangleSha256": "ec2c07b4005acd353e909b2e55f8cde12fc0fc02b28f2d2b3733a136075d739e",
+      "zeroArea": 0,
+      "nonManifoldOrUnpairedDirectedEdges": 0,
+      "pass": true
+    },
+    {
+      "id": "qianjiang-city-balcony",
+      "triangles": 3588,
+      "triangleSha256": "a6566da51190ecbc3053ae159a379c900c7f8fd5c817b451a169e5738b130671",
+      "expectedTriangleSha256": "a6566da51190ecbc3053ae159a379c900c7f8fd5c817b451a169e5738b130671",
+      "zeroArea": 0,
+      "nonManifoldOrUnpairedDirectedEdges": 0,
+      "pass": true
+    },
+    {
+      "id": "olympic-big-lotus",
+      "triangles": 3812,
+      "triangleSha256": "74f50ab60005e0e939654568361cbbee5db824e356c94fccbbb7baae60d8e301",
+      "expectedTriangleSha256": "74f50ab60005e0e939654568361cbbee5db824e356c94fccbbb7baae60d8e301",
+      "zeroArea": 0,
+      "nonManifoldOrUnpairedDirectedEdges": 0,
+      "pass": true
+    },
+    {
+      "id": "binjiang-park",
+      "triangles": 3148,
+      "triangleSha256": "2658977591c675d822e597c076b54ead8ed8cdbb7ada128277a5f052afa68b4f",
+      "expectedTriangleSha256": "2658977591c675d822e597c076b54ead8ed8cdbb7ada128277a5f052afa68b4f",
+      "zeroArea": 0,
+      "nonManifoldOrUnpairedDirectedEdges": 0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "pending": [
+    "runtime collision/body contact and entrance",
+    "browser visual and performance"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "finite threebridge exterior e-ready separate from blocked profiles/currentconstruction/undergroundgeometry",
+  "jobs": [
+    {
+      "id": "qiantang-bridges",
+      "checkExitCode": 0,
+      "status": "evidence-ready"
+    },
+    {
+      "id": "qiantang-bridges-decks",
+      "checkExitCode": 2,
+      "status": "planned"
+    },
+    {
+      "id": "xixing-bridge-current",
+      "checkExitCode": 2,
+      "status": "planned"
+    },
+    {
+      "id": "boao-tunnel-profile",
+      "checkExitCode": 2,
+      "status": "planned"
+    }
+  ],
+  "cpu": {
+    "nondegenerateTriangleFans": true,
+    "finiteVertices": true,
+    "scaleOnceAndGameDatum": true,
+    "sourceShiftCompensation": true,
+    "frameRestoredSuccessAndFailure": true,
+    "cpuBudget": true,
+    "sourceWaysAndNodeOrder": true,
+    "sampleSpacingAndHeightLookup": true,
+    "estimatedProfileOptIn": true,
+    "railRoadSourceNodeSeparated": true,
+    "sourceEndpointGameHeightNotRescaled": true,
+    "sharedSameDeckNodeAgreement": true,
+    "fixedOuterBoundaryContinuation": true,
+    "noWaterRoadTopXixingBoaoGeometry": true,
+    "noSceneImports": true
+  },
+  "GLB": "pending root export",
+  "runtime": "pending root integration and actual driving/named screenshots/performance"
+}

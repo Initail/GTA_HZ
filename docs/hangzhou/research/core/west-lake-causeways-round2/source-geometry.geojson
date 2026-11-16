@@ -1,0 +1,1974 @@
+{
+  "type": "FeatureCollection",
+  "crs": "EPSG:4326",
+  "license": "ODbL-1.0",
+  "pbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/4326974",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 4326974,
+        "tags": {
+          "cycleway": "yes",
+          "highway": "unclassified",
+          "lanes": "1",
+          "lit": "yes",
+          "motorcar": "no",
+          "name": "白堤",
+          "name:en": "Baidi Causeway",
+          "name:zh": "白堤",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey"
+        },
+        "name": "白堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26315529",
+          "26315531",
+          "2907226782",
+          "13482813339",
+          "775020013"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1402059,
+            30.2535121
+          ],
+          [
+            120.1404912,
+            30.2538024
+          ],
+          [
+            120.1408145,
+            30.2541143
+          ],
+          [
+            120.1411024,
+            30.2543926
+          ],
+          [
+            120.1412816,
+            30.2545657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/29416781",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 29416781,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motorcar": "no",
+          "name": "白堤",
+          "name:en": "Baidi",
+          "name:zh": "白堤",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey"
+        },
+        "name": "白堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "775020013",
+          "11323222304",
+          "13482813340",
+          "775019749",
+          "26315532",
+          "27271881",
+          "313487815"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1412816,
+            30.2545657
+          ],
+          [
+            120.1413545,
+            30.2546338
+          ],
+          [
+            120.1413965,
+            30.2546731
+          ],
+          [
+            120.141425,
+            30.2546998
+          ],
+          [
+            120.1416786,
+            30.2549374
+          ],
+          [
+            120.1424152,
+            30.2555594
+          ],
+          [
+            120.1432862,
+            30.256574
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28538285",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538285,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "motorcar": "no",
+          "name": "锦带桥",
+          "name:en": "Jindai Bridge",
+          "name:zh": "锦带桥",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey"
+        },
+        "name": "锦带桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "313487815",
+          "313487816"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1432862,
+            30.256574
+          ],
+          [
+            120.1440341,
+            30.257454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28538286",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538286,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "motorcar": "no",
+          "name": "白堤",
+          "name:en": "Bai causeway",
+          "name:zh": "白堤",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey",
+          "surface": "asphalt"
+        },
+        "name": "白堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "313487816",
+          "313487995",
+          "13481819542",
+          "26315533"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1440341,
+            30.257454
+          ],
+          [
+            120.1458221,
+            30.2595579
+          ],
+          [
+            120.1464299,
+            30.2602185
+          ],
+          [
+            120.1466496,
+            30.2604573
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28538289",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538289,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "motorcar": "no",
+          "name": "断桥",
+          "name:en": "Broken Bridge",
+          "name:zh": "断桥",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey"
+        },
+        "name": "断桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26315533",
+          "13454786643"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1466496,
+            30.2604573
+          ],
+          [
+            120.1474111,
+            30.2613444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28538290",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538290,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "yes",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motorcar": "no",
+          "name": "白堤",
+          "name:en": "Baidi",
+          "name:zh": "白堤",
+          "name:zh-Latn-pinyin": "Báidī",
+          "source": "survey",
+          "surface": "asphalt"
+        },
+        "name": "白堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "13454786643",
+          "27271890",
+          "11323222305",
+          "26202730"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1474111,
+            30.2613444
+          ],
+          [
+            120.1474858,
+            30.2614347
+          ],
+          [
+            120.1474922,
+            30.2614449
+          ],
+          [
+            120.1475972,
+            30.2616127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4335991",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 4335991,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26391524",
+          "9030346443",
+          "660060722"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1308621,
+            30.2539615
+          ],
+          [
+            120.1310419,
+            30.2534576
+          ],
+          [
+            120.1310747,
+            30.2533656
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/975869980",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 975869980,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "660060722",
+          "26391523"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1310747,
+            30.2533656
+          ],
+          [
+            120.1312361,
+            30.2528974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072125",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072125,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "跨虹桥",
+          "name:en": "Crossing the Rainbows Bridge",
+          "name:zh": "跨虹桥"
+        },
+        "name": "跨虹桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26391523",
+          "26391511"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1312361,
+            30.2528974
+          ],
+          [
+            120.1313074,
+            30.2526652
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072127",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072127,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī",
+          "surface": "asphalt"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26391511",
+          "331228778"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1313074,
+            30.2526652
+          ],
+          [
+            120.1318732,
+            30.2507598
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30075392",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30075392,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "东浦桥",
+          "name:en": "Eastern Lakeside Bridge",
+          "name:zh": "东浦桥"
+        },
+        "name": "东浦桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "331228778",
+          "331228777"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1318732,
+            30.2507598
+          ],
+          [
+            120.1319633,
+            30.2504644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30075393",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30075393,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī",
+          "surface": "asphalt"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "331228777",
+          "775019974",
+          "6024688297",
+          "331229294",
+          "6024688313",
+          "331229278"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1319633,
+            30.2504644
+          ],
+          [
+            120.1319856,
+            30.2503903
+          ],
+          [
+            120.1322976,
+            30.249516
+          ],
+          [
+            120.132711,
+            30.2483573
+          ],
+          [
+            120.1332304,
+            30.2467729
+          ],
+          [
+            120.1333265,
+            30.2464797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072130",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072130,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "layer": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "压堤桥",
+          "name:en": "Suppressing dyke Bridge",
+          "name:zh": "压堤桥",
+          "surface": "asphalt"
+        },
+        "name": "压堤桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "331229278",
+          "26391513"
+        ],
+        "grade": "1",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1333265,
+            30.2464797
+          ],
+          [
+            120.1333897,
+            30.2462731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072131",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072131,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī",
+          "surface": "asphalt"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26391513",
+          "6024709120",
+          "6024709127",
+          "331229457"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1333897,
+            30.2462731
+          ],
+          [
+            120.1334231,
+            30.2461521
+          ],
+          [
+            120.1346155,
+            30.2420425
+          ],
+          [
+            120.1347547,
+            30.2415626
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072139",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072139,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "望山桥",
+          "name:en": "Viewing hills Bridge",
+          "name:zh": "望山桥",
+          "surface": "asphalt"
+        },
+        "name": "望山桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "331229457",
+          "331229458"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1347547,
+            30.2415626
+          ],
+          [
+            120.1348552,
+            30.2412334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072138",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072138,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī",
+          "surface": "asphalt"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "331229458",
+          "6024709128",
+          "6024709131",
+          "6024709132",
+          "26391515",
+          "6024709137",
+          "26391516"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1348552,
+            30.2412334
+          ],
+          [
+            120.1348936,
+            30.2411096
+          ],
+          [
+            120.1353346,
+            30.2396864
+          ],
+          [
+            120.1354975,
+            30.239161
+          ],
+          [
+            120.1355258,
+            30.2390695
+          ],
+          [
+            120.1361884,
+            30.2373223
+          ],
+          [
+            120.1362799,
+            30.2370809
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072144",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072144,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "锁澜桥",
+          "name:en": "Locking waves Bridge",
+          "name:zh": "锁澜桥",
+          "surface": "asphalt"
+        },
+        "name": "锁澜桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "26391516",
+          "331229518"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1362799,
+            30.2370809
+          ],
+          [
+            120.1364342,
+            30.2367575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072145",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072145,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī",
+          "surface": "asphalt"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "331229518",
+          "5638778040",
+          "6024709140",
+          "26391517",
+          "6451072532",
+          "331229532"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1364342,
+            30.2367575
+          ],
+          [
+            120.1373635,
+            30.235185
+          ],
+          [
+            120.1375265,
+            30.2349381
+          ],
+          [
+            120.137887,
+            30.2344147
+          ],
+          [
+            120.1381474,
+            30.2339311
+          ],
+          [
+            120.1386288,
+            30.2330775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072147",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072147,
+        "tags": {
+          "bicycle": "no",
+          "bridge": "yes",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "映波桥",
+          "name:zh": "映波桥"
+        },
+        "name": "映波桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "331229532",
+          "6329084780"
+        ],
+        "grade": "0",
+        "bridge": "yes",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1386288,
+            30.2330775
+          ],
+          [
+            120.1387376,
+            30.2328327
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072148",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072148,
+        "tags": {
+          "bicycle": "no",
+          "cycleway": "no",
+          "highway": "pedestrian",
+          "lanes": "1",
+          "lit": "yes",
+          "motor_vehicle": "no",
+          "name": "苏堤",
+          "name:en": "Sudi",
+          "name:zh": "苏堤",
+          "name:zh-Latn-pinyin": "Sūdī"
+        },
+        "name": "苏堤",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "nodeIds": [
+          "6329084780",
+          "26391521",
+          "26391522"
+        ],
+        "grade": "0",
+        "bridge": "no",
+        "tunnel": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.1387376,
+            30.2328327
+          ],
+          [
+            120.139428,
+            30.2315145
+          ],
+          [
+            120.1397001,
+            30.2309416
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072122",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072122,
+        "tags": {
+          "landuse": "grass"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "representation": "area"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.13109,
+                30.252547
+              ],
+              [
+                120.1311026,
+                30.2524493
+              ],
+              [
+                120.1316722,
+                30.2507525
+              ],
+              [
+                120.1317266,
+                30.2506947
+              ],
+              [
+                120.1318313,
+                30.2506874
+              ],
+              [
+                120.1319695,
+                30.25072
+              ],
+              [
+                120.1320198,
+                30.2507706
+              ],
+              [
+                120.1320407,
+                30.2508249
+              ],
+              [
+                120.1320449,
+                30.2509515
+              ],
+              [
+                120.1319444,
+                30.2512988
+              ],
+              [
+                120.1314879,
+                30.2526302
+              ],
+              [
+                120.1314418,
+                30.2526953
+              ],
+              [
+                120.1313874,
+                30.2527424
+              ],
+              [
+                120.1312994,
+                30.2527424
+              ],
+              [
+                120.1311319,
+                30.2526266
+              ],
+              [
+                120.13109,
+                30.252547
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072129",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072129,
+        "tags": {
+          "landuse": "grass"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "representation": "area"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1311337,
+                30.2502999
+              ],
+              [
+                120.1311475,
+                30.2502091
+              ],
+              [
+                120.1311935,
+                30.2501886
+              ],
+              [
+                120.1313958,
+                30.2501773
+              ],
+              [
+                120.1315633,
+                30.2501339
+              ],
+              [
+                120.1316551,
+                30.2500821
+              ],
+              [
+                120.1318648,
+                30.2499638
+              ],
+              [
+                120.1319821,
+                30.2498517
+              ],
+              [
+                120.13238,
+                30.2486686
+              ],
+              [
+                120.1323758,
+                30.248542
+              ],
+              [
+                120.13238,
+                30.2484226
+              ],
+              [
+                120.1324428,
+                30.2483104
+              ],
+              [
+                120.1325308,
+                30.2482308
+              ],
+              [
+                120.1325768,
+                30.2481476
+              ],
+              [
+                120.1327025,
+                30.2477677
+              ],
+              [
+                120.1330124,
+                30.2469935
+              ],
+              [
+                120.1330794,
+                30.2467691
+              ],
+              [
+                120.1331255,
+                30.2465629
+              ],
+              [
+                120.1332176,
+                30.2464435
+              ],
+              [
+                120.1332721,
+                30.2464146
+              ],
+              [
+                120.1334229,
+                30.2464616
+              ],
+              [
+                120.1334647,
+                30.246505
+              ],
+              [
+                120.1334773,
+                30.2465521
+              ],
+              [
+                120.1334773,
+                30.2466172
+              ],
+              [
+                120.1333014,
+                30.2472431
+              ],
+              [
+                120.1331841,
+                30.2475868
+              ],
+              [
+                120.1329705,
+                30.2481114
+              ],
+              [
+                120.1329203,
+                30.2482525
+              ],
+              [
+                120.1329203,
+                30.2483394
+              ],
+              [
+                120.1329454,
+                30.248419
+              ],
+              [
+                120.1329328,
+                30.2485058
+              ],
+              [
+                120.132891,
+                30.248589
+              ],
+              [
+                120.1327988,
+                30.2487012
+              ],
+              [
+                120.1326774,
+                30.248911
+              ],
+              [
+                120.1323046,
+                30.2501158
+              ],
+              [
+                120.1321496,
+                30.2505282
+              ],
+              [
+                120.1320868,
+                30.2505933
+              ],
+              [
+                120.1319989,
+                30.2506187
+              ],
+              [
+                120.1312636,
+                30.2504012
+              ],
+              [
+                120.1311742,
+                30.250346
+              ],
+              [
+                120.1311337,
+                30.2502999
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072136",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072136,
+        "tags": {
+          "landuse": "grass",
+          "name:en": "Su causeway"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "representation": "area"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1330794,
+                30.2461541
+              ],
+              [
+                120.1331925,
+                30.245908
+              ],
+              [
+                120.1334354,
+                30.2455209
+              ],
+              [
+                120.1338626,
+                30.2440845
+              ],
+              [
+                120.1338752,
+                30.2439362
+              ],
+              [
+                120.1339045,
+                30.2438276
+              ],
+              [
+                120.1339757,
+                30.2437227
+              ],
+              [
+                120.1345998,
+                30.2415662
+              ],
+              [
+                120.1346374,
+                30.2415228
+              ],
+              [
+                120.1347212,
+                30.2414939
+              ],
+              [
+                120.1348427,
+                30.241512
+              ],
+              [
+                120.1348678,
+                30.2415445
+              ],
+              [
+                120.1348971,
+                30.2415807
+              ],
+              [
+                120.1349013,
+                30.2416856
+              ],
+              [
+                120.1346542,
+                30.2424816
+              ],
+              [
+                120.1342689,
+                30.2437878
+              ],
+              [
+                120.1342605,
+                30.2438927
+              ],
+              [
+                120.1342228,
+                30.2440375
+              ],
+              [
+                120.1341809,
+                30.244099
+              ],
+              [
+                120.1341432,
+                30.2442726
+              ],
+              [
+                120.1337663,
+                30.2455896
+              ],
+              [
+                120.1336783,
+                30.2459225
+              ],
+              [
+                120.1336155,
+                30.2461866
+              ],
+              [
+                120.133582,
+                30.2462626
+              ],
+              [
+                120.1335318,
+                30.2463133
+              ],
+              [
+                120.1334606,
+                30.2463277
+              ],
+              [
+                120.1331758,
+                30.2462481
+              ],
+              [
+                120.1331255,
+                30.2462192
+              ],
+              [
+                120.1330794,
+                30.2461541
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30072142",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 30072142,
+        "tags": {
+          "landuse": "grass"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "representation": "area"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1346877,
+                30.2412514
+              ],
+              [
+                120.1352322,
+                30.2394278
+              ],
+              [
+                120.1352405,
+                30.2393229
+              ],
+              [
+                120.135228,
+                30.2392071
+              ],
+              [
+                120.135207,
+                30.2391022
+              ],
+              [
+                120.1352615,
+                30.2390081
+              ],
+              [
+                120.1353411,
+                30.238914
+              ],
+              [
+                120.1354081,
+                30.2388597
+              ],
+              [
+                120.135429,
+                30.2387729
+              ],
+              [
+                120.136141,
+                30.237018
+              ],
+              [
+                120.1362038,
+                30.2369601
+              ],
+              [
+                120.136275,
+                30.2369456
+              ],
+              [
+                120.1363672,
+                30.2370325
+              ],
+              [
+                120.1363797,
+                30.2370976
+              ],
+              [
+                120.1363839,
+                30.2371663
+              ],
+              [
+                120.1357054,
+                30.2389321
+              ],
+              [
+                120.1357096,
+                30.2390153
+              ],
+              [
+                120.1357348,
+                30.2391203
+              ],
+              [
+                120.1357515,
+                30.2392071
+              ],
+              [
+                120.1357222,
+                30.2392903
+              ],
+              [
+                120.1356719,
+                30.2393663
+              ],
+              [
+                120.135584,
+                30.2394134
+              ],
+              [
+                120.1355337,
+                30.2395038
+              ],
+              [
+                120.1349851,
+                30.2413274
+              ],
+              [
+                120.1349474,
+                30.241407
+              ],
+              [
+                120.1348636,
+                30.2414468
+              ],
+              [
+                120.1347422,
+                30.2413889
+              ],
+              [
+                120.1347128,
+                30.241331
+              ],
+              [
+                120.1346877,
+                30.2412514
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/975357027",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 975357027,
+        "tags": {
+          "landuse": "grass"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "representation": "area"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.136296,
+                30.2367394
+              ],
+              [
+                120.1363546,
+                30.2366272
+              ],
+              [
+                120.1374286,
+                30.2347908
+              ],
+              [
+                120.1377868,
+                30.2342225
+              ],
+              [
+                120.137845,
+                30.234219
+              ],
+              [
+                120.1378839,
+                30.2341692
+              ],
+              [
+                120.1383859,
+                30.2331896
+              ],
+              [
+                120.1384739,
+                30.2330702
+              ],
+              [
+                120.1385786,
+                30.2330196
+              ],
+              [
+                120.1387168,
+                30.2330413
+              ],
+              [
+                120.1387503,
+                30.2330919
+              ],
+              [
+                120.1387419,
+                30.2332005
+              ],
+              [
+                120.1386665,
+                30.2333633
+              ],
+              [
+                120.1384529,
+                30.2336528
+              ],
+              [
+                120.1383608,
+                30.2338301
+              ],
+              [
+                120.1378163,
+                30.2347275
+              ],
+              [
+                120.1366604,
+                30.2366742
+              ],
+              [
+                120.1365933,
+                30.2367466
+              ],
+              [
+                120.1365389,
+                30.2368443
+              ],
+              [
+                120.1364509,
+                30.2368769
+              ],
+              [
+                120.1363195,
+                30.2368314
+              ],
+              [
+                120.136296,
+                30.2367394
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28538305",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 28538305,
+        "tags": {
+          "access": "no",
+          "bicycle": "dismount",
+          "bridge": "yes",
+          "foot": "designated",
+          "landuse": "forest",
+          "motor_vehicle": "no"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "representation": "area"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1439682,
+                30.2575859
+              ],
+              [
+                120.1439854,
+                30.2574821
+              ],
+              [
+                120.1440341,
+                30.257454
+              ],
+              [
+                120.1440841,
+                30.2574252
+              ],
+              [
+                120.1441141,
+                30.2574079
+              ],
+              [
+                120.1442085,
+                30.2574302
+              ],
+              [
+                120.1453587,
+                30.2587721
+              ],
+              [
+                120.1457792,
+                30.2592614
+              ],
+              [
+                120.1460882,
+                30.2596246
+              ],
+              [
+                120.1467319,
+                30.2603141
+              ],
+              [
+                120.1467319,
+                30.2603957
+              ],
+              [
+                120.1466934,
+                30.2604245
+              ],
+              [
+                120.1466395,
+                30.2604649
+              ],
+              [
+                120.1466032,
+                30.260492
+              ],
+              [
+                120.1464916,
+                30.260492
+              ],
+              [
+                120.1460625,
+                30.260025
+              ],
+              [
+                120.1455303,
+                30.2594467
+              ],
+              [
+                120.1451012,
+                30.2589203
+              ],
+              [
+                120.1439682,
+                30.2575859
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/20083745",
+      "properties": {
+        "osm_type": "relation",
+        "osm_id": 20083745,
+        "tags": {
+          "landuse": "forest"
+        },
+        "name": "",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "representation": "area"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1414793,
+                30.2548945
+              ],
+              [
+                120.141673,
+                30.2547137
+              ],
+              [
+                120.1424402,
+                30.2553272
+              ],
+              [
+                120.1424973,
+                30.2553754
+              ],
+              [
+                120.1433713,
+                30.2564423
+              ],
+              [
+                120.1433767,
+                30.2564677
+              ],
+              [
+                120.143375,
+                30.2564921
+              ],
+              [
+                120.1433475,
+                30.2565374
+              ],
+              [
+                120.1432862,
+                30.256574
+              ],
+              [
+                120.1432373,
+                30.2566095
+              ],
+              [
+                120.1431906,
+                30.2566114
+              ],
+              [
+                120.1431385,
+                30.2565956
+              ],
+              [
+                120.142758,
+                30.2561031
+              ],
+              [
+                120.142444,
+                30.2557534
+              ],
+              [
+                120.1422143,
+                30.2555019
+              ],
+              [
+                120.1414793,
+                30.2548945
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1466925248",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 1466925248,
+        "tags": {
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "锦带桥",
+          "name:en": "Jindai Bridge",
+          "name:zh": "锦带桥"
+        },
+        "name": "锦带桥",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.1432373,
+                30.2566095
+              ],
+              [
+                120.1432862,
+                30.256574
+              ],
+              [
+                120.1433475,
+                30.2565374
+              ],
+              [
+                120.1440841,
+                30.2574252
+              ],
+              [
+                120.1439854,
+                30.2574821
+              ],
+              [
+                120.1432373,
+                30.2566095
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

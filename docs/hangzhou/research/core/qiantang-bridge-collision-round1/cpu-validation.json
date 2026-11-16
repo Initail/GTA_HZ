@@ -1,0 +1,474 @@
+{
+  "id": "qiantang-bridge-collision",
+  "status": "candidate-not-runtime-verified",
+  "sourceModuleSha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+  "sourceSpecSha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+  "coordinateConfigSha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24",
+  "poseGame": {
+    "x": -1190.7513899330004,
+    "z": -5205.802147668741,
+    "y": 0.9
+  },
+  "scale": 0.6,
+  "lmYMeaning": "original rendered water-display game height; never multiply by scale",
+  "actualReplayTriangles": 24148,
+  "actualReplayBoundsGameENU": {
+    "min": [
+      -2135.0667471418956,
+      -7593.278117016025,
+      1.1102230246251565e-16
+    ],
+    "max": [
+      1353.5688129691341,
+      -3907.935527201159,
+      57.15
+    ]
+  },
+  "frameRestored": true,
+  "solidEnvelopeCount": 7457,
+  "sourcePrimitiveCount": 2637,
+  "solidKinds": {
+    "guardrail-bar": 16,
+    "guardrail-post": 432,
+    "truss-member": 1808,
+    "bridge-pier": 41,
+    "railway-rail": 2,
+    "arch-member": 2319,
+    "pier-crossbeam": 11,
+    "pylon-section": 84,
+    "stay-cable": 2744
+  },
+  "byBridge": {
+    "qiantang-bridge": 1937,
+    "fuxing-bridge": 2636,
+    "zhijiang-bridge": 2884
+  },
+  "roadDeckRegionCount": 48,
+  "railDeckRegionCount": 1,
+  "minimumPolygonAreaGame2": 0.0008819987997412682,
+  "noBlockingDeckFootprints": true,
+  "unmodelledKinds": [
+    "bank-abutments",
+    "approach supports and sloped structural decks",
+    "surveyed clearances and passage portals"
+  ],
+  "blockers": [
+    "frozen main structural model does not cover complete source road/approach geometry",
+    "absolute deck/water datum and node elevations estimated, not surveyed",
+    "projected envelopes are conservative; fine collision narrow phase and actor radius/height need runtime review",
+    "road tops and bridge slab underside contacts require parent height-surface pipeline",
+    "bank-abutments and full approach supports absent from original build",
+    "height-aware collisions, deck-specific actors, physical road continuity, real driving, browser and performance pending"
+  ],
+  "navigationAccepted": false,
+  "baseBuildingIdsToExclude": [],
+  "adapterModuleSha256": "f7c661b027b1551604259f6d72a57fe9da1522541c718459dd17b8ee40377fa3",
+  "adapterSpecSha256": "579f97c41ddfc604f514de3c7bff04ec0f331e217968f62c3354fd2458ee5ca1",
+  "sourceDeliverySha256": "10eec799433d3395dd2e6e45656e22aa3664dcba5c5040a6fa9587aea7bbfd77",
+  "sourceArtifactSha256": "cb88432457045d60fe51f424ec4b3d766f4465eedd3779895c8422ae506676fd",
+  "checks": {
+    "actualFrozenReplayMatchesExportedFloat32Positions": true,
+    "finitePositiveNonemptySolidVolumes": true,
+    "envelopeVerticesDerivedFromEmittedPrimitiveFaces": true,
+    "allPrimitiveFacesOrPortalCapsAssociated": true,
+    "scaleOnceAndExplicitGameDatum": true,
+    "sourceShiftCompensation": true,
+    "cachedReturnedDataIsolation": true,
+    "changedSpecAndMissingDatumRejected": true,
+    "sourceWaysNodesAndSharedHeights": true,
+    "roadRailLevelsSeparateAtRealSharedNode": true,
+    "overriddenProfileMismatchBlocksSurfaceLookup": true,
+    "upperRailingCannotBlockLowerProbe": true,
+    "portalCentralVoidAndSideLegPreserved": true,
+    "pairedPierVoidPreserved": true,
+    "noSceneImportAndNoOriginalMonkeypatch": true
+  },
+  "exportedVertexComparison": [
+    {
+      "material": "carpaint",
+      "replayedUniqueFloat32Vertices": 7116,
+      "exportedUniqueFloat32Vertices": 7116,
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "material": "civicred",
+      "replayedUniqueFloat32Vertices": 344,
+      "exportedUniqueFloat32Vertices": 344,
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "material": "concrete",
+      "replayedUniqueFloat32Vertices": 888,
+      "exportedUniqueFloat32Vertices": 888,
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "material": "silver",
+      "replayedUniqueFloat32Vertices": 7152,
+      "exportedUniqueFloat32Vertices": 7152,
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "material": "steel",
+      "replayedUniqueFloat32Vertices": 3372,
+      "exportedUniqueFloat32Vertices": 3372,
+      "missing": 0,
+      "extra": 0
+    }
+  ],
+  "originalFaceCount": 11962,
+  "portalEndCapsCoveredByNeighborSections": [
+    11422,
+    11423,
+    11776,
+    11777
+  ],
+  "sourceProfileCount": 15,
+  "railProfileCount": 1,
+  "coveredSourceNodes": [
+    {
+      "way": "way/4348186",
+      "node": "3351280499",
+      "mode": "road",
+      "heightGame": 12.3
+    },
+    {
+      "way": "way/4348186",
+      "node": "5100594272",
+      "mode": "road",
+      "heightGame": 12.3
+    },
+    {
+      "way": "way/29169666",
+      "node": "1979829212",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/29169666",
+      "node": "1979829204",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/29169666",
+      "node": "1979829195",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/29169666",
+      "node": "320807687",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/29169666",
+      "node": "1667217046",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/154135283",
+      "node": "1667217046",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/29170042",
+      "node": "3621696290",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/29170042",
+      "node": "1667217050",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/154135290",
+      "node": "1667217050",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/154135290",
+      "node": "320807753",
+      "mode": "road",
+      "heightGame": 14.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3623284229",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3440750971",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3440750972",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3623288030",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3623288024",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3440750973",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3623288010",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3623288018",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/336983476",
+      "node": "3440750974",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/340648409",
+      "node": "3478961080",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/340648409",
+      "node": "3478961081",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/340648409",
+      "node": "3478961082",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/340648409",
+      "node": "3478961083",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/340648409",
+      "node": "3478961084",
+      "mode": "road",
+      "heightGame": 8.1
+    },
+    {
+      "way": "way/589558021",
+      "node": "3112466938",
+      "mode": "road",
+      "heightGame": 11.7
+    },
+    {
+      "way": "way/154142001",
+      "node": "3351280499",
+      "mode": "rail",
+      "heightGame": 5.880000000000001
+    }
+  ],
+  "sharedSameDeckSourceNodes": [
+    {
+      "sourceNodeId": "1667217046",
+      "mode": "road",
+      "deck": "upper",
+      "heightGame": 14.1
+    },
+    {
+      "sourceNodeId": "1667217050",
+      "mode": "road",
+      "deck": "upper",
+      "heightGame": 14.1
+    },
+    {
+      "sourceNodeId": "3112466951",
+      "mode": "road",
+      "deck": "single",
+      "heightGame": 11.7
+    },
+    {
+      "sourceNodeId": "3112466958",
+      "mode": "road",
+      "deck": "single",
+      "heightGame": 11.7
+    },
+    {
+      "sourceNodeId": "3112466958",
+      "mode": "road",
+      "deck": "single",
+      "heightGame": 11.7
+    },
+    {
+      "sourceNodeId": "3112466937",
+      "mode": "road",
+      "deck": "single",
+      "heightGame": 11.7
+    },
+    {
+      "sourceNodeId": "3112466937",
+      "mode": "road",
+      "deck": "single",
+      "heightGame": 11.7
+    }
+  ],
+  "missingSourceNodes": 118,
+  "missingSourceSamples": 578,
+  "missingUniqueSourceNodeIds": [
+    "1667167465",
+    "1667167497",
+    "1667261526",
+    "1667261583",
+    "1667261586",
+    "1667261611",
+    "1701378810",
+    "1701921823",
+    "1979829208",
+    "1979829216",
+    "1979829221",
+    "26304793",
+    "26466659",
+    "3112466923",
+    "3112466924",
+    "3112466935",
+    "3112466937",
+    "3112466939",
+    "3112466940",
+    "3112466941",
+    "3112466942",
+    "3112466943",
+    "3112466944",
+    "3112466945",
+    "3112466946",
+    "3112466947",
+    "3112466948",
+    "3112466949",
+    "3112466950",
+    "3112466951",
+    "3112466952",
+    "3112466956",
+    "3112466957",
+    "3112466958",
+    "3112466959",
+    "3112466960",
+    "3112466961",
+    "3112466978",
+    "3112466979",
+    "3112467027",
+    "3112467029",
+    "320807701",
+    "320807715",
+    "320807735",
+    "320807765",
+    "320807780",
+    "320807794",
+    "320807823",
+    "3365352689",
+    "3387501754",
+    "3396372685",
+    "3440750964",
+    "3440750966",
+    "3440750967",
+    "3440750968",
+    "3440750969",
+    "3440750970",
+    "3440750975",
+    "3440750977",
+    "3440750978",
+    "3478961078",
+    "3478961079",
+    "3478961085",
+    "3478961086",
+    "3478961087",
+    "3623284223",
+    "3623284231",
+    "3623288014",
+    "3623288021",
+    "3623288027",
+    "3623288033",
+    "3623288036",
+    "3623288038",
+    "4886956115",
+    "5061448739",
+    "5061448740",
+    "5061448741",
+    "5061448742",
+    "5061448743",
+    "5061448744",
+    "5061448745",
+    "5061448746",
+    "5061448747",
+    "5061448748",
+    "5061448749",
+    "5061448750",
+    "5061448751",
+    "5061448753",
+    "5628081670",
+    "5628139390",
+    "5628139391",
+    "5629822590",
+    "6187412898",
+    "770741690",
+    "7987169547",
+    "7987169577",
+    "7987169580",
+    "9891784819",
+    "9891784820",
+    "9891784821",
+    "9891784825",
+    "9891784826",
+    "9891784827",
+    "9891784828",
+    "9897739947",
+    "9897739948",
+    "9897739949",
+    "9897739950",
+    "9897739951",
+    "9897739952",
+    "9897739953",
+    "9897739954",
+    "9897739955"
+  ],
+  "sourceNodeCountBasis": "way/node occurrences; shared nodes can appear on multiple source ways",
+  "estimatedWaterDisplayGameY": 0.9,
+  "waterDatumMeasured": false,
+  "railRoadSameNode": {
+    "node": "3351280499",
+    "roadHeightGame": 12.3,
+    "railHeightGame": 5.88,
+    "separationGame": 6.42
+  },
+  "validationScope": "CPU float32 GLB positions / frozen B mesh envelopes / source-node consistency only; no browser, real actor clearance, bank/approach or present driving acceptance.",
+  "missingUniqueSourceNodeCount": 113
+}

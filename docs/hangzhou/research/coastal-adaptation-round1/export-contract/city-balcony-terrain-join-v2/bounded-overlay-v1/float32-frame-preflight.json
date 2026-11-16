@@ -1,0 +1,26 @@
+[
+  {
+    "originENU": [
+      3316.369873046875,
+      -1976.44189453125,
+      3.7674777507781982
+    ],
+    "angleRadians": 0,
+    "triangles": 36501,
+    "degenerate": 0,
+    "nonpositiveTop": 0,
+    "maximumVertexErrorGame": 5.090284239469899e-06
+  },
+  {
+    "originENU": [
+      2560.0,
+      -2560.0,
+      0.0
+    ],
+    "angleRadians": 0,
+    "triangles": 36501,
+    "degenerate": 0,
+    "nonpositiveTop": 0,
+    "maximumVertexErrorGame": 4.282002799505948e-05
+  }
+]

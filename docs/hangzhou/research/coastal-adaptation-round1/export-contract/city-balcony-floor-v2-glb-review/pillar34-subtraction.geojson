@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "coordinateSystem": "Hangzhou game ENU metres; XY east/north and optional third coordinate up; WGS84-derived local projection scale0.60 already applied",
+  "sourceArtifactSha256": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pillar-34-source",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3309.2878732981508,
+              -2010.75176792826
+            ],
+            [
+              3309.766634965258,
+              -2010.174457555836
+            ],
+            [
+              3309.189324592834,
+              -2009.6956958887286
+            ],
+            [
+              3308.7105629257267,
+              -2010.2730062611524
+            ],
+            [
+              3309.2878732981508,
+              -2010.75176792826
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "collisionRecordIndex": 34,
+        "kind": "representative-pier",
+        "sourceFeatureIds": [
+          "relation/8718551"
+        ],
+        "polygonGame": [
+          [
+            3309.2878732981508,
+            -2010.75176792826
+          ],
+          [
+            3309.766634965258,
+            -2010.174457555836
+          ],
+          [
+            3309.189324592834,
+            -2009.6956958887286
+          ],
+          [
+            3308.7105629257267,
+            -2010.2730062611524
+          ]
+        ],
+        "minYGame": 0.15790200314201552,
+        "maxYGame": 5.167902003142014,
+        "exactStripOverlapAreaGame2": 0.09029290884910818,
+        "subtractHorizontalToleranceGame": 0.001,
+        "stationRangeFromFootprintProjectionGame": [
+          265.02475059131547,
+          265.8348340195315
+        ],
+        "role": "actual module representative pier plan, estimated location"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pillar-34-subtract",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3309.2880046964247,
+              -2010.7531760243128
+            ],
+            [
+              3308.709154829674,
+              -2010.273137659426
+            ],
+            [
+              3309.18919319456,
+              -2009.6942877926758
+            ],
+            [
+              3309.768043061311,
+              -2010.1743261575623
+            ],
+            [
+              3309.2880046964247,
+              -2010.7531760243128
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "role": "subtract this through stated Y range; close resulting shore solids",
+        "sourceCollisionRecordIndex": 34,
+        "minYGame": 0.15790200314201552,
+        "maxYGame": 5.167902003142014,
+        "horizontalSerializationToleranceGame": 0.001
+      }
+    }
+  ]
+}

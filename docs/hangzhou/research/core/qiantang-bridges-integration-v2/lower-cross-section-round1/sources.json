@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fuxing-paper",
+    "url": "https://siberc.fzu.edu.cn/__local/6/6F/29/7C1CCAEDC24D9BB28E4EFA81912_4886B803_FCC7B.pdf?e=.pdf",
+    "publisher": "陈宝春/福州大学 中外公路28(4),2008",
+    "reviewedAt": "2026-11-11",
+    "status": "actual PDF matches frozen SHA; figure8 and page98 text re-read",
+    "support": "same overall upper/lower widths26.4m small and32m large; central lower transport reservation and side bus/slow routes",
+    "limit": "no measured absolute WGS axis, current side lane centre or surveyed near-bank width",
+    "sha256": "f9da1571945ab9777213a466a8c435a42e778934379ce1ea8c5c8d10e2815f0c"
+  },
+  {
+    "id": "maintenance-bim",
+    "url": "https://www.doctorbridge.com/bim-maintence",
+    "publisher": "上海同豪土木工程咨询有限公司 project page; names杭州市市政设施监管中心/杭州市路桥集团 as management/maintenance partners",
+    "reviewedAt": "2026-11-11",
+    "status": "search index retrieved primary page content; direct web timeout and local HTTPS self-signed-certificate failure, no verified local HTML",
+    "support": "lower central bidirectional route and two side transport/slow-route groups, maintenance BIM exists",
+    "limit": "not a dimensional section or current per-way legal access declaration; no accurate mesh/data downloaded"
+  },
+  {
+    "id": "fuxing-official-history",
+    "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+    "publisher": "上城史志/杭州政协",
+    "publishedAt": "2026-09-20",
+    "reviewedAt": "2026-11-11",
+    "status": "primary government local-history page web content read",
+    "support": "double deck, lower bus/slow/pedestrian functions, viewing platforms",
+    "limit": "does not resolve detailed central roadway mapping or lane centres; historical simplified use description does not authorize deleting source transport ways"
+  },
+  {
+    "id": "fixed-osm",
+    "path": "docs/hangzhou/research/core/qiantang-bridges-round2/fixed-bridge-features.geojson",
+    "sha256": "0b915c9d81844c31f58181eb2850f7237f26ec12bc30363ea47aadbda9dcc3fd",
+    "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+    "snapshot": "2026-10-11 fixed, not updated",
+    "license": "ODbL-1.0",
+    "support": "exact stored source node coordinates and tags; source mapping positional accuracy unknown"
+  },
+  {
+    "id": "runtime-default-width",
+    "path": "scripts/prepare_hangzhou_city.py",
+    "sha256": "7090acd62ad52a5f1a74a5bf6886b452f53182c49496e9afb15da00abd2eacc5",
+    "lines": [
+      69,
+      76
+    ],
+    "support": "default lanes2 produces width6game independent of geographical .60; explicitly gameplay-clearance/not-surveyed",
+    "limit": "6game converts numerically to10physical metres on map but is not a measured lane width"
+  }
+]

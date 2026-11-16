@@ -1,0 +1,431 @@
+{
+  "asOfDate": "2026-10-16",
+  "scope": "Independent road-access evidence only",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10194,
+      "sha256": "b9026a39a4b5171ddfce93eb52418145af1625549eabb03f9adce908cb0906c5"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 7447,
+      "sha256": "b0b8b4290ebea87eb1d5fbc857073890a337d405d13e2a42a078069d227cf5c9"
+    },
+    {
+      "path": "build_crosswalk.py",
+      "bytes": 10014,
+      "sha256": "44b02ad284206816091871590cfc6b9de4fc7a98f2f5cbe6893eb975c7b65598"
+    },
+    {
+      "path": "crosswalk.json",
+      "bytes": 23089,
+      "sha256": "4d534ff9713b076c9af65b6c872d7b29a356715bc7906497b958e25d89bee276"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 9152,
+      "sha256": "c5105ad5d2c08168c66b466fa26e8a17856f136a0a154d0dcdd71beb3bd1a83a"
+    },
+    {
+      "path": "exact-search-fetches.json",
+      "bytes": 3204,
+      "sha256": "e4e7e9afd681f9948da467d46d0656e18841349596b0ab2bd6e3f10f6621b251"
+    },
+    {
+      "path": "exam-2026-fetch.json",
+      "bytes": 215,
+      "sha256": "3d6028603bcf4998694f1f42eb3311fded058a1d1db76c7f3b4330d20d07bdc5"
+    },
+    {
+      "path": "exam-controls-fetch.json",
+      "bytes": 421,
+      "sha256": "0e148d01e8a5c061b6484d8e263ed9bd6cb6f7166d3d4ccd0cd99b12da7e1b16"
+    },
+    {
+      "path": "extract_snapshot.py",
+      "bytes": 2637,
+      "sha256": "c99968e71ec2585694562eb12c26d8eeccdda57a303a67b6e46c0ebfdc04c885"
+    },
+    {
+      "path": "fetch_exact_search.py",
+      "bytes": 1562,
+      "sha256": "a31af3300550b46e05130d2f435b15f060eff546bfa1a2c0d23094b01b0c54e9"
+    },
+    {
+      "path": "fetch_followups.py",
+      "bytes": 1962,
+      "sha256": "26706b934de26e352916d16867751ca6276b25bba97c10cc99a546946b51435e"
+    },
+    {
+      "path": "fetch_more.py",
+      "bytes": 2073,
+      "sha256": "45a8276c4ce553d857ca700562448c0bcbc387e225300d917400480084059aef"
+    },
+    {
+      "path": "fetch_restriction_search.py",
+      "bytes": 2030,
+      "sha256": "73bf335ce0917333d74b7a91882b952763e5b6c8af3d7b8150e4cd18ca85b04e"
+    },
+    {
+      "path": "fetch_sources.py",
+      "bytes": 2715,
+      "sha256": "b90c93f01cf7604b1b7d4d4c29a093d8f29adb47ea8dbf6e49860bc2a4c61470"
+    },
+    {
+      "path": "fixed-osm-roads.json",
+      "bytes": 98050,
+      "sha256": "ff730163be77fe37897bbf019dd02bfe327e21b35d11dd28c4e0fd56a5054b81"
+    },
+    {
+      "path": "followup-fetches.json",
+      "bytes": 935,
+      "sha256": "fff9de066ac80783a1f127ff23ccefc386cc7415c2a71c85a0ed62848b9c3d7c"
+    },
+    {
+      "path": "http-search-fetches.json",
+      "bytes": 5248,
+      "sha256": "cd5bf542e923b761899509dc140e9ec57446cb0ba31ad3881944effde5939c68"
+    },
+    {
+      "path": "more-search-fetches.json",
+      "bytes": 5526,
+      "sha256": "6a5b5d9888a162815963c5b37ff7c2201ffe82b210b28ff07e179ab643498440"
+    },
+    {
+      "path": "osm-way-1228913715-history.json",
+      "bytes": 1029,
+      "sha256": "f94f2e7645e235fb340cd749dc58a4aba2111227c8c31700c79ae761677d7c37"
+    },
+    {
+      "path": "osm-way-1350297693-history.json",
+      "bytes": 2788,
+      "sha256": "cb7156fae98a2275a4497a1ab6f47a465d80cfd4adda3e82ca3e5bcbe6219df3"
+    },
+    {
+      "path": "osm-way-1466397036-history.json",
+      "bytes": 522,
+      "sha256": "1f321ffcab3438b17b3a9af653b1ae330037eb3cfa42e00be7d3e6e4e8ad11a5"
+    },
+    {
+      "path": "osm-way-1466397037-history.json",
+      "bytes": 527,
+      "sha256": "876319e2f2043403d6d346458331b55d2090fdc11d0bcbdd8ebd8598c6f02ee9"
+    },
+    {
+      "path": "osm-way-1466397038-history.json",
+      "bytes": 891,
+      "sha256": "e6bbc300317d822ff1f4eb37508e840377536e9660bfe63c35b623b154588eb1"
+    },
+    {
+      "path": "osm-way-1466397039-history.json",
+      "bytes": 527,
+      "sha256": "e0371047770e4a82d3e762abdba57187ddfcf334bb49447c7b29652fece8b27b"
+    },
+    {
+      "path": "osm-way-779247992-history.json",
+      "bytes": 2687,
+      "sha256": "d3554182d7f252b8756aaa5f2b3321d747d82e12b90bad4e38c8c6f1c539ac0d"
+    },
+    {
+      "path": "osm-way-779247995-history.json",
+      "bytes": 2052,
+      "sha256": "134920b717750b279bef9ab1671d7156b23cda39820ebba17089edc7471da2bd"
+    },
+    {
+      "path": "references/cainiao-north-closure-links.json",
+      "bytes": 1279,
+      "sha256": "0fd8c7155bd5ffacabef5b0627c8b272cfaae63e10af2cf423913282e16cf076"
+    },
+    {
+      "path": "references/cainiao-north-closure.json",
+      "bytes": 211843,
+      "sha256": "2963d320d545c20735622d66fc63d4ea6e321bbfa8f40895a5ce9a53527cab2b"
+    },
+    {
+      "path": "references/cainiao-north-full-links.json",
+      "bytes": 5057,
+      "sha256": "6cf35ec5984469fc83029bc4d283c0c7c5f0051b19ae2bd678200e9819df2baa"
+    },
+    {
+      "path": "references/cainiao-north-full.json",
+      "bytes": 621021,
+      "sha256": "da013bdf2e70dfe90af7e2f6fc874908ab36527ac8f86de9ef7372e09389bd02"
+    },
+    {
+      "path": "references/cainiao-north-phrase-links.json",
+      "bytes": 6359,
+      "sha256": "efe841e055364437c9598c8b7e0cc2eb5cf11c554246a503f61dc68ef3a2bbf9"
+    },
+    {
+      "path": "references/cainiao-north-phrase.json",
+      "bytes": 284222,
+      "sha256": "ef319bda518042e1357da5a0242933b4f79a1dda2a21b2e56858d613b06c773d"
+    },
+    {
+      "path": "references/cainiao-north-quoted.json",
+      "bytes": 173,
+      "sha256": "850190ecbbd58e9d2c45049ecd608cb84f34b347d1eb4050b46cda97829a3657"
+    },
+    {
+      "path": "references/cainiao-north-title-links.json",
+      "bytes": 6178,
+      "sha256": "c8095186790b5b012132137b70a389060afd086b5ed7d90ccd19fb6af9b3e59d"
+    },
+    {
+      "path": "references/cainiao-north-title.json",
+      "bytes": 174585,
+      "sha256": "55fc6e48dc2226052778785a67e04932be2c073c329305c5d28cae84e14443e0"
+    },
+    {
+      "path": "references/cainiao-north-traffic-links.json",
+      "bytes": 4711,
+      "sha256": "dd4b3174b6d122c32a447d617c222fe6740a65ab08714bdb94c1c649b60c3fd1"
+    },
+    {
+      "path": "references/cainiao-north-traffic.json",
+      "bytes": 555629,
+      "sha256": "58bacfd64592db172b4f731be87b9692b608b33d39db3c5e9a2e639d7b3d288c"
+    },
+    {
+      "path": "references/cainiao-title-links.json",
+      "bytes": 4995,
+      "sha256": "d9bcc0d0d102d550f1f74ceb5a8af298263a96c707ff1a7b84a75a4ae2b58726"
+    },
+    {
+      "path": "references/cainiao-title.json",
+      "bytes": 73048,
+      "sha256": "7fa4aee6615837a30dea06b8f3406bebd7fbd8dc806c3885fcc2ee639fd24ecc"
+    },
+    {
+      "path": "references/gov-2025-exam-controls.html",
+      "bytes": 17174,
+      "sha256": "21c131394c04bc735afc484aae5171a406dbffcbd519b7f4c3d9e47ddd7528a7"
+    },
+    {
+      "path": "references/gov-http-test.html",
+      "bytes": 22919,
+      "sha256": "8b36bec24884029224c795c3a7f4d7b84287f615dba92d76d0ed3576501b44b1"
+    },
+    {
+      "path": "references/hangzhouwang-2024-progress-http.html",
+      "bytes": 19628,
+      "sha256": "cbb56a5b71b0923d05651549bb04862f36454eaeddc7f9f2dca4b84602f7434a"
+    },
+    {
+      "path": "references/official-weibo-search-observation.json",
+      "bytes": 987,
+      "sha256": "1255156a725552ba05960f94a60f0ac9d51be53aeb63d9690d4b14a5f7f17176"
+    },
+    {
+      "path": "references/official-yuhang-release-2026-exam-web-observation.json",
+      "bytes": 1293,
+      "sha256": "abe4e82186127b81b5d6b58b1a2abc375944b1b31932419e42de26df8f096efa"
+    },
+    {
+      "path": "references/osm-way-1228913715-history.xml",
+      "bytes": 1165,
+      "sha256": "ae2efb580e5f1aeb801d02263a0324e32c67780b29f2e8916810f154cbcc4f93"
+    },
+    {
+      "path": "references/osm-way-1350297693-history.xml",
+      "bytes": 3139,
+      "sha256": "08cb5f9921b0c3d236f609ee21ec8ce9316a51066293ad1268d4d7efddcf274e"
+    },
+    {
+      "path": "references/osm-way-1466397036-history.xml",
+      "bytes": 663,
+      "sha256": "162494efd1d1be52c49ef258538ae3102cf9af016eb403c53e76d19f64f29d76"
+    },
+    {
+      "path": "references/osm-way-1466397037-history.xml",
+      "bytes": 664,
+      "sha256": "e547b7f6d7d78fbe9b8639e4d77b7d0a9a6a80a7a6420cf3a1d37c57eb1e777e"
+    },
+    {
+      "path": "references/osm-way-1466397038-history.xml",
+      "bytes": 1055,
+      "sha256": "3675a928cf0ecf86e5017bcc7bd426c98cd304debab1c55e8905c5d33be0ab56"
+    },
+    {
+      "path": "references/osm-way-1466397039-history.xml",
+      "bytes": 664,
+      "sha256": "386180c0712f96fb0670f770ba3474e5e39f3ee4aa023675d6d0520addfeeca1"
+    },
+    {
+      "path": "references/osm-way-779247992-history.xml",
+      "bytes": 3023,
+      "sha256": "82d02b0b6f6d0dfd204991606c974a1a26403a7620424fd83fa1e03b45924818"
+    },
+    {
+      "path": "references/osm-way-779247995-history.xml",
+      "bytes": 2239,
+      "sha256": "c89b5840cd9b4ad0ccd11228213a8013f122f27acf920e6ab5dfd04089358e04"
+    },
+    {
+      "path": "references/yunlian-closure-links.json",
+      "bytes": 4682,
+      "sha256": "71a8cc9d82262159fe47fef8930eb884d12fe44361c457fb141770086a785a9d"
+    },
+    {
+      "path": "references/yunlian-closure.json",
+      "bytes": 1324579,
+      "sha256": "6f64f41c23d98d34c522c3f09f0dded961bce874093826baeef573bcb17e4311"
+    },
+    {
+      "path": "references/yunlian-full-links.json",
+      "bytes": 4902,
+      "sha256": "15cfc5c41358e3d4d95aa5a8c7ecc8cee1920d117191cbd69c4846db44eba3a3"
+    },
+    {
+      "path": "references/yunlian-full.json",
+      "bytes": 1031140,
+      "sha256": "9a1608e3586716da4a2662083836760c421fc3b7ff980d3175866cc426683c7b"
+    },
+    {
+      "path": "references/yunlian-notice-title-links.json",
+      "bytes": 330,
+      "sha256": "a6dbfb768ac60b3c105f2a29f79f11b4cd7d6024a30643060dd002f658cc2169"
+    },
+    {
+      "path": "references/yunlian-notice-title.json",
+      "bytes": 4363,
+      "sha256": "44633feed8721bf0f2f9ff496406308fc48b6bc21c4098c05f60e092d97ee3c6"
+    },
+    {
+      "path": "references/yunlian-phrase-links.json",
+      "bytes": 6738,
+      "sha256": "5185a1b43bf2c5615f3fd32ef59ba67887361df21df8f2f52b4ad216a1a0b212"
+    },
+    {
+      "path": "references/yunlian-phrase.json",
+      "bytes": 158311,
+      "sha256": "b8a7e34b817df3c7aaf55d79ed7181ffc32bdd3ad6ebadd7030da13c1a617701"
+    },
+    {
+      "path": "references/yunlian-quoted.json",
+      "bytes": 173,
+      "sha256": "653fb7b3f11cdfaa31783d263db7a2022595ffece28d514ed1d465b12199347c"
+    },
+    {
+      "path": "references/yunlian-restriction-links.json",
+      "bytes": 4238,
+      "sha256": "9b5b5d35d6711b9efa81b9c30c8b97db1d54a419d877e1bfd1cc331028130e32"
+    },
+    {
+      "path": "references/yunlian-restriction.json",
+      "bytes": 851672,
+      "sha256": "a9ca7ff006732882f5ba85a14c43179beb3520d7b1c73114f399bdaf2d714104"
+    },
+    {
+      "path": "references/yunlian-title-links.json",
+      "bytes": 6528,
+      "sha256": "c35f6d3a45958c9c6df4f38d34fe99f15a483416cf0a26a6552c895716a8d6be"
+    },
+    {
+      "path": "references/yunlian-title-page2-links.json",
+      "bytes": 7204,
+      "sha256": "ac05331a6884af5825a91cbb80887d75129e84b9a8c821c39ad76a39a009e5fa"
+    },
+    {
+      "path": "references/yunlian-title-page2.json",
+      "bytes": 223679,
+      "sha256": "65f72ae103eb9f26493c067d685ece1b66cdb797b962862cfca1bd30699673bd"
+    },
+    {
+      "path": "references/yunlian-title-page3-links.json",
+      "bytes": 6455,
+      "sha256": "fae3cb6d0360ea48bf93dbc7593478b967ac133cae45f9737408d8470cf1d2d9"
+    },
+    {
+      "path": "references/yunlian-title-page3.json",
+      "bytes": 221200,
+      "sha256": "bc7e8c9f2a2b60cd12a91b43e1a832690465ead5fe4378f43986d92856b86ac5"
+    },
+    {
+      "path": "references/yunlian-title-page4-links.json",
+      "bytes": 6968,
+      "sha256": "8c3a4cc1c81b211c105316e44fad52f2bbcc3fa76b93d6a424fd0508fba4d0d6"
+    },
+    {
+      "path": "references/yunlian-title-page4.json",
+      "bytes": 219563,
+      "sha256": "5c078a0d95940bfa4c925b0255dbba3a17a29952f852bec3fd804f3b0dccb91e"
+    },
+    {
+      "path": "references/yunlian-title-page5-links.json",
+      "bytes": 6928,
+      "sha256": "4cb756d82f2e10a24128b8706d8e1ff58d5691cb9867d950e72ec7f533df4c8d"
+    },
+    {
+      "path": "references/yunlian-title-page5.json",
+      "bytes": 236802,
+      "sha256": "f0775277ed086573e8c5cfaaf4dd1281869f35de1cb55a1535f905747daa423f"
+    },
+    {
+      "path": "references/yunlian-title.json",
+      "bytes": 268126,
+      "sha256": "cdf4c7a297724a5245811cb3f5a9d7c9ec358189225d80a37d39a4ab78e3e842"
+    },
+    {
+      "path": "references/yunlian-traffic-links.json",
+      "bytes": 4598,
+      "sha256": "ae8e3f165207821a8d1a1d43047ca917a9a462561671968cf5f3260cf3a26fa2"
+    },
+    {
+      "path": "references/yunlian-traffic.json",
+      "bytes": 1481405,
+      "sha256": "6a1ec4ce59d62281a8a74625d40be86a414e2f74f72dfb7b76d9a163c9305cea"
+    },
+    {
+      "path": "references/zjol-2026-web-observation.json",
+      "bytes": 673,
+      "sha256": "6587ea086b9d7dc5b1a7f7ae2b564ecc4e99d253e4d5ae4335873b63b82b430b"
+    },
+    {
+      "path": "restriction-search-fetches.json",
+      "bytes": 9884,
+      "sha256": "16be36c451fdf2f20f869ed7a7a38aef55a1f0e9ad30ca1cba2ace23c9c10fbc"
+    },
+    {
+      "path": "road-scope.geojson",
+      "bytes": 15441,
+      "sha256": "e7915315b576efb234fb8fa60aaaa59a503a80bb48efbb98e85a31b830443892"
+    },
+    {
+      "path": "road-scope.svg",
+      "bytes": 20457,
+      "sha256": "95951d224b7b4c1d7ae42c6d5a07135c0c54b2f1565db1c48f29b73ed70e3606"
+    },
+    {
+      "path": "search-audit.json",
+      "bytes": 21801,
+      "sha256": "2ebbdddb4cbab6636ddc9831df571eab60b30a553478a777212ca797b7c01d7a"
+    },
+    {
+      "path": "source-fetches.json",
+      "bytes": 7114,
+      "sha256": "b0775e198f62298b1eed1d1ad23d6ebb7b2866fa034e8eb95df6d1a97d3246ed"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 16253,
+      "sha256": "a638d622d339cbaadddda6d7ed4ca72081ec70145cda149c2fb1dc27c6156685"
+    },
+    {
+      "path": "task.json",
+      "bytes": 1023,
+      "sha256": "6758ceb345d66664b07e4b247dcb2454df43fe7bca5b92fa419c40c92c755cd2"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 3009,
+      "sha256": "3cb6fa1f37d56b9d72b0d36baf2e8b0b57cbc21a7de5536aad0bcf643129c842"
+    },
+    {
+      "path": "write_evidence.py",
+      "bytes": 12939,
+      "sha256": "1f41d0c468324e73162cad141aa0089fecd6813a290a3c1385b2d7d4bbd39478"
+    }
+  ]
+}

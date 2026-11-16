@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "osm-aux",
+      "url": "https://api.openstreetmap.org/api/0.6/relation/8718531/full.json",
+      "publisher": "OpenStreetMap contributors / OpenStreetMap API",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2023-03-30T22:43:32Z",
+      "license": "ODbL-1.0",
+      "localPath": "docs/hangzhou/research/core/big-lotus-round2/osm-relation-8718531-aux.json",
+      "sha256": "5436e5822c35d08fbd654edfa34dc6e47ba18eca046015e253221667def74227",
+      "use": "member IDs/version corroboration; fixed Geofabrik remains the city source"
+    },
+    {
+      "id": "nbbj",
+      "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+      "publisher": "NBBJ, project architect partnered with CCDI",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "actual text and multiple project photographs reviewed",
+      "sha256": "5cf27f7bda4f425fe4a899365b08c93a4a36446288217d9d3e0f0283e1883386",
+      "license": "unknown; references only, images not bundled or used as textures"
+    },
+    {
+      "id": "operator",
+      "url": "https://www.bjatzxjq.com/",
+      "publisher": "杭州滨江奥体博览城开发建设运营管理有限公司",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "page undated; copyright2025 and news2025 do not date the photograph",
+      "status": "actual stadium-specific text and aerial photograph reviewed",
+      "sha256": "92cd999d6b168e189b7bec8a0cf4861a01d78f0f7197f34776586cbc1804c4e1",
+      "license": "unknown; references only, images not bundled or used as textures"
+    },
+    {
+      "id": "ccdi-project",
+      "url": "https://www.archina.com/index.php?g=works&m=index&a=show&id=3484",
+      "publisher": "CCDI悉地国际 project post on ARCHINA; publication credits verified, host notes third-party submissions",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2019-09-13",
+      "status": "actual HTML fetched/read; web-tool redirect error, CDN image TLS failed",
+      "sha256": "971856bc2efb189d9dda2deacc1ac7e826d789e46c58a72da53b801421450b3b",
+      "license": "unknown; reference only, no images bundled; not CCD interior design company"
+    },
+    {
+      "id": "asian-games",
+      "url": "https://www.hangzhou2022.cn/hzhyn/mlhz/202105/t20210514_26126.shtml",
+      "publisher": "Hangzhou2022 official organizer portal; credits 杭州日报",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "URL2021-05-14; text contextual date2019 (Alibaba20th anniversary/three years until2022)",
+      "license": "unknown; reference only",
+      "use": "28large/27small petals and staggered translucent shell; reprint period mismatch retained"
+    }
+  ],
+  "reported": {
+    "architects": "NBBJ + CCDI悉地国际",
+    "largePetals": 28,
+    "smallPetals": 27,
+    "operatorHeightM": 59.4,
+    "designRoofStructureLevelM": 60.7,
+    "operatorLevels": [
+      6,
+      2
+    ],
+    "operatorSeatCount": 80800,
+    "designerSeatCount": 80912
+  },
+  "differences": [
+    "59.4m operator building height and60.7m designer structural level remain distinct, with unknown base datum.",
+    "Operator216000m² and design248983m² total area refer to different reported scopes/periods; neither defines the mapped roof footprint.",
+    "NBBJ37000m² scope is not explained enough to treat as stadium roof area.",
+    "39 mapped partial roof features do not override officially reported28+27 petal count.",
+    "OSM relation height2 and petal height26 are unverified tags and rejected as whole-stadium roof heights.",
+    "Operator full aerial and banner are duplicate photographs; NBBJ05/N69 duplicate a far view.",
+    "Main roof has a fixed open central void. Small-lotus rotating roof mechanism belongs to a separate object."
+  ]
+}

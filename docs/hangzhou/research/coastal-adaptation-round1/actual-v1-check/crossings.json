@@ -1,0 +1,13 @@
+{
+  "crossings": 2132,
+  "sourceRoads": 2049,
+  "maxPointOrStationErrorGame": 9.094947017729282e-13,
+  "maxPointHeightErrorGame": 0,
+  "maxScalarHeightErrorGame": 0,
+  "maxLengthErrorGame": 0,
+  "errors": [],
+  "missingSourceBridgeRoads": [],
+  "coverageErrors": [],
+  "noInventedNodeIds": true,
+  "status": "serialized-source-geometry-only"
+}

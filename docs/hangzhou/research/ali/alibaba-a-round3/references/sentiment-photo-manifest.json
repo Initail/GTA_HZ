@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "sentiment-photo-201903281610317023",
+      "url": "https://www.sentimenthifi.com/uploadfile/day_190328/201903281610317023.jpeg",
+      "publisher": "Sentiment audiovisual contractor",
+      "parentPage": "https://www.sentimenthifi.com/c_s.asp?cid=71",
+      "sourceDate": "upload directory2019-03-28;capturedateunknown",
+      "license": "copyright retained, research/referenceonly;notruntime asset",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/201903281610317023.jpeg",
+      "bytes": 51470,
+      "sha256": "758e13a513f53b502511c0e4f90abc921d5ba02e70288448a748bfa3275835b9",
+      "status": "downloaded-reference-snapshot"
+    },
+    {
+      "id": "sentiment-photo-201903281611047432",
+      "url": "https://www.sentimenthifi.com/uploadfile/day_190328/201903281611047432.png",
+      "publisher": "Sentiment audiovisual contractor",
+      "parentPage": "https://www.sentimenthifi.com/c_s.asp?cid=71",
+      "sourceDate": "upload directory2019-03-28;capturedateunknown",
+      "license": "copyright retained, research/referenceonly;notruntime asset",
+      "localPath": "docs/hangzhou/research/ali/alibaba-a-round3/references/201903281611047432.png",
+      "bytes": 922463,
+      "sha256": "d6353d20052bc4bc87a67a8e54fa835f349a664972c643862393a89802fd00a7",
+      "status": "downloaded-reference-snapshot"
+    }
+  ]
+}

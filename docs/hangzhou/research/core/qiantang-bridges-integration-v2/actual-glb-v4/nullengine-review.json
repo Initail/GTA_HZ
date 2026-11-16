@@ -1,0 +1,826 @@
+{
+  "scope": "Actual three bridge GLB in Babylon NullEngine using original root identity correction, material loading skipped; no GPU or real actor drive claim",
+  "assetSha256": "ad3ea5cab69e69dead631b01a7e2a176bfd62c41e53d9525742a0627789a1bc6",
+  "parts": [
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangles": 432,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -1192,
+        8,
+        -5205,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangles": 896,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -1192,
+        8,
+        -5205,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangles": 6360,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -1192,
+        8,
+        -5205,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangles": 8904,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1148,
+        16,
+        -4269,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangles": 572,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1148,
+        16,
+        -4269,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangles": 5904,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1148,
+        16,
+        -4269,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangles": 680,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -2002,
+        26,
+        -7522,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangles": 80,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -2002,
+        26,
+        -7522,
+        1
+      ]
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangles": 1088,
+      "maxWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -2002,
+        26,
+        -7522,
+        1
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "coastal_qiantang-bridge_concrete directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_qiantang-bridge_concrete root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_qiantang-bridge_silver root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_qiantang-bridge_steel root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_fuxing-bridge_carpaint root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_fuxing-bridge_concrete root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_fuxing-bridge_silver root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_zhijiang-bridge_civicred root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_zhijiang-bridge_concrete root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver directed geometry and exact UV",
+      "pass": true
+    },
+    {
+      "name": "coastal_zhijiang-bridge_silver root identity actual world match",
+      "pass": true,
+      "error": 0
+    },
+    {
+      "name": "default root negative control differs from game ENU",
+      "pass": true,
+      "error": 15769.703905609662
+    },
+    {
+      "name": "all representative actual structural faces ray hit",
+      "pass": true,
+      "count": 73
+    }
+  ],
+  "rays": [
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 0,
+      "area": 984.092480923282,
+      "hit": true,
+      "distance": 0.019999999999999574
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 54,
+      "area": 3.384898775449139,
+      "hit": true,
+      "distance": 0.019999999999563724
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 108,
+      "area": 3.3848947901328037,
+      "hit": true,
+      "distance": 0.019999999999660484
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 162,
+      "area": 3.3848967827875525,
+      "hit": true,
+      "distance": 0.020000000000211546
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 216,
+      "area": 3.384911755780561,
+      "hit": true,
+      "distance": 0.020000000000051144
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 270,
+      "area": 3.38490839683991,
+      "hit": true,
+      "distance": 0.02000000000047191
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 324,
+      "area": 3.384898775449139,
+      "hit": true,
+      "distance": 0.02000000000045496
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_concrete",
+      "triangle": 378,
+      "area": 3.384898775449139,
+      "hit": true,
+      "distance": 0.02000000000045496
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 0,
+      "area": 12.28337052976345,
+      "hit": true,
+      "distance": 0.019999999999961
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 112,
+      "area": 0.009800462236988364,
+      "hit": true,
+      "distance": 0.02000000000005988
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 224,
+      "area": 0.009800462075291385,
+      "hit": true,
+      "distance": 0.020000000000157725
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 336,
+      "area": 0.009799571973841436,
+      "hit": true,
+      "distance": 0.020000000000188447
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 448,
+      "area": 12.281781190398307,
+      "hit": true,
+      "distance": 0.019999999999821282
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 560,
+      "area": 0.009800462236988364,
+      "hit": true,
+      "distance": 0.02000000000005988
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 672,
+      "area": 0.009800489892264544,
+      "hit": true,
+      "distance": 0.01999999999991673
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_silver",
+      "triangle": 784,
+      "area": 0.009800462236988364,
+      "hit": true,
+      "distance": 0.02000000000005988
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 0,
+      "area": 4.093359131737895,
+      "hit": true,
+      "distance": 0.01999999999994272
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 795,
+      "area": 4.093184988785983,
+      "hit": true,
+      "distance": 0.019999999999793086
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 1590,
+      "area": 4.0933689659439905,
+      "hit": true,
+      "distance": 0.020000000000138622
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 2385,
+      "area": 0.02073527026483623,
+      "hit": true,
+      "distance": 0.019999999999801555
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 3180,
+      "area": 4.093300477341323,
+      "hit": true,
+      "distance": 0.019999999999883757
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 3975,
+      "area": 4.093278101221808,
+      "hit": true,
+      "distance": 0.019999999999777807
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 4770,
+      "area": 4.093265282079968,
+      "hit": true,
+      "distance": 0.020000000000237418
+    },
+    {
+      "mesh": "coastal_qiantang-bridge_steel",
+      "triangle": 5565,
+      "area": 0.02073669179031948,
+      "hit": true,
+      "distance": 0.019996362514327223
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 0,
+      "area": 1.3042189614522866,
+      "hit": true,
+      "distance": 0.019999999999929442
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 1113,
+      "area": 0.1729903454921074,
+      "hit": true,
+      "distance": 0.020000000000044565
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 2226,
+      "area": 0.12461902795672736,
+      "hit": true,
+      "distance": 0.02000000000006131
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 3339,
+      "area": 1.207476628445343,
+      "hit": true,
+      "distance": 0.019999999999879624
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 4452,
+      "area": 1.267474453591946,
+      "hit": true,
+      "distance": 0.019999999999494297
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 5565,
+      "area": 0.08579022418570181,
+      "hit": true,
+      "distance": 0.019999999999652015
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 6678,
+      "area": 1.2208994557040287,
+      "hit": true,
+      "distance": 0.020000000000188502
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_carpaint",
+      "triangle": 7791,
+      "area": 1.325849211817833,
+      "hit": true,
+      "distance": 0.01999999999954228
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 0,
+      "area": 4.66829147632836,
+      "hit": true,
+      "distance": 0.019999999999829814
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 71,
+      "area": 0.6874483884312212,
+      "hit": true,
+      "distance": 0.019999999999999574
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 142,
+      "area": 1.3749052604543976,
+      "hit": true,
+      "distance": 0.019999999999999574
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 213,
+      "area": 4.668302091077265,
+      "hit": true,
+      "distance": 0.020000000000377105
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 284,
+      "area": 4.668302570123515,
+      "hit": true,
+      "distance": 0.0200000000009108
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 355,
+      "area": 8.654981337818498,
+      "hit": true,
+      "distance": 0.019999999999438186
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 426,
+      "area": 4.668289856226857,
+      "hit": true,
+      "distance": 0.019999999999080354
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 497,
+      "area": 4.668337277103771,
+      "hit": true,
+      "distance": 0.020000000000220345
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_concrete",
+      "triangle": 568,
+      "area": 1.0404116938674501,
+      "hit": true,
+      "distance": 0.020000000000446865
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 0,
+      "area": 3.050263752053492,
+      "hit": true,
+      "distance": 0.020000000000105912
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 738,
+      "area": 0.009795116563578645,
+      "hit": true,
+      "distance": 0.020000000000401974
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 1476,
+      "area": 0.009805800198925642,
+      "hit": true,
+      "distance": 0.020000000000396423
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 2214,
+      "area": 0.009805805512300798,
+      "hit": true,
+      "distance": 0.019999999999753548
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 2952,
+      "area": 0.009802243005717545,
+      "hit": true,
+      "distance": 0.020000000000090702
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 3690,
+      "area": 0.35251449021225784,
+      "hit": true,
+      "distance": 0.020000000000214756
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 4428,
+      "area": 0.14455843183018297,
+      "hit": true,
+      "distance": 0.020000000000374316
+    },
+    {
+      "mesh": "coastal_fuxing-bridge_silver",
+      "triangle": 5166,
+      "area": 0.805146286018686,
+      "hit": true,
+      "distance": 0.01999999999957165
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 0,
+      "area": 17.87397768525625,
+      "hit": true,
+      "distance": 0.0199999999997018
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 85,
+      "area": 3.626242053503236,
+      "hit": true,
+      "distance": 0.020000000000156174
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 170,
+      "area": 1.4244712055262339,
+      "hit": true,
+      "distance": 0.02000000000024937
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 255,
+      "area": 2.9144027267452968,
+      "hit": true,
+      "distance": 0.020000000000229747
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 340,
+      "area": 17.87401190117782,
+      "hit": true,
+      "distance": 0.020000000001069395
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 425,
+      "area": 3.6262357425144143,
+      "hit": true,
+      "distance": 0.02000000000004514
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 510,
+      "area": 1.4244712055262339,
+      "hit": true,
+      "distance": 0.0200000000000441
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_civicred",
+      "triangle": 595,
+      "area": 2.9144029088475216,
+      "hit": true,
+      "distance": 0.020000000000214804
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 0,
+      "area": 1.6460992275017972,
+      "hit": true,
+      "distance": 0.01999999999964504
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 10,
+      "area": 1.6461021512102845,
+      "hit": true,
+      "distance": 0.01999999999879759
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 20,
+      "area": 1.6461021512102845,
+      "hit": true,
+      "distance": 0.019999999999585235
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 30,
+      "area": 1.6461021512102845,
+      "hit": true,
+      "distance": 0.01999999999879759
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 40,
+      "area": 1.6460963037950411,
+      "hit": true,
+      "distance": 0.019999999999725883
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 50,
+      "area": 1.6461021512102845,
+      "hit": true,
+      "distance": 0.01999999999879759
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 60,
+      "area": 1.6460992275017972,
+      "hit": true,
+      "distance": 0.01999999999964504
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_concrete",
+      "triangle": 70,
+      "area": 1.6461021512102845,
+      "hit": true,
+      "distance": 0.01999999999879759
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 0,
+      "area": 5.474910189078081,
+      "hit": true,
+      "distance": 0.02000000000000155
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 136,
+      "area": 0.009800454994651705,
+      "hit": true,
+      "distance": 0.020000000000157725
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 272,
+      "area": 0.009799564893844837,
+      "hit": true,
+      "distance": 0.02000000000034921
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 408,
+      "area": 0.009802235277121214,
+      "hit": true,
+      "distance": 0.019999999999996947
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 544,
+      "area": 1.4215009131085123,
+      "hit": true,
+      "distance": 0.02000000000049994
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 680,
+      "area": 0.7461102458700083,
+      "hit": true,
+      "distance": 0.020000000000608323
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 816,
+      "area": 1.9420476402534708,
+      "hit": true,
+      "distance": 0.019999999999975565
+    },
+    {
+      "mesh": "coastal_zhijiang-bridge_silver",
+      "triangle": 952,
+      "area": 1.134919539423064,
+      "hit": true,
+      "distance": 0.019999999999281086
+    }
+  ],
+  "passed": 20,
+  "failed": 0,
+  "pending": [
+    "all frozen CityCollision path/width failures unchanged",
+    "full source road geometry and82 profile rows installation",
+    "visual day/night/performance/browser"
+  ]
+}

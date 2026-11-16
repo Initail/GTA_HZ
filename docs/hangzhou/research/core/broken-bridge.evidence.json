@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "placeId": "broken-bridge",
+  "name": "断桥（断桥残雪）",
+  "type": "bridge",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "ehangzhou-broken",
+      "unesco-nomination"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "ehangzhou-broken",
+      "url": "https://www.ehangzhou.gov.cn/2018-06/14/c_242889.htm",
+      "publisher": "杭州市人民政府新闻办公室英文网站",
+      "title": "Duanqiao Bridge Remnant Snow",
+      "sourceDate": "2018-06-14",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "图1528770914755017832.jpg存在链接；拍摄日期与方位未核验。"
+    },
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "中国缔约国提名文件 / UNESCO 发布",
+      "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "完整灰石拱桥；积雪在拱部先融形成断开的视觉意象",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "ehangzhou-broken"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "layout",
+      "value": "白堤东端连接点",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "按实际单桥足印与剖面做连续桥面、灰石栏杆、桥洞及两端无障碍衔接；“断桥”不产生破损路面或断掉的导航边。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "来源p112平面图只是搜索索引定位，本轮未读该图，桥孔数量/尺寸不冻结。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

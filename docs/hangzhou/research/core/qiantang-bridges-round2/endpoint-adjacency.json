@@ -1,0 +1,421 @@
+{
+  "way/4348186": {
+    "1667167465": [
+      {
+        "id": "way/154142005",
+        "tags": {
+          "highway": "primary",
+          "name": "江南大道",
+          "name:en": "Jiangnan Avenue",
+          "oneway": "no"
+        }
+      }
+    ],
+    "26466659": [
+      {
+        "id": "way/4440870",
+        "tags": {
+          "highway": "primary"
+        }
+      }
+    ]
+  },
+  "way/29169666": {
+    "320807735": [
+      {
+        "id": "way/187250180",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "layer": "2",
+          "name": "复兴立交桥",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      },
+      {
+        "id": "way/582232134",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "layer": "2",
+          "motorroad": "yes",
+          "name": "中河高架路",
+          "name:zh-Latn-pinyin": "Zhōnghé Gāojià",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "1667217046": [
+      {
+        "id": "way/154135283",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "layer": "3",
+          "motorroad": "yes",
+          "name": "复兴大桥",
+          "name:en": "Fuxing Bridge",
+          "name:zh": "复兴大桥",
+          "name:zh-Hant": "復興大橋",
+          "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+          "note": "top level",
+          "oneway": "yes"
+        }
+      }
+    ]
+  },
+  "way/29170042": {
+    "320807823": [
+      {
+        "id": "way/589383391",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "layer": "3",
+          "motorroad": "yes",
+          "name": "时代高架路",
+          "name:zh-Hant": "時代高架路",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "1667217050": [
+      {
+        "id": "way/154135290",
+        "tags": {
+          "alt_name": "钱江四桥",
+          "bridge": "viaduct",
+          "highway": "trunk",
+          "layer": "3",
+          "motorroad": "yes",
+          "name": "复兴大桥",
+          "name:en": "Fuxing Bridge",
+          "name:fr": "Quatrieme Pont de la rivière Qiantang",
+          "name:zh": "复兴大桥",
+          "name:zh-Hant": "復興大橋",
+          "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+          "note": "top level",
+          "oneway": "yes"
+        }
+      }
+    ]
+  },
+  "way/154135283": {
+    "1667217046": [
+      {
+        "id": "way/29169666",
+        "tags": {
+          "alt_name": "钱江四桥",
+          "bridge": "viaduct",
+          "highway": "trunk",
+          "layer": "3",
+          "motorroad": "yes",
+          "name": "复兴大桥",
+          "name:en": "Fuxing Bridge",
+          "name:fr": "Quatrieme Pont de la rivière Qiantang",
+          "name:zh": "复兴大桥",
+          "name:zh-Hant": "復興大橋",
+          "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+          "note": "top level",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "6187412898": [
+      {
+        "id": "way/660878717",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "layer": "3",
+          "motorroad": "yes",
+          "name": "时代高架路",
+          "name:zh-Hant": "時代高架路",
+          "oneway": "yes"
+        }
+      }
+    ]
+  },
+  "way/154135290": {
+    "1667217050": [
+      {
+        "id": "way/29170042",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "layer": "3",
+          "motorroad": "yes",
+          "name": "复兴大桥",
+          "name:en": "Fuxing Bridge",
+          "name:zh": "复兴大桥",
+          "name:zh-Hant": "復興大橋",
+          "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+          "note": "top level",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "320807780": [
+      {
+        "id": "way/4596383",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "layer": "2",
+          "motorroad": "yes",
+          "name": "中河高架路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/187250179",
+        "tags": {
+          "bridge": "yes",
+          "destination": "复兴路",
+          "highway": "trunk_link",
+          "lanes": "1",
+          "layer": "2",
+          "name": "复兴立交桥",
+          "oneway": "yes",
+          "surface": "asphalt"
+        }
+      }
+    ]
+  },
+  "way/336983476": {
+    "3440750977": [
+      {
+        "id": "way/336983475",
+        "tags": {
+          "highway": "primary",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "3440750975": [
+      {
+        "id": "way/340648407",
+        "tags": {
+          "bridge": "yes",
+          "highway": "primary",
+          "layer": "1",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/589429904",
+        "tags": {
+          "highway": "primary",
+          "oneway": "yes"
+        }
+      }
+    ]
+  },
+  "way/340648409": {
+    "3478961079": [
+      {
+        "id": "way/340648407",
+        "tags": {
+          "bridge": "yes",
+          "highway": "primary",
+          "layer": "1",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/340648408",
+        "tags": {
+          "bridge": "yes",
+          "highway": "primary",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "3478961087": [
+      {
+        "id": "way/1372952649",
+        "tags": {
+          "highway": "primary",
+          "oneway": "no"
+        }
+      }
+    ]
+  },
+  "way/589429905": {
+    "3440750966": [
+      {
+        "id": "way/336983474",
+        "tags": {
+          "highway": "primary",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/340648408",
+        "tags": {
+          "bridge": "yes",
+          "highway": "primary",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "3440750964": [
+      {
+        "id": "way/331644330",
+        "tags": {
+          "highway": "primary",
+          "oneway": "yes"
+        }
+      }
+    ]
+  },
+  "way/306360721": {
+    "3112466951": [
+      {
+        "id": "way/306360738",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "maxweight": "40",
+          "motorroad": "yes",
+          "name": "彩虹快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/306360739",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk_link",
+          "lane_markings": "yes",
+          "lanes": "2",
+          "layer": "1",
+          "maxweight": "40",
+          "name": "之江大桥",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "3112466937": [
+      {
+        "id": "way/306360719",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lane_markings": "yes",
+          "lanes": "3",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "彩虹快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/589558020",
+        "tags": {
+          "bridge": "yes",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "name": "之江大桥连接线",
+          "oneway": "yes",
+          "ref": "S30"
+        }
+      }
+    ]
+  },
+  "way/306360739": {
+    "3365352689": [
+      {
+        "id": "way/306360728",
+        "tags": {
+          "highway": "trunk_link",
+          "name": "之江大桥",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "3112466951": [
+      {
+        "id": "way/306360721",
+        "tags": {
+          "bridge": "yes",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "之江大桥",
+          "oneway": "yes",
+          "ref": "S30"
+        }
+      },
+      {
+        "id": "way/306360738",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "maxweight": "40",
+          "motorroad": "yes",
+          "name": "彩虹快速路",
+          "oneway": "yes"
+        }
+      }
+    ]
+  },
+  "way/589558021": {
+    "3112466958": [
+      {
+        "id": "way/306360714",
+        "tags": {
+          "bridge": "yes",
+          "highway": "motorway",
+          "lanes": "3",
+          "layer": "1",
+          "name": "之江大桥连接线",
+          "oneway": "yes",
+          "ref": "S30"
+        }
+      },
+      {
+        "id": "way/306360716",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "彩虹快速路",
+          "oneway": "yes"
+        }
+      }
+    ],
+    "3112466944": [
+      {
+        "id": "way/306360720",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk",
+          "lanes": "3",
+          "layer": "1",
+          "motorroad": "yes",
+          "name": "彩虹快速路",
+          "oneway": "yes"
+        }
+      },
+      {
+        "id": "way/306360724",
+        "tags": {
+          "bridge": "yes",
+          "highway": "trunk_link",
+          "layer": "1",
+          "oneway": "yes"
+        }
+      }
+    ]
+  }
+}

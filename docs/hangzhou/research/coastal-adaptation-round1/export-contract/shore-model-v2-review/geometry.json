@@ -1,0 +1,314 @@
+[
+  {
+    "id": "binjiang-source-retaining-wall",
+    "sourceLineHashMatches": true,
+    "npzHashMatches": true,
+    "material": "seawall",
+    "npzTopology": {
+      "vertices": 4484,
+      "edges": 13446,
+      "triangles": 8964,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 404.83399812415547
+    },
+    "glbTopology": {
+      "vertices": 4484,
+      "edges": 13446,
+      "triangles": 8964,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 404.83435291128745
+    },
+    "frontStations": 1121,
+    "backStations": 1121,
+    "frontHausdorffGame": 1.1368683772161603e-12,
+    "dryFootprintAreaGame2": 196.25220782282693,
+    "wetIntrusionAreaGame2": 0.0,
+    "allBackVerticesDry": true,
+    "sourceVertexGroundMaxErrorGame": 1.3322676295501878e-15,
+    "frontInteriorAbsErrorGame": 0.006023614275461497,
+    "frontInteriorHeightMinusGroundRangeGame": [
+      -0.006023614275461497,
+      0.0043605180445038805
+    ],
+    "backInteriorAbsErrorGame": 0.006107239771462325,
+    "backInteriorHeightMinusGroundRangeGame": [
+      -0.006107239771462325,
+      0.003927823551069132
+    ],
+    "maxSegmentLengthGame": 1.9880511074303353,
+    "topNormalsAllUp": true,
+    "minTopAboveWaterGame": 0.6569853206114185,
+    "bottomErrorGame": 0.0,
+    "actualGlbMaterial": "seawall",
+    "maxGlbNearestVertexErrorGame": 6.923419181223415e-05,
+    "rounded1mmTriangleSetsEqual": false,
+    "actualUvFinite": true,
+    "actualUvZeroAreaFaces": 0,
+    "actualUvMinDoubleArea": 0.0015916659031063318,
+    "actualNormalFinite": true,
+    "actualNodeWorldMatrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -640.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        5760.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "qianjiang-city-balcony",
+    "sourceLineHashMatches": true,
+    "npzHashMatches": true,
+    "material": "land",
+    "npzTopology": {
+      "vertices": 1796,
+      "edges": 5382,
+      "triangles": 3588,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 209.64758090321197
+    },
+    "glbTopology": {
+      "vertices": 1796,
+      "edges": 5382,
+      "triangles": 3588,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 209.64786814259068
+    },
+    "frontStations": 449,
+    "backStations": 449,
+    "frontHausdorffGame": 6.431098710768743e-13,
+    "dryFootprintAreaGame2": 71.99812457966823,
+    "wetIntrusionAreaGame2": 0.0,
+    "allBackVerticesDry": true,
+    "sourceVertexGroundMaxErrorGame": 1.7763568394002505e-15,
+    "frontInteriorAbsErrorGame": 0.010996612968321884,
+    "frontInteriorHeightMinusGroundRangeGame": [
+      -0.010442242096490695,
+      0.010996612968321884
+    ],
+    "backInteriorAbsErrorGame": 0.011365241012574856,
+    "backInteriorHeightMinusGroundRangeGame": [
+      -0.0100428880093002,
+      0.011365241012574856
+    ],
+    "maxSegmentLengthGame": 1.9350631057320513,
+    "topNormalsAllUp": true,
+    "minTopAboveWaterGame": 1.5868512818152727,
+    "bottomErrorGame": 0.0,
+    "actualGlbMaterial": "land",
+    "maxGlbNearestVertexErrorGame": 4.222020233864832e-05,
+    "rounded1mmTriangleSetsEqual": false,
+    "actualUvFinite": true,
+    "actualUvZeroAreaFaces": 0,
+    "actualUvMinDoubleArea": 0.0019725076854228973,
+    "actualNormalFinite": true,
+    "actualNodeWorldMatrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        2560.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        2560.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "olympic-big-lotus",
+    "sourceLineHashMatches": true,
+    "npzHashMatches": true,
+    "material": "land",
+    "npzTopology": {
+      "vertices": 1908,
+      "edges": 5718,
+      "triangles": 3812,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 60.768659480438004
+    },
+    "glbTopology": {
+      "vertices": 1908,
+      "edges": 5718,
+      "triangles": 3812,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 60.76896434497551
+    },
+    "frontStations": 477,
+    "backStations": 477,
+    "frontHausdorffGame": 6.431098710768743e-13,
+    "dryFootprintAreaGame2": 71.41811073792913,
+    "wetIntrusionAreaGame2": 0.0,
+    "allBackVerticesDry": true,
+    "sourceVertexGroundMaxErrorGame": 4.440892098500626e-16,
+    "frontInteriorAbsErrorGame": 0.006631016947683088,
+    "frontInteriorHeightMinusGroundRangeGame": [
+      -0.006631016947683088,
+      0.005012238527032142
+    ],
+    "backInteriorAbsErrorGame": 0.006776094637912067,
+    "backInteriorHeightMinusGroundRangeGame": [
+      -0.006776094637912067,
+      0.00536113628240531
+    ],
+    "maxSegmentLengthGame": 1.9898563861532328,
+    "topNormalsAllUp": true,
+    "minTopAboveWaterGame": 0.07642928634907764,
+    "bottomErrorGame": 0.0,
+    "actualGlbMaterial": "land",
+    "maxGlbNearestVertexErrorGame": 4.280609572213825e-05,
+    "rounded1mmTriangleSetsEqual": false,
+    "actualUvFinite": true,
+    "actualUvZeroAreaFaces": 0,
+    "actualUvMinDoubleArea": 0.0010630153119564056,
+    "actualNormalFinite": true,
+    "actualNodeWorldMatrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        3200.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        3200.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "id": "binjiang-park",
+    "sourceLineHashMatches": true,
+    "npzHashMatches": true,
+    "material": "land",
+    "npzTopology": {
+      "vertices": 1576,
+      "edges": 4722,
+      "triangles": 3148,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 110.4937779020285
+    },
+    "glbTopology": {
+      "vertices": 1576,
+      "edges": 4722,
+      "triangles": 3148,
+      "euler": 2,
+      "zeroArea": 0,
+      "badEdges": 0,
+      "signedVolume": 110.49390868280939
+    },
+    "frontStations": 394,
+    "backStations": 394,
+    "frontHausdorffGame": 6.431098710768743e-13,
+    "dryFootprintAreaGame2": 71.95856373236028,
+    "wetIntrusionAreaGame2": 0.0,
+    "allBackVerticesDry": true,
+    "sourceVertexGroundMaxErrorGame": 4.440892098500626e-16,
+    "frontInteriorAbsErrorGame": 0.004590414516503216,
+    "frontInteriorHeightMinusGroundRangeGame": [
+      -0.003541072422118985,
+      0.004590414516503216
+    ],
+    "backInteriorAbsErrorGame": 0.004773993496356876,
+    "backInteriorHeightMinusGroundRangeGame": [
+      -0.00376200739364263,
+      0.004773993496356876
+    ],
+    "maxSegmentLengthGame": 1.9665720177559252,
+    "topNormalsAllUp": true,
+    "minTopAboveWaterGame": 0.8630235781435827,
+    "bottomErrorGame": 0.0,
+    "actualGlbMaterial": "land",
+    "maxGlbNearestVertexErrorGame": 4.2234878871795275e-05,
+    "rounded1mmTriangleSetsEqual": false,
+    "actualUvFinite": true,
+    "actualUvZeroAreaFaces": 0,
+    "actualUvMinDoubleArea": 0.00013956241309642792,
+    "actualNormalFinite": true,
+    "actualNodeWorldMatrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1920.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        4480.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

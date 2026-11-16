@@ -1,0 +1,327 @@
+{
+  "type": "FeatureCollection",
+  "crs": "EPSG:4326",
+  "license": "ODbL-1.0",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/434365023",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 434365023,
+        "tags": {
+          "amenity": "place_of_worship",
+          "building": "yes",
+          "name": "天王殿",
+          "religion": "buddhist",
+          "source": "bing, own photos, tourist map"
+        },
+        "name": "天王殿",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "heightStatus": "unknown"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.096723,
+                30.2423951
+              ],
+              [
+                120.0967928,
+                30.2422142
+              ],
+              [
+                120.0971447,
+                30.2423156
+              ],
+              [
+                120.0970749,
+                30.2424965
+              ],
+              [
+                120.096723,
+                30.2423951
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434365024",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 434365024,
+        "tags": {
+          "amenity": "place_of_worship",
+          "building": "yes",
+          "name": "大雄宝殿",
+          "name:en": "Daxiong Hall",
+          "religion": "buddhist",
+          "source": "bing, own photos, tourist map"
+        },
+        "name": "大雄宝殿",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "heightStatus": "unknown"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.0964059,
+                30.243163
+              ],
+              [
+                120.0965181,
+                30.2428747
+              ],
+              [
+                120.0969382,
+                30.2429968
+              ],
+              [
+                120.096826,
+                30.243285
+              ],
+              [
+                120.0964059,
+                30.243163
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434365025",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 434365025,
+        "tags": {
+          "amenity": "place_of_worship",
+          "building": "yes",
+          "name": "药师殿",
+          "religion": "buddhist"
+        },
+        "name": "药师殿",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "heightStatus": "unknown"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.096187,
+                30.2436668
+              ],
+              [
+                120.0962164,
+                30.2435913
+              ],
+              [
+                120.0962549,
+                30.2434922
+              ],
+              [
+                120.0962831,
+                30.2434196
+              ],
+              [
+                120.0967222,
+                30.243547
+              ],
+              [
+                120.0967012,
+                30.2436008
+              ],
+              [
+                120.0966635,
+                30.243698
+              ],
+              [
+                120.0966261,
+                30.2437942
+              ],
+              [
+                120.096187,
+                30.2436668
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434366739",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 434366739,
+        "tags": {
+          "amenity": "place_of_worship",
+          "building": "yes",
+          "name": "灵隐寺文物展厅",
+          "religion": "buddhist"
+        },
+        "name": "灵隐寺文物展厅",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "heightStatus": "unknown"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.096123,
+                30.244038
+              ],
+              [
+                120.0962051,
+                30.2438296
+              ],
+              [
+                120.0965214,
+                30.2439225
+              ],
+              [
+                120.0964393,
+                30.244131
+              ],
+              [
+                120.096123,
+                30.244038
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434366741",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 434366741,
+        "tags": {
+          "amenity": "place_of_worship",
+          "building": "yes",
+          "name": "华严殿"
+        },
+        "name": "华严殿",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "heightStatus": "unknown"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.0958683,
+                30.2445939
+              ],
+              [
+                120.0959445,
+                30.2443982
+              ],
+              [
+                120.0963156,
+                30.2445061
+              ],
+              [
+                120.0962394,
+                30.2447017
+              ],
+              [
+                120.0958683,
+                30.2445939
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/195189679",
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 195189679,
+        "tags": {
+          "building": "yes",
+          "name": "灵隐寺",
+          "name:cs": "Ling-jin",
+          "name:de": "Lingyin-Tempel",
+          "name:en": "Tickets for Lingyin Temple",
+          "name:fi": "Lingyin-temppeli",
+          "name:fr": "Tickets pour le Temple de Lingyin",
+          "name:ko": "링인쓰",
+          "name:sv": "Lingyin-tempel",
+          "name:zh": "灵隐寺",
+          "shop": "ticket",
+          "source": "Bing",
+          "wikipedia": "zh:灵隐寺"
+        },
+        "name": "灵隐寺",
+        "source": "OpenStreetMap",
+        "crs": "EPSG:4326",
+        "license": "ODbL-1.0",
+        "heightStatus": "unknown"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                120.0975308,
+                30.2424485
+              ],
+              [
+                120.097578,
+                30.2423138
+              ],
+              [
+                120.0976615,
+                30.2423356
+              ],
+              [
+                120.0977314,
+                30.2423538
+              ],
+              [
+                120.0976842,
+                30.2424885
+              ],
+              [
+                120.0975308,
+                30.2424485
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "wrongPoseModelShiftGame": 100,
+  "fixedSourcePointsRemainUnchanged": true,
+  "displacedModelMissingMainNodeCount": 36,
+  "sourceNodeGameHeightOverride": [
+    {
+      "kind": "source-node",
+      "nodeId": "1667217046",
+      "point": [
+        1331.7518705719028,
+        -4605.5327138949015
+      ],
+      "height": 13.7,
+      "stationM": 636.5319162457104,
+      "transverseM": -7.085176874832257,
+      "actualDeckRegionIds": [
+        "fuxing-alignment:fuxing-bridge:deck:46"
+      ],
+      "actualHeightGame": 14.1,
+      "heightDifferenceGame": -0.40000000000000036,
+      "geometryAbsenceReason": null,
+      "planDistanceToActualDeckGame": 0.0,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "source-node",
+      "nodeId": "1667217046",
+      "point": [
+        1331.7518705719028,
+        -4605.5327138949015
+      ],
+      "height": 13.7,
+      "stationM": 636.5319162457104,
+      "transverseM": -7.085176874832257,
+      "actualDeckRegionIds": [
+        "fuxing-alignment:fuxing-bridge:deck:46"
+      ],
+      "actualHeightGame": 14.1,
+      "heightDifferenceGame": -0.40000000000000036,
+      "geometryAbsenceReason": null,
+      "planDistanceToActualDeckGame": 0.0,
+      "surfaceAvailable": false
+    }
+  ],
+  "explicitOverrideGameHeightNotRescaled": true,
+  "sourceRescalingRejected": true,
+  "completeBridgeAccepted": false
+}

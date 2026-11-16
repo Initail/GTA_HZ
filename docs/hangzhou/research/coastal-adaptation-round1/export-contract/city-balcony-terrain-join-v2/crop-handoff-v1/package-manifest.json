@@ -1,0 +1,17 @@
+{
+  "files": {
+    "bank-handoff-crop-intervals.geojson": "4e3a70e1f95353d446ef0f6ea33a7f3c51118f658fc1cbdb3a79ad2cdcef61bf",
+    "build.py": "cf277755bc1ad2aa8d6fe79ca839b182c4501b445d920e9a63638e8ad60e5eb9",
+    "candidate-terrain-owned-crop-boundary.json": "20f0a8c1aad5e8e9eed9423c49821a9ee643bde9d93985b901cf6bc6dec62bb5",
+    "contract.json": "bccff2d8091522bfece124cb7cfd676dea75376ccc1b49babe0e4f1898524117",
+    "height-boundary.log": "1fa0e3557908e9e405099c36dc46adc93c8419abaabd9a0a49b5aa9f4ac0e22e",
+    "height-boundary.py": "68f9bfff5584b247d7fa7b0d65c4db5a3dea15c7dd586dccb237e3c76c96b316",
+    "original-crop-boundary.json": "0e745436b8e669e885e4fb63a9954b9ae1a06b71e603946eccab9c16cb5b8c59",
+    "outside-crop-adopted-render-budget.json": "f56306dba56ceda8e2d0cbc96d223212038e5ed1db6d9af0331a9a4382704272",
+    "outside-crop-height-check.json": "1fa0e3557908e9e405099c36dc46adc93c8419abaabd9a0a49b5aa9f4ac0e22e",
+    "outside-crop-height-samples.json": "fba59f4dc855d106a34715d8fef0508e60bec76cf50088e518db6babc68ce2c9",
+    "shore-top-actual-triangles.json": "b26156c6915bd8bd61136602799ed56abebd9c6a2061ef8c6fdd1f0839da74bf",
+    "shore-top-boundary-enu.json": "3aa93d4fca9c8d597279b5e28ef10f439ed834517b1d3fb88fcf0e5ab62df0df",
+    "shore-top-owner-full.geojson": "9ff6487856a39133e7e087bc839d4c0b8ddd3c8ae9235a216d0712e30825997f"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "triangles": 988,
+  "edges": 1482,
+  "quantizationMetresGame": 1e-09,
+  "unmatchedOrWrongDirectedEdges": 0,
+  "status": "CPU upper slab closed; actual float32 GLB remains separate gate"
+}

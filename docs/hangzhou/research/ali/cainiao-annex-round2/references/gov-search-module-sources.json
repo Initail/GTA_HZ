@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "url": "https://www.yuhang.gov.cn/jsearch_files/publish/YcTOd1ftgC5dxzJ8RhCBN/js/searchresults/index.js",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-search-searchresults-index.js",
+      "sha256": "881de60d37515f4489788d79607c41871a71e9d569b91dcbade7c663d1bda7a0",
+      "bytes": 18408
+    },
+    {
+      "url": "https://www.yuhang.gov.cn/jsearch_files/publish/YcTOd1ftgC5dxzJ8RhCBN/js/searchparams/index.js",
+      "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/gov-search-searchparams-index.js",
+      "sha256": "f8021422af5f247e01383931ffe2f353baec9eae8c21723fe29b8a1f071c0450",
+      "bytes": 11583
+    }
+  ]
+}

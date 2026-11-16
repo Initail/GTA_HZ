@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA256",
+  "scope": "round2 local files and independent module; no GLB/verified claim",
+  "files": {
+    "docs/hangzhou/research/core/gate-round2/README.md": "e3520ea2f588d5cea938e62ae9c1c041643aa8f000a768ec75e4c4a3c5f7f987",
+    "docs/hangzhou/research/core/gate-round2/attempts.json": "504b58f8b0e69420f50fbe6ec3e84a3ca2100d0843265d5f450363da4371e00a",
+    "docs/hangzhou/research/core/gate-round2/catalog.json": "a759691ac67f1ff34d9c112370e069790db57ff39173d2cb882f0d46247c3e78",
+    "docs/hangzhou/research/core/gate-round2/cpu-geometry-validation.json": "96fa391f86321c8d53d1f59e803531122a73173d7afc34ac91535edc5be0d036",
+    "docs/hangzhou/research/core/gate-round2/evidence.json": "94f7f0e98326bbd8dcdaa7b90faf4ccb06e660097c2d945954b706fd91d5d517",
+    "docs/hangzhou/research/core/gate-round2/freeze_gate.py": "4cee691e11ed1dfa469fde800d5a973fc3a1683c1f1e814b9e961657820bdec9",
+    "docs/hangzhou/research/core/gate-round2/geofabrik-gate-features.geojson": "4cfd2cd1436b3407084824425b185166e7e4887b550eaace316e1ff2233750d3",
+    "docs/hangzhou/research/core/gate-round2/jobs/hangzhou-gate/evidence.json": "00dfbb4051a16d14fd00cc1d701c426f1d05d2ab5c95840cfdcfe9ccd730f376",
+    "docs/hangzhou/research/core/gate-round2/measure_gate.py": "567552ef8bcc85607af26d23dc9f8223006485cb3637a22e2f80340835d4da59",
+    "docs/hangzhou/research/core/gate-round2/osm-footprints-and-measurements.json": "d3a28af82786cd51667ec24789b5eb8f93e705c55d9dcd1b0dceb2c1957a3849",
+    "docs/hangzhou/research/core/gate-round2/osm-local-map.json": "fccb1560ed559ca266d93d873ee27281ff9b9f7bbad48fa37ec7e8ca137c6d4e",
+    "docs/hangzhou/research/core/gate-round2/osm-way-1015040645-full.json": "abd455fae01ea61337779e542b9f5d06f91c1701b7d8954a052ccea1178f503f",
+    "docs/hangzhou/research/core/gate-round2/overpass-query.txt": "b1daec3b61a540702a09ada17cf1d45c9eeb29a133ea96d231a16d571becb995",
+    "docs/hangzhou/research/core/gate-round2/photo-review.md": "a6ba6f4ac0fec038926420efeadfd0f777dbce11ab5b7760739de08c99da7137",
+    "docs/hangzhou/research/core/gate-round2/spec.json": "6bd2ceb5f50628fa1200b003490161aa739925842837476cc2669481bcd095ad",
+    "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/evidence.json": "94f7f0e98326bbd8dcdaa7b90faf4ccb06e660097c2d945954b706fd91d5d517",
+    "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/job.json": "60cb176d1cc2470ec534a1f5228ea1ee178993eaa7a7e3e3db8a2c219208c2cf",
+    "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/model.json": "6acd4de547492f4a1a502cd5a196b0d3af7928ea9cd63318084632a86289bbbd",
+    "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/prompt.md": "b443c809ac308a4e100d3eb2af9027be14ca74a5511d7aaba03a272385001bea",
+    "docs/hangzhou/research/core/gate-round2/task-bundles/hangzhou-gate/validation.json": "1642768b7f69bc0053c19bbdb06b99a7e85a47c717ed63a8a2ae09bbb782b691",
+    "docs/hangzhou/research/core/gate-round2/validate_candidate.py": "544394db59dc0492c425fa84bf5f4b9f7a0411cb91df1931b5c0297d8687f83b",
+    "scripts/landmarks/hangzhou_gate.py": "a53fc34f885dd8a55c32e09ff38392d8772df4072973dd5e4b8f0db740d7357a"
+  }
+}

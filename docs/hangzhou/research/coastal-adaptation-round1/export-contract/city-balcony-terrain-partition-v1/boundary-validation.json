@@ -1,0 +1,105 @@
+{
+  "meshSha256": "b53962b53b145e6c87b17cdbbf5113eaf213dddd9db905ef77b6f0587fb42a91",
+  "sourceSitesSha256": "f3b6ce4ee5fba89a79c305bb4207ed24903680dfb5f6745bd17de783e843ac81",
+  "nodingGridGame": 1e-08,
+  "restoredOriginalDryWaterBoundary": true,
+  "geometryBudgetGame": 2e-08,
+  "ownershipBoundaries": [
+    {
+      "id": "main",
+      "sourceArea": 5027.914670806332,
+      "derivedArea": 5027.9146706842275,
+      "symmetricDifferenceArea": 2.563165929187301e-07,
+      "addedArea": 4.866903442808611e-08,
+      "removedArea": 1.8513780018069292e-07,
+      "rawBoundaryHausdorffGame": 6.325010238080013e-09,
+      "metricNormalizedBoundaryHausdorffGame": 6.276191605244627e-09,
+      "metricNormalizedSymmetricDifferenceArea": 4.772963731473648e-07,
+      "status": "derived ownership line only; original physics boundary unchanged"
+    },
+    {
+      "id": "west",
+      "sourceArea": 622.7979106226073,
+      "derivedArea": 622.797910621215,
+      "symmetricDifferenceArea": 2.1711848765779924e-07,
+      "addedArea": 1.0786320976533751e-07,
+      "removedArea": 1.0925527792324669e-07,
+      "rawBoundaryHausdorffGame": 6.325010238080013e-09,
+      "metricNormalizedBoundaryHausdorffGame": 6.340271344341479e-09,
+      "metricNormalizedSymmetricDifferenceArea": 2.1721850485542973e-07,
+      "status": "derived ownership line only; original physics boundary unchanged"
+    },
+    {
+      "id": "east",
+      "sourceArea": 767.0798896920621,
+      "derivedArea": 767.0798897207948,
+      "symmetricDifferenceArea": 2.1624049124991682e-07,
+      "addedArea": 1.224865471079569e-07,
+      "removedArea": 9.375394410603611e-08,
+      "rawBoundaryHausdorffGame": 6.260586435080717e-09,
+      "metricNormalizedBoundaryHausdorffGame": 6.237001578799887e-09,
+      "metricNormalizedSymmetricDifferenceArea": 2.1588480066568986e-07,
+      "status": "derived ownership line only; original physics boundary unchanged"
+    },
+    {
+      "id": "F1",
+      "sourceArea": 8532.923255183674,
+      "derivedArea": 8532.923255278432,
+      "symmetricDifferenceArea": 4.1736545685978505e-07,
+      "addedArea": 2.5332913345972076e-07,
+      "removedArea": 1.6093690594871e-07,
+      "rawBoundaryHausdorffGame": 24.675994517518358,
+      "metricNormalizedBoundaryHausdorffGame": 6.285423578771376e-09,
+      "metricNormalizedSymmetricDifferenceArea": 7.198067465237856e-07,
+      "status": "derived ownership line only; original physics boundary unchanged"
+    }
+  ],
+  "materialChanges": [
+    {
+      "id": "park",
+      "sourceArea": 1892.7914827279235,
+      "derivedArea": 1892.7914828563698,
+      "symmetricDifferenceArea": 0.0,
+      "rawBoundaryHausdorffGame": 6.972126544454098e-09,
+      "metricNormalizedBoundaryHausdorffGame": 6.961675839032975e-09,
+      "metricNormalizedSymmetricDifferenceArea": 1.5193319474067153e-06
+    },
+    {
+      "id": "land",
+      "sourceArea": 13057.924243576743,
+      "derivedArea": 13057.924243448284,
+      "symmetricDifferenceArea": 0.0,
+      "rawBoundaryHausdorffGame": 1.8381119728852997,
+      "metricNormalizedBoundaryHausdorffGame": 6.961675839032975e-09,
+      "metricNormalizedSymmetricDifferenceArea": 1.519529660351171e-06
+    }
+  ],
+  "maximumActualSeamToBothSourceBoundariesGame": 6.325163090972888e-09,
+  "maximumDiscontinuityGame": 4.277873209939,
+  "smoothQueryCountOutsideBoundaryBand": 283292,
+  "smoothMaximumHeightErrorGame": 0.005949681724250588,
+  "smoothHeightFailuresAbovePoint01": 0,
+  "boundaryBandHalfWidthGame": 2e-08,
+  "boundaryBandQueryCount": 10050,
+  "boundaryBandMaximumHeightDifferenceGame": 4.277873209938985,
+  "boundaryBandDifferencesAbovePoint01": 3316,
+  "float32Preflight": {
+    "status": "simulated one local origin, not actual GLB",
+    "originENU": [
+      3316.369973047019,
+      -1976.441936745393,
+      3.767477681446
+    ],
+    "maximumVertexErrorGame": 4.932634062143558e-06,
+    "zeroAreaTriangleCount": 0,
+    "zeroAreaTriangles": []
+  },
+  "rawBoundaryMetricPassed": false,
+  "metricOnlyNormalizationGame": 1e-10,
+  "metricNormalizationScope": "collapse Boolean zero-width returns in temporary measurement geometry only, not source nor candidate mesh; raw metric failures retained",
+  "passedBoundedGeometryAndHeight": true,
+  "pending": [
+    "Actual GLB local-frame export, float32 topology, foundation/shore seam and world/body/browser acceptance",
+    "Bounded noding does not make original physical masks move; runtime keeps original cut discontinuities"
+  ]
+}

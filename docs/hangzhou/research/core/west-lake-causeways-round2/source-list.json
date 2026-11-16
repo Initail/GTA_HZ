@@ -1,0 +1,93 @@
+{
+  "places": [
+    {
+      "id": "west-lake-causeways",
+      "name": "西湖白堤/苏堤有限堤岸与七桥候选",
+      "kind": "area",
+      "location": {
+        "center": [
+          120.138,
+          30.246
+        ]
+      },
+      "sources": [
+        {
+          "id": "geofabrik-fixed",
+          "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+          "publisher": "OpenStreetMap contributors / Geofabrik",
+          "sourceDate": "2026-10-11T20:21:06Z",
+          "accessedAt": "2026-10-14",
+          "status": "fixed-source-verified",
+          "license": "ODbL-1.0; © OpenStreetMap contributors",
+          "localPath": "data/processed/hangzhou/roads.geojson",
+          "sha256": "c2f34a1aadba5d5947e6dba05165c39b3304e808a8538b26e97bb792e40c7b8b",
+          "pbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+          "use": "EPSG:4326 node IDs/geometry; not commercial map coordinates or field survey"
+        },
+        {
+          "id": "unesco-nomination",
+          "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+          "publisher": "China State Party nomination, published by UNESCO World Heritage Centre",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2011 PDF metadata; aerial photographs 2006; elevation survey date unknown",
+          "status": "read-local-original-and-rendered",
+          "sha256": "5a82da9397cc7eafae35ffff8060c45c0751f6da2d5c8b40ac38ce08ad32c442",
+          "bytes": 79121258,
+          "pages": 1342,
+          "localPath": null,
+          "license": "unknown; reference only; page images excluded from runtime/release texture assets",
+          "reviewedPages": [
+            {
+              "pdfPage": 59,
+              "printedPage": 64,
+              "figures": [
+                "2a-7",
+                "2a-8"
+              ],
+              "use": "reported dimensions, two causeways and aerial layouts"
+            },
+            {
+              "pdfPage": 70,
+              "printedPage": 75,
+              "use": "six named stone arches, willow/peach and relative water height"
+            },
+            {
+              "pdfPage": 78,
+              "printedPage": 83,
+              "figure": "2a-22",
+              "use": "six separate arch elevations, gradual bridge approaches; survey epoch unknown"
+            }
+          ]
+        },
+        {
+          "id": "hangzhou-release-six-bridges",
+          "url": "https://m.thepaper.cn/newsDetail_forward_19443734",
+          "publisher": "杭州发布 · 杭州市人民政府新闻办公室官方账号；资料/杭州西湖风景名胜区管委会",
+          "title": "苏堤上的六座桥你能认全吗？谁取的名？一起探寻西湖里的小秘密",
+          "sourceDate": "2022-08-13",
+          "accessedAt": "2026-10-14",
+          "status": "downloaded-and-photos-reviewed",
+          "license": "unknown; reference only; not runtime textures",
+          "localPath": "docs/hangzhou/research/core/west-lake-causeways-round2/references/hangzhou-release-six-bridges.html",
+          "sha256": "f9808066ed469fb0278a6f27c23a9a0071ea31cdc70b757a9be2988c3c362a06",
+          "use": "individual bridge reported core length/net width/clear span; photographed stone arches and railings"
+        },
+        {
+          "id": "jindai-original-photographer",
+          "url": "https://historicbridges.org/bridges/browser/photos.php?bridgebrowser=china/jindaibridge/&gallerynum=2&gallerysize=2",
+          "publisher": "Nathan Holth / HistoricBridges.org original photographic documentation",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2017-10-05 gallery documentation date",
+          "status": "downloaded-and-original-photos-reviewed",
+          "localPath": "docs/hangzhou/research/core/west-lake-causeways-round2/references/jindai-photographer-gallery.html",
+          "sha256": "4e943cbe396224a512b82c41676cf68c751ebb929525b25e5ad24740c6871bda",
+          "license": "© Nathan Holth / HistoricBridges.org. All rights reserved; reference only. No runtime photo textures.",
+          "use": "explicitly captioned western Jindai views: single arch amid long ramps; plain low stone parapet, courses; no metric claim"
+        }
+      ],
+      "modeling": {
+        "blockers": []
+      }
+    }
+  ]
+}

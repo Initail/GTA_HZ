@@ -1,0 +1,72 @@
+{
+  "id": "city-balcony",
+  "scope": "Limited main balcony exterior: exact source cantilever plan and two explicitly mapped shore approach fingers, open upper park and lower glazed facade/public-floor outline, three mapped glass heads, transparent rails, representative structural beams/piers and round skylights. No invented stair/ramp/lift operation or whole side parks. Absolute lower datum and bounded source-finger upper transition candidate; no stairs/lifts or terrain fill.",
+  "faces": 13292,
+  "materials": [
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "roof",
+    "steel"
+  ],
+  "publicLevelsMetres": {
+    "upper": 6,
+    "lower": 0
+  },
+  "floorPlacementId": "city-balcony-floor-v2",
+  "absoluteBaseYGame": 1.9579020031420153,
+  "mainUpperYGame": 5.557902003142015,
+  "existingFootprintUpperConnectionsSloped": 2,
+  "newStandaloneRampOrStairOrLiftMeshes": 0,
+  "sourceFingerProfileTriangles": 215,
+  "mappedGlazedParts": 3,
+  "shoreApproachCount": 2,
+  "representativePierCount": 117,
+  "waterMeshes": 0,
+  "lights": 0,
+  "stairsRampsLiftMeshes": 0,
+  "groundFootprintCount": 136,
+  "limitations": "Absolute datum and upper-only source finger terrain matching estimated; local terrain cut/shore ownership pending. Six circles are surfaced skylight representations, not fully open surveyed shafts. Entry steps/ramps/lift/current terrain/navigation/runtime pending.",
+  "status": "CPU candidate only; no GLB/Blender/browser",
+  "trianglesBeforeExport": 26026,
+  "triangleBudget": 28000,
+  "minimumTriangleAreaGame2": 0.0007604999999926337,
+  "sourceUpperPlanAreaGame2": 10205.559536917222,
+  "upperPlanCoverageErrorGame2": 1.3096723705530166e-12,
+  "mainPavingAreaPerMaterialPreserved": {
+    "roof": 5194.811412863497,
+    "concrete": 19289.307080873616
+  },
+  "maxTerminalQueryErrorMetres": 0.0,
+  "maxInnerSeamQueryErrorMetres": 0.0,
+  "maxProfileTriangleQueryErrorMetres": 1.7763568394002505e-15,
+  "maxExactProfileTriangleGradient": 0.02227523860525423,
+  "unchangedAssemblyFacesChecked": 10862,
+  "terrainContacts": [
+    {
+      "id": "west",
+      "samples": 728,
+      "profileMinusCurrentGroundRangeGame": [
+        -0.27642675685038043,
+        0.0002929043516672891
+      ],
+      "lowerVolumeFillAuthorized": false
+    },
+    {
+      "id": "east",
+      "samples": 881,
+      "profileMinusCurrentGroundRangeGame": [
+        -0.03487203033625086,
+        0.23618713719680606
+      ],
+      "lowerVolumeFillAuthorized": false
+    }
+  ],
+  "pending": [
+    "bounded terrain cut and floor selection",
+    "source public arrival",
+    "shore lower-space ownership",
+    "actual GLB topology and three views/day-night",
+    "physical runtime and performance"
+  ]
+}

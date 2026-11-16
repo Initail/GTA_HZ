@@ -1,0 +1,64 @@
+{
+  "reviewedBy": "Codex child leifeng_candidate",
+  "reviewedAt": "2026-10-16",
+  "primaryWidthDocument": {
+    "url": "https://siberc.fzu.edu.cn/__local/6/6F/29/7C1CCAEDC24D9BB28E4EFA81912_4886B803_FCC7B.pdf?e=.pdf",
+    "temporaryPath": "<TEMP>/qiantang-bridges-research/fuxing-paper.pdf",
+    "sha256": "f9da1571945ab9777213a466a8c435a42e778934379ce1ea8c5c8d10e2815f0c",
+    "read": "cached original PDF p98 text and figure8 manually inspected; live web fetch timed out2026-10-16",
+    "finding": "upper/lower same widths,26.4m small arches/32m large; no support to widen an entire bridge simply to contain road lines",
+    "notUsed": "adjacent case studies in same paper are other bridges, not Fuxing dimensions; figure8 bank-end grade annotations are not a surveyed current road profile"
+  },
+  "photos": [
+    {
+      "id": "f1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fourth_Qiantang_River_Bridge_1.JPG",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Fourth_Qiantang_River_Bridge_1.JPG/960px-Fourth_Qiantang_River_Bridge_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20120925174807",
+      "temporaryLocalPath": "<TEMP>/qiantang-bridges-research/f1.jpg",
+      "sha256": "5f6deca1e90e36328c5a0858016f57084d2898c46e63b41a941375abd065f54a",
+      "author": "Huandy618",
+      "date": "2012-09-25",
+      "license": "CC BY-SA3.0",
+      "type": "actual built-photo",
+      "viewAndObservation": "riverbank low oblique approaching bridge axis, mountain opposite shore supports southbank-looking north identification±25°; lowerdeck/piers/open gap andblue arch lattice clearlyvisible",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "reviewedAt": "2026-10-14",
+      "bundled": false,
+      "alignmentReviewAt": "2026-10-16",
+      "alignmentReviewBy": "Codex child leifeng_candidate",
+      "alignmentUse": "upper central divider and overall two-deck symmetric structure visible; no WGS georeferencing or deck-edge survey derived"
+    },
+    {
+      "id": "fgovphoto",
+      "sourceUrl": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+      "imageUrl": "https://www.hzzx.gov.cn/zxyw/images/2026-09/20/d0f99700-c9ca-48bd-a567-2b027c6d98a8.jpeg",
+      "temporaryLocalPath": "<TEMP>/qiantang-bridges-research/fgovphoto.jpg",
+      "sha256": "a5b22a5c0be9df4ca1425cee36fcc1496f20f9a67648cd4c25a8d43359b49360",
+      "author": "not separatelycredited",
+      "date": "unknown; page2026-09-20",
+      "license": "unknown",
+      "type": "actual built-photo",
+      "viewAndObservation": "north elevated axis view to south, direction opposite low f1 appearance; major bluepaired ribs and underdeck spaces visible",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "reviewedAt": "2026-10-14",
+      "bundled": false,
+      "alignmentReviewAt": "2026-10-16",
+      "alignmentReviewBy": "Codex child leifeng_candidate",
+      "alignmentUse": "upper central divider and overall two-deck symmetric structure visible; no WGS georeferencing or deck-edge survey derived"
+    }
+  ],
+  "additionalWebReads": [
+    {
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+      "status": "web reread succeeded2026-10-16",
+      "support": "1376m, double deck,2large9small arches, six upper lanes; photo not an absolute coordinate survey"
+    },
+    {
+      "url": "https://wiki.openstreetmap.org/w/index.php?title=Way&oldid=3045544",
+      "status": "web read succeeded2026-10-16",
+      "support": "road centerline versus deck-edge distinction"
+    }
+  ],
+  "inputDataUncertainty": "fixed source numeric values exact; original individual mapping dates/source imagery/placement/width tags unknown, absolute positional accuracy unknown",
+  "noPhotosBundled": true
+}

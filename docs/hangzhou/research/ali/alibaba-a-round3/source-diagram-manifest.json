@@ -1,0 +1,15 @@
+{
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "diagrams": [
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-a-round3/source-coverage-alibaba-a.png",
+      "sha256": "4af1cfee9dc1a0abcbf2c974996fba0a52d7af5716529892829f769eed6fb0c0",
+      "actualGameScreenshot": false
+    },
+    {
+      "path": "docs/hangzhou/research/ali/alibaba-a-round3/source-coverage-cainiao.png",
+      "sha256": "394061b2a98da20588bbea86df1945c1f6c58e4a4956ece80627e25a437b9edb",
+      "actualGameScreenshot": false
+    }
+  ]
+}

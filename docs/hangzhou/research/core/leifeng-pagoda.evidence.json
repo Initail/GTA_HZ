@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "placeId": "leifeng-pagoda",
+  "name": "雷峰塔（现雷峰新塔）",
+  "type": "building",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "wgly-leifeng",
+      "tsinghua-leifeng"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "wgly-leifeng",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+      "publisher": "杭州市文化广电旅游局",
+      "title": "雷峰塔（雷峰夕照）",
+      "sourceDate": "2022-12-01",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "原文“五面八层”与设计师材料八角五层冲突，不能静默当作测绘参数。通高71米为约数。"
+    },
+    {
+      "id": "tsinghua-leifeng",
+      "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+      "publisher": "人文清华讲坛，原创黄薏橦 / 澎湃号平台",
+      "title": "郭黛姮：雷峰新塔，彰显文化遗产魅力的里程碑",
+      "sourceDate": "2020-10-17",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary-institutional-account-with-designer-statements",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "包含新塔剖面/立面图、保护罩高度和柱网跨度。图片381.jpg/390.jpg抓取超时，396.jpg缓存未命中，本轮未读图。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "totalApprox": 71,
+        "heritageCover": 9.7
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "wgly-leifeng",
+        "tsinghua-leifeng"
+      ],
+      "uncertainty": "71m是文旅约数；9.7m为设计师材料；本轮不把未经原设计论文核验的71.679m假标实测。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "八角平面、外观五层楼阁式、平座腰檐、铜饰钢结构，跨遗址保护罩",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "tsinghua-leifeng"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "structure",
+      "value": {
+        "maxColumnGridSpan": 48
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "tsinghua-leifeng"
+      ],
+      "uncertainty": "48m为柱网最大跨度，不是建筑足印边长或径长。"
+    },
+    {
+      "kind": "material",
+      "value": "瓦、脊、柱、栏杆等薄铜构件；采用现代钢结构",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "tsinghua-leifeng"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "先核实夕照山基面和八角台基；外观五层逐层做平座、斗拱节奏与飞檐，不用五边塔。铜材质按参考做颜色/粗糙度，图片不打包贴图。"
+  },
+  "referenceImages": [
+    {
+      "sourceId": "tsinghua-leifeng",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/381.jpg",
+      "kind": "section-and-elevation",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "fetch-timeout-not-viewed",
+      "license": "unknown"
+    },
+    {
+      "sourceId": "tsinghua-leifeng",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/390.jpg",
+      "kind": "exterior-photo",
+      "captureDate": null,
+      "viewDirection": "unknown",
+      "status": "fetch-timeout-not-viewed",
+      "license": "unknown"
+    }
+  ],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "文旅页“五面八层”疑字序错误，与人文清华设计师材料冲突；优先采用设计师说明八角五层，但精确层高/总高仍等待读剖面。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

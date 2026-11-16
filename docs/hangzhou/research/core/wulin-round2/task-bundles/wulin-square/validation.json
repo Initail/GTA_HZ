@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "placeId": "wulin-square",
+  "artifactSha256": null,
+  "evidenceSha256": null,
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending actual GLB and named current-asset review. FakeB source/geometry checks do not pass eight-item verified acceptance."
+    }
+  },
+  "cpuCandidateReport": "docs/hangzhou/research/core/wulin-round2/cpu-geometry-validation.json"
+}

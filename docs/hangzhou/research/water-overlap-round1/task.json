@@ -1,0 +1,33 @@
+{
+  "id": "water-overlap-round1",
+  "kind": "independent-read-only-source-audit",
+  "asOfDate": "2026-10-16",
+  "writeOwnership": [
+    "docs/hangzhou/research/water-overlap-round1/"
+  ],
+  "status": "finite-source-audit-complete-water-acceptance-pending",
+  "scope": [
+    "all55 original pairs raw tags/layers/relations and source geometry",
+    "all2153 runtime water part bijection to raw source parts",
+    "unsimplified vertex budget and sampled boundary change",
+    "global restored-source pair scan exposing10 additional source overlaps"
+  ],
+  "integrationAuthority": "parent serial integration only",
+  "modelCreated": false,
+  "automaticClippingApproved": false,
+  "heightAveragingApproved": false,
+  "sourceBindingFiles": [
+    "sources.json",
+    "raw-osm-evidence.json",
+    "source-catalog.json",
+    "all-parts-crosswalk.json",
+    "pair-review.json"
+  ],
+  "pending": [
+    "27 original-source overlap boundaries require per-object decisions",
+    "lock hydraulic stages and gates/current state",
+    "layer=-1 water overlap needs physical source verification",
+    "canonical same-waterbody reach identities and datum ties",
+    "current render/shoreline/collision/scene-budget verification"
+  ]
+}

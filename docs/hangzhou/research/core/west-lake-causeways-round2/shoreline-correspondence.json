@@ -1,0 +1,47 @@
+{
+  "exactLandWaterHoleMatches": [
+    {
+      "waterFeature": "relation/2308774",
+      "waterPolygon": 0,
+      "waterHole": 17,
+      "greenFeature": "way/30072122",
+      "coordinateSetExact": true,
+      "note": "source geometry correspondence, not a surveyed land/bridge height"
+    },
+    {
+      "waterFeature": "relation/2308774",
+      "waterPolygon": 0,
+      "waterHole": 18,
+      "greenFeature": "way/30072129",
+      "coordinateSetExact": true,
+      "note": "source geometry correspondence, not a surveyed land/bridge height"
+    },
+    {
+      "waterFeature": "relation/2308774",
+      "waterPolygon": 0,
+      "waterHole": 19,
+      "greenFeature": "way/30072136",
+      "coordinateSetExact": true,
+      "note": "source geometry correspondence, not a surveyed land/bridge height"
+    },
+    {
+      "waterFeature": "relation/2308774",
+      "waterPolygon": 0,
+      "waterHole": 23,
+      "greenFeature": "way/30072142",
+      "coordinateSetExact": true,
+      "note": "source geometry correspondence, not a surveyed land/bridge height"
+    },
+    {
+      "waterFeature": "relation/2308774",
+      "waterPolygon": 0,
+      "waterHole": 28,
+      "greenFeature": "way/28538305",
+      "coordinateSetExact": true,
+      "note": "source geometry correspondence, not a surveyed land/bridge height"
+    }
+  ],
+  "baiWesternGreen": "relation/20083745 is a source-bound strip joined to Gushan, not the entire Gushan island",
+  "suSouthernGreen": "way/975357027 is the mapped southern bank strip; underlying lake exterior boundary remains owned by base water pipeline",
+  "knownConflict": "Bai 29416781 road is near the old island edge; source centerline and shore are independently retained, no guessed re-registration. Source accuracy unknown."
+}

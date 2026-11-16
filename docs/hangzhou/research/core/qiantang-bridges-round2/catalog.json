@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available; actual page/figure read",
+      "license": "ODbL-1.0",
+      "use": "exact EPSG4326 way/node transport identities and raw outer-boundary continuation; OSM is not a current surveying certificate",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "qiantang-school",
+      "url": "https://civil.swjtu.edu.cn/info/1333/61592.htm",
+      "publisher": "西南交通大学土木工程学院",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2019-09-28",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "16 Warren trusses,1072m main,65.84m calculation span,10.7m truss,6.1m roadway+1.52m sidewalks each; reported historical engineering summary, not field elevations",
+      "sha256": "77687459de850074fe5fe0b0e26529988292f01e10ec088c4fee9b2aa7333a0f"
+    },
+    {
+      "id": "fuxing-gov",
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+      "publisher": "上城史志 / 杭州政协",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-09-20",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "reported two190m/nine85m arches and1376m; real elevated near-axis photo. Lower bus/slow-use history is not complete current per-way access policy",
+      "sha256": "a313237e339df85f6cd0db267e88d163c34712e49c20c691c572db7526de3bb1"
+    },
+    {
+      "id": "fuxing-paper",
+      "url": "https://siberc.fzu.edu.cn/__local/6/6F/29/7C1CCAEDC24D9BB28E4EFA81912_4886B803_FCC7B.pdf?e=.pdf",
+      "publisher": "陈宝春 / 福州大学；中外公路28(4),2008,95–100",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2008-08",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "p98 figure8 and text:11 calculation spans2×85+190+5×85+190+2×85,26.4/32m widths. Estimate heights/rise ratios from original drawing. 2008 centralmetro reservation not drawn as a current track",
+      "sha256": "f9da1571945ab9777213a466a8c435a42e778934379ce1ea8c5c8d10e2815f0c"
+    },
+    {
+      "id": "zhijiang-paper",
+      "url": "https://html.rhhz.net/GLJTKJ/20160512.htm",
+      "publisher": "曹一山/徐强/李克冰；交通运输部公路科学研究所/北京交通大学；公路交通科技33(5),2016,73–77",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2016-05",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "primary engineering study, fig1:116+246+116m,90.5m steel tower,ellipse73.95/22.2m,steelbox3.5×41.36m. Figure96.5m overall versus steel90.5 datum not silently conflated",
+      "sha256": "ec63004c765f72c08290870d626576e735a558a3f44b7b3ea7fc281b365e6645"
+    },
+    {
+      "id": "zhijiang-environment",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/9f63726a2fe54a2990ee37d8ff31b7f8.pdf",
+      "publisher": "浙江省环境监测中心 / 杭州市生态环境部门公开竣工验收调查报告",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2016-07-22",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "p14 table2-2 actual2.98% maxgrade/350m minlength;3760m includes approach/landviaduct; p12 barriers1.1–1.2m, two barrier lines3m apart; p13 map qualitative context only, not WGS source",
+      "sha256": "3e3c753e374659b2856cbc5e2af4d796efb0308136d8e6708f65e2965530721a"
+    },
+    {
+      "id": "binjiang-gazette",
+      "url": "https://www.hhtz.gov.cn/attach/0/5434a3787bf34770b76fed0fbbcbb2af.pdf",
+      "publisher": "杭州市滨江区地方志编纂机构 / 杭州高新区（滨江）政府",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "actual PDF p23 printed colorplates30–31, photos by杜剑挥(Fuxing) and孙国尧(Zhijiang); completion-year captions are not image capture dates",
+      "sha256": "cbc1f07e5b2595d0dc24e3716bf52b673aceb30eeae27d97f356463195349c7a"
+    },
+    {
+      "id": "xixing-closure",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2025-11/10/content_9120865_0.htm",
+      "publisher": "杭州日报记者吴佳妮/谢珂，市交通运输局/市建委/公安交管发布会，杭州政协发布",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2025-11-10",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "2025-11-22 closed to vehicles/pedestrians; primary detour recommendation explicitly includes driving via Fuxing lowerfloor, in tension with simplified2026 localhistory use list",
+      "sha256": "06787a19907461f25e22ec14bdaf98cea237ad9a6b59e51067a435a2ac6f0e96"
+    },
+    {
+      "id": "xixing-current",
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-10/12/content_9334487.htm",
+      "publisher": "上城史志 / 杭州政协",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-12",
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "81m/1280m/15pairs describe OLD bridge;2024-11 reconstruction started,2027-end planned, not completed present model",
+      "sha256": "0a5cda5717a792605c402475b84d31673712f4ad008dd386d11a19b62e6d58e3"
+    },
+    {
+      "id": "q2024",
+      "url": "https://commons.wikimedia.org/wiki/File:20240128_Qiantang_River_Bridge_01.jpg",
+      "publisher": "Windmemories own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2024-01-28",
+      "status": "available; actual page/figure read",
+      "license": "CC BY-SA4.0; reference only",
+      "use": "north-bank nearly side-on, looks toward built-up southbank; repeated Warren diamonds/15pier pattern andlowerrail visible; not a deck/datum survey",
+      "sha256": "232d0ff5c1b80670ee29ef434b94418a4ac077bcdb8d2f8abc1800ab4605cafc"
+    },
+    {
+      "id": "qside",
+      "url": "https://commons.wikimedia.org/wiki/File:Hangzhou_Qiantangjiang_Daqiao_20120518-06.jpg",
+      "publisher": "Zhangzhugang own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2012-05-18",
+      "status": "available; actual page/figure read",
+      "license": "CC BY-SA4.0/GFDL; reference only",
+      "use": "high Liuhepagoda northwest view, southward across bridge; wholelongaxis androad/rail composition, historical2012surface condition",
+      "sha256": "aed84e40a01a7acab493a7eadd333af5fd0e60054ada8549da965b3de9de99c4"
+    },
+    {
+      "id": "qair",
+      "url": "https://commons.wikimedia.org/wiki/File:Qiantang_River_Bridge_DJI_0579.jpg",
+      "publisher": "David290 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2019-11-17",
+      "status": "available; actual page/figure read",
+      "license": "CC BY-SA4.0; reference only",
+      "use": "WGS camera120.126387,30.196298 west of northshore; northeast-facing drone view to northriverbank approach, transverse construction visible; coordinates metadata notsurvey",
+      "sha256": "4b0ed16900a30e203264fd7b59ecbc82cc77918896c446ecfa1f7d80c8dbae55"
+    },
+    {
+      "id": "f1",
+      "url": "https://commons.wikimedia.org/wiki/File:Fourth_Qiantang_River_Bridge_1.JPG",
+      "publisher": "Huandy618 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2012-09-25",
+      "status": "available; actual page/figure read",
+      "license": "CC BY-SA3.0; reference only",
+      "use": "riverbank low oblique approaching bridge axis, mountain opposite shore supports southbank-looking north identification±25°; lowerdeck/piers/open gap andblue arch lattice clearlyvisible",
+      "sha256": "5f6deca1e90e36328c5a0858016f57084d2898c46e63b41a941375abd065f54a"
+    },
+    {
+      "id": "f7",
+      "url": "https://commons.wikimedia.org/wiki/File:Fourth_Qiantang_River_Bridge_7.JPG",
+      "publisher": "Huandy618 own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2012-09-25",
+      "status": "available; actual page/figure read",
+      "license": "CC BY-SA3.0; reference only",
+      "use": "stone officialbridge inscription underroad close context; not counted as second structuraldirection or actualdimensions survey",
+      "sha256": "12480018d213de3e5792a0eab6e8265dc938486e055576a2174f34b7290e2bb2"
+    },
+    {
+      "id": "zair",
+      "url": "https://commons.wikimedia.org/wiki/File:Zhijiang_Bridge.jpg",
+      "publisher": "Charlie fong own photograph / Wikimedia Commons",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2020-12-17",
+      "status": "available; actual page/figure read",
+      "license": "CC BY-SA4.0; reference only",
+      "use": "elevated westernbank view east across red portals towardBinjiang(right perauthorcaption); two transversearches, dualstayplanes, concretepier gaps andfurther eastapproach visible",
+      "sha256": "a925723adf10fe6a8eee0a0411fdee2b82cf4dbf158001500cef8660b6f8e755"
+    },
+    {
+      "id": "fgovphoto",
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+      "publisher": "上城史志 / 杭州政协",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "available; actual page/figure read",
+      "license": "unknown; reference only",
+      "use": "actual elevated north-bank near-axis view south toward buildings, two blue largearches and nine lowarches;capturedateunknown, governmentpagepublished2026",
+      "sha256": "a5b22a5c0be9df4ca1425cee36fcc1496f20f9a67648cd4c25a8d43359b49360"
+    }
+  ],
+  "places": [
+    {
+      "id": "qiantang-bridges",
+      "name": "钱塘江三座桥梁有限外观",
+      "kind": "bridge structural exterior collection",
+      "location": {
+        "center": [
+          120.134374525,
+          30.195734025
+        ]
+      },
+      "modeling": {
+        "blockers": []
+      }
+    },
+    {
+      "id": "qiantang-bridges-decks",
+      "name": "钱塘江桥面与多层道路剖面",
+      "kind": "bridge deck profiles",
+      "location": {
+        "center": [
+          120.134374525,
+          30.195734025
+        ]
+      },
+      "modeling": {
+        "blockers": [
+          "真实绝对桥面/水位/地面标高与复杂多层引桥剖面尚未知。"
+        ]
+      }
+    },
+    {
+      "id": "xixing-bridge-current",
+      "name": "西兴大桥当前施工状态与道路",
+      "kind": "bridge under reconstruction",
+      "modeling": {
+        "blockers": [
+          "断流施工；不能用旧桥/未来计划替代当前完工道路。"
+        ]
+      }
+    },
+    {
+      "id": "boao-tunnel-profile",
+      "name": "博奥隧道地下车行剖面",
+      "kind": "underground tunnel profiles",
+      "modeling": {
+        "blockers": [
+          "地下深度/入口标高/真实坡度未知，命名页面403。"
+        ]
+      }
+    }
+  ]
+}

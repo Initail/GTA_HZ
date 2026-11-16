@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/335.jpg",
+    "path": "<TEMP>/leifeng-research/335.jpg",
+    "bytes": 320819,
+    "sha256": "489577d0317337129c411abbc684572143dad3191e6107e64f6046a76a22612d",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/337.jpg",
+    "path": "<TEMP>/leifeng-research/337.jpg",
+    "bytes": 26822,
+    "sha256": "3d3163becb09bb0102f4806dbdb9391020f820b8f5179e97c86563f949173e21",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/93/925/396.jpg",
+    "path": "<TEMP>/leifeng-research/396.jpg",
+    "bytes": 61218,
+    "sha256": "ec90cd891d2088c06aab1020b45b00634ebfb0c96105627e92b96cc382b354d8",
+    "status": "reference-cache-only"
+  },
+  {
+    "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+    "error": "HTTP Error 403: Forbidden",
+    "status": "failed"
+  }
+]

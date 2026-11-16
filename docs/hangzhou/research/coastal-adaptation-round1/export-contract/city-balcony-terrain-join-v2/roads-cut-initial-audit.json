@@ -1,0 +1,2335 @@
+[
+  {
+    "id": "way/157967583#0",
+    "name": "之江路",
+    "tier": -1,
+    "grade": "-1",
+    "bridge": "no",
+    "tunnel": "yes",
+    "widthGame": 6.0,
+    "allSourceFields": {
+      "id": "way/157967583#0",
+      "sourceId": "way/157967583",
+      "name": "之江路",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3274.8979208986298,
+          -1995.2876361095382
+        ],
+        [
+          3313.57840856034,
+          -1923.325875669475
+        ]
+      ],
+      "nodeIds": [
+        "361013734",
+        "361013736"
+      ],
+      "grade": "-1",
+      "bridge": "no",
+      "tunnel": "yes",
+      "elevationStatus": "pending-deck-ramp-and-DEM",
+      "heights": [
+        5.852615903429586,
+        5.373177284613926
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "asphaltCutArea": 278.7526036508442,
+    "pavementCutArea": 167.25156219052693,
+    "byGroup": {
+      "city-balcony:dry-main": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      },
+      "city-balcony:west-finger": {
+        "asphalt": 122.95291362449649,
+        "pavement": 73.77174817470622,
+        "centrelineLength": 20.492152270749777
+      },
+      "city-balcony:east-finger": {
+        "asphalt": 155.79969002634772,
+        "pavement": 93.47981401582071,
+        "centrelineLength": 25.96661500439185
+      }
+    },
+    "centrelineSamples": [
+      {
+        "xz": [
+          3277.4923438515493,
+          -1990.4609326653876
+        ],
+        "segment": 0,
+        "t": 0.06707317073170732,
+        "sourceRoadHeight": 5.820458435094389,
+        "F1": 5.8830645172682825,
+        "cutGround": 5.232895114028314,
+        "roadMinusCut": 0.5875633210660753,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3277.9640571157165,
+          -1989.5833502209969
+        ],
+        "segment": 0,
+        "t": 0.07926829268292683,
+        "sourceRoadHeight": 5.814611622669808,
+        "F1": 5.876001758481744,
+        "cutGround": 5.2336708673209795,
+        "roadMinusCut": 0.5809407553488288,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3278.4357703798837,
+          -1988.7057677766056
+        ],
+        "segment": 0,
+        "t": 0.09146341463414634,
+        "sourceRoadHeight": 5.808764810245227,
+        "F1": 5.865963196118008,
+        "cutGround": 5.232910344586613,
+        "roadMinusCut": 0.5758544656586144,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3278.907483644051,
+          -1987.8281853322146
+        ],
+        "segment": 0,
+        "t": 0.10365853658536585,
+        "sourceRoadHeight": 5.802917997820646,
+        "F1": 5.852532127022206,
+        "cutGround": 5.229705185164792,
+        "roadMinusCut": 0.5732128126558544,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3279.3791969082185,
+          -1986.9506028878236
+        ],
+        "segment": 0,
+        "t": 0.11585365853658537,
+        "sourceRoadHeight": 5.797071185396065,
+        "F1": 5.835550339432911,
+        "cutGround": 5.226500025742969,
+        "roadMinusCut": 0.5705711596530953,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3279.8509101723853,
+          -1986.0730204434326
+        ],
+        "segment": 0,
+        "t": 0.12804878048780488,
+        "sourceRoadHeight": 5.791224372971484,
+        "F1": 5.822122491911591,
+        "cutGround": 5.223294866321151,
+        "roadMinusCut": 0.5679295066503327,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3280.3226234365525,
+          -1985.1954379990416
+        ],
+        "segment": 0,
+        "t": 0.1402439024390244,
+        "sourceRoadHeight": 5.785377560546902,
+        "F1": 5.809054858456757,
+        "cutGround": 5.22008970689933,
+        "roadMinusCut": 0.5652878536475718,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3280.7943367007197,
+          -1984.3178555546506
+        ],
+        "segment": 0,
+        "t": 0.1524390243902439,
+        "sourceRoadHeight": 5.779530748122321,
+        "F1": 5.796307590698,
+        "cutGround": 5.216884547477509,
+        "roadMinusCut": 0.5626462006448119,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3281.266049964887,
+          -1983.4402731102596
+        ],
+        "segment": 0,
+        "t": 0.16463414634146342,
+        "sourceRoadHeight": 5.77368393569774,
+        "F1": 5.784206085250251,
+        "cutGround": 5.213679388055689,
+        "roadMinusCut": 0.560004547642051,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3281.7377632290545,
+          -1982.5626906658686
+        ],
+        "segment": 0,
+        "t": 0.17682926829268292,
+        "sourceRoadHeight": 5.767837123273159,
+        "F1": 5.773044141492162,
+        "cutGround": 5.210474228633865,
+        "roadMinusCut": 0.5573628946392937,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3282.2094764932217,
+          -1981.6851082214775
+        ],
+        "segment": 0,
+        "t": 0.18902439024390244,
+        "sourceRoadHeight": 5.761990310848578,
+        "F1": 5.763083683901604,
+        "cutGround": 5.207269069212044,
+        "roadMinusCut": 0.5547212416365337,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3282.681189757389,
+          -1980.8075257770865
+        ],
+        "segment": 0,
+        "t": 0.20121951219512196,
+        "sourceRoadHeight": 5.756143498423997,
+        "F1": 5.754554568498021,
+        "cutGround": 5.204063909790223,
+        "roadMinusCut": 0.5520795886337737,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3283.1529030215556,
+          -1979.9299433326955
+        ],
+        "segment": 0,
+        "t": 0.21341463414634146,
+        "sourceRoadHeight": 5.750296685999415,
+        "F1": 5.747654450785304,
+        "cutGround": 5.200858750368405,
+        "roadMinusCut": 0.5494379356310102,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3283.624616285723,
+          -1979.0523608883045
+        ],
+        "segment": 0,
+        "t": 0.22560975609756098,
+        "sourceRoadHeight": 5.744449873574833,
+        "F1": 5.742548696411982,
+        "cutGround": 5.197653590946585,
+        "roadMinusCut": 0.5467962826282484,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3284.09632954989,
+          -1978.1747784439135
+        ],
+        "segment": 0,
+        "t": 0.23780487804878048,
+        "sourceRoadHeight": 5.738603061150252,
+        "F1": 5.739370317263481,
+        "cutGround": 5.194448431524764,
+        "roadMinusCut": 0.5441546296254884,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3284.5680428140577,
+          -1977.2971959995223
+        ],
+        "segment": 0,
+        "t": 0.25,
+        "sourceRoadHeight": 5.732756248725671,
+        "F1": 5.727196235070255,
+        "cutGround": 5.19124327210294,
+        "roadMinusCut": 0.5415129766227311,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3285.039756078225,
+          -1976.4196135551313
+        ],
+        "segment": 0,
+        "t": 0.2621951219512195,
+        "sourceRoadHeight": 5.72690943630109,
+        "F1": 5.706800921290592,
+        "cutGround": 5.188038112681119,
+        "roadMinusCut": 0.5388713236199711,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3285.5114693423916,
+          -1975.5420311107403
+        ],
+        "segment": 0,
+        "t": 0.27439024390243905,
+        "sourceRoadHeight": 5.7210626238765085,
+        "F1": 5.687771614319589,
+        "cutGround": 5.184832953259302,
+        "roadMinusCut": 0.5362296706172067,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3285.983182606559,
+          -1974.6644486663492
+        ],
+        "segment": 0,
+        "t": 0.2865853658536585,
+        "sourceRoadHeight": 5.715215811451927,
+        "F1": 5.670860192655726,
+        "cutGround": 5.181627793837481,
+        "roadMinusCut": 0.5335880176144459,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3286.454895870726,
+          -1973.7868662219582
+        ],
+        "segment": 0,
+        "t": 0.29878048780487804,
+        "sourceRoadHeight": 5.709368999027346,
+        "F1": 5.654683620154823,
+        "cutGround": 5.17842263441566,
+        "roadMinusCut": 0.5309463646116859,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3286.9266091348936,
+          -1972.9092837775672
+        ],
+        "segment": 0,
+        "t": 0.31097560975609756,
+        "sourceRoadHeight": 5.703522186602765,
+        "F1": 5.638507047653918,
+        "cutGround": 5.175217474993837,
+        "roadMinusCut": 0.5283047116089277,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3297.776014210739,
+          -1952.7248875565738
+        ],
+        "segment": 0,
+        "t": 0.5914634146341463,
+        "sourceRoadHeight": 5.569045500837397,
+        "F1": 5.511860963281913,
+        "cutGround": 5.078738640814229,
+        "roadMinusCut": 0.4903068600231686,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3298.2477274749062,
+          -1951.8473051121832
+        ],
+        "segment": 0,
+        "t": 0.6036585365853658,
+        "sourceRoadHeight": 5.563198688412816,
+        "F1": 5.5103798175573235,
+        "cutGround": 5.0790704389556875,
+        "roadMinusCut": 0.48412824945712885,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3298.7194407390734,
+          -1950.969722667792
+        ],
+        "segment": 0,
+        "t": 0.6158536585365854,
+        "sourceRoadHeight": 5.5573518759882345,
+        "F1": 5.508898671832731,
+        "cutGround": 5.079324191757186,
+        "roadMinusCut": 0.4780276842310487,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3299.1911540032406,
+          -1950.092140223401
+        ],
+        "segment": 0,
+        "t": 0.6280487804878049,
+        "sourceRoadHeight": 5.551505063563654,
+        "F1": 5.507417526108139,
+        "cutGround": 5.0793441162768955,
+        "roadMinusCut": 0.47216094728675806,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3299.662867267408,
+          -1949.21455777901
+        ],
+        "segment": 0,
+        "t": 0.6402439024390244,
+        "sourceRoadHeight": 5.545658251139072,
+        "F1": 5.505936380383546,
+        "cutGround": 5.079364040796604,
+        "roadMinusCut": 0.46629421034246743,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3300.134580531575,
+          -1948.3369753346187
+        ],
+        "segment": 0,
+        "t": 0.6524390243902439,
+        "sourceRoadHeight": 5.539811438714491,
+        "F1": 5.504455234658972,
+        "cutGround": 5.079383965316312,
+        "roadMinusCut": 0.4604274733981786,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3300.606293795742,
+          -1947.4593928902277
+        ],
+        "segment": 0,
+        "t": 0.6646341463414634,
+        "sourceRoadHeight": 5.53396462628991,
+        "F1": 5.499904458109405,
+        "cutGround": 5.079403889836022,
+        "roadMinusCut": 0.45456073645388795,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3301.0780070599094,
+          -1946.5818104458367
+        ],
+        "segment": 0,
+        "t": 0.676829268292683,
+        "sourceRoadHeight": 5.528117813865329,
+        "F1": 5.4938851753862155,
+        "cutGround": 5.07942381435573,
+        "roadMinusCut": 0.4486939995095991,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3301.5497203240766,
+          -1945.7042280014457
+        ],
+        "segment": 0,
+        "t": 0.6890243902439024,
+        "sourceRoadHeight": 5.522271001440748,
+        "F1": 5.487865892663027,
+        "cutGround": 5.0794437388754385,
+        "roadMinusCut": 0.44282726256530935,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3302.021433588244,
+          -1944.826645557055
+        ],
+        "segment": 0,
+        "t": 0.7012195121951219,
+        "sourceRoadHeight": 5.516424189016166,
+        "F1": 5.481846609939837,
+        "cutGround": 5.079375216780531,
+        "roadMinusCut": 0.437048972235635,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3302.493146852411,
+          -1943.949063112664
+        ],
+        "segment": 0,
+        "t": 0.7134146341463414,
+        "sourceRoadHeight": 5.510577376591585,
+        "F1": 5.47581574796753,
+        "cutGround": 5.079341377372483,
+        "roadMinusCut": 0.43123599921910216,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3302.964860116578,
+          -1943.071480668273
+        ],
+        "segment": 0,
+        "t": 0.725609756097561,
+        "sourceRoadHeight": 5.504730564167004,
+        "F1": 5.469063357349279,
+        "cutGround": 5.079418088743741,
+        "roadMinusCut": 0.42531247542326334,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3303.4365733807454,
+          -1942.1938982238817
+        ],
+        "segment": 0,
+        "t": 0.7378048780487805,
+        "sourceRoadHeight": 5.498883751742422,
+        "F1": 5.461408954823831,
+        "cutGround": 5.079484455338069,
+        "roadMinusCut": 0.4193992964043529,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3303.908286644912,
+          -1941.3163157794907
+        ],
+        "segment": 0,
+        "t": 0.75,
+        "sourceRoadHeight": 5.493036939317841,
+        "F1": 5.4531718499556145,
+        "cutGround": 5.079369312815482,
+        "roadMinusCut": 0.41366762650235955,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3304.3799999090797,
+          -1940.4387333350996
+        ],
+        "segment": 0,
+        "t": 0.7621951219512195,
+        "sourceRoadHeight": 5.48719012689326,
+        "F1": 5.4446353095420195,
+        "cutGround": 5.0792541702928995,
+        "roadMinusCut": 0.40793595660036086,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3304.851713173247,
+          -1939.5611508907086
+        ],
+        "segment": 0,
+        "t": 0.774390243902439,
+        "sourceRoadHeight": 5.481343314468679,
+        "F1": 5.436047683449274,
+        "cutGround": 5.07929368740264,
+        "roadMinusCut": 0.402049627066039,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3305.323426437414,
+          -1938.6835684463176
+        ],
+        "segment": 0,
+        "t": 0.7865853658536586,
+        "sourceRoadHeight": 5.4754965020440975,
+        "F1": 5.427298521366857,
+        "cutGround": 5.079281822066393,
+        "roadMinusCut": 0.3962146799777049,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3305.795139701581,
+          -1937.8059860019266
+        ],
+        "segment": 0,
+        "t": 0.7987804878048781,
+        "sourceRoadHeight": 5.469649689619517,
+        "F1": 5.4186537736865406,
+        "cutGround": 5.079139291860993,
+        "roadMinusCut": 0.3905103977585238,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3306.2668529657485,
+          -1936.9284035575358
+        ],
+        "segment": 0,
+        "t": 0.8109756097560976,
+        "sourceRoadHeight": 5.463802877194936,
+        "F1": 5.410492783952503,
+        "cutGround": 5.078996761655598,
+        "roadMinusCut": 0.3848061155393374,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3306.7385662299157,
+          -1936.0508211131446
+        ],
+        "segment": 0,
+        "t": 0.823170731707317,
+        "sourceRoadHeight": 5.457956064770355,
+        "F1": 5.402978672818512,
+        "cutGround": 5.078954519325715,
+        "roadMinusCut": 0.3790015454446394,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3307.210279494083,
+          -1935.1732386687536
+        ],
+        "segment": 0,
+        "t": 0.8353658536585366,
+        "sourceRoadHeight": 5.452109252345773,
+        "F1": 5.396270606071957,
+        "cutGround": 5.078858459429932,
+        "roadMinusCut": 0.37325079291584107,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3307.68199275825,
+          -1934.2956562243626
+        ],
+        "segment": 0,
+        "t": 0.8475609756097561,
+        "sourceRoadHeight": 5.446262439921192,
+        "F1": 5.3904850198110825,
+        "cutGround": 5.078688842004335,
+        "roadMinusCut": 0.3675735979168566,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3308.1537060224173,
+          -1933.4180737799716
+        ],
+        "segment": 0,
+        "t": 0.8597560975609756,
+        "sourceRoadHeight": 5.440415627496611,
+        "F1": 5.385664347584355,
+        "cutGround": 5.07851922457874,
+        "roadMinusCut": 0.3618964029178713,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3308.6254192865845,
+          -1932.5404913355806
+        ],
+        "segment": 0,
+        "t": 0.8719512195121951,
+        "sourceRoadHeight": 5.434568815072029,
+        "F1": 5.38183332006333,
+        "cutGround": 5.078403991826698,
+        "roadMinusCut": 0.35616482324533116,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3309.0971325507517,
+          -1931.6629088911895
+        ],
+        "segment": 0,
+        "t": 0.8841463414634146,
+        "sourceRoadHeight": 5.428722002647448,
+        "F1": 5.378998169118492,
+        "cutGround": 5.078217979952935,
+        "roadMinusCut": 0.35050402269451286,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3309.568845814919,
+          -1930.7853264467985
+        ],
+        "segment": 0,
+        "t": 0.8963414634146342,
+        "sourceRoadHeight": 5.422875190222867,
+        "F1": 5.3770852706014844,
+        "cutGround": 5.078021570852289,
+        "roadMinusCut": 0.34485361937057846,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "way/157967585#0",
+    "name": "之江路",
+    "tier": -1,
+    "grade": "-1",
+    "bridge": "no",
+    "tunnel": "yes",
+    "widthGame": 6.0,
+    "allSourceFields": {
+      "id": "way/157967585#0",
+      "sourceId": "way/157967585",
+      "name": "之江路",
+      "kind": "primary",
+      "width": 6.0,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": true,
+      "points": [
+        [
+          3304.676123191187,
+          -1921.1774655925005
+        ],
+        [
+          3269.488425833467,
+          -1991.0706330482174
+        ]
+      ],
+      "nodeIds": [
+        "136998205",
+        "136998158"
+      ],
+      "grade": "-1",
+      "bridge": "no",
+      "tunnel": "yes",
+      "elevationStatus": "pending-deck-ramp-and-DEM",
+      "heights": [
+        5.375012797396557,
+        5.933717193351623
+      ],
+      "directionBasis": "explicit-forward"
+    },
+    "asphaltCutArea": 281.0166040009584,
+    "pavementCutArea": 168.6099624005413,
+    "byGroup": {
+      "city-balcony:dry-main": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      },
+      "city-balcony:west-finger": {
+        "asphalt": 116.4766259631037,
+        "pavement": 69.88597557784212,
+        "centrelineLength": 19.41277099384849
+      },
+      "city-balcony:east-finger": {
+        "asphalt": 164.53997803785472,
+        "pavement": 98.72398682269915,
+        "centrelineLength": 27.423329672974084
+      }
+    },
+    "centrelineSamples": [
+      {
+        "xz": [
+          3303.1171745740726,
+          -1924.2739983278802
+        ],
+        "segment": 0,
+        "t": 0.04430379746835443,
+        "sourceRoadHeight": 5.39976552379963,
+        "F1": 5.378005803669605,
+        "cutGround": 5.0189768750618775,
+        "roadMinusCut": 0.3807886487377523,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3302.6717606834686,
+          -1925.1587219665603
+        ],
+        "segment": 0,
+        "t": 0.056962025316455694,
+        "sourceRoadHeight": 5.406837731343364,
+        "F1": 5.378054590030916,
+        "cutGround": 5.018186079082091,
+        "roadMinusCut": 0.38865165226127285,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3302.226346792864,
+          -1926.0434456052403
+        ],
+        "segment": 0,
+        "t": 0.06962025316455696,
+        "sourceRoadHeight": 5.4139099388871,
+        "F1": 5.3785773928888965,
+        "cutGround": 5.017311059205746,
+        "roadMinusCut": 0.39659887968135354,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3301.7809329022602,
+          -1926.9281692439204
+        ],
+        "segment": 0,
+        "t": 0.08227848101265822,
+        "sourceRoadHeight": 5.420982146430834,
+        "F1": 5.379757692030538,
+        "cutGround": 5.01615673249857,
+        "roadMinusCut": 0.40482541393226423,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3301.3355190116563,
+          -1927.8128928826002
+        ],
+        "segment": 0,
+        "t": 0.0949367088607595,
+        "sourceRoadHeight": 5.428054353974568,
+        "F1": 5.38174416510623,
+        "cutGround": 5.014775611892015,
+        "roadMinusCut": 0.41327874208255366,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3300.8901051210523,
+          -1928.6976165212802
+        ],
+        "segment": 0,
+        "t": 0.10759493670886076,
+        "sourceRoadHeight": 5.435126561518304,
+        "F1": 5.384650980861508,
+        "cutGround": 5.013206992738116,
+        "roadMinusCut": 0.4219195687801882,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3300.4446912304484,
+          -1929.58234015996
+        ],
+        "segment": 0,
+        "t": 0.12025316455696203,
+        "sourceRoadHeight": 5.44219876906204,
+        "F1": 5.388558228813454,
+        "cutGround": 5.011596807010788,
+        "roadMinusCut": 0.43060196205125223,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3299.999277339844,
+          -1930.46706379864
+        ],
+        "segment": 0,
+        "t": 0.13291139240506328,
+        "sourceRoadHeight": 5.449270976605773,
+        "F1": 5.392225325365812,
+        "cutGround": 5.009907635597672,
+        "roadMinusCut": 0.43936334100810104,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3299.55386344924,
+          -1931.3517874373201
+        ],
+        "segment": 0,
+        "t": 0.14556962025316456,
+        "sourceRoadHeight": 5.45634318414951,
+        "F1": 5.3954707557818935,
+        "cutGround": 5.008751631337558,
+        "roadMinusCut": 0.44759155281195184,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3299.1084495586365,
+          -1932.2365110760002
+        ],
+        "segment": 0,
+        "t": 0.15822784810126583,
+        "sourceRoadHeight": 5.463415391693245,
+        "F1": 5.398798581119296,
+        "cutGround": 5.009645688486656,
+        "roadMinusCut": 0.45376970320658927,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3298.663035668032,
+          -1933.12123471468
+        ],
+        "segment": 0,
+        "t": 0.17088607594936708,
+        "sourceRoadHeight": 5.470487599236979,
+        "F1": 5.402156416672421,
+        "cutGround": 5.0105397456357466,
+        "roadMinusCut": 0.459947853601232,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3298.217621777428,
+          -1934.0059583533598
+        ],
+        "segment": 0,
+        "t": 0.18354430379746836,
+        "sourceRoadHeight": 5.4775598067807145,
+        "F1": 5.405512108378657,
+        "cutGround": 5.01143380278484,
+        "roadMinusCut": 0.4661260039958748,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3297.772207886824,
+          -1934.8906819920398
+        ],
+        "segment": 0,
+        "t": 0.1962025316455696,
+        "sourceRoadHeight": 5.4846320143244505,
+        "F1": 5.408747535651288,
+        "cutGround": 5.012327859933934,
+        "roadMinusCut": 0.47230415439051665,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3297.3267939962197,
+          -1935.77540563072
+        ],
+        "segment": 0,
+        "t": 0.2088607594936709,
+        "sourceRoadHeight": 5.491704221868185,
+        "F1": 5.411719368970687,
+        "cutGround": 5.013221917083026,
+        "roadMinusCut": 0.4784823047851585,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3296.881380105616,
+          -1936.6601292694
+        ],
+        "segment": 0,
+        "t": 0.22151898734177214,
+        "sourceRoadHeight": 5.498776429411921,
+        "F1": 5.414353957410813,
+        "cutGround": 5.01411597423212,
+        "roadMinusCut": 0.4846604551798004,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3296.435966215012,
+          -1937.5448529080797
+        ],
+        "segment": 0,
+        "t": 0.23417721518987342,
+        "sourceRoadHeight": 5.505848636955655,
+        "F1": 5.4166368127176625,
+        "cutGround": 5.015010031381214,
+        "roadMinusCut": 0.4908386055744405,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3295.990552324408,
+          -1938.42957654676
+        ],
+        "segment": 0,
+        "t": 0.2468354430379747,
+        "sourceRoadHeight": 5.512920844499389,
+        "F1": 5.418476020319361,
+        "cutGround": 5.015904088530309,
+        "roadMinusCut": 0.4970167559690797,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3295.545138433804,
+          -1939.3143001854396
+        ],
+        "segment": 0,
+        "t": 0.25949367088607594,
+        "sourceRoadHeight": 5.519993052043125,
+        "F1": 5.419812206174475,
+        "cutGround": 5.0167981456794015,
+        "roadMinusCut": 0.5031949063637233,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3295.0997245432,
+          -1940.1990238241196
+        ],
+        "segment": 0,
+        "t": 0.2721518987341772,
+        "sourceRoadHeight": 5.527065259586859,
+        "F1": 5.42060093206066,
+        "cutGround": 5.0176922028284965,
+        "roadMinusCut": 0.5093730567583625,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3294.654310652596,
+          -1941.0837474627997
+        ],
+        "segment": 0,
+        "t": 0.2848101265822785,
+        "sourceRoadHeight": 5.534137467130595,
+        "F1": 5.420794283002916,
+        "cutGround": 5.018586259977591,
+        "roadMinusCut": 0.5155512071530044,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3294.2088967619916,
+          -1941.9684711014795
+        ],
+        "segment": 0,
+        "t": 0.2974683544303797,
+        "sourceRoadHeight": 5.541209674674329,
+        "F1": 5.421813186659619,
+        "cutGround": 5.019480317126681,
+        "roadMinusCut": 0.521729357547648,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3293.763482871388,
+          -1942.8531947401598
+        ],
+        "segment": 0,
+        "t": 0.310126582278481,
+        "sourceRoadHeight": 5.548281882218065,
+        "F1": 5.428123731671769,
+        "cutGround": 5.02037437427578,
+        "roadMinusCut": 0.5279075079422855,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3293.318068980784,
+          -1943.7379183788394
+        ],
+        "segment": 0,
+        "t": 0.3227848101265823,
+        "sourceRoadHeight": 5.5553540897618,
+        "F1": 5.434434276683918,
+        "cutGround": 5.021268431424873,
+        "roadMinusCut": 0.5340856583369273,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3292.8726550901797,
+          -1944.6226420175194
+        ],
+        "segment": 0,
+        "t": 0.33544303797468356,
+        "sourceRoadHeight": 5.562426297305535,
+        "F1": 5.440744821696051,
+        "cutGround": 5.022162488573963,
+        "roadMinusCut": 0.5402638087315719,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3292.4272411995753,
+          -1945.5073656561995
+        ],
+        "segment": 0,
+        "t": 0.34810126582278483,
+        "sourceRoadHeight": 5.569498504849269,
+        "F1": 5.4470553667082084,
+        "cutGround": 5.023056545723055,
+        "roadMinusCut": 0.5464419591262146,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3291.981827308972,
+          -1946.3920892948795
+        ],
+        "segment": 0,
+        "t": 0.36075949367088606,
+        "sourceRoadHeight": 5.576570712393005,
+        "F1": 5.4533659117203515,
+        "cutGround": 5.0244658419773485,
+        "roadMinusCut": 0.5521048704156568,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3291.5364134183674,
+          -1947.2768129335595
+        ],
+        "segment": 0,
+        "t": 0.37341772151898733,
+        "sourceRoadHeight": 5.5836429199367394,
+        "F1": 5.459676456732509,
+        "cutGround": 5.027197503439743,
+        "roadMinusCut": 0.5564454164969961,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3291.0909995277634,
+          -1948.1615365722391
+        ],
+        "segment": 0,
+        "t": 0.3860759493670886,
+        "sourceRoadHeight": 5.5907151274804745,
+        "F1": 5.463893932915369,
+        "cutGround": 5.0309496909883125,
+        "roadMinusCut": 0.559765436492162,
+        "owners": [
+          "city-balcony:east-finger"
+        ]
+      },
+      {
+        "xz": [
+          3280.4010661532666,
+          -1969.3949039005583
+        ],
+        "segment": 0,
+        "t": 0.689873417721519,
+        "sourceRoadHeight": 5.760448108530116,
+        "F1": 5.634569268119637,
+        "cutGround": 5.189647545323919,
+        "roadMinusCut": 0.5708005632061965,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3279.9556522626617,
+          -1970.2796275392382
+        ],
+        "segment": 0,
+        "t": 0.7025316455696202,
+        "sourceRoadHeight": 5.76752031607385,
+        "F1": 5.656623370944597,
+        "cutGround": 5.196235261140947,
+        "roadMinusCut": 0.5712850549329032,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3279.5102383720578,
+          -1971.1643511779182
+        ],
+        "segment": 0,
+        "t": 0.7151898734177216,
+        "sourceRoadHeight": 5.774592523617586,
+        "F1": 5.679725855948549,
+        "cutGround": 5.202822976957973,
+        "roadMinusCut": 0.5717695466596133,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3279.064824481454,
+          -1972.0490748165982
+        ],
+        "segment": 0,
+        "t": 0.7278481012658228,
+        "sourceRoadHeight": 5.78166473116132,
+        "F1": 5.703548363709214,
+        "cutGround": 5.2083451261988145,
+        "roadMinusCut": 0.5733196049625056,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3278.61941059085,
+          -1972.933798455278
+        ],
+        "segment": 0,
+        "t": 0.740506329113924,
+        "sourceRoadHeight": 5.788736938705055,
+        "F1": 5.726867882358733,
+        "cutGround": 5.214086335926781,
+        "roadMinusCut": 0.5746506027782745,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3278.173996700246,
+          -1973.818522093958
+        ],
+        "segment": 0,
+        "t": 0.7531645569620253,
+        "sourceRoadHeight": 5.795809146248791,
+        "F1": 5.749031077637934,
+        "cutGround": 5.220265247984137,
+        "roadMinusCut": 0.5755438982646544,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3277.728582809642,
+          -1974.7032457326382
+        ],
+        "segment": 0,
+        "t": 0.7658227848101266,
+        "sourceRoadHeight": 5.802881353792525,
+        "F1": 5.769790714330701,
+        "cutGround": 5.226444160041493,
+        "roadMinusCut": 0.5764371937510324,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3277.283168919038,
+          -1975.587969371318
+        ],
+        "segment": 0,
+        "t": 0.7784810126582279,
+        "sourceRoadHeight": 5.809953561336261,
+        "F1": 5.788966669077334,
+        "cutGround": 5.232623072098847,
+        "roadMinusCut": 0.577330489237414,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3276.837755028434,
+          -1976.472693009998
+        ],
+        "segment": 0,
+        "t": 0.7911392405063291,
+        "sourceRoadHeight": 5.817025768879995,
+        "F1": 5.806405941703008,
+        "cutGround": 5.238676398608911,
+        "roadMinusCut": 0.5783493702710842,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3276.39234113783,
+          -1977.357416648678
+        ],
+        "segment": 0,
+        "t": 0.8037974683544303,
+        "sourceRoadHeight": 5.82409797642373,
+        "F1": 5.822006691272073,
+        "cutGround": 5.243494100275678,
+        "roadMinusCut": 0.5806038761480528,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3275.9469272472256,
+          -1978.2421402873579
+        ],
+        "segment": 0,
+        "t": 0.8164556962025317,
+        "sourceRoadHeight": 5.8311701839674654,
+        "F1": 5.829873737622369,
+        "cutGround": 5.248311801942449,
+        "roadMinusCut": 0.5828583820250168,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3275.501513356621,
+          -1979.126863926038
+        ],
+        "segment": 0,
+        "t": 0.8291139240506329,
+        "sourceRoadHeight": 5.8382423915112005,
+        "F1": 5.832789402121189,
+        "cutGround": 5.2531295036092205,
+        "roadMinusCut": 0.58511288790198,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3275.0560994660177,
+          -1980.0115875647177
+        ],
+        "segment": 0,
+        "t": 0.8417721518987342,
+        "sourceRoadHeight": 5.845314599054936,
+        "F1": 5.8360530460539435,
+        "cutGround": 5.2584197681739075,
+        "roadMinusCut": 0.586894830881028,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3274.6106855754138,
+          -1980.8963112033978
+        ],
+        "segment": 0,
+        "t": 0.8544303797468354,
+        "sourceRoadHeight": 5.852386806598671,
+        "F1": 5.839310151498059,
+        "cutGround": 5.264196552888637,
+        "roadMinusCut": 0.5881902537100334,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3274.1652716848093,
+          -1981.7810348420778
+        ],
+        "segment": 0,
+        "t": 0.8670886075949367,
+        "sourceRoadHeight": 5.859459014142406,
+        "F1": 5.845977215748866,
+        "cutGround": 5.2694811727717505,
+        "roadMinusCut": 0.5899778413706551,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3273.7198577942054,
+          -1982.6657584807579
+        ],
+        "segment": 0,
+        "t": 0.879746835443038,
+        "sourceRoadHeight": 5.866531221686141,
+        "F1": 5.859867248341975,
+        "cutGround": 5.273913091789042,
+        "roadMinusCut": 0.5926181298970983,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3273.2744439036014,
+          -1983.5504821194377
+        ],
+        "segment": 0,
+        "t": 0.8924050632911392,
+        "sourceRoadHeight": 5.873603429229875,
+        "F1": 5.870753002205976,
+        "cutGround": 5.278345010806334,
+        "roadMinusCut": 0.5952584184235405,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3272.8290300129975,
+          -1984.4352057581175
+        ],
+        "segment": 0,
+        "t": 0.9050632911392406,
+        "sourceRoadHeight": 5.880675636773611,
+        "F1": 5.878445423780444,
+        "cutGround": 5.282776929823627,
+        "roadMinusCut": 0.5978987069499837,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      },
+      {
+        "xz": [
+          3272.383616122393,
+          -1985.3199293967975
+        ],
+        "segment": 0,
+        "t": 0.9177215189873418,
+        "sourceRoadHeight": 5.887747844317346,
+        "F1": 5.883678039222192,
+        "cutGround": 5.287208848840924,
+        "roadMinusCut": 0.6005389954764215,
+        "owners": [
+          "city-balcony:west-finger"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "way/336828925#0",
+    "name": "支路",
+    "tier": 0.0,
+    "grade": "0",
+    "bridge": "no",
+    "tunnel": "no",
+    "widthGame": 4.5,
+    "allSourceFields": {
+      "id": "way/336828925#0",
+      "sourceId": "way/336828925",
+      "name": "支路",
+      "kind": "service",
+      "width": 4.5,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": false,
+      "points": [
+        [
+          3222.1019418443016,
+          -2092.9438489554955
+        ],
+        [
+          3235.9807317453638,
+          -2090.45621623485
+        ],
+        [
+          3251.470246431509,
+          -2073.195769951362
+        ],
+        [
+          3260.880574026861,
+          -2054.32567896614
+        ],
+        [
+          3263.2360425288794,
+          -2049.4568363150997
+        ],
+        [
+          3270.8335830906785,
+          -2028.1523240044758
+        ]
+      ],
+      "nodeIds": [
+        "3439149586",
+        "3439149587",
+        "3439149588",
+        "10935463454",
+        "3439149589",
+        "3439149590"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        4.757597800196787,
+        4.284008482214795,
+        4.555631105880335,
+        4.958691331000607,
+        5.123058815732846,
+        5.655308741779709
+      ],
+      "directionBasis": "no-oneway-restriction-recorded"
+    },
+    "asphaltCutArea": 126.26209921270247,
+    "pavementCutArea": 87.85834558331473,
+    "byGroup": {
+      "city-balcony:dry-main": {
+        "asphalt": 126.26209921270247,
+        "pavement": 87.85834558331473,
+        "centrelineLength": 28.05905553189153
+      },
+      "city-balcony:west-finger": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      },
+      "city-balcony:east-finger": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      }
+    },
+    "centrelineSamples": [
+      {
+        "xz": [
+          3261.0768630686957,
+          -2053.919942078553
+        ],
+        "segment": 3,
+        "t": 0.08333333333333333,
+        "sourceRoadHeight": 4.97238862139496,
+        "F1": 5.053523932793293,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.414486618252945,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3261.469441152365,
+          -2053.10846830338
+        ],
+        "segment": 3,
+        "t": 0.25,
+        "sourceRoadHeight": 4.999783202183667,
+        "F1": 5.063867601447058,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.441881199041652,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3261.862019236035,
+          -2052.2969945282066
+        ],
+        "segment": 3,
+        "t": 0.4166666666666667,
+        "sourceRoadHeight": 5.027177782972373,
+        "F1": 5.07334072945963,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.469275779830358,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3262.2545973197048,
+          -2051.485520753033
+        ],
+        "segment": 3,
+        "t": 0.5833333333333334,
+        "sourceRoadHeight": 5.05457236376108,
+        "F1": 5.082802535371545,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.496670360619065,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3262.6471754033746,
+          -2050.6740469778597
+        ],
+        "segment": 3,
+        "t": 0.75,
+        "sourceRoadHeight": 5.081966944549786,
+        "F1": 5.092651122233058,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.5240649414077714,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3263.0397534870444,
+          -2049.8625732026862
+        ],
+        "segment": 3,
+        "t": 0.9166666666666666,
+        "sourceRoadHeight": 5.109361525338493,
+        "F1": 5.103032365896633,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.5514595221964784,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3263.4012064541357,
+          -2048.9936947431297
+        ],
+        "segment": 4,
+        "t": 0.021739130434782608,
+        "sourceRoadHeight": 5.134629466299082,
+        "F1": 5.11383316157773,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.5767274631570674,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3263.7315343046494,
+          -2048.0674115991897
+        ],
+        "segment": 4,
+        "t": 0.06521739130434782,
+        "sourceRoadHeight": 5.157770767431555,
+        "F1": 5.125161358328479,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.59986876428954,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3264.061862155162,
+          -2047.1411284552491
+        ],
+        "segment": 4,
+        "t": 0.10869565217391304,
+        "sourceRoadHeight": 5.180912068564027,
+        "F1": 5.137249913498228,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.6230100654220116,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3264.3921900056753,
+          -2046.214845311309
+        ],
+        "segment": 4,
+        "t": 0.15217391304347827,
+        "sourceRoadHeight": 5.204053369696499,
+        "F1": 5.150219851238926,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.6461513665544842,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3264.7225178561876,
+          -2045.288562167369
+        ],
+        "segment": 4,
+        "t": 0.1956521739130435,
+        "sourceRoadHeight": 5.227194670828971,
+        "F1": 5.164322328216902,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.669292667686956,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3265.052845706701,
+          -2044.362279023429
+        ],
+        "segment": 4,
+        "t": 0.2391304347826087,
+        "sourceRoadHeight": 5.250335971961444,
+        "F1": 5.179797065351054,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.6924339688194294,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3265.383173557214,
+          -2043.435995879489
+        ],
+        "segment": 4,
+        "t": 0.2826086956521739,
+        "sourceRoadHeight": 5.273477273093917,
+        "F1": 5.196859167827324,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.715575269951902,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3265.7135014077267,
+          -2042.5097127355484
+        ],
+        "segment": 4,
+        "t": 0.32608695652173914,
+        "sourceRoadHeight": 5.296618574226389,
+        "F1": 5.215727207312763,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.7387165710843737,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3266.0438292582403,
+          -2041.5834295916081
+        ],
+        "segment": 4,
+        "t": 0.3695652173913043,
+        "sourceRoadHeight": 5.31975987535886,
+        "F1": 5.236613977481522,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.7618578722168454,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3266.374157108753,
+          -2040.6571464476679
+        ],
+        "segment": 4,
+        "t": 0.41304347826086957,
+        "sourceRoadHeight": 5.342901176491333,
+        "F1": 5.259709668860074,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.784999173349318,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3266.7044849592658,
+          -2039.7308633037278
+        ],
+        "segment": 4,
+        "t": 0.45652173913043476,
+        "sourceRoadHeight": 5.366042477623806,
+        "F1": 5.285154542749443,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.8081404744817906,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3267.034812809779,
+          -2038.8045801597877
+        ],
+        "segment": 4,
+        "t": 0.5,
+        "sourceRoadHeight": 5.389183778756278,
+        "F1": 5.3129978315404,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.831281775614263,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3267.365140660292,
+          -2037.8782970158477
+        ],
+        "segment": 4,
+        "t": 0.5434782608695652,
+        "sourceRoadHeight": 5.41232507988875,
+        "F1": 5.343140186661589,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.854423076746735,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3267.695468510805,
+          -2036.9520138719072
+        ],
+        "segment": 4,
+        "t": 0.5869565217391305,
+        "sourceRoadHeight": 5.4354663810212225,
+        "F1": 5.375259590153921,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.8775643778792075,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3268.025796361318,
+          -2036.0257307279671
+        ],
+        "segment": 4,
+        "t": 0.6304347826086957,
+        "sourceRoadHeight": 5.458607682153695,
+        "F1": 5.408726655913245,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.90070567901168,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3268.356124211831,
+          -2035.099447584027
+        ],
+        "segment": 4,
+        "t": 0.6739130434782609,
+        "sourceRoadHeight": 5.481748983286167,
+        "F1": 5.442525791174791,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.923846980144152,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3268.686452062344,
+          -2034.173164440087
+        ],
+        "segment": 4,
+        "t": 0.717391304347826,
+        "sourceRoadHeight": 5.504890284418639,
+        "F1": 5.4752128821778765,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.9469882812766244,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3269.016779912857,
+          -2033.2468812961467
+        ],
+        "segment": 4,
+        "t": 0.7608695652173914,
+        "sourceRoadHeight": 5.528031585551112,
+        "F1": 5.505235260013584,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.970129582409097,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3269.3471077633703,
+          -2032.3205981522065
+        ],
+        "segment": 4,
+        "t": 0.8043478260869565,
+        "sourceRoadHeight": 5.5511728866835846,
+        "F1": 5.534302005548284,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 3.9932708835415696,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3269.677435613883,
+          -2031.3943150082664
+        ],
+        "segment": 4,
+        "t": 0.8478260869565217,
+        "sourceRoadHeight": 5.574314187816056,
+        "F1": 5.562510705548356,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 4.016412184674041,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3270.007763464396,
+          -2030.4680318643261
+        ],
+        "segment": 4,
+        "t": 0.8913043478260869,
+        "sourceRoadHeight": 5.597455488948528,
+        "F1": 5.588965240532823,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 4.039553485806513,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3270.338091314909,
+          -2029.541748720386
+        ],
+        "segment": 4,
+        "t": 0.9347826086956522,
+        "sourceRoadHeight": 5.6205967900810005,
+        "F1": 5.612696703018265,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 4.062694786938986,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      },
+      {
+        "xz": [
+          3270.668419165422,
+          -2028.615465576446
+        ],
+        "segment": 4,
+        "t": 0.9782608695652174,
+        "sourceRoadHeight": 5.643738091213473,
+        "F1": 5.632743519178352,
+        "cutGround": 1.5579020031420152,
+        "roadMinusCut": 4.085836088071458,
+        "owners": [
+          "city-balcony:dry-main"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "way/441932823#0",
+    "name": "支路",
+    "tier": 0.0,
+    "grade": "0",
+    "bridge": "no",
+    "tunnel": "no",
+    "widthGame": 4.5,
+    "allSourceFields": {
+      "id": "way/441932823#0",
+      "sourceId": "way/441932823",
+      "name": "支路",
+      "kind": "service",
+      "width": 4.5,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": false,
+      "points": [
+        [
+          3229.9130910689323,
+          -2035.1895310056484
+        ],
+        [
+          3231.731651310077,
+          -2022.0596192661515
+        ],
+        [
+          3234.069800190962,
+          -2013.0070306758762
+        ],
+        [
+          3255.89252308059,
+          -1978.8785721473405
+        ],
+        [
+          3257.1337626101817,
+          -1973.923260979207
+        ],
+        [
+          3250.2059140731926,
+          -1968.5888186210889
+        ],
+        [
+          3216.247909830702,
+          -1943.9918512390716
+        ],
+        [
+          3212.7782123554366,
+          -1941.4776128208048
+        ],
+        [
+          3140.9479694467527,
+          -1887.8405265660206
+        ],
+        [
+          3099.6695385838766,
+          -1856.9646145628008
+        ],
+        [
+          3051.053361479482,
+          -1820.594626016206
+        ],
+        [
+          3047.595210418579,
+          -1818.5326844563242
+        ],
+        [
+          3043.911904279662,
+          -1819.8563179091568
+        ],
+        [
+          2989.8400464534757,
+          -1890.5742619890154
+        ],
+        [
+          2980.7068327995376,
+          -1902.5202201875427
+        ]
+      ],
+      "nodeIds": [
+        "5569102465",
+        "5569102464",
+        "5569102463",
+        "5569102462",
+        "5569095924",
+        "10935463451",
+        "5569102450",
+        "5569095923",
+        "5569095922",
+        "5569102436",
+        "5569095921",
+        "5569095920",
+        "4396220147",
+        "5570620518",
+        "4396220148"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        6.123463945230183,
+        6.200362701154099,
+        6.27805410877862,
+        5.884799239717608,
+        5.783869469606789,
+        5.690644349941382,
+        5.231865049215884,
+        5.184287254690114,
+        5.363225177021982,
+        5.260954707867217,
+        4.296711844065667,
+        4.267832310596516,
+        4.269848480424754,
+        5.037847876868238,
+        5.085138386726526
+      ],
+      "directionBasis": "no-oneway-restriction-recorded"
+    },
+    "asphaltCutArea": 0.0,
+    "pavementCutArea": 1.9212653190609388,
+    "byGroup": {
+      "city-balcony:dry-main": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      },
+      "city-balcony:west-finger": {
+        "asphalt": 0.0,
+        "pavement": 1.9212653190609388,
+        "centrelineLength": 0.0
+      },
+      "city-balcony:east-finger": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      }
+    },
+    "centrelineSamples": []
+  },
+  {
+    "id": "way/582256534#0",
+    "name": "支路",
+    "tier": 0.0,
+    "grade": "0",
+    "bridge": "no",
+    "tunnel": "no",
+    "widthGame": 4.5,
+    "allSourceFields": {
+      "id": "way/582256534#0",
+      "sourceId": "way/582256534",
+      "name": "支路",
+      "kind": "service",
+      "width": 4.5,
+      "widthStatus": "upstream-gameplay-clearance; not surveyed width",
+      "oneway": false,
+      "points": [
+        [
+          3238.780737195819,
+          -1874.2716208170677
+        ],
+        [
+          3246.0780709874794,
+          -1878.8012408244379
+        ],
+        [
+          3267.7449172852675,
+          -1892.2570723589124
+        ],
+        [
+          3271.5263679442132,
+          -1896.4607725713045
+        ],
+        [
+          3295.918167999512,
+          -1914.4927840836913
+        ],
+        [
+          3299.6303401739247,
+          -1914.958383790769
+        ],
+        [
+          3301.4893128641065,
+          -1911.9519399680394
+        ],
+        [
+          3324.483996797973,
+          -1866.40963719199
+        ],
+        [
+          3330.9904012152497,
+          -1855.5478611684105
+        ],
+        [
+          3341.2089778069394,
+          -1839.3649456356416
+        ],
+        [
+          3342.8312490055646,
+          -1834.7422056867144
+        ],
+        [
+          3342.60032072078,
+          -1829.8866658843663
+        ],
+        [
+          3339.3500051159376,
+          -1825.7228742182886
+        ],
+        [
+          3334.240716820092,
+          -1822.4902819663664
+        ],
+        [
+          3330.7536997236934,
+          -1822.0246822592885
+        ]
+      ],
+      "nodeIds": [
+        "5569096046",
+        "5569096291",
+        "5569096040",
+        "5569096047",
+        "5569096048",
+        "5569096049",
+        "5569096050",
+        "5569096051",
+        "5569096052",
+        "5569096053",
+        "5569096054",
+        "5569096055",
+        "5569096056",
+        "5569096057",
+        "5569096058"
+      ],
+      "grade": "0",
+      "bridge": "no",
+      "tunnel": "no",
+      "elevationStatus": "pending-DEM",
+      "heights": [
+        5.027103873300839,
+        5.0597026753568475,
+        5.207655431485742,
+        5.231856117142786,
+        5.355989060707626,
+        5.383403201896459,
+        5.398881788935357,
+        5.464821871286756,
+        5.428557572156457,
+        5.215364368256154,
+        5.249028147762998,
+        5.317241372889752,
+        5.385693088857295,
+        5.448484924913914,
+        5.492826063858516
+      ],
+      "directionBasis": "no-oneway-restriction-recorded"
+    },
+    "asphaltCutArea": 0.0,
+    "pavementCutArea": 0.00023341866738465488,
+    "byGroup": {
+      "city-balcony:dry-main": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      },
+      "city-balcony:west-finger": {
+        "asphalt": 0.0,
+        "pavement": 0.0,
+        "centrelineLength": 0.0
+      },
+      "city-balcony:east-finger": {
+        "asphalt": 0.0,
+        "pavement": 0.00023341866738465488,
+        "centrelineLength": 0.0
+      }
+    },
+    "centrelineSamples": []
+  }
+]

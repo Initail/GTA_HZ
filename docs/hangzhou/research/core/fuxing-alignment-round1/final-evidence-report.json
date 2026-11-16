@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-16T04:33:19+00:00",
+  "reviewedBy": "Codex child leifeng_candidate",
+  "id": "fuxing-alignment",
+  "status": "finite estimated axis candidate evidence-ready; all-way/full approach acceptance blocked",
+  "module": "scripts/landmarks/fuxing_alignment.py",
+  "moduleSha256": "b098c2dabf3dbfda20f45a12341b9f5c9ab28fb6c3351c029e19383bfd48fe14",
+  "spec": "docs/hangzhou/research/core/fuxing-alignment-round1/spec.json",
+  "specSha256": "88badd4328b6154936e48edb0a1be94dfc2ef90ae4a69affe1a74accbdc8cb67",
+  "frozenInputsUnchanged": {
+    "scripts/landmarks/qiantang_bridges.py": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+    "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+    "scripts/landmarks/qiantang_bridge_collision.py": "f7c661b027b1551604259f6d72a57fe9da1522541c718459dd17b8ee40377fa3"
+  },
+  "axis": {
+    "centerWGS84": [
+      120.17491023246365,
+      30.209804734010763
+    ],
+    "centerGameEN": [
+      1149.4589569435811,
+      -4269.899577139778
+    ],
+    "radiansEastCCW": -1.0621113150790997,
+    "shiftTransversePhysicalM": 7.889329651525673,
+    "angleDeltaDegrees": -0.04113607215461031,
+    "lowerOuterMidpointShiftPhysicalM": 7.88414985017577,
+    "basis": "map-derived estimate, fixed source midpoint OLS, equal10m stations over±500m",
+    "uncertainty": "±5 physical metres (±3 game units at .60) assumed reconstruction allowance, not measured error bound or statistical confidence; station datum remains original estimate±35m",
+    "absoluteAccuracy": "unknown; both layers may share imagery/mapping provenance; agreement is not an independent geodetic survey"
+  },
+  "geometry": {
+    "triangles": 14592,
+    "materials": 3,
+    "faces": 7252,
+    "solidEnvelopeCount": 2636,
+    "roadSurfaceRegions": 46,
+    "widthSmallM": 26.4,
+    "widthLargeM": 32,
+    "widthChange": 0,
+    "sourceRoadsRelocated": false,
+    "sourceVerticalProfilesChanged": false,
+    "maxRigidTransformVertexDifferenceGame": 1.8189894035458565e-12
+  },
+  "interfaces": [
+    "build(b,lm,spec,scale=.6)",
+    "ground_footprints(lm,spec,scale=.6)",
+    "walk_surfaces(lm,spec,scale=.6)",
+    "source_road_profiles(lm,spec,scale=.6,endpoint_heights_game=None,allow_estimated=False)",
+    "profile_alignment_audit(lm,spec,scale=.6,allow_estimated=False,endpoint_heights_game=None)",
+    "axis_evidence()"
+  ],
+  "poseContract": {
+    "anchorGameEN": [
+      1149.4589569435811,
+      -4269.899577139778
+    ],
+    "baseYGame": 0.9,
+    "baseYMeaning": "original estimated river display datum, already game units",
+    "scale": 0.6
+  },
+  "allWayComparison": [
+    {
+      "sourceWayId": "way/29169666",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/154135283",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 2,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/29170042",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 2,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/154135290",
+      "deck": "upper",
+      "oldMainMismatchSourceNodes": 2,
+      "oldMainMismatchSamples": 36,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 6,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/336983476",
+      "deck": "lower",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 3,
+      "newMainMismatchSamples": 23,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/340648409",
+      "deck": "lower",
+      "oldMainMismatchSourceNodes": 0,
+      "oldMainMismatchSamples": 0,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    },
+    {
+      "sourceWayId": "way/589429905",
+      "deck": "lower",
+      "oldMainMismatchSourceNodes": 10,
+      "oldMainMismatchSamples": 72,
+      "newMainMismatchSourceNodes": 0,
+      "newMainMismatchSamples": 0,
+      "remainingOutsideMainSourceNodes": 4,
+      "navigationAccepted": false
+    }
+  ],
+  "remainingMismatchNodes": [
+    {
+      "kind": "source-node",
+      "nodeId": "3623284229",
+      "point": [
+        944.9874064046583,
+        -3924.1940568392447
+      ],
+      "height": 8.1,
+      "stationM": -669.1964479507911,
+      "transverseM": -17.02308923719295,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 2.2938535423156483,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "source-node",
+      "nodeId": "3440750971",
+      "point": [
+        950.9742221813733,
+        -3934.137936297361
+      ],
+      "height": 8.1,
+      "stationM": -649.8621211502649,
+      "transverseM": -16.380022791607644,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.9080136749645615,
+      "surfaceAvailable": false
+    },
+    {
+      "kind": "source-node",
+      "nodeId": "3440750974",
+      "point": [
+        1341.7279724644443,
+        -4634.1803987285175
+      ],
+      "height": 8.1,
+      "stationM": 686.3304678568206,
+      "transverseM": -15.817299560222637,
+      "actualDeckRegionIds": [],
+      "actualHeightGame": null,
+      "heightDifferenceGame": null,
+      "geometryAbsenceReason": "remaining transverse width/alignment mismatch",
+      "planDistanceToActualDeckGame": 1.5703797361334608,
+      "surfaceAvailable": false
+    }
+  ],
+  "remainingMismatchSampleCount": 23,
+  "minimumIdentifiableBoundary": {
+    "intervalM": [
+      -416.9,
+      416.9
+    ],
+    "lengthM": 833.8,
+    "basis": "original estimated stations covering2large190m and5central85m arches; dimensions come from original primary paper span sequence, not a fabricated field extent",
+    "sourceNodeAndSampleRecordsCompared": 233,
+    "allSourceCenterPointsInsideCandidateDeck": true,
+    "actorClearanceAccepted": false,
+    "fullBridgeAccepted": false
+  },
+  "classification": [
+    {
+      "issue": "original structural axis offset relative to fixed source road system",
+      "status": "supported relative model-parameter mismatch",
+      "evidence": "upper paired-carriageway midpoint offset7.8893m; lower outer-pair midpoint offset7.8841m overcentral±500m; old axis lies near one upper carriageway",
+      "action": "rigidly transform structural vertices; preserve every road WGS/node/point/height"
+    },
+    {
+      "issue": "need to widen entire deck to contain a line envelope",
+      "status": "unsupported",
+      "evidence": "primary2008 source reports26.4m small/32m large, both levels equal; OSM centreline mapping does not define deck edge",
+      "action": "reported widths retained, no blanket widening"
+    },
+    {
+      "issue": "wrong CRS or duplicate scaling in frozen road input",
+      "status": "not observed in CPU contract",
+      "evidence": "exact fixed source coordinates/node order, canonical city projection and once.60 tests pass; this does not verify source map absolute accuracy",
+      "action": "input fixed WGS preserved"
+    },
+    {
+      "issue": "absolute geodetic bridge centre/edge accuracy",
+      "status": "unknown",
+      "evidence": "source imagery/mapping history and on-site independent control unavailable; upper/lower maps may share provenance",
+      "action": "estimated hypothesis, assumed±5physical m reconstruction allowance, no measured-accuracy claim"
+    },
+    {
+      "issue": "remaining near-end lower336983476 offsets",
+      "status": "unknown cause; exact geometry gaps retained",
+      "evidence": "3source nodes/23samples near ends; no independent deck-edge/ramp/curve survey",
+      "alternatives": [
+        "generalized or inaccurate source carriageway placement",
+        "local horizontal curve absent from straight finite body",
+        "unmodelled widening/cantilever/bank ramp",
+        "original longitudinal main-boundary/station estimate"
+      ],
+      "action": "no road relocation or automatic traffic closure; full all-way passage remains blocked"
+    }
+  ],
+  "taskStages": {
+    "fuxing-alignment": {
+      "exitCode": 0,
+      "recordedStage": "evidence-ready",
+      "passed": true
+    },
+    "fuxing-complete-alignment": {
+      "exitCode": 2,
+      "recordedStage": "planned",
+      "passed": false
+    }
+  },
+  "baseBuildingIdsToExclude": [],
+  "integration": "select standalone new Fuxing geometry/collisions instead of old Fuxing portion in a new parent assembly; original mixed-material three-bridge artifact remains frozen; source road table stays fixed",
+  "CPUExitCode": 0,
+  "checks": {
+    "finiteNondegenerateCandidate": true,
+    "triangleMaterialBudget": true,
+    "rigidCorrectionOnlyNoWidthOrHeightChange": true,
+    "exactRigidTransformOfOriginalAllVertices": true,
+    "frameRestoredSuccessAndFailure": true,
+    "scaleOnceAndGameDatum": true,
+    "sourceAnchorShiftCompensation": true,
+    "collisionVerticesMatchActualCandidateFaces": true,
+    "solidEnvelopesNonemptyAndHeightBounded": true,
+    "sourceWayCoordinatesNodeOrderAndHeightUnchanged": true,
+    "allSevenWaysAuditedIncludingNewFailures": true,
+    "specifiedWayMainTransverseGapsResolved": true,
+    "sourceRoadsDoNotFollowWrongModelPose": true,
+    "overrideHeightDoesNotWarpSolidDeck": true,
+    "frozenInputsUnchanged": true,
+    "noSceneImports": true
+  },
+  "modelExported": false,
+  "BlenderRun": false,
+  "browserRun": false,
+  "navigationAccepted": false,
+  "runtimeAccepted": false,
+  "pending": [
+    "remaining northern lower source-road mismatch after axis correction",
+    "actual lane/road-edge widths and source placement accuracy",
+    "reported-width applicability to cantilevers/viewing decks and approaches",
+    "measured absolute height/longitudinal grade/bank abutments",
+    "actor clearance and road-specific permissions",
+    "parent export/placement/replacement/collisions",
+    "in-game views/night/browser/performance"
+  ],
+  "evidenceSha256": {
+    "docs/hangzhou/research/core/fuxing-alignment-round1/cpu-validation.json": "5333578f3ff3832a5b6a3c798d9c12d0781750bcd0a21e129e239583357067a4",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/cpu-run-result.json": "7a1030e2badb21347a49b5d630e811d5a7dea00ddd86c7f2ad7a907a3ef0fdfc",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/axis-fit-evidence.json": "e264e7959d24391081c31979e60127c53418c28f4706b9a51637031fc7f5c1b9",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/source-alignment-audit.json": "da3cbec4329169c1a0950bf36a657d2c64938ceb230a22e615a225d132f13f05",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/all-way-comparison.json": "de6f10f910e1b69c7b05fe23238e915e0479630db4704a668c27759724ddc092",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/negative-controls.json": "41b05f6ee854ad1f392005e3cb691e0f0c0fe860df83fc78f9618d0b5b5fd987",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/source-review.json": "85c9fccb1f6c06b0abe4876b4c7af1b434f57eb3e84a31c04dbc1e20de1d926d",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/input-vs-model-classification.json": "3d27f91ac21c8d22eb1a7135e1531ae118e71593f74ea8b8abf1f646e2b26bc1",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/stage-status.json": "17aa2609c963b93bdcdd8e7dcdc0b55958fb67d87c631db67a1e67c9b1db899a",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/integration-notes.md": "6fe1f4602d41a0ac88860f6a8083a4a54c8b3858659eb4d954df5d0f2a3cfd55"
+  }
+}

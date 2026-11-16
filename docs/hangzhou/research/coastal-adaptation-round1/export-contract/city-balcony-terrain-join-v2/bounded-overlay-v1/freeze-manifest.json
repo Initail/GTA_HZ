@@ -1,0 +1,13 @@
+{
+  "files": {
+    "candidate-contract.json": "bf130e20e246d6af16d71f3830f8c5fed102a085789c525f6e063f7d039199ae",
+    "local-terrain.npz": "c6599772754f0317bc2de310a9f6ef1ceb123e079f1747e7b7db1e764d022c6f",
+    "top-provenance.json": "64e8cf13773f4bdbcb3a5d21657f3b0a0a32cb371f1e352815f34a96864f9b03",
+    "vertical-boundaries.json": "ab1e1c07ea28f713f74d1180658f8abf2c0cc1a1eee2e24d0b202e3bd4cc0d52",
+    "build-report.json": "56e64c47c79a7c4a97acdf8d5dd9f452eb64f91df3ded1edea8861f2d5dfe014",
+    "validation.json": "966b6d565b5558ccc6162f87cc11074b2ffa5fa14e3b123da835cfe88f71fe66",
+    "coverage-report.json": "84aaae7fa3b2060b1f3256327ebec5b7b14b8bb317d96219a8db7ab7b8801924",
+    "final-frame-and-open-edge-check.json": "96f8ed5c7485526b5eb1f81e1bf985d0a1bcb3ed510e573fadc95dd8bc2f84c8"
+  },
+  "physicsSitesSha256": "db0fd4739fd81574f44fc581569d9322cb4aefaf0eb66d87c5490cf9e7919658"
+}

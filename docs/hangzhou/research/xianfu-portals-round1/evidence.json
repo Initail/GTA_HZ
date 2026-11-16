@@ -1,0 +1,223 @@
+{
+  "scope": "way697096305 and two portals; topology evidence only",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "fixed-pbf"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      119.9841891,
+      30.2036877
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "fixed-pbf"
+    ]
+  },
+  "sources": [
+    {
+      "id": "fixed-pbf",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "local": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "scope": "fixed node/way/relation topology, geometry, metadata; not survey accuracy",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-11-11"
+    },
+    {
+      "id": "osm-layer-semantics",
+      "url": "https://wiki.openstreetmap.org/wiki/Key:layer",
+      "scope": "layer represents vertical ordering; not absolute elevation or metric clearance; checked 2026-11-11",
+      "publisher": "OpenStreetMap Wiki",
+      "accessedAt": "2026-11-11"
+    },
+    {
+      "id": "osm-residential-semantics",
+      "url": "https://wiki.openstreetmap.org/wiki/Tag:highway=residential",
+      "scope": "mapped road class semantics only; not local legal access guarantee; checked 2026-11-11",
+      "publisher": "OpenStreetMap Wiki",
+      "accessedAt": "2026-11-11"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "orientation",
+      "value": 53.349998340885215,
+      "unit": "degrees clockwise from north",
+      "basis": "measured",
+      "sourceIds": [
+        "fixed-pbf"
+      ],
+      "uncertainty": "Computed by pyproj.Geod WGS84 from OSM endpoints; source positional error unknown; not a field survey."
+    },
+    {
+      "kind": "layout",
+      "value": {
+        "portals": [
+          {
+            "nodeId": 6547053710,
+            "wgs84": [
+              119.9840438,
+              30.2035938
+            ],
+            "gamePoint": [
+              -9869.655499698503,
+              -4683.015156575961
+            ],
+            "connectedWayIds": [
+              697096305,
+              1418959639
+            ],
+            "nearestUpperCentrelineLocalMetres": 7.230769826597128
+          },
+          {
+            "nodeId": 6547053711,
+            "wgs84": [
+              119.9843344,
+              30.2037816
+            ],
+            "gamePoint": [
+              -9852.878559826138,
+              -4670.523781577727
+            ],
+            "connectedWayIds": [
+              697096305,
+              697096306
+            ],
+            "nearestUpperCentrelineLocalMetres": 7.230269224144267
+          }
+        ],
+        "crossings": [
+          {
+            "upperWay": 358503184,
+            "wgs84": [
+              119.98412110553336,
+              30.203643758634428
+            ],
+            "distanceFromWestPortalLocalMetres": 9.273695440629794,
+            "sharedSourceNodeIds": [],
+            "navigationJunction": false,
+            "upperTags": {
+              "highway": "trunk",
+              "name": "闲富路",
+              "oneway": "yes",
+              "ref": "G235;G320"
+            }
+          },
+          {
+            "upperWay": 697096309,
+            "wgs84": [
+              119.98425933677488,
+              30.203733090455348
+            ],
+            "distanceFromWestPortalLocalMetres": 25.856136290631287,
+            "sharedSourceNodeIds": [],
+            "navigationJunction": false,
+            "upperTags": {
+              "highway": "trunk",
+              "name": "闲富路",
+              "oneway": "yes",
+              "ref": "G235;G320"
+            }
+          }
+        ],
+        "busRelations": [
+          {
+            "relationId": 19412493,
+            "version": 3,
+            "timestamp": "2025-12-07 06:28:50+00:00",
+            "tags": {
+              "from": "沈家坞",
+              "name": "2482路：沈家坞 -> 闲林公交总站",
+              "name:zh": "2482路：沈家坞 -> 闲林公交总站",
+              "opening_hours": "Mo-Su 06:00-19:00",
+              "public_transport:version": "2",
+              "ref": "2482",
+              "route": "bus",
+              "to": "闲林公交总站",
+              "type": "route"
+            },
+            "memberIndicesZeroBased": [
+              27,
+              28,
+              29
+            ],
+            "orderedWayRefs": [
+              1418959639,
+              697096305,
+              697096306
+            ],
+            "directionOrderValidated": false
+          },
+          {
+            "relationId": 19412494,
+            "version": 2,
+            "timestamp": "2025-12-07 06:28:50+00:00",
+            "tags": {
+              "from": "闲林公交总站",
+              "name": "2482路：闲林公交总站 -> 沈家坞",
+              "name:zh": "2482路：闲林公交总站 -> 沈家坞",
+              "opening_hours": "Mo-Su 06:00-18:30",
+              "public_transport:version": "2",
+              "ref": "2482",
+              "route": "bus",
+              "to": "沈家坞",
+              "type": "route"
+            },
+            "memberIndicesZeroBased": [
+              32,
+              33,
+              34
+            ],
+            "orderedWayRefs": [
+              1418959639,
+              697096305,
+              697096306
+            ],
+            "directionOrderValidated": false
+          }
+        ]
+      },
+      "basis": "reported",
+      "sourceIds": [
+        "fixed-pbf"
+      ],
+      "uncertainty": "OSM topology and route membership, not confirmation of present physical condition or operator service."
+    }
+  ],
+  "unknowns": [
+    "width",
+    "maxwidth",
+    "height",
+    "maxheight",
+    "lanes",
+    "ele",
+    "incline",
+    "surface",
+    "lit",
+    "sidewalk",
+    "embankment",
+    "cutting"
+  ],
+  "blockers": [
+    "No located multi-direction portal photos or measured portal/road boundaries",
+    "No measured width, clearance, absolute elevation or retaining-wall structure",
+    "Current candidate source-surface overlap remains; no physical/runtime/visual validation"
+  ],
+  "sourceSnapshots": {
+    "fixed-osm-context.json": "d5b92a5a0b37ec8698f0a498ce86b1432df5c61d728478bbacb66855ae52ddc9",
+    "measurements.json": "bcdd92b239f9b4f8f24e5863f445fa0bfce81ef2f14815056b40f9558c40f04a"
+  },
+  "pendingSubscopes": [
+    "physical portal dimensions",
+    "retaining walls and layered cross-section",
+    "multiple view references",
+    "model",
+    "runtime verification"
+  ]
+}

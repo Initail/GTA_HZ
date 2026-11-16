@@ -1,0 +1,227 @@
+{
+  "scope": "有限道路开放与原始OSM身份调查",
+  "asOfDate": "2026-10-16",
+  "facts": [
+    {
+      "id": "road-open-2023",
+      "field": "opening",
+      "value": {
+        "云联路": "凤新路—文二西路",
+        "菜鸟北路": "云联路—数云路",
+        "date": "2023-05-12"
+      },
+      "classification": "reported",
+      "sourceIds": [
+        "gov-2023-opening"
+      ],
+      "confidence": "high",
+      "limitations": "Does not identify every OSM way or campus entrance and does not revoke all later/current vehicle-class restrictions."
+    },
+    {
+      "id": "ordinary-public-road-inference",
+      "field": "socialVehicleScope",
+      "value": "两段按一般市政道路通行处理有依据；未见只供园区职工/施工车/许可车的限制条款。",
+      "classification": "estimated",
+      "method": "Official police notice classifies municipal roads, opens bidirectional four-lane traffic, installs traffic enforcement, addresses pedestrians/vehicles and traffic markings. This is a semantic inference; metadata 公开范围=面向社会 alone is not evidence of physical access.",
+      "uncertainty": "Exact legal vehicle classes/current temporary signs not enumerated",
+      "sourceIds": [
+        "gov-2023-opening"
+      ],
+      "confidence": "medium-high"
+    },
+    {
+      "id": "road-parameters",
+      "field": "reportedRoadParameters",
+      "value": {
+        "云联路": {
+          "lengthMetres": 504,
+          "lanesTotal": 4,
+          "designSpeedKmh": 40,
+          "class": "城市主干路"
+        },
+        "菜鸟北路": {
+          "lengthMetres": 473,
+          "lanesTotal": 4,
+          "designSpeedKmh": 30,
+          "class": "城市支路"
+        },
+        "parking": "全路段禁止停车"
+      },
+      "classification": "reported",
+      "sourceIds": [
+        "gov-2023-opening"
+      ],
+      "limitations": "Design speed not automatically a current legal maxspeed. This task does not change gameplay control/speed rules."
+    },
+    {
+      "id": "raw-road-identity",
+      "field": "sourceGeometryAndTopology",
+      "value": {
+        "ways": 91,
+        "nodes": 13,
+        "restrictionRelations": 0,
+        "segments": 8
+      },
+      "classification": "measured",
+      "method": "Read frozen PBF with osmium locations and exact source node identities; selected line intersects bbox, whole ways retained. No geometry snaps or access mutation.",
+      "sourceIds": [
+        "fixed-geofabrik-pbf"
+      ],
+      "limitations": "OSM volunteered mapping, not cadastral/carriageway survey. Zero tagged barriers/turn restrictions locally does not prove none exists."
+    },
+    {
+      "id": "historical-restriction",
+      "field": "accessNoHistory",
+      "value": "way779247995 and779247992 retained access=no from2020 construction state into later open-road classifications. This is evidence of possible stale restriction, not proof of why the editor retained it.",
+      "classification": "reported",
+      "sourceIds": [
+        "osm-way-779247995-history",
+        "osm-way-779247992-history"
+      ],
+      "confidence": "high-for-tag-history-only"
+    },
+    {
+      "id": "2026-north-extension",
+      "field": "opening",
+      "value": {
+        "section": "云联路 文二西路—文一西路",
+        "effectiveDate": "2026-06-04",
+        "reportedLengthMetres": 350,
+        "reportedLanesTotal": 4,
+        "mappedWay": 1228913715
+      },
+      "classification": "reported",
+      "sourceIds": [
+        "official-weibo-index-2026",
+        "zjol-2026-opening"
+      ],
+      "confidence": "corroborated-report-primary-archive-incomplete",
+      "limitations": "Do not automatically replace construction way with surveyed dual carriageways. Complete stable primary notice, physical centerlines and current turn/entry layout pending."
+    },
+    {
+      "id": "2024-north-extension-plan",
+      "field": "constructionProgress",
+      "value": {
+        "section": "云联路 文二西路—文一西路",
+        "lengthMetres": 352,
+        "designSpeedKmh": 40,
+        "plannedReady": "2024-04"
+      },
+      "classification": "reported",
+      "sourceIds": [
+        "hangzhouwang-2024-progress"
+      ],
+      "limitations": "Ready condition planned at report time, not an observed opening date; no contradiction manufactured with actual reported2026 opening."
+    },
+    {
+      "id": "2025-exam-control",
+      "field": "temporaryTrafficControls",
+      "value": {
+        "dates": "2025-06-07..10",
+        "scope": "云联路 文二西路—菜鸟北路，在公告指定考试时段禁止任何机动车通行"
+      },
+      "classification": "reported",
+      "sourceIds": [
+        "gov-2025-exam-controls"
+      ],
+      "limitations": "2025 exam-only period already ended before research cutoff. Does not justify blanket access=no at all dates."
+    },
+    {
+      "id": "2026-exam-control",
+      "field": "temporaryTrafficControls",
+      "value": {
+        "examDates": "2026-06-07..2026-06-10",
+        "yunlian": "菜鸟北路—文一西路，规定时段禁止货车、机动车禁鸣；未列为所有机动车禁行路段",
+        "wener": "智溢路—云联路，规定时段禁止一切机动车通行",
+        "times": [
+          "06-07 08:00–12:00,14:00–17:30",
+          "06-08 08:00–11:00,14:00–17:30",
+          "06-09..10 07:00–12:30,14:00–17:00"
+        ],
+        "ending": "具体结束时间以现场管控措施为准"
+      },
+      "classification": "reported",
+      "sourceIds": [
+        "official-yuhang-release-2026-exam"
+      ],
+      "limitations": "Event-limited notice, not permanent access restriction; do not extrapolate to2026-10-16 or universal vehicle entry. It corroborates intended normal traffic on Yunlian north extension but does not survey geometry."
+    },
+    {
+      "id": "metric-differences",
+      "field": "mappedVersusReportedLength",
+      "value": [
+        {
+          "id": "yunlian-2023-northbound-inner-junctions",
+          "reportedMetres": 504,
+          "measuredMetres": 540.036,
+          "differenceMetres": 36.036,
+          "differencePercent": 7.15,
+          "note": "凤新路北侧 carriageway node13037359823→文二西路南侧13037359843；公告未给测量起讫断面。",
+          "doNotRescaleSourceToMatchReport": true
+        },
+        {
+          "id": "yunlian-2023-southbound-inner-junctions",
+          "reportedMetres": 504,
+          "measuredMetres": 543.972,
+          "differenceMetres": 39.972,
+          "differencePercent": 7.931,
+          "note": "文二西路公共路口7276172378→凤新路北侧13037359824。",
+          "doNotRescaleSourceToMatchReport": true
+        },
+        {
+          "id": "cainiao-north-inner-road-junction",
+          "reportedMetres": 473,
+          "measuredMetres": 488.75,
+          "differenceMetres": 15.75,
+          "differencePercent": 3.33,
+          "note": "云联路东侧 node13037359844→数云路西侧7276175685；含跨交叉口至东侧时更长。",
+          "doNotRescaleSourceToMatchReport": true
+        },
+        {
+          "id": "yunlian-2026-mapped-straight-centerline",
+          "reportedMetres": 350,
+          "measuredMetres": 337.339,
+          "differenceMetres": -12.661,
+          "differencePercent": -3.617,
+          "note": "OSM仅两个节点；350m来自官方账号搜索索引，2024设计进展报道为352m。",
+          "doNotRescaleSourceToMatchReport": true
+        }
+      ],
+      "classification": "measured",
+      "method": "ECEF→ENU source centerline length, inner-junction endpoint convention, raw WGS84 only. Reported lengths remain independently reported.",
+      "uncertainty": "Endpoint convention/design chainage/generalized volunteered alignment can differ; cause unconfirmed, no guessed correction",
+      "sourceIds": [
+        "fixed-geofabrik-pbf",
+        "gov-2023-opening"
+      ]
+    },
+    {
+      "id": "campus-services",
+      "field": "campusPublicAccess",
+      "value": null,
+      "classification": "unknown",
+      "sourceIds": [
+        "fixed-geofabrik-pbf",
+        "gov-2023-opening"
+      ],
+      "blocker": "Public-road notice does not grant campus service loop, bridges, forecourt, gate or vehicle entry. No access tag and no barrier node do not establish free entry."
+    },
+    {
+      "id": "current-signs",
+      "field": "asOf20261016TemporaryAndVehicleRestrictions",
+      "value": null,
+      "classification": "unknown",
+      "blocker": "No complete current on-site signed restriction inventory. Searches are finite and ranked; absence of a matching result is not proof of no later controls."
+    },
+    {
+      "id": "west-connection",
+      "field": "cainiaoNorthToYunlianSouthboundTurn",
+      "value": null,
+      "classification": "unknown",
+      "blocker": "Cainiao North west source node13037359844 only shares Yunlian northbound1466397036; near southbound7276172384 is a different node. Do not add a turn from 2D proximity alone."
+    }
+  ],
+  "sharedDataModified": false,
+  "visualGameValidation": false,
+  "fullCurrentTrafficCertification": false
+}

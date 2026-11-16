@@ -1,0 +1,52 @@
+{
+  "checkedAtUtc": "2026-10-16T04:29:28+00:00",
+  "command": [
+    ".venv/bin/python",
+    "scripts/landmark_tasks.py",
+    "check",
+    "--job",
+    "docs/hangzhou/research/core/fuxing-alignment-round1/task-bundles/fuxing-complete-alignment/job.json",
+    "--stage",
+    "evidence-ready",
+    "--record"
+  ],
+  "exitCode": 2,
+  "result": {
+    "id": "fuxing-complete-alignment",
+    "recordedStage": "planned",
+    "currentStage": "planned",
+    "errors": {
+      "evidence-ready": [
+        "evidence.blockers 尚未清空：[\"new candidate still has 3 in-main way/node mismatches and 23 in-main sample mismatches on other source road(s)\", \"actual source-carriageway placement and road-edge widths unavailable; cannot assign remaining mismatch to mapping error or missing physical widening/ramp\", \"full approach roads exceed finite1376m main structure; precise banks/abutments/grades not reconstructed\", \"absolute vertical datum/real actor clearance/current per-way permissions/browser/performance pending\"]"
+      ],
+      "modelled": [
+        "模型缺失或无效：[Errno 2] No such file or directory: 'artifacts/landmarks/fuxing-complete-alignment/model.glb'"
+      ],
+      "verified": [
+        "验收未绑定当前 GLB SHA256",
+        "验收未绑定当前 evidence.json SHA256",
+        "scale 尚未完成具名验收",
+        "scale 缺少可读取的验收证据文件",
+        "orientation 尚未完成具名验收",
+        "orientation 缺少可读取的验收证据文件",
+        "silhouette 尚未完成具名验收",
+        "silhouette 缺少可读取的验收证据文件",
+        "context 尚未完成具名验收",
+        "context 缺少可读取的验收证据文件",
+        "collision 尚未完成具名验收",
+        "collision 缺少可读取的验收证据文件",
+        "browser 尚未完成具名验收",
+        "browser 缺少可读取的验收证据文件",
+        "performance 尚未完成具名验收",
+        "performance 缺少可读取的验收证据文件",
+        "provenance 尚未完成具名验收",
+        "provenance 缺少可读取的验收证据文件"
+      ]
+    },
+    "modelStats": null,
+    "note": "检查结构与证据文件；照片/形体判断须由具名评审实际核对",
+    "requestedStage": "evidence-ready",
+    "passed": false
+  },
+  "stderr": ""
+}

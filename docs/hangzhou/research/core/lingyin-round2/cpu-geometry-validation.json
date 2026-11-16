@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-host-contract-only",
+  "at": "2026-10-13T11:19:50+00:00",
+  "reviewedBy": "landmark_evidence CPU recorder",
+  "sourceModuleSha256": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011",
+  "sourceSpecSha256": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93",
+  "hallCount": 5,
+  "faces": 11460,
+  "trianglesBeforeBlenderExport": 23844,
+  "materials": [
+    "civicred",
+    "concrete",
+    "darkglass",
+    "gold",
+    "landmarkglass",
+    "roof"
+  ],
+  "lights": 0,
+  "minimumFanTriangleAreaGameUnits2": 0.001439999999985543,
+  "hallPlacement": [
+    {
+      "id": "kings",
+      "sourceFeatureIds": [
+        "way/434365023"
+      ],
+      "centerGame": [
+        -3352.2791024473895,
+        -2104.8199671980906
+      ],
+      "heightGame": 11.991,
+      "heightBasis": "estimated"
+    },
+    {
+      "id": "grand",
+      "sourceFeatureIds": [
+        "way/434365024"
+      ],
+      "centerGame": [
+        -3367.393943665174,
+        -2056.6290785077995
+      ],
+      "heightGame": 20.151000000000003,
+      "heightBasis": "reported"
+    },
+    {
+      "id": "medicine",
+      "sourceFeatureIds": [
+        "way/434365025"
+      ],
+      "centerGame": [
+        -3379.9472414107418,
+        -2021.5739126662459
+      ],
+      "heightGame": 14.390999999999998,
+      "heightBasis": "estimated"
+    },
+    {
+      "id": "dharma",
+      "sourceFeatureIds": [
+        "way/434366739"
+      ],
+      "centerGame": [
+        -3387.590313551055,
+        -1996.7389590120981
+      ],
+      "heightGame": 13.790999999999997,
+      "heightBasis": "estimated"
+    },
+    {
+      "id": "huayan",
+      "sourceFeatureIds": [
+        "way/434366741"
+      ],
+      "centerGame": [
+        -3400.884518318537,
+        -1958.8465214687342
+      ],
+      "heightGame": 13.790999999999997,
+      "heightBasis": "estimated"
+    }
+  ],
+  "checks": [
+    "finite/nondegenerate triangle fans",
+    "five distinct source hall identities",
+    "double/triple-eave counts",
+    "canonical WGS84 centroid placement",
+    "uniform 0.60 dimension scale",
+    "game-unit baseY and translation preservation",
+    "B frame restored",
+    "reject repeated scale",
+    "provisional triangle/material/light budgets"
+  ],
+  "limitations": [
+    "No Blender was started; real exporter may triangulate differently.",
+    "This check is not visual, collision, browser or performance acceptance.",
+    "Roof samples have back faces; watertight joinery was not tested.",
+    "All five ground offsets are neutral candidate zero, not actual terrain."
+  ]
+}

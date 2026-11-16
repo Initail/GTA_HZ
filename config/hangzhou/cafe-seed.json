@@ -1,0 +1,6 @@
+{
+ "schemaVersion":1,"cityId":"hangzhou",
+ "scope":"Original fictional cafe prefab in existing game units; source-mapped roadside placement",
+ "sites":[{"id":"bamboo-cafe","name":"月白 · 女仆咖啡馆","landmark":"civic-center","offsetGame":[-230,60],"clearanceGame":{"width":28,"depth":48}}],
+ "missionPoints":{},"searchRadiusGame":500,"prefabClearanceGame":{"width":28,"depth":48}
+}

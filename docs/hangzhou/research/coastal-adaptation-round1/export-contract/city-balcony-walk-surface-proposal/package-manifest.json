@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/README.md",
+      "sha256": "2c11541504ef8394dc8d00c19bd993c5f488008960e86f2cda9ad457f2a246cb",
+      "bytes": 7373
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/check-site-interface.mjs",
+      "sha256": "78a3e934813b52c1e87267fab8170d36c86876c2f70f04c356921ff83c634c59",
+      "bytes": 2671
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/entry-seams.json",
+      "sha256": "2cc8d1232a18590967ef6c7793d2c6cbdbe0f8e81fd94ed644ee75a01b2597bd",
+      "bytes": 47687
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/input-bindings.json",
+      "sha256": "be9f3e1dbbff392501a3a2cf8b4dd37a86a8566c93ea32f6c45d63e7f1ee5daf",
+      "bytes": 2369
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/interface-input-bindings.json",
+      "sha256": "764af24fd73113cb111df6bdf1063429816eb1789544210e4136797ba8833d01",
+      "bytes": 2468
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/occupancy.json",
+      "sha256": "5b794ddcd8b1670c9b5a4cedad60aaf55a6c3aaaa989e21ff354dfb57f2a6cc2",
+      "bytes": 1349052
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/prepare-run2.log",
+      "sha256": "c8df535fa471277fc005f8ce71b09481c037a46197183f645b0dad0a5c304810",
+      "bytes": 2663
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/prepare-run3.log",
+      "sha256": "e64bba9d0d14480987db47206533a33cbb3c59e89f2c4185474d7a5a9d88ee90",
+      "bytes": 674
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/prepare.log",
+      "sha256": "b7fea0990f7da06e68b9212d9e05e23eaa9a2d0d3da2dd10e68a942a7b58d09f",
+      "bytes": 430
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/prepare.py",
+      "sha256": "6a62215fdf3a44985283c40850ca56f477f036b5ae86c0171fba3e18717d6db1",
+      "bytes": 17547
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/public-walk-surfaces.json",
+      "sha256": "174237be573ccb79c6f72c2ed0442587783ec44f153275f262f4b57ba14fbdf4",
+      "bytes": 436798
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/site-interface-check.log",
+      "sha256": "efb78b7f7da0be014715b12ae955d6e5c5a1d7fa203fd073da3ef33403e35252",
+      "bytes": 667
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/site-interface-validation.json",
+      "sha256": "38169eb3a0dfb94d53de96b2200c079a9dcdd1f623f3598edd6daf5f567f3669",
+      "bytes": 489
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/site-surfaces-all-public-geometry.json",
+      "sha256": "82b2291b2ff74292fae6fa0808cfa0a012254fa915c40debbf610a5948a4da70",
+      "bytes": 254162
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/site-surfaces-upper-only.json",
+      "sha256": "bb01a475b19660e20604e16e7eecba18e93046c5fa8379509bd3e8534b298f0d",
+      "bytes": 243815
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/validate-and-adapt-run2.log",
+      "sha256": "fed083c9deec3113d3e26085684d4783dcc2dcd38f391540da856622cd8c4d36",
+      "bytes": 1497
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/validate-and-adapt.log",
+      "sha256": "f4e247dc3553a01cc735e7549a4ba8320fc03768dcd6bbda9da66fc2e6383517",
+      "bytes": 1221
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/validate_and_adapt.py",
+      "sha256": "bee21724e870c3cf63806c4d841cf24ef04b7520428e75f2354a73fca74203d0",
+      "bytes": 4613
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-surface-proposal/validation.json",
+      "sha256": "fed083c9deec3113d3e26085684d4783dcc2dcd38f391540da856622cd8c4d36",
+      "bytes": 1497
+    }
+  ]
+}

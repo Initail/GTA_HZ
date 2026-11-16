@@ -1,0 +1,27 @@
+{
+  "algorithm": "SHA256",
+  "scope": "initial independent source/module delivery; mutable task stages require refresh after main integration",
+  "originalCoreResearchFilesUnchanged": 23,
+  "moduleSha256": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011",
+  "files": {
+    "docs/hangzhou/research/core/lingyin-round2/README.md": "3fdfa8ca3bcf22cfc26b108018fa2b63ba76dbcabc92cc1032ff0522ab586f59",
+    "docs/hangzhou/research/core/lingyin-round2/attempts.json": "6fd927209ab6650227dc7eeba4be6c5ba3f1894b8b844d1935f6329ebe2750a5",
+    "docs/hangzhou/research/core/lingyin-round2/cpu-geometry-validation.json": "d5cbaae262b880bb516360659f1103e5b8624ec4ec7e678f571f38d40ffcb9ab",
+    "docs/hangzhou/research/core/lingyin-round2/evidence.json": "6a0af421e6cffce8d725714922a38b5fcc6de2eac6af8f015d560d19a3e195f5",
+    "docs/hangzhou/research/core/lingyin-round2/freeze_lingyin.py": "b6da2d61f887416c1a9b40c6eb0bc244bdb90691117bc925703b020678721a1d",
+    "docs/hangzhou/research/core/lingyin-round2/geofabrik-lingyin-features.geojson": "068eb382a926cf23233c284dc540c4c2ec85e45c14e183e3f93c347ff0644fb3",
+    "docs/hangzhou/research/core/lingyin-round2/photo-review.json": "3ce02ec0c967d7be6ec87033565eef8812aa654d6f97b86814f356a5d04da1a7",
+    "docs/hangzhou/research/core/lingyin-round2/photo-review.md": "f0ebb4f0e9eefc07980f4f436453dd10d552f81376b6e4e5274621c747af9831",
+    "docs/hangzhou/research/core/lingyin-round2/record_review.py": "dcdbca3b95ea1a58eaf3e0a7231cb531685743b6dce84ae76086b80f36d1c8c9",
+    "docs/hangzhou/research/core/lingyin-round2/source-claims.json": "5ccdf2dfc675189198bd24041e4d773140b906051e254939581443387202e715",
+    "docs/hangzhou/research/core/lingyin-round2/spec.json": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93",
+    "docs/hangzhou/research/core/lingyin-round2/task-bundles/lingyin-temple/evidence.json": "6a0af421e6cffce8d725714922a38b5fcc6de2eac6af8f015d560d19a3e195f5",
+    "docs/hangzhou/research/core/lingyin-round2/task-bundles/lingyin-temple/job.json": "dacec8c85be59b818c12da3fa24ba9377c69c8a04945ea1c57663178a1dd2211",
+    "docs/hangzhou/research/core/lingyin-round2/task-bundles/lingyin-temple/model.json": "bdd9a0d3f0bf9fc723f72fb5b2c7ae0912e322a0c065b876d83a836741dbfc3e",
+    "docs/hangzhou/research/core/lingyin-round2/task-bundles/lingyin-temple/prompt.md": "a25df143f61db7110797a29330be1e5b6178af7d5f57ec713eaa1b7366df930b",
+    "docs/hangzhou/research/core/lingyin-round2/task-bundles/lingyin-temple/validation.json": "5166e89397bf12e6e8e51117cc3ca60ac689ea549e1e5e2d115d273b152d1224",
+    "docs/hangzhou/research/core/lingyin-round2/task-catalog.json": "90fb7dfa2061087dcca96f668528a0999894fea3472bac87c30ecb94104a849c",
+    "docs/hangzhou/research/core/lingyin-round2/validate_cpu.py": "c4e6f555f93709ba84d4594973323cf0c7c99ad28bd816ee8f84a65696ab2117",
+    "scripts/landmarks/lingyin_temple.py": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011"
+  }
+}

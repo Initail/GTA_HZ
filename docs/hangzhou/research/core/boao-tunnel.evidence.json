@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "placeId": "boao-tunnel",
+  "name": "博奥隧道（奥体至钱江新城必要过江通道）",
+  "type": "tunnel",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "boao-naming",
+      "boao-designer"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "boao-naming",
+      "url": "https://www.hangzhou.gov.cn/art/2021/11/12/art_1229063387_1804264.html",
+      "publisher": "杭州市人民政府",
+      "title": "杭州市人民政府关于对潮声路等部分道路桥梁隧道人行地道命名的批复",
+      "sourceDate": "2021-11-12",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "列博奥隧道2772m×9m和南北端位置；宽度未注明单管/整体口径。"
+    },
+    {
+      "id": "boao-designer",
+      "url": "https://www.hzyjfz.cn/index.php?a=detail&g=&id=42&m=project",
+      "publisher": "杭州市地下工程设计研究院相关项目网站",
+      "title": "博奥隧道",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "project-design-organization",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "全长约2.8km双向四车道、设计时速60km/h；网页精确机构版权未进一步核验，不据此定施工剖面。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": {
+        "reportedLength": 2772,
+        "reportedWidthUnqualified": 9
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "boao-naming"
+      ],
+      "uncertainty": "官方命名批复未说明9m是单管或全体，不推定双管总宽。"
+    },
+    {
+      "kind": "height",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "layout",
+      "value": "南起博奥路与平澜路，下穿钱塘江，北接新业路；项目介绍双向四车道",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "boao-naming",
+        "boao-designer"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "水下道路隧道，不是桥面",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "boao-naming"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "ramp_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "layer/tunnel不能丢失，入口坡道连回地面道路；水体上不生跨江平面车道，也不允许中途与桥/地面线相交连通。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "未获得水下埋深、入口坡度与实际车行净高；官方长度/宽度不能替代完整剖面。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

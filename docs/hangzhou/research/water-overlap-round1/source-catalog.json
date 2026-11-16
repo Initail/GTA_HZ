@@ -1,0 +1,3349 @@
+{
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceObjects": [
+    {
+      "id": "relation/10865793",
+      "version": 5,
+      "timestamp": "2020-03-20 10:22:37+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 782890910,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783008832,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 782890919,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890918,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890917,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890916,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890915,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890912,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890913,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890914,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782890911,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892889,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892919,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892926,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892925,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892924,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892922,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892923,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892920,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782892921,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894145,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894141,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894147,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894148,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894153,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894152,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894149,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894150,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 782894151,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/10866057",
+      "version": 3,
+      "timestamp": "2021-04-03 08:17:22+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 782914855,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 922850942,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 782914856,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783009344,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783009345,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/10868926",
+      "version": 1,
+      "timestamp": "2020-03-21 04:24:08+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 783219550,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783219559,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219558,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219551,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219553,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219552,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219554,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219556,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219557,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219555,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 783219560,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/10872317",
+      "version": 1,
+      "timestamp": "2020-03-21 13:58:47+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 783304970,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304977,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304976,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304979,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304973,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304971,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304992,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/10872318",
+      "version": 1,
+      "timestamp": "2020-03-21 13:58:47+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "pond"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 513052828,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304991,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/10872319",
+      "version": 2,
+      "timestamp": "2020-03-21 14:04:24+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 783304974,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304982,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783306237,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783306239,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783305010,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304980,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/12283343",
+      "version": 2,
+      "timestamp": "2021-04-02 15:16:23+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 904485817,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 904485818,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 925243958,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 925243957,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/13654033",
+      "version": 1,
+      "timestamp": "2022-01-09 16:28:37+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1019738979,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 844918126,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/13693402",
+      "version": 1,
+      "timestamp": "2022-01-19 14:20:03+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 652572873,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1022596363,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/2162647",
+      "version": 2,
+      "timestamp": "2015-12-14 05:30:36+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 161451439,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 161451451,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 161451438,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/2308774",
+      "version": 37,
+      "timestamp": "2026-02-12 13:55:04+00:00",
+      "rawTags": {
+        "addr:state": "ZJ",
+        "addr:street": "苏堤",
+        "alt_name": "West Lake",
+        "attraction": "tourism",
+        "name": "西湖",
+        "name:de": "Westsee",
+        "name:en": "West Lake",
+        "name:fr": "Lac de l'Ouest",
+        "name:nan": "Se-ô͘",
+        "name:nan-Hans": "西湖",
+        "name:nan-Latn-pehoeji": "Se-ô͘",
+        "name:nan-Latn-tailo": "Se-ôo",
+        "name:sk": "Západné jazero",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh-Latn-pinyin": "Xī Hú",
+        "natural": "water",
+        "source": "yahoo",
+        "type": "multipolygon",
+        "water": "lake",
+        "wikidata": "Q502371",
+        "wikipedia": "zh:西湖",
+        "wikipedia:en": "West Lake"
+      },
+      "processedTags": {
+        "addr:state": "ZJ",
+        "addr:street": "苏堤",
+        "alt_name": "West Lake",
+        "attraction": "tourism",
+        "name": "西湖",
+        "name:de": "Westsee",
+        "name:en": "West Lake",
+        "name:fr": "Lac de l'Ouest",
+        "name:nan": "Se-ô͘",
+        "name:nan-Hans": "西湖",
+        "name:nan-Latn-pehoeji": "Se-ô͘",
+        "name:nan-Latn-tailo": "Se-ôo",
+        "name:sk": "Západné jazero",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh-Latn-pinyin": "Xī Hú",
+        "natural": "water",
+        "source": "yahoo",
+        "water": "lake",
+        "wikidata": "Q502371",
+        "wikipedia": "zh:西湖",
+        "wikipedia:en": "West Lake"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 1470146570,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4317769,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 979543005,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 583928509,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 975338136,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 583622110,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 675828147,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 675828146,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1465284644,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1465284640,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1465284636,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816614,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816609,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816605,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816602,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816597,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816592,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816589,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 976816587,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 583622117,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 975869957,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 975869944,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 975869952,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 975869945,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1475571509,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1476880972,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1465284637,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1465331405,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1465284638,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4336002,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 30072149,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 30072150,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4337964,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4337963,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4335999,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 28538305,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1466923705,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1466923701,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4338555,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1466923704,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 30072122,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 30072129,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 30072136,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 30072142,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 206081945,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 30086289,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 583928512,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 583928511,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 583928510,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 583928513,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 583928514,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 583928515,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 975338137,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 975338138,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 975339642,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 975869960,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 979546804,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 979546805,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 979546806,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 979546807,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1465284648,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1465284649,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/7338285",
+      "version": 5,
+      "timestamp": "2019-11-03 04:26:28+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 158985616,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 596167098,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 501163137,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 596167095,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/8227206",
+      "version": 25,
+      "timestamp": "2026-05-21 03:36:58+00:00",
+      "rawTags": {
+        "fishing": "no",
+        "natural": "water",
+        "source": "PGS",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "fishing": "no",
+        "natural": "water",
+        "source": "PGS",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 638705820,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 581882951,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 154155099,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 582116019,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 582116018,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 154155102,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1075394023,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593263689,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923486,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923485,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923487,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1092923484,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593263690,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1447848761,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1447848762,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 582931239,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593401439,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593401484,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517878766,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 581882942,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517878767,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653556315,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653556316,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653556314,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517879997,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555361,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1517879996,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555362,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555363,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 1313875493,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 593401427,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 593263688,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 653555365,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555366,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555364,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555367,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653555368,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 4531332,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 815833662,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 653556317,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/8924449",
+      "version": 2,
+      "timestamp": "2020-03-30 12:52:49+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 643792659,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 643792666,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/8932833",
+      "version": 7,
+      "timestamp": "2021-03-20 23:37:46+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 644328900,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 644328901,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 838470372,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 838470373,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 834651974,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 834098821,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 834093050,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 840059728,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 834093051,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 834098822,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9010615",
+      "version": 2,
+      "timestamp": "2019-11-03 04:45:07+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 501970105,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 646784255,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 646784254,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9059080",
+      "version": 2,
+      "timestamp": "2020-03-19 14:14:51+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 577065823,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442254,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442255,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442256,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442257,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442258,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442277,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442279,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442281,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442253,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442270,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442268,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442266,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 650442264,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9357800",
+      "version": 2,
+      "timestamp": "2021-08-18 05:16:26+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 673250681,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 673250680,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9358045",
+      "version": 2,
+      "timestamp": "2021-08-18 05:16:26+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 673268450,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 673268451,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9406220",
+      "version": 2,
+      "timestamp": "2021-12-22 02:08:47+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 154116579,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 677600744,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9436343",
+      "version": 1,
+      "timestamp": "2019-03-27 06:26:35+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 679647535,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9436423",
+      "version": 2,
+      "timestamp": "2022-06-30 06:31:43+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 679651212,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 679651213,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 679651214,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 1074710153,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9599999",
+      "version": 2,
+      "timestamp": "2020-08-25 02:58:52+00:00",
+      "rawTags": {
+        "name": "白马湖",
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "lake",
+        "wikidata": "Q16935960"
+      },
+      "processedTags": {
+        "name": "白马湖",
+        "natural": "water",
+        "water": "lake",
+        "wikidata": "Q16935960"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 519276916,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 690860187,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 690860191,
+          "role": "inner"
+        },
+        {
+          "type": "w",
+          "ref": 690860188,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9602999",
+      "version": 3,
+      "timestamp": "2020-03-21 14:04:24+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "pond"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 513052810,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783306236,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783306234,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783306230,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304981,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783306232,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 783304984,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 691045700,
+          "role": "inner"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "relation/9772882",
+      "version": 1,
+      "timestamp": "2019-07-11 03:24:53+00:00",
+      "rawTags": {
+        "natural": "water",
+        "type": "multipolygon",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {
+        "type": "multipolygon"
+      },
+      "members": [
+        {
+          "type": "w",
+          "ref": 703249672,
+          "role": "outer"
+        },
+        {
+          "type": "w",
+          "ref": 703249671,
+          "role": "outer"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1022945807",
+      "version": 1,
+      "timestamp": "2022-01-20 16:53:55+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1022945807,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1058472319",
+      "version": 1,
+      "timestamp": "2022-05-09 07:57:19+00:00",
+      "rawTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "processedTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1058472319,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1058472323",
+      "version": 1,
+      "timestamp": "2022-05-09 07:57:19+00:00",
+      "rawTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "processedTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1058472323,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1058472326",
+      "version": 1,
+      "timestamp": "2022-05-09 07:57:19+00:00",
+      "rawTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "processedTags": {
+        "area": "yes",
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1058472326,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1063696120",
+      "version": 5,
+      "timestamp": "2026-03-22 06:43:54+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1063696120,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1122311097",
+      "version": 2,
+      "timestamp": "2022-12-15 14:40:07+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1122311097,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1183619299",
+      "version": 1,
+      "timestamp": "2023-06-20 08:10:17+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1183619299,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1188404008",
+      "version": 4,
+      "timestamp": "2025-12-18 13:47:51+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1188404008,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1302813122",
+      "version": 2,
+      "timestamp": "2025-08-25 10:01:03+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1302813122,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1427960780",
+      "version": 1,
+      "timestamp": "2025-09-08 13:00:51+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1427960780,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1461484039",
+      "version": 1,
+      "timestamp": "2025-12-25 10:07:22+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1461484039,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1479169466",
+      "version": 1,
+      "timestamp": "2026-02-16 09:45:35+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1479169466,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1479169477",
+      "version": 1,
+      "timestamp": "2026-02-16 09:45:35+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1479169477,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1479533509",
+      "version": 4,
+      "timestamp": "2026-03-06 09:41:46+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1479533509,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1479955347",
+      "version": 1,
+      "timestamp": "2026-02-18 03:28:37+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1479955347,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1485378647",
+      "version": 1,
+      "timestamp": "2026-03-04 13:36:44+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1485378647,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/154259185",
+      "version": 8,
+      "timestamp": "2022-11-07 09:19:17+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 154259185,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/1546020480",
+      "version": 1,
+      "timestamp": "2026-07-30 14:05:41+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 1546020480,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/265720548",
+      "version": 9,
+      "timestamp": "2026-07-01 12:14:32+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 265720548,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/516302975",
+      "version": 3,
+      "timestamp": "2020-03-30 12:52:49+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 516302975,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/518534703",
+      "version": 5,
+      "timestamp": "2021-03-20 23:37:46+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 518534703,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/518983410",
+      "version": 7,
+      "timestamp": "2020-09-21 11:41:25+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 518983410,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/520199008",
+      "version": 4,
+      "timestamp": "2021-03-19 19:17:13+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 520199008,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/524909399",
+      "version": 3,
+      "timestamp": "2019-11-03 05:10:24+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 524909399,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/538148437",
+      "version": 11,
+      "timestamp": "2026-04-02 05:10:45+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 538148437,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/541014093",
+      "version": 3,
+      "timestamp": "2020-09-21 11:33:26+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 541014093,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/544319798",
+      "version": 7,
+      "timestamp": "2026-07-31 04:20:58+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 544319798,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/544675674",
+      "version": 3,
+      "timestamp": "2022-01-02 18:20:49+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 544675674,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/544675675",
+      "version": 4,
+      "timestamp": "2022-12-12 05:12:03+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 544675675,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/548930723",
+      "version": 2,
+      "timestamp": "2020-09-21 11:41:25+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 548930723,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/550977999",
+      "version": 4,
+      "timestamp": "2022-02-15 14:38:41+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 550977999,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/552611233",
+      "version": 8,
+      "timestamp": "2020-08-19 05:07:27+00:00",
+      "rawTags": {
+        "layer": "-1",
+        "natural": "water"
+      },
+      "processedTags": {
+        "layer": "-1",
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 552611233,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/578276721",
+      "version": 23,
+      "timestamp": "2026-02-16 09:45:35+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 578276721,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/579762335",
+      "version": 5,
+      "timestamp": "2023-06-20 08:02:45+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 579762335,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/590758360",
+      "version": 3,
+      "timestamp": "2020-08-05 08:28:23+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 590758360,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/641124890",
+      "version": 4,
+      "timestamp": "2026-03-01 16:39:12+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 641124890,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/641843741",
+      "version": 5,
+      "timestamp": "2022-07-05 11:46:40+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 641843741,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/642325265",
+      "version": 7,
+      "timestamp": "2025-11-05 03:49:05+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 642325265,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/642325270",
+      "version": 9,
+      "timestamp": "2026-08-01 12:54:32+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 642325270,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/642473478",
+      "version": 2,
+      "timestamp": "2020-08-19 12:17:05+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 642473478,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/642559807",
+      "version": 18,
+      "timestamp": "2026-02-13 03:51:10+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 642559807,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/643003081",
+      "version": 4,
+      "timestamp": "2020-08-18 05:16:54+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 643003081,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/662789923",
+      "version": 1,
+      "timestamp": "2019-01-13 03:51:44+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "lock"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "lock"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 662789923,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/691262887",
+      "version": 3,
+      "timestamp": "2022-01-02 18:20:50+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 691262887,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/783008837",
+      "version": 2,
+      "timestamp": "2021-03-27 13:24:03+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 783008837,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/783008840",
+      "version": 2,
+      "timestamp": "2021-03-27 13:24:03+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 783008840,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/817891308",
+      "version": 1,
+      "timestamp": "2020-06-20 17:07:37+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 817891308,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/832501692",
+      "version": 3,
+      "timestamp": "2022-01-02 18:20:52+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 832501692,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/834956692",
+      "version": 3,
+      "timestamp": "2022-01-02 18:20:52+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 834956692,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/840053144",
+      "version": 3,
+      "timestamp": "2023-04-30 10:14:57+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 840053144,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/845633888",
+      "version": 4,
+      "timestamp": "2022-01-02 18:20:52+00:00",
+      "rawTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTags": {
+        "natural": "water",
+        "water": "canal"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 845633888,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/899196589",
+      "version": 2,
+      "timestamp": "2021-02-06 15:39:02+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 899196589,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/899224550",
+      "version": 1,
+      "timestamp": "2021-01-23 17:06:27+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 899224550,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/899224553",
+      "version": 1,
+      "timestamp": "2021-01-23 17:06:27+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 899224553,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/904453963",
+      "version": 1,
+      "timestamp": "2021-02-06 15:39:02+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 904453963,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/904474746",
+      "version": 1,
+      "timestamp": "2021-02-06 17:00:27+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 904474746,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/904474752",
+      "version": 2,
+      "timestamp": "2021-02-28 13:16:43+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 904474752,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/904494647",
+      "version": 1,
+      "timestamp": "2021-02-06 18:19:25+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 904494647,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/922850951",
+      "version": 1,
+      "timestamp": "2021-03-27 11:18:35+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 922850951,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/922850953",
+      "version": 2,
+      "timestamp": "2021-03-27 12:26:59+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 922850953,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/922860415",
+      "version": 1,
+      "timestamp": "2021-03-27 12:26:59+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 922860415,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/922860420",
+      "version": 1,
+      "timestamp": "2021-03-27 12:26:59+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 922860420,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/975346721",
+      "version": 2,
+      "timestamp": "2021-08-23 15:33:37+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 975346721,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/975870009",
+      "version": 2,
+      "timestamp": "2025-08-05 02:59:59+00:00",
+      "rawTags": {
+        "name": "断桥荷塘",
+        "natural": "water",
+        "salt": "no",
+        "water": "pond"
+      },
+      "processedTags": {
+        "name": "断桥荷塘",
+        "natural": "water",
+        "salt": "no",
+        "water": "pond"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 975870009,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    },
+    {
+      "id": "way/979543008",
+      "version": 2,
+      "timestamp": "2021-09-04 11:46:55+00:00",
+      "rawTags": {
+        "natural": "water"
+      },
+      "processedTags": {
+        "natural": "water"
+      },
+      "processedTagMismatches": {},
+      "areaHandlerOmittedKeys": {},
+      "members": [
+        {
+          "type": "w",
+          "ref": 979543008,
+          "role": "self-closed-way"
+        }
+      ],
+      "allWayMembersAvailable": true,
+      "nonWayMembers": [],
+      "explicitWaterHeightTags": {}
+    }
+  ],
+  "tagScope": "Raw PBF metadata/tags are reported-volunteer mapping, not field measurements. Libosmium area callback omits type=multipolygon; remaining key/value mismatches listed explicitly."
+}

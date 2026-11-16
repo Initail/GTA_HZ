@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "placeId": "grand-theatre",
+  "name": "杭州大剧院",
+  "type": "building",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "ott-grand"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "ott-grand",
+      "url": "https://carlosott.com/?project=hangzhou-grand-theatre",
+      "publisher": "Carlos Ott 设计方",
+      "title": "Hangzhou Grand Theatre",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-full-project-text; direct fetch timed out twice",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "列项目设计日期1999、2004完成、面积50000m²；未列建筑总高，不以歌剧厅舞台高度代替外部高度。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "月形雕塑主量体；双曲玻璃立面与钛金属屋顶，倒锥歌剧厅核心",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "ott-grand"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "layout",
+      "value": "钱塘江边的新商务区首期文化建筑；室外露天剧场/周边绿地",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "ott-grand"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "保留新月壳体、倾玻璃面与内部倒锥相互层次；足印和朝向确认后再分近景材质。不可用单个银色半球替代。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "官方网页本轮两次fetch timeout但搜索索引有项目文字；未取得总高与足印，不能拿舞台内部高作为楼高。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

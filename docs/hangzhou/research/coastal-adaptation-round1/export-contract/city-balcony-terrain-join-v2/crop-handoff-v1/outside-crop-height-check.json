@@ -1,0 +1,24 @@
+{
+  "scope": "finite <=.5g edge/vertex/representative probes, no new measured elevation",
+  "sourceAssetSha256": "0c683dd694ac4a3b5b19fbd46cabb330fb81775c474cb0a6536cdc86bb66d65c",
+  "outsideArea": 46.37644884270545,
+  "samples": 8042,
+  "minimumShoreMinusF1": -0.010925628109422991,
+  "maximumShoreMinusF1": 0.008814901048117108,
+  "heightBudgetGame": 0.01,
+  "failures": 1,
+  "failureExamples": [
+    {
+      "sourceTriangle": 464,
+      "enu": [
+        3214.584804821029,
+        -2162.1317203821786,
+        2.736471771277098
+      ],
+      "F1": 2.747397399386521,
+      "shoreMinusF1": -0.010925628109422991
+    }
+  ],
+  "boundarySegments": 1139,
+  "boundaryMissingLengthBeyond1e-8": 6.946116930041984
+}

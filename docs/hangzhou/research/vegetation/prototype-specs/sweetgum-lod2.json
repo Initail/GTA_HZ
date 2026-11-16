@@ -1,0 +1,50 @@
+{
+  "id": "hz-tree-sweetgum-lod2",
+  "cityId": "hangzhou",
+  "speciesId": "sweetgum",
+  "lod": 2,
+  "season": "summer",
+  "anchor": {
+    "lon": 120.155,
+    "lat": 30.274,
+    "basis": "neutralcanonicaloriginforlocalassetexport, not a surveyedtree location"
+  },
+  "prototype": {
+    "id": "sweetgum",
+    "name": "枫香",
+    "scientificName": "Liquidambar formosana",
+    "leafHabit": "deciduous",
+    "form": "upright-irregular-ovoid",
+    "sourceIds": [
+      "fall-color-study",
+      "westlake-forest-history"
+    ],
+    "prototypeHeightM": 20,
+    "prototypeCrownRadiusM": 5.3,
+    "prototypeBranchClearanceM": 5.0,
+    "trunkRadiusM": 0.38,
+    "dimensionsBasis": "estimated",
+    "heightErrorPlusMinusM": 6,
+    "crownRadiusErrorPlusMinusM": 1.8,
+    "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+    "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+    "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+    "growthStage": "representative maintained adult, not ancient-tree replica"
+  },
+  "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "scope": "eight original procedural regional tree archetypes ×threeLODs, localprototype coordinates; no individualtree census/reconstruction",
+  "baseBuildingIdsToExclude": [],
+  "pendingSubscopes": [
+    "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+    "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+    "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+    "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+    "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+    "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+    "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+  ],
+  "budget": {
+    "maxTriangles": 220,
+    "maxMaterials": 3
+  }
+}

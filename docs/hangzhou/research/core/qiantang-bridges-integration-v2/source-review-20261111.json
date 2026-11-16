@@ -1,0 +1,22 @@
+{
+  "fuxingPaper": {
+    "url": "https://siberc.fzu.edu.cn/__local/6/6F/29/7C1CCAEDC24D9BB28E4EFA81912_4886B803_FCC7B.pdf?e=.pdf",
+    "retrievedAt": "2026-11-11",
+    "publisher": "\u9648\u5b9d\u6625/\u798f\u5dde\u5927\u5b66 \u4e2d\u5916\u516c\u8def28(4)2008",
+    "sha256": "f9da1571945ab9777213a466a8c435a42e778934379ce1ea8c5c8d10e2815f0c",
+    "matchesFrozenOriginal": true,
+    "viewed": "PDF page4 printed98 figure8 inspected; diagram remains legible although current poppler lacks Adobe-GB1 text mapping",
+    "inference": "Small arches lie underneath upper roadway. Original12.15m rise+.85m radius conflicts with10m upper-lower gap. New minimum upper ordinate=lower12+rise12.15+radius.85+deck1.25=26.25m relative legacy water; estimated constructibility, not measured height",
+    "distribution": "private audit reference cache only; not release texture or redistributed source PDF"
+  },
+  "nightPrimarySource": {
+    "url": "https://canhualed.com/news/503.html",
+    "publisher": "\u5e7f\u4e1c\u74a8\u534e\u7167\u660e\u79d1\u6280\u6709\u9650\u516c\u53f8",
+    "publishedAt": "2024-11-04",
+    "accessedAt": "2026-11-11",
+    "status": "web page read",
+    "reported": "lighting supplier describes replacing small-arch old T5 fixtures with upward/downward LED washing and 38 floodlight groups for crossbeam zones; supports night-light existence and qualitative distribution, not exact geometry/intensity",
+    "use": "reference only; no image texture or downloaded image redistribution"
+  },
+  "secondarySearchResults": "encyclopedia cross-section text was discovery only and not used as primary measured evidence"
+}

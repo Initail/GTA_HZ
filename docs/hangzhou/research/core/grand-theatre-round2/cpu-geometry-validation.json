@@ -1,0 +1,63 @@
+{
+  "id": "grand-theatre",
+  "scope": "Finite Hangzhou Grand Theatre exterior candidate: exact mapped crescent/low-wing/front-circle plans, original continuous crescent metal rear shell and inclined glass face, two-tier inverted-conical glass front volume with shallow broad overhang, low wing canopy and representative external fan stairs. Full hall interiors/site/pool/outdoor-stage/doors/terrain and runtime acceptance pending; zero candidate water planes.",
+  "moonContourCount": 11,
+  "architecturalRoles": [
+    "crescent metal back",
+    "inclined glass front",
+    "two-tier inverted-conical front",
+    "mapped low wing",
+    "estimated fan stairs"
+  ],
+  "sourceFeatureCoverageCount": 14,
+  "reportedMainHeightM": 46.4,
+  "generatedFaces": 7128,
+  "triangleCountBeforeExport": 14001,
+  "materials": [
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "roof",
+    "silver",
+    "steel"
+  ],
+  "newLights": 0,
+  "candidateWaterPlanes": 0,
+  "geographyCityId": "hangzhou",
+  "projectionOriginWGS84": [
+    120.155,
+    30.274
+  ],
+  "sourceSpec": "docs/hangzhou/research/core/grand-theatre-round2/spec.json",
+  "collisionStatus": "pending; source main conservative envelope only; stairs/doors/pool and terrain not accepted",
+  "checks": {
+    "finiteVertices": true,
+    "nondegenerateTriangleFans": true,
+    "mappedFootprintAndConcaveCapArea": true,
+    "elevenConsistentMoonControlPlans": true,
+    "reportedRoofHeightEnvelope": true,
+    "twoTierFrontSeparateFromMoon": true,
+    "noCandidateWaterGeometry": true,
+    "onceScaleAndGameBasePreserved": true,
+    "shiftedLmSourceAnchor": true,
+    "frameRestoredSuccessAndFailure": true,
+    "cpuBudget": true,
+    "noSceneImports": true,
+    "neighborsNotRemoved": true
+  },
+  "sourceModuleSha256": "91879ae31e07431df4673aa5192517299599d9328cbdd0e67e423c11ec55675b",
+  "specSha256": "fb44df429aaa82e6793c964f84d391cb4b08e20d815a9044fca14335efefdf1f",
+  "boundsGameENU": {
+    "min": [
+      3165.784515005403,
+      -1870.4287982933351,
+      2.5
+    ],
+    "max": [
+      3265.545325374269,
+      -1771.8794295346427,
+      30.380823709693164
+    ]
+  },
+  "validationScope": "Pure CPU FakeB geometry/projection/counts only; not Blender/GLB bytes or final triangulation, named exterior/PBR, water/site, door/stair terrain/collision, browser/night or FPS acceptance."
+}

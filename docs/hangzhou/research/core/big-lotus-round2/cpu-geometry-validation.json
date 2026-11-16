@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-host-contract-only",
+  "reviewedBy": "landmark_evidence CPU recorder",
+  "at": "2026-10-14T02:44:56+00:00",
+  "sourceModuleSha256": "faf3caf74bd5cc28dbcc632195fd052ab2f3029b62f7dec81a3960e7c8d4d368",
+  "sourceSpecSha256": "f3b5a535875fba14addf94cd2b285148fa48c98b4f537093d5f63f4299081a73",
+  "faces": 13887,
+  "trianglesBeforeBlenderExport": 27854,
+  "materials": [
+    "asphalt",
+    "civicred",
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "park",
+    "roadline",
+    "roof",
+    "silver",
+    "steel"
+  ],
+  "lights": 0,
+  "waterMeshes": 0,
+  "minimumFanTriangleAreaGameUnits2": 0.0005399999999986567,
+  "petalCounts": {
+    "large": 28,
+    "small": 27
+  },
+  "seatingTiers": 3,
+  "sourceFeatureIds": [
+    "relation/8718531",
+    "way/626826721",
+    "way/626826698",
+    "way/626826700",
+    "way/626826703",
+    "way/626826704",
+    "way/626826708",
+    "way/626826715",
+    "way/626826717",
+    "way/626826718",
+    "way/626826727",
+    "way/626826729",
+    "way/626826730",
+    "way/626826734",
+    "way/626826736",
+    "way/626826739",
+    "way/626832622",
+    "way/626832624",
+    "way/626832626",
+    "way/626832627",
+    "way/626832631",
+    "way/626832632",
+    "way/626832634",
+    "way/626832640",
+    "way/626832644",
+    "way/626832648",
+    "way/626832651",
+    "way/626832656",
+    "way/626832661",
+    "way/626832664",
+    "way/626832665",
+    "way/626832666",
+    "way/626832667",
+    "way/626832669",
+    "way/626832671",
+    "way/626832674",
+    "way/626832675",
+    "way/626832677",
+    "way/626832679",
+    "way/626832680",
+    "way/626832682"
+  ],
+  "sourceAxisRadiansEastCCW": 1.5793222633552075,
+  "candidateHighestGeometryAboveBaseM": 59.453998769184295,
+  "openingDownRays": [
+    {
+      "uvM": [
+        0,
+        0
+      ],
+      "highestSurfaceAboveIsolatedBaseM": 0.07250000000000512
+    },
+    {
+      "uvM": [
+        20,
+        10
+      ],
+      "highestSurfaceAboveIsolatedBaseM": 0.044999999999973284
+    },
+    {
+      "uvM": [
+        -20,
+        -10
+      ],
+      "highestSurfaceAboveIsolatedBaseM": 0.045000000000001705
+    },
+    {
+      "uvM": [
+        25,
+        -20
+      ],
+      "highestSurfaceAboveIsolatedBaseM": 0.044999999999973284
+    },
+    {
+      "uvM": [
+        -25,
+        20
+      ],
+      "highestSurfaceAboveIsolatedBaseM": 0.045000000000001705
+    }
+  ],
+  "isolatedGroundSlotRayHits": 0,
+  "checks": [
+    "finite/nondegenerate triangle fans",
+    "reported28+27 independent shell loops",
+    "three open seating tiers",
+    "exact source WGS84 vertex/projection/direction agreement",
+    "0.60 dimensions once",
+    "game-unit base and XY translation",
+    "B frame restored",
+    "reject repeated scale",
+    "central vertical rays reach field without a roof disk",
+    "annular petal roof ray hits",
+    "provisional neutral-base façade slot",
+    "no water meshes or lights",
+    "unchanged28000 triangle/10material ceiling",
+    "no tennis-way626826731 in exclusions"
+  ],
+  "limitations": [
+    "No Blender export or browser was run.",
+    "CPU fan triangle count is not actual GLB statistics.",
+    "Geometry rays are not runtime collision/entrance validation.",
+    "Ground and platform datum unknown.",
+    "Curves, exact petals phase, reduced seat rows, track and field dimensions are estimates.",
+    "Official-photo material matching, sign labels, night, site context, export and performance pending."
+  ]
+}

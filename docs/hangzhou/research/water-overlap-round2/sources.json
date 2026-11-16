@@ -1,0 +1,51 @@
+{
+  "checkedDate": "2026-11-11",
+  "sources": [
+    {
+      "id": "lotus-net-report",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2024-04/16/content_8716273.htm",
+      "title": "当心强对流天气 今天可能有短时暴雨、雷雨大风、小冰雹（含西湖开始清塘段）",
+      "published": "2024-04-16",
+      "type": "official CPPCC website republication of original 都市快报 reporting with water management office work description",
+      "status": "live-open-and-relevant-paragraphs-read",
+      "supports": "断桥荷区属于西湖清塘管理计划；荷区以可抬起底部的围网管理鱼类出入。",
+      "doesNotEstablish": "2026实测水位、独立闸坝、围网精确足印或渲染高度。",
+      "localPriorSnapshot": "docs/hangzhou/research/water-overlap-round1/references/government-lotus-net.html",
+      "labelCorrection": "Existing snapshot filename does not make it a primary government owner notice."
+    },
+    {
+      "id": "osm-water-lock",
+      "url": "https://wiki.openstreetmap.org/wiki/Tag:water=lock",
+      "type": "primary OSM tag documentation",
+      "status": "live-open-and-definition-read",
+      "supports": "water=lock describes lock-chamber water area; gate and canal tags are related.",
+      "doesNotEstablish": "Current lock geometry survey, operating state or level difference."
+    },
+    {
+      "id": "osm-layer",
+      "url": "https://wiki.openstreetmap.org/wiki/Key:layer",
+      "type": "primary OSM tag documentation",
+      "status": "live-open-and-guidelines-read",
+      "supports": "Layer describes vertical relationships, not metric elevation; negative values alone do not imply underground.",
+      "doesNotEstablish": "This specific canal's measured level, bridge clearance or complete physical structure."
+    },
+    {
+      "id": "fixed-osm-nesting",
+      "path": "artifacts/cities/hangzhou/water-data-v2/city.json",
+      "type": "fixed-source unsimplified projected water footprint",
+      "supports": "Lotus source polygon is fully nested; no wet-union change when treated as semantic region."
+    },
+    {
+      "id": "fixed-osm-lock",
+      "path": "docs/hangzhou/research/water-overlap-round2/all-pair-waterway-context.json",
+      "type": "fixed 2026-10-11 PBF raw source IDs/tags/node graph",
+      "supports": "Mapped chamber, four lock-gate ways and lock=yes Donghe centerline."
+    },
+    {
+      "id": "fixed-osm-layer-connection",
+      "path": "docs/hangzhou/research/water-overlap-round2/layer-context.json",
+      "type": "fixed 2026-10-11 PBF raw source IDs/tags/node graph",
+      "supports": "Canal centerline shares actual nodes with named Yuhangtang River at south and another canal at north; nearby mapped bridges."
+    }
+  ]
+}

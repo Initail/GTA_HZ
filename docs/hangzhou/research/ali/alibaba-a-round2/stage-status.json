@@ -1,0 +1,33 @@
+{
+  "id": "alibaba-a",
+  "recordedStage": "evidence-ready",
+  "currentStage": "evidence-ready",
+  "errors": {
+    "evidence-ready": [],
+    "modelled": [
+      "模型缺失或无效：[Errno 2] No such file or directory: '__missing__'",
+      "model.buildCommand 未填写"
+    ],
+    "verified": [
+      "验收未绑定当前 GLB SHA256",
+      "scale 尚未完成具名验收",
+      "scale 缺少可读取的验收证据文件",
+      "orientation 尚未完成具名验收",
+      "orientation 缺少可读取的验收证据文件",
+      "silhouette 尚未完成具名验收",
+      "silhouette 缺少可读取的验收证据文件",
+      "context 尚未完成具名验收",
+      "context 缺少可读取的验收证据文件",
+      "collision 尚未完成具名验收",
+      "collision 缺少可读取的验收证据文件",
+      "browser 尚未完成具名验收",
+      "browser 缺少可读取的验收证据文件",
+      "performance 尚未完成具名验收",
+      "performance 缺少可读取的验收证据文件",
+      "provenance 尚未完成具名验收",
+      "provenance 缺少可读取的验收证据文件"
+    ]
+  },
+  "modelStats": null,
+  "note": "检查结构与证据文件；照片/形体判断须由具名评审实际核对"
+}

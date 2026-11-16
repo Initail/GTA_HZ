@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-16T03:48:54+00:00",
+  "reviewedBy": "Codex child leifeng_candidate",
+  "id": "qiantang-bridge-collision",
+  "cityId": "hangzhou",
+  "status": "finite adapter evidence-ready; complete road passage not accepted",
+  "hashContract": {
+    "adapterModule": {
+      "path": "scripts/landmarks/qiantang_bridge_collision.py",
+      "sha256": "f7c661b027b1551604259f6d72a57fe9da1522541c718459dd17b8ee40377fa3",
+      "matchesRecorded": true
+    },
+    "adapterSpec": {
+      "path": "docs/hangzhou/research/core/qiantang-bridge-collision-round1/spec.json",
+      "sha256": "579f97c41ddfc604f514de3c7bff04ec0f331e217968f62c3354fd2458ee5ca1",
+      "matchesRecorded": true
+    },
+    "sourceModule": {
+      "path": "scripts/landmarks/qiantang_bridges.py",
+      "sha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+      "matchesRecorded": true
+    },
+    "sourceSpec": {
+      "path": "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json",
+      "sha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+      "matchesRecorded": true
+    },
+    "sourceGLB": {
+      "path": "artifacts/cities/hangzhou/landmarks/qiantang-bridges-v1/qiantang-bridges.glb",
+      "sha256": "cb88432457045d60fe51f424ec4b3d766f4465eedd3779895c8422ae506676fd",
+      "matchesRecorded": true
+    },
+    "coordinateConfig": {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24",
+      "matchesRecorded": true
+    }
+  },
+  "CPUCheckExitCode": 0,
+  "CPUChecks": {
+    "actualFrozenReplayMatchesExportedFloat32Positions": true,
+    "finitePositiveNonemptySolidVolumes": true,
+    "envelopeVerticesDerivedFromEmittedPrimitiveFaces": true,
+    "allPrimitiveFacesOrPortalCapsAssociated": true,
+    "scaleOnceAndExplicitGameDatum": true,
+    "sourceShiftCompensation": true,
+    "cachedReturnedDataIsolation": true,
+    "changedSpecAndMissingDatumRejected": true,
+    "sourceWaysNodesAndSharedHeights": true,
+    "roadRailLevelsSeparateAtRealSharedNode": true,
+    "overriddenProfileMismatchBlocksSurfaceLookup": true,
+    "upperRailingCannotBlockLowerProbe": true,
+    "portalCentralVoidAndSideLegPreserved": true,
+    "pairedPierVoidPreserved": true,
+    "noSceneImportAndNoOriginalMonkeypatch": true
+  },
+  "finiteModelMatch": {
+    "sourceTriangles": 24148,
+    "sourceMaterials": 5,
+    "allFloat32PositionSetsMatch": true,
+    "sourceFaceCount": 11962,
+    "solidEnvelopes": 7457,
+    "roadDeckRegions": 48,
+    "railDeckRegions": 1
+  },
+  "interfaces": {
+    "ground_footprints": "solid EN polygons with explicit minYGame/maxYGame; bridges decks excluded",
+    "walk_surfaces": "road top rectangles; mode rail explicitly separate",
+    "source_road_profiles": "15 source road profiles and finite actual deck regions; estimated opt-in required",
+    "surface_at_game": "one way plus mode; height None on actual coverage/height mismatch",
+    "profile_geometry_audit": "source nodes and <=20m samples with actual deck gaps/height differences",
+    "collision_report": "nonempty source counts, bounds and pending collision acceptance"
+  },
+  "poseContract": {
+    "anchorGame": [
+      -1190.7513899330004,
+      -5205.802147668741
+    ],
+    "waterDisplayBaseYGame": 0.9,
+    "scale": 0.6,
+    "baseYAlreadyGameUnits": true
+  },
+  "sourceGeometryBlockers": {
+    "missingWayNodeOccurrences": 118,
+    "missingUniqueSourceNodes": 113,
+    "missingProfileSamples": 578,
+    "fuxingUpperLateralGap": {
+      "wayId": "way/154135290",
+      "nodeCount": 2,
+      "outsideDeckDistanceGame": [
+        0.23629937737861204,
+        0.6095428401355825
+      ]
+    },
+    "fuxingLowerLateralGap": {
+      "wayId": "way/589429905",
+      "nodeCount": 10,
+      "outsideDeckDistanceGame": [
+        1.6743579017195875,
+        4.647859625326974
+      ]
+    },
+    "notTrafficClosure": true
+  },
+  "integrationCompatibility": [
+    "supply original appearance baseYGame=.9 instead of hardcoded0",
+    "retain fine real collision polygons: minimum area~.000882 game2, below shared current .01 rejection",
+    "use vertical intervals together with plan polygons; upper must not block lower",
+    "road/rail and way-specific surfaces separate; height None on missing actual geometry or modified profile mismatch",
+    "preserve sourceNode override units; do not rescale them",
+    "no full bridge footprint building collider",
+    "ground_footprints returns a copied collection; do not replace with representative JSON samples"
+  ],
+  "baseBuildingIdsToExclude": [],
+  "taskStages": {
+    "qiantang-bridge-collision": {
+      "exitCode": 0,
+      "recordedStage": "evidence-ready",
+      "passed": true
+    },
+    "qiantang-bridge-passage": {
+      "exitCode": 2,
+      "recordedStage": "planned",
+      "passed": false
+    }
+  },
+  "pending": [
+    "frozen main structural model does not cover complete source road/approach geometry",
+    "absolute deck/water datum and node elevations estimated, not surveyed",
+    "projected envelopes are conservative; fine collision narrow phase and actor radius/height need runtime review",
+    "road tops and bridge slab underside contacts require parent height-surface pipeline",
+    "bank-abutments and full approach supports absent from original build",
+    "height-aware collisions, deck-specific actors, physical road continuity, real driving, browser and performance pending"
+  ],
+  "navigationAccepted": false,
+  "runtimeAccepted": false,
+  "BlenderRun": false,
+  "browserRun": false,
+  "evidenceFiles": {
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/cpu-validation.json": "e2b1fc1431eb7ff99e6d1067a45d93b22e4d0cf76e55ed12154c6b2eb5dad9c6",
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/source-profile-geometry-audit.json": "88b21015e24779e22c11d70e51947e9973443d97b9aa43b9fe875ad649f2cf95",
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/source-profile-summary.json": "1954bb8ab0667c1c6fc0d231696f66bdd81d56946ac9862ccaa8a3ed270bc86f",
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/negative-controls.json": "49fb2e199f74b2368934ff77e1f05097ea6c7da7908a1f075c396ad73f7dd362",
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/cpu-run-result.json": "07de9bd426d11446ccd884eedabe3e933b3beaffd70ed472a699a86776595400",
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/stage-status.json": "a53bb8c66279ead3aa50f4eb3b74561c6d0ab9f1fc8be4f2c3bdde2cfb978a47",
+    "docs/hangzhou/research/core/qiantang-bridge-collision-round1/integration-notes.md": "6ec741910bfe8fb8ce62b06a78041e53c39cbd5eab22c62774aae0f1c7bc8dbe"
+  }
+}

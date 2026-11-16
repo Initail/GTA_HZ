@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-c",
+  "scope": "Finite source-bound exterior candidate: C1–C6, visitor, inter-unit bridges and south Media/Ali Roof; no full campus completion claim",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "nihonsekkei-phase5",
+      "aspect-park-c",
+      "credaward-park-c"
+    ],
+    "notes": "C campus=Phase5; C6 named office is not distinct Phase6/DingTalk headquarters"
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.0185145,
+      30.28575155
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "geofabrik-fixed"
+    ],
+    "notes": "OSM parcel bbox reference, not an arrival/spawn position"
+  },
+  "sources": [
+    {
+      "id": "nihonsekkei-phase5",
+      "url": "https://www.nihonsekkei.co.jp/think/ideas/case-study_17626/?lang=en",
+      "finalUrl": "https://www.nihonsekkei.co.jp/think/ideas/case-study_17626/?lang=en",
+      "status": "downloaded",
+      "path": "docs/hangzhou/research/ali/snapshots/nihonsekkei-phase5.html",
+      "bytes": 53760,
+      "sha256": "8dcd355af0ae4ab0645ebe3f73c52ceca052d7966f712a0479cf26172b6b4e30",
+      "title": "Global headquarters for 30,000 human resources from around the world",
+      "publisher": "Nihon Sekkei / 日本设计",
+      "sourceDate": "2022-01-17",
+      "authority": "architect",
+      "use": "Phase 5; six offices plus visitor; second-floor ring; south-side media roof",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/nihonsekkei-phase5.html"
+    },
+    {
+      "id": "aspect-park-c",
+      "url": "https://www.aspect-studios.com/au/projects/alibaba-xixi-campus-park-c",
+      "finalUrl": "https://www.aspect-studios.com/au/projects/alibaba-xixi-campus-park-c",
+      "status": "downloaded",
+      "path": "docs/hangzhou/research/ali/snapshots/aspect-park-c.html",
+      "bytes": 102525,
+      "sha256": "ae835a09046ffd16969ef17d4056c71f31f9ced296fcf8fd8665f1a2cc61be90",
+      "title": "Alibaba Xixi Campus (Park C)",
+      "publisher": "ASPECT Studios",
+      "sourceDate": "2024",
+      "authority": "landscape-designer",
+      "use": "Park C identity; multi-storey podium; water and landscape",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/aspect-park-c.html"
+    },
+    {
+      "id": "credaward-park-c",
+      "url": "https://www.credaward.com/project/365186/",
+      "finalUrl": "https://www.credaward.com/project/365186/",
+      "status": "downloaded",
+      "path": "docs/hangzhou/research/ali/snapshots/credaward-park-c.html",
+      "bytes": 78819,
+      "sha256": "16b144d33014f9b814302e5db4ed6c4a4634ec5607329395b66cd73309da8d00",
+      "title": "阿里巴巴全球总部（杭州西溪园区C区)",
+      "publisher": "CREDAWARD / project submission",
+      "sourceDate": null,
+      "authority": "awards-project-submission",
+      "use": "explicit Park C and architect identity; six offices plus visitor",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/credaward-park-c.html"
+    },
+    {
+      "id": "nihonsekkei-report-2026",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2026/02/GLOBAL-PROJECT-REPORT2026_JPN-ENG_rev1.pdf",
+      "status": "downloaded",
+      "path": "docs/hangzhou/research/ali/snapshots/nihonsekkei-global-report-2026-rev1.pdf",
+      "bytes": 12883311,
+      "sha256": "29cc6b1abfaa31b99a3bb1810d99cfaabd194fe9d8c52d18b59e41d8c4ac307f",
+      "title": "Global Project Report 2026 JPN-ENG rev1",
+      "publisher": "Nihon Sekkei / 日本设计",
+      "sourceDate": "2026",
+      "authority": "architect",
+      "use": "current completed project page 49–50, Height 80m; conflicting awards data not adopted",
+      "accessedAt": "2026-10-12",
+      "license": "Copyright retained by source; no game-texture or redistribution license verified",
+      "allowedUseInThisPackage": "research-only snapshot and factual evidence",
+      "imageUse": "reference only, not a runtime asset",
+      "localPath": "docs/hangzhou/research/ali/snapshots/nihonsekkei-global-report-2026-rev1.pdf"
+    },
+    {
+      "id": "osm-site-geometries",
+      "url": "https://overpass-api.de/api/interpreter",
+      "publisher": "OpenStreetMap contributors / Overpass API",
+      "title": "overpass-site-geometries.json",
+      "accessedAt": "2026-10-12",
+      "requestMethod": "POST",
+      "query": "[out:json][timeout:45];way(id:645135612,544285896,645093961,1228913717,1355173307);out meta geom;",
+      "sourceDate": "2026-10-12T09:27:36Z",
+      "dataCrs": "EPSG:4326 / WGS84",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "path": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json",
+      "bytes": 10879,
+      "sha256": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+      "status": "downloaded",
+      "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary",
+      "localPath": "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json"
+    },
+    {
+      "id": "osm-alibaba-buildings",
+      "url": "https://overpass-api.de/api/interpreter",
+      "publisher": "OpenStreetMap contributors / Overpass API",
+      "title": "overpass-alibaba-buildings.json",
+      "accessedAt": "2026-10-12",
+      "requestMethod": "POST",
+      "query": "[out:json][timeout:45];(way[\"building\"](30.274,120.014,30.289,120.028);relation[\"building\"](30.274,120.014,30.289,120.028););out meta geom;",
+      "sourceDate": "2026-10-12T09:28:41Z",
+      "dataCrs": "EPSG:4326 / WGS84",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "path": "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json",
+      "bytes": 415501,
+      "sha256": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+      "status": "downloaded",
+      "use": "public volunteered mapped geometry and object tags; not surveyed cadastral boundary",
+      "localPath": "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json"
+    },
+    {
+      "id": "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_01",
+      "url": "https://aspect.imgix.net/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_01.jpg?auto=compress%2Cformat&fit=crop&ixlib=php-3.1.0&v=1753845843&w=1320",
+      "publisher": "ASPECT Studios",
+      "sourceDate": "2024",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_01.jpg",
+      "bytes": 145344,
+      "sha256": "fd8c43430794bf7b2fa74f606148708e9db47be2a4420a87a1ebdede8a1bcc89",
+      "status": "reference-snapshot",
+      "referenceKind": "completed landscape/architecture photo; photographer Wang Wenjie",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_04",
+      "url": "https://aspect.imgix.net/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_04.jpg?auto=compress%2Cformat&fit=crop&ixlib=php-3.1.0&v=1753845878&w=1320",
+      "publisher": "ASPECT Studios",
+      "sourceDate": "2024",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_04.jpg",
+      "bytes": 132943,
+      "sha256": "e673a06bd5829b71af88768699479b8cd6c5b808e0da56a687984440cd4d97c6",
+      "status": "reference-snapshot",
+      "referenceKind": "completed landscape/architecture photo; photographer Wang Wenjie",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_08",
+      "url": "https://aspect.imgix.net/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_08.jpg?auto=compress%2Cformat&fit=crop&ixlib=php-3.1.0&v=1753845577&w=1320",
+      "publisher": "ASPECT Studios",
+      "sourceDate": "2024",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_08.jpg",
+      "bytes": 288329,
+      "sha256": "d2e6efa31371deaef7bc40c08c12384bc2c0c32b77e823f5bb0053b43d1eb301",
+      "status": "reference-snapshot",
+      "referenceKind": "completed landscape/architecture photo; photographer Wang Wenjie",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_12",
+      "url": "https://aspect.imgix.net/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_12.jpg?auto=compress%2Cformat&fit=crop&ixlib=php-3.1.0&v=1753845768&w=1320",
+      "publisher": "ASPECT Studios",
+      "sourceDate": "2024",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_12.jpg",
+      "bytes": 672204,
+      "sha256": "8f57c8501b720c9f745976d8ebaee2fad366b14947b1fc3b0ae2e5db933f367a",
+      "status": "reference-snapshot",
+      "referenceKind": "completed landscape/architecture photo; photographer Wang Wenjie",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_14",
+      "url": "https://aspect.imgix.net/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_14.jpg?auto=compress%2Cformat&fit=crop&ixlib=php-3.1.0&v=1753844334&w=1320",
+      "publisher": "ASPECT Studios",
+      "sourceDate": "2024",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_14.jpg",
+      "bytes": 626980,
+      "sha256": "34a8ca84a095eb60285a2b5ea2d23ac0dfa5a0ec9ab8e41f5e72b55f199bbb34",
+      "status": "reference-snapshot",
+      "referenceKind": "completed landscape/architecture photo; photographer Wang Wenjie",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_16",
+      "url": "https://aspect.imgix.net/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_16.jpg?auto=compress%2Cformat&fit=crop&ixlib=php-3.1.0&v=1753844995&w=1320",
+      "publisher": "ASPECT Studios",
+      "sourceDate": "2024",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_16.jpg",
+      "bytes": 305851,
+      "sha256": "b135d10a18bb4024b41b64be0a3166d308112f0b445ab9bf45b31b1064f9be09",
+      "status": "reference-snapshot",
+      "referenceKind": "completed landscape/architecture photo; photographer Wang Wenjie",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "nihon-sekkei-2022-01-17-104535",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2022/01/2022-01-17-104535.jpg",
+      "publisher": "Nihon Sekkei",
+      "sourceDate": "2022-01-17",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-104535.jpg",
+      "bytes": 309369,
+      "sha256": "21fd9fd025f99dc3af4077f1b7816be8eee3e9e393d31d3ceaed5cc0f4f432a0",
+      "status": "reference-snapshot",
+      "referenceKind": "scheme render/diagram; not completed photo",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "nihon-sekkei-2022-01-17-111804",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2022/01/2022-01-17-111804.jpg",
+      "publisher": "Nihon Sekkei",
+      "sourceDate": "2022-01-17",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-111804.jpg",
+      "bytes": 301792,
+      "sha256": "c470f4ab94bdf2c98704afe84c43608c22dcd3344312cc695435178e4aa7c876",
+      "status": "reference-snapshot",
+      "referenceKind": "scheme render/diagram; not completed photo",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "nihon-sekkei-2022-01-17-112227",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2022/01/2022-01-17-112227.jpg",
+      "publisher": "Nihon Sekkei",
+      "sourceDate": "2022-01-17",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-112227.jpg",
+      "bytes": 246937,
+      "sha256": "6966b36e300332ee69ec07ea3a5944aa87905226912df995274fa77d1cad066a",
+      "status": "reference-snapshot",
+      "referenceKind": "scheme render/diagram; not completed photo",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "nihon-sekkei-2022-01-17-112642",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2022/01/2022-01-17-112642.jpg",
+      "publisher": "Nihon Sekkei",
+      "sourceDate": "2022-01-17",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-112642.jpg",
+      "bytes": 242145,
+      "sha256": "812b2e5dcba9693abce83fb7e2394f249da51c3e8145c3df67bffede0fdc89dd",
+      "status": "reference-snapshot",
+      "referenceKind": "scheme render/diagram; not completed photo",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "nihon-sekkei-878862bd4ed9bfa26f6c2bb5913c2085",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2022/01/878862bd4ed9bfa26f6c2bb5913c2085.jpg",
+      "publisher": "Nihon Sekkei",
+      "sourceDate": "2022-01-17",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/878862bd4ed9bfa26f6c2bb5913c2085.jpg",
+      "bytes": 274668,
+      "sha256": "b8aaf48231c7bbba1c4a4be82141cac69fac72befa022d3d86fc83fb2072030f",
+      "status": "reference-snapshot",
+      "referenceKind": "scheme render/diagram; not completed photo",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "nihon-sekkei-B",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2022/01/B.jpg",
+      "publisher": "Nihon Sekkei",
+      "sourceDate": "2022-01-17",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/B.jpg",
+      "bytes": 329965,
+      "sha256": "e9ccc1377927818eb9686c78a997ef5cdc5da6ee7e7d2135bf535d3b4c548e5a",
+      "status": "reference-snapshot",
+      "referenceKind": "scheme render/diagram; not completed photo",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "nihon-sekkei-db7b08af02c209e4893c2b01ec399caf",
+      "url": "https://www.nihonsekkei.co.jp/wp-content/uploads/2022/01/db7b08af02c209e4893c2b01ec399caf.jpg",
+      "publisher": "Nihon Sekkei",
+      "sourceDate": "2022-01-17",
+      "accessedAt": "2026-10-13",
+      "localPath": "docs/hangzhou/research/ali/alibaba-c-round2/references/db7b08af02c209e4893c2b01ec399caf.jpg",
+      "bytes": 677210,
+      "sha256": "67f93b20340acab79723efbc308f1f2e897fa5daf16e3c7477757fef686bdbca",
+      "status": "reference-snapshot",
+      "referenceKind": "scheme render/diagram; not completed photo",
+      "license": "Copyright retained by source; reference-only, no publishing texture license verified",
+      "use": "Source identity/shape comparison and bounded candidate estimates; never runtime photo texture"
+    },
+    {
+      "id": "geofabrik-fixed",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "Geofabrik / OpenStreetMap contributors",
+      "accessedAt": "2026-10-13",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "source-verified",
+      "license": "ODbL-1.0; © OpenStreetMap contributors",
+      "localPath": "data/processed/hangzhou/buildings.geojson",
+      "sha256": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+      "use": "Only mapped EPSG:4326 plan geometry; heights absent and OSM layer is not storey count"
+    }
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/ali/snapshots/nihonsekkei-phase5.html": "8dcd355af0ae4ab0645ebe3f73c52ceca052d7966f712a0479cf26172b6b4e30",
+    "docs/hangzhou/research/ali/snapshots/aspect-park-c.html": "ae835a09046ffd16969ef17d4056c71f31f9ced296fcf8fd8665f1a2cc61be90",
+    "docs/hangzhou/research/ali/snapshots/credaward-park-c.html": "16b144d33014f9b814302e5db4ed6c4a4634ec5607329395b66cd73309da8d00",
+    "docs/hangzhou/research/ali/snapshots/nihonsekkei-global-report-2026-rev1.pdf": "29cc6b1abfaa31b99a3bb1810d99cfaabd194fe9d8c52d18b59e41d8c4ac307f",
+    "docs/hangzhou/research/ali/snapshots/overpass-site-geometries.json": "565c9b2a8f2ee8fb56781c55e45304638d887797393f7f1ed703f4f05fb7f34f",
+    "docs/hangzhou/research/ali/snapshots/overpass-alibaba-buildings.json": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_01.jpg": "fd8c43430794bf7b2fa74f606148708e9db47be2a4420a87a1ebdede8a1bcc89",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_04.jpg": "e673a06bd5829b71af88768699479b8cd6c5b808e0da56a687984440cd4d97c6",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_08.jpg": "d2e6efa31371deaef7bc40c08c12384bc2c0c32b77e823f5bb0053b43d1eb301",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_12.jpg": "8f57c8501b720c9f745976d8ebaee2fad366b14947b1fc3b0ae2e5db933f367a",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_14.jpg": "34a8ca84a095eb60285a2b5ea2d23ac0dfa5a0ec9ab8e41f5e72b55f199bbb34",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_16.jpg": "b135d10a18bb4024b41b64be0a3166d308112f0b445ab9bf45b31b1064f9be09",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-104535.jpg": "21fd9fd025f99dc3af4077f1b7816be8eee3e9e393d31d3ceaed5cc0f4f432a0",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-111804.jpg": "c470f4ab94bdf2c98704afe84c43608c22dcd3344312cc695435178e4aa7c876",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-112227.jpg": "6966b36e300332ee69ec07ea3a5944aa87905226912df995274fa77d1cad066a",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/2022-01-17-112642.jpg": "812b2e5dcba9693abce83fb7e2394f249da51c3e8145c3df67bffede0fdc89dd",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/878862bd4ed9bfa26f6c2bb5913c2085.jpg": "b8aaf48231c7bbba1c4a4be82141cac69fac72befa022d3d86fc83fb2072030f",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/B.jpg": "e9ccc1377927818eb9686c78a997ef5cdc5da6ee7e7d2135bf535d3b4c548e5a",
+    "docs/hangzhou/research/ali/alibaba-c-round2/references/db7b08af02c209e4893c2b01ec399caf.jpg": "67f93b20340acab79723efbc308f1f2e897fa5daf16e3c7477757fef686bdbca",
+    "data/processed/hangzhou/buildings.geojson": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+    "docs/hangzhou/research/ali/alibaba-c-round2/geofabrik-footprints.json": "c103b7268c5caa0d281b3fe3f22260aa542f40e428d18d72791cd75d94758d2c",
+    "docs/hangzhou/research/ali/alibaba-c-round2/footprint-correspondence.json": "7ec1be423f78d167bcd12aab6e72130fc1dc64eb9b7c1428dc2996e2605ef2c4"
+  },
+  "observations": [
+    {
+      "kind": "footprint",
+      "basis": "measured",
+      "unit": "WGS84 + m",
+      "value": {
+        "sourceIds": [
+          "relation/18754982",
+          "relation/18754983",
+          "relation/18754984",
+          "relation/18754985",
+          "relation/18754986",
+          "relation/18754987",
+          "way/1363020716",
+          "way/1363020718"
+        ],
+        "sixOfficeAtriumRings": 6,
+        "visitorLengthM": 204.27,
+        "mediaRoofLengthM": 486.4
+      },
+      "sourceIds": [
+        "geofabrik-fixed"
+      ],
+      "uncertainty": "Measured from volunteered mapped vertices with WGS84 ECEF→ENU, exact cyclic matches to auxiliary Overpass. OSM absolute/outline error unknown; no survey accuracy claim. All holes retained."
+    },
+    {
+      "kind": "height",
+      "basis": "reported",
+      "unit": "m / storeys",
+      "value": {
+        "projectHeightM": 80,
+        "projectBasementFloors": 2,
+        "projectAboveGroundFloorMetric": 15
+      },
+      "sourceIds": [
+        "nihonsekkei-report-2026"
+      ],
+      "uncertainty": "Completed project sheet pp49–50 reports aggregate Height80m / Floor15F B2F. It does not identify each building height. Awards appendix inconsistent140m/520000m² retained as conflict, not used."
+    },
+    {
+      "kind": "height",
+      "basis": "estimated",
+      "unit": "m",
+      "value": {
+        "C6": {
+          "candidateHeightM": 54,
+          "errorPlusMinusM": 12,
+          "candidateFacadeCourses": 10
+        },
+        "C5": {
+          "candidateHeightM": 59.2,
+          "errorPlusMinusM": 12,
+          "candidateFacadeCourses": 11
+        },
+        "C4": {
+          "candidateHeightM": 64.4,
+          "errorPlusMinusM": 11,
+          "candidateFacadeCourses": 12
+        },
+        "C3": {
+          "candidateHeightM": 80,
+          "errorPlusMinusM": 8,
+          "candidateFacadeCourses": 15
+        },
+        "C2": {
+          "candidateHeightM": 74.8,
+          "errorPlusMinusM": 11,
+          "candidateFacadeCourses": 14
+        },
+        "C1": {
+          "candidateHeightM": 64.4,
+          "errorPlusMinusM": 12,
+          "candidateFacadeCourses": 12
+        },
+        "访客中心": {
+          "candidateHeightM": 38.4,
+          "errorPlusMinusM": 10,
+          "candidateFacadeCourses": 7
+        }
+      },
+      "sourceIds": [
+        "nihon-sekkei-2022-01-17-104535",
+        "nihon-sekkei-878862bd4ed9bfa26f6c2bb5913c2085",
+        "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_04",
+        "nihonsekkei-report-2026"
+      ],
+      "uncertainty": "Candidate floor-course ratios roughly10:11:12:15:14:12 and visitor7 from architect aerial scheme, checked against completed courtyard photos (C4/3/2). Using maximum80m and2m parapet gives pitch(80-2)/15=5.2m; H=2+5.2N. Counts and roof correspondence may differ as-built. ±8–12m includes ~1–2 courses, perspective/occlusion, scheme-to-built variation; C3 maximum allocation itself remains estimated. No absent OSM height is asserted as known."
+    },
+    {
+      "kind": "orientation",
+      "basis": "measured",
+      "unit": "degree clockwise from north modulo180",
+      "value": {
+        "C6": 72.89,
+        "C5": 72.89,
+        "C4": 72.76,
+        "C3": 72.72,
+        "C2": 72.69,
+        "C1": 72.9,
+        "访客中心": 72.81,
+        "Media Roof": 73.24
+      },
+      "sourceIds": [
+        "geofabrik-fixed"
+      ],
+      "uncertainty": "Minimum-area oriented envelope computed from fixed WGS84 mapped vertices after ECEF→ENU. Bearings do not prove entrance direction; no commercial-map coordinates used."
+    },
+    {
+      "kind": "silhouette",
+      "basis": "reported",
+      "unit": "building group",
+      "value": {
+        "offices": 6,
+        "visitorCenter": 1,
+        "layout": "U around south-opening garden",
+        "connection": "Second-floor Exchange Ring connects seven units",
+        "southGateway": "approximately480m Media Roof / Ali Roof"
+      },
+      "sourceIds": [
+        "nihonsekkei-phase5",
+        "nihonsekkei-report-2026",
+        "credaward-park-c"
+      ],
+      "uncertainty": "Layout is architect-reported and crosschecked on mapped C parcel. Exact link deck widths/heights and completed roof profiles not dimensioned; candidate estimates separately frozen. Phase6 and A/B campuses excluded."
+    },
+    {
+      "kind": "facade",
+      "basis": "estimated",
+      "unit": "m + visual description",
+      "value": {
+        "material": "dark blue-grey glass with silver vertical mullions",
+        "horizontalRhythm": "fine storey rails, projecting belt/fins every three candidate courses",
+        "verticalBayM": 3.4,
+        "finProjectionM": 1.05,
+        "roof": "flat perimeter, recessed roof gardens and central linear skylight/frame"
+      },
+      "sourceIds": [
+        "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_04",
+        "aspect-studios-ASPECTStudios_SHA_Alibaba-Xixi-Campus-Park-C_14",
+        "nihon-sekkei-2022-01-17-104535",
+        "nihon-sekkei-db7b08af02c209e4893c2b01ec399caf"
+      ],
+      "uncertainty": "Visual manual comparison of two completed courtyard/elevated directions and scheme aerial/section. Relative rhythm is supported; bay3.4±0.8m and fin1.05±0.6m estimated from ~104m mapped office width / visible columns, perspective affected. Sparse authored facade panels are visual abstraction, not window inventory."
+    },
+    {
+      "kind": "source-object-crosswalk",
+      "basis": "estimated",
+      "unit": "source geometry / object identity",
+      "value": {
+        "mappedRoofId": "way/1363020718",
+        "mappedLongAxisLengthM": 486.4,
+        "architectSchemeMediaRoofLengthM": 480,
+        "role": "south continuous elevated Media/Ali Roof"
+      },
+      "sourceIds": [
+        "geofabrik-fixed",
+        "nihonsekkei-phase5",
+        "nihon-sekkei-2022-01-17-104535"
+      ],
+      "uncertainty": "Unnamed source roof outline is aligned at the south edge and matches the architect plan/render scale480m vs mapped486.4m (1.3% variation). This is source/photo crosswalk, not an OSM name or surveyed as-built roof specification. Exact completed roof elevations, ends and supports pending."
+    }
+  ],
+  "blockers": [],
+  "pendingSubscopes": [
+    "逐栋竣工高度/层数与屋顶机械设备测绘；C3=80m仅为候选归属，不是逐栋reported",
+    "全侧立面及方案图到竣工状态差异；入口门洞准确落位、安检与可交互内部",
+    "多层景观基座/地下室地形标高与地面道路衔接；Exchange Ring全路径及可通行性",
+    "中央湖面必须由基础water管线接入；环形景观雨棚及树木家具另立范围",
+    "真实字牌字形、安装位置与许可；夜景照明事实",
+    "基础楼体/近景立面排除、GLB导出、当前资产碰撞/导航、昼夜实机三视角与性能"
+  ],
+  "conflicts": [
+    {
+      "sourceId": "nihonsekkei-report-2026",
+      "value": "Awards appendix lists140m/520000m², inconsistent with completed project sheet80m/970000m²",
+      "resolution": "Use actual completed project sheet; all per-building values remain estimates"
+    }
+  ],
+  "unknownObservations": [
+    {
+      "kind": "individual-as-built-height",
+      "status": "unknown",
+      "objects": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "访客中心"
+      ],
+      "notes": "Candidate estimated heights provide finite silhouette; reported project15F/B2/80m does not resolve each object."
+    },
+    {
+      "kind": "entrance",
+      "status": "unknown",
+      "notes": "Visitor south exterior glazing accent is candidate, not verified security entrance/arrival."
+    },
+    {
+      "kind": "night",
+      "status": "unknown",
+      "notes": "No illumination inference from daylight or scheme imagery."
+    },
+    {
+      "kind": "ground-datum",
+      "status": "unknown",
+      "notes": "Multilevel podium exists; source footprint layer2 is not a physical elevation."
+    }
+  ]
+}

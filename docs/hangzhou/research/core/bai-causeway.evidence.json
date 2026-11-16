@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "placeId": "bai-causeway",
+  "name": "白堤",
+  "type": "linear-landscape",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "unesco-nomination"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "中国缔约国提名文件 / UNESCO 发布",
+      "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": {
+        "length": 987,
+        "width": 33
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "提名材料p64当时尺寸，未验证2026现状；未由该尺寸替换OSM折线。"
+    },
+    {
+      "kind": "orientation",
+      "value": "东西向，东连断桥，西连孤山",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "layout",
+      "value": "白堤划分湖区；需与断桥和孤山同一坐标快照",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "elevation_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "silhouette",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "沿真实OSM堤中心/岸边组织树列、铺面、草地与护岸；断桥、锦带桥的坡面是独立结构，不把整段堤举到同一桥高。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "宽33m是堤体描述，未确认车/步行铺面宽；不得将整个33m都当可驾驶宽度。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

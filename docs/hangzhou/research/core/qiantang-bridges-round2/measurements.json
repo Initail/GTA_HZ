@@ -1,0 +1,83 @@
+{
+  "cityId": "hangzhou",
+  "sourceCRS": "EPSG:4326",
+  "projectionConfigSha256": "a0012da2a5b2a767d095e25e4394d5f2bc17795ab9b55938180aefc579c1290a",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "bridges": [
+    {
+      "id": "qiantang-bridge",
+      "centerWGS84": [
+        120.134374525,
+        30.195734025
+      ],
+      "centerGameEN": [
+        -1190.7513899330004,
+        -5205.802147668741
+      ],
+      "bearingDegreesFromNorth": 156.32846356625265,
+      "sourceRoadLengthsM": {
+        "way/4348186": 1493.5285229052158
+      },
+      "sourceRoadIds": [
+        "way/4348186"
+      ],
+      "structuralPositionStatus": "estimated on exact source axes; no pier/pylon survey"
+    },
+    {
+      "id": "fuxing-bridge",
+      "centerWGS84": [
+        120.17483865006083,
+        30.209770029145535
+      ],
+      "centerGameEN": [
+        1145.3263565725815,
+        -4272.207945009025
+      ],
+      "bearingDegreesFromNorth": 150.8133596549674,
+      "sourceRoadLengthsM": {
+        "way/29169666": 1728.9556218579432,
+        "way/154135283": 461.5346375849108,
+        "way/29170042": 463.52248476604683,
+        "way/154135290": 1730.1475546033196,
+        "way/336983476": 1806.8184029442073,
+        "way/340648409": 1703.1937495166842,
+        "way/589429905": 1758.8441721183606
+      },
+      "sourceRoadIds": [
+        "way/29169666",
+        "way/154135283",
+        "way/29170042",
+        "way/154135290",
+        "way/336983476",
+        "way/340648409",
+        "way/589429905"
+      ],
+      "structuralPositionStatus": "estimated on exact source axes; no pier/pylon survey"
+    },
+    {
+      "id": "zhijiang-bridge",
+      "centerWGS84": [
+        120.120353875,
+        30.160933725
+      ],
+      "centerGameEN": [
+        -2000.1925531184456,
+        -7520.517788526951
+      ],
+      "bearingDegreesFromNorth": 64.59167037885342,
+      "sourceRoadLengthsM": {
+        "way/306360721": 1890.1482223125854,
+        "way/589558021": 2005.8766047196818,
+        "way/306360739": 534.8336738331815
+      },
+      "sourceRoadIds": [
+        "way/306360721",
+        "way/589558021",
+        "way/306360739"
+      ],
+      "structuralPositionStatus": "estimated on exact source axes; no pier/pylon survey"
+    }
+  ],
+  "identityCorrection": "826790145 is closed man_made bridge area, NOT rail centerline;154142001 is actualrailway; shared node3351280499 is sourceplan crossing across separate layer/mode, not a driving junction.",
+  "method": "exact fixed node refs/WGS chains; Hangzhou config planar physical-metres arc lengths; bridge-center/superstructure stations finite estimates with explicit bounds."
+}

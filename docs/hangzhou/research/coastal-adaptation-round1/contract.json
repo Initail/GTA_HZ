@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "kind": "proposed-hangzhou-coastal-contract-not-runtime-asset",
+  "createdDate": "2026-11-11",
+  "citySha256": "b8d04810aa8f26f9020794a53def59e35e2aeaba0061d30284d59833d1f2ff47",
+  "sourceSnapshot": "2026-10-11",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "runtimeManifest": {
+    "path": "coastal/infrastructure.json under configured city asset root",
+    "requiredFields": ["schemaVersion", "waterHeight", "crossings", "parkLights", "shoreDistance"],
+    "schemaVersion": 1,
+    "waterHeight": 0.8999999999999999,
+    "waterHeightBasis": "initial reflection reference only, inherited estimated relation/8227206; do not flatten other water bodies",
+    "waterHeightSourcePartIndex": 0,
+    "crossings": {
+      "generation": "Explicit non-tunnel source bridges intersected with actual union of v3 water polygons; retain each positive-length wet fragment and source road identity.",
+      "sourceBridgeRoadCount": 2049,
+      "wetFragmentCountAbovePoint1Game": 2132,
+      "requiredFields": ["id", "name", "width", "points", "length", "height", "ramp"],
+      "identity": "unique road-id + source-part + wet-fragment suffix; extra sourceRoadId/sourceId/pointStations/nodeIds preserve lineage",
+      "points": "game X/Z, source chain intersection coordinates, no second .60 scale",
+      "height": "compatibility scalar sampled at fragment midpoint from current source-way height profile; never used as flat deck height; preserve pointHeightsGame separately",
+      "ramp": "0 for Hangzhou compatibility path; ground heights already source-node based. Explicit planting corridor margin remains width/2+5, not a 70-game radial ramp.",
+      "minimumRuntimeChange": "raise the 2000 item guard to a justified bounded limit such as 4096 and validate finite fields/source membership; this input has 2132 fragments",
+      "notIncludedAsBridges": ["53 source tunnel roads", "304 unmarked water intersections pending object-level interpretation", "construction roads absent from active road set"],
+      "doNot": ["truncate to 2000", "use empty list to pass loader", "create turns at geometric crossings", "radially raise roads", "double-build landmark-owned bridge structures", "treat all shared source nodes as mode-compatible"]
+    },
+    "parkLights": {
+      "requiredFields": ["id", "name", "x", "z", "height", "radius", "color", "power"],
+      "allowedCount": [1, 400],
+      "recommendedCandidateBudget": 220,
+      "positionsStatus": "not frozen; derive nonempty actual safe positions before asset integration",
+      "sourceAreaCandidates": ["way/611828306", "way/611828307", "way/611828308", "way/611828309", "way/356904142"],
+      "selection": "named public park source polygons with reachable mapped public paths; dry land, water/building/road/tree/entry clearance; avoid arbitrary blanket floodlights in temples and West Lake heritage precincts",
+      "placementStatus": "estimated-game-fixtures-not-surveyed-existing-lamps",
+      "legacyTemplateCompatibleHeight": 12,
+      "legacyFixtureEmitterHeight": 11.56,
+      "heightCaveat": "Current pole instancing and localLighting ignore ParkLight.height; custom lower fixtures require coordinated model/source update, not data-only edits.",
+      "fieldsMustBeFrozen": ["point clearance and path evidence", "actual fixture model", "radius/color/power authored values", "ground height source", "source area ID", "individual placement status"],
+      "streetLamps": "retain existing 69723-entry lamps.json separately; do not copy these into the <=400 parkLights list"
+    }
+  },
+  "shoreDistance": {
+    "requiredFields": ["url", "extent", "maxDistance"],
+    "urlRule": "resolved city-specific public URL, e.g. configured asset prefix + coastal/shore-distance.png; Texture does not call cityAssetUrl on this string",
+    "extentGame": [-12989.71600580749, -8247.766239555946, 8371.150314853696, 4389.940095247367],
+    "maxDistance": 120,
+    "maxDistanceReason": "current shader multiplies red channel by hard-coded 120; field itself is not read by shader",
+    "encoding": "RGB8 PNG, R=round(clamp(distanceGame/120,0,1)*255), G=water occupancy*255, B=0; gammaSpace=false, invertY=false",
+    "mapping": "pixel centers span the same extent as UV=(worldXZ-extentMin)/(extentMax-extentMin); upload row 0 corresponds to zMin with current invertY=false; verify asymmetric known landmarks in browser",
+    "distanceGeometry": "distance inside wet union to physical wet/dry boundaries, including island holes; dissolve internal source and lock semantic partitions; do not treat clip-box edges as shores",
+    "waterMask": "only actual v3 water union; no box-minus-mainland sea or southern-ocean completion",
+    "invalidBoundaryPolicy": "tag crop edges and use uncut fixed-source continuation or explicitly omit crop edges from physical-shore distance; do not fabricate foam at bbox",
+    "generation": "exact Euclidean distance in game units or resolution-bound raster distance with anisotropic pixel sampling; legacy repeated erosion is not a calibrated Euclidean field",
+    "candidateResolution": [8192, 4847],
+    "candidateRgbaMipBudgetMiB": 201.95833333333334,
+    "lowerResolutionOption": [4096, 2424],
+    "lowerResolutionRgbaMipBudgetMiB": 50.5,
+    "qualityGate": "8192 option still needs maxTextureSize/memory/frame tests; 4096 option is 5.2 game/texel and cannot be accepted as preserving all 1.5-6 game shoreline detail. For low-memory targets propose local high-resolution distance clipmap as a separate runtime change.",
+    "checks": ["actual nonconstant PNG exists", "decoded texels near West Lake/Qiantang/island holes match X/Z orientation", "distance scale is 120", "world bounds cover current water", "crop edge does not become foam shore", "no second geography scale", "texture readiness and close/remote views", "memory/frame budget measured"]
+  },
+  "shoreMaterialsAndVegetation": {
+    "keep": ["existing reflection refresh strategy and single planar target", "water wave derivative filtering and roughness variance", "per-submesh material gating", "instanced park lamps and two pooled local lights", "source-road and water clearance for vegetation"],
+    "requiredAdaptations": ["derive bank/promenade geometry from real water boundaries and mapped path/retaining-wall semantics, not empty city.coast or Shenzhen southern wall", "preserve public-surface mesh category metadata or extend receiver name matching for new tiled meshes", "replace baypark wetness reference y=0 with explicit local water reference; city-balcony inherits provisional Qiantang reference only", "apply actual park/river vegetation source areas and pedestrian/entry clearances; do not use global coast clipping", "prevent generic bridge railings/supports from duplicating named bridge landmark modules"],
+    "pending": ["shore bank wall type/heights are not surveyed", "304 unmarked source-water intersections", "24 remaining water overlaps", "source-height/bridge-model mismatches and portal conflicts", "all current visual/collision/performance checks"]
+  }
+}

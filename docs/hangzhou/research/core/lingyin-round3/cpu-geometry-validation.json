@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-host-contract-only",
+  "at": "2026-10-14T05:36:07+00:00",
+  "sourceModuleSha256": "163311ff73549392f5f8e773b85fd5d28c86bc66027544f05e15511f6157cd3c",
+  "sourceSpecSha256": "22c4106a01dcccc2702f53413ac5fb67635d257a5beb90220a3d00dc6cc517dc",
+  "hallCount": 5,
+  "faces": 14430,
+  "trianglesBeforeBlenderExport": 29784,
+  "materials": [
+    "civicred",
+    "concrete",
+    "darkglass",
+    "gold",
+    "landmarkglass",
+    "roof"
+  ],
+  "lights": 0,
+  "minimumFanTriangleAreaGameUnits2": 2.0159999999292904e-05,
+  "collisionPolygons": 348,
+  "hallRows": [
+    {
+      "id": "kings",
+      "sourceFeatureIds": [
+        "way/434365023"
+      ],
+      "baseYGame": 37.5,
+      "baseBasis": "synthetic CPU fixture, not a factual elevation",
+      "centerGame": [
+        -3352.2791024473895,
+        -2104.8199671980906
+      ],
+      "frozenShellFaces": 2076,
+      "facesIncludingDetails": 2703,
+      "proceduralStairs": 3,
+      "realStepCount": null
+    },
+    {
+      "id": "grand",
+      "sourceFeatureIds": [
+        "way/434365024"
+      ],
+      "baseYGame": 39.75,
+      "baseBasis": "synthetic CPU fixture, not a factual elevation",
+      "centerGame": [
+        -3367.393943665174,
+        -2056.6290785077995
+      ],
+      "frozenShellFaces": 3156,
+      "facesIncludingDetails": 3864,
+      "proceduralStairs": 7,
+      "realStepCount": null
+    },
+    {
+      "id": "medicine",
+      "sourceFeatureIds": [
+        "way/434365025"
+      ],
+      "baseYGame": 45.25,
+      "baseBasis": "synthetic CPU fixture, not a factual elevation",
+      "centerGame": [
+        -3379.9472414107418,
+        -2021.5739126662459
+      ],
+      "frozenShellFaces": 2076,
+      "facesIncludingDetails": 2606,
+      "proceduralStairs": 7,
+      "realStepCount": null
+    },
+    {
+      "id": "dharma",
+      "sourceFeatureIds": [
+        "way/434366739"
+      ],
+      "baseYGame": 54.375,
+      "baseBasis": "synthetic CPU fixture, not a factual elevation",
+      "centerGame": [
+        -3387.590313551055,
+        -1996.7389590120981
+      ],
+      "frozenShellFaces": 2076,
+      "facesIncludingDetails": 2695,
+      "proceduralStairs": 23,
+      "realStepCount": null
+    },
+    {
+      "id": "huayan",
+      "sourceFeatureIds": [
+        "way/434366741"
+      ],
+      "baseYGame": 63.5,
+      "baseBasis": "synthetic CPU fixture, not a factual elevation",
+      "centerGame": [
+        -3400.884518318537,
+        -1958.8465214687342
+      ],
+      "frozenShellFaces": 2076,
+      "facesIncludingDetails": 2562,
+      "proceduralStairs": 9,
+      "realStepCount": null
+    }
+  ],
+  "frozenShellStreamSha256": "91f2a478b5cae1bd143b0d1690f76a19c98900e1c3d3a9a7c11b9c627c6723fa",
+  "checks": [
+    "frozen .5m-plinth/five shell B.face stream exactly identical at equal heights",
+    "five independently translated absolute game base Y values; lm.y ignored",
+    "fixed WGS84 centroid placement and single .60 dimension scaling",
+    "caller B frame restored",
+    "finite nondegenerate fans and declared budget",
+    "floor terrace/stair heights match actual generated solids",
+    "source-bound finite valid CCW solid polygons and vertical bounds",
+    "central front balustrade stair mouths remain open",
+    "reject missing/null/nonfinite hall bases and repeated scaling before mutations"
+  ],
+  "limitations": [
+    "Synthetic heights are API test data, not factual floor elevations.",
+    "No Blender/browser/GLB/game screenshot/current collision or performance acceptance.",
+    "Front terrace lengths/drops/steps are openly estimated and need surveyed terrain/path joining.",
+    "No whole-monastery boundary, continuous walkway or accessible-arrival assertion.",
+    "Original walls/doors remain closed; this does not create temple interiors."
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "mainLayout": "two connected hexagonal office clusters plus southwest visitor;23 OSM features are not23 buildings",
+  "sourceFootprintCount": 23,
+  "activeFootprintCount": 21,
+  "physicalBuildingCount": "unknown; multi-arm continuous building groups, public numbered building crosswalk pending",
+  "groupEvidence": [
+    "nbbj-phase4",
+    "benoy-phase4",
+    "nbbj-photo-DJI_0999_screenview"
+  ],
+  "groups": [
+    {
+      "sourceId": "way/1363020721",
+      "group": "visitor",
+      "role": "southwest-visitor",
+      "kind": "visitor",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020722",
+      "group": "west",
+      "role": "west-south-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020723",
+      "group": "west",
+      "role": "west-north-folded-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020724",
+      "group": "west",
+      "role": "west-inner-folded-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020725",
+      "group": "west",
+      "role": "west-junction-north",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020726",
+      "group": "west",
+      "role": "west-junction-south",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020727",
+      "group": "west",
+      "role": "west-southwest-link-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020728",
+      "group": "west",
+      "role": "west-southeast-link-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020729",
+      "group": "west",
+      "role": "west-short-connector",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020730",
+      "group": "west",
+      "role": "west-central-junction",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020731",
+      "group": "east",
+      "role": "east-north-folded-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020732",
+      "group": "east",
+      "role": "east-west-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020733",
+      "group": "east",
+      "role": "east-south-folded-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020734",
+      "group": "east",
+      "role": "east-inner-short-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020735",
+      "group": "east",
+      "role": "east-north-junction",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020736",
+      "group": "east",
+      "role": "east-middle-junction",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020737",
+      "group": "east",
+      "role": "east-southeast-junction",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020738",
+      "group": "east",
+      "role": "east-outer-short-arm",
+      "kind": "office-arm",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020739",
+      "group": "west",
+      "role": "visitor-to-west-junction",
+      "kind": "junction",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020740",
+      "group": "west",
+      "role": "west-stepped-green-roof",
+      "kind": "garden-roof",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    },
+    {
+      "sourceId": "way/1363020741",
+      "group": "central-unresolved",
+      "role": "mapped roof only, functional/height crosswalk unresolved",
+      "status": "blocker-outside-finite-scope",
+      "modeled": false,
+      "excludeBase": false
+    },
+    {
+      "sourceId": "way/1363020742",
+      "group": "central-unresolved",
+      "role": "mapped roof only, functional/height crosswalk unresolved",
+      "status": "blocker-outside-finite-scope",
+      "modeled": false,
+      "excludeBase": false
+    },
+    {
+      "sourceId": "way/1363020743",
+      "group": "east",
+      "role": "east-stepped-green-roof",
+      "kind": "garden-roof",
+      "status": "reference-informed-candidate",
+      "modeled": true,
+      "excludeBase": true,
+      "physicalBuildingNumber": null,
+      "confidence": "estimated photo/plan crosswalk; not a named-building cadastral map"
+    }
+  ],
+  "unresolved": [
+    {
+      "sourceIds": [
+        "way/1363020741",
+        "way/1363020742"
+      ],
+      "blocker": "Exact central sports/canteen/roof functional crosswalk, as-built height and rooftop profile unconfirmed. Retain source building/roof tags and base objects; no guessed published model."
+    },
+    {
+      "subject": "historical PhaseIV masterplan versus modern B zone terminology",
+      "blocker": "Historical preliminary phases/areas and exact NBBJ office-building numbers are not resolved by current page/photos. This finite source-bound model covers only mapped B parcel shapes; no earlier conceptual footprint expansion."
+    }
+  ]
+}

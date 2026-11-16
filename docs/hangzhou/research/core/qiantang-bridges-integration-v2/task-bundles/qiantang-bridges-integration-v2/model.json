@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "placeId": "qiantang-bridges-integration-v2",
+  "artifactPath": null,
+  "sourceModule": "scripts/landmarks/qiantang_bridges_v2.py",
+  "sha256": null,
+  "sourceModuleSha256": "187f31907f305d758f54d736f282e0eb1f6314acbc89936649cf606a3e078450",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "absolute bridge ordinates and water reference",
+    "Fuxing upper26.25 physical metres relative reference",
+    "Qiantang road .25m above upper chord centre",
+    "original member radius/rise/pier parameters retained",
+    "graph-local harmonic approach heights"
+  ],
+  "buildCommand": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python docs/hangzhou/research/core/qiantang-bridges-integration-v2/validate-model.py",
+  "specPath": "docs/hangzhou/research/core/qiantang-bridges-integration-v2/spec.json",
+  "specSha256": "0cac8bde8b84ccab0d2193840974c840f0605966d2577184c089be22adfae255",
+  "artifactState": "CPU candidate-mesh.npz only; Blender exporter is main integrator responsibility; no actual GLB SHA yet"
+}

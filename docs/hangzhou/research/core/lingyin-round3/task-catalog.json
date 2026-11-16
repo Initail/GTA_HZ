@@ -1,0 +1,169 @@
+{
+  "places": [
+    {
+      "id": "lingyin-temple",
+      "name": "灵隐寺五殿独立基高与有限场地细部候选",
+      "kind": "building-group",
+      "location": {
+        "center": [
+          120.09667203986709,
+          30.243079869830463
+        ]
+      },
+      "sources": [
+        {
+          "id": "osm-geofabrik",
+          "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+          "publisher": "OpenStreetMap contributors / Geofabrik",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2026-10-11T20:21:06Z",
+          "status": "available",
+          "license": "ODbL-1.0",
+          "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+          "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf"
+        },
+        {
+          "id": "temple-2014",
+          "url": "https://www.lingyinsi.org/detail_44_7946.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2014-08-08",
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "grand-official",
+          "url": "https://en.lingyinsi.org/detail_1141.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2013-01-18",
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "kings-official",
+          "url": "https://en.lingyinsi.org/list_82.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": null,
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "medicine-official",
+          "url": "https://en.lingyinsi.org/list_144.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": null,
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "dharma-official",
+          "url": "https://en.lingyinsi.org/list_145.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": null,
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "huayan-official",
+          "url": "https://en.lingyinsi.org/list_146.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": null,
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "exhibition-official",
+          "url": "https://en.lingyinsi.org/list_271.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": null,
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "axis-photo-2020",
+          "url": "https://www.lingyinsi.org/detail_55_14277.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2020-09-24",
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "hall-photo-2020",
+          "url": "https://www.lingyinsi.org/detail_128_14533.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2020-10-13",
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "roof-photo-2021",
+          "url": "https://lingyinsi.org/detail_1050_15763.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2021-10-06",
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "intro-official",
+          "url": "https://lingyinsi.org/detail_747.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-13",
+          "sourceDate": "2013-10-15",
+          "status": "available",
+          "license": "Copyright retained by publisher; reference only; photographs not bundled"
+        },
+        {
+          "id": "official-axis-2011",
+          "url": "https://www.lingyinsi.org/detail_22_673.html",
+          "publisher": "杭州灵隐寺（运营方官网）",
+          "accessedAt": "2026-10-14",
+          "sourceDate": "2011-10-09",
+          "status": "available",
+          "license": "Reference-only operator prose/photos; no photograph release permission obtained",
+          "title": "灵隐今朝添龙象 冷泉回波助狮吼"
+        },
+        {
+          "id": "heritage-layout-paper",
+          "url": "https://www.wochmoc.org.cn/upload/file/202004/1588058384711036046.pdf",
+          "publisher": "赵云、黄雯兰（文内署名中国文化遗产研究院）；公开PDF托管于wochmoc.org.cn",
+          "accessedAt": "2026-10-14",
+          "sourceDate": null,
+          "status": "available",
+          "title": "试论唐五代至近现代灵隐寺建筑布局的演变",
+          "sha256": "74af19581e507d4543c09e221a2bb6b52be6a64efb39af5285473e5380b648a8",
+          "bytes": 1505137,
+          "sourceDateLimit": "PDF metadata created2020-03-08; hosting path202004. Publication year not established, neither treated as survey date.",
+          "license": "Copyright retained by publisher/authors; read/render temporary cache only, PDF/page pixels not bundled",
+          "review": "Actual PDF page4(printpage60) viewed; Fig5 is expressly redrawn from temple incense-route diagram, without scale/georeference/height datum."
+        },
+        {
+          "id": "source-han-serif",
+          "url": "https://github.com/adobe-fonts/source-han-serif",
+          "publisher": "Adobe",
+          "accessedAt": "2026-10-14",
+          "sourceDate": null,
+          "status": "available",
+          "license": "SIL Open Font License1.1; original font copyright2017–2022Adobe, Reserved Font Name Source",
+          "fontUrl": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/OTF/TraditionalChinese/SourceHanSerifTC-Regular.otf",
+          "fontSha256": "659c9606d8fda03372247b99ec5e5bbc5a034e06a70d80fb00546772c582d3e5",
+          "licenseUrl": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/LICENSE.txt",
+          "localLicensePath": "docs/hangzhou/research/core/lingyin-round3/SourceHanSerif-OFL.txt",
+          "use": "Derived glyph foreground rectangle geometry for wording, not a font or photograph texture distribution"
+        }
+      ],
+      "modeling": {
+        "blockers": []
+      },
+      "scope": "Frozen five axial exterior hall shells with caller-supplied per-hall game-unit plinth bases, limited estimated front terraces/stairs, source-transcribed plaque geometry and representative ridge-end details. Not the whole monastery or surveyed ground."
+    }
+  ]
+}

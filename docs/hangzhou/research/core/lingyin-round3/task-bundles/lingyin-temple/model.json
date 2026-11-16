@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "placeId": "lingyin-temple",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/lingyin-site-v2/lingyin-temple.glb",
+  "sourceModule": "scripts/landmarks/lingyin_site.py",
+  "sha256": "6cbf09ee75b744c8350e5a396b7164ac5e5fafc587007e4a2fa705439a24b4bf",
+  "sourceModuleSha256": "163311ff73549392f5f8e773b85fd5d28c86bc66027544f05e15511f6157cd3c",
+  "artifactMeshPrefix": "detail_lingyin-temple_",
+  "accuracyClaim": "source-bound frozen shells and explicitly estimated limited site details",
+  "estimatedParameters": {
+    "terraces": {
+      "kings": {
+        "widthM": 34.303268248078325,
+        "frontLengthM": 8.0,
+        "dropM": 0.5,
+        "stairWidthM": 6.0,
+        "treadM": 0.32,
+        "nominalMaxRiserM": 0.18,
+        "basis": "estimated",
+        "observedStepCount": null,
+        "absoluteThresholdYGame": null,
+        "sourcePhotoIds": [
+          "kings"
+        ],
+        "method": "Small source-registered hall-front apron. Photo-visible masonry plinth/stone balustrades and human-scale context guide a simplified local drop; no calibrated photogrammetry. Width uses .96 of the OSM roof width only as a modelling constraint; front length deliberately limited to avoid invented whole courtyards. Steps are generated from drop/max-riser, not counted in a survey.",
+        "uncertainty": {
+          "widthM": 5.0,
+          "frontLengthM": 5.0,
+          "dropM": 0.5,
+          "treadM": 0.1,
+          "trueStepCount": "unknown",
+          "boundsMeaning": "broad modelling allowances, not guaranteed/statistical confidence"
+        },
+        "joiningStatus": "pending surveyed floors/current terrain cut and external path validation"
+      },
+      "grand": {
+        "widthM": 41.00840269117437,
+        "frontLengthM": 12.0,
+        "dropM": 1.2,
+        "stairWidthM": 10.0,
+        "treadM": 0.32,
+        "nominalMaxRiserM": 0.18,
+        "basis": "estimated",
+        "observedStepCount": null,
+        "absoluteThresholdYGame": null,
+        "sourcePhotoIds": [
+          "grand"
+        ],
+        "method": "Small source-registered hall-front apron. Photo-visible masonry plinth/stone balustrades and human-scale context guide a simplified local drop; no calibrated photogrammetry. Width uses .96 of the OSM roof width only as a modelling constraint; front length deliberately limited to avoid invented whole courtyards. Steps are generated from drop/max-riser, not counted in a survey.",
+        "uncertainty": {
+          "widthM": 5.0,
+          "frontLengthM": 5.0,
+          "dropM": 1.0,
+          "treadM": 0.1,
+          "trueStepCount": "unknown",
+          "boundsMeaning": "broad modelling allowances, not guaranteed/statistical confidence"
+        },
+        "joiningStatus": "pending surveyed floors/current terrain cut and external path validation"
+      },
+      "medicine": {
+        "widthM": 42.844945371362634,
+        "frontLengthM": 7.0,
+        "dropM": 1.2,
+        "stairWidthM": 6.0,
+        "treadM": 0.32,
+        "nominalMaxRiserM": 0.18,
+        "basis": "estimated",
+        "observedStepCount": null,
+        "absoluteThresholdYGame": null,
+        "sourcePhotoIds": [
+          "medicine"
+        ],
+        "method": "Small source-registered hall-front apron. Photo-visible masonry plinth/stone balustrades and human-scale context guide a simplified local drop; no calibrated photogrammetry. Width uses .96 of the OSM roof width only as a modelling constraint; front length deliberately limited to avoid invented whole courtyards. Steps are generated from drop/max-riser, not counted in a survey.",
+        "uncertainty": {
+          "widthM": 5.0,
+          "frontLengthM": 5.0,
+          "dropM": 1.0,
+          "treadM": 0.1,
+          "trueStepCount": "unknown",
+          "boundsMeaning": "broad modelling allowances, not guaranteed/statistical confidence"
+        },
+        "joiningStatus": "pending surveyed floors/current terrain cut and external path validation"
+      },
+      "dharma": {
+        "widthM": 30.911426336989592,
+        "frontLengthM": 5.0,
+        "dropM": 4.0,
+        "stairWidthM": 6.0,
+        "treadM": 0.32,
+        "nominalMaxRiserM": 0.18,
+        "basis": "estimated",
+        "observedStepCount": null,
+        "absoluteThresholdYGame": null,
+        "sourcePhotoIds": [
+          "dharma-wide"
+        ],
+        "method": "Small source-registered hall-front apron. Photo-visible masonry plinth/stone balustrades and human-scale context guide a simplified local drop; no calibrated photogrammetry. Width uses .96 of the OSM roof width only as a modelling constraint; front length deliberately limited to avoid invented whole courtyards. Steps are generated from drop/max-riser, not counted in a survey.",
+        "uncertainty": {
+          "widthM": 5.0,
+          "frontLengthM": 5.0,
+          "dropM": 3.0,
+          "treadM": 0.1,
+          "trueStepCount": "unknown",
+          "boundsMeaning": "broad modelling allowances, not guaranteed/statistical confidence"
+        },
+        "joiningStatus": "pending surveyed floors/current terrain cut and external path validation"
+      },
+      "huayan": {
+        "widthM": 36.20993039828322,
+        "frontLengthM": 7.0,
+        "dropM": 1.5,
+        "stairWidthM": 6.0,
+        "treadM": 0.32,
+        "nominalMaxRiserM": 0.18,
+        "basis": "estimated",
+        "observedStepCount": null,
+        "absoluteThresholdYGame": null,
+        "sourcePhotoIds": [
+          "huayan"
+        ],
+        "method": "Small source-registered hall-front apron. Photo-visible masonry plinth/stone balustrades and human-scale context guide a simplified local drop; no calibrated photogrammetry. Width uses .96 of the OSM roof width only as a modelling constraint; front length deliberately limited to avoid invented whole courtyards. Steps are generated from drop/max-riser, not counted in a survey.",
+        "uncertainty": {
+          "widthM": 5.0,
+          "frontLengthM": 5.0,
+          "dropM": 1.2,
+          "treadM": 0.1,
+          "trueStepCount": "unknown",
+          "boundsMeaning": "broad modelling allowances, not guaranteed/statistical confidence"
+        },
+        "joiningStatus": "pending surveyed floors/current terrain cut and external path validation"
+      }
+    },
+    "detailEstimates": {
+      "stoneRails": {
+        "basis": "estimated",
+        "sourceIds": [
+          "axis-photo-2020",
+          "hall-photo-2020"
+        ],
+        "value": {
+          "heightM": 1.0,
+          "pitchM": 3.0,
+          "postWidthM": 0.24,
+          "panelDepthM": 0.13
+        },
+        "method": "Sparse pale stone posts and two horizontal panel bands around visible local platforms, central stair mouth open; intricate relief is pending.",
+        "uncertainty": "height ±.3m; pitch ±1m; true panel count/stone relief unknown"
+      },
+      "paving": {
+        "basis": "estimated",
+        "sourceIds": [
+          "grand-official",
+          "dharma-official"
+        ],
+        "value": {
+          "pitchM": 4.0
+        },
+        "method": "Limited perpendicular thin geometric seams on the new apron, not copied photograph pixels.",
+        "uncertainty": "pitch ±2m, real paving joints/pattern not measured"
+      },
+      "ridgeEnds": {
+        "basis": "estimated",
+        "sourceIds": [
+          "roof-photo-2021"
+        ],
+        "value": {
+          "segments": 3,
+          "curlLengthM": 0.55,
+          "curlRiseM": 0.55
+        },
+        "method": "Representative pale ceramic upward curl silhouettes supplement old ridge caps; source roof detail hall attribution unknown. Not dragon/chifinial carving reproduction.",
+        "uncertainty": "length/rise ±.35m, precise count/direction/form per hall unknown"
+      }
+    },
+    "plaquePositions": {
+      "kings": [
+        {
+          "text": "靈鷲飛來",
+          "tier": 0,
+          "photoId": "kings",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "gold",
+          "letterMaterial": "darkglass",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        },
+        {
+          "text": "雲林禪寺",
+          "tier": 1,
+          "photoId": "kings",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "gold",
+          "letterMaterial": "darkglass",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        }
+      ],
+      "grand": [
+        {
+          "text": "大雄寶殿",
+          "tier": 0,
+          "photoId": "grand",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "gold",
+          "letterMaterial": "darkglass",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        },
+        {
+          "text": "真如妙相",
+          "tier": 1,
+          "photoId": "grand",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "gold",
+          "letterMaterial": "darkglass",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        }
+      ],
+      "medicine": [
+        {
+          "text": "藥師殿",
+          "tier": 0,
+          "photoId": "medicine",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "gold",
+          "letterMaterial": "darkglass",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        }
+      ],
+      "dharma": [
+        {
+          "text": "直指堂",
+          "tier": 0,
+          "photoId": "dharma-wide",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "civicred",
+          "letterMaterial": "gold",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        },
+        {
+          "text": "藏經樓",
+          "tier": 1,
+          "photoId": "dharma-wide",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "gold",
+          "letterMaterial": "darkglass",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        }
+      ],
+      "huayan": [
+        {
+          "text": "華嚴殿",
+          "tier": 0,
+          "photoId": "huayan-wide",
+          "visualOrder": "right-to-left",
+          "backgroundMaterial": "civicred",
+          "letterMaterial": "gold",
+          "textBasis": "reported operator wording and actually viewed historical reference",
+          "placementBasis": "estimated within frozen facade tiers; no calligraphic facsimile"
+        }
+      ]
+    }
+  },
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python-exit-code 1 --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/lingyin-round3/task-bundles/lingyin-temple/job.json --spec docs/hangzhou/research/core/lingyin-round3/spec.json --module scripts/landmarks/lingyin_site.py --output artifacts/cities/hangzhou/landmarks/lingyin-site-v2 --palette data/hangzhou/material-palettes.json --placement artifacts/cities/hangzhou/placements-v1/lingyin-temple.json",
+  "sourceSpec": "docs/hangzhou/research/core/lingyin-round3/spec.json",
+  "sourceSpecSha256": "22c4106a01dcccc2702f53413ac5fb67635d257a5beb90220a3d00dc6cc517dc",
+  "sourceDependencies": [
+    {
+      "path": "scripts/landmarks/lingyin_temple.py",
+      "sha256": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011"
+    },
+    {
+      "path": "docs/hangzhou/research/core/lingyin-round2/spec.json",
+      "sha256": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93"
+    }
+  ],
+  "externalGameHeightContract": {
+    "meaning": "absolute game-unit bottom of the frozen .5m plinth; threshold is baseY+.5*.60",
+    "precedence": "explicit build_with_hall_bases argument, else lm.hallBaseYGame, else spec.hallBaseYGame",
+    "lmY": "ignored",
+    "missing": "raises ValueError before geometry/frame changes",
+    "sourceBasis": "caller-owned external input; no automatic DSM floor assignment"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown.",
+  "status": "model-exported-not-verified",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24"
+    },
+    {
+      "path": "data/hangzhou/material-palettes.json",
+      "sha256": "a36da19cef1cdc024dcb25fcb585d2a8e0d0a9f17c57fbfd9af7d50d291c1775",
+      "basis": "Authored PBR look from referenced photos; colors/roughness/metallicity estimated, no photo textures or calibrated reflectance claim",
+      "role": "material-palette"
+    },
+    {
+      "path": "artifacts/cities/hangzhou/placements-v1/lingyin-temple.json",
+      "sha256": "2e0181c70f85974bc146918e125a6d8b2f94a0cec51c99a4150b606b1fd4484e",
+      "role": "placement",
+      "basis": "five explicit same-source filtered DSM estimated bases; absolute floors/steps remain unknown"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/lingyin-site-v2-blender.log",
+    "sha256": "f26b38788154ce4f722595dbc53ad4035bbacdc3382b8cafe4ec62de692e4df4"
+  },
+  "modelDeliverySha256": "b462b5f0eb3f5d017bd7df7204fb4c09e88ebe772442fafc8fb213b0ac514d2d",
+  "glbStats": {
+    "triangles": 29784,
+    "materials": 6,
+    "bytes": 2061944,
+    "selectedMeshes": 6,
+    "meshNamePrefix": "detail_lingyin-temple_",
+    "wholeFileTriangles": 29784,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "placeId": "city-balcony",
+  "scope": "Limited main balcony exterior: exact source cantilever plan and two explicitly mapped shore approach fingers, open upper park and lower glazed facade/public-floor outline, three mapped glass heads, transparent rails, representative structural beams/piers and round skylights. No invented stair/ramp/lift operation or whole side parks.",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "owner-project",
+      "government-2020"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.21258014878033,
+      30.24424700302543
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik"
+    ]
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+    },
+    {
+      "id": "owner-project",
+      "url": "https://www.hzyjfz.cn/index.php?a=detail&id=45&m=project",
+      "publisher": "杭州钱江新城建设管理委员会项目网站（页脚署名；正文信息来源标为网络）",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2018-05-03",
+      "status": "actual TLS curl HTML/text read",
+      "sha256": "ac4bc466ae3b5eca5a83d44a140f180f17602427004de3c9489db4e6234fcee0",
+      "license": "unknown; reference only",
+      "use": "main80m projection/max320m width/28000m²; wings are separate2.4km landscape/garage/tunnel scope"
+    },
+    {
+      "id": "zju-teaching",
+      "url": "https://cmicce.zju.edu.cn/mobile/teacher_case.aspx?id=208",
+      "publisher": "浙江大学传媒与国际文化学院继续教育中心",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2020-05-18",
+      "status": "actual web text read; direct curl/image timed out",
+      "license": "unknown; reference only",
+      "use": "main322m long/80m projection,twolevels/24000m² per floor, identity; no roof/deck numerical survey"
+    },
+    {
+      "id": "construction-engineer",
+      "url": "https://news.sohu.com/20070126/n247846969.shtml",
+      "publisher": "浙江在线·今日早报原创施工采访；搜狐刊载；记者钟黎明/总工苏永会",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2007-01-26",
+      "status": "actual native curl full interview read",
+      "sha256": "09f36c4e379b5d928e35c633501921ff5b4e9006474fc9ecc1af3b1ebf68ac1a",
+      "license": "unknown; reference only",
+      "use": "near200 concrete piers,steel/concrete structure,round roughly2m skylights; lower glass/upper open park and lifts were construction plans, not current operation verification"
+    },
+    {
+      "id": "government-2020",
+      "url": "https://www.ehangzhou.gov.cn/2020-04/09/c_242801.htm",
+      "publisher": "杭州市人民政府新闻办公室英文门户",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2020-04-09",
+      "status": "actual page and official night aerial viewed",
+      "license": "unknown; reference only",
+      "use": "one main/two side parks, identity/site night silhouette.12000m² on page is exhibition hall, NOT balcony area"
+    },
+    {
+      "id": "ihg-context",
+      "url": "https://www.ihg.com/intercontinental/hotels/cn/zh/hangzhou/hghha/hoteldetail",
+      "publisher": "IHG / 杭州洲际酒店运营方",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "actual official hotel aerial viewed; Balcony is background context",
+      "license": "unknown; reference only",
+      "use": "source-bound rear bridges and platform night outline/lamps, no surveyed or independent close balcony facade"
+    },
+    {
+      "id": "photographer-2010",
+      "url": "https://dp.pconline.com.cn/photo/list_1941203.html",
+      "publisher": "摄影师石上清流原创照片 / 太平洋摄影部落",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2010-09-27",
+      "status": "actual page and9 original street-level photographs viewed",
+      "sha256": "1ca3d5f1f4146a7d7b5e2682d451618db2e6f1542dd99d1316df98a586185ab7",
+      "license": "author copyright; page explicitly prohibits unlicensed commercial photo use; reference only, no released photos",
+      "use": "actual multiple directions: glass rails, tiled/wood-like deck, rear raised bridge with beams/piers, glazed room/pit, circle skylights; not calibrated or current2026 survey"
+    },
+    {
+      "id": "hangzhou-publish-2020",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2020-08/14/content_7792495_0.htm",
+      "publisher": "杭州发布项目消息 / 杭州网刊载",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2020-08-14",
+      "status": "actual web text read",
+      "license": "unknown; reference only",
+      "use": "glass-room identity and riverside promenade; interactive lighting described in2020, current fixtures/timing not verified"
+    },
+    {
+      "id": "glass-2011",
+      "url": "https://zjnews.zjol.com.cn/05zjnews/system/2011/07/15/017681168.shtml",
+      "publisher": "浙江在线/现场记者姜晓蓉",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2011-07-15",
+      "status": "search-index original report text read",
+      "license": "unknown; reference only",
+      "use": "tempered glass rails/lower restaurant context only. Historical maintenance incident not asserted as current condition."
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "relationId": 8718551,
+        "mappedInnerGlazedParts": 3,
+        "areaM2": 28348.77649143673,
+        "axisEnvelopeM": 325.0680424102178
+      },
+      "unit": "m/EPSG:4326",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik"
+      ],
+      "uncertainty": "map geometry calculation only; actual source accuracy unknown, planning±5m"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "lowerM": 0,
+        "upperM": 6,
+        "slabThicknessM": 0.65,
+        "foundationDepthM": 3
+      },
+      "unit": "m relative to isolated lower floor",
+      "basis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "construction-engineer",
+        "photographer-2010"
+      ],
+      "uncertainty": "upper separation±2m/slab±.35m/foundation±2m; absolute ground and river levels unknown"
+    },
+    {
+      "kind": "orientation",
+      "value": 50.33118975945262,
+      "unit": "degrees east CCW",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "ihg-context"
+      ],
+      "uncertainty": "mapped long axis and primary night aerial match; modelling phase±3deg not survey"
+    },
+    {
+      "kind": "silhouette",
+      "value": "elongated cantilever body with open park above glazed lower frontage, three source-mapped glass heads/skylight wells and separate shore approach fingers, clear glass rails and rectangular beams/piers",
+      "basis": "reported",
+      "unit": null,
+      "sourceIds": [
+        "owner-project",
+        "construction-engineer",
+        "photographer-2010",
+        "government-2020",
+        "ihg-context"
+      ],
+      "uncertainty": "two official aerial/context and9actualstreet views; exact vertical section, lower full facades/entries and current2026 condition unverified"
+    }
+  ],
+  "blockers": [],
+  "pendingSubscopes": [
+    "surveyed platform/ground/river elevations and independent upper/lower floor section",
+    "actual current steps/ramps/lifts/door locations and accessible road-to-walking arrival route",
+    "lower museums/art/restaurant operation and interiors;2007 proposal is not current playable content",
+    "precise3glass-room roofs/pits and OSM6/14/9/10 vertical tag reconciliation",
+    "all foundation/piers and riverbank retaining/protection geometry",
+    "full2.4km side balconies/CBDpark, wave culture city relation8718552 and landscaping",
+    "actual skylight inventory/pavement joints/furniture/planting/signs",
+    "night fixtures/current projection program, current in-game day/night3views, collision and performance"
+  ],
+  "photosBundled": false,
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/city-balcony-round2/geofabrik-balcony-features.geojson": "e56bd2a1421c419b51d1d7fa86c762aa3199f98e2341900d72bb859d55992cb2",
+    "docs/hangzhou/research/core/city-balcony-round2/osm-measurements.json": "8c7e1b3632203153ac56c3a6d9ef347dbc554caa537715efe654b018180c06bf",
+    "docs/hangzhou/research/core/city-balcony-round2/source-claims.json": "45de2933ce04640b4c6df0504d221364a21ade99cd7c3cb38df6eb16bf6145bf",
+    "docs/hangzhou/research/core/city-balcony-round2/spec.json": "68f5d9518b5193abba0a916a60d8ad2d17855dfada4835c721d3b67be54cbcb8",
+    "docs/hangzhou/research/core/city-balcony-round2/photo-review.json": "31a4bc22b8cf1fe54c710bc40f03bf64b0710423abc7879134b3bcc3e020c15a"
+  },
+  "stageLimit": "limited source-bound exterior evidence-ready, no model/export/runtime/whole-site claim",
+  "photoReview": "docs/hangzhou/research/core/city-balcony-round2/photo-review.json"
+}

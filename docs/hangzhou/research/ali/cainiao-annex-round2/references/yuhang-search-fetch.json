@@ -1,0 +1,12 @@
+{
+  "id": "yuhang-public-search",
+  "url": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/search?q=%E8%8F%9C%E9%B8%9F%E7%BD%91%E7%BB%9C%E6%99%BA%E6%85%A7%E4%BA%A7%E4%B8%9A%E5%9B%AD&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000",
+  "publisher": "余杭区政府",
+  "accessedAt": "2026-10-14",
+  "use": "Publicsearchformquery fromdownloaded officialheaderJS",
+  "finalUrl": "https://www.yuhang.gov.cn/api-gateway/jpaas-jsearch-web-server/search?q=%E8%8F%9C%E9%B8%9F%E7%BD%91%E7%BB%9C%E6%99%BA%E6%85%A7%E4%BA%A7%E4%B8%9A%E5%9B%AD&serviceId=YcTOd1ftgC5dxzJ8RhCBN&websiteid=330110000000",
+  "status": "downloaded",
+  "localPath": "docs/hangzhou/research/ali/cainiao-annex-round2/references/yuhang-search.html",
+  "bytes": 11842,
+  "sha256": "492fc1c6a85dee64526401eaf05d8bc37a0c8e6dc66ce302334e1c8393c9d42d"
+}

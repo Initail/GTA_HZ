@@ -1,0 +1,39 @@
+{
+  "sourceId": "theatre-wind-paper",
+  "url": "https://pubs.cstam.org.cn/data/article/jem/preview/pdf/sylx200401002.pdf",
+  "publisher": "中国力学学会期刊平台 / 实验力学",
+  "authors": [
+    "田森源",
+    "楼文娟",
+    "王高帆",
+    "沈国辉",
+    "孙炳楠",
+    "周嵘"
+  ],
+  "title": "杭州大剧院风压分布的风洞试验研究",
+  "sourceDate": "2004-03",
+  "accessedAt": "2026-10-14",
+  "temporaryPath": "<TEMP>/grand-theatre-research/wind-paper.pdf",
+  "sha256": "8b15104df197d19ecd104eb72064ed8843302c6ffa0dc33d2d78741e97b28c0e",
+  "bytes": 282673,
+  "reviewedPages": [
+    1,
+    2
+  ],
+  "renderMethods": [
+    "pdftoppm two pages; Chinese mapping missing",
+    "Quartz first complete page; Chinese and figures readable"
+  ],
+  "reported": {
+    "totalHeightM": 46.4,
+    "siteAreaM2": 73963,
+    "buildingAreaM2": 49269,
+    "windModelScale": 200,
+    "approxModelHeightM": 0.23,
+    "approxModelLengthM": 0.85,
+    "approxModelWidthM": 0.68
+  },
+  "basis": "reported design/wind-study values, not field survey; image fig1 plan andfig2 southwest elevation reviewed",
+  "bundled": false,
+  "license": "unknown; research reference only; no PDF image texture"
+}

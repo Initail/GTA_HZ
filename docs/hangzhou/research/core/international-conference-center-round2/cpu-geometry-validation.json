@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-host-contract-only",
+  "reviewedBy": "landmark_evidence CPU recorder",
+  "at": "2026-10-14T03:28:22+00:00",
+  "sourceModuleSha256": "9c4c00a61709997328147965beea562995619f50d35bb12d91e00a99696cb77c",
+  "sourceSpecSha256": "b8b454c8da4ece8ecfa88cad4770ac4b0c9d235335282072bbd03f9dbe6a1c20",
+  "faces": 10066,
+  "trianglesBeforeBlenderExport": 20073,
+  "materials": [
+    "darkglass",
+    "gold",
+    "landmarkglass",
+    "steel"
+  ],
+  "lights": 0,
+  "waterMeshes": 0,
+  "minimumFanTriangleAreaGameUnits2": 4.0008635677004735e-05,
+  "sourceAxisRadiansEastCCW": 2.5036604469886576,
+  "sourceExclusions": 32,
+  "candidateHighestGeometryAboveBaseM": 85.0,
+  "reportedSphereDiameterM": 85,
+  "frontGlassRay": {
+    "radiusM": 37.467472596420926,
+    "expectedM": 37.50863504393581
+  },
+  "terraceRaySamples": [
+    {
+      "heightM": 45.25599999999999,
+      "outerRadiusM": 42.524985579758955,
+      "material": "steel"
+    },
+    {
+      "heightM": 47.797999999999995,
+      "outerRadiusM": 41.642475236719896,
+      "material": "darkglass"
+    }
+  ],
+  "roundedPodiumRaySamples": [
+    {
+      "uM": 49.26292825956757,
+      "highestSurfaceM": 11.155004430324604,
+      "material": "steel"
+    },
+    {
+      "uM": 62.307877016401555,
+      "highestSurfaceM": 12.092497896223966,
+      "material": "steel"
+    },
+    {
+      "uM": 77.96181552460234,
+      "highestSurfaceM": 7.1411050414872435,
+      "material": "steel"
+    }
+  ],
+  "checks": [
+    "finite/nondegenerate fan triangles",
+    "exact main/sphere/entry WGS84 projection",
+    "0.60 dimensions once",
+    "game-unit XYZ translation",
+    "B frame restored",
+    "reject repeated scale",
+    "85m overall cap height",
+    "85m reported sphere envelope rather than108m unverified source layer",
+    "theatre-facing recessed glass ray",
+    "shallow glass skylight down ray",
+    "gold terrace/recess geometry rays",
+    "rounded rather than flat podium",
+    "front/rear connector roof rays and outward upper normals",
+    "32object-specific exclusions, no theatre orN2",
+    "26000triangle/7material ceilings",
+    "no water or lights"
+  ],
+  "limitations": [
+    "CPU fan count is not an exported GLB stat.",
+    "No Blender/browser/runtime collision was run.",
+    "Sphere centre/cuts, podium section, levels and arrivals are estimates with unknown real ground datum.",
+    "Gold-tinted glass/material, exact floor scope, full facade shape, night and performance remain pending."
+  ]
+}

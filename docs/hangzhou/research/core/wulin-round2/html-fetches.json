@@ -1,0 +1,123 @@
+[
+  {
+    "id": "current2025",
+    "url": "https://www.hzzx.gov.cn/cshz/content/2025-05/14/content_8994396.htm",
+    "path": "<TEMP>/wulin-research/current2025.html",
+    "bytes": 31480,
+    "sha256": "d1a5fd631113454c156f06e80faf11f2deaa37954ad1dd862db3224392067bbc",
+    "imageUrls": [
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/logo2.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home_icon.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/icon_corner.jpg",
+      "https://www.hzzx.gov.cn/cshz/images/2025-05/14/d7780d8b-6985-4797-9f78-6ccbeb8e8cac.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lishiyange.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jiebie.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lingdao.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jianjie.jpg",
+      "https://www.hzzx.gov.cn/cshz/content/2025-05/14/图片存储;hzwcm/202505/12/b5f09e3a-5199-4d64-b368-b0ac5bfaf942.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2025-04/21/ae22e71f-1679-4fb6-bd74-ea6976af4ebc.jpeg",
+      "https://www.hzzx.gov.cn/xwsp/images/2025-04/16/86e13fa9-8233-44de-908b-c3485db3cfa1.jpeg",
+      "https://www.hzzx.gov.cn/xwsp/images/2025-03/07/5cba3b32-11e3-484a-a453-c8ca8e4b6e9d.png"
+    ],
+    "status": "reference-cache-only"
+  },
+  {
+    "id": "aerial2024",
+    "url": "https://www.hzzx.gov.cn/content/2024-07/17/content_8760141.htm",
+    "path": "<TEMP>/wulin-research/aerial2024.html",
+    "bytes": 23228,
+    "sha256": "63b743a161988550474dea09766119527b0fc11985e924757cb36735007d0c1a",
+    "imageUrls": [
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/logo2.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home_icon.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/icon_corner.jpg",
+      "https://www.hzzx.gov.cn/images/2024-07/17/72399d3b-d614-4317-908f-2e4c0108a569.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lishiyange.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jiebie.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lingdao.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jianjie.jpg",
+      "https://www.hzzx.gov.cn/xwsp/images/2024-07/16/a51ae1f0-731d-40f0-ab1d-83e743ac866e.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2024-07/15/6a949090-f799-4099-8329-3e15484f71d6.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2024-07/12/836a1699-0d03-4c47-95a7-93adfa591a49.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2024-07/10/9f7b3886-ad87-4baa-8e2d-067e7c190f31.png"
+    ],
+    "status": "reference-cache-only"
+  },
+  {
+    "id": "upgrade2023",
+    "url": "https://www.hzzx.gov.cn/cshz/content/2023-08/15/content_8600621.htm",
+    "path": "<TEMP>/wulin-research/upgrade2023.html",
+    "bytes": 31375,
+    "sha256": "7e2653831e19286a727ba84e9376da1e7bb324570462e768bfad4dc40fa1ea37",
+    "imageUrls": [
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/logo2.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home_icon.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/icon_corner.jpg",
+      "https://www.hzzx.gov.cn/cshz/images/2023-08/15/887c2edb-dafc-4411-b5fc-147fd473e6d9.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lishiyange.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jiebie.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lingdao.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jianjie.jpg",
+      "https://www.hzzx.gov.cn/xwsp/images/2023-08/15/47219e74-18c3-4a42-84e2-8d49c7ac986d.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2023-08/14/t2_(41X35X480X282)2fb16b47-4048-40d7-9a70-0cceb1ec2dee.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2023-08/07/97045c60-b1b6-409d-a5f3-bacedcddbff7_zsize.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2023-08/02/3420bb06-4ecd-4b91-81d6-429597126ae1.png"
+    ],
+    "status": "reference-cache-only"
+  },
+  {
+    "id": "panorama2026",
+    "url": "https://www.hzzx.gov.cn/cshz/content/2026-09/02/content_9296296_2.htm",
+    "path": "<TEMP>/wulin-research/panorama2026.html",
+    "bytes": 34036,
+    "sha256": "fcafda512c8adfed7a6ab98718b6a28ebd48022d9fe51fe17862ba351f6e6d0f",
+    "imageUrls": [
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/logo2.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home.png",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/home_icon.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/icon_corner.jpg",
+      "https://www.hzzx.gov.cn/cshz/images/2026-09/02/09e34cf8-d575-4972-b58c-8a5f0088f5f0.jpg",
+      "https://www.hzzx.gov.cn/cshz/images/2026-09/02/49cf89df-2a8e-4e52-8c10-95dcadc3d7bf.jpg",
+      "https://www.hzzx.gov.cn/cshz/images/2026-09/02/53e071e4-b811-4c90-8ffa-780b52f3dbcb.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lishiyange.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jiebie.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_lingdao.jpg",
+      "https://www.hangzhou.com.cn/templateRes/201703/28/86012/86012/images/l_jianjie.jpg",
+      "https://www.hzzx.gov.cn/xwsp/images/2026-08/28/42919b8e-8fb2-4932-842e-e52c93c49f5c.jpeg",
+      "https://www.hzzx.gov.cn/xwsp/images/2026-08/26/00524ac1-3c33-4644-9cb3-4d445db45840.jpeg",
+      "https://www.hzzx.gov.cn/xwsp/images/2026-08/26/bbb736f5-3602-4247-8783-58ef263c28d4.png",
+      "https://www.hzzx.gov.cn/xwsp/images/2026-08/12/3d95a704-9092-4fd2-861d-5eea83b6614c.png"
+    ],
+    "status": "reference-cache-only"
+  },
+  {
+    "id": "sculpture2025",
+    "url": "https://hzdaily.hangzhou.com.cn/hzrb/2025/12/26/article_detail_1_20251226A149.html",
+    "path": "<TEMP>/wulin-research/sculpture2025.html",
+    "bytes": 23935,
+    "sha256": "76bdc8d43f4dd5bf1f3e539ff03b1aea08d03c5811e7a9e2fdd9afcd06c358e7",
+    "imageUrls": [
+      "https://hzdaily.hangzhou.com.cn/img/logo/hzrb1.png",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJSAI_dYAAM04ydA_Bk924.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJWAUTtkAAMDI3J0Ok4563.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJWAEx3qAAO8W2PEjjw945.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJaAYSOuAAMbSFqdYCQ384.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJaASAcQAAIRbW7gz74774.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJeAE69uAAGjlJqWJbw123.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJeADnvuAALtZezUXgs464.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJiABW_cAAF74omNcf4766.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJiACC9VAAP6cQwWzhQ248.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJmALTdSAANRhfrz9oI302.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJmADPd7AAEkqrmsXWE210.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJqAFMwLAAJuUWgAAjI281.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJqABaSFAARtV52K2Bs714.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJuAa39hAALq5w1WyL8260.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJyAUQYeAAJMoGsYXO4589.jpg",
+      "https://fsnews.hangzhou.com.cn/group1/M00/7A/65/rB4AiWlNcJyACgNBAAJq8vF-8ic374.jpg"
+    ],
+    "status": "reference-cache-only"
+  }
+]

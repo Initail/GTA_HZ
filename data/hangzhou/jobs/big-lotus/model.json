@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "placeId": "big-lotus",
+  "artifactPath": "artifacts/landmarks/big-lotus/model.glb",
+  "sourceModule": "scripts/landmarks/big-lotus.py",
+  "sha256": null,
+  "sourceModuleSha256": null,
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [],
+  "buildCommand": null
+}

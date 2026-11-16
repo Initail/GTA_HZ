@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "actualProducerManifestMatches": true,
+    "allFrozenInputHashesMatch": true,
+    "sameFourMeshNames": true,
+    "allActualMeshesClosedNondegeneratePositiveVolume": true,
+    "threeUnchangedGroupsExactOrientedTriangleGeometry": true,
+    "old836Reproduced": true,
+    "old625Reproduced": true,
+    "newActualBalconySurfaceIntersectionPairsZero": true,
+    "rayIntervalsMatchCsgRule": true,
+    "heightCapAndSourceFootprintVertexChecks": true,
+    "footprintBoundaryMatchesExpectedWithin1mm": true,
+    "pillarResidualAreaZeroAt1mmInterior": true,
+    "sourceFrontPreservedWithin1mm": true
+  },
+  "boundedCpuChecksPass": true,
+  "oldNeutralPairs": 836,
+  "oldFloorV2Pairs": 625,
+  "newFloorV2Pairs": 0,
+  "newGlb": "artifacts/cities/hangzhou/shore-glb-v3/coastal-shoreline.glb",
+  "newGlbSha256": "0c683dd694ac4a3b5b19fbd46cabb330fb81775c474cb0a6536cdc86bb66d65c",
+  "status": "actual GLB geometry checks only; terrain, body, browser, visual and performance unaccepted",
+  "browserOrBlenderRun": false,
+  "allConnectedShellsClosedAndPositiveVolume": true,
+  "allUvTrianglesNondegenerate": true
+}

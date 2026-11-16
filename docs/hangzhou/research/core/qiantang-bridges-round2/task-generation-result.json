@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "id": "qiantang-bridges",
+      "result": "existing-preserved",
+      "job": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges/job.json"
+    },
+    {
+      "id": "qiantang-bridges-decks",
+      "result": "existing-preserved",
+      "job": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/qiantang-bridges-decks/job.json"
+    },
+    {
+      "id": "xixing-bridge-current",
+      "result": "existing-preserved",
+      "job": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/xixing-bridge-current/job.json"
+    },
+    {
+      "id": "boao-tunnel-profile",
+      "result": "existing-preserved",
+      "job": "docs/hangzhou/research/core/qiantang-bridges-round2/task-bundles/boao-tunnel-profile/job.json"
+    }
+  ],
+  "externalAgentsLaunched": false
+}

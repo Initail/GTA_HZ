@@ -1,0 +1,92 @@
+{
+  "anchorWGS84": [
+    120.21258014878033,
+    30.24424700302543
+  ],
+  "axisDegreesEastCCW": 50.33118975945262,
+  "upperSourceAreaM2": 28348.77649143673,
+  "lowerCandidateAreaM2": 24484.118493737125,
+  "upperBoundsUVMetres": [
+    -170.13499955398015,
+    -66.55353787999127,
+    154.93304285623745,
+    96.34517738615342
+  ],
+  "minimumRotatedRectangleM": [
+    325.0680424102178,
+    162.89871526614488
+  ],
+  "method": "fixed local e/n coefficients; source polygon centroid excluding holes, source minimum rotated rectangle axis; not land survey",
+  "sourceHeightTags": {
+    "relation/8718551": {
+      "building": "yes",
+      "height": "6",
+      "name": "城市阳台"
+    },
+    "way/626826744": {
+      "building:part": "yes",
+      "height": "14",
+      "min_height": "6"
+    },
+    "way/626826741": {
+      "building:part": "yes",
+      "height": "9",
+      "min_height": "6"
+    },
+    "way/626826742": {
+      "building:part": "yes",
+      "height": "10",
+      "min_height": "6"
+    }
+  },
+  "contextFeatureIds": {
+    "roads": [
+      "way/157967583",
+      "way/157967584",
+      "way/157967585",
+      "way/157967586",
+      "way/336828925",
+      "way/336828926",
+      "way/441932823",
+      "way/557050557",
+      "way/582256534",
+      "way/582257215",
+      "way/582257219",
+      "way/582257220",
+      "way/592096308",
+      "way/605330157"
+    ],
+    "green": [
+      "way/336860809",
+      "way/345743000",
+      "way/582256537",
+      "way/582256539",
+      "way/582256540",
+      "way/582256541",
+      "way/582256554",
+      "way/582257217",
+      "way/582257218",
+      "way/582257222",
+      "relation/8429994",
+      "way/619819292",
+      "way/619819294",
+      "way/619819305",
+      "way/619819310",
+      "way/619819324"
+    ],
+    "water": [
+      "relation/8227206"
+    ],
+    "places": [
+      "relation/8718551",
+      "relation/8718552"
+    ]
+  },
+  "sourceAccuracy": "unknown; planning placement±5m/orientation±3deg is a modelling estimate, not statistical precision",
+  "sourceDifferences": [
+    "reported320/322/332m labels differ; map envelope≈325m includes approaches, projection80m is bank-relative, not the full162.9m envelope.",
+    "owner28000m²/teachingonefloor24000m²/press20000m² describe differing scopes. Source main-minusholes28348.8m² is map area, not building survey.",
+    "source mainheight6 andparts14/9/10 min6 are unverified tags, not auto measured. Actual head section keptestimated3±1.5m above candidate deck.",
+    "near200piers and lift/restaurant/museum plans are2007 construction account; no current operation, exact structure count or path claim."
+  ]
+}

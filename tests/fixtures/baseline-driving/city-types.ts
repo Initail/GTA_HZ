@@ -1,0 +1,6 @@
+export type V2=[number,number];
+export type Road={id:string;sourceId?:string;name:string;displayName?:string;kind:string;width:number;oneway:boolean;points:V2[];grade:string;bridge?:string;tunnel?:string;nodeIds?:(number|string)[];heights?:number[];sourceAccessTags?:Readonly<Record<string,string>>;sourceWayPointOrder?:'osm-forward'|'osm-reversed'};
+export type Landmark={id:string;name:string;x:number;z:number;height:number;area:string;excludeRadius:number;arrival:V2;yaw:number;arrivalRoadId?:string;arrivalHeightGame?:number;walkingEntrance?:{point:V2;sourceNodeId:string;sourceWayId:string};photoAngle?:number;photoDistance?:number;photoTargetHeight?:number;photoElevation?:number;detailCollision?:boolean};
+export type CityBuilding={rings:V2[][];height:number;style:string;minY?:number;maxY?:number;blocksRoad?:boolean};
+export type CityWater={rings:V2[][];name:string;id?:string;height?:number;renderSurface?:boolean;renderRings?:V2[][][];surfaceParentId?:string};
+export type CityData={meta:{counts:Record<string,number>;extent:number[];horizontalScale:number;cityId?:string;originWGS84?:V2;eastMetresPerDegree?:number;northMetresPerDegree?:number};land:V2[][][];coast:V2[][];roads:Road[];buildings:CityBuilding[];green:{rings:V2[][];name:string}[];water:CityWater[];landmarks:Landmark[];spawn:{x:number;z:number;yaw:number;road:string}};

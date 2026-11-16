@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "placeId": "fuxing-bridge",
+  "name": "复兴大桥（钱江四桥）",
+  "type": "bridge",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "fuxing-2026"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "fuxing-2026",
+      "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+      "publisher": "上城史志 / 杭州市政协网站",
+      "title": "寻梦上城 | 复兴大桥",
+      "sourceDate": "2026-09-20",
+      "accessedAt": "2026-10-12",
+      "provenance": "government-local-history",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "两座190m主拱+9座85m小拱、主桥1376m、双层、上层六车道及下层组织。不是桥坡度施工图。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": {
+        "mainBridgeLength": 1376
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "fuxing-2026"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "height",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "双层系杆拱，多跨连拱",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "fuxing-2026"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "layout",
+      "value": {
+        "bigArchCount": 2,
+        "bigArchSpan": 190,
+        "smallArchCount": 9,
+        "smallArchSpan": 85,
+        "upperMotorLanes": 6
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "fuxing-2026"
+      ],
+      "uncertainty": "跨度、车道来源reported；不由各跨和推算引桥或末跨。"
+    },
+    {
+      "kind": "ramp_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "上下桥面独立layer，分别连真实匝道；大小拱排列核对现状后冻结，柱/拱不应穿入有效驾驶净空。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "下层公交/慢行与普通机动车具体口径、桥面标高和坡道需当前OSM/结构图；未实驾跨桥。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

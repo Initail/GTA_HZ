@@ -1,0 +1,74 @@
+{
+  "references": [
+    {
+      "id": "grand-wide",
+      "url": "https://static.lingyinsi.org/files/image/info/2020/09-24/6373656005492138228306314.jpg",
+      "sha256": "f459e56feb9053d3de97caf24fa11953edbdb5761238d374b507fefdf9eb5105",
+      "observation": "raised main plinth/front stair run visibly occluded by people/incense; no complete riser inventory",
+      "reviewedAt": "2026-10-14",
+      "method": "actual temporary-cache view_image",
+      "bundled": false,
+      "cameraCalibration": null,
+      "use": "qualitativeground/step evidence only"
+    },
+    {
+      "id": "medicine",
+      "url": "https://en.lingyinsi.org/files/image/info/2013/01/14/1625412825.jpg",
+      "sha256": "cc037d27d3cf4a668d7e4a311f207742a3660f925e9afe746fffd7516668b591",
+      "observation": "stone platform/rail below red pillars; stair and lower yard hidden",
+      "reviewedAt": "2026-10-14",
+      "method": "actual temporary-cache view_image",
+      "bundled": false,
+      "cameraCalibration": null,
+      "use": "qualitativeground/step evidence only"
+    },
+    {
+      "id": "dharma-wide",
+      "url": "https://static.lingyinsi.org/files/image/info/2020/09-24/6373656021206045827531159.jpg",
+      "sha256": "216267dc53c06373e261a3edb698cc904ffbcf19f3f5bcdcff07b1ceac93ea28",
+      "observation": "high stone retaining wall and sloping/stepped side balustrade; floor-to-yard height uncalibrated",
+      "reviewedAt": "2026-10-14",
+      "method": "actual temporary-cache view_image",
+      "bundled": false,
+      "cameraCalibration": null,
+      "use": "qualitativeground/step evidence only"
+    },
+    {
+      "id": "huayan-wide",
+      "url": "https://static.lingyinsi.org/files/image/info/2020/10-13/6373818239314897051994753.jpg",
+      "sha256": "55c6431a1c79c08a36036f37e1633fae6f251867976bd62ce51bd2f66237e7bd",
+      "observation": "white terrace rail and side stair with people; full rise and ground datum hidden",
+      "reviewedAt": "2026-10-14",
+      "method": "actual temporary-cache view_image",
+      "bundled": false,
+      "cameraCalibration": null,
+      "use": "qualitativeground/step evidence only"
+    },
+    {
+      "id": "commons-high-thumb",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/20190717%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2.jpg/1920px-20190717%E6%9D%AD%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "fef25b2c025be30d707694b046f8c6282895b593c14463c8ac0cf0c5eb12e556",
+      "captureDate": "2019-07-17 12:58:16",
+      "reviewedAt": "2026-10-14",
+      "method": "actual temporary-cache view_image",
+      "license": "CC BY-SA 4.0",
+      "bundled": false,
+      "observation": "curved shallow pool with dry central sunken theatre / low curb beside pedestrian pavement and elevated forecourt; uncalibrated/no exact georeferenced boundary"
+    },
+    {
+      "id": "commons-18-thumb",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hangzhou_Grand_Theatre_18.jpg/1920px-Hangzhou_Grand_Theatre_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "68a7c16cb7d707a6cf2c1fc380b18994a807b1890fce9c76f6faad6701130ea4",
+      "captureDate": "2019-11-08 14:34:26",
+      "reviewedAt": "2026-10-14",
+      "method": "actual temporary-cache view_image",
+      "license": "CC BY-SA 4.0",
+      "bundled": false,
+      "observation": "curved shallow pool with dry central sunken theatre / low curb beside pedestrian pavement and elevated forecourt; uncalibrated/no exact georeferenced boundary"
+    }
+  ],
+  "photosBundled": false,
+  "numericStepCounts": null,
+  "numericPoolBoundary": null,
+  "limitations": "Actual photographs support qualitative layers; no calibrated camera/georeferenced level drawing or survey-derived vertices."
+}

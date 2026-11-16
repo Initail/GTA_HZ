@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "placeId": "alibaba-c",
+  "artifactSha256": null,
+  "evidenceSha256": "a8cda475e4c0628a07bb790fe3d0617cb03ebd3a7d13fab67b89cebe43481dd6",
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Unknown: current CPU source/geometry checks are limited and do not replace actual GLB, context/collision, named visual or browser/performance acceptance."
+    }
+  }
+}

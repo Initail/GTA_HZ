@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-14T06:26:16+00:00",
+  "stage": "planned",
+  "agent": "codex-leifeng-candidate",
+  "place": {
+    "id": "qiantang-bridge-passage",
+    "name": "钱塘江三桥完整桥路通行与岸台衔接",
+    "kind": "bridge complete passage and clearance"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/qiantang-bridge-collision-round1/catalog.json",
+  "sourceManifestSha256": "b03c6cfd88ed0d8f85b8c54c6a5ac3d06de6462f85aecc460379483e6632dd30",
+  "sourceRecord": {
+    "id": "qiantang-bridge-passage",
+    "name": "钱塘江三桥完整桥路通行与岸台衔接",
+    "kind": "bridge complete passage and clearance",
+    "location": {
+      "center": [
+        120.134374525,
+        30.195734025
+      ]
+    },
+    "modeling": {
+      "blockers": [
+        "complete source approaches/curves are absent from frozen finite structural model; no measured deck profile, bank abutments or runtime actor clearance"
+      ]
+    }
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "94df90b13a4fd9092944aea938eed3cb03f0f3ff3b9a49790eac8a3546216b24"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/qiantang_bridge_collision.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/qiantang-bridge-collision-round1"
+    ],
+    "integrationOwner": "root",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-14T06:26:16+00:00",
+      "reason": "task generated; inputs require review"
+    }
+  ]
+}

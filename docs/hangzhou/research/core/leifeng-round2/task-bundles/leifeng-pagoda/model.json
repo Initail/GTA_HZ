@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "placeId": "leifeng-pagoda",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/leifeng-v1/leifeng-pagoda.glb",
+  "sourceModule": "scripts/landmarks/leifeng_pagoda.py",
+  "sha256": "9d1b2613721503803d4a9750ac5b0a8f2ac4e3e99d6746363509ec68efc8ab5f",
+  "sourceModuleSha256": "8539f93ea9487cbac2b97d80a8cc27de2b4d1ca3310fe6e2c5dfba2de79d01b7",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "levels",
+    "octagonVertexAngleDegrees",
+    "eaveCornerLiftM",
+    "waistCornerLiftM",
+    "finialBaseM",
+    "coverTopPlanFactor",
+    "decorativeMembers"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/leifeng-round2/task-bundles/leifeng-pagoda/job.json --spec docs/hangzhou/research/core/leifeng-round2/spec.json --module scripts/landmarks/leifeng_pagoda.py --output artifacts/cities/hangzhou/landmarks/leifeng-v1",
+  "candidateCommand": "python3 docs/hangzhou/research/core/leifeng-round2/validate_candidate.py",
+  "candidateReport": "docs/hangzhou/research/core/leifeng-round2/cpu-geometry-validation.json",
+  "status": "model-exported-not-verified",
+  "sourceSpec": "docs/hangzhou/research/core/leifeng-round2/spec.json",
+  "sourceSpecSha256": "af6d269fa06ab0f6ab4603d207fc438ad0b8d7c83e9edbd6f41a3129532d1961",
+  "sourceInputs": [
+    {
+      "path": "docs/hangzhou/audit/city-config-hangzhou-7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6.json",
+      "sha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/leifeng-build-v1.log",
+    "sha256": "cf5228f04624f99ce78bd6955fcdf2e27993b4e278f1890d63d9ecd5e540573a"
+  },
+  "modelDeliverySha256": "d8e4e6a127a2952ee7d0b1d41a5428443f48a0f9efbd489f4d3e093aef6d8619",
+  "glbStats": {
+    "triangles": 17710,
+    "materials": 5,
+    "bytes": 1222428,
+    "selectedMeshes": 5,
+    "meshNamePrefix": "detail_leifeng-pagoda_",
+    "wholeFileTriangles": 17710,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

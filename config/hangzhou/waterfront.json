@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hangzhou",
+  "sourceSnapshot": "zhejiang-261011",
+  "publicParkSourceIds": ["way/611828306", "way/611828307", "way/611828308", "way/611828309", "way/356904142"],
+  "parkLight": {"maximum": 220, "height": 12, "radius": 34, "color": [0.76, 0.84, 1], "power": 0.9, "spacingGame": 55, "pathOffsetGame": 2.8, "supportRadiusGame": 0.8},
+  "reflectionReferenceWaterId": "relation/8227206",
+  "shoreDistance": {"width": 8192, "maximumGame": 120},
+  "status": "estimated game lighting, not surveyed existing fixtures; texture size and visual performance pending",
+  "contract": "docs/hangzhou/research/coastal-adaptation-round1/contract.json"
+}

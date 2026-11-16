@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "placeId": "lingyin-temple",
+  "name": "灵隐寺",
+  "type": "building-group",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "lingyin-2014",
+      "lingyin-grand",
+      "lingyin-kings"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "lingyin-2014",
+      "url": "https://www.lingyinsi.org/detail_44_7946.html",
+      "publisher": "灵隐寺运营方网站，编辑性恩行者",
+      "title": "千年古寺 大慈灵隐",
+      "sourceDate": "2014-08-08",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "现状寺院主轴五殿；历史鼎盛期九楼十八阁等不得作为当前楼数。文章图片部分来源mzb.com.cn，不默认拥有图片再发布权。"
+    },
+    {
+      "id": "lingyin-grand",
+      "url": "https://en.lingyinsi.org/detail_1141.html",
+      "publisher": "Lingyin Temple 运营方",
+      "title": "The Grand Hall",
+      "sourceDate": "2013-01-18",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "大雄宝殿面积1200m²为source reported，不由该面积假推长宽。"
+    },
+    {
+      "id": "lingyin-kings",
+      "url": "https://en.lingyinsi.org/list_82.html",
+      "publisher": "Lingyin Temple 运营方",
+      "title": "The Hall of Heavenly Kings",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "入口殿双檐；地址Fayun Lane Lingyin Road No.1只确认地点身份，不提供WGS84。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "grandHall": 33.6
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "lingyin-2014"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "building_count",
+      "value": {
+        "axialHalls": 5,
+        "auxiliaryBuildings": null
+      },
+      "unit": "count",
+      "basis": "reported",
+      "sourceIds": [
+        "lingyin-2014"
+      ],
+      "uncertainty": "轴线五殿不是全寺楼栋总数；历史九楼十八阁等不能用于当前数量。"
+    },
+    {
+      "kind": "layout",
+      "value": {
+        "axialOrder": [
+          "天王殿",
+          "大雄宝殿",
+          "药师殿",
+          "法堂（直指堂）",
+          "华严殿"
+        ]
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "lingyin-2014"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "依轴线层层递进；大雄宝殿三重歇山顶、7间面宽4间进深；天王殿双檐",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "lingyin-2014",
+        "lingyin-kings"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "footprint_reported_area",
+      "value": {
+        "grandHall": 1200
+      },
+      "unit": "m2",
+      "basis": "reported",
+      "sourceIds": [
+        "lingyin-grand"
+      ],
+      "uncertainty": "source reported面积；没有通过假设方形得到长宽。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "terrace_elevation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "把五殿作为独立足印和高度分段，随真实山坡台基递进；入口天王殿、院墙与两侧附殿必须避开行人/道路。山地不是单个合成球。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "五殿分别足印/高度（除大雄）/屋顶方位和寺区边界仍缺数据；未采DEM，不称高程实测。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

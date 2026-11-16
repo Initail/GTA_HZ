@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "scope": "one far road tile, never a full city manifest",
+  "fullCoverage": false,
+  "tile": {
+    "id": "roads:-1,-2",
+    "file": "tiles/roads--1--2.glb",
+    "tile": [
+      -1,
+      -2
+    ],
+    "bounds": {
+      "min": [
+        -642.0806560516357,
+        1.1477047204971313,
+        -1074.887924194336
+      ],
+      "max": [
+        28.1328125,
+        17.415822982788086,
+        -628.9752197265625
+      ]
+    },
+    "bytes": 140596,
+    "sha256": "64981544d83d09e7da748f10ae9e48fd69debce73a982c4f43351346214676fe",
+    "logicalBytes": 284664,
+    "triangles": 6980,
+    "nodes": 6,
+    "role": "roads"
+  },
+  "textures": [
+    {
+      "file": "textures/roads-0.jpg",
+      "bytes": 285177,
+      "sha256": "ee242cf2b31c3ac161a8069fe0431535da4b05c7d9ed2ed3c55c0f681057df36"
+    },
+    {
+      "file": "textures/roads-1.jpg",
+      "bytes": 45294,
+      "sha256": "7e1694da8ea09973f9306adebe088ee29abc218078b8a707442c2348f81738d1"
+    }
+  ],
+  "sourceManifestSha256": "a26341aa20a324381914c1a2c2bbfbb9fc0f0f95214bdb11dba60424790359e5",
+  "sourceReportSha256": "c41432d696dfcf51f25d49ab0a817059fb7d0cff08adec6c6efc91cd6a8d0bac",
+  "sourceCandidateSha256": "58d94770785d9d5b3c46b19b527b3e71c7a382691d47f219671e1c315da524cc",
+  "geometryChecks": [
+    {
+      "file": "artifacts/cities/hangzhou/far-lod-investigation-v1/outer-filter-v2/roads/-1_-2/geometry-part-0.json",
+      "sha256": "a18d6030b9e806b2e5274c03381047e6b6829ccb25a603fa81059dfbec646f91",
+      "maxGame": 0.0997309360270712
+    },
+    {
+      "file": "artifacts/cities/hangzhou/far-lod-investigation-v1/outer-filter-v2/roads/-1_-2/geometry-part-1.json",
+      "sha256": "6d9f0c0e7eccd7bea8aab182131b196e60c1977e4b4e9069fe6064b81de363da",
+      "maxGame": 5.684341886080802e-14
+    },
+    {
+      "file": "artifacts/cities/hangzhou/far-lod-investigation-v1/outer-filter-v2/roads/-1_-2/geometry-part-2.json",
+      "sha256": "2e83ff9b463f938a892bdfb4a680235cceb207ae976f1854108d375dc43d42dd",
+      "maxGame": 1.4566819279012731e-12
+    },
+    {
+      "file": "artifacts/cities/hangzhou/far-lod-investigation-v1/outer-filter-v2/roads/-1_-2/geometry-part-3.json",
+      "sha256": "9946637bd806ce0ed47bfcbeb60a83fd433e67bffce59914d3acc0ecfef36818",
+      "maxGame": 4.138538347389718e-09
+    },
+    {
+      "file": "artifacts/cities/hangzhou/far-lod-investigation-v1/outer-filter-v2/roads/-1_-2/geometry-part-4.json",
+      "sha256": "9bc4cb18262ded89213c9b944559051712b72a6d834252f299845c827e16dc24",
+      "maxGame": 0.0591024813008403
+    },
+    {
+      "file": "artifacts/cities/hangzhou/far-lod-investigation-v1/outer-filter-v2/roads/-1_-2/geometry-part-5.json",
+      "sha256": "09a3a084483ca093bb7c3155aaa2036a4382d13a8c31fd1340399fe577f7112f",
+      "maxGame": 0.04719679666200375
+    }
+  ],
+  "imageUriOnlyChange": true,
+  "binaryPayloadPreserved": true,
+  "browserAccepted": false,
+  "runtimeInstalled": false
+}

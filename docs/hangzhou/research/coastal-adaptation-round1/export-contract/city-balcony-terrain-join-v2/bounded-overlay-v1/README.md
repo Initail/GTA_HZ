@@ -1,0 +1,17 @@
+# Frozen bounded terrain candidate
+
+This is a CPU export candidate, not whole-world acceptance. `candidate-contract.json` and `freeze-manifest.json` bind the final 34,980 top + 1,524 vertical faces. The parent can export this directory with `scripts/build_hangzhou_site_terrain.py`; origin is ENU `[2560,-2560,0]`. The existing angle search selects 1 degree: angle zero retains one float32 reversed sliver, whereas 1 degree has zero degenerate/reversed faces and maximum vertex error 0.000043009g. Serialized UVs remain finite with zero collapsed UV faces. Actual GLB must be independently checked.
+
+The new physical cut is `../site-surfaces-repair.json`. Its hash is separately recorded from the immutable v7 base input. Export does not install that physics file: installation must update both runtime physics and source render input. The parent must verify `physicsSitesSha256`, since the older exporter verifies only the original inputSites hash.
+
+The render-only common noding grid is 0.0001g. Raw OSM, source dry/water boundaries, floor GLB and shore-v3 are retained. The new physics finger ring is an explicit 0.0005g adaptation to actual floor serialization; its source/old cuts and failed attempts remain outside this folder.
+
+The actual upward bank top uniquely owns its mask: final terrain overlap with that mask is zero. Full closed-bank projection is used only to audit dry coverage; its almost-vertical side projections are not another mask to subtract. Combined terrain + bank has zero internal holes after 1e-8g metric normalization, exterior Hausdorff 0.0000355845g, and no terrain outside the original dry domain. The retained external serialization strip totals 0.000939218g², with sampled maximum unsupported distance 0.000016179g. We do not claim literal zero external strip area.
+
+The legacy top-only coverage test reports holes because it ignores bank sides. It remains in `validation.json`, not relabeled pass. `coverage-report.json` tests full closed-bank coverage. Likewise one open edge fails the earlier 1e-7g source-waterfront classification: it is 0.04144g long and at most 0.0000005583g from the unchanged source dry boundary, within the explicitly accepted 0.001g render boundary budget. Its endpoints and original classification remain in `final-frame-and-open-edge-check.json`. There are zero nonmanifold/reversed shared edges.
+
+237,647 probes away from the 0.001g discontinuity band have maximum source-physics height error 0.00594936g. All 7,213 near-boundary probes are reported separately: their maximum 4.27822g difference is a genuine vertical discontinuity, not averaged into smooth error. Actual upper/lower floor bottom intersections are zero; minimum bottom clearances are 0.00741435g and 0.00999997g respectively.
+
+`../crop-handoff-v1` gives exact crop ENU profiles, 391 original vertices, candidate terrain-owned profiles, and actual full bank-top mask/height boundary including outside the crop. Adjacent global terrain must use these fixed segment heights rather than resample F1. Its external 46.37645g² bank handoff has maximum sampled |bank−F1| 0.01092563g; the earlier 0.01g screen failure is retained, and the parent applies the existing global 0.04g render approximation budget without changing physics.
+
+Still pending: actual GLB; constrained global insertion; collision/browser/visual/performance tests; continuous road/tunnel estimated height repair. The current source road profiles conflict with the slab/cuts and are not approved by this geometry package. No lower-floor walk entrance is activated.

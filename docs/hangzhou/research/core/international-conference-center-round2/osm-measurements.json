@@ -1,0 +1,603 @@
+{
+  "anchorWGS84": [
+    120.20903333135745,
+    30.244770848310754
+  ],
+  "sourceFeatures": [
+    {
+      "id": "way/626826759",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "30",
+        "min_height": "26"
+      },
+      "centroidWGS84": [
+        120.20903576557181,
+        30.244772348713283
+      ],
+      "featureSha256": "9c22629c7a5707ff01efa6494f65f1ecfd7a831bae76c8f1849ce21215c309db",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826760",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "88",
+        "min_height": "85"
+      },
+      "centroidWGS84": [
+        120.2090377852987,
+        30.24476904317289
+      ],
+      "featureSha256": "ea336424c8514c67a6aa88f7bc4b960c902493b4e7ba99150400464c46669071",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826766",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "71",
+        "min_height": "67"
+      },
+      "centroidWGS84": [
+        120.20903125108886,
+        30.244773156375157
+      ],
+      "featureSha256": "bc37f3af8fe3b4c894365f417e63de3ec910ccb9689e528ac4b34cbb9df3f319",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826767",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "75",
+        "min_height": "71"
+      },
+      "centroidWGS84": [
+        120.20903093386809,
+        30.24477280718589
+      ],
+      "featureSha256": "4f664091e9b0e4f0b02ac72ef409e236aa882126180da959363c79a12d826d18",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826768",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "63",
+        "min_height": "59"
+      },
+      "centroidWGS84": [
+        120.20903813962266,
+        30.244772038561635
+      ],
+      "featureSha256": "0fd5c010c204a505107434679ce4bcd08fd40bb9cc009853f121f757cbab06fc",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826769",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "67",
+        "min_height": "63"
+      },
+      "centroidWGS84": [
+        120.20903294388506,
+        30.24477167626021
+      ],
+      "featureSha256": "e70f760b80d33edfbca8c264914d9d646f198cef9751717edcc830175a9182cf",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826770",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "54",
+        "min_height": "49"
+      },
+      "centroidWGS84": [
+        120.20903575900542,
+        30.244771471051624
+      ],
+      "featureSha256": "667a7989693e38d58063c08dd613bca19874cd41d4b4ccf770f804184ca4cded",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826771",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "59",
+        "min_height": "54"
+      },
+      "centroidWGS84": [
+        120.2090397560384,
+        30.24477093738282
+      ],
+      "featureSha256": "d29355a445164dc90627ae436e891319940764a533a274d7c3c532f0373245b5",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826772",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "39",
+        "min_height": "34"
+      },
+      "centroidWGS84": [
+        120.20903991905197,
+        30.244771483028114
+      ],
+      "featureSha256": "21bf74e4e27430ffbc1aca5252f07849f6e83d12816b1c45f4b59626057dce53",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826773",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "44",
+        "min_height": "39"
+      },
+      "centroidWGS84": [
+        120.20903994040913,
+        30.244770998019984
+      ],
+      "featureSha256": "7b95b0176a5a3ef42d33e89040a3a995a13c17a86effaeef177c798019d066fe",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826774",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "82",
+        "min_height": "79"
+      },
+      "centroidWGS84": [
+        120.20903196456928,
+        30.244764452456955
+      ],
+      "featureSha256": "55ca8053f3e35c65db7745c8f6fa66fffd467903ec42bd1ca6779992672149c1",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826775",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "26",
+        "min_height": "23"
+      },
+      "centroidWGS84": [
+        120.20903369770994,
+        30.24477364169158
+      ],
+      "featureSha256": "07d5d471ff87621ee614043012d53ed3ac4ea3d2c8b79441829c296dd67497b1",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826776",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "49",
+        "min_height": "44"
+      },
+      "centroidWGS84": [
+        120.20903903687126,
+        30.24477344575348
+      ],
+      "featureSha256": "a9ad1f8ce838b1a9b6a61b45a7de9530e127afae89cec6a7011fd4b691b51a2a",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826777",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "34",
+        "min_height": "30"
+      },
+      "centroidWGS84": [
+        120.20903440283094,
+        30.244771693665726
+      ],
+      "featureSha256": "ac2f5557e821b38019ee5c8936b25002d2e66ff4dd0e91006aebe54e523776a4",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826778",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "85",
+        "min_height": "82"
+      },
+      "centroidWGS84": [
+        120.20903105342597,
+        30.24476420974112
+      ],
+      "featureSha256": "9fed54c3a704234fda44910f23ca7b6b305252cc363f7adc1a7f48ed0141877a",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626826779",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "79",
+        "min_height": "75"
+      },
+      "centroidWGS84": [
+        120.20903216885678,
+        30.244768129746046
+      ],
+      "featureSha256": "31546949ac6fd007d5c27f7787ee0825750fbd36cad6df83b8e05c8e55f80ed8",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838539",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "30",
+        "min_height": "26"
+      },
+      "centroidWGS84": [
+        120.2090349259537,
+        30.244771325555593
+      ],
+      "featureSha256": "18c285af4d4b986ae26d5360c0331aedc578134cda86b3d35033b6190749f023",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838541",
+      "role": "rearEntrance",
+      "tags": {
+        "building": "yes",
+        "colour": "#ffdb7a",
+        "height": "18"
+      },
+      "centroidWGS84": [
+        120.20870169347347,
+        30.244307276493114
+      ],
+      "featureSha256": "21cd4fcda218436b7c2c44dbe6d5abfc6c05e2f72889bef8ca092375285a5f56",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838542",
+      "role": "sphereBase",
+      "tags": {
+        "building": "yes",
+        "building:part": "金球",
+        "colour": "#ffdb7a",
+        "height": "23",
+        "min_height": "20",
+        "roof:height": "-4.26",
+        "roof:shape": "gabled"
+      },
+      "centroidWGS84": [
+        120.20903333135745,
+        30.244770848310754
+      ],
+      "featureSha256": "16fb7e5be9d4b5ba05480c88fe4cc89d817b45536618383d55aa6eb6ba54c779",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838543",
+      "role": "frontGlazedCorridor",
+      "tags": {
+        "building": "yes",
+        "colour": "#ffdb7a",
+        "height": "18"
+      },
+      "centroidWGS84": [
+        120.209476328155,
+        30.245258599582076
+      ],
+      "featureSha256": "c477981acf655ed09c1ebea3c8b7344840ca61a6e3c117098873b3d3680e7a5c",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838544",
+      "role": "mainPodium",
+      "tags": {
+        "building": "yes",
+        "colour": "#ffdb7a",
+        "height": "20",
+        "name": "杭州市国际会议中心"
+      },
+      "centroidWGS84": [
+        120.20918315019831,
+        30.244886755369286
+      ],
+      "featureSha256": "eeea37fb25b1343de2384d69c58d55459275a7c447dcec0a28e406fac4a64f7b",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838545",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "71",
+        "min_height": "67"
+      },
+      "centroidWGS84": [
+        120.20903256482238,
+        30.2447725302729
+      ],
+      "featureSha256": "bab7ef780793e30a0e8b074119d672ece7091e689d674a654abf1d8fc9e58cbe",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838546",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "75",
+        "min_height": "71"
+      },
+      "centroidWGS84": [
+        120.2090321674569,
+        30.244772329647706
+      ],
+      "featureSha256": "ffee33625122b99c6f33c37661c5787df97fe92bfebac323023bce3980250297",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838547",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "63",
+        "min_height": "59"
+      },
+      "centroidWGS84": [
+        120.20903730790633,
+        30.244770943013258
+      ],
+      "featureSha256": "507bc9e1a656d5d244b66810dc77c92a43477c24dc8436679e068c68b52a9082",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838548",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "67",
+        "min_height": "63"
+      },
+      "centroidWGS84": [
+        120.20903447519622,
+        30.24477114020694
+      ],
+      "featureSha256": "acd91ec7d6cfda575c4d8823db7930177d7fb199405607f7f81f7f9d61db37c3",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838549",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "54",
+        "min_height": "49"
+      },
+      "centroidWGS84": [
+        120.20903743132422,
+        30.244771042435396
+      ],
+      "featureSha256": "b5064417c1131bbd0547296b9988be2ca4673bd4746c1e6898a034d4b88fbeed",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838551",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "59",
+        "min_height": "54"
+      },
+      "centroidWGS84": [
+        120.20903888287306,
+        30.244769899442403
+      ],
+      "featureSha256": "b1da558eb420f02015f290ce6eb3885d2235491003588d787b157427b3847c92",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838553",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "39",
+        "min_height": "34"
+      },
+      "centroidWGS84": [
+        120.20903905636715,
+        30.244770457594555
+      ],
+      "featureSha256": "8c5a788a4b6825860ac52455e4740f467336ae56e9b990f422e06cc4dd9a358f",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838555",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "44",
+        "min_height": "39"
+      },
+      "centroidWGS84": [
+        120.20903907641987,
+        30.24476996713539
+      ],
+      "featureSha256": "e1030da321124ebbc3442ee9b0e9ec17dc0906010dffecd22c7c94563a0fc95b",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838557",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "26",
+        "min_height": "23"
+      },
+      "centroidWGS84": [
+        120.20903286429191,
+        30.244772612961228
+      ],
+      "featureSha256": "e403061e279998ef51f13461a19cfa361955e05762456076dd75856feb831d4e",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838559",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "49",
+        "min_height": "44"
+      },
+      "centroidWGS84": [
+        120.20903816944706,
+        30.24477241367652
+      ],
+      "featureSha256": "454d953470466dea09debe6fe0cead295bb72ea56fc099543582638193dc9bc7",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    },
+    {
+      "id": "way/626838560",
+      "role": "mappedSphereLevel",
+      "tags": {
+        "building:part": "yes",
+        "colour": "#ffdb7a",
+        "height": "34",
+        "min_height": "30"
+      },
+      "centroidWGS84": [
+        120.20903584528399,
+        30.24477122819072
+      ],
+      "featureSha256": "3f626bce0e8fe5f530d478ff037b4c8d22f3c0afd293cbb6eb4a91525274e0f1",
+      "interpretation": "named body/podium or identical-colour same-centre nested building part; height tags not automatically measured"
+    }
+  ],
+  "mainAndComponents": {
+    "main": {
+      "areaM2": 18334.36356583372,
+      "centroidWGS84": [
+        120.20918315019831,
+        30.244886755369286
+      ],
+      "axisRadiansEastCCW": 2.5036604469886576,
+      "axisDegreesEastCCW": 143.44917694628725,
+      "boundsMajorMinorM": [
+        181.34877948306388,
+        140.84385768297733
+      ],
+      "method": "polygon area centroid/second moments using fixed WGS84 local coefficients; not uneven-vertex average"
+    },
+    "sphereBase": {
+      "areaM2": 5350.278514801248,
+      "centroidWGS84": [
+        120.20903333135745,
+        30.244770848310754
+      ],
+      "axisRadiansEastCCW": 3.084496538148742,
+      "axisDegreesEastCCW": 176.72863355863603,
+      "boundsMajorMinorM": [
+        83.27096738295435,
+        82.31058774360108
+      ],
+      "method": "polygon area centroid/second moments using fixed WGS84 local coefficients; not uneven-vertex average"
+    },
+    "front": {
+      "areaM2": 1496.8575985325522,
+      "centroidWGS84": [
+        120.209476328155,
+        30.245258599582076
+      ],
+      "axisRadiansEastCCW": 0.7877601399498911,
+      "axisDegreesEastCCW": 45.13533128776383,
+      "boundsMajorMinorM": [
+        51.5767214565212,
+        44.123212891331995
+      ],
+      "method": "polygon area centroid/second moments using fixed WGS84 local coefficients; not uneven-vertex average"
+    },
+    "back": {
+      "areaM2": 338.49617923755153,
+      "centroidWGS84": [
+        120.20870169347347,
+        30.244307276493114
+      ],
+      "axisRadiansEastCCW": 2.497770749302111,
+      "axisDegreesEastCCW": 143.11172212624018,
+      "boundsMajorMinorM": [
+        35.22160118584384,
+        13.39038609033004
+      ],
+      "method": "polygon area centroid/second moments using fixed WGS84 local coefficients; not uneven-vertex average"
+    }
+  },
+  "orientationAxisRadiansEastCCW": 2.5036604469886576,
+  "frontRelativeRadians": -1.5707963267948966,
+  "frontWorldDegreesEastCCW": 53.44917694628726,
+  "theatreReference": {
+    "sourceFeatureId": "way/626838819",
+    "centroidWGS84": [
+      120.21089643393236,
+      30.24680828230344
+    ],
+    "bearingFromICCdegreesEastCCW": 51.56101261124837,
+    "use": "orientation/context only; no exclusion"
+  },
+  "sourceDifferences": {
+    "mainHeightTag": 20,
+    "sphereTopTag": 88,
+    "maxMappedSphereBoundsM": [
+      108.13022733405109,
+      107.41919386622382
+    ],
+    "reportedDiameterM": 85,
+    "heightUse": "all tags unverified; main/podium20 vs reported13, sphere top88 vs reported85, mapped108m ring vs reported85 remain conflicts"
+  },
+  "orientationBasis": "main source footprint area-moment axis; theatre-facing side is the perpendicular NE side, consistent with actual source front-glass corridor and official photo",
+  "uncertainty": "OSM/source map precision unknown. Planning ±5m placement/podium, front phase ±5deg. Nested height/diameter tags do not establish actual steel sphere dimensions."
+}

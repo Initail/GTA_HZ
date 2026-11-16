@@ -1,0 +1,12 @@
+{
+  "kind": "actual CitySiteSurfaces constructor/query with proposed data only",
+  "sourceSha256": "bd2dc3a0b2b68e9c2cbccc6257ce99b89266ff7d1b333d001422cae801059d73",
+  "upperCentroidSamples": 648,
+  "maxSameLevelDetailSoleOffsetGame": 0.028500080108642578,
+  "lowerTrianglesGatedInRecommendedData": 27,
+  "demonstratedAllFloorCandidateWouldSelectLowerFromGroundCap": 27,
+  "actualSeamQueries": 45,
+  "terrainCutsIncluded": false,
+  "bodyCollisionOrBrowserTested": false,
+  "pass": true
+}

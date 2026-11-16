@@ -1,0 +1,57 @@
+{
+  "floors": [
+    {
+      "id": "city-balcony:lower-slab",
+      "actualBottomFaces": 27,
+      "overlapPairs": 11079,
+      "projectedOverlapArea": 4284.821625722492,
+      "minimumBottomClearanceGame": 0.009999871253967285,
+      "maximumBottomClearanceGame": 0.009999871253967285,
+      "penetratingPairsBeyond1eMinus5": 0,
+      "penetratingPairProjectionArea": 0,
+      "interiorErosionGame": 0.001,
+      "interiorMinimumBottomClearanceGame": 0.009999871253967285,
+      "interiorPenetratingPairsBeyond1eMinus5": 0
+    },
+    {
+      "id": "city-balcony:upper-slab",
+      "actualBottomFaces": 300,
+      "overlapPairs": 31688,
+      "projectedOverlapArea": 5676.103077379875,
+      "minimumBottomClearanceGame": -0.6663657207301412,
+      "maximumBottomClearanceGame": 3.6102513790200703,
+      "penetratingPairsBeyond1eMinus5": 648,
+      "penetratingPairProjectionArea": 0.003545030074833013,
+      "interiorErosionGame": 0.001,
+      "interiorMinimumBottomClearanceGame": 0.009997731997149373,
+      "interiorPenetratingPairsBeyond1eMinus5": 0
+    }
+  ],
+  "shore": {
+    "actualTopTriangles": 1164,
+    "classification": "actual upward-normal cluster >.99; 159 near-vertical source side faces (<.001) excluded from top comparison only, retained in raw side report",
+    "terrainShoreTopProjectedOverlapArea": 25.527216029426885,
+    "overlapPairs": 2261,
+    "minimumShoreTopMinusTerrainGame": -2.076676533269778,
+    "maximumShoreTopMinusTerrainGame": 2.786058187484741,
+    "coplanarWithin1eMinus5Pairs": 2071,
+    "coplanarWithin1eMinus5Area": 23.31934767198201,
+    "shoreAboveTerrainPairs": 109,
+    "shoreBelowTerrainPairs": 119,
+    "interpretation": "Both actual GLBs contain a narrow dry-side top strip. Overlap/flush geometry is not unique rendering ownership; do not call z-fighting or seam visually accepted."
+  },
+  "sourceBindings": {
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/shore-model-v2-review/check.py": "c2e2bb8af9f4be7d71645073db080e8c960f927adaa571662926ecdc7fece005",
+    "artifacts/cities/hangzhou/city-balcony-terrain-glb-v1/city-balcony-terrain.glb": "359c528b67724c3bdf703d877df17bac758eebd4c4250a8efcedc7c2c26dfc75",
+    "artifacts/cities/hangzhou/landmarks/city-balcony-floor-v2/city-balcony.glb": "731066a06278848025c19153584eae7539e0ba7a73db49540e6eb7679ff67757",
+    "artifacts/cities/hangzhou/shore-glb-v3/coastal-shoreline.glb": "0c683dd694ac4a3b5b19fbd46cabb330fb81775c474cb0a6536cdc86bb66d65c",
+    "docs/hangzhou/research/coastal-adaptation-round1/export-contract/city-balcony-walk-envelope-v2/slab-glb-correspondence.json": "18c4856addc9963f22028bedaa8ed70ed936a436f1b74279378a0f878d390f04",
+    "artifacts/cities/hangzhou/render-input-v7/geography/site-surfaces.json": "f3b6ce4ee5fba89a79c305bb4207ed24903680dfb5f6745bd17de783e843ac81"
+  },
+  "pending": [
+    "Precise shore/terrain top ownership or justified hidden join",
+    "Actual finger perimeter soil/slab contacts if any",
+    "Full GLB column/guard solid and body traces",
+    "No crop merge or full soil closure accepted"
+  ]
+}

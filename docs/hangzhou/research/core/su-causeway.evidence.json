@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "placeId": "su-causeway",
+  "name": "苏堤",
+  "type": "linear-landscape",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "unesco-nomination"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "unesco-nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "publisher": "中国缔约国提名文件 / UNESCO 发布",
+      "title": "West Lake Cultural Landscape of Hangzhou nomination dossier",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-extract; whole PDF fetch rejected because 79,121,258 bytes",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "申遗文件p64有白堤/苏堤尺寸与方向，p112有断桥构成平面图索引；本轮未下载/未量读图。不将网页搜索抓取日期当数据采集日期。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": {
+        "length": 2797,
+        "widthRange": [
+          30,
+          40
+        ]
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "提名材料p64；地方历史资料可有不同量法，冻结以当期源几何为准。"
+    },
+    {
+      "kind": "orientation",
+      "value": "南北跨湖，由南屏山北麓到北山",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "layout",
+      "value": {
+        "stoneArchBridges": 6,
+        "causewayAboveLakeReported": 0.4
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "0.4m为来源时相相对湖面，不是WGS84/DEM绝对海拔。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "长堤与六座单孔石拱桥",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "unesco-nomination"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "elevation_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "六桥逐一构造桥洞、连续拱上可步行桥面与坡道；OSM标签决定车行/步行路线。湖水仍连通桥孔。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "桥名/桥逐一跨度与坡度没有冻结；0.4m堤面不可替代桥面拱高。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

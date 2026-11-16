@@ -1,0 +1,96 @@
+{
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "parcels": [
+    {
+      "sourceId": "way/1228913717",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟总部园区"
+      },
+      "bboxCenterWGS84": [
+        119.9606604,
+        30.26480725
+      ],
+      "boundsWGS84": [
+        119.9582487,
+        30.2635148,
+        119.9630721,
+        30.2660997
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 108199.67,
+      "minimumEnvelope": {
+        "lengthM": 466.74,
+        "widthM": 284.06,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 88.89
+      }
+    },
+    {
+      "sourceId": "way/1293416973",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟智谷产业园一期"
+      },
+      "bboxCenterWGS84": [
+        119.9609634,
+        30.26686935
+      ],
+      "boundsWGS84": [
+        119.9582362,
+        30.2662959,
+        119.9636906,
+        30.2674428
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 58333.24,
+      "minimumEnvelope": {
+        "lengthM": 523.13,
+        "widthM": 127.16,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 90.88
+      }
+    },
+    {
+      "sourceId": "way/1293548829",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟智谷产业园二期"
+      },
+      "bboxCenterWGS84": [
+        119.9639703,
+        30.26539875
+      ],
+      "boundsWGS84": [
+        119.9622219,
+        30.2635361,
+        119.9657187,
+        30.2672614
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 60398.43,
+      "minimumEnvelope": {
+        "lengthM": 511.15,
+        "widthM": 142.24,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 24.48
+      }
+    }
+  ],
+  "hqMappedBuildingIds": [
+    "way/1355173307"
+  ],
+  "northIndustryMappedBuildingIds": [],
+  "eastIndustryMappedBuildingIds": [],
+  "mappedHeadquartersSourceId": "way/1355173307",
+  "separateVisitorAuditoriumSourceId": null,
+  "partnerOfficeTowerSourceIds": [],
+  "emptyOSMDoesNotMeanPhysicalAbsence": true,
+  "currentOfficialMultiDirectionPhotosShowUnmappedBuildings": true,
+  "pending": [
+    "Separatevisitor/auditorium footprint/georeferenceddimensions",
+    "North/eastpartneroffices unique footprint andcount",
+    "Asbuiltupperjoggingloopheight/route/roadcrossing",
+    "Actualdoor/gate/canalbank/rampheightandaccess"
+  ]
+}

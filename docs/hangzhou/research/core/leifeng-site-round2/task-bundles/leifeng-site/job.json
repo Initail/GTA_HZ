@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-14T05:35:30+00:00",
+  "stage": "evidence-ready",
+  "agent": "codex-leifeng-candidate",
+  "place": {
+    "id": "leifeng-site",
+    "name": "雷峰夕照映射场地有限地形与通道候选",
+    "kind": "finite park hill terrain exterior"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/leifeng-site-round2/catalog.json",
+  "sourceManifestSha256": "a04c12412face3b37f72b933105639c9d4ba1bc68a03268e59f1e9fc995f730d",
+  "sourceRecord": {
+    "id": "leifeng-site",
+    "name": "雷峰夕照映射场地有限地形与通道候选",
+    "kind": "finite park hill terrain exterior",
+    "location": {
+      "center": [
+        120.14501471758403,
+        30.23388616474085
+      ]
+    },
+    "modeling": {
+      "blockers": []
+    }
+  },
+  "requiredShapes": [
+    "extent",
+    "elevation_profile",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "5bd5044cf7a4cad16911468f4fcfdf96d04088a12abcf553734548140f88e609"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 18000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048,
+    "reason": "finite source terrain/site candidate; CPU1279 only, actualGLB/runtime stillpending"
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/leifeng_site.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/leifeng-site-round2"
+    ],
+    "integrationOwner": "root",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-14T05:35:30+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T05:35:30+00:00",
+      "evidenceSha256": "8f094e6a3f3323d1ed4a6597c0cb80c268b2c3b7c59c5b331c0967f2aa5e271b",
+      "modelSha256": null
+    }
+  ]
+}

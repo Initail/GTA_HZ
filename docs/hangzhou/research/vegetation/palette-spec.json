@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "hangzhou-tree-palette",
+  "cityId": "hangzhou",
+  "scope": "eight original procedural regional tree archetypes ×threeLODs, localprototype coordinates; no individualtree census/reconstruction",
+  "species": [
+    {
+      "id": "camphor",
+      "name": "香樟",
+      "scientificName": "Cinnamomum camphora (regional-source nomenclature)",
+      "leafHabit": "evergreen",
+      "form": "broad-rounded-forked",
+      "sourceIds": [
+        "shade-plan",
+        "city-streettrees",
+        "westlake-forest-history"
+      ],
+      "prototypeHeightM": 18,
+      "prototypeCrownRadiusM": 6.8,
+      "prototypeBranchClearanceM": 3.7,
+      "trunkRadiusM": 0.38,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 5,
+      "crownRadiusErrorPlusMinusM": 2.0,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    },
+    {
+      "id": "willow",
+      "name": "垂柳",
+      "scientificName": "Salix babylonica",
+      "leafHabit": "deciduous",
+      "form": "arching-pendent",
+      "sourceIds": [
+        "unesco-westlake",
+        "willow-botanical"
+      ],
+      "prototypeHeightM": 11,
+      "prototypeCrownRadiusM": 5.0,
+      "prototypeBranchClearanceM": 2.3,
+      "trunkRadiusM": 0.28,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 3,
+      "crownRadiusErrorPlusMinusM": 1.5,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    },
+    {
+      "id": "osmanthus",
+      "name": "桂花",
+      "scientificName": "Osmanthus fragrans",
+      "leafHabit": "evergreen",
+      "form": "dense-small-rounded",
+      "sourceIds": [
+        "osmanthus-experts",
+        "shade-plan"
+      ],
+      "prototypeHeightM": 5.5,
+      "prototypeCrownRadiusM": 2.6,
+      "prototypeBranchClearanceM": 1.1,
+      "trunkRadiusM": 0.13,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 1.5,
+      "crownRadiusErrorPlusMinusM": 0.8,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    },
+    {
+      "id": "ginkgo",
+      "name": "银杏",
+      "scientificName": "Ginkgo biloba",
+      "leafHabit": "deciduous",
+      "form": "upright-ovoid-fan-leaves",
+      "sourceIds": [
+        "shade-plan",
+        "fall-color-study"
+      ],
+      "prototypeHeightM": 17,
+      "prototypeCrownRadiusM": 4.0,
+      "prototypeBranchClearanceM": 4.0,
+      "trunkRadiusM": 0.38,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 5,
+      "crownRadiusErrorPlusMinusM": 1.5,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    },
+    {
+      "id": "plane",
+      "name": "二球悬铃木",
+      "scientificName": "Platanus × acerifolia (hybrid; reported local use)",
+      "leafHabit": "deciduous",
+      "form": "broad-forked-pale-bark",
+      "sourceIds": [
+        "shade-plan",
+        "city-streettrees",
+        "plane-flora"
+      ],
+      "prototypeHeightM": 20,
+      "prototypeCrownRadiusM": 7.0,
+      "prototypeBranchClearanceM": 4.8,
+      "trunkRadiusM": 0.38,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 6,
+      "crownRadiusErrorPlusMinusM": 2.5,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    },
+    {
+      "id": "peach",
+      "name": "碧桃",
+      "scientificName": "Prunus persica ornamentalcultivar; exactcultivar unknown",
+      "leafHabit": "deciduous",
+      "form": "low-open-forked",
+      "sourceIds": [
+        "unesco-westlake"
+      ],
+      "prototypeHeightM": 5.0,
+      "prototypeCrownRadiusM": 2.8,
+      "prototypeBranchClearanceM": 1.5,
+      "trunkRadiusM": 0.13,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 1.5,
+      "crownRadiusErrorPlusMinusM": 0.9,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    },
+    {
+      "id": "sweetgum",
+      "name": "枫香",
+      "scientificName": "Liquidambar formosana",
+      "leafHabit": "deciduous",
+      "form": "upright-irregular-ovoid",
+      "sourceIds": [
+        "fall-color-study",
+        "westlake-forest-history"
+      ],
+      "prototypeHeightM": 20,
+      "prototypeCrownRadiusM": 5.3,
+      "prototypeBranchClearanceM": 5.0,
+      "trunkRadiusM": 0.38,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 6,
+      "crownRadiusErrorPlusMinusM": 1.8,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    },
+    {
+      "id": "masson-pine",
+      "name": "马尾松",
+      "scientificName": "Pinus massoniana",
+      "leafHabit": "evergreen",
+      "form": "open-layered-umbrella-pine",
+      "sourceIds": [
+        "westlake-forest-history"
+      ],
+      "prototypeHeightM": 22,
+      "prototypeCrownRadiusM": 5.6,
+      "prototypeBranchClearanceM": 7.0,
+      "trunkRadiusM": 0.38,
+      "dimensionsBasis": "estimated",
+      "heightErrorPlusMinusM": 7,
+      "crownRadiusErrorPlusMinusM": 2.0,
+      "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+      "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+      "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+      "growthStage": "representative maintained adult, not ancient-tree replica"
+    }
+  ],
+  "scenes": {
+    "west-lake-causeways": {
+      "preferred": [
+        "willow",
+        "peach"
+      ],
+      "basis": "reported traditional combination",
+      "sourceIds": [
+        "unesco-westlake"
+      ],
+      "designRules": "alternate/clustered source-informed palette, preserve bank/bridge path andcamera clearance; actualtreecountsandlocationspending"
+    },
+    "urban-streets": {
+      "preferred": [
+        "camphor",
+        "plane",
+        "ginkgo",
+        "sweetgum"
+      ],
+      "basis": "reported local planning/research palette; authoredweightsnotfixedcensus",
+      "sourceIds": [
+        "shade-plan",
+        "city-streettrees",
+        "fall-color-study"
+      ],
+      "designRules": "follow streettiers/viewwindows/independentsides; selectedsource-certainroads mayretain documentedtheme; no randomplaneonsmallcauseway"
+    },
+    "parks-low-layer": {
+      "preferred": [
+        "osmanthus",
+        "peach"
+      ],
+      "basis": "reported plantingcategories, estimatedmix",
+      "sourceIds": [
+        "shade-plan",
+        "osmanthus-experts"
+      ],
+      "designRules": "smallround crowns near publicgardens; flowersseason-specific; keepcafe/camera/interaction plots clear"
+    },
+    "hillside-canopy": {
+      "preferred": [
+        "camphor",
+        "sweetgum",
+        "masson-pine"
+      ],
+      "basis": "reported historicalWestLake hills/regionalspecies; current perhill proportionsunknown",
+      "sourceIds": [
+        "westlake-forest-history",
+        "westlake-adoption"
+      ],
+      "designRules": "mixbroadleaved/matureopenpine crowns, varied heights/terrain; notmonotonegiantbanyan/Phoenix vegetation"
+    }
+  },
+  "coordinatePolicy": {
+    "dimensions": "realmetres untilbuild",
+    "scaleOnce": 0.6,
+    "prototypeSpace": "local east/north/up, root at0",
+    "lm": "gameunittranslation andheight, not scaledagain",
+    "runtime": "variation scale only; downloadedGLB height/crown metadata alreadygameunits",
+    "rootTransform": "keepexistingBlender→GLB→Babylon directionhandling"
+  },
+  "lodBudgets": {
+    "0": {
+      "maxTriangles": 4800,
+      "maxMaterials": 5
+    },
+    "1": {
+      "maxTriangles": 1700,
+      "maxMaterials": 4
+    },
+    "2": {
+      "maxTriangles": 220,
+      "maxMaterials": 3
+    }
+  },
+  "defaultSeason": "summer",
+  "supportedAssetSeasons": [
+    "summer",
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "seasonDoesNotAddGameplaySystem": true,
+  "materialPolicy": "proceduralsolidcrowns/bark, no alphacards/photo textures; optional parent registered matte material slots, default existingBmaterials",
+  "pendingSubscopes": [
+    "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+    "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+    "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+    "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+    "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+    "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+    "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+  ]
+}

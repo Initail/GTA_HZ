@@ -1,0 +1,27 @@
+{
+  "reviewedBy": "ali_evidence",
+  "reviewedAt": "2026-10-14",
+  "moduleSha256": "c500ed2da137eecacb04580e3dedfdd8da63121e6026a4918a722db9a7b1d340",
+  "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "scope": "CPU authored archetype/LOD morphology only; no final botanical/gamevisual acceptance",
+  "views": [
+    "cpu-palette-front.png",
+    "cpu-palette-diagonal.png",
+    "cpu-static-season-details.png"
+  ],
+  "findings": [
+    "eight prototypes maintain commonscale comparison: smallosmanthus/peach vs talluprightginkgo/sweetgum, broadcamphor/plane andlayeredmaturepine",
+    "willowpendentleafform/archingbranchessurvive allLODs; no alphacards",
+    "farroundcrowns improvedfromtwoclumps tothree toavoid narrowyaw silhouettes; all8viewIoUs>0.72",
+    "plane pale segmentedbark andginkgo authoredfanleaves visibleinclosecandidate; fineleaf/branch morphology stillsimplified",
+    "static autumn/spring/winter variants are authoredasset choices only; flowerclusters andbarebranchmodels approximate, no actualphenology simulation",
+    "RevisitedallthreeCPU sheetsafterweldfix:speciesenvelopesandLODsilhouettesretained;4mm closedfanleafgeometry almostinvisibleatcontactsheetscale, actualGPUclosenessstillpending"
+  ],
+  "limitations": [
+    "CPU painter cannotverifyGPU smoothing/shaders/depth/shadows",
+    "originalgeometrynotascan, no verifiedindividual tree replica",
+    "accuratecurrentfieldphotos/pruning/density/placements/LODgamepop/nearflowers remains pending"
+  ],
+  "finalValidationPass": false,
+  "parentRejectedCandidate": "vegetation-v1/ginkgo full1052vsCPU1112, correctedmodule awaitsnewexport"
+}

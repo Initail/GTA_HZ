@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-14T02:30:17+00:00",
+  "stage": "modelled",
+  "agent": "landmark_evidence",
+  "place": {
+    "id": "big-lotus",
+    "name": "大莲花主体育场开口与花瓣候选",
+    "kind": "building"
+  },
+  "sourceManifest": "docs/hangzhou/research/core/big-lotus-round2/task-catalog.json",
+  "sourceManifestSha256": "442eae57254ef0e15d57ffb94a523a2181b13f81731d419f1fc4ae06abd198b5",
+  "sourceRecord": {
+    "id": "big-lotus",
+    "name": "大莲花主体育场开口与花瓣候选",
+    "kind": "building",
+    "location": {
+      "center": [
+        120.2243820151114,
+        30.23168281200902
+      ]
+    },
+    "sources": [
+      {
+        "id": "osm-geofabrik",
+        "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+        "publisher": "OpenStreetMap contributors / Geofabrik",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2026-10-11T20:21:06Z",
+        "license": "ODbL-1.0",
+        "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+        "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9"
+      },
+      {
+        "id": "osm-aux",
+        "url": "https://api.openstreetmap.org/api/0.6/relation/8718531/full.json",
+        "publisher": "OpenStreetMap contributors / OpenStreetMap API",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2023-03-30T22:43:32Z",
+        "license": "ODbL-1.0",
+        "localPath": "docs/hangzhou/research/core/big-lotus-round2/osm-relation-8718531-aux.json",
+        "sha256": "5436e5822c35d08fbd654edfa34dc6e47ba18eca046015e253221667def74227",
+        "use": "member IDs/version corroboration; fixed Geofabrik remains the city source"
+      },
+      {
+        "id": "nbbj",
+        "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+        "publisher": "NBBJ, project architect partnered with CCDI",
+        "accessedAt": "2026-10-14",
+        "sourceDate": null,
+        "status": "actual text and multiple project photographs reviewed",
+        "sha256": "5cf27f7bda4f425fe4a899365b08c93a4a36446288217d9d3e0f0283e1883386",
+        "license": "unknown; references only, images not bundled or used as textures"
+      },
+      {
+        "id": "operator",
+        "url": "https://www.bjatzxjq.com/",
+        "publisher": "杭州滨江奥体博览城开发建设运营管理有限公司",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "page undated; copyright2025 and news2025 do not date the photograph",
+        "status": "actual stadium-specific text and aerial photograph reviewed",
+        "sha256": "92cd999d6b168e189b7bec8a0cf4861a01d78f0f7197f34776586cbc1804c4e1",
+        "license": "unknown; references only, images not bundled or used as textures"
+      },
+      {
+        "id": "ccdi-project",
+        "url": "https://www.archina.com/index.php?g=works&m=index&a=show&id=3484",
+        "publisher": "CCDI悉地国际 project post on ARCHINA; publication credits verified, host notes third-party submissions",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "2019-09-13",
+        "status": "actual HTML fetched/read; web-tool redirect error, CDN image TLS failed",
+        "sha256": "971856bc2efb189d9dda2deacc1ac7e826d789e46c58a72da53b801421450b3b",
+        "license": "unknown; reference only, no images bundled; not CCD interior design company"
+      },
+      {
+        "id": "asian-games",
+        "url": "https://www.hangzhou2022.cn/hzhyn/mlhz/202105/t20210514_26126.shtml",
+        "publisher": "Hangzhou2022 official organizer portal; credits 杭州日报",
+        "accessedAt": "2026-10-14",
+        "sourceDate": "URL2021-05-14; text contextual date2019 (Alibaba20th anniversary/three years until2022)",
+        "license": "unknown; reference only",
+        "use": "28large/27small petals and staggered translucent shell; reprint period mismatch retained"
+      }
+    ],
+    "scope": "Source-bound main-stadium shell candidate:28 broad exterior petals,27 interleaved narrow petals, open roof, three seating tiers and a representative field/track. Site terraces, interiors and small lotus excluded.",
+    "modeling": {
+      "blockers": []
+    }
+  },
+  "requiredShapes": [
+    "footprint",
+    "height",
+    "orientation",
+    "silhouette"
+  ],
+  "coordinatePolicy": {
+    "cityId": "hangzhou",
+    "sourceCRS": "EPSG:4326",
+    "originWGS84": [
+      120.155,
+      30.274
+    ],
+    "blenderAxes": [
+      "east",
+      "north",
+      "up"
+    ],
+    "horizontalScale": 0.6,
+    "verticalScale": 0.6,
+    "projection": "wgs84-local-equirectangular",
+    "eastMetresPerDegree": 96220.11856153939,
+    "northMetresPerDegree": 110857.07311230902,
+    "cityConfigSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6"
+  },
+  "budget": {
+    "status": "provisional",
+    "maxTriangles": 28000,
+    "maxMaterials": 10,
+    "maxBytes": 8388608,
+    "maxTextureEdge": 2048,
+    "reason": "Main integrator authorized a <30k candidate ceiling;55 independent curved petals and an open three-tier bowl are larger than a single tower. Provisional28000 limit fixed before CPU build; actual export/runtime still pending."
+  },
+  "ownership": {
+    "workerFiles": [
+      "scripts/landmarks/big_lotus.py"
+    ],
+    "workerDirectories": [
+      "docs/hangzhou/research/core/big-lotus-round2"
+    ],
+    "integrationOwner": "主集成人员",
+    "sharedFilesRequireIntegration": [
+      "src/city-world.ts",
+      "scripts/build_landmark_details.py",
+      "scripts/prepare_landmark_terrain.py",
+      "public/city/landmark-detail.glb",
+      "data/landmarks/priority-places.json",
+      "scripts/build_city_facades.py",
+      "scripts/finalize_city_assets.mjs",
+      "public/city/buildings.glb",
+      "public/city/facades.glb",
+      "public/city/building-exclusions.json"
+    ]
+  },
+  "files": {
+    "evidence": "evidence.json",
+    "model": "model.json",
+    "validation": "validation.json"
+  },
+  "history": [
+    {
+      "stage": "planned",
+      "at": "2026-10-14T02:30:17+00:00",
+      "reason": "task generated; inputs require review"
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T02:31:36+00:00",
+      "evidenceSha256": "6361620009d128ff1d73d7663f1ce106da7b7fe913422a84e1847e608b444455",
+      "modelSha256": null
+    },
+    {
+      "stage": "evidence-ready",
+      "at": "2026-10-14T02:47:19+00:00",
+      "evidenceSha256": "be0a70dc9d31b0cf3f2a0d67cdaee2b8412ec8f84ba45a4762fcb9d78b7a9786",
+      "modelSha256": null
+    },
+    {
+      "stage": "modelled",
+      "at": "2026-10-14T03:01:45+00:00",
+      "evidenceSha256": "be0a70dc9d31b0cf3f2a0d67cdaee2b8412ec8f84ba45a4762fcb9d78b7a9786",
+      "modelSha256": "eabf0d1a2b8da87cbbbd3488d9444ed9131bde4bb82da3d1c82f393287a9699e"
+    }
+  ]
+}

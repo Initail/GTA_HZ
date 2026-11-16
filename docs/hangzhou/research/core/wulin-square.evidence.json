@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "placeId": "wulin-square",
+  "name": "武林广场",
+  "type": "district",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "wulin-current"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "wulin-current",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2025-05/14/content_8994396.htm",
+      "publisher": "杭州市政协网站 / 都市快报，记者董吕平",
+      "title": "杭州武林广场“八少女”喷泉开始检修 5月22日恢复喷放",
+      "sourceDate": "2025-05-14",
+      "accessedAt": "2026-10-12",
+      "provenance": "government-hosted-original-field-report",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "2025现场报道并回顾2016雕像复建；历史白水泥与现不锈钢喷白漆不混淆。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "extent",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "layout",
+      "value": "中心八少女喷泉，少女3个中央+5个外围两组",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "wulin-current"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "开敞城市广场中的喷泉与白色雕像组合；周围浙江展览馆等需分别建模",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "wulin-current"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "sculpture_material",
+      "value": "2016复建雕像为不锈钢喷白色氟碳漆；旧1984白水泥不当作当前材质",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "wulin-current"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "fountain_dimensions",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "先以当前广场足印组织喷泉、雕像、植物与铺装，再拆浙江展览馆、杭州剧院等独立对象；不能复制历史时期广场道路或喷泉尺寸。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "未取得当前喷泉直径/梅花盆轮廓实测或施工图；36m网上常见尺寸未由本轮所选当前一手文档确认。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

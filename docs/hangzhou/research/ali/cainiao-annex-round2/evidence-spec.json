@@ -1,0 +1,861 @@
+{
+  "id": "cainiao-annex",
+  "cityId": "hangzhou",
+  "status": "evidence-spec-only;coverage-blocked",
+  "scope": "Localreferencebody list for6northproductiontowers+ancillaryreference,10eastplanbodies,andHQeastannex; notwholecampus modelcompletion",
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceRawAuditPath": "docs/hangzhou/research/ali/cainiao-annex-round2/raw-osm-audit.json",
+  "sourceRawAuditSha256": "106b478014b77e5684638cf96c82a302007bac53a2b0879df06cf0138320c6e4",
+  "coordinatePolicy": {
+    "sourceGeometry": "EPSG:4326fixedOSMparcels;individualplanXY CRSunknown",
+    "worldFootprintRegistration": "blocked,nonegenerated",
+    "physicalMetreScaleOnce": 0.6,
+    "lmY": "already-scaledgameunits",
+    "direction": "east/north/up→existingGLB/Babylon policy"
+  },
+  "mappedParcels": [
+    {
+      "sourceId": "way/1228913717",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟总部园区"
+      },
+      "bboxCenterWGS84": [
+        119.9606604,
+        30.26480725
+      ],
+      "boundsWGS84": [
+        119.9582487,
+        30.2635148,
+        119.9630721,
+        30.2660997
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 108199.67,
+      "minimumEnvelope": {
+        "lengthM": 466.74,
+        "widthM": 284.06,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 88.89
+      }
+    },
+    {
+      "sourceId": "way/1293416973",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟智谷产业园一期"
+      },
+      "bboxCenterWGS84": [
+        119.9609634,
+        30.26686935
+      ],
+      "boundsWGS84": [
+        119.9582362,
+        30.2662959,
+        119.9636906,
+        30.2674428
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 58333.24,
+      "minimumEnvelope": {
+        "lengthM": 523.13,
+        "widthM": 127.16,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 90.88
+      }
+    },
+    {
+      "sourceId": "way/1293548829",
+      "tags": {
+        "landuse": "industrial",
+        "name": "菜鸟智谷产业园二期"
+      },
+      "bboxCenterWGS84": [
+        119.9639703,
+        30.26539875
+      ],
+      "boundsWGS84": [
+        119.9622219,
+        30.2635361,
+        119.9657187,
+        30.2672614
+      ],
+      "basis": "measured-from-fixed-mapped-OSM, not field/cadastral survey",
+      "absoluteMappingErrorM": "unknown",
+      "mappedAreaM2": 60398.43,
+      "minimumEnvelope": {
+        "lengthM": 511.15,
+        "widthM": 142.24,
+        "longAxisBearingDegreesClockwiseFromNorthModulo180": 24.48
+      }
+    }
+  ],
+  "objects": [
+    {
+      "id": "N-SW",
+      "zone": "northmappedparcel/phase1reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293416973",
+      "role": "west-south-tower",
+      "reference": "phase1-usechange-repost-5",
+      "imageSizePixels": [
+        1080,
+        379
+      ],
+      "roughImageBodyBBoxPixels": [
+        82,
+        214,
+        156,
+        310
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 6,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Roundedcornersandattachedlowwing/platform shown; outline mustbe digitizedfromoriginalsheet",
+        "facade": "Dense horizontal pale bands, darkglass, roundedcorners, roofgarden/centralequipment evidentfromrealAedas overview",
+        "allSides": "unknown"
+      },
+      "sourceIds": [
+        "sinomach-phase1-2020",
+        "phase1-usechange-repost",
+        "phase1-usechange-repost-5",
+        "phase1-usechange-repost-6",
+        "phase1-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "identifiedreferencebody-location;worldfootprint/officialnumbercrosswalkblocked"
+    },
+    {
+      "id": "N-WN",
+      "zone": "northmappedparcel/phase1reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293416973",
+      "role": "west-north-tower",
+      "reference": "phase1-usechange-repost-5",
+      "imageSizePixels": [
+        1080,
+        379
+      ],
+      "roughImageBodyBBoxPixels": [
+        196,
+        135,
+        311,
+        216
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 6,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Roundedcornersandattachedlowwing/platform shown; outline mustbe digitizedfromoriginalsheet",
+        "facade": "Dense horizontal pale bands, darkglass, roundedcorners, roofgarden/centralequipment evidentfromrealAedas overview",
+        "allSides": "unknown"
+      },
+      "sourceIds": [
+        "sinomach-phase1-2020",
+        "phase1-usechange-repost",
+        "phase1-usechange-repost-5",
+        "phase1-usechange-repost-6",
+        "phase1-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "identifiedreferencebody-location;worldfootprint/officialnumbercrosswalkblocked"
+    },
+    {
+      "id": "N-CS",
+      "zone": "northmappedparcel/phase1reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293416973",
+      "role": "central-south-tower",
+      "reference": "phase1-usechange-repost-5",
+      "imageSizePixels": [
+        1080,
+        379
+      ],
+      "roughImageBodyBBoxPixels": [
+        363,
+        229,
+        475,
+        309
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 6,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Roundedcornersandattachedlowwing/platform shown; outline mustbe digitizedfromoriginalsheet",
+        "facade": "Dense horizontal pale bands, darkglass, roundedcorners, roofgarden/centralequipment evidentfromrealAedas overview",
+        "allSides": "unknown"
+      },
+      "sourceIds": [
+        "sinomach-phase1-2020",
+        "phase1-usechange-repost",
+        "phase1-usechange-repost-5",
+        "phase1-usechange-repost-6",
+        "phase1-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "identifiedreferencebody-location;worldfootprint/officialnumbercrosswalkblocked"
+    },
+    {
+      "id": "N-CN",
+      "zone": "northmappedparcel/phase1reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293416973",
+      "role": "central-north-tower",
+      "reference": "phase1-usechange-repost-5",
+      "imageSizePixels": [
+        1080,
+        379
+      ],
+      "roughImageBodyBBoxPixels": [
+        548,
+        134,
+        656,
+        216
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 6,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Roundedcornersandattachedlowwing/platform shown; outline mustbe digitizedfromoriginalsheet",
+        "facade": "Dense horizontal pale bands, darkglass, roundedcorners, roofgarden/centralequipment evidentfromrealAedas overview",
+        "allSides": "unknown"
+      },
+      "sourceIds": [
+        "sinomach-phase1-2020",
+        "phase1-usechange-repost",
+        "phase1-usechange-repost-5",
+        "phase1-usechange-repost-6",
+        "phase1-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "identifiedreferencebody-location;worldfootprint/officialnumbercrosswalkblocked"
+    },
+    {
+      "id": "N-ES",
+      "zone": "northmappedparcel/phase1reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293416973",
+      "role": "east-south-tower",
+      "reference": "phase1-usechange-repost-5",
+      "imageSizePixels": [
+        1080,
+        379
+      ],
+      "roughImageBodyBBoxPixels": [
+        731,
+        231,
+        827,
+        309
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 6,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Roundedcornersandattachedlowwing/platform shown; outline mustbe digitizedfromoriginalsheet",
+        "facade": "Dense horizontal pale bands, darkglass, roundedcorners, roofgarden/centralequipment evidentfromrealAedas overview",
+        "allSides": "unknown"
+      },
+      "sourceIds": [
+        "sinomach-phase1-2020",
+        "phase1-usechange-repost",
+        "phase1-usechange-repost-5",
+        "phase1-usechange-repost-6",
+        "phase1-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "identifiedreferencebody-location;worldfootprint/officialnumbercrosswalkblocked"
+    },
+    {
+      "id": "N-EN",
+      "zone": "northmappedparcel/phase1reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293416973",
+      "role": "east-north-tower",
+      "reference": "phase1-usechange-repost-5",
+      "imageSizePixels": [
+        1080,
+        379
+      ],
+      "roughImageBodyBBoxPixels": [
+        862,
+        150,
+        1008,
+        229
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 6,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Roundedcornersandattachedlowwing/platform shown; outline mustbe digitizedfromoriginalsheet",
+        "facade": "Dense horizontal pale bands, darkglass, roundedcorners, roofgarden/centralequipment evidentfromrealAedas overview",
+        "allSides": "unknown"
+      },
+      "sourceIds": [
+        "sinomach-phase1-2020",
+        "phase1-usechange-repost",
+        "phase1-usechange-repost-5",
+        "phase1-usechange-repost-6",
+        "phase1-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "identifiedreferencebody-location;worldfootprint/officialnumbercrosswalkblocked"
+    },
+    {
+      "id": "N-NW-low",
+      "zone": "northmappedparcel/phase1reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293416973",
+      "role": "northwest-low-ancillary",
+      "reference": "phase1-usechange-repost-5",
+      "imageSizePixels": [
+        1080,
+        379
+      ],
+      "roughImageBodyBBoxPixels": [
+        88,
+        132,
+        181,
+        202
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 6,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Roundedcornersandattachedlowwing/platform shown; outline mustbe digitizedfromoriginalsheet",
+        "facade": "Dense horizontal pale bands, darkglass, roundedcorners, roofgarden/centralequipment evidentfromrealAedas overview",
+        "allSides": "unknown"
+      },
+      "sourceIds": [
+        "sinomach-phase1-2020",
+        "phase1-usechange-repost",
+        "phase1-usechange-repost-5",
+        "phase1-usechange-repost-6",
+        "phase1-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "identifiedreferencebody-location;worldfootprint/officialnumbercrosswalkblocked"
+    },
+    {
+      "id": "E-NW-low",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "low",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        201,
+        150,
+        270,
+        196
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-NM1-low",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "low",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        291,
+        131,
+        375,
+        187
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-NM2-low",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "low",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        404,
+        128,
+        471,
+        191
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-WS-low",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "low",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        223,
+        219,
+        309,
+        289
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-SM1-low",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "low",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        348,
+        263,
+        428,
+        325
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-SM2-low",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "low",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        460,
+        283,
+        526,
+        338
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-CN-tower",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "tower",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        503,
+        146,
+        594,
+        227
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-CS-tower",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "tower",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        576,
+        243,
+        680,
+        327
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-EN-tower",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "tower",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        805,
+        139,
+        896,
+        234
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "E-ES-tower",
+      "zone": "eastmappedparcel/phase2reportedcontext",
+      "researchAliasOnly": true,
+      "physicalCurrentOfficialNumber": null,
+      "sourceParcelId": "way/1293548829",
+      "role": "tower",
+      "reference": "phase2-usechange-repost-6",
+      "imageSizePixels": [
+        1080,
+        449
+      ],
+      "roughImageBodyBBoxPixels": [
+        711,
+        247,
+        817,
+        329
+      ],
+      "imageBoundsBasis": "estimatedmanualreference-index,notfootprintpolygon",
+      "imageBoundsErrorPlusMinusPixels": 7,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "heightM": null,
+      "currentEntryWGS84": null,
+      "bodyFeatures": {
+        "plan": "Sixlower+fourlargerbodyreferences;not10identicaltowers; continuouswavepublicplatform andplazas shown",
+        "facade": "Roundedcorner horizontalskins androoftopgreen/mechanicalboxfamily visibleinAedas actualcampusphoto",
+        "heightHierarchy": "Sourceplan/sourceaerial showsmix oflowandhigherobjects; perbodyroof/levelsmustbe reviewed"
+      },
+      "sourceIds": [
+        "zjol-phase2-2019",
+        "phase2-usechange-repost",
+        "phase2-usechange-repost-6",
+        "phase2-usechange-repost-7",
+        "aedas-photo-Headquarters"
+      ],
+      "status": "historical10bodyplanreferences;asbuiltcrosswalk/worldfootprintsblocked"
+    },
+    {
+      "id": "HQ-east-annex",
+      "researchAliasOnly": true,
+      "zone": "HQparcel-easternside",
+      "sourceParcelId": "way/1228913717",
+      "physicalCurrentOfficialNumber": null,
+      "rawBuildingSourceId": null,
+      "footprintWGS84": null,
+      "currentEntryWGS84": null,
+      "role": "visitor/auditoriumcomplexrelationshipunresolved",
+      "bodyFeatures": {
+        "visible": "Lowrectangular/roundededge ancillarybodyeastofHQ; broadroofincludesgold-tonedsegmentandlightsegment,glassfacade andlinktoHQ",
+        "unknown": "Reportedauditorium4F doesnotprove allvisiblevisitorparts fourfloors/oneindependentbuilding"
+      },
+      "reportedProgram": {
+        "auditoriumCount": 1,
+        "auditoriumFloors": 4,
+        "basis": "reported",
+        "sourceIds": [
+          "cscec-cainiao"
+        ]
+      },
+      "heightEstimateForAuditoriumOnly": {
+        "valueM": 18,
+        "errorPlusMinusM": 4,
+        "basis": "estimated",
+        "method": "Reported4F ×3.5–4.5m typicalpublicbuildingpitch +0–2m roof parapet; broadtypologicalestimate, not photoheightsurvey. Other visitorparts maydiffer; no modelmade."
+      },
+      "sourceIds": [
+        "aedas-cainiao",
+        "cscec-cainiao",
+        "aedas-photo-Headquarters",
+        "aedas-gooood-photo-001"
+      ],
+      "status": "realannexvisible;footprint/visitor-auditoriumsubdivisionblocked"
+    }
+  ],
+  "buildingCountLedger": [
+    {
+      "sourceId": "sinomach-phase1-2020",
+      "basis": "reported",
+      "epoch": "2020planned",
+      "northPhase1PrimaryCount": 6,
+      "ancillaryCount": null
+    },
+    {
+      "sourceId": "phase1-usechange-repost",
+      "basis": "reported-fromnotice-republication",
+      "epoch": "2024",
+      "northPhase1BuildingsIncludingPodiumCount": 7,
+      "originalGovernmentDocumentVerified": false
+    },
+    {
+      "sourceId": "zjol-phase2-2019",
+      "basis": "reported",
+      "epoch": "2019planned",
+      "eastPhase2PrimaryCount": 10,
+      "asbuiltCountVerified": false
+    },
+    {
+      "sourceId": "cscec-cainiao",
+      "basis": "reported",
+      "epoch": "2023deliveredHQcontract",
+      "HQMainCount": 1,
+      "HQMainFloors": 5,
+      "auditoriumCount": 1,
+      "auditoriumFloors": 4
+    }
+  ],
+  "reportedReproducedDiagramMetrics": {
+    "northMaxBuildingHeightM": 59.95,
+    "northMaxFloorMetric": 13,
+    "basis": "reported-fromreproducedplanlabel,notfieldmeasured",
+    "perBuildingAssignment": "unknown",
+    "localXYDatum": "unknown",
+    "sourceId": "phase1-usechange-repost-8"
+  },
+  "facadeAndRoofScheme": {
+    "sourceBasedFeatures": [
+      "varyinglow/highroundedrectbodies",
+      "horizontalpale floorfins/darkglazing",
+      "greenroofs+centralequipment",
+      "wave/curvedupperpublicplatform withvoids/plazas",
+      "HQannexbroadgold/lightroofandglass"
+    ],
+    "perBodyFacadePhotoRegistration": "pending",
+    "night": "actualfixture/schedule/photometric proofpending",
+    "noSourcePhotoTextures": true
+  },
+  "baseBuildingIdsToExclude": [],
+  "moduleCreated": false,
+  "budgetProvisional": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  },
+  "blockers": [
+    {
+      "id": "rawcoverage",
+      "reason": "FullfixedPBF9building/partwayrecords areHQplusmetroonly;all9exactlyinextract. No annexe/towerpart hiddenbytagfilter. Cannot useparcelredline asindividualbuildingfootprint."
+    },
+    {
+      "id": "originalplans-and-coordinateframe",
+      "reason": "2024/2025reproducednoticeplans haveindividualoutlines/localXYgrid, but originalgovsheet/completeannotations/coordinateCRSnot recovered. X≈82300/Y≈60600 cannotbe blindlyconverted toWGS84."
+    },
+    {
+      "id": "asbuilt-body-crosswalk",
+      "reason": "Sixmain+aux vs7count andhistorical10plan figures use differentphysical/perioddefinitions;percurrentA/Bnumbers/floorplans/rooftops remainunregistered. Six/7/10 notautomaticallysameasphotoassetnodecount."
+    },
+    {
+      "id": "entrance-platform-andlevels",
+      "reason": "Localdrawinggatesandwaveplatforms visiblebutactualWGS84gatepoints,deckbase/roadcrossing clearance and currentpublicaccessunknown. No centerpointgoal or guessedbridge connections."
+    }
+  ]
+}

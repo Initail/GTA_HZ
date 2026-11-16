@@ -1,0 +1,485 @@
+{
+  "checkedAt": "2026-10-14",
+  "scope": "CPU/source finite exterior only; no GLB, scene, browser, full navigation or visual/performance acceptance",
+  "sourceModule": "scripts/landmarks/alibaba_b.py",
+  "sourceModuleSha256": "6c7295850eb698cf17683dda1ef311d1f2d1fd7932006ed15ec60e245641389d",
+  "specSha256": "13b5e859b1617d1c1ffeeaaf6eaef64253a0ee37c8aad029d30453bed4d28ebe",
+  "evidenceSha256": "eecda58d306fc810fcb7b587820a3b45b0d5967d9ea162bb353d2304c5a49a5a",
+  "checks": {
+    "exact23SourceAnd21ExclusionCorrespondence": true,
+    "centralRoofAndHistoricalBlockersRetained": true,
+    "finiteGeometryAndAllModeledCorners": true,
+    "noSceneImportOrExport": true,
+    "singleScaleGameHeightProjection": true,
+    "frameRestorationOnSuccessAndError": true,
+    "sourceConcaveRoofAreaAndCourtyardVoid": true,
+    "estimatedGroundInsetContained": true,
+    "elevatedJunctionGroundUnderpasses": true,
+    "gardenHexesAndTriangleVoidContained": true,
+    "coplanarInternalFacadeSuppression": true,
+    "individualEstimatedHeightsNo80mCopy": true,
+    "triangleMaterialBudget": true,
+    "allCollisionBoundaryRingsSimpleAndNondegenerate": true,
+    "reportedTwoInsetBowTiesReproducedAndCorrected": true,
+    "completeCollisionAreaPreservedNoDeletedSlivers": true,
+    "lowerBodyInsetAndCollisionShareSameValidBoundary": true,
+    "frozenCoordinatePolicyStillMatchesSharedProjection": true
+  },
+  "report": {
+    "id": "alibaba-b",
+    "scope": "Finite currentB mapped exterior:19 connected building-arm/junction/visitor sourceways +2 confirmed low green roof outlines; no fullPhaseIV or entireB completion claim",
+    "mainOfficeClusterCount": 2,
+    "visitorCount": 1,
+    "sourceBuildingAndJunctionParts": 19,
+    "modeledSourceObjectCount": 21,
+    "gardenRoofCount": 2,
+    "gardenCellCount": 11,
+    "physicalIndependentBuildingCount": "unknown; not23",
+    "triangleCountBeforeExport": 14862,
+    "generatedFaces": 7643,
+    "materials": [
+      "concrete",
+      "darkglass",
+      "gold",
+      "landmarkglass",
+      "leaf",
+      "roof",
+      "silver"
+    ],
+    "partTriangles": {
+      "southwest-visitor": 600,
+      "west-south-arm": 882,
+      "west-north-folded-arm": 2210,
+      "west-inner-folded-arm": 1466,
+      "west-junction-north": 190,
+      "west-junction-south": 166,
+      "west-southwest-link-arm": 698,
+      "west-southeast-link-arm": 718,
+      "west-short-connector": 138,
+      "west-central-junction": 238,
+      "east-north-folded-arm": 1512,
+      "east-west-arm": 1020,
+      "east-south-folded-arm": 1564,
+      "east-inner-short-arm": 852,
+      "east-north-junction": 381,
+      "east-middle-junction": 146,
+      "east-southeast-junction": 194,
+      "east-outer-short-arm": 486,
+      "visitor-to-west-junction": 146,
+      "west-stepped-green-roof": 670,
+      "east-stepped-green-roof": 585
+    },
+    "sourceFootprintIds": [
+      "way/1363020721",
+      "way/1363020722",
+      "way/1363020723",
+      "way/1363020724",
+      "way/1363020725",
+      "way/1363020726",
+      "way/1363020727",
+      "way/1363020728",
+      "way/1363020729",
+      "way/1363020730",
+      "way/1363020731",
+      "way/1363020732",
+      "way/1363020733",
+      "way/1363020734",
+      "way/1363020735",
+      "way/1363020736",
+      "way/1363020737",
+      "way/1363020738",
+      "way/1363020739",
+      "way/1363020740",
+      "way/1363020743"
+    ],
+    "newLights": 0,
+    "photoTextures": 0,
+    "geographyCityId": "hangzhou",
+    "projectionOriginWGS84": [
+      120.155,
+      30.274
+    ],
+    "pendingSubscopes": [
+      "中央roof0741/0742功能/形体/标高crosswalk blocker，未建模、未排除基础对象",
+      "历史四期期次/概念总图与现代B名称/编号关系blocker，有限范围仅当前B源足印",
+      "逐栋实测高度/楼层；Benoy室内页面134feet高度字段范围未明确，不统套任一楼群",
+      "所有地面玻璃体/架空支柱/入口/门洞的准确配准；真实内部与交互",
+      "屋顶花园/种植/设备精确分区、绿顶防水构造和三角天窗数量/高度；外侧全立面",
+      "多层基座与路面标高、屋顶/架空层实际可通行路径、地面与雨棚避让",
+      "真实B编号/Logo与夜景灯具配准；不创建虚构标牌、灯光",
+      "GLB导出/城市双排除/实际碰撞/可达到达点/昼夜实机三视角/FPS及内存"
+    ],
+    "excludedSubscopeBlockers": [
+      {
+        "sourceIds": [
+          "way/1363020741",
+          "way/1363020742"
+        ],
+        "blocker": "Exact central sports/canteen/roof functional crosswalk, as-built height and rooftop profile unconfirmed. Retain source building/roof tags and base objects; no guessed published model."
+      },
+      {
+        "subject": "historical PhaseIV masterplan versus modern B zone terminology",
+        "blocker": "Historical preliminary phases/areas and exact NBBJ office-building numbers are not resolved by current page/photos. This finite source-bound model covers only mapped B parcel shapes; no earlier conceptual footprint expansion."
+      }
+    ],
+    "estimatedGroundRecesses": [
+      {
+        "sourceId": "way/1363020722",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020723",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020724",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020727",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 1.5634226638573447,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020728",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020731",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020732",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020733",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020734",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.186123276343423,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      },
+      {
+        "sourceId": "way/1363020738",
+        "requestedInsetM": 2.4,
+        "effectiveInsetM": 2.4,
+        "basis": "estimated target bounded by source concave topology; not surveyed ground footprint"
+      }
+    ]
+  },
+  "collisionPolygonCount": 326,
+  "roofAreaChecks": [
+    {
+      "sourceId": "way/1363020721",
+      "mappedAreaM2": 5484.654318508201,
+      "candidateRoofFillAreaM2": 5484.654318508203
+    },
+    {
+      "sourceId": "way/1363020722",
+      "mappedAreaM2": 2244.2136763742806,
+      "candidateRoofFillAreaM2": 2244.2136763742806
+    },
+    {
+      "sourceId": "way/1363020723",
+      "mappedAreaM2": 6201.43824935231,
+      "candidateRoofFillAreaM2": 6201.438249352309
+    },
+    {
+      "sourceId": "way/1363020724",
+      "mappedAreaM2": 4422.216972177161,
+      "candidateRoofFillAreaM2": 4422.216972177159
+    },
+    {
+      "sourceId": "way/1363020725",
+      "mappedAreaM2": 641.5621251508007,
+      "candidateRoofFillAreaM2": 641.5621251508005
+    },
+    {
+      "sourceId": "way/1363020726",
+      "mappedAreaM2": 558.8148694860097,
+      "candidateRoofFillAreaM2": 558.8148694860101
+    },
+    {
+      "sourceId": "way/1363020727",
+      "mappedAreaM2": 1440.0263236752025,
+      "candidateRoofFillAreaM2": 1440.0263236752019
+    },
+    {
+      "sourceId": "way/1363020728",
+      "mappedAreaM2": 1793.0486020661783,
+      "candidateRoofFillAreaM2": 1793.0486020661783
+    },
+    {
+      "sourceId": "way/1363020729",
+      "mappedAreaM2": 351.9539036351996,
+      "candidateRoofFillAreaM2": 351.9539036351998
+    },
+    {
+      "sourceId": "way/1363020730",
+      "mappedAreaM2": 559.4596703306227,
+      "candidateRoofFillAreaM2": 559.4596703306227
+    },
+    {
+      "sourceId": "way/1363020731",
+      "mappedAreaM2": 4317.0831803575,
+      "candidateRoofFillAreaM2": 4317.0831803575065
+    },
+    {
+      "sourceId": "way/1363020732",
+      "mappedAreaM2": 2398.366679498816,
+      "candidateRoofFillAreaM2": 2398.3666794988158
+    },
+    {
+      "sourceId": "way/1363020733",
+      "mappedAreaM2": 4548.073831349752,
+      "candidateRoofFillAreaM2": 4548.073831349751
+    },
+    {
+      "sourceId": "way/1363020734",
+      "mappedAreaM2": 2086.4104818469395,
+      "candidateRoofFillAreaM2": 2086.4104818469386
+    },
+    {
+      "sourceId": "way/1363020735",
+      "mappedAreaM2": 943.1779358047143,
+      "candidateRoofFillAreaM2": 943.1779358047158
+    },
+    {
+      "sourceId": "way/1363020736",
+      "mappedAreaM2": 350.0332077691098,
+      "candidateRoofFillAreaM2": 350.0332077691099
+    },
+    {
+      "sourceId": "way/1363020737",
+      "mappedAreaM2": 633.0011538860017,
+      "candidateRoofFillAreaM2": 633.0011538860017
+    },
+    {
+      "sourceId": "way/1363020738",
+      "mappedAreaM2": 1073.3545339464326,
+      "candidateRoofFillAreaM2": 1073.3545339464345
+    },
+    {
+      "sourceId": "way/1363020739",
+      "mappedAreaM2": 247.83776647861805,
+      "candidateRoofFillAreaM2": 247.83776647861714
+    },
+    {
+      "sourceId": "way/1363020740",
+      "mappedAreaM2": 3554.8558295728494,
+      "candidateRoofFillAreaM2": 3554.85582957285
+    },
+    {
+      "sourceId": "way/1363020743",
+      "mappedAreaM2": 3004.9157984630556,
+      "candidateRoofFillAreaM2": 3004.915798463056
+    }
+  ],
+  "estimatedGroundInsetChecks": [
+    {
+      "sourceId": "way/1363020722",
+      "sourceAreaM2": 2244.2136763742806,
+      "estimatedGroundAreaM2": 1643.4550127744494,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    },
+    {
+      "sourceId": "way/1363020723",
+      "sourceAreaM2": 6201.43824935231,
+      "estimatedGroundAreaM2": 4633.43855659171,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    },
+    {
+      "sourceId": "way/1363020724",
+      "sourceAreaM2": 4422.216972177161,
+      "estimatedGroundAreaM2": 3326.409113969466,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    },
+    {
+      "sourceId": "way/1363020727",
+      "sourceAreaM2": 1440.0263236752025,
+      "estimatedGroundAreaM2": 1161.5764774727916,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 1.5634226638573447
+    },
+    {
+      "sourceId": "way/1363020728",
+      "sourceAreaM2": 1793.0486020661783,
+      "estimatedGroundAreaM2": 1303.4328963614328,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    },
+    {
+      "sourceId": "way/1363020731",
+      "sourceAreaM2": 4317.0831803575,
+      "estimatedGroundAreaM2": 3261.5921095870485,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    },
+    {
+      "sourceId": "way/1363020732",
+      "sourceAreaM2": 2398.366679498816,
+      "estimatedGroundAreaM2": 1766.5885126729638,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    },
+    {
+      "sourceId": "way/1363020733",
+      "sourceAreaM2": 4548.073831349752,
+      "estimatedGroundAreaM2": 3424.474820124844,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    },
+    {
+      "sourceId": "way/1363020734",
+      "sourceAreaM2": 2086.4104818469395,
+      "estimatedGroundAreaM2": 1566.5847590665464,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.186123276343423
+    },
+    {
+      "sourceId": "way/1363020738",
+      "sourceAreaM2": 1073.3545339464326,
+      "estimatedGroundAreaM2": 724.5275080807942,
+      "requestedInsetM": 2.4,
+      "effectiveInsetM": 2.4
+    }
+  ],
+  "sourceConfigComparison": {
+    "frozenWholeFileSha256": "7318cd8e3d486ce04855ef876692aab6fdf48b0ab12c9c1381aff291b69386a6",
+    "currentWholeFileSha256": "7d6d1551efd537cc0198454d5e5508b290695d1ca9725b1894e16056b06df8f9",
+    "geometryRelevantFieldsEqual": true,
+    "policy": "historical spec retained; all projection/scaling fields individually compared"
+  },
+  "sourceInsetRegressions": [
+    {
+      "sourceId": "way/1363020727",
+      "formerRequestedInsetM": 2.4,
+      "formerCrossingEdges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "effectiveEstimatedInsetM": 1.5634226638573447,
+      "correctedAreaM2": 1161.5764774727916,
+      "marginMethod": "feasible topology interval less4cm; no make_valid/delete-cells"
+    },
+    {
+      "sourceId": "way/1363020734",
+      "formerRequestedInsetM": 2.4,
+      "formerCrossingEdges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "effectiveEstimatedInsetM": 2.186123276343423,
+      "correctedAreaM2": 1566.5847590665464,
+      "marginMethod": "feasible topology interval less4cm; no make_valid/delete-cells"
+    }
+  ],
+  "minCollisionAreaGameM2": 0.23039999999673455,
+  "totalCollisionAreaGameM2": 12620.457256768634,
+  "sharedOccludedEdgeFragments": 48,
+  "probes": [
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020725",
+      "game": [
+        30.940023100133587,
+        -79.71918560248055
+      ]
+    },
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020726",
+      "game": [
+        32.6921914593098,
+        -99.66348162618927
+      ]
+    },
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020729",
+      "game": [
+        78.43331142112459,
+        -110.15277788401204
+      ]
+    },
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020730",
+      "game": [
+        131.0301148299588,
+        -99.2477676020043
+      ]
+    },
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020735",
+      "game": [
+        218.30945997493023,
+        -47.16046322936374
+      ]
+    },
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020736",
+      "game": [
+        223.22245922866665,
+        -71.59447071412825
+      ]
+    },
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020737",
+      "game": [
+        273.7293616629443,
+        -75.58199963390621
+      ]
+    },
+    {
+      "kind": "junction-underpass",
+      "sourceId": "way/1363020739",
+      "game": [
+        31.075693467455082,
+        -113.13261600923843
+      ]
+    },
+    {
+      "kind": "northwest-source-courtyard",
+      "game": [
+        28.243935378118763,
+        -47.36998309751327
+      ]
+    }
+  ],
+  "limitations": [
+    "ground plans/pilotis/doors are bounded estimates, not surveyed footprints",
+    "closed low green-roof rooms are exterior candidates; exact glazing/door access needs review",
+    "gold shared material approximates orange shades; final PBR colour/night unverified",
+    "central0741/0742 not replaced; complete B campus remains unfinished",
+    "CPU painter images are not actual GLB/game screenshots, no measured FPS/bytes/memory"
+  ]
+}

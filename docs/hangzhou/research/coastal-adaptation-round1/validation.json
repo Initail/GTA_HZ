@@ -1,0 +1,15 @@
+{
+  "createdDate": "2026-11-11",
+  "allInputHashesMatch": true,
+  "qiantangRoadsRawNodeMembershipVerified": 27,
+  "crosswaterRoadCount": 2406,
+  "bridgeFragmentCount": 2132,
+  "runtimeGuard2000Exceeded": true,
+  "contractIsRuntimeManifest": false,
+  "parkPositionsFrozen": false,
+  "shorePngBuilt": false,
+  "sharedAssetsWritten": false,
+  "BlenderRun": false,
+  "browserRun": false,
+  "status": "research/static-audit-only; no physical or visual acceptance"
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "placeId": "zhijiang-bridge",
+  "name": "之江大桥（钱江七桥）",
+  "type": "bridge",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "zhijiang-transport"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "zhijiang-transport",
+      "url": "https://tb.hangzhou.gov.cn/art/2017/9/8/art_1510413_19832695.html",
+      "publisher": "杭州市交通运输局",
+      "title": "2015版杭州市年鉴交通篇",
+      "sourceDate": "2017-09-08",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary-government-transport-yearbook",
+      "accessMethod": "search-index-page-text",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "线路4.7km含接线；塔90.5m主桥宽40.5m；2013通车，不声称本轮通行实测。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "tower": 90.5
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "zhijiang-transport"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "reported_dimensions",
+      "value": {
+        "mainBridgeWidth": 40.5,
+        "routeIncludingApproachesKm": 4.7
+      },
+      "unit": "mixed",
+      "basis": "reported",
+      "sourceIds": [
+        "zhijiang-transport"
+      ],
+      "uncertainty": "4.7km包含线路接线，非跨江主体长度。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "双索面拱形钢塔斜拉桥",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "zhijiang-transport"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "ramp_profile",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "按OSM桥段与引道分离后做拱形塔/双索面；桥塔不取西兴独塔模型。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "未取得主体跨径和桥面标高；资料为历史交通年鉴，不证明当前通行或收费。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

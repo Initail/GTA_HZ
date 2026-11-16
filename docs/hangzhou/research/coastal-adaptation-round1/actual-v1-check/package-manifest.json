@@ -1,0 +1,75 @@
+{
+  "kind": "independent-coastal-v1-cpu-check-evidence",
+  "files": [
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/README.md",
+      "sha256": "0ac9f80fb39fcee74f2e93c25720c1b387e2c303716c43b12f64b81909170157",
+      "bytes": 6337
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/check-run2.log",
+      "sha256": "5ce08a0982952fdf79c9c6531b954861277141d6a1eb624c01196f6a89ca8894",
+      "bytes": 81
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/check-run3.log",
+      "sha256": "5ce08a0982952fdf79c9c6531b954861277141d6a1eb624c01196f6a89ca8894",
+      "bytes": 81
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/check.log",
+      "sha256": "cc83d4fa9fa6b54bb82198be430b37a9888e347e54722e5274901bad57add7d5",
+      "bytes": 250
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/check.py",
+      "sha256": "687bc7650fbfc4812f8406017eecc7ccdc26c636894d19f53de8bee68e61e0ee",
+      "bytes": 18727
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/crossings.json",
+      "sha256": "049c426d9812b9be808ffdcb3c74cb1a062ab7669e3dc1d7ed31f7c733364dbc",
+      "bytes": 344
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/input-bindings.json",
+      "sha256": "b070a87ce51177a4df6a8a3c37fb9e14a4b582ef9c6b2a11838aa2a360161856",
+      "bytes": 4762
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/lights.json",
+      "sha256": "61e16496f130a2ec109cbf074d6d0f90076bf54124573a50e1f625e4e6b35529",
+      "bytes": 352446
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/png.json",
+      "sha256": "6a19f791661a3b1016921eee4a77c8c9e7bc347a665e48ec7328fa1302426dd9",
+      "bytes": 38399
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/producer-hash-checks.json",
+      "sha256": "517cd11a1644789c6ca7062c501281d5bd5fa80a859e5c181a337e26752d0c27",
+      "bytes": 4990
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/runtime-validator-check.mjs",
+      "sha256": "3357bf4ea473fdfdc95460904cb890751c4d3bd853a795927575f89614564e32",
+      "bytes": 2370
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/runtime-validator-result-v2.json",
+      "sha256": "d6f50501b9bb65a2a4a878ee23b7e788deb4a0c2613e4d6c03c54db22ec65e66",
+      "bytes": 2134
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/runtime-validator-result.json",
+      "sha256": "3caa39c3040357f630817f29b617fea90cb389fb1f5ab969fe373868e6a319b2",
+      "bytes": 1892
+    },
+    {
+      "path": "docs/hangzhou/research/coastal-adaptation-round1/actual-v1-check/validation.json",
+      "sha256": "72ed4587cf12712540126dcf83ae47e5131e5a4ea76fe841a4730d8fe462d773",
+      "bytes": 2153
+    }
+  ]
+}

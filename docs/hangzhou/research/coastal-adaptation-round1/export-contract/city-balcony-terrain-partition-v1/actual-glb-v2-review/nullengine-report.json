@@ -1,0 +1,338 @@
+{
+  "scope": "actual GLB imported with original root quaternion correction; NullEngine no materials/GPU/browser",
+  "assetSha256": "49fee2ba93052f67e732c647d2edacc72c45718901d9ff692f4669ca252782a1",
+  "triangles": 43622,
+  "unmatchedLocalDirectedFaces": 0,
+  "uvCornerMismatches": 0,
+  "beforeRoot": {
+    "rotation": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      -1
+    ]
+  },
+  "afterRoot": {
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "scale": [
+      1,
+      1,
+      -1
+    ]
+  },
+  "negativeControlDefaultRootMaxWorldErrorGame": 7749.012201204836,
+  "correctedRootMaxWorldErrorGame": 0,
+  "rows": [
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangles": 38582,
+      "maximumWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        3316.369873046875,
+        3.7674777507781982,
+        -1976.44189453125,
+        1
+      ]
+    },
+    {
+      "mesh": "terrain_balcony_local_park",
+      "triangles": 5040,
+      "maximumWorldErrorGame": 0,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        3316.369873046875,
+        3.7674777507781982,
+        -1976.44189453125,
+        1
+      ]
+    }
+  ],
+  "rays": [
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 0,
+      "hit": true,
+      "distance": 0.19999999999999307
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 1000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 2000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 3000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 5000,
+      "hit": true,
+      "distance": 0.1999999999999984
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 6000,
+      "hit": true,
+      "distance": 0.1999999999999993
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 7000,
+      "hit": true,
+      "distance": 0.19999999999999662
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 8000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 9000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 10000,
+      "hit": true,
+      "distance": 0.20000000000000107
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 11000,
+      "hit": true,
+      "distance": 0.20000000000000195
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 12000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 13000,
+      "hit": true,
+      "distance": 0.20000000000000107
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 14000,
+      "hit": true,
+      "distance": 0.1999999999999993
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 15000,
+      "hit": true,
+      "distance": 0.20000000000000195
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 16000,
+      "hit": true,
+      "distance": 0.20000000000000284
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 17000,
+      "hit": true,
+      "distance": 0.19999999999999485
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 18000,
+      "hit": true,
+      "distance": 0.20000000000000195
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 19000,
+      "hit": true,
+      "distance": 0.19999999999999485
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 20000,
+      "hit": true,
+      "distance": 0.20000000000000462
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 21000,
+      "hit": true,
+      "distance": 0.1999999999999993
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 22000,
+      "hit": true,
+      "distance": 0.20000000000000107
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 23000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 24000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 25000,
+      "hit": true,
+      "distance": 0.20000000000000107
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 26000,
+      "hit": true,
+      "distance": 0.20000000000000107
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 27000,
+      "hit": true,
+      "distance": 0.20000000000000107
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 28000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 29000,
+      "hit": true,
+      "distance": 0.1999999999999993
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 30000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 31000,
+      "hit": true,
+      "distance": 0.1999999999999984
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 32000,
+      "hit": true,
+      "distance": 0.1999999999999984
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 33000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 34000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 35000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_land",
+      "triangle": 36000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_park",
+      "triangle": 0,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_park",
+      "triangle": 1000,
+      "hit": true,
+      "distance": 0.20000000000000373
+    },
+    {
+      "mesh": "terrain_balcony_local_park",
+      "triangle": 2000,
+      "hit": true,
+      "distance": 0.1999999999999984
+    },
+    {
+      "mesh": "terrain_balcony_local_park",
+      "triangle": 3000,
+      "hit": true,
+      "distance": 0.20000000000000195
+    },
+    {
+      "mesh": "terrain_balcony_local_park",
+      "triangle": 4000,
+      "hit": true,
+      "distance": 0.20000000000000018
+    },
+    {
+      "mesh": "terrain_balcony_local_park",
+      "triangle": 5000,
+      "hit": true,
+      "distance": 0.19999999999999218
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,17 @@
+{
+  "reviewedAtUtc": "2026-10-16T03:48:54+00:00",
+  "scope": "finite CPU adapter only; complete road passage remains blocked",
+  "jobs": {
+    "qiantang-bridge-collision": {
+      "exitCode": 0,
+      "recordedStage": "evidence-ready",
+      "passed": true
+    },
+    "qiantang-bridge-passage": {
+      "exitCode": 2,
+      "recordedStage": "planned",
+      "passed": false
+    }
+  },
+  "runtimeAccepted": false
+}

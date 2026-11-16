@@ -1,0 +1,380 @@
+{
+  "oldShoreNeutralBalcony": [
+    {
+      "shore": "coastal_shore_0_-8_seawall",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    },
+    {
+      "shore": "coastal_shore_4_-7_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    },
+    {
+      "shore": "coastal_shore_5_-4_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 467,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 88,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 88,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 43,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 150,
+          "pairs": []
+        }
+      ],
+      "total": 836
+    },
+    {
+      "shore": "coastal_shore_5_-5_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    }
+  ],
+  "oldShoreFloorV2": [
+    {
+      "shore": "coastal_shore_0_-8_seawall",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    },
+    {
+      "shore": "coastal_shore_4_-7_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    },
+    {
+      "shore": "coastal_shore_5_-4_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 500,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 64,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 18,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 43,
+          "pairs": []
+        }
+      ],
+      "total": 625
+    },
+    {
+      "shore": "coastal_shore_5_-5_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    }
+  ],
+  "newShoreFloorV2": [
+    {
+      "shore": "coastal_shore_0_-8_seawall",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    },
+    {
+      "shore": "coastal_shore_4_-7_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    },
+    {
+      "shore": "coastal_shore_5_-4_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    },
+    {
+      "shore": "coastal_shore_5_-5_land",
+      "parts": [
+        {
+          "name": "detail_city-balcony_concrete",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_darkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_landmarkglass",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_roof",
+          "count": 0,
+          "pairs": []
+        },
+        {
+          "name": "detail_city-balcony_steel",
+          "count": 0,
+          "pairs": []
+        }
+      ],
+      "total": 0
+    }
+  ]
+}

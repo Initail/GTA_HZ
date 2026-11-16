@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "sourceModuleSha256": "faf3caf74bd5cc28dbcc632195fd052ab2f3029b62f7dec81a3960e7c8d4d368",
+  "sourceSpecSha256": "f3b5a535875fba14addf94cd2b285148fa48c98b4f537093d5f63f4299081a73",
+  "previewMethod": "Pillow painter of front-facing CPU triangle fans; no Blender/browser/render-engine invocation",
+  "previews": [
+    {
+      "path": "docs/hangzhou/research/core/big-lotus-round2/cpu-top.png",
+      "sha256": "c8aede21de852ea405244a472c1a052a881f8629ddd222297715fe77ad7df0c2",
+      "bytes": 116563,
+      "cameraAzimuthEastCCW": -90.0,
+      "cameraElevation": 89.95,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    },
+    {
+      "path": "docs/hangzhou/research/core/big-lotus-round2/cpu-street.png",
+      "sha256": "2378a89b6225ce6f235c9a845972fc86ff2c1edaa98de9e3021b5f89464cacc1",
+      "bytes": 105072,
+      "cameraAzimuthEastCCW": 0.0,
+      "cameraElevation": 4.0,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    },
+    {
+      "path": "docs/hangzhou/research/core/big-lotus-round2/cpu-distant.png",
+      "sha256": "694486640f4c128a6f0fedb79a12a7072181274d35a50212ed0b716ca2f28b70",
+      "bytes": 180941,
+      "cameraAzimuthEastCCW": -40.0,
+      "cameraElevation": 27.0,
+      "scope": "CPU orthographic draft; no renderer or material validation"
+    }
+  ],
+  "imagesAreGameScreenshots": false,
+  "visualAcceptance": "pending real GLB/day/night/context review"
+}

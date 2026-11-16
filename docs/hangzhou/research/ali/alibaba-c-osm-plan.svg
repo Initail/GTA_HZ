@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="850" viewBox="0 0 880 850">
+<rect width="880" height="850" fill="#f8fafc"/>
+<text x="35" y="36" font-family="Arial,sans-serif" font-size="25">阿里西溪 C 区 — OSM WGS84 足印研究</text>
+<path d="M 810.00,454.78 L 522.10,542.32 L 169.43,650.89 L 124.91,504.85 L 108.30,482.01 L 82.90,414.15 L 63.90,350.97 L 50.00,295.35 L 283.38,190.53 L 346.42,166.75 L 460.11,113.60 L 507.11,102.09 L 583.96,91.00 L 682.90,70.00 L 783.11,370.44 L 810.00,454.78 Z" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+<path d="M 466.98,401.10 L 472.64,419.20 L 629.34,370.72 L 636.75,394.45 L 479.59,443.07 L 485.68,462.59 L 496.78,459.15 L 557.70,440.32 L 682.44,401.75 L 663.27,340.40 L 466.98,401.10 Z" fill="#60a5fa" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<text x="574.71" y="401.49" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#0f172a">访客中心</text>
+<path d="M 649.97,319.67 L 687.21,442.27 L 753.33,422.40 L 716.11,299.79 L 649.97,319.67 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 283.64,563.87 L 508.02,496.29 L 569.74,477.70 L 753.33,422.40 L 756.45,434.37 L 288.45,579.37 L 283.64,563.87 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 496.78,459.15 L 508.02,496.29 L 569.74,477.70 L 557.70,440.32 L 496.78,459.15 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 150.08,259.39 L 202.39,242.42 L 208.90,262.28 L 156.58,279.24 L 150.08,259.39 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 66.34,300.46 L 118.65,283.49 L 125.16,303.36 L 72.84,320.31 L 66.34,300.46 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 206.96,317.84 L 240.39,307.05 L 237.84,299.23 L 255.05,293.68 L 257.35,300.73 L 272.51,295.85 L 275.60,305.36 L 209.81,326.58 L 206.96,317.84 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 370.77,266.00 L 385.84,261.28 L 382.81,251.66 L 403.85,245.09 L 406.59,253.79 L 430.20,246.40 L 437.36,269.05 L 447.34,265.93 L 452.49,282.22 L 442.71,285.28 L 470.52,373.24 L 479.44,370.45 L 484.83,387.47 L 474.51,390.70 L 479.12,405.27 L 487.57,402.64 L 499.25,439.64 L 492.32,441.81 L 482.19,409.72 L 473.71,412.37 L 425.10,258.27 L 373.42,274.40 L 370.77,266.00 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 167.59,543.23 L 191.15,619.09 L 291.23,588.30 L 288.45,579.37 L 283.64,563.87 L 267.65,512.43 L 167.59,543.23 Z M 193.63,564.22 L 199.27,581.98 L 270.81,559.50 L 265.17,541.72 L 193.63,564.22 Z" fill="#60a5fa" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<text x="229.41" y="565.76" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#0f172a">C6</text>
+<path d="M 136.38,435.85 L 159.94,511.70 L 260.03,480.92 L 236.44,405.05 L 136.38,435.85 Z M 162.42,456.83 L 168.06,474.60 L 239.59,452.12 L 233.96,434.35 L 162.42,456.83 Z" fill="#60a5fa" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<text x="198.20" y="458.38" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#0f172a">C5</text>
+<path d="M 104.37,337.72 L 126.35,407.85 L 226.34,376.83 L 210.62,326.67 L 207.71,317.40 L 204.37,306.71 L 104.37,337.72 Z M 128.90,352.83 L 134.54,370.58 L 206.07,348.11 L 200.43,330.33 L 128.90,352.83 Z" fill="#60a5fa" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<text x="165.36" y="357.28" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#0f172a">C4</text>
+<path d="M 253.98,236.97 L 272.48,295.89 L 275.43,305.27 L 375.40,274.18 L 353.94,205.88 L 253.98,236.97 Z M 276.04,251.37 L 281.68,269.14 L 353.21,246.66 L 347.57,228.89 L 276.04,251.37 Z" fill="#60a5fa" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<text x="314.69" y="255.58" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#0f172a">C3</text>
+<path d="M 409.71,188.48 L 432.40,260.56 L 532.37,229.42 L 509.66,157.33 L 409.71,188.48 Z M 426.42,206.14 L 432.05,223.89 L 503.59,201.42 L 497.94,183.66 L 426.42,206.14 Z" fill="#60a5fa" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<text x="471.04" y="208.95" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#0f172a">C2</text>
+<path d="M 441.18,290.18 L 464.76,366.03 L 564.83,335.25 L 541.25,259.39 L 441.18,290.18 Z M 458.65,311.84 L 464.29,329.61 L 535.82,307.14 L 530.18,289.36 L 458.65,311.84 Z" fill="#60a5fa" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<text x="503.01" y="312.71" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#0f172a">C1</text>
+<path d="M 331.74,383.59 L 327.88,386.89 L 314.09,403.99 L 305.63,419.79 L 304.18,424.96 L 303.63,427.83 L 303.42,431.04 L 303.87,433.86 L 305.24,437.14 L 307.35,439.63 L 309.79,441.79 L 312.62,442.98 L 315.78,443.61 L 319.80,443.17 L 323.59,442.06 L 327.38,440.31 L 330.61,438.56 L 334.16,436.01 L 337.25,433.12 L 337.64,430.14 L 336.60,427.68 L 334.39,426.52 L 331.53,426.38 L 328.92,426.12 L 325.80,424.45 L 324.24,421.08 L 325.67,409.42 L 329.34,401.20 L 334.65,392.46 L 342.19,382.23 L 348.57,376.67 L 357.29,371.88 L 363.37,370.46 L 369.74,370.07 L 375.21,373.31 L 376.38,381.46 L 367.66,407.75 L 366.49,415.12 L 367.53,422.50 L 373.26,424.96 L 376.12,424.84 L 379.37,422.50 L 395.25,404.89 L 400.71,395.70 L 405.00,384.45 L 395.90,384.57 L 394.18,383.36 L 394.08,381.46 L 399.54,361.39 L 398.50,356.68 L 395.45,354.22 L 392.29,354.03 L 384.21,354.62 L 370.40,359.62 L 357.88,364.81 L 341.94,374.85 L 331.74,383.59 Z" fill="#bac8d7" fill-rule="evenodd" stroke="#475569" stroke-width="0.7"/>
+<path d="M 45,770 h 100.85" stroke="#0f172a" stroke-width="4"/>
+<text x="45" y="793" font-family="Arial,sans-serif" font-size="16">100 m (unscaled)</text>
+<path d="M 825,130 V 70 l -8,12 m 8,-12 l 8,12" stroke="#0f172a" stroke-width="2" fill="none"/><text x="820" y="62" font-size="20">N</text>
+<text x="35" y="818" font-family="Arial,sans-serif" font-size="14">© OpenStreetMap contributors · ODbL · 2026-10-12 snapshot</text>
+<text x="35" y="841" font-family="Arial,sans-serif" font-size="12">Research only. No verified heights, entrance or legal parcel boundary. Roof ways are yellow.</text>
+</svg>

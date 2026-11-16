@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-14T05:38:57+00:00",
+  "views": [
+    {
+      "path": "cpu-top.png",
+      "sha256": "08456981cef6e88f7f8af3b7e87a9a593e58c68c05b24e0a9836f6c1dcc75af2",
+      "viewAzimuthEastCCW": -71.5,
+      "viewElevation": 88,
+      "reviewStatus": "actually viewed by landmark_evidence; draft-only; formal visual acceptance unknown",
+      "projection": "orthographic CPU painter; approximate alias colors, no Babylon lighting",
+      "heightBasis": "deliberately synthetic API fixture; not surveyed site profile",
+      "reviewedAt": "2026-10-14"
+    },
+    {
+      "path": "cpu-street.png",
+      "sha256": "64bebb0b94c4bda5e7bbea6f6a467763f75fa106fab8f1771871cad7887559f8",
+      "viewAzimuthEastCCW": -71.5,
+      "viewElevation": 23,
+      "reviewStatus": "actually viewed by landmark_evidence; draft-only; formal visual acceptance unknown",
+      "projection": "orthographic CPU painter; approximate alias colors, no Babylon lighting",
+      "heightBasis": "deliberately synthetic API fixture; not surveyed site profile",
+      "reviewedAt": "2026-10-14"
+    },
+    {
+      "path": "cpu-distant.png",
+      "sha256": "a593ce0f5b29473f64c67d0190f0231b945d1ccd42409a3bf7879593a8b8b8ac",
+      "viewAzimuthEastCCW": 35,
+      "viewElevation": 28,
+      "reviewStatus": "actually viewed by landmark_evidence; draft-only; formal visual acceptance unknown",
+      "projection": "orthographic CPU painter; approximate alias colors, no Babylon lighting",
+      "heightBasis": "deliberately synthetic API fixture; not surveyed site profile",
+      "reviewedAt": "2026-10-14"
+    },
+    {
+      "path": "cpu-grand-plaque-close.png",
+      "sha256": "dd5e261cfabbfc3b7c645a0d0df4486a6fa6cc237328a4a7205c2d15ddfe37bf",
+      "viewAzimuthEastCCW": -71.5,
+      "viewElevation": 4,
+      "reviewStatus": "actually viewed by landmark_evidence; draft-only; formal visual acceptance unknown",
+      "projection": "orthographic CPU painter; approximate alias colors, no Babylon lighting",
+      "heightBasis": "deliberately synthetic API fixture; not surveyed site profile",
+      "reviewedAt": "2026-10-14"
+    }
+  ],
+  "sourceModuleSha256": "163311ff73549392f5f8e773b85fd5d28c86bc66027544f05e15511f6157cd3c",
+  "sourceSpecSha256": "22c4106a01dcccc2702f53413ac5fb67635d257a5beb90220a3d00dc6cc517dc",
+  "limitations": [
+    "Not actual screenshots, photographic verification, GLB or material acceptance.",
+    "Synthetic heights demonstrate API, not the current terrain/floor.",
+    "Current global collision/path/day/night/performance are pending."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "placeId": "hangzhou-gate",
+  "name": "杭州之门（杭州世纪中心）",
+  "type": "building-group",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "som-gate"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "som-gate",
+      "url": "https://www.som.com/projects/greenland-hangzhou-century-center/",
+      "publisher": "SOM",
+      "title": "Greenland Hangzhou Century Center",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary",
+      "accessMethod": "search-index-text; direct fetch returned 403",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "项目页列 2023 竣工；竣工年份不是网页发布日期。总建筑面积口径与中文项目宣传的53万平方米不同，不由面积推导足印。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": 310,
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "som-gate"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "building_count",
+      "value": {
+        "towers": 2,
+        "storiesReported": 64
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "som-gate"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "H形双塔；连续曲面玻璃外皮、弧形连桥下腹形成月洞门意象",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "som-gate"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "night_lighting",
+      "value": "内侧幕墙6000余LED沿建筑线条延伸，可有动态彩色模式",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "som-gate"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "skybridge_elevation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "先冻两塔真实足印与对江朝向，再做曲面塔体、上下非水平的拱下连桥与裙房；近景用合并网格表现幕墙节奏。灯效应复用材质/灯光预算，不新增6000个真实点光源。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "总高310m应对应建筑高，未拆分屋顶与冠顶标高；连桥尺寸、端部退台与入口均未读图冻结。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

@@ -1,0 +1,257 @@
+{
+  "observations": [
+    {
+      "id": "qiantang-bridge",
+      "reported": {
+        "mainLengthM": 1072,
+        "trussCount": 16,
+        "pierCountInRiver": 15,
+        "pierPitchM": 67,
+        "calculationSpanM": 65.84,
+        "trussHeightM": 10.7,
+        "trussCenterWidthM": 6.1,
+        "roadTravelWidthM": 6.1,
+        "sidewalkEachM": 1.52,
+        "northHistoricApproachM": 288,
+        "southHistoricApproachM": 93,
+        "railGaugeM": 1.435
+      },
+      "estimated": {
+        "deckWaterRelativeM": {
+          "value": {
+            "upper": 19,
+            "lower": 8.3
+          },
+          "basis": "estimated",
+          "error": "±5m; water/tide epoch unknown",
+          "method": "2024 side photo lower chord-to-water pixel ratio≈0.7–0.9 of reported10.7m truss; upper=lower+10.7, envelope rounding",
+          "sourceIds": [
+            "qiantang-school",
+            "q2024"
+          ]
+        },
+        "mainPosition": {
+          "value": "1072m main centered on mapped bridge area long axis",
+          "basis": "estimated",
+          "error": "±45m longitudinal; ±5m plan",
+          "method": "source area centroid/axis + reported16×67; north/ south spans visually checked; no mapped pier survey",
+          "sourceIds": [
+            "osm-geofabrik",
+            "qside",
+            "qair"
+          ]
+        },
+        "members": {
+          "value": {
+            "diagonalRadiusM": 0.15,
+            "chordRadiusM": 0.24,
+            "verticalRadiusM": 0.14,
+            "railHeightM": 1.1,
+            "pierRadiusM": 2.7
+          },
+          "basis": "estimated",
+          "error": "members±35%; piers±1m",
+          "method": "original low-poly interpretation from truss and river-pier photos; not structural design",
+          "sourceIds": [
+            "q2024",
+            "qside"
+          ]
+        }
+      },
+      "pending": [
+        "current exact deck/water/ground datum and both road approach grades",
+        "three north/one south historic approach arches and Y-shaped north junction not modeled",
+        "rail profile/actor modes and catenary",
+        "current close deck railings/material weathering and night lighting"
+      ]
+    },
+    {
+      "id": "fuxing-bridge",
+      "reported": {
+        "mainLengthM": 1376,
+        "archSequenceCalculationM": [
+          85,
+          85,
+          190,
+          85,
+          85,
+          85,
+          85,
+          85,
+          190,
+          85,
+          85
+        ],
+        "largeArches": 2,
+        "smallArches": 9,
+        "smallDeckWidthM": 26.4,
+        "largeDeckWidthM": 32,
+        "upperMotorLanes": 6,
+        "lowerCurrentUse": "public transport + nonmotor + walking (2026 official); 2008 central metro reservation is historical, no track drawn"
+      },
+      "estimated": {
+        "deckWaterRelativeM": {
+          "value": {
+            "upper": 22,
+            "lower": 12
+          },
+          "basis": "estimated",
+          "error": "upper±6m, lower±4m, separation±2m",
+          "method": "figure8 and side photo show lower deck near arch springs and upper ≈10m above; pier-to-water ratio estimated, tide unknown",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1",
+            "fgovphoto"
+          ]
+        },
+        "archRiseM": {
+          "value": {
+            "large": 47.5,
+            "small": 12.15
+          },
+          "basis": "estimated",
+          "error": "large±4m, small±2m",
+          "method": "figure8 pixel rise/span proportions≈1/4 and1/7; author figure + side photo, values not source text measurements",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1"
+          ]
+        },
+        "archStations": {
+          "value": {
+            "endApproachEachM": 91.5,
+            "gapBetweenCalculationSpansM": 4.8
+          },
+          "basis": "estimated",
+          "error": "station±35m, gap±3m",
+          "method": "figure8 91.5m unarched end + 11 calculation spans1145m; distribute remaining48m over ten hinge gaps to close1376m; NOT as-built pier chain",
+          "sourceIds": [
+            "fuxing-paper",
+            "osm-geofabrik",
+            "fgovphoto"
+          ]
+        },
+        "members": {
+          "value": {
+            "largeRibCentersM": 29.4,
+            "smallRibCentersM": 10.4,
+            "largeRibSectionM": [
+              2.6,
+              4.5
+            ],
+            "smallTubeDiameterM": 1.7,
+            "hangerRadiusM": 0.07,
+            "railHeightM": 1.15
+          },
+          "basis": "estimated",
+          "error": "rib dimensions±20%, hanger radius±40%",
+          "method": "bounded original lattice from fig8 + two real directions; construction specification not obtained",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1",
+            "fgovphoto"
+          ]
+        }
+      },
+      "pending": [
+        "surveyed lower/top/river absolute heights; exact double-level approach/branch ramps and source actor permissions",
+        "current riverbank elevators, eight viewing platforms and stair/elevator access",
+        "hinge station chain/structural joint dimensions and close railings",
+        "source lower OSM primary tags do not establish general-car permission"
+      ]
+    },
+    {
+      "id": "zhijiang-bridge",
+      "reported": {
+        "mainSpanSequenceM": [
+          116,
+          246,
+          116
+        ],
+        "steelPylonHeightM": 90.5,
+        "ellipseMajorSemiAxisM": 73.95,
+        "ellipseMinorSemiAxisM": 22.2,
+        "steelBoxHeightM": 3.5,
+        "steelBoxTotalWidthIncludingNoseM": 41.36,
+        "roadMainWidthM": 40.5,
+        "pylonTransverseSectionM": 3.6,
+        "pylonLongitudinalSectionTopM": 4,
+        "pylonLongitudinalSectionBottomM": 6,
+        "maxLongitudinalGradient": 0.0298,
+        "minimumGradeLengthM": 350,
+        "sidewalkBarrierHeightM": [
+          1.1,
+          1.2
+        ],
+        "roadNetworkLengthWithConnectionsM": 4700,
+        "bridgeWithApproachAndViaductActualM": 3760
+      },
+      "estimated": {
+        "deckWaterRelativeM": {
+          "value": 18,
+          "basis": "estimated",
+          "error": "±5m, tide/datum unknown",
+          "method": "airphoto tower base/deck/water relationship + figure1; 73.95m curved tower portion above deck gives steel base≈deck-16.55; datum not surveyed",
+          "sourceIds": [
+            "zhijiang-paper",
+            "zair"
+          ]
+        },
+        "mainPosition": {
+          "value": "main center from midpoints of opposite-road source points3112466945/3112466938 and3112466946/3112466939",
+          "basis": "estimated",
+          "error": "±70m longitudinal, ±5m transverse",
+          "method": "fixed shape-break interval≈480m near reported478m + photo western-position constraint; those nodes NOT measured pylon feet",
+          "sourceIds": [
+            "osm-geofabrik",
+            "zair",
+            "binjiang-gazette"
+          ]
+        },
+        "cableLayout": {
+          "value": {
+            "stationsPerFan": 14,
+            "radiusM": 0.055,
+            "anchorsByTowerHeight": "0.35..0.92 of73.95m"
+          },
+          "basis": "estimated",
+          "error": "anchor stations±3m, radius±40%; cablecount not certified",
+          "method": "figure1 fan and real tower silhouette; 14 original representative cables each of4 longitudinal fans×2 planes, not as-built cable inventory",
+          "sourceIds": [
+            "zhijiang-paper",
+            "zair"
+          ]
+        }
+      },
+      "pending": [
+        "absolute tower footing/deck/water datum and90.5m steel-height versus diagram96.5m overall-height convention",
+        "actual towerWGS and cable anchors; complex highway/bankwalk elevator and ramps",
+        "root v5 sourcegraph extended to30.15 now connects west ends; geometry/driving still pending",
+        "complete viaduct/approach pier stations and collision permissions"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "qiantang",
+      "values": "officialheritageportal71m unqualified height versus10.7m engineeringtruss; widths6.1travel/9.14summedsidewalks versusotherunqualified10.10m",
+      "decision": "useexplicitcomponentdimensions only; no unqualified bridgeheight treated as deck/waterclearance"
+    },
+    {
+      "id": "fuxing-lower-use",
+      "sources": [
+        "fuxing-gov",
+        "xixing-closure"
+      ],
+      "values": "2026 localhistorybus/slow use versus2025 primarytransportannouncementlowerfloorcar detour",
+      "decision": "no carban invented, no perwaypermissionfrozen; source primary road geometry retained"
+    },
+    {
+      "id": "zhijiang",
+      "values": "90.5m steelheight /96.5m drawn overallextent; 40.5m roadmainwidth /41.36m steelboxincludingnose /38m environmentalroadbedwidth",
+      "decision": "distinctheight/widthconventions;90.5notdeckclearance;40.5road/41.36structshell;datum stillunknown"
+    }
+  ],
+  "sourceCoordinateWarning": "environment report p9 prints29°1N118°12E, inconsistent with bridge/localmap. Do NOT use that text orcommercialbackgroundmap ascoordinates; exact GeofabrikEPSG4326 only.",
+  "rawAreaCorrection": "way826790145 closedman_madebridge area; true railwayway154142001. Additionalrail804826075 is south smallrail approach outside finitevisual main, no new road."
+}

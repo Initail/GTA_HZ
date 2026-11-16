@@ -1,0 +1,44 @@
+[
+  {
+    "id": "commons-2023",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hangzhou_Citizen%27s_Centre_20231205163814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "temporaryPath": "<TEMP>/civic-center-research/commons-2023.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 2858193,
+    "sha256": "f5fcb94d58f5332a53ceb288f44138ed05fc887df5484e590210ca45c1d71d2b",
+    "captureDate": "2023-12-05 16:38:14",
+    "author": "XiaYZ2023",
+    "license": "CC BY-SA 4.0",
+    "description": "Seen from west to east",
+    "bundled": false
+  },
+  {
+    "id": "commons-map",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangzhou_Civic_Center_map.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "temporaryPath": "<TEMP>/civic-center-research/commons-map.jpg",
+    "httpStatus": "200",
+    "returncode": 0,
+    "bytes": 647203,
+    "sha256": "99e5f01c981bb592b03bf603bf97ad2597cad286a6af282d0dfd09a89071356b",
+    "captureDate": "2012-10-03 17:02:43",
+    "author": "Huandy618",
+    "license": "CC BY-SA 3.0",
+    "description": "Hangzhou citizen center map",
+    "bundled": false
+  },
+  {
+    "id": "commons-west-2009",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%E8%A5%BF%E5%A4%A7%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "temporaryPath": "<TEMP>/civic-center-research/commons-west-2009.jpg",
+    "httpStatus": "200",
+    "returncode": 28,
+    "bytes": 2216609,
+    "sha256": "3c418adb135c9439c301782e90783876af1208a50ac61ae7c3fde09745c5f474",
+    "captureDate": "2009-09-12",
+    "author": "孙学",
+    "license": "CC BY-SA 4.0",
+    "description": "​于2009.9.12拍摄杭州市市民中心西大门",
+    "bundled": false
+  }
+]

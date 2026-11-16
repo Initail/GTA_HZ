@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-14",
+  "status": "puremodule-fixed; actualreexport/GPUvalidationpending",
+  "failure": {
+    "rejectedCandidate": "artifacts/cities/hangzhou/vegetation-v1",
+    "oldModuleSha256": "4c09475070cf0157d27856a1aedaadcb7d8a3587f982d1f45f8c377bfc4e90a6",
+    "CPUginkgoTriangles": 1112,
+    "GLBactualIndexTriangles": 1052,
+    "GLBprimitiveTriangles": [
+      292,
+      550,
+      210
+    ],
+    "failedGlbSha256": "1ddab20b5d932a3a0a54d8e192252ee17f7b1a7d94306bd6d389d51697e3015c",
+    "cause": "12×5 reversed samevertex/material triangle copies in authored fan leaves; B.finish(smooth=True) remove_doubles merges their vertices and topology. Eachface individuallynonzero, so earlierCPUarea check missed reversedcoplanar duplication. ExactCPUdifference60 equalsactualGLBdifference60."
+  },
+  "fix": {
+    "method": "Retain12fanleaves as closedthin entities, separate upper/lower skins and7closedboundary sidequads; no double-sidedmaterial state or reversedcoincidentface trick",
+    "authoredThicknessM": 0.004,
+    "scaledThicknessGameUnits": 0.0024,
+    "basis": "estimatedartistchosen stablemesh thickness, not botanicalmeasurement",
+    "perLeafTriangles": 24,
+    "totalFanLeafTriangles": 288,
+    "newGinkgoFullTriangles": 1280,
+    "newGinkgoLODCounts": [
+      1280,
+      244,
+      120
+    ],
+    "total24SummerTriangles": 14520,
+    "budgetsChanged": false,
+    "sourceEvidenceOrSpecChanged": false,
+    "other23SummerTriangleCountsChanged": false,
+    "moduleSha256": "c500ed2da137eecacb04580e3dedfdd8da63121e6026a4918a722db9a7b1d340",
+    "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995"
+  },
+  "verification": {
+    "CPUchecks": 17,
+    "duplicateReverseFacesAll24SummerAnd24SeasonVariants": 0,
+    "allFaceVerticesSeparatedByMoreThanGameWeldDistance": 1e-05,
+    "fanTriAreaCheck": ">1e-10gameunitsquared",
+    "closedFanLeafEdgeUsage": 2,
+    "closedFanLeafEdgeOppositeWinding": true,
+    "eightViewLODthreshold": 0.72,
+    "newBlenderOrBrowserRunByThisAgent": false,
+    "realGLBfixedTriangleCount": null,
+    "actualWeldEquality": "pendingrootreexport",
+    "newCPUthreeSheetsActuallyViewed": true
+  },
+  "pending": [
+    "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+    "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+    "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+    "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+    "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+    "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+    "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+  ]
+}

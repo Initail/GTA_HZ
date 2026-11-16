@@ -1,0 +1,95 @@
+{
+  "id": "wulin-square",
+  "scope": "Source-bound finite square exterior candidate: fixed mapped southern plaza extent, five-petal raised basin and shallow moat, 3 central original dance figures +5 outer original musician figures, ring/axis paving and flower-pot samples. Surrounding buildings, full gardens/sunken courtyard and runtime acceptance pending.",
+  "centralDancerCount": 3,
+  "outerMusicianCount": 5,
+  "poolPetalCount": 5,
+  "flowerPotSamples": 20,
+  "outerMusicians": [
+    {
+      "instrument": "pipa",
+      "centerRealEN": [
+        -4.822221186885637,
+        22.48924608878508
+      ]
+    },
+    {
+      "instrument": "sheng",
+      "centerRealEN": [
+        6.590457008656204,
+        14.19745002128445
+      ]
+    },
+    {
+      "instrument": "guzheng",
+      "centerRealEN": [
+        2.23120184062404,
+        0.7810421562857108
+      ]
+    },
+    {
+      "instrument": "konghou",
+      "centerRealEN": [
+        -11.875644214395315,
+        0.7810421562857108
+      ]
+    },
+    {
+      "instrument": "flute",
+      "centerRealEN": [
+        -16.234899382427482,
+        14.197450021284448
+      ]
+    }
+  ],
+  "generatedFaces": 8455,
+  "triangleCountBeforeExport": 18798,
+  "materials": [
+    "bark",
+    "civicred",
+    "concrete",
+    "leaf",
+    "pavement",
+    "roadline",
+    "roof",
+    "steel",
+    "water"
+  ],
+  "newLights": 0,
+  "photosUsedAsTextures": false,
+  "geographyCityId": "hangzhou",
+  "projectionOriginWGS84": [
+    120.155,
+    30.274
+  ],
+  "sourceSpec": "docs/hangzhou/research/core/wulin-round2/spec.json",
+  "pending": "actual GLB, named visual review, terrain/arrival/collision, full gardens/forecourt/nearby buildings, jets/lighting and performance",
+  "checks": {
+    "finiteVertices": true,
+    "noDegenerateTriangleFans": true,
+    "threePlusFiveSculptureRoles": true,
+    "exactMappedPlazaProjection": true,
+    "concavePavingAreaAgreement": true,
+    "frameRestoredOnSuccessAndFailure": true,
+    "oneTimeScaleAndGameBasePreserved": true,
+    "sourceAnchoringWithShiftedLm": true,
+    "trianglesMaterialsWithinCpuBudget": true,
+    "noSceneImports": true,
+    "collisionEnvelopeLimitedToFountain": true
+  },
+  "sourceModuleSha256": "42a02bd770a6810c1079b5958f668d4accf80005ed7e9cf6b5da07327bffa801",
+  "specSha256": "79ddcbbaafc783f7e179a5cdc8a69e3a70bbf65d5d7be87bf1569abb31af2eff",
+  "boundsGameENU": {
+    "min": [
+      152.69555494963623,
+      -82.05862265920844,
+      2.53
+    ],
+    "max": [
+      259.6615363526404,
+      -2.061941559881774,
+      7.569999999999999
+    ]
+  },
+  "validationScope": "Pure FakeB B-face primitive record only; not actual Blender triangulation/GLB, sculpture fidelity, current visual, physics, shader, browser, night or FPS acceptance"
+}

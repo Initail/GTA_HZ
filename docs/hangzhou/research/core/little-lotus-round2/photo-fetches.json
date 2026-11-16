@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ag2021-0",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347075067954.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021-1",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347075294484.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021-3",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347075808624.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021-4",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347076049388.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021-6",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347076431605.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021-7",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347076699748.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021-10",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347077657697.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021-11",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/W020210306347077894729.jpg",
+    "error": "curl: (47) Maximum (50) redirects followed\n",
+    "status": "failed"
+  },
+  {
+    "id": "nbbj-tennis",
+    "url": "https://www.nbbj.cn/wp-content/uploads/2022/08/100526_00_Hangzhou_Tennis_Swimming_screenview-2000x1334.jpg",
+    "path": "<TEMP>/little-lotus-research/nbbj-tennis-100526_00_Hangzhou_Tennis_Swimming_screenview-2000x1334.jpg",
+    "bytes": 620879,
+    "sha256": "92c8b862e8b14638432d3d479d46e197f18624fc2b1c569a90ebe39a11de5182",
+    "status": "downloaded-unreviewed-reference-only"
+  },
+  {
+    "id": "operator",
+    "url": "https://www.hangzhouopen.com/-/media/sites/tournaments/hangzhou/general-media-images/hangzhou-2024-announcement.jpg",
+    "path": "<TEMP>/little-lotus-research/operator-hangzhou-2024-announcement.jpg",
+    "bytes": 148313,
+    "sha256": "2906db035321d8d47376a7dabe20efc54f71dc6f6dd9cdc13ab32896aced54cd",
+    "status": "downloaded-unreviewed-reference-only"
+  }
+]

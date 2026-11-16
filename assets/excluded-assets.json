@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "characters/kuki.glb",
+      "sha256": "370c548273a7ca7ea8bfb5fec17283421657b2b1bb1c9f4ab8ee83b8230b8963",
+      "reason": "Original redistribution restriction"
+    },
+    {
+      "path": "characters/yelan.glb",
+      "sha256": "2a6f58e382ca658890fd612db7c7c1e16f55dfceace76bc834f209e6195553ea",
+      "reason": "Original redistribution restriction"
+    },
+    {
+      "path": "cities/hangzhou/rider/rider.glb",
+      "sha256": "7e1f3d5b4f23e3b2f235e3a7807a383ba1105d5bed7c9ce4703320ba7208c72c",
+      "reason": "No documented public redistribution grant for supplied Tripo derivative"
+    },
+    {
+      "path": "cities/hangzhou/bamboo-cafe/characters/jk.glb",
+      "sha256": "e46b7f13f91529b153dd90eeffb84ae49fd35bdd81b66a3bc1c7f3564d77a959",
+      "reason": "No documented public redistribution grant for supplied Tripo derivative"
+    },
+    {
+      "path": "cities/hangzhou/bamboo-cafe/characters/maid.glb",
+      "sha256": "92bf7483ee3f61e6b6ae0fef79b0aadff33547dd871d0f0faad8d8b3c9a5fead",
+      "reason": "No documented public redistribution grant for supplied Tripo derivative"
+    },
+    {
+      "path": "cities/hangzhou/tank/tank.glb",
+      "sha256": "09e6672cb603e93957a6f0c5e4d0477c2226de39a44eb9dfce173211ea20747b",
+      "reason": "No documented public redistribution grant for supplied Tripo derivative"
+    }
+  ]
+}

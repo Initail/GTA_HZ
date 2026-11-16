@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "placeId": "leifeng-site",
+  "cityId": "hangzhou",
+  "scope": "finite mappedpark hill-ground estimate, source footways, static exterior escalator/flanking steps and narrow baseapron estimate; full plaza/gates/base-door/internal elevators/safe arrival unresolved",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "thupdi-design"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.14501471758403,
+      30.23388616474085
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik"
+    ]
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "use": "Mapped octagonal exterior base and south access line; height/alias tags not adopted"
+    },
+    {
+      "id": "wgly-leifeng",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html",
+      "publisher": "杭州市文化广电旅游局",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2022-12-01",
+      "status": "available-indexed",
+      "license": "unknown; reference only",
+      "use": "identity and approximate 71m height; erroneous five-faces/eight-storeys wording retained as conflict",
+      "accessMethod": "web search-index text; direct fetch 403"
+    },
+    {
+      "id": "tsinghua-leifeng",
+      "url": "https://www.thepaper.cn/newsDetail_forward_9592382",
+      "publisher": "人文清华讲坛，黄薏橦 / 澎湃号平台",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "2020-10-17",
+      "status": "available",
+      "license": "unknown; reference only; no photo textures bundled",
+      "use": "designer account: octagonal five-storey form, 9.7m heritage cover, 48m max column-grid span, copper over modern steel; 381/390 images actually reviewed"
+    },
+    {
+      "id": "thupdi-design",
+      "url": "https://www.thupdi.com/project/view?id=1782",
+      "publisher": "清华同衡 / 建筑与城市遗产研究所清华大学建筑设计研究院有限公司",
+      "accessedAt": "2026-10-14",
+      "sourceDate": null,
+      "status": "available",
+      "license": "unknown; reference only; no photo textures bundled",
+      "use": "designer project identity, south-front real exterior and lake-side real exterior, section drawing; source images in 2013/07 path, capture date not known",
+      "accessMethod": "direct public HTML and linked image reads; web page tool timed out"
+    },
+    {
+      "id": "glo30-v3",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N30_00_E120_00_DEM/Copernicus_DSM_COG_10_N30_00_E120_00_DEM.tif",
+      "publisher": "Copernicus programme / DLR / Airbus / European Union / ESA; existing root terrain-v3 prepared source",
+      "accessedAt": "2026-10-14",
+      "sourceDate": "AWS Copernicus DEM2021 release, DSM acquired2010–2014/2014–2018, not2026site survey",
+      "status": "available; verified localpreparedgrid hashes/read",
+      "licenseUrl": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+      "localPath": "data/raw/hangzhou/dsm/Copernicus_DSM_COG_10_N30_00_E120_00_DEM.tif",
+      "sha256": "929b54f8bb3a51910e4a6b4ac9f052a607245fd0e43a0846b5501663d18af010",
+      "use": "only filtered ground estimate ±12m; 30mnative/50mreal preparedsamples, no new measured resolution",
+      "derivativeNotice": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved"
+    }
+  ],
+  "referenceImages": [
+    {
+      "id": "thupdi-south-front",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-433c3093-3e40-467a-b56a-c146ed350aee.jpg",
+      "sha256": "dbe56617ff2595da3539498b8b0ec1269ea9be79226940ccdd5c0ded3ce1f558",
+      "downloadBytes": 743493,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "south approach looking north, estimated",
+        "bearingTowardDegrees": 3,
+        "allowanceDegrees": 15
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "observed": {
+        "approach": "southfront axis two narrow outdoor escalatorbelts flanked by stone stairs, whitebalustrade/darkbasement opening; lower stairs partiallyoccluded byfrontroof/trees",
+        "limits": "exactgatewidth, towerdoorWGS/threshold/worldheight, contemporary2026condition unknown"
+      }
+    },
+    {
+      "id": "thupdi-lake-day",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-1a0c8347-9121-473f-ac1c-d657ec4624d3.jpg",
+      "sha256": "c9f4d9f265d6ddc5c5b13d84d5d62e222974f70c61575f2d259e9891bbd4060c",
+      "downloadBytes": 332705,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "real-exterior-photo",
+      "viewDirection": {
+        "description": "lake north/northeast sector looking southwest to south, estimated",
+        "bearingTowardDegrees": 210,
+        "allowanceDegrees": 35
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "observed": {
+        "hill": "forested hill belowtower andreal WestLakeshore inforeground",
+        "limits": "trees obscureterrain/plaza, capturedateunknown, no 3Dground survey or shorewall inferred"
+      }
+    },
+    {
+      "id": "thupdi-section",
+      "sourceId": "thupdi-design",
+      "url": "https://img.thupdi.com/project/2013/07/1782-ff648dd2-a130-499a-9eac-2c5139ac1019.jpg",
+      "sha256": "06b99ff5498c6075dfd1df1e60c5e9e6bb3db15b534484957df1a413e9298519",
+      "downloadBytes": 149033,
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual local view_image of original downloaded reference bytes",
+      "captureDate": null,
+      "kind": "design-drawing",
+      "viewDirection": {
+        "description": "section drawing, direction unlabelled",
+        "bearingTowardDegrees": null,
+        "allowanceDegrees": null
+      },
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache; not a release texture",
+      "reviewPath": "docs/hangzhou/research/core/leifeng-round2/photo-review.md",
+      "reviewedBy": "Codex child leifeng_candidate",
+      "observed": {
+        "section": "protectivebasement level relationships/terraces inarchitecturalrelative datum",
+        "limits": "architectural0 andnegativebasementlevels notEGM2008 andnotGLOdatum; do notfreezeexactexternalthreshold"
+      }
+    }
+  ],
+  "photosBundled": false,
+  "observations": [
+    {
+      "kind": "extent",
+      "value": {
+        "parkId": "way/975360504",
+        "mapAreaM2": 229410.8635976866,
+        "dryMaskAreaM2": 213140.43266863388,
+        "waterIds": [
+          "way/62124950",
+          "relation/2308774"
+        ],
+        "sourcePaths": [
+          "way/975357010",
+          "way/340652169",
+          "way/1448129176",
+          "way/1448327494",
+          "way/1448327495",
+          "way/62124942"
+        ]
+      },
+      "unit": "physical metres/m²",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik"
+      ],
+      "uncertainty": "measured map-derivedplan/clip only, OSMapprox±5m; park polygon is not a surveyed hillfootboundary or fullplaza.2mshorepadding is conservative gameproposal, not measured shorewall"
+    },
+    {
+      "kind": "elevation_profile",
+      "value": {
+        "towerEstimatedGroundEgm2008M": 32.92470741027066,
+        "peakEstimatedGroundEgm2008M": 34.20358578213214,
+        "sourceTerrainTriangles": 837,
+        "mainLiftEndpointGroundEstimatesM": [
+          29.933955421006218,
+          24.62831420359018
+        ]
+      },
+      "unit": "physical metres aboveEGM2008",
+      "basis": "estimated",
+      "sourceIds": [
+        "glo30-v3"
+      ],
+      "uncertainty": "GLO30source30m, prepared50mreal; 3×3 morphologicalmin/max/mean still broadcanopy/roof/steepslopebias.±12m heuristic envelope, not statistical survey confidence; stairs/plaza/movingstairsfinishedlevels unknown"
+    },
+    {
+      "kind": "silhouette",
+      "value": "originalclip-triangulated lowhill ground estimate in mappedpark/nearshore, mapped6paths, twoSTATICmid-axisbelts plusflankingstairs andestimatednarrowbaseapron; noipsoid/no lakeplane",
+      "basis": "estimated",
+      "sourceIds": [
+        "osm-geofabrik",
+        "glo30-v3",
+        "thupdi-design"
+      ],
+      "uncertainty": "designersouthfront/lakephotos capturedateunknown andpartlyoccluded.12±3m approachwidth/3±2m apron/1.1±.3m representativeguardrails estimated; staticcounts andverticalgeometry not precise finishedsite or electromechanicalsimulation"
+    }
+  ],
+  "estimatedParameters": {
+    "apronBufferM": {
+      "value": 3,
+      "errorM": 2,
+      "method": "narrow ground-apron interpretation around mappedbasement from designersection, exact semantic/widthunknown"
+    },
+    "siteHeights": {
+      "errorM": 12,
+      "method": "GLO30 30m native, prepared grid50m real,3×3min/max/mean covers150m real neighborhood; broadcanopy/slopespike bias remains"
+    },
+    "railHeightM": {
+      "value": 1.1,
+      "errorM": 0.3,
+      "method": "representative static exterior guardrails readfrontphoto; not measured"
+    }
+  },
+  "blockers": [],
+  "pendingSubscopes": [
+    {
+      "scope": "fullplaza/entrance/doors/elevators/actualsafearrival",
+      "job": "docs/hangzhou/research/core/leifeng-site-round2/task-bundles/leifeng-site-entry/job.json",
+      "status": "blocked",
+      "blockers": [
+        "source mainlift uppernode-to-towerfootprint gap has no source connection or surveyed gate/door",
+        "frozen originalbase walls/ground collision envelope do not expose entrance; externalsite cannot make throughwall traversal valid",
+        "actualground/plaza/stair/escalatorfinishedlevels and water/shore collision datum not surveyed; DSM estimated ±12m",
+        "no currentoperatorentrance map/current all-direction closephotos obtained; whole plaza/internal elevator/access not complete"
+      ]
+    }
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/leifeng-site-round2/spec.json": "35ddbb65696edc2d3f8067ab47daeb901cd3654c675df695d0dcb1e8dc21d11e",
+    "docs/hangzhou/research/core/leifeng-site-round2/measurements.json": "fcbc8003f5adf600aa260a15d1fbf7136975f4bce325992ba4115ad51698f3fe",
+    "docs/hangzhou/research/core/leifeng-site-round2/fixed-site-features.geojson": "09feb207f113b408d5d5d687b4ae53cb376c809b61b3091afa9e4a3c6b094dfb",
+    "docs/hangzhou/research/core/leifeng-site-round2/photo-review.json": "4e479edf63578274e6972edfd3e69945c219c1b599ab7e3f9a21601a26f0211a",
+    "docs/hangzhou/research/core/leifeng-site-round2/operator-fetches.json": "730cc13e862aa29a65735f7d2f640da00a3677713b5a24c2fca9900bef318caf",
+    "docs/hangzhou/research/core/leifeng-site-round2/bridge-profile-recheck.json": "6b5dfc6ce7906e25d96f17cacc35f0d1b26b2c790adcdef73e240086e32ea4fa",
+    "artifacts/cities/hangzhou/terrain-glo30-v3/manifest.json": "c9ebfdf6351e5ba1317d8dff78f5779f011b99bb0c149898e2dcd4d9d743d3c2",
+    "artifacts/cities/hangzhou/terrain-glo30-v3/ground-estimate-egm2008-metres.bin": "97b162c7070318285f02fa197c8195fa5eebdaf31e32dd43823bae89813b1556",
+    "docs/hangzhou/research/core/leifeng-round2/spec.json": "af6d269fa06ab0f6ab4603d207fc438ad0b8d7c83e9edbd6f41a3129532d1961",
+    "scripts/landmarks/leifeng_pagoda.py": "8539f93ea9487cbac2b97d80a8cc27de2b4d1ca3310fe6e2c5dfba2de79d01b7"
+  },
+  "modelled": false,
+  "verified": false
+}

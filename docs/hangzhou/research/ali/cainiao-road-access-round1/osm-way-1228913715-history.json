@@ -1,0 +1,48 @@
+{
+  "sourceFile": "references/osm-way-1228913715-history.xml",
+  "sourceSha256": "ae2efb580e5f1aeb801d02263a0324e32c67780b29f2e8916810f154cbcc4f93",
+  "versions": [
+    {
+      "version": 1,
+      "timestamp": "2023-12-05T18:56:20Z",
+      "changeset": "144803658",
+      "tags": {
+        "access": "no",
+        "highway": "construction",
+        "name": "云联路"
+      },
+      "nodeIds": [
+        1185806164,
+        7276172378
+      ]
+    },
+    {
+      "version": 2,
+      "timestamp": "2024-06-18T12:48:38Z",
+      "changeset": "152847249",
+      "tags": {
+        "access": "no",
+        "highway": "construction",
+        "name": "云联路"
+      },
+      "nodeIds": [
+        1185806164,
+        11990082578
+      ]
+    },
+    {
+      "version": 3,
+      "timestamp": "2026-07-13T11:46:38Z",
+      "changeset": "185648586",
+      "tags": {
+        "access": "no",
+        "highway": "construction",
+        "name": "云联路"
+      },
+      "nodeIds": [
+        1185806164,
+        7276172378
+      ]
+    }
+  ]
+}

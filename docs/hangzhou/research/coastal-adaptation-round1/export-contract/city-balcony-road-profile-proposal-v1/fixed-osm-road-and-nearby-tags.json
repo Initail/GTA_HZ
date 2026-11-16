@@ -1,0 +1,320 @@
+{
+  "sourcePbf": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+  "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "ways": [
+    {
+      "id": 51718751,
+      "version": 24,
+      "timestamp": "2026-01-09 05:53:08+00:00",
+      "nodeIds": [
+        3386084106,
+        3386084105,
+        5569102456,
+        5569102448,
+        5569102447,
+        5344246117,
+        9083466329,
+        5569102437,
+        9442277413,
+        4396220148,
+        9204571726
+      ],
+      "tags": {
+        "highway": "primary",
+        "name": "解放东路",
+        "name:en": "Jiefang Road (E)",
+        "name:zh-Hans": "解放东路",
+        "oneway": "yes"
+      }
+    },
+    {
+      "id": 157967583,
+      "version": 3,
+      "timestamp": "2024-04-19 11:46:06+00:00",
+      "nodeIds": [
+        361013734,
+        361013736
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh": "之江路",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "id": 157967584,
+      "version": 5,
+      "timestamp": "2024-04-19 11:46:06+00:00",
+      "nodeIds": [
+        361013736,
+        361013740,
+        3439149591,
+        1701988336,
+        5741665148
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh": "之江路",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes"
+      }
+    },
+    {
+      "id": 157967585,
+      "version": 5,
+      "timestamp": "2024-04-19 11:46:06+00:00",
+      "nodeIds": [
+        136998205,
+        136998158
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh": "之江路",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "id": 157967586,
+      "version": 40,
+      "timestamp": "2024-04-19 11:46:06+00:00",
+      "nodeIds": [
+        136998158,
+        136998122,
+        3386084105,
+        136998016,
+        5372764514
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes"
+      }
+    },
+    {
+      "id": 336828925,
+      "version": 2,
+      "timestamp": "2023-05-29 01:19:56+00:00",
+      "nodeIds": [
+        3439149586,
+        3439149587,
+        3439149588,
+        10935463454,
+        3439149589,
+        3439149590
+      ],
+      "tags": {
+        "highway": "service"
+      }
+    },
+    {
+      "id": 557050553,
+      "version": 3,
+      "timestamp": "2024-04-19 11:46:24+00:00",
+      "nodeIds": [
+        361013728,
+        5665311167,
+        5372764513
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "id": 557050557,
+      "version": 2,
+      "timestamp": "2024-04-19 11:46:24+00:00",
+      "nodeIds": [
+        5372764513,
+        361013730,
+        3439149586,
+        3386084106,
+        361013732,
+        361013734
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes"
+      }
+    },
+    {
+      "id": 557050559,
+      "version": 2,
+      "timestamp": "2024-04-19 11:46:24+00:00",
+      "nodeIds": [
+        5372764514,
+        136997967
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "id": 582257212,
+      "version": 1,
+      "timestamp": "2018-04-21 13:34:11+00:00",
+      "nodeIds": [
+        5569102446,
+        5569102447
+      ],
+      "tags": {
+        "highway": "service"
+      }
+    },
+    {
+      "id": 582257213,
+      "version": 1,
+      "timestamp": "2018-04-21 13:34:11+00:00",
+      "nodeIds": [
+        5569102448,
+        5569102445,
+        5569102504,
+        5569102449,
+        5569102450
+      ],
+      "tags": {
+        "highway": "service"
+      }
+    },
+    {
+      "id": 582257214,
+      "version": 1,
+      "timestamp": "2018-04-21 13:34:11+00:00",
+      "nodeIds": [
+        5569102451,
+        5569102452,
+        5569102453,
+        5569102454,
+        5569102475,
+        5569102455,
+        5569102461,
+        5569102456
+      ],
+      "tags": {
+        "highway": "service"
+      }
+    },
+    {
+      "id": 582257215,
+      "version": 1,
+      "timestamp": "2018-04-21 13:34:11+00:00",
+      "nodeIds": [
+        5569102457,
+        5569102458,
+        5569102465,
+        5569102503,
+        5569102459,
+        5569102502,
+        5569102460,
+        5569102501,
+        5569102461
+      ],
+      "tags": {
+        "highway": "service"
+      }
+    },
+    {
+      "id": 582257216,
+      "version": 1,
+      "timestamp": "2018-04-21 13:34:11+00:00",
+      "nodeIds": [
+        5569102475,
+        5569102476,
+        5569102477,
+        5569102478,
+        5569102479,
+        5569102480,
+        5569102481
+      ],
+      "tags": {
+        "highway": "service"
+      }
+    },
+    {
+      "id": 595993911,
+      "version": 3,
+      "timestamp": "2026-01-09 05:53:08+00:00",
+      "nodeIds": [
+        1949342951,
+        26685006,
+        136998016,
+        361013730
+      ],
+      "tags": {
+        "cycleway": "lane",
+        "highway": "primary",
+        "name": "解放东路",
+        "name:en": "Jiefang Road (E)",
+        "name:zh-Hans": "解放东路",
+        "name:zh-Latn-pinyin": "Jiěfàng Dōng Lù",
+        "oneway": "yes"
+      }
+    },
+    {
+      "id": 605330157,
+      "version": 4,
+      "timestamp": "2024-04-19 11:46:29+00:00",
+      "nodeIds": [
+        5741665147,
+        1701988337,
+        136998353,
+        9544816928,
+        136998205
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "之江路",
+        "name:en": "Zhijiang Road",
+        "name:zh": "之江路",
+        "name:zh-Latn-pinyin": "Zhījiāng Lù",
+        "oneway": "yes"
+      }
+    }
+  ],
+  "taggedNodesWithin50GameOfService": [],
+  "scope": "No current OSM refresh. Absence of source entrance tags is not proof that no entrance exists."
+}

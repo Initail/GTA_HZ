@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "placeId": "civic-center",
+  "name": "杭州市民中心",
+  "type": "building-group",
+  "recordedStage": "planned",
+  "scope": "独立公开证据调查；主集成需补足坐标/模型/验收",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "civic-paper",
+      "civic-cvu6"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": null,
+    "status": "unknown",
+    "sourceIds": []
+  },
+  "sources": [
+    {
+      "id": "civic-paper",
+      "url": "https://global.ctbuh.org/resources/papers/download/1908-urban-mega-structure-vertical-landscape-of-hangzhou-civic-center.pdf",
+      "publisher": "Linxue Li / CTBUH 2014 Shanghai Conference",
+      "title": "Urban Mega-structure: Vertical Landscape of Hangzhou Civic Center",
+      "sourceDate": "2014",
+      "accessedAt": "2026-10-12",
+      "provenance": "primary-designer-conference-paper",
+      "accessMethod": "search-index-extract; direct relocated PDF fetch failed",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "旧地址https://global.ctbuh.org/resources/papers/1908-Li_2014_UrbanMegaStructure.pdf返回404。论文p224英文字段连桥85m、中文90m；100m为概括，不等同于精确建筑高。"
+    },
+    {
+      "id": "civic-cvu6",
+      "url": "https://www.skyscrapercenter.com/building/hangzhou-civic-center-6/15397",
+      "publisher": "Council on Vertical Urbanism / Skyscraper Center",
+      "title": "Hangzhou Civic Center 6",
+      "sourceDate": null,
+      "accessedAt": "2026-10-12",
+      "provenance": "primary-building-council-database",
+      "accessMethod": "web-page-text-read",
+      "license": {
+        "status": "unknown",
+        "notes": "未核验发布贴图/照片再分发许可；仅作资料与形体参考。"
+      },
+      "use": "reference-only; no photo texture generated or bundled",
+      "localPath": null,
+      "sha256": null,
+      "notes": "建筑高109.6m、使用楼层高99.4m、26层，只直接支持本记录tower6，不把tower6映射A-F标签或其他五塔高度当已核验。"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "height",
+      "value": {
+        "designerNominalTower": 100,
+        "cvuTower6Architectural": 109.6,
+        "cvuTower6Occupied": 99.4
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "civic-paper",
+        "civic-cvu6"
+      ],
+      "uncertainty": "100m为论文概括；CVU支持tower6记录，不自动推断其他5塔为同值。"
+    },
+    {
+      "kind": "orientation",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    },
+    {
+      "kind": "building_count",
+      "value": {
+        "highRises": 6,
+        "podiumGroups": 4
+      },
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "civic-paper",
+        "civic-cvu6"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "extent",
+      "value": {
+        "blockWidth": 400,
+        "blockDepth": 400
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "civic-paper"
+      ],
+      "uncertainty": "400m见方街区不是每座建筑足印。"
+    },
+    {
+      "kind": "silhouette",
+      "value": "六塔围合中央庭院，上部空中连桥，四裙楼组织周边街区",
+      "unit": null,
+      "basis": "reported",
+      "sourceIds": [
+        "civic-paper",
+        "civic-cvu6"
+      ],
+      "uncertainty": "source reported; 未作本轮测量，数据对应来源所述时期。"
+    },
+    {
+      "kind": "skybridge_elevation",
+      "value": {
+        "englishPaper": 85,
+        "chinesePaper": 90,
+        "cvuSummary": 85
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "civic-paper",
+        "civic-cvu6"
+      ],
+      "uncertainty": "论文中英数值差异未解决，不假定两者是底/顶标高。"
+    },
+    {
+      "kind": "entrances",
+      "value": null,
+      "unit": null,
+      "basis": "unknown",
+      "sourceIds": [],
+      "uncertainty": "尚无可冻结数据；待固定OSM/DEM及现状多视向资料。"
+    }
+  ],
+  "modelingRecommendation": {
+    "basis": "inference-from-recorded-sources",
+    "notes": "用六弧形塔楼与上部连桥恢复天圆地方视觉，再做四裙楼与可达公共庭院；入口和路边到达点不会选中央有盖不可进的建筑内。"
+  },
+  "referenceImages": [],
+  "pendingSubscopes": [],
+  "blockers": [
+    "尚未绑定固定哈希OSM source feature ID、WGS84 center、足印与数值朝向。",
+    "未完成两个不同方向现状照片的逐图视角核验、近景入口核验及来源与建模参数冻结。",
+    "本轮为资料调查；无GLB、模型脚本、实机图、碰撞、性能或八项verified验收。",
+    "连桥85/90m标高口径冲突；tower6不等于已确认A-F标签。未读可供量测剖面或足印。"
+  ],
+  "estimatedParameters": [],
+  "measuredParameters": [],
+  "sourceSnapshots": {},
+  "photosBundled": false
+}

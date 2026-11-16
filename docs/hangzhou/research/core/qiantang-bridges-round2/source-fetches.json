@@ -1,0 +1,82 @@
+[
+  {
+    "id": "qiantang-school",
+    "url": "https://civil.swjtu.edu.cn/info/1333/61592.htm",
+    "localPath": "<TEMP>/qiantang-bridges-research/qiantang-school.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 25483,
+    "sha256": "77687459de850074fe5fe0b0e26529988292f01e10ec088c4fee9b2aa7333a0f",
+    "bundled": false
+  },
+  {
+    "id": "fuxing-gov",
+    "url": "https://www.hzzx.gov.cn/zxyw/content/2026-09/20/content_9311674.htm",
+    "localPath": "<TEMP>/qiantang-bridges-research/fuxing-gov.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 24422,
+    "sha256": "a313237e339df85f6cd0db267e88d163c34712e49c20c691c572db7526de3bb1",
+    "bundled": false
+  },
+  {
+    "id": "zhijiang-paper",
+    "url": "https://html.rhhz.net/GLJTKJ/20160512.htm",
+    "localPath": "<TEMP>/qiantang-bridges-research/zhijiang-paper.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 38810,
+    "sha256": "ec63004c765f72c08290870d626576e735a558a3f44b7b3ea7fc281b365e6645",
+    "bundled": false
+  },
+  {
+    "id": "zhijiang-layout",
+    "url": "https://html.rhhz.net/GLJTKJ/PIC/gljtzz-33-05-73-1.jpg",
+    "localPath": "<TEMP>/qiantang-bridges-research/zhijiang-layout.jpg",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 21002,
+    "sha256": "5b075c7b496686d69d5fb3649029f44c4bff61d83912419702fbff841dedb468",
+    "bundled": false
+  },
+  {
+    "id": "fuxing-paper",
+    "url": "https://siberc.fzu.edu.cn/__local/6/6F/29/7C1CCAEDC24D9BB28E4EFA81912_4886B803_FCC7B.pdf?e=.pdf",
+    "localPath": "<TEMP>/qiantang-bridges-research/fuxing-paper.pdf",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 1035387,
+    "sha256": "f9da1571945ab9777213a466a8c435a42e778934379ce1ea8c5c8d10e2815f0c",
+    "bundled": false
+  },
+  {
+    "id": "qcat",
+    "url": "https://commons.wikimedia.org/wiki/Category:Qiantang_River_Bridge",
+    "localPath": "<TEMP>/qiantang-bridges-research/qcat.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 175252,
+    "sha256": "ac3a7fb4a7d47e96d6f7fea9668c2222d44e6f75c6586c745d9247f1304e59ca",
+    "bundled": false
+  },
+  {
+    "id": "fcat",
+    "url": "https://commons.wikimedia.org/wiki/Category:Fourth_Qiantang_River_Bridge",
+    "localPath": "<TEMP>/qiantang-bridges-research/fcat.html",
+    "returncode": 0,
+    "httpStatus": "200",
+    "bytes": 48559,
+    "sha256": "b5bd65111fa88ae024633a28c3ac6855529a44c5a01a91a7d0ae9041fa65021f",
+    "bundled": false
+  },
+  {
+    "id": "zcat",
+    "url": "https://commons.wikimedia.org/wiki/Category:Qianjiang_7th_bridge",
+    "localPath": "<TEMP>/qiantang-bridges-research/zcat.html",
+    "returncode": 0,
+    "httpStatus": "404",
+    "bytes": 39750,
+    "sha256": "5221bd6a56815de25c2e349da53bd3839ca7f894081878fcd0a64e219c0f4f66",
+    "bundled": false
+  }
+]

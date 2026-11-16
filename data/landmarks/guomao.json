@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "guomao",
+  "name": "深圳国贸大厦",
+  "status": "wikipedia_anchor_massing_v1",
+  "units": "real_world_metres",
+  "scene_scale": 0.6,
+  "anchor": {
+    "lon": 114.114674,
+    "lat": 22.543228,
+    "source": "public/city/city.json building way/271080469 (国贸大厦) footprint centroid; previous https://en.wikipedia.org/wiki/Guomao_Building",
+    "basis": "osm-footprint-centroid",
+    "role": "OSM footprint centroid from city.json, replaces reported point that fell 13 m away"
+  },
+  "height": {
+    "value": 160,
+    "basis": "reported",
+    "source": "Wikipedia Guomao Building"
+  },
+  "plan": {
+    "width_m": 34,
+    "depth_m": 34,
+    "basis": "estimated",
+    "uncertainty": "方形塔楼半宽按 2021 航拍，不是测绘"
+  },
+  "podium": {
+    "width_m": 92,
+    "depth_m": 78,
+    "height_m": 28,
+    "basis": "estimated",
+    "note": "Guomao Building in Shenzhen2021.jpg：深色裙楼 + 屋顶绿化"
+  },
+  "crown": {
+    "radius_m": 19,
+    "height_m": 8,
+    "basis": "estimated",
+    "note": "圆冠在塔顶，不是腰间金带"
+  },
+  "ribs": {
+    "count": 14,
+    "basis": "estimated"
+  },
+  "baseBuildingIds": [
+    "way/271080469"
+  ]
+}

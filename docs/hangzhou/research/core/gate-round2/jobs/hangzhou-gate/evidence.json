@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "placeId": "hangzhou-gate",
+  "scope": "Source-bound exterior candidate for twin towers, arched banquet bridge and open curtain; full retail, interiors, rooftop equipment and exact entrance details pending.",
+  "identity": {
+    "status": "confirmed",
+    "sourceIds": [
+      "ecadi-primary",
+      "som-primary",
+      "osm-geofabrik"
+    ]
+  },
+  "location": {
+    "crs": "EPSG:4326",
+    "center": [
+      120.23255672887714,
+      30.229744850587956
+    ],
+    "status": "confirmed",
+    "sourceIds": [
+      "osm-geofabrik",
+      "osm-api"
+    ]
+  },
+  "sources": [
+    {
+      "id": "osm-geofabrik",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+      "publisher": "OpenStreetMap contributors / Geofabrik",
+      "accessedAt": "2026-10-12",
+      "sourceDate": "2026-10-11T20:21:06Z",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+      "localPath": "data/raw/hangzhou/zhejiang-261011.osm.pbf",
+      "use": "WGS84 footprints; Geofabrik subset equals OSM API rings"
+    },
+    {
+      "id": "osm-api",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=120.230,30.227,120.234,30.231",
+      "publisher": "OpenStreetMap contributors",
+      "accessedAt": "2026-10-12",
+      "status": "available",
+      "license": "ODbL-1.0",
+      "localPath": "docs/hangzhou/research/core/gate-round2/osm-local-map.json",
+      "sha256": "fccb1560ed559ca266d93d873ee27281ff9b9f7bbad48fa37ec7e8ca137c6d4e",
+      "use": "auxiliary exact node/way version provenance; not replacement for main Geofabrik city"
+    },
+    {
+      "id": "ecadi-primary",
+      "url": "https://www.thepaper.cn/newsDetail_forward_21768064",
+      "publisher": "华建集团华东建筑设计研究院有限公司供稿 / 澎湃号政务平台",
+      "accessedAt": "2026-10-12",
+      "sourceDate": "2023-02-01",
+      "status": "available",
+      "license": "unknown; reference only; images not bundled",
+      "use": "T1/T2 identity, 310m, bridge/curtain elevations, official photos and SOM section image"
+    },
+    {
+      "id": "som-primary",
+      "url": "https://www.som.com/projects/greenland-hangzhou-century-center/",
+      "publisher": "SOM",
+      "accessedAt": "2026-10-12",
+      "status": "available-indexed",
+      "sourceDate": null,
+      "license": "unknown; reference only",
+      "use": "twin towers, H/arched bridge, flowing glass enclosure, 64 stories; indexed text, direct fetch 403"
+    }
+  ],
+  "photos": [
+    {
+      "id": "ecadi-photo-681",
+      "sourceId": "ecadi-primary",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/236/615/681.jpg",
+      "caption": "长三角最高双塔建筑",
+      "creditedTo": "沙鹏",
+      "capturedAt": null,
+      "publishedAt": "2023-02-01",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "actual Chrome native UI image view via cua_repl; not search-generated description",
+      "viewDirection": {
+        "view": "NW river-side towards SE, estimated",
+        "bearingTowardDegrees": 127.5,
+        "allowanceDegrees": 20
+      },
+      "observations": "双塔横断轮廓圆滑；塔冠外侧高内侧低；低区幕帘为U形；宴会厅下腹拱形，工地地面未完成。",
+      "sha256": "e349838e044aa21b2c7a406cacca92d171c6624d72aabc1ba6e962909dc2eb0a",
+      "downloadBytes": 222994,
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache after visual review, outside repository; no release texture"
+    },
+    {
+      "id": "ecadi-photo-698",
+      "sourceId": "ecadi-primary",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/236/615/698.jpg",
+      "caption": "俯瞰钢拱连廊帘幕",
+      "creditedTo": "沙鹏",
+      "capturedAt": null,
+      "publishedAt": "2023-02-01",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "actual Chrome native UI image view via cua_repl; not search-generated description",
+      "viewDirection": {
+        "view": "oblique-downward",
+        "azimuth": "unknown"
+      },
+      "observations": "双曲马鞍/悬垂面有深度；板块与缝形成镂空节奏，不是两塔间一张平面实心屏。",
+      "sha256": "32c41a80987afd7de98f5cfb98452c995fbb7d33faf67ec082774a1cab1c93a7",
+      "downloadBytes": 239339,
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache after visual review, outside repository; no release texture"
+    },
+    {
+      "id": "ecadi-photo-682",
+      "sourceId": "ecadi-primary",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/236/615/682.jpg",
+      "caption": "塔冠停机坪远眺钱江北岸",
+      "creditedTo": "华东院",
+      "capturedAt": null,
+      "publishedAt": "2023-02-01",
+      "reviewedAt": "2026-10-12",
+      "reviewMethod": "actual Chrome native UI image view via cua_repl; not search-generated description",
+      "viewDirection": {
+        "view": "tower crown towards NW river/north-bank, estimated",
+        "bearingTowardDegrees": 307.5,
+        "allowanceDegrees": 20
+      },
+      "observations": "反向视角确认屋顶弧形边缘和内侧结构/平台；无EXIF和尺度，停机坪精确尺寸未冻结。",
+      "sha256": "58217d895de2a44053f5b86ecb8544135976646b43613201fbb3c17b9cd840e4",
+      "downloadBytes": 105466,
+      "license": "unknown",
+      "bundled": false,
+      "hashMethod": "temporary research cache after visual review, outside repository; no release texture"
+    }
+  ],
+  "observations": [
+    {
+      "kind": "footprint",
+      "value": {
+        "towerWayIds": [
+          1015040645,
+          1015040647
+        ],
+        "ringsPath": "docs/hangzhou/research/core/gate-round2/geofabrik-gate-features.geojson"
+      },
+      "unit": "EPSG:4326",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "osm-api"
+      ],
+      "uncertainty": "OSM data polygons matched verbatim between raw API and fixed Geofabrik; not field survey; source accuracy unknown, planning tolerance±5m."
+    },
+    {
+      "kind": "height",
+      "value": {
+        "towersM": 310,
+        "bridgeFloorM": 22,
+        "gardenM": 34.6,
+        "curtainHighM": 103.6,
+        "curtainLowM": 53.381
+      },
+      "unit": "m",
+      "basis": "reported",
+      "sourceIds": [
+        "ecadi-primary",
+        "som-primary"
+      ],
+      "uncertainty": "reported design elevations; precision of printed decimals not a claim of survey accuracy; main integration must resolve project datum."
+    },
+    {
+      "kind": "orientation",
+      "value": {
+        "towerPairBearingNorthClockwise": 37.521945467599835,
+        "northwestFrontBearing": 307.5219454676
+      },
+      "unit": "degrees",
+      "basis": "measured",
+      "sourceIds": [
+        "osm-geofabrik",
+        "osm-api"
+      ],
+      "uncertainty": "azimuth calculated from OSM polygon area centroids by measure_gate.py; planning allowance±3deg is not a measured confidence interval; front direction photo-supported."
+    },
+    {
+      "kind": "silhouette",
+      "value": "curved paired tower footprints, outer-high/inner-low crowns, low arched banquet bridge and deep perforated saddle curtain; facade horizontal bands/narrow vertical ribs.",
+      "unit": null,
+      "basis": "estimated",
+      "sourceIds": [
+        "ecadi-primary",
+        "som-primary"
+      ],
+      "uncertainty": "reviewed official full-front, downward saddle and opposite crown views. Late-construction photos, not2026 capture. Coarse profile/rib estimates and error allowances in spec.estimates."
+    }
+  ],
+  "blockers": [],
+  "pendingSubscopes": [
+    "retail podium details",
+    "precise entrances and landscaping",
+    "complete all-side facade survey",
+    "exact roof crown/helipad dimensions",
+    "night material/lighting rendering",
+    "collision/arrival/runtime/performance"
+  ],
+  "conflicts": [
+    "SOM64stories vsECADI63above-ground; no silent resolution;64 candidate band rhythm.",
+    "SOM completion2023 vsECADI project archive2022; geometry photos published2023, original capture datesunknown.",
+    "OSM middle wayheight50 is unverified and replaced by official bridge/curtain elevations; no50m solid connector box.",
+    "OSM mapped inner edgegap54.183m vsreported approximate curtainspan60m are different measurement endpoints."
+  ],
+  "sourceSnapshots": {
+    "docs/hangzhou/research/core/gate-round2/osm-local-map.json": "fccb1560ed559ca266d93d873ee27281ff9b9f7bbad48fa37ec7e8ca137c6d4e",
+    "docs/hangzhou/research/core/gate-round2/osm-way-1015040645-full.json": "abd455fae01ea61337779e542b9f5d06f91c1701b7d8954a052ccea1178f503f",
+    "docs/hangzhou/research/core/gate-round2/geofabrik-gate-features.geojson": "4cfd2cd1436b3407084824425b185166e7e4887b550eaace316e1ff2233750d3",
+    "docs/hangzhou/research/core/gate-round2/osm-footprints-and-measurements.json": "d3a28af82786cd51667ec24789b5eb8f93e705c55d9dcd1b0dceb2c1957a3849"
+  },
+  "photosBundled": false,
+  "stageLimit": "Core exterior evidence scope only; no modelled/verified claim without actual GLB and visual/runtime checks."
+}

@@ -1,0 +1,9 @@
+{
+  "upstream": "https://github.com/linranff/GTA_SZ",
+  "upstreamCommit": "73603f31416de4111f10783f512c1101bd738a97",
+  "candidate": "release-v16-rc2",
+  "candidateManifestSha256": "4a55977ef88f0f37f1f49bddae08f6cea50b74c7f897839a79d91eac529b3227",
+  "exportDate": "2026-11-15",
+  "status": "stage-release-candidate",
+  "sourceHistory": "New repository snapshot; upstream history preserved at upstream URL; local prototype workspace untouched."
+}

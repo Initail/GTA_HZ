@@ -1,0 +1,1492 @@
+{
+  "schemaVersion": 1,
+  "id": "qiantang-bridges",
+  "cityId": "hangzhou",
+  "scope": "Three finite source-bound bridge structural exteriors; road surfaces, measured absolute deck/navigation profiles, complicated interchanges and current driving acceptance excluded",
+  "anchor": {
+    "lon": 120.134374525,
+    "lat": 30.195734025
+  },
+  "bridges": [
+    {
+      "id": "qiantang-bridge",
+      "name": "钱塘江大桥",
+      "type": "double-deck-warren-truss",
+      "centerWGS84": [
+        120.134374525,
+        30.195734025
+      ],
+      "axisSourceEndpointsWGS84": [
+        [
+          120.1316223,
+          30.2011833
+        ],
+        [
+          120.13712675,
+          30.19028475
+        ]
+      ],
+      "roads": [
+        {
+          "id": "way/4348186",
+          "nodeIds": [
+            "1667167465",
+            "1667167497",
+            "1667261611",
+            "1701378810",
+            "1667261583",
+            "1701921823",
+            "26304793",
+            "5628081670",
+            "3351280499",
+            "5100594272",
+            "7987169547",
+            "1667261526",
+            "1667261586",
+            "26466659"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1379746,
+              30.1901467
+            ],
+            [
+              120.1377097,
+              30.1900548
+            ],
+            [
+              120.1375228,
+              30.1900413
+            ],
+            [
+              120.1373743,
+              30.1900833
+            ],
+            [
+              120.1372798,
+              30.1901354
+            ],
+            [
+              120.1372095,
+              30.1902015
+            ],
+            [
+              120.1371339,
+              30.190293
+            ],
+            [
+              120.1367593,
+              30.191028
+            ],
+            [
+              120.1341436,
+              30.1961641
+            ],
+            [
+              120.1323896,
+              30.199699
+            ],
+            [
+              120.1315555,
+              30.2013696
+            ],
+            [
+              120.1314336,
+              30.2016137
+            ],
+            [
+              120.1314191,
+              30.2017598
+            ],
+            [
+              120.1314733,
+              30.2018761
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "primary",
+            "lanes": "2",
+            "layer": "2",
+            "name": "钱塘江大桥",
+            "name:en": "Qiantang River Bridge",
+            "oneway": "no",
+            "source": "survey"
+          },
+          "mode": "road",
+          "deck": "upper",
+          "sourceLengthM": 1493.5285229052158
+        }
+      ],
+      "railways": [
+        {
+          "id": "way/154142001",
+          "nodeIds": [
+            "1712796019",
+            "3351280499",
+            "5628081672",
+            "1667261545"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1313509,
+              30.2017232
+            ],
+            [
+              120.1341436,
+              30.1961641
+            ],
+            [
+              120.136703,
+              30.1911024
+            ],
+            [
+              120.1371158,
+              30.1902854
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "bridge:name": "钱塘江大桥",
+            "electrified": "contact_line",
+            "frequency": "50",
+            "gauge": "1435",
+            "layer": "1",
+            "loc_name": "浙赣线",
+            "maxspeed": "120",
+            "name": "沪昆绕行线",
+            "railway": "rail",
+            "railway:ctcs": "0",
+            "railway:traffic_mode": "mixed",
+            "ref": "1643",
+            "usage": "branch",
+            "voltage": "25000"
+          },
+          "mode": "rail",
+          "deck": "lower",
+          "sourceLengthM": 1383.9867064262737
+        }
+      ],
+      "sourceAreaId": "way/826790145",
+      "reported": {
+        "mainLengthM": 1072,
+        "trussCount": 16,
+        "pierCountInRiver": 15,
+        "pierPitchM": 67,
+        "calculationSpanM": 65.84,
+        "trussHeightM": 10.7,
+        "trussCenterWidthM": 6.1,
+        "roadTravelWidthM": 6.1,
+        "sidewalkEachM": 1.52,
+        "northHistoricApproachM": 288,
+        "southHistoricApproachM": 93,
+        "railGaugeM": 1.435
+      },
+      "widthM": 9.14,
+      "profile": {
+        "upperWaterRelativeM": 19,
+        "lowerWaterRelativeM": 8.3,
+        "upperThicknessM": 0.65,
+        "lowerThicknessM": 0.7,
+        "mainIntervalM": [
+          -536,
+          536
+        ],
+        "transitionM": 240,
+        "absoluteDatum": "unknown",
+        "waterDatum": "caller supplied game y; lm.y in build",
+        "previewPolicy": "flat main + optional caller source-endpoint interpolation; no default layer multiplier",
+        "maxReportedGradient": null
+      },
+      "estimates": {
+        "deckWaterRelativeM": {
+          "value": {
+            "upper": 19,
+            "lower": 8.3
+          },
+          "basis": "estimated",
+          "error": "±5m; water/tide epoch unknown",
+          "method": "2024 side photo lower chord-to-water pixel ratio≈0.7–0.9 of reported10.7m truss; upper=lower+10.7, envelope rounding",
+          "sourceIds": [
+            "qiantang-school",
+            "q2024"
+          ]
+        },
+        "mainPosition": {
+          "value": "1072m main centered on mapped bridge area long axis",
+          "basis": "estimated",
+          "error": "±45m longitudinal; ±5m plan",
+          "method": "source area centroid/axis + reported16×67; north/ south spans visually checked; no mapped pier survey",
+          "sourceIds": [
+            "osm-geofabrik",
+            "qside",
+            "qair"
+          ]
+        },
+        "members": {
+          "value": {
+            "diagonalRadiusM": 0.15,
+            "chordRadiusM": 0.24,
+            "verticalRadiusM": 0.14,
+            "railHeightM": 1.1,
+            "pierRadiusM": 2.7
+          },
+          "basis": "estimated",
+          "error": "members±35%; piers±1m",
+          "method": "original low-poly interpretation from truss and river-pier photos; not structural design",
+          "sourceIds": [
+            "q2024",
+            "qside"
+          ]
+        }
+      },
+      "pending": [
+        "current exact deck/water/ground datum and both road approach grades",
+        "three north/one south historic approach arches and Y-shaped north junction not modeled",
+        "rail profile/actor modes and catenary",
+        "current close deck railings/material weathering and night lighting"
+      ],
+      "axisRadiansEastCCW": -1.1576500770202087,
+      "bearingDegreesFromNorth": 156.32846356625265,
+      "centerGameEN": [
+        -1190.7513899330004,
+        -5205.802147668741
+      ]
+    },
+    {
+      "id": "fuxing-bridge",
+      "name": "复兴大桥",
+      "type": "double-deck-multi-arch",
+      "centerWGS84": [
+        120.17483865006083,
+        30.209770029145535
+      ],
+      "axisSourceEndpointsWGS84": [
+        [
+          120.17201374335801,
+          30.214159629462202
+        ],
+        [
+          120.17766355676366,
+          30.205380428828867
+        ]
+      ],
+      "roads": [
+        {
+          "id": "way/29169666",
+          "nodeIds": [
+            "320807735",
+            "320807715",
+            "1979829221",
+            "320807701",
+            "1979829212",
+            "1979829204",
+            "1979829195",
+            "320807687",
+            "1667217046"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1692457,
+              30.2183439
+            ],
+            [
+              120.1700771,
+              30.2170229
+            ],
+            [
+              120.1705674,
+              30.2162384
+            ],
+            [
+              120.1712361,
+              30.2152676
+            ],
+            [
+              120.1720989,
+              30.2140383
+            ],
+            [
+              120.173913,
+              30.2112588
+            ],
+            [
+              120.1759864,
+              30.2080195
+            ],
+            [
+              120.1775942,
+              30.2054871
+            ],
+            [
+              120.1780678,
+              30.2047587
+            ]
+          ],
+          "tags": {
+            "alt_name": "钱江四桥",
+            "bridge": "viaduct",
+            "highway": "trunk",
+            "layer": "3",
+            "motorroad": "yes",
+            "name": "复兴大桥",
+            "name:en": "Fuxing Bridge",
+            "name:fr": "Quatrieme Pont de la rivière Qiantang",
+            "name:zh": "复兴大桥",
+            "name:zh-Hant": "復興大橋",
+            "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+            "note": "top level",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "upper",
+          "sourceLengthM": 1728.9556218579432
+        },
+        {
+          "id": "way/154135283",
+          "nodeIds": [
+            "1667217046",
+            "5628139391",
+            "6187412898"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1780678,
+              30.2047587
+            ],
+            [
+              120.1797352,
+              30.2023353
+            ],
+            [
+              120.1804867,
+              30.201164
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "trunk",
+            "layer": "3",
+            "motorroad": "yes",
+            "name": "复兴大桥",
+            "name:en": "Fuxing Bridge",
+            "name:zh": "复兴大桥",
+            "name:zh-Hant": "復興大橋",
+            "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+            "note": "top level",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "upper",
+          "sourceLengthM": 461.5346375849108
+        },
+        {
+          "id": "way/29170042",
+          "nodeIds": [
+            "320807823",
+            "5628139390",
+            "3621696290",
+            "1667217050"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1806155,
+              30.2011949
+            ],
+            [
+              120.1798452,
+              30.2023984
+            ],
+            [
+              120.1783658,
+              30.2045031
+            ],
+            [
+              120.1781739,
+              30.2047984
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "trunk",
+            "layer": "3",
+            "motorroad": "yes",
+            "name": "复兴大桥",
+            "name:en": "Fuxing Bridge",
+            "name:zh": "复兴大桥",
+            "name:zh-Hant": "復興大橋",
+            "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+            "note": "top level",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "upper",
+          "sourceLengthM": 463.52248476604683
+        },
+        {
+          "id": "way/154135290",
+          "nodeIds": [
+            "1667217050",
+            "320807753",
+            "1979829208",
+            "1979829216",
+            "320807794",
+            "3387501754",
+            "320807765",
+            "3396372685",
+            "770741690",
+            "320807780"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1781739,
+              30.2047984
+            ],
+            [
+              120.1761407,
+              30.2080176
+            ],
+            [
+              120.1740207,
+              30.211304
+            ],
+            [
+              120.1722281,
+              30.214078
+            ],
+            [
+              120.1714424,
+              30.2153136
+            ],
+            [
+              120.1710019,
+              30.2160099
+            ],
+            [
+              120.1708088,
+              30.2163019
+            ],
+            [
+              120.1704065,
+              30.2167979
+            ],
+            [
+              120.1701016,
+              30.2171857
+            ],
+            [
+              120.1693309,
+              30.2183817
+            ]
+          ],
+          "tags": {
+            "alt_name": "钱江四桥",
+            "bridge": "viaduct",
+            "highway": "trunk",
+            "layer": "3",
+            "motorroad": "yes",
+            "name": "复兴大桥",
+            "name:en": "Fuxing Bridge",
+            "name:fr": "Quatrieme Pont de la rivière Qiantang",
+            "name:zh": "复兴大桥",
+            "name:zh-Hant": "復興大橋",
+            "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+            "note": "top level",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "upper",
+          "sourceLengthM": 1730.1475546033196
+        },
+        {
+          "id": "way/336983476",
+          "nodeIds": [
+            "3440750977",
+            "3623284223",
+            "3623284229",
+            "3440750971",
+            "3440750972",
+            "3623288030",
+            "3623288024",
+            "3440750973",
+            "3623288010",
+            "3623288018",
+            "3440750974",
+            "3623288038",
+            "3440750975"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1700606,
+              30.2167405
+            ],
+            [
+              120.1705261,
+              30.2162172
+            ],
+            [
+              120.1713685,
+              30.2150022
+            ],
+            [
+              120.1714722,
+              30.2148527
+            ],
+            [
+              120.172359,
+              30.2135474
+            ],
+            [
+              120.1728972,
+              30.2127155
+            ],
+            [
+              120.1735652,
+              30.211683
+            ],
+            [
+              120.175714,
+              30.2083614
+            ],
+            [
+              120.1761525,
+              30.2076613
+            ],
+            [
+              120.1767926,
+              30.2066316
+            ],
+            [
+              120.1782406,
+              30.204328
+            ],
+            [
+              120.1785106,
+              30.2039057
+            ],
+            [
+              120.1793537,
+              30.2025872
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "primary",
+            "layer": "1",
+            "name": "复兴大桥",
+            "name:en": "Fuxing Bridge",
+            "name:zh": "复兴大桥",
+            "name:zh-Hant": "復興大橋",
+            "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "lower",
+          "sourceLengthM": 1806.8184029442073
+        },
+        {
+          "id": "way/340648409",
+          "nodeIds": [
+            "3478961079",
+            "3478961080",
+            "3478961081",
+            "3478961082",
+            "3478961083",
+            "3478961084",
+            "3478961085",
+            "3478961086",
+            "3478961087"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1792574,
+              30.2029821
+            ],
+            [
+              120.1776369,
+              30.2055349
+            ],
+            [
+              120.177542,
+              30.2056915
+            ],
+            [
+              120.1763369,
+              30.2075789
+            ],
+            [
+              120.1739626,
+              30.2112714
+            ],
+            [
+              120.172556,
+              30.2134636
+            ],
+            [
+              120.1710192,
+              30.2157577
+            ],
+            [
+              120.1708404,
+              30.2160634
+            ],
+            [
+              120.170816,
+              30.2164428
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "primary",
+            "layer": "1",
+            "name": "复兴大桥",
+            "name:en": "Fuxing Bridge",
+            "name:zh": "复兴大桥",
+            "name:zh-Hant": "復興大橋",
+            "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+            "oneway": "no"
+          },
+          "mode": "road",
+          "deck": "lower",
+          "sourceLengthM": 1703.1937495166842
+        },
+        {
+          "id": "way/589429905",
+          "nodeIds": [
+            "3440750966",
+            "3623288036",
+            "3478961078",
+            "3440750967",
+            "3623288021",
+            "3623288014",
+            "3440750968",
+            "3440750969",
+            "3623288027",
+            "3623288033",
+            "3440750970",
+            "3623284231",
+            "3440750978",
+            "3440750964"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1795689,
+              30.2027231
+            ],
+            [
+              120.1787377,
+              30.2040203
+            ],
+            [
+              120.1783456,
+              30.2046164
+            ],
+            [
+              120.1781881,
+              30.2049284
+            ],
+            [
+              120.1770401,
+              30.2067204
+            ],
+            [
+              120.1763789,
+              30.207746
+            ],
+            [
+              120.1759089,
+              30.208478
+            ],
+            [
+              120.1746613,
+              30.210388
+            ],
+            [
+              120.1737934,
+              30.2117499
+            ],
+            [
+              120.1731259,
+              30.2127975
+            ],
+            [
+              120.1717291,
+              30.2149894
+            ],
+            [
+              120.1716302,
+              30.2151413
+            ],
+            [
+              120.1710672,
+              30.2160064
+            ],
+            [
+              120.170846,
+              30.2166471
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "primary",
+            "layer": "1",
+            "name": "复兴大桥",
+            "name:en": "Fuxing Bridge",
+            "name:zh": "复兴大桥",
+            "name:zh-Hant": "復興大橋",
+            "name:zh-Latn-pinyin": "Fùxīng Dàqiáo",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "lower",
+          "sourceLengthM": 1758.8441721183606
+        }
+      ],
+      "railways": [],
+      "reported": {
+        "mainLengthM": 1376,
+        "archSequenceCalculationM": [
+          85,
+          85,
+          190,
+          85,
+          85,
+          85,
+          85,
+          85,
+          190,
+          85,
+          85
+        ],
+        "largeArches": 2,
+        "smallArches": 9,
+        "smallDeckWidthM": 26.4,
+        "largeDeckWidthM": 32,
+        "upperMotorLanes": 6,
+        "lowerCurrentUse": "public transport + nonmotor + walking (2026 official); 2008 central metro reservation is historical, no track drawn"
+      },
+      "widthM": 26.4,
+      "profile": {
+        "upperWaterRelativeM": 22,
+        "lowerWaterRelativeM": 12,
+        "upperThicknessM": 1.25,
+        "lowerThicknessM": 1.15,
+        "mainIntervalM": [
+          -688,
+          688
+        ],
+        "transitionM": 380,
+        "absoluteDatum": "unknown",
+        "waterDatum": "caller supplied game y; lm.y in build",
+        "maxReportedGradient": null
+      },
+      "estimates": {
+        "deckWaterRelativeM": {
+          "value": {
+            "upper": 22,
+            "lower": 12
+          },
+          "basis": "estimated",
+          "error": "upper±6m, lower±4m, separation±2m",
+          "method": "figure8 and side photo show lower deck near arch springs and upper ≈10m above; pier-to-water ratio estimated, tide unknown",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1",
+            "fgovphoto"
+          ]
+        },
+        "archRiseM": {
+          "value": {
+            "large": 47.5,
+            "small": 12.15
+          },
+          "basis": "estimated",
+          "error": "large±4m, small±2m",
+          "method": "figure8 pixel rise/span proportions≈1/4 and1/7; author figure + side photo, values not source text measurements",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1"
+          ]
+        },
+        "archStations": {
+          "value": {
+            "endApproachEachM": 91.5,
+            "gapBetweenCalculationSpansM": 4.8
+          },
+          "basis": "estimated",
+          "error": "station±35m, gap±3m",
+          "method": "figure8 91.5m unarched end + 11 calculation spans1145m; distribute remaining48m over ten hinge gaps to close1376m; NOT as-built pier chain",
+          "sourceIds": [
+            "fuxing-paper",
+            "osm-geofabrik",
+            "fgovphoto"
+          ]
+        },
+        "members": {
+          "value": {
+            "largeRibCentersM": 29.4,
+            "smallRibCentersM": 10.4,
+            "largeRibSectionM": [
+              2.6,
+              4.5
+            ],
+            "smallTubeDiameterM": 1.7,
+            "hangerRadiusM": 0.07,
+            "railHeightM": 1.15
+          },
+          "basis": "estimated",
+          "error": "rib dimensions±20%, hanger radius±40%",
+          "method": "bounded original lattice from fig8 + two real directions; construction specification not obtained",
+          "sourceIds": [
+            "fuxing-paper",
+            "f1",
+            "fgovphoto"
+          ]
+        }
+      },
+      "pending": [
+        "surveyed lower/top/river absolute heights; exact double-level approach/branch ramps and source actor permissions",
+        "current riverbank elevators, eight viewing platforms and stair/elevator access",
+        "hinge station chain/structural joint dimensions and close railings",
+        "source lower OSM primary tags do not establish general-car permission"
+      ],
+      "axisRadiansEastCCW": -1.0613933551786638,
+      "bearingDegreesFromNorth": 150.8133596549674,
+      "centerGameEN": [
+        1145.3263565725815,
+        -4272.207945009025
+      ]
+    },
+    {
+      "id": "zhijiang-bridge",
+      "name": "之江大桥",
+      "type": "twin-arch-pylon-cable-stayed",
+      "centerWGS84": [
+        120.120353875,
+        30.160933725
+      ],
+      "axisSourceEndpointsWGS84": [
+        [
+          120.11809645,
+          30.16000225
+        ],
+        [
+          120.1226113,
+          30.1618637
+        ]
+      ],
+      "roads": [
+        {
+          "id": "way/306360721",
+          "nodeIds": [
+            "3112466951",
+            "5061448745",
+            "5061448747",
+            "3112466950",
+            "9897739947",
+            "5061448748",
+            "9897739948",
+            "3112466949",
+            "9897739949",
+            "5061448750",
+            "3112466948",
+            "7987169577",
+            "3112466947",
+            "3112466946",
+            "3112466945",
+            "3112466937"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1318147,
+              30.1666704
+            ],
+            [
+              120.1314548,
+              30.1662843
+            ],
+            [
+              120.1310685,
+              30.1659222
+            ],
+            [
+              120.1306698,
+              30.1656186
+            ],
+            [
+              120.130485,
+              30.1654886
+            ],
+            [
+              120.1302933,
+              30.1653585
+            ],
+            [
+              120.1300962,
+              30.1652412
+            ],
+            [
+              120.1298967,
+              30.1651259
+            ],
+            [
+              120.1297066,
+              30.1650281
+            ],
+            [
+              120.1295282,
+              30.1649424
+            ],
+            [
+              120.1290881,
+              30.1647488
+            ],
+            [
+              120.1289999,
+              30.16471
+            ],
+            [
+              120.1270053,
+              30.1638328
+            ],
+            [
+              120.1225717,
+              30.1619189
+            ],
+            [
+              120.118043,
+              30.16006
+            ],
+            [
+              120.1146262,
+              30.1586195
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "motorway",
+            "lanes": "3",
+            "layer": "1",
+            "motorroad": "yes",
+            "name": "之江大桥",
+            "oneway": "yes",
+            "ref": "S30"
+          },
+          "mode": "road",
+          "deck": "single",
+          "sourceLengthM": 1890.1482223125854
+        },
+        {
+          "id": "way/589558021",
+          "nodeIds": [
+            "3112466958",
+            "3112466938",
+            "3112466939",
+            "3112466940",
+            "7987169580",
+            "3112466941",
+            "5061448751",
+            "9897739950",
+            "3112466942",
+            "9897739951",
+            "5061448749",
+            "9897739952",
+            "3112466943",
+            "9897739953",
+            "5061448746",
+            "9897739954",
+            "5061448744",
+            "9897739955",
+            "3112467027",
+            "3112467029",
+            "3112466944"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1147018,
+              30.1584918
+            ],
+            [
+              120.1181499,
+              30.1599445
+            ],
+            [
+              120.1226509,
+              30.1618085
+            ],
+            [
+              120.127101,
+              30.1637342
+            ],
+            [
+              120.1290841,
+              30.1645947
+            ],
+            [
+              120.1291494,
+              30.1646231
+            ],
+            [
+              120.1295687,
+              30.1648153
+            ],
+            [
+              120.1297876,
+              30.1649289
+            ],
+            [
+              120.1299996,
+              30.1650364
+            ],
+            [
+              120.1302135,
+              30.1651542
+            ],
+            [
+              120.1304228,
+              30.1652842
+            ],
+            [
+              120.1306149,
+              30.1654125
+            ],
+            [
+              120.1307953,
+              30.1655408
+            ],
+            [
+              120.1310098,
+              30.1657068
+            ],
+            [
+              120.1312173,
+              30.1658788
+            ],
+            [
+              120.1314073,
+              30.1660459
+            ],
+            [
+              120.1316042,
+              30.1662371
+            ],
+            [
+              120.1317786,
+              30.1664172
+            ],
+            [
+              120.1319623,
+              30.1666134
+            ],
+            [
+              120.1321795,
+              30.1668762
+            ],
+            [
+              120.1325424,
+              30.1674239
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "motorway",
+            "lanes": "3",
+            "layer": "1",
+            "motorroad": "yes",
+            "name": "之江大桥",
+            "oneway": "yes",
+            "ref": "S30"
+          },
+          "mode": "road",
+          "deck": "single",
+          "sourceLengthM": 2005.8766047196818
+        },
+        {
+          "id": "way/306360739",
+          "nodeIds": [
+            "3365352689",
+            "5061448743",
+            "5061448742",
+            "9891784821",
+            "3112466979",
+            "9891784820",
+            "9891784819",
+            "3112466978",
+            "5061448740",
+            "5061448739",
+            "9891784828",
+            "5061448741",
+            "9891784827",
+            "9891784826",
+            "9891784825",
+            "3112466951"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1342765,
+              30.1709547
+            ],
+            [
+              120.1338816,
+              30.1705217
+            ],
+            [
+              120.1336623,
+              30.1702688
+            ],
+            [
+              120.133515,
+              30.1700639
+            ],
+            [
+              120.1333596,
+              30.1698415
+            ],
+            [
+              120.1332201,
+              30.1695922
+            ],
+            [
+              120.1330806,
+              30.1693077
+            ],
+            [
+              120.1329235,
+              30.1689075
+            ],
+            [
+              120.1328425,
+              30.1686599
+            ],
+            [
+              120.1326813,
+              30.1682263
+            ],
+            [
+              120.1326134,
+              30.1680557
+            ],
+            [
+              120.1325362,
+              30.1678744
+            ],
+            [
+              120.132437,
+              30.1676777
+            ],
+            [
+              120.1323317,
+              30.1674996
+            ],
+            [
+              120.1320533,
+              30.1670849
+            ],
+            [
+              120.1318147,
+              30.1666704
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "trunk_link",
+            "lane_markings": "yes",
+            "lanes": "2",
+            "layer": "1",
+            "maxweight": "40",
+            "name": "之江大桥",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "single",
+          "sourceLengthM": 534.8336738331815
+        }
+      ],
+      "railways": [],
+      "outsideOldBoundsContinuations": [
+        {
+          "id": "way/306360714",
+          "nodeIds": [
+            "3112466923",
+            "4886956115",
+            "3112466924",
+            "3112466958"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.111045,
+              30.1569212
+            ],
+            [
+              120.1121004,
+              30.1573836
+            ],
+            [
+              120.1131946,
+              30.157854
+            ],
+            [
+              120.1147018,
+              30.1584918
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "motorway",
+            "lanes": "3",
+            "layer": "1",
+            "name": "之江大桥连接线",
+            "oneway": "yes",
+            "ref": "S30"
+          },
+          "mode": "road",
+          "deck": "single",
+          "sourceLengthM": 392.5861822117388
+        },
+        {
+          "id": "way/306360716",
+          "nodeIds": [
+            "3112466952",
+            "3112466956",
+            "3112466957",
+            "3112466958"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1120855,
+              30.1571281
+            ],
+            [
+              120.1130792,
+              30.15766
+            ],
+            [
+              120.1138681,
+              30.1580802
+            ],
+            [
+              120.1147018,
+              30.1584918
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "trunk",
+            "layer": "1",
+            "motorroad": "yes",
+            "name": "彩虹快速路",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "single",
+          "sourceLengthM": 293.68290335875986
+        },
+        {
+          "id": "way/306360719",
+          "nodeIds": [
+            "3112466937",
+            "3112466961",
+            "3112466960",
+            "3112466959",
+            "5629822590"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1146262,
+              30.1586195
+            ],
+            [
+              120.1136763,
+              30.1582521
+            ],
+            [
+              120.1129118,
+              30.1579643
+            ],
+            [
+              120.1121871,
+              30.1577084
+            ],
+            [
+              120.1109006,
+              30.157219
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "trunk",
+            "lane_markings": "yes",
+            "lanes": "3",
+            "layer": "1",
+            "motorroad": "yes",
+            "name": "彩虹快速路",
+            "oneway": "yes"
+          },
+          "mode": "road",
+          "deck": "single",
+          "sourceLengthM": 390.67945846230344
+        },
+        {
+          "id": "way/589558020",
+          "nodeIds": [
+            "3112466937",
+            "5061448753",
+            "3112466935"
+          ],
+          "coordinatesWGS84": [
+            [
+              120.1146262,
+              30.1586195
+            ],
+            [
+              120.113843,
+              30.1582417
+            ],
+            [
+              120.1109823,
+              30.157001
+            ]
+          ],
+          "tags": {
+            "bridge": "yes",
+            "highway": "motorway",
+            "lanes": "3",
+            "layer": "1",
+            "name": "之江大桥连接线",
+            "oneway": "yes",
+            "ref": "S30"
+          },
+          "mode": "road",
+          "deck": "single",
+          "sourceLengthM": 393.9229256696943
+        }
+      ],
+      "reported": {
+        "mainSpanSequenceM": [
+          116,
+          246,
+          116
+        ],
+        "steelPylonHeightM": 90.5,
+        "ellipseMajorSemiAxisM": 73.95,
+        "ellipseMinorSemiAxisM": 22.2,
+        "steelBoxHeightM": 3.5,
+        "steelBoxTotalWidthIncludingNoseM": 41.36,
+        "roadMainWidthM": 40.5,
+        "pylonTransverseSectionM": 3.6,
+        "pylonLongitudinalSectionTopM": 4,
+        "pylonLongitudinalSectionBottomM": 6,
+        "maxLongitudinalGradient": 0.0298,
+        "minimumGradeLengthM": 350,
+        "sidewalkBarrierHeightM": [
+          1.1,
+          1.2
+        ],
+        "roadNetworkLengthWithConnectionsM": 4700,
+        "bridgeWithApproachAndViaductActualM": 3760
+      },
+      "widthM": 40.5,
+      "profile": {
+        "singleWaterRelativeM": 18,
+        "singleThicknessM": 3.5,
+        "mainIntervalM": [
+          -239,
+          239
+        ],
+        "transitionM": 650,
+        "absoluteDatum": "unknown",
+        "waterDatum": "caller supplied game y; lm.y in build",
+        "maxReportedGradient": 0.0298
+      },
+      "estimates": {
+        "deckWaterRelativeM": {
+          "value": 18,
+          "basis": "estimated",
+          "error": "±5m, tide/datum unknown",
+          "method": "airphoto tower base/deck/water relationship + figure1; 73.95m curved tower portion above deck gives steel base≈deck-16.55; datum not surveyed",
+          "sourceIds": [
+            "zhijiang-paper",
+            "zair"
+          ]
+        },
+        "mainPosition": {
+          "value": "main center from midpoints of opposite-road source points3112466945/3112466938 and3112466946/3112466939",
+          "basis": "estimated",
+          "error": "±70m longitudinal, ±5m transverse",
+          "method": "fixed shape-break interval≈480m near reported478m + photo western-position constraint; those nodes NOT measured pylon feet",
+          "sourceIds": [
+            "osm-geofabrik",
+            "zair",
+            "binjiang-gazette"
+          ]
+        },
+        "cableLayout": {
+          "value": {
+            "stationsPerFan": 14,
+            "radiusM": 0.055,
+            "anchorsByTowerHeight": "0.35..0.92 of73.95m"
+          },
+          "basis": "estimated",
+          "error": "anchor stations±3m, radius±40%; cablecount not certified",
+          "method": "figure1 fan and real tower silhouette; 14 original representative cables each of4 longitudinal fans×2 planes, not as-built cable inventory",
+          "sourceIds": [
+            "zhijiang-paper",
+            "zair"
+          ]
+        }
+      },
+      "pending": [
+        "absolute tower footing/deck/water datum and90.5m steel-height versus diagram96.5m overall-height convention",
+        "actual towerWGS and cable anchors; complex highway/bankwalk elevator and ramps",
+        "root v5 sourcegraph extended to30.15 now connects west ends; geometry/driving still pending",
+        "complete viaduct/approach pier stations and collision permissions"
+      ],
+      "axisRadiansEastCCW": 0.4434590093210112,
+      "bearingDegreesFromNorth": 64.59167037885342,
+      "centerGameEN": [
+        -2000.1925531184456,
+        -7520.517788526951
+      ]
+    }
+  ],
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  },
+  "coordinatePolicy": "Hangzhou city_config project; physical metres; scale once. lm.x/lm.z/lm.y already game units. lm.y is caller river-display surface datum, NOT ground or EGM2008 measured elevation.",
+  "deckShellPolicy": "undersides/sides only; no road top planes (root road pipeline). Lower single-track railway top and rails are appearance, not navigation.",
+  "baseBuildingIdsToExclude": [],
+  "renderWater": false,
+  "renderRoadTops": false,
+  "suggestedMaterials": {
+    "carpaint": {
+      "color": [
+        0.42,
+        0.67,
+        0.76
+      ],
+      "roughness": 0.35,
+      "metallic": 0.5,
+      "use": "blue Fuxing painted steel, estimate"
+    },
+    "civicred": {
+      "color": [
+        0.72,
+        0.055,
+        0.035
+      ],
+      "roughness": 0.4,
+      "metallic": 0.45,
+      "use": "red Zhijiang steel, estimate"
+    }
+  },
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceSnapshot": "2026-10-11T20:21:06Z",
+  "sourceFeatureSubsetSha256": "0b915c9d81844c31f58181eb2850f7237f26ec12bc30363ea47aadbda9dcc3fd",
+  "specialBlockers": {
+    "xixing-bridge": "2025-11-22 closure for reconstruction; 2026 source construction status, no current completed bridge/deck candidate.",
+    "boao-tunnel": "source underground tunnel ways546241781/607103735; no depth/portals/measured grade; no surface bridge or navigation depth invented."
+  }
+}

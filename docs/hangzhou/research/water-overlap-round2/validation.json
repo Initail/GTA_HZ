@@ -1,0 +1,13 @@
+{
+  "createdDate": "2026-11-11",
+  "contractDecisions": 3,
+  "unpassedPairs": 24,
+  "all27CoveredExactlyOnce": true,
+  "allInputHashesMatch": true,
+  "allEvidenceIdsResolve": true,
+  "geometryDryRun": "3 local checks passed; runtime and hydraulic acceptance not performed",
+  "writeScope": "this research directory only",
+  "blenderRun": false,
+  "browserRun": false,
+  "sourceSnapshotUpdated": false
+}

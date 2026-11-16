@@ -1,0 +1,28 @@
+{
+  "cityId": "hangzhou",
+  "basis": "estimated paints from actual reference photos, not measuredPBR/color management or currentnight acceptance",
+  "objects": {
+    "qiantang-bridges": {
+      "carpaint": {
+        "color": [
+          0.42,
+          0.67,
+          0.76
+        ],
+        "roughness": 0.35,
+        "metallic": 0.5,
+        "use": "blue Fuxing painted steel, estimate"
+      },
+      "civicred": {
+        "color": [
+          0.72,
+          0.055,
+          0.035
+        ],
+        "roughness": 0.4,
+        "metallic": 0.45,
+        "use": "red Zhijiang steel, estimate"
+      }
+    }
+  }
+}

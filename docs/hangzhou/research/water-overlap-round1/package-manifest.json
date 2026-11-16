@@ -1,0 +1,121 @@
+{
+  "asOfDate": "2026-10-16",
+  "scope": "Read-only source water overlap evidence, no runtime changes",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 11818,
+      "sha256": "eedac93cce55106f6218c5ce44370e6d908469fd22f4b1a17ad517078981d615"
+    },
+    {
+      "path": "all-55-pairs.md",
+      "bytes": 5886,
+      "sha256": "89b1f34cacffd670e862fd0a79b39c54b71feb517dcd0ddf2a0ebdf823c03421"
+    },
+    {
+      "path": "all-parts-crosswalk.json",
+      "bytes": 2732605,
+      "sha256": "83fdca400a89a6b0c8b324cd41fa9409b9cc09c18a245e9b7f222b745b131e1b"
+    },
+    {
+      "path": "body-measurements.json",
+      "bytes": 6084053,
+      "sha256": "8dc801b6d1c3f742ac380f6d4820e37ba4b575b8536b53326cefddf4f34195ec"
+    },
+    {
+      "path": "extract_raw.py",
+      "bytes": 3595,
+      "sha256": "67dd43b326557b2f746b62e836f2b2efb6ddeb9e13d09eee470bda4b05555f38"
+    },
+    {
+      "path": "fetch_references.py",
+      "bytes": 1199,
+      "sha256": "ba143e72869d911fc0c5d6388ca46dbe009109cc92ed6c8f83e1d056eac4f508"
+    },
+    {
+      "path": "freeze_report.py",
+      "bytes": 9805,
+      "sha256": "393fff2641bfd633b9c9e52e719db51bded418e7e89f16f2366b08381e989214"
+    },
+    {
+      "path": "map_all_parts.py",
+      "bytes": 5565,
+      "sha256": "a24b5a74cf49fee8c7f1890e045ebc89b15d4ecc54cc4897aac178c38dd84b37"
+    },
+    {
+      "path": "measure_pairs.py",
+      "bytes": 5174,
+      "sha256": "f488ded0abf73c41835d6b530fad3e6ddfb92bacbe2d73313122dc5e9d507cc7"
+    },
+    {
+      "path": "newly-visible-raw-metadata.json",
+      "bytes": 21871,
+      "sha256": "25a3487663b5ab67d78c68d2dfb34853d2ae6c639f2f0ea1b771302ac7b1f174"
+    },
+    {
+      "path": "online-evidence-observations.json",
+      "bytes": 3235,
+      "sha256": "1199471a4864aa7c93d7b304238d1878810c3408dc7d4a9f7afff121801adaca"
+    },
+    {
+      "path": "pair-measurements.json",
+      "bytes": 135204,
+      "sha256": "194d8f85efb957c0ebf5c6cf28f961c391a24c6eed1bc2012845b61f05856ffc"
+    },
+    {
+      "path": "pair-review.json",
+      "bytes": 127053,
+      "sha256": "4acb48d73c2d7ba8f94950cb565bdf8101c9aeef7cbcebded79b1433d9b1213d"
+    },
+    {
+      "path": "raw-osm-evidence.json",
+      "bytes": 2099707,
+      "sha256": "dc3990cd73573e8ea3a719c853e69b80534b1195e185cd8ca0a3d8c06db1a435"
+    },
+    {
+      "path": "reference-fetches.json",
+      "bytes": 1158,
+      "sha256": "1d1ce2bb3e863e01b560c04c1af27248835b94d88d476f3d9bead5ceafe92934"
+    },
+    {
+      "path": "references/government-lotus-net.html",
+      "bytes": 35446,
+      "sha256": "e162e89ca89dfd3d2ada776f6f7f509f993ce1bf98ddf1e0360e0a0cdcfa43be"
+    },
+    {
+      "path": "references/operator-lock-drainage-report.html",
+      "bytes": 21151,
+      "sha256": "5dc88f34e15909806f2dba1a4e894594101ecafc01b0f7c7e10bb15236dbfcbe"
+    },
+    {
+      "path": "restored-source-global-overlaps.json",
+      "bytes": 9694,
+      "sha256": "d3cf6f73bdeefaefdf2dfbf1970803eb111a1091481426f2b886be8ba4f77ad3"
+    },
+    {
+      "path": "review_pairs.py",
+      "bytes": 9741,
+      "sha256": "54c73a8e0a6b7de8d6b2624922c7c262beb769472611d3edcb8bf2e99325ecde"
+    },
+    {
+      "path": "source-catalog.json",
+      "bytes": 74863,
+      "sha256": "ea809d64e4a140dd0c243dd61fb42e49c044415b0c374a613363a71ba8051884"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 7434,
+      "sha256": "21887ccd609f214a67b2d4b40d19a3948a1dd1f98e904ef62f3c8a225a1f300f"
+    },
+    {
+      "path": "task.json",
+      "bytes": 1217,
+      "sha256": "85b1c632b2aa7d1f52199d3cbd668eb32ddb75078157d156dea4a9c73790d3f5"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 3651,
+      "sha256": "a366cc977145eaba6b9be76ff4174d5ce61314b429978c1002cc6e6d5c2c243c"
+    }
+  ]
+}

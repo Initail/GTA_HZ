@@ -1,0 +1,20 @@
+{
+  "sourceModuleSha256": "748bfd3fd82d9a8960b41e206d89d812fe14534bef655d5b98e9c1c2f1a00fef",
+  "specSha256": "075e0dad653e40889472d115598465765f27e434605ba15eac3ae1c2bd1a7ce5",
+  "command": "python3 docs/hangzhou/research/ali/cainiao-round2/render_cpu_preview.py",
+  "kind": "CPU orthographic painter geometry preview, not real game screenshot",
+  "images": [
+    {
+      "path": "docs/hangzhou/research/ali/cainiao-round2/cpu-preview-top.png",
+      "sha256": "4086dc1a692711d850d4c4899add7cd1a04737c03ac252264c36a8ceefc32adc"
+    },
+    {
+      "path": "docs/hangzhou/research/ali/cainiao-round2/cpu-preview-southeast.png",
+      "sha256": "48fef98df2ef71e1abaa7655718eb9e5096af1df12873d45a928c4d9f16c0402"
+    },
+    {
+      "path": "docs/hangzhou/research/ali/cainiao-round2/cpu-preview-east.png",
+      "sha256": "8e425e40f69ae7d3aa2d921f8d86e2ce8168d8cafb9f9e3383172346fcb5325b"
+    }
+  ]
+}

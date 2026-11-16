@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "actualAttempts": [
+    {
+      "action": "official references and actual PDF/photo review",
+      "result": "completed-limited",
+      "notes": "Six official photo views re-reviewed, research Fig5 viewed. No measuredfloor/cadastralboundary/steps inferred."
+    },
+    {
+      "action": "official restoration detail_46_778 text",
+      "result": "unavailable",
+      "notes": "www.lingyinsi.com timeout; org variant not accessible. Not used as a grounded source or height."
+    },
+    {
+      "action": "Adobe OFL font initial transfer",
+      "result": "partial-failed",
+      "notes": "35s timeout16,500,261/24,542,148bytes; initial Pillow partialfont load failed hmtx. Partialfile not used."
+    },
+    {
+      "action": "Adobe font bounded resumed transfer",
+      "result": "completed",
+      "sha256": "659c9606d8fda03372247b99ec5e5bbc5a034e06a70d80fb00546772c582d3e5",
+      "bytes": 24542148,
+      "notes": "Complete hash and FreeType font load checked before glyph generation."
+    },
+    {
+      "action": "first CPU triangle budget",
+      "result": "failed",
+      "triangles": 31858,
+      "ceiling": 30000,
+      "notes": "Budget kept30000; removed fully hidden contact faces and replaced fragmented ridge blocks with short closed curved strips."
+    },
+    {
+      "action": "first fixed OSM vertex comparison",
+      "result": "failed-and-corrected",
+      "notes": "Initial check assumedPolygon nesting. Actualprocessedfeatures are singlepartMultiPolygon; corrected ring extraction with strictpart/hole assertions, exact all5vertexsets then matched."
+    },
+    {
+      "action": "CPU geometry/API validation",
+      "result": "passed-host-contract-only",
+      "triangles": 29784,
+      "materials": 6,
+      "collisionPolygons": 348,
+      "notes": "Shellstream equality, independentgameY shifts, fixedcentroids/single.60, valid bounds, floor/step surfaces and explicitmissinginput rejection."
+    },
+    {
+      "action": "CPU drafts",
+      "result": "generated-and-actually-viewed",
+      "views": [
+        "cpu-top.png",
+        "cpu-street.png",
+        "cpu-distant.png",
+        "cpu-grand-plaque-close.png"
+      ],
+      "notes": "Original CPU previews using openly synthetic Y, not game/terrain/photo acceptance."
+    },
+    {
+      "action": "Blender/browser/shared assets/config",
+      "result": "not-run",
+      "reason": "Parent serially owns integration; only newsite module and round3 folder written"
+    }
+  ]
+}

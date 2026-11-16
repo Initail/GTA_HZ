@@ -1,0 +1,46 @@
+{
+  "renderer": "software WebGL / isolated Chrome",
+  "performanceAcceptance": false,
+  "checks": [
+    "manual welcome does not boot the game",
+    "current production main city initialized",
+    "real keyboard input changes car position",
+    "keyboard braking stops the car before exit",
+    "car exit loads public original rider and activates walking"
+  ],
+  "errors": [],
+  "driving": {
+    "before": {
+      "x": 251.6084181190593,
+      "z": -41.35940562122254,
+      "yaw": 3.1026976451747377,
+      "road": "展览东路附近 · 内部道路",
+      "speed": 0,
+      "steer": 0,
+      "distance": 0,
+      "height": 4.508299198351366,
+      "carY": 4.623299198351366
+    },
+    "after": {
+      "x": 251.62150652039622,
+      "z": -41.69574185214707,
+      "yaw": 3.1026976451747377,
+      "road": "展览东路附近 · 内部道路",
+      "speed": 2.2408019391281737,
+      "steer": 0,
+      "distance": 0.33659079975851736,
+      "height": 4.509115707448875,
+      "carY": 4.624671758196895
+    }
+  },
+  "stats": {
+    "rider": {
+      "loaded": true,
+      "name": "外卖骑手",
+      "loading": false,
+      "firstPerson": false
+    },
+    "mode": "walking"
+  },
+  "status": "passed"
+}

@@ -1,0 +1,308 @@
+{
+  "checkedAt": "2026-10-14",
+  "scope": "FiniteCPU/source candidate checks, noactualGLB/GPU/browser/navigation/visual/performanceacceptance",
+  "sourceModule": "scripts/landmarks/alibaba_a.py",
+  "sourceModuleSha256": "4f4a3a1d7da71283f2e1586a00184d9fc6eae3e82ced05dc3ee26884424e4113",
+  "specSha256": "8ee92298de649f1ddb246ea6701b986076b883a1346b2f922f2198ea2cffccf1",
+  "evidenceSha256": "6b4325c026f956eca7ff53912d5aa50457f13f6fa62659c9b16d85a586586683",
+  "checks": {
+    "exact13SourceAnd12ExclusionCorrespondence": true,
+    "A9HistoricalUnitsFullNetworkBlockersRetained": true,
+    "finiteGeometryAllModeledCorners": true,
+    "noSceneImportOrExport": true,
+    "singleScaleGameHeightProjection": true,
+    "frameRestoredOnSuccessAndError": true,
+    "sourceHoleRoofAndGroundVoids": true,
+    "concaveSourceFillArea": true,
+    "estimatedGlassRoofStripeDoesNotCutGround": true,
+    "fourLinkGroundUnderpassProbes": true,
+    "sourceSharedFaceSuppression": true,
+    "individualEstimatedHeightsNoUniform7FOr80m": true,
+    "triangleMaterialBudget": true
+  },
+  "report": {
+    "id": "alibaba-a",
+    "scope": "Finite currentA1–A8 source-shaped exterior and4source links, reference-informedKKAA facade family; no fullcurrentA/historicalsixunit/networkcompletion claim",
+    "mappedOfficeObjects": 8,
+    "mappedLinkObjects": 4,
+    "modeledSourceObjects": 12,
+    "sourceHoleCount": 11,
+    "estimatedNonGroundRooflightCount": 4,
+    "linkLatticeCrossStrandCount": 1896,
+    "linkTrussBayCount": 376,
+    "historicalSixUnitMapping": "unresolved; no1..6 automatic mapping",
+    "newLights": 0,
+    "photoTextures": 0,
+    "generatedFaces": 12019,
+    "triangleCountBeforeExport": 23912,
+    "materials": [
+      "concrete",
+      "darkglass",
+      "gold",
+      "landmarkglass",
+      "roof",
+      "silver",
+      "steel"
+    ],
+    "partTriangles": {
+      "A8": 2436,
+      "link-6750408": 1726,
+      "A7": 2426,
+      "link-6752573": 2732,
+      "A5": 2028,
+      "A6": 2014,
+      "link-6752593": 3046,
+      "A4": 1211,
+      "A2": 1520,
+      "link-642355050": 2270,
+      "A1": 1206,
+      "A3": 1297
+    },
+    "sourceFootprintIds": [
+      "relation/6750407",
+      "relation/6750408",
+      "relation/6750409",
+      "relation/6752573",
+      "relation/6752574",
+      "relation/6752575",
+      "relation/6752593",
+      "relation/6752592",
+      "way/642355049",
+      "way/642355050",
+      "way/642355051",
+      "way/642355052"
+    ],
+    "geographyCityId": "hangzhou",
+    "projectionOriginWGS84": [
+      120.155,
+      30.274
+    ],
+    "pendingSubscopes": [
+      "历史一期六个architectunits与现行A1–A9/各期映射blocker；官方平面功能图例数字不是楼号",
+      "A9身份/建筑师/现状外观/高度/入口blocker，未建模或排除；其他停车/商城/总站/服务/历史院落保留基础对象",
+      "完整>1km links及剧场/体育/图书/食堂等具体sourcefunction crosswalk blocker",
+      "每栋竣工楼高/课程与楼层/海拔地面基准；6levelOSM标签与项目7F口径不直接等同",
+      "A1–A4源无内环，屋顶玻璃条仅estimated外观，地面院落/入口/内部分区不当真实可通行结构",
+      "全侧折叠幕墙及镂空铝网真实网格/编织尺度、橙白色各link配准、屋顶设备/绿化/栏杆布局",
+      "links地面净高/支柱/台阶和地形接合/车辆穿行，四个源link孔洞只代表mapped数据",
+      "园内湿地/水面/植被进入基础管线；准确门洞/字牌/夜景灯具与光度",
+      "GLB导出、双排除/地面碰撞/道路可到达点/存档与驾驶、昼夜实机三视角、性能"
+    ],
+    "excludedSubscopeBlockers": [
+      {
+        "subject": "historical6offices vs currentA1–A9",
+        "blocker": "Architect2013 sixunit/7F project includes multiple connectedplates, while currentA has expansions and namedA1–A9. Officialplan legend numbers are functions, not A buildingnumbers. No automatic1..6 mapping; phase/year/officialname crosswalk pending."
+      },
+      {
+        "sourceIds": [
+          "way/456731145"
+        ],
+        "subject": "A9 currentcurvedbuilding",
+        "blocker": "Public/visitor building identity, architect, modern exterior/height/entrance not confirmed; base object retained."
+      },
+      {
+        "subject": "complete>1km linknetwork",
+        "blocker": "Four fixed mappedlinks are finite subset; architect reported>1km entire network and exact sourcefunction/hall/cafe/library mappings not established."
+      }
+    ]
+  },
+  "collisionPolygonCount": 243,
+  "sourcePlanAreaChecks": [
+    {
+      "sourceId": "relation/6750407",
+      "sourceOccupiedAreaM2": 6217.252776864141,
+      "candidateBandAreaM2": 6217.252776864131
+    },
+    {
+      "sourceId": "relation/6750408",
+      "sourceOccupiedAreaM2": 2110.809447340063,
+      "candidateBandAreaM2": 2110.8094473400624
+    },
+    {
+      "sourceId": "relation/6750409",
+      "sourceOccupiedAreaM2": 6654.58727295644,
+      "candidateBandAreaM2": 6654.587272956437
+    },
+    {
+      "sourceId": "relation/6752573",
+      "sourceOccupiedAreaM2": 3248.2543057283683,
+      "candidateBandAreaM2": 3248.2543057283633
+    },
+    {
+      "sourceId": "relation/6752574",
+      "sourceOccupiedAreaM2": 6252.348716422097,
+      "candidateBandAreaM2": 6252.348716422102
+    },
+    {
+      "sourceId": "relation/6752575",
+      "sourceOccupiedAreaM2": 5812.018056354517,
+      "candidateBandAreaM2": 5812.018056354504
+    },
+    {
+      "sourceId": "relation/6752593",
+      "sourceOccupiedAreaM2": 4464.698894829823,
+      "candidateBandAreaM2": 4464.698894829823
+    },
+    {
+      "sourceId": "relation/6752592",
+      "sourceOccupiedAreaM2": 5741.914497364701,
+      "candidateBandAreaM2": 5741.914497364701
+    },
+    {
+      "sourceId": "way/642355049",
+      "sourceOccupiedAreaM2": 7434.661420590517,
+      "candidateBandAreaM2": 7434.661420590518
+    },
+    {
+      "sourceId": "way/642355050",
+      "sourceOccupiedAreaM2": 1876.2930850089597,
+      "candidateBandAreaM2": 1876.293085008947
+    },
+    {
+      "sourceId": "way/642355051",
+      "sourceOccupiedAreaM2": 6278.188537160957,
+      "candidateBandAreaM2": 6278.188537160957
+    },
+    {
+      "sourceId": "way/642355052",
+      "sourceOccupiedAreaM2": 8484.739337241754,
+      "candidateBandAreaM2": 8484.739337241754
+    }
+  ],
+  "probes": [
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6750407",
+      "game": [
+        276.451428816659,
+        -143.27354561764162
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6750407",
+      "game": [
+        297.7978621193796,
+        -115.56703733464059
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6750408",
+      "game": [
+        295.1912591076472,
+        -87.58449493967242
+      ]
+    },
+    {
+      "kind": "link-underpass",
+      "sourceId": "relation/6750408",
+      "game": [
+        297.29282196116094,
+        -101.50699040901625
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6750409",
+      "game": [
+        260.7338724499343,
+        -62.90438475267645
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6752573",
+      "game": [
+        208.44016241380373,
+        -24.95135720197004
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6752573",
+      "game": [
+        211.8550144218737,
+        16.11453696171614
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6752573",
+      "game": [
+        212.8162534062558,
+        -2.6524569453693942
+      ]
+    },
+    {
+      "kind": "link-underpass",
+      "sourceId": "relation/6752573",
+      "game": [
+        197.99897095632633,
+        -27.24689678629332
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6752574",
+      "game": [
+        166.67100894627225,
+        -7.00248849432549
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6752575",
+      "game": [
+        254.0831378547695,
+        -1.9972916432992633
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6752593",
+      "game": [
+        118.41565728639294,
+        -31.306793203450702
+      ]
+    },
+    {
+      "kind": "mappedhole",
+      "sourceId": "relation/6752593",
+      "game": [
+        122.94473826688956,
+        9.636049609060663
+      ]
+    },
+    {
+      "kind": "link-underpass",
+      "sourceId": "relation/6752593",
+      "game": [
+        110.76569600420929,
+        4.3492314495549635
+      ]
+    },
+    {
+      "kind": "link-underpass",
+      "sourceId": "way/642355050",
+      "game": [
+        -97.59927864481614,
+        -158.72134572732665
+      ]
+    }
+  ],
+  "estimatedGlassRoofSourceIds": [
+    "relation/6752592",
+    "way/642355049",
+    "way/642355051",
+    "way/642355052"
+  ],
+  "sharedOccludedEdgeFragments": 47,
+  "limitations": [
+    "A9/completehistoricalphase/currentnumber mapping/fullbridgefunctions remainblockers",
+    "grounddoors/rooffacts/multilevelterrain/actualcolumnclearance unverified",
+    "coarsewovenmesh isgeometrysampling, notfullyreproducedstranddensity orcolour",
+    "referencephotocapturedateandexacteachfacegeolocationunknown; allsidePBR/nightnotaccepted",
+    "CPUpreviews arepaintergraphics, not exportedGLB/game screenshots; noactualFPS/GLBbytes/memory"
+  ]
+}

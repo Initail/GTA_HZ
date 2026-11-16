@@ -1,0 +1,238 @@
+{
+  "sourcePbfSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "sourceExtractSha256": "09501385a6e22ba8605abd85886faad38928ea636c9a572865d7ab4c9e0d2f7a",
+  "auxiliaryOverpassSha256": "51b94f3b65194f0db91008386eab82bb41dac16d25d83fb961ae04b0c2838392",
+  "method": "Every polygon compared exactly, cyclic first vertex and reversal only; no parcel buffer exclusion",
+  "matches": [
+    {
+      "sourceId": "way/1363020721",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 1,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020722",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020723",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020724",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 1,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 2,
+      "timestamp": "2026-01-07T02:46:47Z"
+    },
+    {
+      "sourceId": "way/1363020725",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 1,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020726",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": true,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020727",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020728",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020729",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020730",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 1,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020731",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020732",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 3,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020733",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": true,
+        "allCoordinatesExact": true
+      },
+      "version": 2,
+      "timestamp": "2025-03-08T08:20:41Z"
+    },
+    {
+      "sourceId": "way/1363020734",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020735",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 4,
+        "reverse": true,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020736",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 1,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 2,
+      "timestamp": "2025-03-08T08:20:41Z"
+    },
+    {
+      "sourceId": "way/1363020737",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 1,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020738",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020739",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 3,
+        "reverse": true,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020740",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 5,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020741",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 35,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020742",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 25,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    },
+    {
+      "sourceId": "way/1363020743",
+      "fixedPolygonMatchesAuxiliary": {
+        "startIndex": 0,
+        "reverse": false,
+        "allCoordinatesExact": true
+      },
+      "version": 1,
+      "timestamp": "2025-02-26T05:49:29Z"
+    }
+  ]
+}

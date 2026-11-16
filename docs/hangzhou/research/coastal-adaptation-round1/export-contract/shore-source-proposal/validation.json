@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-11",
+  "fixedPbfHashVerified": true,
+  "waterV3HashVerified": true,
+  "continuousProposals": 4,
+  "explicitRetainingWallProposal": 1,
+  "artEstimatedBoundaryProposals": 3,
+  "taggedRelationsExamined": 20,
+  "all48RelationMembersFound": true,
+  "selectedWallOriginalNodes": 14,
+  "allSelectedNodesInRiverBoundaryMember": true,
+  "selectedWallGameLength": 1635.4868905373655,
+  "selectedWallBoundaryMaxSampleErrorGame": 4.535350268218106e-13,
+  "heightMaterialMeasured": false,
+  "pathConnectivityAccepted": false,
+  "GlbOrBrowserRun": false,
+  "status": "source geometric/semantic proposal only; not physical or visual accepted"
+}

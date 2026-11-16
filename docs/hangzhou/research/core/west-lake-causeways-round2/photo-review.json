@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-10-14",
+  "reviewedBy": "ali_evidence",
+  "views": [
+    {
+      "source": "unesco-nomination",
+      "file": "references/unesco-causeway-aerial-p59.png",
+      "view": "aerial Su/Bai, photographed2006",
+      "supports": "long narrow planted banks; two geometrically distinct causeways, six Su crossings; not precise current shoreline or tree count"
+    },
+    {
+      "source": "unesco-nomination",
+      "file": "references/unesco-six-elevations-p78.png",
+      "view": "six side elevations; survey date unknown",
+      "supports": "single arch per named bridge, distinct envelope sizes and sloping ramps; printed Zhenlan label crosswalk is contextual Suolan, not a seventh bridge"
+    },
+    {
+      "source": "hangzhou-release-six-bridges",
+      "files": [
+        "references/hangzhou-release-879.jpg",
+        "references/hangzhou-release-887.jpg",
+        "references/hangzhou-release-891.jpg",
+        "references/hangzhou-release-892.jpg",
+        "references/hangzhou-release-893.jpg",
+        "references/hangzhou-release-895.jpg",
+        "references/hangzhou-release-897.jpg"
+      ],
+      "view": "elevated long view, pedestrian rail closeups and water-side bridge elevations",
+      "supports": "mapped north/south bridge sequence; semicircular void, visible rectangular stone courses, low open carved rail panels, willows near water; no surveyed georegistration"
+    },
+    {
+      "source": "jindai-original-photographer",
+      "files": [
+        "references/little_7westlakecausewaywalk_brg_09582.jpg",
+        "references/little_7westlakecausewaywalk_brg_09588.jpg",
+        "references/little_7westlakecausewaywalk_brg_09519.jpg"
+      ],
+      "view": "captioned western Jindai oblique side, near/far side along ramps, ordinary Bai rail closeup",
+      "supports": "one small arch amid long asphalt approaches, stone courses, low plain parapet; exact dimensions/night lights not verified"
+    }
+  ],
+  "notArchitectureEvidence": [
+    "hangzhou-release-882 is a historical painting, not a current measured plan"
+  ],
+  "differences": [
+    "UNESCO general6–8m span conflicts with specific2022 Wangshan4.7m, Dongpu5.9m; per-bridge reported values adopted.",
+    "2011 Su/Bai widths include planted land, while narrow bridge net width/core length differ; OSM line lengths include approaches.",
+    "No current2026 field photographs or calibrated bridge vertical alignment; geometry remains finite reference-informed candidate."
+  ]
+}

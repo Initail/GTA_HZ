@@ -1,0 +1,17 @@
+{
+  "triangles": 1626,
+  "domainSymmetricDifferenceGame2": 0.0,
+  "triangleAreaSumMinusUnionGame2": 1.8189894035458565e-12,
+  "positiveAreaOverlapsAbove1e12": [],
+  "sampleCount": 11865,
+  "ownershipFailures": 315,
+  "maximumOwnedHeightSpreadGame": 0.04949984469734048,
+  "sourceGlbHeightFailuresWithin1mmXY": 0,
+  "maxMatchedSourceGlbHeightErrorGame": 1.993876622918833e-06,
+  "maxMatchedSourceGlbProjectionDistanceGame": 0.0006872909717954953,
+  "fixedXyHeightDifferencesOver1mmAtStepSamples": 1456,
+  "slabMissingActualFaces": 0,
+  "onlyOneUpperWalkId": true,
+  "lowerStillNotWalkEnabled": true,
+  "noBrowserOrBlender": true
+}

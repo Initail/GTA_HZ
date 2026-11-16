@@ -1,0 +1,49 @@
+{
+  "id": "hz-tree-peach-lod2",
+  "cityId": "hangzhou",
+  "speciesId": "peach",
+  "lod": 2,
+  "season": "summer",
+  "anchor": {
+    "lon": 120.155,
+    "lat": 30.274,
+    "basis": "neutralcanonicaloriginforlocalassetexport, not a surveyedtree location"
+  },
+  "prototype": {
+    "id": "peach",
+    "name": "碧桃",
+    "scientificName": "Prunus persica ornamentalcultivar; exactcultivar unknown",
+    "leafHabit": "deciduous",
+    "form": "low-open-forked",
+    "sourceIds": [
+      "unesco-westlake"
+    ],
+    "prototypeHeightM": 5.0,
+    "prototypeCrownRadiusM": 2.8,
+    "prototypeBranchClearanceM": 1.5,
+    "trunkRadiusM": 0.13,
+    "dimensionsBasis": "estimated",
+    "heightErrorPlusMinusM": 1.5,
+    "crownRadiusErrorPlusMinusM": 0.9,
+    "dimensionMethod": "bounded procedural mature/maintained archetype selected from reportedlarge/smalltree categories andsourcecrown habit. Dimensions do not identify or measure anindividual real tree.",
+    "seasonBasis": "reported botanical/scene descriptions; exactyear/weather/pruning/cultivar dates unknown",
+    "latitudePositionInventory": "unknown; no species-tagged tree locations generated",
+    "growthStage": "representative maintained adult, not ancient-tree replica"
+  },
+  "paletteSpecSha256": "169ba70509814f3f8af96fd1592e0437fb6a57a93c849dccc235b757a221a995",
+  "scope": "eight original procedural regional tree archetypes ×threeLODs, localprototype coordinates; no individualtree census/reconstruction",
+  "baseBuildingIdsToExclude": [],
+  "pendingSubscopes": [
+    "actualtreeinventory/speciespositionsandperstreet/pruning/banktree counts",
+    "currentbotanicalleaf/bark close visualreview andspecies-specific multifacingfieldphotos",
+    "all absoluteprototype dimensions areestimated; actualindividual tree heights/DBH/crownspreadunknown",
+    "current2026 seasonal phenology/pruning/cultivar differences; palette isstatic selectableassetvariant, no claimofnewseason gameplay",
+    "parent Blenderexport/materialregistration/GLB budgets/manifests andinstanceplacements",
+    "GPU day/night materials/shadows andLOD popping/thininstance compatibility",
+    "clearance atroads/water/landmarks/cafe/pedestrianpaths andrealbrowser/performance"
+  ],
+  "budget": {
+    "maxTriangles": 220,
+    "maxMaterials": 3
+  }
+}

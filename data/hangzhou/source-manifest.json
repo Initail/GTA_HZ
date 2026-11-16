@@ -1,0 +1,24 @@
+{
+  "sourceUrl": "https://download.geofabrik.de/asia/china/zhejiang-261011.osm.pbf",
+  "sourcePage": "https://download.geofabrik.de/asia/china/zhejiang.html",
+  "downloadedAtUTC": "2026-10-12T10:09:47.554885+00:00",
+  "snapshot": "261011",
+  "sourceLastModified": "Mon, 12 Oct 2026 01:02:05 GMT",
+  "osmReplicationTimestamp": "2026-10-11T20:21:06Z",
+  "generator": "osmium/1.16.0",
+  "bytes": 90463400,
+  "md5": "1f2a11bd2fe688ef55633a1a87b91c34",
+  "sha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "checksumVerified": true,
+  "crs": "EPSG:4326",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "bboxWGS84": [
+    119.93,
+    30.16,
+    120.3,
+    30.34
+  ],
+  "status": "source-verified"
+}

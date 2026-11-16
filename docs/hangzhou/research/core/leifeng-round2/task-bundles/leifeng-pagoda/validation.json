@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "placeId": "leifeng-pagoda",
+  "artifactSha256": null,
+  "evidenceSha256": null,
+  "checks": {
+    "scale": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    },
+    "orientation": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    },
+    "silhouette": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    },
+    "context": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    },
+    "collision": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    },
+    "browser": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    },
+    "performance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    },
+    "provenance": {
+      "status": "unknown",
+      "evidencePaths": [],
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "notes": "Pending: no actual GLB or game runtime review. CPU report is not an eight-item verified acceptance."
+    }
+  },
+  "cpuCandidateReport": "docs/hangzhou/research/core/leifeng-round2/cpu-geometry-validation.json"
+}

@@ -1,0 +1,18 @@
+{
+  "placeId": "grand-theatre",
+  "status": "pending",
+  "fixedPoolFeatureId": null,
+  "fixedSourceLayerSearch": "water and pointplaces bounded[120.209,30.2452,120.2118,30.2476]",
+  "onlyIntersections": [
+    "way/583391654 QiantangRiver LineString",
+    "relation/8227206 wholeQiantangRiver MultiPolygon bbox; not a pool"
+  ],
+  "observedSourceIds": [
+    "theatre-high-photo",
+    "ott-grand",
+    "theatre-opening"
+  ],
+  "boundaryCRS": "unknown exactpool WGS84 polygon",
+  "candidateWaterPlanes": 0,
+  "integrationRule": "root basewaterpipeline only; no separate Bplane/watertexture; pond andsunkenstage completion pending"
+}

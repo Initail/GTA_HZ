@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "id": "civic-center",
+  "cityId": "hangzhou",
+  "scope": "Finite Civic Center core candidate: six mapped arc towers with reported109.6m/26-floor envelope, high annular enclosed connection, four exact mapped L podium plans, estimated lower curved central ring canopy/open roof garden, two mapped roof pavilions, bounded water/walk/greenery. Fullentry/G1G2/underground/site/terrain and runtime acceptance pending.",
+  "anchor": {
+    "lon": 120.20521943442597,
+    "lat": 30.248993004078663
+  },
+  "coordinateContract": "city_config Hangzhouproject only; physicalmetres *.60once, lm.x/z/y alreadygameunits",
+  "sourceSnapshotSha256": "4eb65f64925498408faeee7eb04b60d7eb8a01c49ddb239f73070d4d282c75a9",
+  "baseBuildingIdsToExclude": [
+    "relation/4762996",
+    "way/336830558",
+    "way/336830559",
+    "way/336830561",
+    "way/336830562",
+    "way/336830564",
+    "way/336830565",
+    "way/336828914",
+    "way/336828913",
+    "way/336828912",
+    "way/336828911",
+    "way/582480145",
+    "way/582480146"
+  ],
+  "preserveUndergroundIds": [
+    "way/336828917",
+    "way/336828929"
+  ],
+  "ringFootprintsWGS84": [
+    [
+      [
+        120.2041896,
+        30.2489718
+      ],
+      [
+        120.2042515,
+        30.248683
+      ],
+      [
+        120.2044191,
+        30.2484274
+      ],
+      [
+        120.2046741,
+        30.2482332
+      ],
+      [
+        120.2049886,
+        30.2481215
+      ],
+      [
+        120.205328,
+        30.2481046
+      ],
+      [
+        120.2056553,
+        30.2481843
+      ],
+      [
+        120.205877,
+        30.2483175
+      ],
+      [
+        120.2059127,
+        30.248339
+      ],
+      [
+        120.2059344,
+        30.248352
+      ],
+      [
+        120.2061349,
+        30.2485892
+      ],
+      [
+        120.2061647,
+        30.2486723
+      ],
+      [
+        120.2061917,
+        30.2487477
+      ],
+      [
+        120.2062343,
+        30.2488665
+      ],
+      [
+        120.2062247,
+        30.2491566
+      ],
+      [
+        120.2061072,
+        30.2494286
+      ],
+      [
+        120.2058944,
+        30.2496532
+      ],
+      [
+        120.2056091,
+        30.2498065
+      ],
+      [
+        120.2052818,
+        30.2498721
+      ],
+      [
+        120.2049475,
+        30.2498429
+      ],
+      [
+        120.204642,
+        30.249722
+      ],
+      [
+        120.204398,
+        30.2495225
+      ],
+      [
+        120.2042403,
+        30.2492622
+      ],
+      [
+        120.2041896,
+        30.2489718
+      ]
+    ],
+    [
+      [
+        120.2045065,
+        30.2489026
+      ],
+      [
+        120.2045149,
+        30.249102
+      ],
+      [
+        120.2045966,
+        30.2492885
+      ],
+      [
+        120.2047521,
+        30.2494496
+      ],
+      [
+        120.2049613,
+        30.2495562
+      ],
+      [
+        120.2051997,
+        30.2495959
+      ],
+      [
+        120.2054397,
+        30.2495643
+      ],
+      [
+        120.2056535,
+        30.2494649
+      ],
+      [
+        120.2058163,
+        30.2493093
+      ],
+      [
+        120.2059064,
+        30.2491256
+      ],
+      [
+        120.2059239,
+        30.2489267
+      ],
+      [
+        120.2058668,
+        30.2487334
+      ],
+      [
+        120.2057412,
+        30.248566
+      ],
+      [
+        120.2055602,
+        30.2484421
+      ],
+      [
+        120.2053429,
+        30.2483746
+      ],
+      [
+        120.2051121,
+        30.2483707
+      ],
+      [
+        120.2048919,
+        30.2484308
+      ],
+      [
+        120.2047054,
+        30.2485484
+      ],
+      [
+        120.2045723,
+        30.2487114
+      ],
+      [
+        120.2045065,
+        30.2489026
+      ]
+    ]
+  ],
+  "components": [
+    {
+      "name": "A",
+      "sourceId": "way/336830558",
+      "role": "tower",
+      "footprintWGS84": [
+        [
+          120.2053287,
+          30.248324
+        ],
+        [
+          120.2053322,
+          30.2480886
+        ],
+        [
+          120.2054773,
+          30.2480917
+        ],
+        [
+          120.2056224,
+          30.2481284
+        ],
+        [
+          120.2057746,
+          30.2481834
+        ],
+        [
+          120.2058548,
+          30.2482284
+        ],
+        [
+          120.2059162,
+          30.2482629
+        ],
+        [
+          120.205764,
+          30.2484433
+        ],
+        [
+          120.2056437,
+          30.2483729
+        ],
+        [
+          120.2054986,
+          30.2483393
+        ],
+        [
+          120.2053287,
+          30.248324
+        ]
+      ]
+    },
+    {
+      "name": "B",
+      "sourceId": "way/336830559",
+      "role": "tower",
+      "footprintWGS84": [
+        [
+          120.2044376,
+          30.2484312
+        ],
+        [
+          120.2045243,
+          30.2483307
+        ],
+        [
+          120.2046427,
+          30.2482495
+        ],
+        [
+          120.2047826,
+          30.248174
+        ],
+        [
+          120.2049395,
+          30.24812
+        ],
+        [
+          120.2050385,
+          30.2483607
+        ],
+        [
+          120.2048934,
+          30.2483882
+        ],
+        [
+          120.2047706,
+          30.2484587
+        ],
+        [
+          120.204658,
+          30.2485697
+        ],
+        [
+          120.2044376,
+          30.2484312
+        ]
+      ]
+    },
+    {
+      "name": "C",
+      "sourceId": "way/336830561",
+      "role": "tower",
+      "footprintWGS84": [
+        [
+          120.2042209,
+          30.2489814
+        ],
+        [
+          120.2042669,
+          30.248749
+        ],
+        [
+          120.2045182,
+          30.2487918
+        ],
+        [
+          120.2044793,
+          30.2489202
+        ],
+        [
+          120.2044934,
+          30.2491128
+        ],
+        [
+          120.2045395,
+          30.2492198
+        ],
+        [
+          120.2042952,
+          30.2492963
+        ],
+        [
+          120.2042209,
+          30.2489814
+        ]
+      ]
+    },
+    {
+      "name": "D",
+      "sourceId": "way/336830562",
+      "role": "tower",
+      "footprintWGS84": [
+        [
+          120.2047943,
+          30.2497518
+        ],
+        [
+          120.2049005,
+          30.2495653
+        ],
+        [
+          120.2049642,
+          30.2495928
+        ],
+        [
+          120.2052225,
+          30.2496234
+        ],
+        [
+          120.2053181,
+          30.2495989
+        ],
+        [
+          120.2053216,
+          30.2498374
+        ],
+        [
+          120.2052579,
+          30.2498527
+        ],
+        [
+          120.20495,
+          30.2498221
+        ],
+        [
+          120.2047943,
+          30.2497518
+        ]
+      ]
+    },
+    {
+      "name": "E",
+      "sourceId": "way/336830564",
+      "role": "tower",
+      "footprintWGS84": [
+        [
+          120.2055871,
+          30.2495317
+        ],
+        [
+          120.2056932,
+          30.2494797
+        ],
+        [
+          120.2058454,
+          30.2493268
+        ],
+        [
+          120.2058773,
+          30.2492535
+        ],
+        [
+          120.2061002,
+          30.2493788
+        ],
+        [
+          120.2060861,
+          30.2494124
+        ],
+        [
+          120.2059587,
+          30.2495408
+        ],
+        [
+          120.2058702,
+          30.2496326
+        ],
+        [
+          120.2056791,
+          30.2497334
+        ],
+        [
+          120.2055871,
+          30.2495317
+        ]
+      ]
+    },
+    {
+      "name": "F",
+      "sourceId": "way/336830565",
+      "role": "tower",
+      "footprintWGS84": [
+        [
+          120.2059197,
+          30.2488193
+        ],
+        [
+          120.2061533,
+          30.2487398
+        ],
+        [
+          120.2061993,
+          30.248856
+        ],
+        [
+          120.2062029,
+          30.2491526
+        ],
+        [
+          120.2061923,
+          30.2491801
+        ],
+        [
+          120.2059339,
+          30.2491281
+        ],
+        [
+          120.2059516,
+          30.2489233
+        ],
+        [
+          120.2059197,
+          30.2488193
+        ]
+      ]
+    },
+    {
+      "name": "H",
+      "sourceId": "way/336828914",
+      "role": "podium",
+      "footprintWGS84": [
+        [
+          120.2044953,
+          30.2476539
+        ],
+        [
+          120.2050788,
+          30.2472783
+        ],
+        [
+          120.2052671,
+          30.2474966
+        ],
+        [
+          120.2055782,
+          30.2472963
+        ],
+        [
+          120.2060881,
+          30.2478875
+        ],
+        [
+          120.205866,
+          30.2480305
+        ],
+        [
+          120.2055012,
+          30.2476075
+        ],
+        [
+          120.2048286,
+          30.2480404
+        ],
+        [
+          120.2044953,
+          30.2476539
+        ]
+      ]
+    },
+    {
+      "name": "J",
+      "sourceId": "way/336828913",
+      "role": "podium",
+      "footprintWGS84": [
+        [
+          120.2032062,
+          30.2487691
+        ],
+        [
+          120.2035481,
+          30.2485487
+        ],
+        [
+          120.2033928,
+          30.2483689
+        ],
+        [
+          120.2040177,
+          30.2479661
+        ],
+        [
+          120.2043771,
+          30.2483821
+        ],
+        [
+          120.2036995,
+          30.2488189
+        ],
+        [
+          120.2041543,
+          30.2493454
+        ],
+        [
+          120.2040887,
+          30.2493877
+        ],
+        [
+          120.2041457,
+          30.2494537
+        ],
+        [
+          120.2037462,
+          30.2497112
+        ],
+        [
+          120.203274,
+          30.2491646
+        ],
+        [
+          120.2034499,
+          30.2490512
+        ],
+        [
+          120.2032062,
+          30.2487691
+        ]
+      ]
+    },
+    {
+      "name": "K",
+      "sourceId": "way/336828912",
+      "role": "podium",
+      "footprintWGS84": [
+        [
+          120.2040608,
+          30.2501119
+        ],
+        [
+          120.204523,
+          30.2498165
+        ],
+        [
+          120.2050365,
+          30.2504161
+        ],
+        [
+          120.205738,
+          30.2499677
+        ],
+        [
+          120.2060604,
+          30.2503441
+        ],
+        [
+          120.2054643,
+          30.2507251
+        ],
+        [
+          120.20529,
+          30.2505215
+        ],
+        [
+          120.2050056,
+          30.2507033
+        ],
+        [
+          120.2048311,
+          30.2504995
+        ],
+        [
+          120.2045477,
+          30.2506805
+        ],
+        [
+          120.2040608,
+          30.2501119
+        ]
+      ]
+    },
+    {
+      "name": "L",
+      "sourceId": "way/336828911",
+      "role": "podium",
+      "footprintWGS84": [
+        [
+          120.206199,
+          30.2496508
+        ],
+        [
+          120.2068114,
+          30.2492788
+        ],
+        [
+          120.2064395,
+          30.248822
+        ],
+        [
+          120.2066806,
+          30.2486756
+        ],
+        [
+          120.207223,
+          30.2493419
+        ],
+        [
+          120.2069331,
+          30.249518
+        ],
+        [
+          120.2071062,
+          30.2497306
+        ],
+        [
+          120.2065426,
+          30.250073
+        ],
+        [
+          120.206199,
+          30.2496508
+        ]
+      ]
+    },
+    {
+      "name": "G-roof-pavilion",
+      "sourceId": "way/582480145",
+      "role": "roof-pavilion",
+      "footprintWGS84": [
+        [
+          120.2051547,
+          30.2489949
+        ],
+        [
+          120.205162,
+          30.2489627
+        ],
+        [
+          120.2051816,
+          30.2489346
+        ],
+        [
+          120.2052111,
+          30.2489139
+        ],
+        [
+          120.2052469,
+          30.248903
+        ],
+        [
+          120.2052849,
+          30.2489032
+        ],
+        [
+          120.2053178,
+          30.2489133
+        ],
+        [
+          120.2053454,
+          30.2489316
+        ],
+        [
+          120.2053649,
+          30.2489565
+        ],
+        [
+          120.2053746,
+          30.2489855
+        ],
+        [
+          120.2053733,
+          30.2490155
+        ],
+        [
+          120.2053612,
+          30.2490438
+        ],
+        [
+          120.2053396,
+          30.2490673
+        ],
+        [
+          120.2053105,
+          30.2490839
+        ],
+        [
+          120.2052769,
+          30.2490918
+        ],
+        [
+          120.2052421,
+          30.2490903
+        ],
+        [
+          120.2052068,
+          30.2490781
+        ],
+        [
+          120.2051785,
+          30.2490562
+        ],
+        [
+          120.2051604,
+          30.2490274
+        ],
+        [
+          120.2051547,
+          30.2489949
+        ]
+      ]
+    },
+    {
+      "name": "roof-oval",
+      "sourceId": "way/582480146",
+      "role": "roof-pavilion",
+      "footprintWGS84": [
+        [
+          120.2053654,
+          30.248783
+        ],
+        [
+          120.205371,
+          30.2487684
+        ],
+        [
+          120.2053823,
+          30.2487514
+        ],
+        [
+          120.2054034,
+          30.2487356
+        ],
+        [
+          120.2054372,
+          30.2487307
+        ],
+        [
+          120.2054695,
+          30.2487331
+        ],
+        [
+          120.2055005,
+          30.2487453
+        ],
+        [
+          120.205523,
+          30.2487599
+        ],
+        [
+          120.2055315,
+          30.2487793
+        ],
+        [
+          120.2055315,
+          30.2487988
+        ],
+        [
+          120.2055174,
+          30.2488134
+        ],
+        [
+          120.2054949,
+          30.2488268
+        ],
+        [
+          120.2054794,
+          30.2488292
+        ],
+        [
+          120.2054484,
+          30.2488316
+        ],
+        [
+          120.2054203,
+          30.2488255
+        ],
+        [
+          120.2053907,
+          30.2488134
+        ],
+        [
+          120.205378,
+          30.2488037
+        ],
+        [
+          120.2053654,
+          30.248783
+        ]
+      ]
+    }
+  ],
+  "reported": {
+    "towerArchitecturalHeightM": 109.6,
+    "highestOccupiedHeightM": 99.4,
+    "towerFloorCount": 26,
+    "towerRecordsRead": [
+      "cvu1",
+      "cvu2",
+      "cvu3",
+      "cvu4",
+      "cvu5",
+      "cvu6"
+    ],
+    "cvuOrdinalToLetterMapping": "unknown; allsix independentlysameheight so no ordinalmatch assumed"
+  },
+  "estimates": {
+    "bodyHeightM": {
+      "value": 99.4,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "CVU highestoccupiedlevel adopted as finite glassbody termination; real roofwall/crowntransition not surveyed",
+      "uncertainty": "±3m; highestoccupied is not guaranteed walltop"
+    },
+    "spandrelBandM": {
+      "value": 0.35,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "actual south/west glass facade horizontalbands as proportion offloorpitch",
+      "uncertainty": "±.15m; exactfloorsections/panelgrid pending"
+    },
+    "mullionPitchM": {
+      "value": 3.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "actual glass/metal photo rhythm with reported26floors as verticalguide",
+      "uncertainty": "±25%; finite combined line sampling, no exactwindowcount"
+    },
+    "mullionWidthM": {
+      "value": 0.12,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "bounded curtainwall seam representation from near photos",
+      "uncertainty": "±.06m; view/readability approximation"
+    },
+    "bridgeBottomM": {
+      "value": 85.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "CVU calls85m bridge; choose candidate underside85, conflict with designer90 retained",
+      "uncertainty": "±4m; not a reconciled surveyed underside"
+    },
+    "bridgeTopM": {
+      "value": 92.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "two-three storey-looking closedlink depth from actual realphotos vs109.6m tower",
+      "uncertainty": "±4m; not interpreted as designer90m roof"
+    },
+    "podiumHeightM": {
+      "value": 16.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "representative4-layer low glazedLbuilding proportions inactual2023west/south",
+      "uncertainty": "±3m and±1storey; sourceH80 rejected"
+    },
+    "podiumFloorSamples": {
+      "value": 4,
+      "unit": "row",
+      "basis": "estimated",
+      "method": "photo-relative lowbuilding horizontaldivision count",
+      "uncertainty": "representative not exactasbuilt schedule"
+    },
+    "centralDeckM": {
+      "value": 24.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "central meetingbuilding roofgarden elevatedlevel from realphotos relative99.4m glassbody, earlytechnical24m secondary not promoted measured",
+      "uncertainty": "±4m; grounddatum/terrain/G entrancelevel pending"
+    },
+    "centralRadiusM": {
+      "value": 64.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "source dome21m envelope and actual courtyard-aerial proportions, perspective allowance",
+      "uncertainty": "±6m; centralmappedG only smallroofpavilion, not wholegarden footprint"
+    },
+    "canopyInnerMeanRadiusM": {
+      "value": 51.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "irregular edge in actual courtyard3, dome reference andoutercircle ratio",
+      "uncertainty": "±5m; controlwavesoriginalphotoinformed not exact gardenboundary"
+    },
+    "canopyInnerWavesM": {
+      "value": [
+        3.5,
+        2.2
+      ],
+      "unit": "m",
+      "basis": "estimated",
+      "method": "two bounded wave amplitudes recover the irregular inwardgardenedge from actualaerial",
+      "uncertainty": "±40%; landscaping detail not survey"
+    },
+    "canopyOuterHeightAboveDeckM": {
+      "value": 2.6,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "rounded roof profile abovegarden from actuallandscape4/court3",
+      "uncertainty": "±1.5m"
+    },
+    "canopyInnerHeightAboveDeckM": {
+      "value": 0.45,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "canopy rises outside andcomesdown toopen gardenedge in actualphoto",
+      "uncertainty": "±.8m"
+    },
+    "canopyThicknessM": {
+      "value": 0.55,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "thin shell/edge representation",
+      "uncertainty": "±.3m; no structuraldesign"
+    },
+    "domeBaseAboveDeckM": {
+      "value": 1.1,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "source centralroundpavilion mapsplan andactualphoto glasswall",
+      "uncertainty": "±.8m"
+    },
+    "domeRiseM": {
+      "value": 3.6,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "shallow radialglassroof proportion to21m sourceplan",
+      "uncertainty": "±1.3m"
+    },
+    "ovalHeightAboveDeckM": {
+      "value": 5.0,
+      "unit": "m",
+      "basis": "estimated",
+      "method": "actual secondpavilion glasswall/tippedflatoval frommapped15.98×11.19m plan",
+      "uncertainty": "±2m; purpose/inside pending"
+    },
+    "gardenSamples": {
+      "value": {
+        "treeCount": 18,
+        "waterRadiusM": 19,
+        "waterWaveM": 4,
+        "pathWidthM": 2.4
+      },
+      "unit": "mixed",
+      "basis": "estimated",
+      "method": "bounded representative lawns/wavy water/stonewalks/shortstairs/benches guided byactualLDG5/6 andcourt3; map-derivedtwopavilion phase",
+      "uncertainty": "positions/shape±25%, treecount representative; no exactlandscape/openaccessclaim"
+    }
+  },
+  "referenceImages": [
+    {
+      "id": "council-south",
+      "url": "https://images.skyscrapercenter.com/complex/2015-06-04-15-44-44_hangzhouciviccenter_ext_overallclosesouthview3_(c)tjadri.jpg",
+      "bytes": 92991,
+      "sha256": "c93cdf8a3ca8c514b2d356eb3829a6b6dbe86fd0ad1584aff307da52dd9f7596",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-complex",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "south towards north estimate0±25°"
+    },
+    {
+      "id": "council-court2",
+      "url": "https://images.skyscrapercenter.com/complex/2015-06-04-15-44-44_hangzhouciviccenter_courtview2_(c)tjadri.jpg",
+      "bytes": 144535,
+      "sha256": "e3dcf48b016a4b6e1145ad6e85b21e23f9116cb7001567631fb68d176cc92d37",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-complex",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "courtyard towards southeast estimate135±35°"
+    },
+    {
+      "id": "council-court3",
+      "url": "https://images.skyscrapercenter.com/complex/2015-06-04-15-44-44_hangzhouciviccenter_courtview3_(c)tjadri.jpg",
+      "bytes": 128312,
+      "sha256": "f3ae2ad259126007e9676b6932df44336a5cbaf3998fea0c5ecc8e16db16399c",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-complex",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-0",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/98ade8e4b45440a99aba3cb8c1d2aead.png",
+      "bytes": 407982,
+      "sha256": "031957d01c2db7fead46d3b34ef91ca09031c0a925bca3b55ff0246834195d11",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "design-plan-not-builtphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-1",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/04fbc7b700a544a5be849db109fa6a7b.png",
+      "bytes": 1049143,
+      "sha256": "7c1d9ae70baa402ea6b31852ad515bac0dd77f4a17e90599a4f587fcf5dc708c",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-2",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/3b586822974a4fb8867307823b2384aa.jpg",
+      "bytes": 411241,
+      "sha256": "c2050e9bf9ca5c9a5014ead84b604ccf26021938657affc211a95c46959cf032",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "courtyard towards southeast estimate135±35°"
+    },
+    {
+      "id": "landscape-3",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/092367a3098c4da5a443ce0ed1b7441e.jpg",
+      "bytes": 536490,
+      "sha256": "c4bb9d2772648b8cece9bc5325534a74cb3ef27820a07a81ed30e5e0b28e4eac",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-4",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/faf7753641c34895b1370f1b0b89588a.png",
+      "bytes": 417865,
+      "sha256": "2943546ba991cac774edb847b95616d2368b70d9a699b39624b6f913c76dc629",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-5",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/7e7ccf6230d74ff992c3ee00d4e23575.png",
+      "bytes": 533627,
+      "sha256": "a3b87d6eb3c583e4fbb2cf6b7563c1e567abac26404bf65bfb58202b461959a4",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "landscape-6",
+      "url": "https://www.ldgpartner.com/ImgUpload/201308/e74ad485db614b1abddf18f56b192cac.png",
+      "bytes": 1153177,
+      "sha256": "cde27a1691bb0554a3eedc93441e325250a725939dbc9c62b42c9bc2f9a1f0ea",
+      "captureDate": null,
+      "bundled": false,
+      "license": "unknown; reference-only",
+      "sourceId": "civic-landscape",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "absoluteazimuthunknown"
+    },
+    {
+      "id": "commons-2023",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hangzhou_Citizen%27s_Centre_20231205163814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "bytes": 2858193,
+      "sha256": "f5fcb94d58f5332a53ceb288f44138ed05fc887df5484e590210ca45c1d71d2b",
+      "captureDate": "2023-12-05 16:38:14",
+      "author": "XiaYZ2023",
+      "license": "CC BY-SA 4.0",
+      "description": "Seen from west to east",
+      "bundled": false,
+      "sourceId": "civic-west-photo",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "realphoto",
+      "viewDirection": "west-to-east90° reported"
+    },
+    {
+      "id": "commons-map",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangzhou_Civic_Center_map.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "bytes": 647203,
+      "sha256": "99e5f01c981bb592b03bf603bf97ad2597cad286a6af282d0dfd09a89071356b",
+      "captureDate": "2012-10-03 17:02:43",
+      "author": "Huandy618",
+      "license": "CC BY-SA 3.0",
+      "description": "Hangzhou citizen center map",
+      "bundled": false,
+      "sourceId": "civic-site-map",
+      "reviewedAt": "2026-10-14",
+      "reviewMethod": "actual view_image",
+      "imageType": "onsiteoperator-map-photo",
+      "viewDirection": "map-facingwest; schematiconly"
+    }
+  ],
+  "pendingSubscopes": [
+    "precise bridge85/90m datum/underside/roof and realstructuralmembers",
+    "fullcentralG/G1/G2 ceremonialhall envelope andentrances, basement/metro corridors",
+    "survey ground/terrain datum and centralroofgardenheight/geometry",
+    "allgrounddoors, accessibleplatform/stairs, arrival/collision and publicaccess currentstate",
+    "exact curtainwall seams/PBR metallicglass and night lighting",
+    "currentGLB, namedvisual review, browser/performance and complete2026 facadecondition"
+  ],
+  "budget": {
+    "maxTriangles": 25000,
+    "maxMaterials": 12,
+    "maxBytes": 8388608
+  }
+}

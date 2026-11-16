@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "qiantang-bridge-collision",
+  "cityId": "hangzhou",
+  "scope": "CPU collision envelope adapter for the exact frozen rendered three-bridge main structures; source decks are separate surfaces and known gaps stay blocked from acceptance",
+  "anchor": {
+    "lon": 120.134374525,
+    "lat": 30.195734025
+  },
+  "sourceModule": "scripts/landmarks/qiantang_bridges.py",
+  "sourceModuleSha256": "2c4bb9829077ce7da1b9608d487001656c5cff3b0075b02959b5d5a058734734",
+  "sourceSpec": "docs/hangzhou/research/core/qiantang-bridges-round2/spec.json",
+  "sourceSpecSha256": "648777e9482509e7130ce633bcd8a26ed1a5759963586e122f90bd0fe5063f58",
+  "associatedAppearanceArtifact": "artifacts/cities/hangzhou/landmarks/qiantang-bridges-v1/qiantang-bridges.glb",
+  "associatedAppearanceArtifactSha256": "cb88432457045d60fe51f424ec4b3d766f4465eedd3779895c8422ae506676fd",
+  "waterDisplayHeightGame": {
+    "value": 0.9,
+    "basis": "estimated parent display datum",
+    "uncertainty": "not a surveyed water/ground elevation; original photo deck estimates ±5m real height retained",
+    "method": "exact source appearance delivery baseYGame; lm.y passed unchanged in game units"
+  },
+  "interfaces": {
+    "ground_footprints": "solid EN polygons with explicit minYGame/maxYGame; bridges decks excluded",
+    "walk_surfaces": "road top rectangles; mode rail explicitly separate",
+    "source_road_profiles": "15 source road profiles and finite actual deck regions; estimated opt-in required",
+    "surface_at_game": "one way plus mode; height None on actual coverage/height mismatch",
+    "profile_geometry_audit": "source nodes and <=20m samples with actual deck gaps/height differences",
+    "collision_report": "nonempty source counts, bounds and pending collision acceptance"
+  },
+  "boundaryMethod": "replay original isolated B.face; tube ring vertices from actual emitted quads; pylon consecutive emitted rows; convex EN projection x explicit Y interval. Inclined tubes subdivided <=4game m horizontal and <=1.2game m rise; original3D vertices retained",
+  "contactUncertainty": "conservative projected prisms can overblock sloped/curved members; no precise actor sweep or measured clearance claim",
+  "unmodelledKinds": [
+    "bank-abutments",
+    "approach structural supports/sloped deck slabs",
+    "surveyed actor-clearance portals"
+  ],
+  "missingGeometryNotTrafficClosure": true,
+  "baseBuildingIdsToExclude": [],
+  "budget": {
+    "status": "provisional CPU envelope budget",
+    "maxEnvelopes": 10000,
+    "newRenderedTriangles": 0,
+    "sourceRenderedTriangles": 24148,
+    "sourceMaterials": 5,
+    "runtimePerformance": "pending"
+  },
+  "pending": [
+    "bridge source road core/approach curve mismatch",
+    "absolute deck/terrain/water datum",
+    "parent surface/slab contacts and source-way actor selection",
+    "fine height-aware collision narrow phase",
+    "precise bank abutments",
+    "actor radii/height and lane permissions",
+    "real driving/walking no walls/falls",
+    "in-game views/browser/night/performance"
+  ]
+}

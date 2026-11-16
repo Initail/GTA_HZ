@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nbbj",
+    "url": "https://www.nbbj.cn/work/hangzhou-olympic-sports-center/",
+    "error": "<urlopen error [Errno 9] Bad file descriptor>",
+    "status": "failed"
+  },
+  {
+    "id": "ag2021",
+    "url": "https://www.hangzhou2022.cn/En/presscenter/spotnews/latestnews/202105/t20210513_11887.shtml",
+    "error": "<urlopen error [Errno 9] Bad file descriptor>",
+    "status": "failed"
+  },
+  {
+    "id": "ag2022-motion",
+    "url": "https://www.hangzhou2022.cn/xwzx/jdxw/ttxw/202206/t20220627_50173.shtml",
+    "error": "<urlopen error [Errno 9] Bad file descriptor>",
+    "status": "failed"
+  },
+  {
+    "id": "operator",
+    "url": "https://www.hangzhouopen.com/en/venue/",
+    "error": "<urlopen error [Errno 9] Bad file descriptor>",
+    "status": "failed"
+  },
+  {
+    "id": "technical-repost",
+    "url": "https://www.d-arts.cn/article/article_info/key/MTIwNzYzMjc5ODeEqYmrsYaocw.html",
+    "error": "<urlopen error [Errno 9] Bad file descriptor>",
+    "status": "failed"
+  }
+]

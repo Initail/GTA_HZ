@@ -1,0 +1,61 @@
+{
+  "id": "little-lotus",
+  "scope": "Source-bound finite Little Lotus exterior/bowl candidate:24 fixed wall-roof petals from mapped plan phase,8 upper static open-reference petals with center opening, low glazed concourse, red/grey bowl and regulation-form tennis court. Full podium/site/entrances and gameplay/runtime verification pending.",
+  "fixedPetalCount": 24,
+  "upperPetalCount": 8,
+  "roofState": "open-static",
+  "roofAnimationImplemented": false,
+  "mechanicalAxesVerified": false,
+  "upperPetalMinimumPlanRadiusM": 29.75,
+  "candidateHeightM": 40.0,
+  "generatedFaces": 9563,
+  "triangleCountBeforeExport": 19078,
+  "materials": [
+    "carpaint",
+    "civicred",
+    "concrete",
+    "darkglass",
+    "landmarkglass",
+    "roadline",
+    "roof",
+    "silver",
+    "steel"
+  ],
+  "newLights": 0,
+  "geographyCityId": "hangzhou",
+  "projectionOriginWGS84": [
+    120.155,
+    30.274
+  ],
+  "sourceSpec": "docs/hangzhou/research/core/little-lotus-round2/spec.json",
+  "collisionStatus": "pending; mapped conservative envelope only, portals not traversability acceptance",
+  "checks": {
+    "finiteVertices": true,
+    "noDegenerateTriangleFans": true,
+    "mappedFootprintProjection": true,
+    "twentyFourPlusEightSeparateRoles": true,
+    "staticOpenOnlyNoAnimationClaim": true,
+    "upperPanelsLeaveCentralOpening": true,
+    "oneTimeScaleAndGameBasePreserved": true,
+    "frameRestoredOnSuccessAndFailure": true,
+    "shiftedLmSourceAnchoring": true,
+    "cpuTrianglesMaterialsWithinBudget": true,
+    "noSceneImports": true,
+    "neighborNotExcluded": true
+  },
+  "sourceModuleSha256": "07b08ed826524d827621a1a3937d154fcfc7db7e6b46758233317ed76054f66c",
+  "specSha256": "df2d0b252c48cc342ca282f14d00443e20454a1cc585f2bf4ee825a0c318d680",
+  "boundsGameENU": {
+    "min": [
+      4230.0359488748045,
+      -2980.1748730971804,
+      2.5
+    ],
+    "max": [
+      4314.020638181992,
+      -2896.3756429160626,
+      26.5
+    ]
+  },
+  "validationScope": "Pure FakeB primitive recording only; not actual GLB/Blender triangulation, current visual/material, physics, browser, night, mechanical simulation or FPS acceptance"
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "placeId": "little-lotus",
+  "artifactPath": "artifacts/cities/hangzhou/landmarks/little-lotus-v1/little-lotus.glb",
+  "sourceModule": "scripts/landmarks/little_lotus.py",
+  "sha256": "7f1fe787d613f319ba2297f5b9b8125a9b0fa895cfea3fecab791a4da8a64eef",
+  "sourceModuleSha256": "07b08ed826524d827621a1a3937d154fcfc7db7e6b46758233317ed76054f66c",
+  "artifactMeshPrefix": null,
+  "accuracyClaim": "reference-informed",
+  "estimatedParameters": [
+    "candidateHeightM",
+    "openingRadiusM",
+    "fixedPetalSections",
+    "fixedPetalTwistDegrees",
+    "fixedPetalCrossCamberM",
+    "panelThicknessM",
+    "podiumHeightM",
+    "upperRoofBaseM",
+    "upperPetalPhaseDegrees",
+    "upperStaticProfile",
+    "upperSeatRowSamples",
+    "courtAbsoluteOrientation",
+    "portalsAndConcourse"
+  ],
+  "buildCommand": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/build_hangzhou_landmark_candidate.py -- --job docs/hangzhou/research/core/little-lotus-round2/task-bundles/little-lotus/job.json --spec docs/hangzhou/research/core/little-lotus-round2/spec.json --module scripts/landmarks/little_lotus.py --output artifacts/cities/hangzhou/landmarks/little-lotus-v1",
+  "candidateCommand": "python3 docs/hangzhou/research/core/little-lotus-round2/validate_candidate.py",
+  "candidateReport": "docs/hangzhou/research/core/little-lotus-round2/cpu-geometry-validation.json",
+  "status": "model-exported-not-verified",
+  "sourceSpec": "docs/hangzhou/research/core/little-lotus-round2/spec.json",
+  "sourceSpecSha256": "df2d0b252c48cc342ca282f14d00443e20454a1cc585f2bf4ee825a0c318d680",
+  "sourceInputs": [
+    {
+      "path": "config/cities/hangzhou.json",
+      "sha256": "71198717fe1890f5216d39ee801ca89d9d89376b22a2ac6b9bd29b6f0c3fcf4c"
+    }
+  ],
+  "exportLog": {
+    "path": "docs/hangzhou/audit/little-lotus-blender-v1.log",
+    "sha256": "4cd655a87e465692038aa499896de89cc4fc36930863ebdf5caba4d61b1b4efa"
+  },
+  "modelDeliverySha256": "6bc77effe464065831dd2961cf8fe2a2cee690010b183860e930436ac85c242b",
+  "glbStats": {
+    "triangles": 19078,
+    "materials": 9,
+    "bytes": 1346592,
+    "selectedMeshes": 9,
+    "meshNamePrefix": "detail_little-lotus_",
+    "wholeFileTriangles": 19078,
+    "scope": "selected object meshes; bytes refer to whole shared GLB"
+  },
+  "notes": "Actual Blender export bound to hashes. Ground, collision, in-game appearance, day/night and performance remain unknown."
+}

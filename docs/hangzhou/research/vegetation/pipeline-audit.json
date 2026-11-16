@@ -1,0 +1,24 @@
+{
+  "readFiles": [
+    "scripts/build_canopy_trees.py",
+    "scripts/build_landscape_assets.py",
+    "src/city-canopy.ts",
+    "scripts/city_mesh.py"
+  ],
+  "currentInterfaces": [
+    "canopy species ID order/index tothininstance planting",
+    "full/mid/far asset names species +empty/-mid/-far",
+    "runtimegameunitpositions,heightAt,variationscale/yaw",
+    "sequential imports;shared material identities;backfaceculling;thininstanceColor buffers"
+  ],
+  "unitRisk": "originalcanopy prototypes built rawheight/crown values directly; newcandidate builds realmeters x0.60 once. Do not treat newprototype dimensions as rawmeters at runtime or multiply.60 again.",
+  "lowStreetscapeAudit": "original8m low layer has banyan/palm/orchid-tree silhouettes. Retainitsfile/hash protection, but parent should use anindependentHangzhou candidate if city-specificlowtreesare changed; nooverwrite inthissubtask.",
+  "parentWork": [
+    "registermatteauthorcolors once andexport24freshGLBs",
+    "deriveactualGLBstats andnewcanonical species/manifests indices",
+    "independentHangzhou candidate placement/no fake treecensus",
+    "source-checkedroad/water/building/cafe/landmark clearances andstem/crown radii in gameunits",
+    "realcoldboot, frame/memory, aerial/drivingcollision/camera andnight/day verification"
+  ],
+  "noSharedFilesModified": true
+}

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-14T05:47:24+00:00",
+  "stage": "evidence-ready",
+  "stageScope": "per-hall adapter and limited estimated exterior/site details; full real ground/route remains pending",
+  "files": {
+    "README.md": {
+      "sha256": "44c85541b8be728f90b84ee3143a2c51534084986be7120d1e396d379395be9f",
+      "bytes": 5875
+    },
+    "SourceHanSerif-OFL.txt": {
+      "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "bytes": 4463
+    },
+    "attempts.json": {
+      "sha256": "04a2632e97e4cb1f7454dbe43cb54defbd561eb7add0c4ffc51f84410b3f498d",
+      "bytes": 2477
+    },
+    "check_context.py": {
+      "sha256": "a5148f97afb2d9d1a97950106d2ac4dc796566f709b847829ab274d156d4e021",
+      "bytes": 4840
+    },
+    "context-check.json": {
+      "sha256": "414fe09a52482562b88e23d15147ae1a0256c556001318cd80b41e805f5395eb",
+      "bytes": 11513
+    },
+    "cpu-distant.png": {
+      "sha256": "a593ce0f5b29473f64c67d0190f0231b945d1ccd42409a3bf7879593a8b8b8ac",
+      "bytes": 21824
+    },
+    "cpu-geometry-validation.json": {
+      "sha256": "cd157666605fe176bc81b0a12bde154ddcd35e54ec3275bf9ca07b93f0ce2766",
+      "bytes": 3798
+    },
+    "cpu-grand-plaque-close.png": {
+      "sha256": "dd5e261cfabbfc3b7c645a0d0df4486a6fa6cc237328a4a7205c2d15ddfe37bf",
+      "bytes": 15515
+    },
+    "cpu-preview-manifest.json": {
+      "sha256": "f12414e12a103ecf921b3ef1d2310efcbf3186b46cef473881671d2216db2d9c",
+      "bytes": 2573
+    },
+    "cpu-street.png": {
+      "sha256": "64bebb0b94c4bda5e7bbea6f6a467763f75fa106fab8f1771871cad7887559f8",
+      "bytes": 17037
+    },
+    "cpu-top.png": {
+      "sha256": "08456981cef6e88f7f8af3b7e87a9a593e58c68c05b24e0a9836f6c1dcc75af2",
+      "bytes": 12061
+    },
+    "evidence.json": {
+      "sha256": "8e1b29632996c638befbb2375dac710c4091e8c9e4f9c0b5872931199c9b7e8d",
+      "bytes": 14319
+    },
+    "font-glyph-cpu-sheet.png": {
+      "sha256": "f87d2e45edae4bd9432654f0c9709c337156cc7bd13e93b644314381b4f6dd18",
+      "bytes": 18173
+    },
+    "freeze_delivery.py": {
+      "sha256": "cc68aa1ebae3b699897732c4146571bbd22c1056b6c3437f76073cf1b83c49ee",
+      "bytes": 3375
+    },
+    "photo-review.json": {
+      "sha256": "c043732ca830a28cf3d0c05882cad66d9f7c495a6262d18a86d3c78594c9b7a8",
+      "bytes": 5991
+    },
+    "prepare_package.py": {
+      "sha256": "213bd3f4cdc427e7199bee072e8912ab75653e759f569315a82a3a1f81dc2574",
+      "bytes": 10968
+    },
+    "preview_cpu.py": {
+      "sha256": "0ab325fca58d520e93ea94c1023137d7d6f4c2b37972a771137383506b7a1184",
+      "bytes": 3482
+    },
+    "record_research.py": {
+      "sha256": "507da372915e7daca0c5bb4e05b37ff3cdd166be57b9a4cd5173dee8eb65b54a",
+      "bytes": 12455
+    },
+    "seal_task.py": {
+      "sha256": "90a464ed5fce215c5ed5fa2bc72891a4bcb5f59e7d565a2b9f79fa1d0d8b5a2f",
+      "bytes": 3321
+    },
+    "source-claims.json": {
+      "sha256": "21ddcc29e21711da4ceb3bf8e1d3234accbb503dce9738c127d13020ea2dcfa7",
+      "bytes": 21981
+    },
+    "source-context.geojson": {
+      "sha256": "3556cbea5e885817e6c596ae0c8552f22626ef3936dcc9e84a1cb79ebfa03e54",
+      "bytes": 21288
+    },
+    "spec.json": {
+      "sha256": "22c4106a01dcccc2702f53413ac5fb67635d257a5beb90220a3d00dc6cc517dc",
+      "bytes": 131165
+    },
+    "task-bundles/lingyin-temple/evidence.json": {
+      "sha256": "8e1b29632996c638befbb2375dac710c4091e8c9e4f9c0b5872931199c9b7e8d",
+      "bytes": 14319
+    },
+    "task-bundles/lingyin-temple/job.json": {
+      "sha256": "a5cacdd08fd9fe01890b0bd34ce7bbd973fa7a6cbaf03f0ed6d78cd7620684b2",
+      "bytes": 11199
+    },
+    "task-bundles/lingyin-temple/model.json": {
+      "sha256": "3bb51d24969dfd048c9ab56ece01992e78ac18dfde4b138d760d17a057bba74c",
+      "bytes": 12362
+    },
+    "task-bundles/lingyin-temple/prompt.md": {
+      "sha256": "f48902b23d73b953006fa2edd51d218701b28b15ecb59926776fa295ff24b715",
+      "bytes": 4312
+    },
+    "task-bundles/lingyin-temple/validation.json": {
+      "sha256": "5166e89397bf12e6e8e51117cc3ca60ac689ea549e1e5e2d115d273b152d1224",
+      "bytes": 1324
+    },
+    "task-catalog.json": {
+      "sha256": "5ed5c4c2987b7e26cd8e5c2a49e8463e33412545bb745eddbaa410d23a254384",
+      "bytes": 7770
+    },
+    "validate_cpu.py": {
+      "sha256": "c334d537f9f1d32400bd204281b29211fbfb9288ee76f446c0bf2d7da3ea3a70",
+      "bytes": 9234
+    }
+  },
+  "sourceModule": "scripts/landmarks/lingyin_site.py",
+  "sourceModuleSha256": "163311ff73549392f5f8e773b85fd5d28c86bc66027544f05e15511f6157cd3c",
+  "sourceSpecSha256": "22c4106a01dcccc2702f53413ac5fb67635d257a5beb90220a3d00dc6cc517dc",
+  "preservedPriorSource": {
+    "hallModuleAndSpec": {
+      "scripts/landmarks/lingyin_temple.py": "0c215b8a4deb1a36cdcf09eae68a17deef82f24b40aa0226fae15af537052011",
+      "docs/hangzhou/research/core/lingyin-round2/spec.json": "5b614933b8ac9f2afee0f344831e389eec7d0bac23ddde1dcd221feb35b50a93"
+    },
+    "originalCoreFiles": 23,
+    "originalCoreManifestSha256": "866986711482f3681ceae5b1f3fef5e8217aff17309dc71a6db9331710afb61e"
+  },
+  "formalEightChecks": "all unknown; no worker GLB/browser/Blender/performance",
+  "actualReferencePhotosBundled": 0,
+  "license": "Derived glyph geometry from Adobe SourceHanSerif under SIL OFL1.1, local license preserved; all other source photographs/PDF references only",
+  "cpuPreviews": "4 actual-viewed original CPU drafts with visibly disclosed synthetic heights; not game screenshots",
+  "integration": "Parent must supply provenance-bound5finite gameY bases, bind new module/spec/dependency hashes, replace priorLingyin object and verify ground/path/entry."
+}
